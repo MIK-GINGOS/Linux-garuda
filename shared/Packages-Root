@@ -33,7 +33,7 @@ gcc-libs
 gettext
 glibc
 grep
-grub-wish
+grub-garuda
 gzip
 haveged
 inetutils
