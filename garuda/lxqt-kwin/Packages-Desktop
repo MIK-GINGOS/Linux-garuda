@@ -1,0 +1,230 @@
+#### EDITION BASE PACKAGES
+garuda-lxqt-kwin-settings
+#---------=> audio
+garuda-alsa
+garuda-pulse
+pavucontrol-qt
+pulseaudio-equalizer-ladspa
+paprefs
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+playerctl
+#------gst plugins
+garuda-gstreamer
+garuda-vaapi
+mesa-demos
+>multilib lib32-mesa-demos
+#---------=> network
+garuda-connman
+cmst
+qomui-git
+wds-git
+garuda-modem
+modem-manager-gui
+gpsd
+garuda-bluetooth
+bluedevil
+>extra nx-firewall-git
+>extra ufw-extras
+performance-tweaks
+#---------=> settings manager
+garuda-settings-manager
+garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
+manjaro-zsh-config
+manjaro-settings-samba
+
+##------------> printer
+garuda-printer
+print-manager
+skanlite
+#---------+> input and gesture support
+garuda-input
+>extraplasma-thunderbolt
+>extrafancontrol-gui-git
+>extracorectrl-git
+libinput_gestures_qt
+#easystroke
+>extra fcitx-qt5
+>extra fingerprint-gui
+>extra kcm-fcitx
+#---------=> edition theming and settings
+grub-theme-garuda
+plymouth-theme-garuda
+kvantum-qt5
+kvantum-theme-layan-git
+#layan-kde-git
+tela-icon-theme-git
+layan-gtk-theme-git
+gtk-engine-murrine
+wish-wallpapers
+garuda-wallpapers
+garuda-icons
+#---------=> fonts
+freetype2
+noto-fonts               # default font
+#noto-font-cjk
+#noto-fonts-emoji
+terminus-font
+>extra ttf-liberation
+
+#---------=> display manager and theme
+sddm
+sddm-kcm
+qt5-virtualkeyboard
+#sddm-theme-matcha
+#---------=> kwin window manager
+kwin-lowlatency
+kde-cli-tools
+plasma-workspace
+#kwin-decoration-sierra-breeze-enhanced-git
+#---------=> lxqt core
+lxqt-about-git
+lxqt-admin-git
+lxqt-config-git
+lxqt-globalkeys-git
+lxqt-notificationd-git
+lxqt-openssh-askpass-git
+lxqt-panel-git
+lxqt-policykit-git
+lxqt-powermanagement-git
+lxqt-qtplugin-git
+lxqt-runner-git
+lxqt-session-git
+lxqt-sudo-git
+lxqt-themes-git
+qterminal-git
+qps-git
+xsettingsd
+##------------> basic utilities
+neofetch
+inxi
+dmidecode
+htop
+powertop
+numlockx
+xautolock
+xbindkeys
+xcape
+libdvdcss
+#---------=> utilities
+perl-file-mimeinfo
+perl-net-dbus
+perl-x11-protocol
+python-xdg
+xdg-user-dirs
+xdg-utils
+grub-btrfs
+>extra timeshift
+timeshift-autosnap
+systemd-guest-user
+#---------=> file management
+lxqt-archiver-git
+pcmanfm-qt-git
+lximage-qt-git
+#------opt deps for archiver & file manager
+unrar
+unzip
+p7zip
+unace
+lrzip
+lzop
+zip
+unarchiver
+ffmpegthumbnailer
+libgsf
+android-tools
+android-udev
+gvfs-mtp
+gvfs
+gvfs-afc
+gvfs-nfs
+gvfs-smb
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
+
+#---------=> xorg
+xorg-server
+
+##------------> package manager
+#bauh
+pamac-aur-git
+>extrafwupd
+>extraflatpak
+>extrasnapd
+pamac-aur-tray-appindicator-git
+#mntray
+#---------=> applications
+speedcrunch
+#qlipper
+qbittorrent
+>extra audacious-qt5
+>extra audacious-plugins-qt5
+mpv
+>extra simplescreenrecorder
+>extra guvcview-qt
+partitionmanager
+#imagewriter
+>extra guiscrcpy-git
+>extra kdeconnect
+>extra sshfs
+>extra systemdgenie
+>extra krfb
+>extra krdc
+>extra freerdp
+>extra nitroshare
+>extra stacer
+ksmoothdock
+>extra photoflare
+#qwinff
+>extra mystiq
+>extra converseen
+>extra lector
+qvkbd
+meteo-qt-git
+>extra shortwave
+##------------> office
+qpdfview
+poppler-data
+## Text editor
+feathernotes-git
+featherpad-git
+>extra libreoffice-fresh
+>extra libmythes
+#>extra jdk-openjdk
+#>extra jre-openjdk
+
+## Internet applications
+>extra thunderbird
+>extra firefox
+>extra xdman
+>extra keepassxc
+>extra flashplugin
+>extra firefox-extension-https-everywhere 
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger 
+>extra firefox-ublock-origin 
+>extra firefox-dark-reader
+>extra firefox-extension-google-search-link-fix
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
+#>extra firefox-extension-plasma-integration
+plymouth-git
+plymouth-kcm
+#games support
+>extra athenaeum-git
+>extra python-numpy
+>extra lutris
+>extra itch
+>extra minigalaxy
+>extra steam
+>extra steam-native-runtime
+>extra linux-steam-integration
+>extra vulkan-icd-loader
+>extra lib32-vulkan-icd-loader
+>extra vulkan-tools
+
+
+

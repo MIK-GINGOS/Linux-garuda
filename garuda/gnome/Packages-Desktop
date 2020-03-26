@@ -1,0 +1,382 @@
+#-------------------------------------------------
+#### EDITION BASE PACKAGES
+garuda-gnome-settings
+mw-wallpapers
+#---------=> audio
+garuda-alsa
+garuda-pulse
+alsa-firmware
+alsa-utils
+libcanberra
+>multilib lib32-libcanberra
+libcanberra-pulse
+>multilib lib32-libcanberra-pulse
+libcanberra-gstreamer
+libldac
+fluidsynth
+>multilib lib32-fluidsynth
+playerctl
+pulseaudio-alsa
+pulseaudio-ctl
+pulseaudio-jack
+pulseaudio-zeroconf
+pavucontrol
+pulseaudio-equalizer-ladspa
+pulseaudio-modules-bt-git
+####video
+
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gst-plugins-espeak
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+
+#---------=> fonts
+freetype2
+noto-fonts
+>extra terminus-font
+>extra powerline-fonts
+>extra ttf-liberation
+>extra ttf-indic-otf
+>extra ttf-lohit-fonts
+#---------+> input and gesture support
+
+####input
+xf86-input-synaptics
+xf86-input-elographics
+xf86-input-evdev
+xf86-input-keyboard
+xf86-input-mouse
+xf86-input-void
+xf86-input-libinput
+xf86-input-mtrack
+xf86-input-wacom
+#xf86-input-joystick
+evdev-right-click-emulation
+libinput-gestures
+gesture-manager-x-git
+#---------=> xorg
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+#---------=> network
+avahi
+openssh
+openssl
+openresolv
+openvpn
+#>extra openconnect
+pptpclient
+wpa_supplicant
+#iwd
+#connman
+pacrunner
+ofono
+neard
+>extra bluez-cups
+nss-mdns
+usb_modeswitch
+#wds
+mobile-broadband-provider-info
+modem-manager-gui
+#cmst
+blueberry
+#connman-gtk-git
+networkmanager
+networkmanager-openconnect
+networkmanager-openvpn
+networkmanager-pptp
+networkmanager-vpnc
+networkmanager-strongswan
+network-manager-sstp
+firewalld
+qomui
+#---------=> settings manager
+garuda-settings-manager
+garuda-settings-manager-notifier
+manjaro-zsh-config
+>extra garuda-printer
+>extra manjaro-settings-samba
+>extra simple-scan
+#---------=> edition theming and settings
+grub-theme-garuda
+plymouth-theme-garuda
+kvantum-qt5
+qt5ct
+gtk-engine-murrine
+gtk3
+xcursor-breeze
+papirus-maia-icon-theme
+matcha-gtk-theme
+kvantum-theme-matchama
+dconf-editor
+wish-wallpapers
+#--------=> package management
+pamac-gtk
+#appimagelauncher
+bauh
+apparmor
+apparmor-profiles
+snapd
+snapd-glib
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+fwupd
+pamac-snap-plugin 
+mntray
+
+egl-wayland
+qt5-wayland
+
+
+#---------=> utilities
+>extra bolt
+>extra fprint
+#>extra fingerprint-gui
+libdvdcss
+dmidecode
+inxi
+neofetch
+htop
+mesa-demos
+perl-file-mimeinfo
+xdg-user-dirs-gtk
+xdg-utils
+xdg-su
+grub-btrfs
+timeshift-autosnap
+>extra linuxconsole
+#accountsservice
+systemd-guest-user
+numlockx
+xautolock
+xbindkeys
+#---------=> improve responsiveness 
+systemd-swap
+preload
+irqbalance
+nohang-git
+kernel-alive
+ananicy-git
+#---------=> android and file transfer management
+android-tools
+android-udev
+
+###opt-deps 
+gvfs
+gvfs-mtp
+gvfs-afc
+>extra gvfs-gphoto2
+>extra gvfs-goa
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra gvfs-google
+
+#---------=> applications
+>extra gnome-contacts
+>extra gnome-clocks
+>extra gnome-calculator
+>extra gnome-weather
+>extra gnome-maps
+>extra gnome-todo
+>extra gnome-notes
+>extra gnome-sound-recorder
+>extra gnome-power-manager
+>extra gnome-user-share
+>extra gnome-color-manager
+>extra gnome-nettool
+>extra gnome-logs
+>extra evolution
+>extra shortwave
+>extra gespeaker
+>extra colord-sane
+>extra cheese
+>extra remmina
+>extra freerdp
+>extra guiscrcpy
+>extra stacer
+>extra transmageddon
+>extra converseen
+>extra gydl-git
+>extra youtube-dl
+>extra imagewriter
+>extra obs-studio
+>extra net-tools
+>extra argyllcms
+>extra gnome-twitch
+>extra sshfs
+>extra gimp
+>extra pitivi
+>extra audacity
+>extra gcolor3
+#-----------=>games
+>extra aisleriot
+>extra gnuchess
+>extra quadrapassel
+>extra gnome-chess
+>extra gnome-mahjongg
+>extra gnome-klotski
+>extra gnome-mines
+>extra gnome-nibbles
+>extra minetest
+>extra minetest-server
+>extra teeworlds
+
+gedit
+nautilus
+file-roller
+eog
+evince
+gnome-terminal-fedora
+lollypop
+>basic celluloid
+>basic epiphany
+qbittorrent
+#fragments
+gnome-disk-utility
+unrar
+unace
+p7zip
+poppler-data
+>extra totem
+>extra firefox
+>extra xdman
+>extra flashplugin
+>extra firefox-extension-https-everywhere 
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger 
+>extra firefox-ublock-origin 
+>extra firefox-dark-reader
+>extra firefox-extension-google-search-link-fix
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
+>extra nautilus-bluetooth
+>extra nautilus-empty-file
+>extra nautilus-image-converter
+>extra nautilus-sendto
+>extra nautilus-share
+>extra nautilus-admin
+>extra eog-plugins
+>extra grilo-plugins
+>extra gedit-plugins
+>extra sushi
+>extra seahorse-nautilus
+>extra gtkhash-nautilus
+>extra ffmpegthumbnailer
+>extra telegram-desktop
+#---------->>virtualization
+>extra virtualbox
+>extra virtualbox-ext-vnc
+>extra virtualbox-guest-iso
+>extra virtualbox-sdk
+>extra KERNEL-virtualbox-host-modules
+>extra tigervnc
+
+#-------=>gnome de
+>extra plymouth-git
+gdm
+garuda-gdm-theme
+garuda-gdm-tweak 
+pulseaudio-bluetooth-a2dp-gdm-fix
+>extra gtksourceview-pkgbuild #highlight for PKGBUILD
+gnome-control-center
+gnome-desktop
+gpaste
+>extra gnome-keyring
+>extra fprintd #need for finger id reader
+>extra gnome-online-accounts
+>extra gnome-screenshot
+gnome-session
+gnome-settings-daemon
+gnome-shell-performance
+mutter-performance
+>extra gnome-shell-extensions
+>extra gnome-system-monitor
+>extra gnome-themes-standard
+>extra gnome-themes-extra
+gnome-tweak-tool
+>extra gnome-calendar
+>extra seahorse
+>extra caffeine-ng
+>extra libappindicator-gtk3
+>extra gnome-shell-extension-gsconnect
+>extra gnome-shell-extension-appindicator 
+>extra gnome-shell-extension-arc-menu-git
+#>extra gnome-shell-extension-cpufreq-git
+>extra gnome-shell-extension-dash-to-dock
+>extra gnome-shell-extension-netspeed-git
+>extra gnome-shell-extension-refresh-wifi-git
+>extra gnome-shell-extension-sound-output-device-chooser 
+>extra gnome-shell-extension-unite
+>extra gnome-shell-extension-gamemode-git
+>extra vino
+>extra rygel
+>extra mousetweaks
+gnome-layout-switcher
+variety
+discord
+mumble
+murmur
+####games
+## Games
+steam-garuda
+lutris
+gamemode
+lib32-gamemode
+gamehub
+itch
+libretro
+rpcs3
+execute-git
+antimicro
+>extra nitroshare
+>extra moonlight-qt
+openh264
+sox
+ocl-icd
+lib32-v4l-utils
+lib32-ocl-icd
+lib32-libxslt
+lib32-vkd3d
+lib32-vulkan-validation-layers
+vkd3d
+lib32-gst-plugins-base-libs
+dosbox
+steam-native
+linux-steam-integration
+wine-staging
+wine_gecko 
+wine-mono 
+wine-nine
+winetricks
+exe-thumbnailer
+linuxconsole
+fuseiso
+#>extra emulationstation
+xboxdrv
+xpadneo-dkms-git
+xbox-generic-controller
+koku-xinput-wine
+amdvlk
+lib32-amdvlk
+vulkan-tools
+wine-installer
+corectrl
+fancontrol-gui-git
+gwe
+piper
+ppsspp
+pcsxr
+pcsx2-git
+yuzu-mainline-git

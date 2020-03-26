@@ -1,0 +1,70 @@
+## Normal MHWD package list
+
+
+broadcom-wl-dkms
+#zfs-dkms
+#zfs-utils
+KERNEL-headers
+
+
+>nonfree_x86_64 nvidia-prime
+>nonfree_x86_64 nvidia-settings
+>nonfree_x86_64 nvidia-dkms
+>nonfree_x86_64 nvidia-utils
+>nonfree_x86_64 opencl-nvidia
+>nonfree_multilib lib32-nvidia-utils
+>nonfree_multilib lib32-opencl-nvidia
+
+
+opencl-mesa
+mesa-vdpau
+vulkan-radeon
+vulkan-intel
+>multilib lib32-opencl-mesa
+>multilib lib32-vulkan-radeon
+>multilib lib32-vulkan-intel
+>multilib lib32-mesa-vdpau
+
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-vdpau-driver
+
+
+pangox-compat
+libxaw
+libxpm
+libxvmc
+>multilib lib32-libxvmc
+
+open-vm-tools
+spice-vdagent
+gtkmm3
+virtualbox-guest-utils
+virtualbox-guest-dkms
+
+xf86-video-vmware
+xf86-input-vmmouse
+xf86-video-qxl
+
+
+xf86-video-amdgpu
+xf86-video-ati
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-vesa
+xf86-video-dummy
+xf86-video-fbdev
+xf86-video-openchrome
+xf86-video-sisusb
+xf86-video-voodoo
+
+
+
+
+
+
+
+

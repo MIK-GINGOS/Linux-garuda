@@ -1,0 +1,247 @@
+#-------------------------------------------------
+#### EDITION BASE PACKAGES
+wayfire-default-settings
+#---------=> audio
+alsa-firmware
+alsa-utils
+alsa-lib
+>multilib lib32-alsa-lib
+>multilib lib32-alsa-plugins
+>multilib lib32-libpulse
+libcanberra
+>multilib lib32-libcanberra
+libcanberra-pulse
+>multilib lib32-libcanberra-pulse
+libcanberra-gstreamer
+libldac
+fluidsynth
+>multilib lib32-fluidsynth
+playerctl
+pulseaudio-alsa
+pulseaudio-ctl
+pulseaudio-jack
+pulseaudio-zeroconf
+pavucontrol
+pulseaudio-equalizer-ladspa
+pulseaudio-modules-bt-git
+####video
+
+ffmpeg
+gst-libav
+gst-plugins-bad
+gst-plugins-base
+gst-plugins-good
+gst-plugins-ugly
+gst-plugins-espeak
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva-mesa-driver
+>multilib lib32-libva-vdpau-driver
+libva-intel-driver
+libva-mesa-driver
+libva-vdpau-driver
+mesa-demos
+>multilib lib32-mesa-demos
+
+#---------=> fonts
+freetype2
+noto-fonts
+>extra terminus-font
+>extra powerline-fonts
+>extra ttf-liberation
+>extra ttf-indic-otf
+>extra ttf-lohit-fonts
+#---------+> input and gesture support
+
+####input
+evdev-right-click-emulation
+libinput-gestures
+gesture-manager-x-git
+#---------=> xorg
+xorg-server-xwayland 
+xorg-xhost
+
+#---------=> network
+avahi
+openssh
+openssl
+openresolv
+openvpn
+openconnect
+pptpclient
+wpa_supplicant
+#connman
+pacrunner
+ofono
+nss-mdns
+usb_modeswitch
+wds
+mobile-broadband-provider-info
+modem-manager-gui
+#cmst
+blueberry
+connman-gtk-git
+ebtables
+net-tools
+qomui  # openvpn gui with firewall
+#firewalld  #requires networkmanager
+#---------=> settings manager
+manjaro-settings-manager
+#manjaro-settings-manager-notifier
+manjaro-zsh-config
+manjaro-hotfixes
+manjaro-base-skel
+#mntray
+#---------=> edition theming and settings
+grub-theme-manjaro
+kvantum-qt5
+qt5ct
+gtk-engine-murrine
+gtk3
+xcursor-breeze
+papirus-maia-icon-theme
+matcha-gtk-theme
+kvantum-theme-matchama
+dconf-editor
+#--------=> package management
+pamac-gtk
+#pamac-snap-plugin 
+#---------=> display manager and theme
+sddm
+sddm-theme-matcha
+qt5-virtualkeyboard
+#---------=> WayfireWM
+wayfire-git
+wf-config-git
+wlroots-git
+wayfire-plugins-extra-git
+wcm-git
+wf-recorder-git
+wf-osk-git
+wf-shell-git
+gtk-layer-shell-git
+
+#-----------=> wayland support
+clipman
+wofi-hg
+bemenu-dmenu
+wl-clipboard-x11
+grim
+slurp
+mako
+swaylock
+polkit-gnome
+wdisplays-git
+kanshi
+brightnessctl
+redshift-wlr-gamma-control-git
+egl-wayland
+qt5-wayland
+ydotool-git
+
+#---------=> utilities
+libdvdcss
+dmidecode
+inxi
+neofetch
+htop
+mesa-demos
+perl-file-mimeinfo
+xdg-user-dirs-gtk
+xdg-utils
+xdg-su
+grub-btrfs
+timeshift-autosnap
+systemd-guest-user
+gnome-keyring
+#---------=> improve responsiveness 
+systemd-swap
+preload
+irqbalance
+nohang-git
+ananicy-git
+kernel-alive
+#---------=> android and file transfer management
+android-tools
+android-udev
+###opt-deps 
+gvfs
+gvfs-mtp
+gvfs-afc
+gvfs-gphoto2
+>extra gvfs-goa
+>extra gvfs-google
+>extra gvfs-nfs
+>extra gvfs-smb
+#---------=> applications
+plymouth-git
+>basic epiphany
+gedit
+nautilus
+file-roller
+eog
+evince
+gnome-terminal-fedora
+lollypop
+totem
+qbittorrent
+unrar
+unace
+p7zip
+poppler-data
+nautilus-admin
+nautilus-empty-file
+sushi
+ffmpegthumbnailer
+gnome-disk-utility
+gnome-calculator
+gnome-sound-recorder
+gnome-logs
+shortwave
+cheese
+stacer
+imagewriter
+guiscrcpy
+gydl-git
+youtube-dl
+flashplugin
+#filemanager-actions
+>extra nautilus-bluetooth
+>extra nautilus-image-converter
+>extra nautilus-sendto
+>extra nautilus-share
+>extra eog-plugins
+>extra gedit-plugins
+>extra grilo-plugins
+>extra meld
+>extra remmina
+>extra freerdp
+>extra lanshare
+>extra gnome-notes
+>extra gnome-todo
+>extra gnome-clocks
+>extra gnome-weather
+>extra gnome-maps
+>extra seahorse-nautilus
+>extra gtkhash-nautilus
+>extra obs-studio
+>extra wlrobs-hg
+>extra xdman
+>extra keepassxc
+>extra gespeaker
+>extra firefox
+>extra firefox-extension-https-everywhere 
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger 
+>extra firefox-ublock-origin 
+>extra firefox-dark-reader
+>extra firefox-extension-google-search-link-fix
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
+>extra libreoffice-fresh
+>extra libmythes
+>extra evolution
+>extra manjaro-settings-samba
+>extra manjaro-printer
+>extra simple-scan
+>extra bluez-cups
+>extra gufw
