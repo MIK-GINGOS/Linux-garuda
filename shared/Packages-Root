@@ -56,8 +56,8 @@ man-db
 man-pages
 mdadm
 memtest86+
-mhwd-wish
-mhwd-db-wish
+mhwd-garuda
+mhwd-db-garuda
 mkinitcpio-openswap
 nano
 nfs-utils
