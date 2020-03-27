@@ -30,7 +30,7 @@ garuda-bluetooth
 >extra garuda-modem
 >extra modem-manager-gui
 >extra firewalld
->extra qomui
+>extra qomui-git
 >extra gpsd
 
 ## Libraries for Sound/Audio/Video

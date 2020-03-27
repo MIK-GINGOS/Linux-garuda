@@ -18,14 +18,14 @@ mesa-demos
 #---------=> network
 garuda-connman
 cmst
-qomui-git
+>extra qomui-git
 >extra wds-git
 >extra garuda-modem
 >extra modem-manager-gui
 >extra gpsd
 garuda-bluetooth
 bluedevil
-nx-firewall-git
+>extra nx-firewall-git
 >extra ufw-extras
 performance-tweaks
 #---------=> settings manager
