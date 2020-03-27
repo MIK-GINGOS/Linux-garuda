@@ -28,32 +28,8 @@ ttf-opensans
 ## Network
 garuda-network
 garuda-bluetooth
-avahi
-openssh
-openssl
-openresolv
-openvpn
->extra openconnect
-pptpclient
-wpa_supplicant
-#pacrunner
-#ofono
-#neard
-#connman
-#iwd
-#wds
->extra bluez-cups
-nss-mdns # NSS support for mDNS (optdepend for avahi)
-usb_modeswitch
-mobile-broadband-provider-info
+garuda-modem
 modem-manager-gui
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-networkmanager-strongswan
-network-manager-sstp
-rp-pppoe
 firewalld
 qomui
 iio-sensor-proxy # for autorotate
@@ -64,21 +40,8 @@ gpsd
 #---------=> audio
 garuda-alsa
 garuda-pulse
-alsa-firmware
-alsa-utils
-libcanberra
->multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
-libcanberra-gstreamer
 libldac
-fluidsynth
->multilib lib32-fluidsynth
 playerctl
-pulseaudio-alsa
-pulseaudio-ctl
-pulseaudio-jack
-pulseaudio-zeroconf
 pavucontrol-qt
 paprefs
 pulseaudio-equalizer-ladspa
@@ -88,35 +51,22 @@ phonon-qt5-gstreamer
 #### video
 garuda-vaapi
 garuda-gstreamer
-ffmpeg
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gst-plugins-espeak
->multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
-libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
 mesa-demos
 >multilib lib32-mesa-demos
 
 #--------=> package management
 pamac-aur-git
 pamac-aur-tray-appindicator-git
-appimagelauncher
+>extra appimagelauncher
 #bauh
 #apparmor
 #apparmor-profiles
 #snapd
 #snapd-glib
-#fwupd
+>extra fwupd
 #pamac-snap-plugin 
 #pamac-flatpak-plugin
-#mntray
+kaalu-kde
 ## Flatpak support
 >extra flatpak
 >extra xdg-desktop-portal
@@ -128,8 +78,7 @@ garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 manjaro-zsh-config
 manjaro-settings-samba
-#garuda-base-skel
->extra garuda-printer
+garuda-printer
 
 ## Display manager
 sddm
@@ -145,6 +94,25 @@ kde-gtk-config
 quota-tools
 plasma-wayland-session
 qt5-wayland
+
+## extra kde stuff
+#kde-servicemenus-rootactions
+#kde-servicemenus-pkg-tools
+#kde-services
+plasma5-applets-audio-device-switcher
+plasma5-applets-netspeed
+plasma5-applets-plasma-pstate
+plasma5-applets-eventcalendar
+kwin-effects-yet-another-magic-lamp
+kwin-decoration-sierra-breeze-enhanced-git
+samba-mounter-git
+fancontrol-kcm-git
+kcm-wacomtablet 
+kcm-fcitx
+colord-kde
+#>extra systemd-kcm
+kdenetwork-filesharing
+kim4
 
 ## kde apps
 ark
@@ -172,8 +140,6 @@ kio-gdrive
 kio-fuse
 audiocd-kio
 kdf
-krdc
-krfb
 kcron
 ksystemlog
 kwalletmanager
@@ -182,88 +148,70 @@ partitionmanager
 kup
 bup
 smb4k
-kmouth
-kmousetool
-kmag
-krename
-kompare
-kimtoy
-kleopatra
 print-manager
 skanlite
-kid3
-krita
-kdenlive
-kwave
-kaudiocreator
-k3b
-subtitlecomposer
-soundkonverter
-qwinff
-converseen
-#kmix
-#tellico
-#digikam
-#kphotoalbum
-#marble
-#skrooge
-#lmms
-#smplayer
-#smplayer-skins
-#smplayer-themes
-#smtube
-youtube-dl
-qytdl
-qbittorrent
-latte-dock
-flameshot
-isoimagewriter
-obs-studio
-pdfmixtool
-pavucontrol-qt
-guiscrcpy
-usbaudio-git
-nitroshare
-stacer
-#popcorntime-git
-#qownnotes
-#kodi 
-#kodi-platform 
-#kodi-eventclients 
-mediaelch
+>extra krdc
+>extra krfb
+>extra kmouth
+>extra kmousetool
+>extra kmag
+>extra krename
+>extra kompare
+>extra kimtoy
+>extra kleopatra
+>extra kid3
+>extra krita
+>extra kdenlive
+>extra kwave
+>extra kaudiocreator
+>extra k3b
+>extra subtitlecomposer
+>extra soundkonverter
+>extra qwinff
+>extra converseen
+#>extra kmix
+#>extra tellico
+#>extra digikam
+#>extra kphotoalbum
+#>extra marble
+#>extra skrooge
+
+
+
+
 ## Optional dependencies for ark
-p7zip  # 7Z format support
-unarchiver  # RAR format support
-unrar
-unzip
-lrzip
-lzop
+>extra p7zip  # 7Z format support
+>extra unarchiver  # RAR format support
+>extra unrar
+>extra unzip
+>extra lrzip
+>extra lzop
 
 ## Optional dependencies for dolphin
-kdegraphics-thumbnailers  # PDF and PS thumbnails
-ffmpegthumbs              # video thumbnails
-ruby                      # installing new service menus with GHNS
+>extra kdegraphics-thumbnailers  # PDF and PS thumbnails
+>extra ffmpegthumbs              # video thumbnails
+>extra ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
-kimageformats     # support for dds, xcf, exr, psd, and more image formats
-qt5-imageformats  # support for tiff, webp, and more image formats
-kipi-plugins
-kamera
+>extra kimageformats     # support for dds, xcf, exr, psd, and more image formats
+>extra qt5-imageformats  # support for tiff, webp, and more image formats
+>extra kipi-plugins
+>extra kamera
 
 ## Optional dependencies for okular
-poppler-data  # encoding data to display PDF documents containing CJK characters
-kdegraphics-mobipocket
-ebook-tools
+>extra poppler-data  # encoding data to display PDF documents containing CJK characters
+>extra kdegraphics-mobipocket
+>extra ebook-tools
 
 ## Optional dependencies for print-manager
 >extra system-config-printer  # auto-detect the printer driver
 >extra python-pysmbc          # SMB browser support
 
 ## Optional dependencies for kaccounts-integration
-kaccounts-providers
+>extra kaccounts-providers
 
 ## Optional dependencies for kdeconnect
-sshfs  # remote filesystem browser
+>extra sshfs  # remote filesystem browser
 
 ## Optional dependencies for k3b
 >extra cdparanoia    # for cd ripping support
@@ -287,49 +235,62 @@ sshfs  # remote filesystem browser
 >extra frei0r-plugins
 
 ## Optional dependencies for plasma-vault
-encfs
-cryfs
+>extra encfs
+>extra cryfs
 
 ## Optional dependencies for krita
-krita-plugin-gmic
-opencolorio
+>extra krita-plugin-gmic
+>extra opencolorio
 
 ## Optional dependency for digikam
 #>extra kipi-plugins  # export to various online services
 #>extra hugin         # panorama tool
 
-## extra kde stuff
-#kde-servicemenus-rootactions
-#kde-servicemenus-pkg-tools
-#kde-services
-plasma5-applets-audio-device-switcher
-plasma5-applets-netspeed
-plasma5-applets-plasma-pstate
-plasma5-applets-eventcalendar
-kwin-effects-yet-another-magic-lamp
-kwin-decoration-sierra-breeze-enhanced-git
-samba-mounter-git
-fancontrol-kcm-git
-kcm-wacomtablet 
-kcm-fcitx
-colord-kde
-systemd-kcm
-kdenetwork-filesharing
-kim4
+
 plymouth-git
 plymouth-kcm
-argyllcms
-colord-sane
-orca
-#variety
-shortwave
-telegram-desktop
-discord
-mumble
-murmur
+
+qbittorrent
+latte-dock-git
+flameshot
+isoimagewriter
+
+>extra argyllcms
+>extra colord-sane
+>extra orca
+>extra flite
+>extra festival
+
+#>extra popcorntime-git
+#>extra qownnotes
+#>extra kodi 
+#>extra kodi-platform 
+#>extra kodi-eventclients 
+#>extra lmms
+#>extra smplayer
+#>extra smplayer-skins
+#>extra smplayer-themes
+#>extra smtube
+
+>extra mediaelch
+>extra youtube-dl
+>extra qytdl
+>extra obs-studio
+>extra pdfmixtool
+>extra guiscrcpy
+>extra usbaudio-git
+>extra nitroshare
+>extra stacer
+#>extra variety
+>extra shortwave
+>extra telegram-desktop
+>extra discord
+>extra mumble
+>extra murmur
 >extra libreoffice-fresh
 >extra libmythes
 >extra thunderbird
+>basic falkon
 >extra firefox
 >extra xdman
 >extra keepassxc
@@ -343,22 +304,16 @@ murmur
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-keepassxc-browser
 >extra firefox-extension-plasma-integration
-
+>extra qwikaccess-git # my own app
 #---------+> input and gesture support
 ####input
 garuda-input
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-void
-xf86-input-libinput
-xf86-input-wacom
 evdev-right-click-emulation
-libinput-gestures
 libinput_gestures_qt
-easystroke
+>extra easystroke
 #xf86-input-mtrack
 #xf86-input-synaptics
-
+#>extra fingerprint-gui
 
 #---------=> xorg
 xorg-server-xwayland 
@@ -376,24 +331,18 @@ xautolock
 xdg-user-dirs
 
 #---------=> utilities
->extra bolt
->extra fprint
-#>extra fingerprint-gui
 libdvdcss
 dmidecode
 inxi
 neofetch
 htop
 grub-btrfs
->extra timeshift
+timeshift
 timeshift-autosnap
->extra linuxconsole
 systemd-guest-user
 busybox
 hidapi
-flite
-festival
-qwikaccess-git # my own app
+
 
 #---------=> android and file transfer management
 android-tools
@@ -417,109 +366,109 @@ performance-tweaks
 >extra virtualbox-guest-iso
 >extra virtualbox-sdk
 #>extra KERNEL-virtualbox-host-modules
-virtualbox-host-dkms
+>extra virtualbox-host-dkms
 >extra tigervnc
 >extra vde2
 
 
 ####amd vulkan
-amdvlk
-lib32-amdvlk
-vulkan-tools
+>extra amdvlk
+>extra lib32-amdvlk
+>extra vulkan-tools
 
 
 
 ####wine additions
-lutris-wine-meta
-wine-staging
-wine-gecko 
-wine-mono 
-wine-nine
-wine-installer-git
-winetricks-git
-wineasio-git
-q4wine
-execute-git
-exe-thumbnailer
-fuseiso
-openh264
-ocl-icd
-vkd3d
-faudio
-vulkan-icd-loader
-vulkan-validation-layers
-lib32-vulkan-icd-loader
-lib32-vulkan-validation-layers
-lib32-v4l-utils
-lib32-ocl-icd
-lib32-libxslt
-lib32-vkd3d
-lib32-faudio
-lib32-gst-plugins-base-libs
-dxvk-mingw-git
-dosbox
+>extra lutris-wine-meta
+>extra wine-staging
+>extra wine-gecko 
+>extra wine-mono 
+>extra wine-nine
+>extra wine-installer-git
+>extra winetricks-git
+>extra wineasio-git
+>extra q4wine
+>extra execute-git
+>extra exe-thumbnailer
+>extra fuseiso
+>extra openh264
+>extra ocl-icd
+>extra vkd3d
+>extra faudio
+>extra vulkan-icd-loader
+>extra vulkan-validation-layers
+>extra lib32-vulkan-icd-loader
+>extra lib32-vulkan-validation-layers
+>extra lib32-v4l-utils
+>extra lib32-ocl-icd
+>extra lib32-libxslt
+>extra lib32-vkd3d
+>extra lib32-faudio
+>extra lib32-gst-plugins-base-libs
+>extra dxvk-mingw-git
+>extra dosbox
 
 ####gaming tools
-corectrl
-fancontrol-gui-git
-gwe
-piper
-goverlay-git
-mangohud-git
-lib32-mangohud-git
-gamemode
-lib32-gamemode
+>extra corectrl
+>extra fancontrol-gui-git
+>extra gwe
+>extra piper
+>extra goverlay-git
+>extra mangohud-git
+>extra lib32-mangohud-git
+>extra gamemode
+>extra lib32-gamemode
 
 
 
 ## Game launchers 
 
-steam
-steam-native-runtime
-linux-steam-integration
-lutris
-gamehub
-itch
-gamerworld
-minigalaxy
-ialauncher-git
-athenaeum-git
-python-numpy
+>extra steam
+>extra steam-native-runtime
+>extra linux-steam-integration
+>extra lutris
+>extra gamehub
+>extra itch
+>extra gamerworld
+>extra minigalaxy
+>extra ialauncher-git
+>extra athenaeum-git
+>extra python-numpy
 >extra moonlight-qt
-pegasus-frontend-git
+>extra pegasus-frontend-git
 
 
 
 #### controller 
 
 antimicrox
-linuxconsole
-xboxdrv
-xpadneo-dkms-git
-steamos-xpad-dkms
-xow-git
-xbox-generic-controller
-koku-xinput-wine
+>extra linuxconsole
+>extra xboxdrv
+>extra xpadneo-dkms-git
+>extra steamos-xpad-dkms
+>extra xow-git
+>extra xbox-generic-controller
+>extra koku-xinput-wine
 
 #### games emulators
 >extra emulationstation
-libretro
-ppsspp
-pcsxr
-pcsx2-git
-rpcs3-git
-yuzu-mainline-git
+>extra libretro
+>extra ppsspp
+>extra pcsxr
+>extra pcsx2-git
+>extra rpcs3-git
+>extra yuzu-mainline-git
 
 
 
 ######### GAMES
-aisleriot
-kdegames-meta 
-gnuchess   
-mari0
-minetest
-minetest-server
-teeworlds
+>extra aisleriot
+>extra kdegames-meta 
+>extra gnuchess   
+>extra mari0
+>extra minetest
+>extra minetest-server
+>extra teeworlds
 #megaglest
 #xonotic
 #supertuxkart

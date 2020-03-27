@@ -108,6 +108,8 @@ xautolock
 xbindkeys
 xcape
 libdvdcss
+conky-lua-nv
+micro-git
 #---------=> utilities
 perl-file-mimeinfo
 perl-net-dbus
@@ -166,7 +168,7 @@ mpv
 >extra simplescreenrecorder
 >extra guvcview-qt
 partitionmanager
-#imagewriter
+imagewriter
 >extra guiscrcpy-git
 >extra kdeconnect
 >extra sshfs
