@@ -48,7 +48,7 @@ libinput_gestures_qt
 fcitx-qt5
 >extra fingerprint-gui
 kcm-fcitx
->extra kcm-wacomtablet
+#>extra kcm-wacomtablet
 #---------=> edition theming and settings
 grub-theme-garuda
 plymouth-theme-garuda
@@ -75,7 +75,6 @@ terminus-font
 sddm
 sddm-kcm
 qt5-virtualkeyboard
-#sddm-theme-matcha
 #---------=> kwin window manager
 kwin-lowlatency
 kde-cli-tools
@@ -156,28 +155,29 @@ xorg-server
 
 ##------------> package manager
 >extra appimagelauncher
-#>extra bauh
+>extra bauh
+>extra apparmor
 >extra fwupd
-#>extra flatpak
-#apparmor
-#>extra xdg-desktop-portal
-#>extra xdg-desktop-portal-kde
-#>extra snapd
+>extra snapd
+>extra flatpak
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde
+
 pamac-aur-git
 pamac-aur-tray-appindicator-git
 kalu-kde
 #---------=> applications
 speedcrunch
-#qlipper
 qbittorrent
+mpv
+ksmoothdock
+partitionmanager
+imagewriter
 audacious-qt5
 >extra audacious-plugins-qt5
-mpv
 >basic falkon
 >extra simplescreenrecorder
 >extra guvcview-qt
-partitionmanager
-imagewriter
 >extra guiscrcpy-git
 >extra kdeconnect
 >extra sshfs
@@ -187,9 +187,7 @@ imagewriter
 >extra freerdp
 >extra nitroshare
 >extra stacer
-ksmoothdock
 >extra photoflare
-#qwinff
 >extra youtube-dl
 >extra qytdl
 >extra mystiq
