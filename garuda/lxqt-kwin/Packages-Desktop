@@ -11,7 +11,7 @@ libldac
 pulseaudio-ctl
 playerctl
 #------gst plugins
-garuda-gstreamer
+>extra garuda-gstreamer
 garuda-vaapi
 mesa-demos
 >multilib lib32-mesa-demos
@@ -19,10 +19,10 @@ mesa-demos
 garuda-connman
 cmst
 qomui-git
-wds-git
-garuda-modem
-modem-manager-gui
-gpsd
+>extra wds-git
+>extra garuda-modem
+>extra modem-manager-gui
+>extra gpsd
 garuda-bluetooth
 bluedevil
 nx-firewall-git
@@ -36,10 +36,10 @@ manjaro-zsh-config
 manjaro-settings-samba
 
 ##------------> printer
-garuda-printer
-print-manager
-skanlite
-system-config-printer
+>extra garuda-printer
+>extra print-manager
+>extra skanlite
+>extra system-config-printer
 #---------+> input and gesture support
 garuda-input
 >extra plasma-thunderbolt
