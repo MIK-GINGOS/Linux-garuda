@@ -349,7 +349,7 @@ android-tools
 android-udev
 
 #---------=> improve responsiveness 
-kernel-alive
+#kernel-alive
 systemd-swap
 cpupower
 haveged
