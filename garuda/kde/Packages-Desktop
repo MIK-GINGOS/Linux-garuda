@@ -7,19 +7,15 @@ kvantum-qt5
 >extra oxygen
 #>extra oxygen-icons
 breeze
-breeze-gtk
+>extra breeze-gtk
 grub-theme-garuda
 plymouth-theme-garuda
-zsh-autosuggestions
-zsh-syntax-highlighting
-zsh-completions
-zsh-history-substring-search
 ## Fonts
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
 terminus-font
-ttf-opensans
+>extra ttf-opensans
 >extra powerline-fonts
 >extra ttf-liberation
 >extra ttf-indic-otf
@@ -45,7 +41,6 @@ pavucontrol-qt
 paprefs
 pulseaudio-equalizer-ladspa
 pulseaudio-modules-bt-git
-phonon-qt5-gstreamer
 
 #### video
 garuda-vaapi
@@ -56,15 +51,13 @@ mesa-demos
 #--------=> package management
 pamac-aur-git
 pamac-aur-tray-appindicator-git
->extra appimagelauncher
-#bauh
-#apparmor
-#apparmor-profiles
-#snapd
-#snapd-glib
+#>extra appimagelauncher
+#>extra bauh
+#>extra apparmor
+#>extra snapd
 >extra fwupd
-#pamac-snap-plugin 
-#pamac-flatpak-plugin
+#>extra pamac-snap-plugin 
+#>extra pamac-flatpak-plugin
 kalu-kde
 ## Flatpak support
 >extra flatpak
@@ -204,7 +197,6 @@ kamera
 
 ## Optional dependencies for print-manager
 system-config-printer  # auto-detect the printer driver
-python-pysmbc          # SMB browser support
 
 ## Optional dependencies for kaccounts-integration
 >extra kaccounts-providers
@@ -234,7 +226,7 @@ sshfs  # remote filesystem browser
 >extra frei0r-plugins
 
 ## Optional dependencies for plasma-vault
->extra encfs
+encfs
 >extra cryfs
 
 ## Optional dependencies for krita
@@ -281,7 +273,7 @@ isoimagewriter
 >extra nitroshare
 >extra stacer
 #>extra variety
->extra shortwave
+>extra shortwave-git
 >extra telegram-desktop
 >extra discord
 >extra mumble
@@ -325,13 +317,17 @@ xorg-xrandr
 
 ## Desktop Utils
 perl-file-mimeinfo
+>extra perl-net-dbus
+>extra perl-x11-protocol
 xdg-utils
 numlockx
 xautolock
 xdg-user-dirs
-
+xbindkeys
+xcape
 #---------=> utilities
 libdvdcss
+powertop
 dmidecode
 inxi
 neofetch
@@ -342,8 +338,8 @@ timeshift-autosnap
 systemd-guest-user
 busybox
 hidapi
-
-
+conky-lua-nv
+micro-git
 #---------=> android and file transfer management
 android-tools
 android-udev

@@ -25,7 +25,7 @@ modem-manager-gui
 gpsd
 garuda-bluetooth
 bluedevil
->extra nx-firewall-git
+nx-firewall-git
 >extra ufw-extras
 performance-tweaks
 #---------=> settings manager
@@ -39,16 +39,16 @@ manjaro-settings-samba
 garuda-printer
 print-manager
 skanlite
+system-config-printer
 #---------+> input and gesture support
 garuda-input
->extraplasma-thunderbolt
->extrafancontrol-gui-git
->extracorectrl-git
+>extra plasma-thunderbolt
 libinput_gestures_qt
-#easystroke
->extra fcitx-qt5
+>extra easystroke
+fcitx-qt5
 >extra fingerprint-gui
->extra kcm-fcitx
+kcm-fcitx
+>extra kcm-wacomtablet
 #---------=> edition theming and settings
 grub-theme-garuda
 plymouth-theme-garuda
@@ -64,10 +64,12 @@ garuda-icons
 #---------=> fonts
 freetype2
 noto-fonts               # default font
-#noto-font-cjk
-#noto-fonts-emoji
+>extra noto-font-cjk
+>extra noto-fonts-emoji
 terminus-font
+>extra powerline-fonts
 >extra ttf-liberation
+>extra ttf-indic-otf
 
 #---------=> display manager and theme
 sddm
@@ -108,17 +110,19 @@ xautolock
 xbindkeys
 xcape
 libdvdcss
+busybox
+hidapi
 conky-lua-nv
 micro-git
 #---------=> utilities
 perl-file-mimeinfo
-perl-net-dbus
-perl-x11-protocol
-python-xdg
+>extra perl-net-dbus
+>extra perl-x11-protocol
+>extra python-xdg
 xdg-user-dirs
 xdg-utils
 grub-btrfs
->extra timeshift
+timeshift
 timeshift-autosnap
 systemd-guest-user
 #---------=> file management
@@ -151,20 +155,25 @@ gvfs-goa
 xorg-server
 
 ##------------> package manager
-#bauh
+>extra appimagelauncher
+#>extra bauh
+>extra fwupd
+#>extra flatpak
+#apparmor
+#>extra xdg-desktop-portal
+#>extra xdg-desktop-portal-kde
+#>extra snapd
 pamac-aur-git
->extrafwupd
->extraflatpak
->extrasnapd
 pamac-aur-tray-appindicator-git
-#mntray
+kalu-kde
 #---------=> applications
 speedcrunch
 #qlipper
 qbittorrent
->extra audacious-qt5
+audacious-qt5
 >extra audacious-plugins-qt5
 mpv
+>basic falkon
 >extra simplescreenrecorder
 >extra guvcview-qt
 partitionmanager
@@ -181,15 +190,18 @@ imagewriter
 ksmoothdock
 >extra photoflare
 #qwinff
+>extra youtube-dl
+>extra qytdl
 >extra mystiq
 >extra converseen
 >extra lector
-qvkbd
-meteo-qt-git
->extra shortwave
+>extra qvkbd
+>extra meteo-qt-git
+>extra shortwave-git
+>extra redshift-qt
 ##------------> office
 qpdfview
-poppler-data
+>extra poppler-data
 ## Text editor
 feathernotes-git
 featherpad-git
@@ -215,18 +227,54 @@ featherpad-git
 #>extra firefox-extension-plasma-integration
 plymouth-git
 plymouth-kcm
-#games support
->extra athenaeum-git
->extra python-numpy
->extra lutris
->extra itch
->extra minigalaxy
->extra steam
->extra steam-native-runtime
->extra linux-steam-integration
->extra vulkan-icd-loader
->extra lib32-vulkan-icd-loader
->extra vulkan-tools
 
+####gaming tools
+#>extra corectrl
+#>extra fancontrol-gui-git
+#>extra gwe
+#>extra piper
+#>extra goverlay-git
+#>extra mangohud-git
+#>extra lib32-mangohud-git
+#>extra gamemode
+#>extra lib32-gamemode
+
+
+## Game launchers 
+
+#>extra steam
+#>extra steam-native-runtime
+#>extra linux-steam-integration
+#>extra lutris
+#>extra gamehub
+#>extra itch
+#>extra gamerworld
+#>extra minigalaxy
+#>extra ialauncher-git
+#>extra athenaeum-git
+#>extra python-numpy
+#>extra moonlight-qt
+#>extra pegasus-frontend-git
+
+
+#### controller 
+
+#>extra antimicrox
+#>extra linuxconsole
+#>extra xboxdrv
+#>extra xpadneo-dkms-git
+#>extra steamos-xpad-dkms
+#>extra xow-git
+#>extra xbox-generic-controller
+#>extra koku-xinput-wine
+
+#### games emulators
+#>extra emulationstation
+#>extra libretro
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
 
 
