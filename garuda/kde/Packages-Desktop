@@ -71,7 +71,7 @@ garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 manjaro-zsh-config
 garuda-settings-samba
->extra garuda-printer
+garuda-printer
 
 ## Display manager
 sddm
@@ -150,8 +150,8 @@ partitionmanager
 kup
 bup
 smb4k
->extra print-manager
->extra skanlite
+print-manager
+skanlite
 >extra krdc
 >extra krfb
 >extra kmouth
@@ -206,10 +206,10 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 >extra ebook-tools
 
 ## Optional dependencies for print-manager
->extra system-config-printer  # auto-detect the printer driver
+system-config-printer  # auto-detect the printer driver
 
 ## Optional dependencies for kaccounts-integration
->extra kaccounts-providers
+kaccounts-providers
 
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
@@ -236,7 +236,7 @@ sshfs  # remote filesystem browser
 >extra frei0r-plugins
 
 ## Optional dependencies for plasma-vault
->extra encfs
+encfs
 >extra cryfs
 
 ## Optional dependencies for krita

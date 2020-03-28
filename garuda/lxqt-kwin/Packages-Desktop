@@ -37,10 +37,10 @@ manjaro-zsh-config
 garuda-settings-samba
 
 ##------------> printer
->extra garuda-printer
->extra print-manager
->extra skanlite
->extra system-config-printer
+garuda-printer
+print-manager
+skanlite
+system-config-printer
 #---------+> input and gesture support
 garuda-input
 >extra plasma-thunderbolt
