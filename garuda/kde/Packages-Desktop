@@ -92,7 +92,7 @@ qt5-wayland
 kde-servicemenus-rootactions
 kde-servicemenus-pdf
 kde-servicemenus-encfs
-kde-service-menu-reimage
+#kde-service-menu-reimage
 #kde-servicemenus-pkg-tools
 #kde-services
 kim4
