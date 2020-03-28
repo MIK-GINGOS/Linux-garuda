@@ -34,7 +34,7 @@ garuda-settings-manager
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 manjaro-zsh-config
-manjaro-settings-samba
+garuda-settings-samba
 
 ##------------> printer
 >extra garuda-printer
