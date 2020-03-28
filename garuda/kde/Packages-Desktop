@@ -47,7 +47,7 @@ pulseaudio-ctl
 playerctl
 #### video
 garuda-vaapi
->extra garuda-gstreamer
+garuda-gstreamer
 mesa-demos
 >multilib lib32-mesa-demos
 
@@ -89,7 +89,8 @@ plasma-wayland-session
 qt5-wayland
 
 ## extra kde stuff
-#kde-servicemenus-rootactions
+kde-servicemenus-rootactions
+kde-servicemenus-pdf
 #kde-servicemenus-pkg-tools
 #kde-services
 plasma5-applets-window-title
