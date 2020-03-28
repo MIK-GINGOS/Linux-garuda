@@ -20,8 +20,8 @@ garuda-connman
 cmst
 >extra qomui-git
 >extra wds-git
->extra garuda-modem
->extra modem-manager-gui
+garuda-modem
+modem-manager-gui
 >extra gpsd
 garuda-bluetooth
 bluedevil
@@ -175,7 +175,7 @@ ksmoothdock
 partitionmanager
 imagewriter
 audacious-qt5
->extra audacious-plugins-qt5
+audacious-plugins-qt5
 >basic falkon
 >extra simplescreenrecorder
 >extra guvcview-qt
@@ -187,7 +187,7 @@ audacious-qt5
 >extra krdc
 >extra freerdp
 >extra nitroshare
->extra stacer
+stacer
 >extra photoflare
 >extra youtube-dl
 >extra qytdl

@@ -27,8 +27,8 @@ terminus-font
 ## Network
 garuda-network
 garuda-bluetooth
->extra garuda-modem
->extra modem-manager-gui
+garuda-modem
+modem-manager-gui
 >extra firewalld
 >extra qomui-git
 >extra gpsd
@@ -281,7 +281,7 @@ isoimagewriter
 >extra guiscrcpy
 >extra usbaudio-git
 >extra nitroshare
->extra stacer
+stacer
 #>extra variety
 >extra shortwave-git
 >extra telegram-desktop
