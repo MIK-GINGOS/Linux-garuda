@@ -28,6 +28,7 @@ bluedevil
 >extra nx-firewall-git
 >extra ufw-extras
 performance-tweaks
+bluetooth-autoconnect
 #---------=> settings manager
 garuda-settings-manager
 garuda-settings-manager-kcm

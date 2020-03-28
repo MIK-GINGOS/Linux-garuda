@@ -32,7 +32,7 @@ garuda-bluetooth
 >extra firewalld
 >extra qomui-git
 >extra gpsd
-
+bluetooth-autoconnect
 ## Libraries for Sound/Audio/Video
 
 #---------=> audio
