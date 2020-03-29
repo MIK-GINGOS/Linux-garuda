@@ -1,0 +1,179 @@
+## theme package
+#garuda-xfce-settings
+#papirus-icon-theme
+gtk-engine-murrine
+kvantum-qt5
+
+
+
+grub-theme-garuda
+plymouth-theme-garuda
+>extra wish-wallpapers
+garuda-wallpapers
+garuda-icons
+## Fonts
+noto-fonts               # default font
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-emoji
+terminus-font
+>extra ttf-opensans
+>extra powerline-fonts
+>extra ttf-liberation
+>extra ttf-indic-otf
+#>extra ttf-lohit-fonts
+
+## Network
+garuda-network
+garuda-bluetooth
+garuda-modem
+modem-manager-gui
+>extra firewalld
+>extra qomui-git
+>extra gpsd
+bluetooth-autoconnect
+## Libraries for Sound/Audio/Video
+
+#---------=> audio
+garuda-alsa
+garuda-pulse
+pavucontrol
+pulseaudio-equalizer-ladspa
+paprefs
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+playerctl
+#### video
+garuda-vaapi
+garuda-gstreamer
+mesa-demos
+>multilib lib32-mesa-demos
+
+#--------=> package management
+pamac-aur-git
+pamac-aur-tray-appindicator-git
+>extra appimagelauncher
+>extra bauh
+>extra apparmor
+>extra snapd
+>extra fwupd
+#kalu
+## Flatpak support
+>extra flatpak
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-gtk
+
+#---------=> settings manager
+garuda-settings-manager
+garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
+manjaro-zsh-config
+garuda-settings-samba
+garuda-printer
+
+## Display manager
+lightdm
+lightdm-gtk-greeter
+
+#### xfce
+xfce4
+xfce4-goodies
+
+## xfce extra
+dockbarx
+
+
+## Optional dependencies for print-manager
+system-config-printer  # auto-detect the printer driver
+
+
+plymouth-git
+plymouth-kcm
+imagewriter
+>extra guiscrcpy
+>extra usbaudio-git
+>extra nitroshare
+stacer
+>extra variety
+>extra shortwave-git
+>extra telegram-desktop
+>extra libreoffice-fresh
+>extra libmythes
+>extra thunderbird
+>extra firefox
+>extra xdman
+>extra keepassxc
+>extra flashplugin
+>extra firefox-extension-https-everywhere 
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger 
+>extra firefox-ublock-origin 
+>extra firefox-dark-reader
+>extra firefox-extension-google-search-link-fix
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
+>extra firefox-extension-plasma-integration
+>extra qwikaccess-git # my own app
+#---------+> input and gesture support
+####input
+garuda-input
+evdev-right-click-emulation
+libinput_gestures_qt
+>extra easystroke
+#xf86-input-mtrack
+#xf86-input-synaptics
+#>extra fingerprint-gui
+
+#---------=> xorg
+xorg-server
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+
+
+## Desktop Utils
+perl-file-mimeinfo
+>extra perl-net-dbus
+>extra perl-x11-protocol
+xdg-utils
+numlockx
+xautolock
+xdg-user-dirs
+xbindkeys
+xcape
+#---------=> utilities
+libdvdcss
+powertop
+dmidecode
+inxi
+neofetch
+htop
+grub-btrfs
+timeshift
+timeshift-autosnap
+systemd-guest-user
+busybox
+hidapi
+conky-lua-nv
+micro-git
+#---------=> android and file transfer management
+android-tools
+android-udev
+
+#---------=> improve responsiveness 
+#kernel-alive
+systemd-swap
+cpupower
+haveged
+preload
+irqbalance
+nohang-git
+ananicy-git
+performance-tweaks
+
+
+
+
+
+
