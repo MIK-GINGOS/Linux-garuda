@@ -77,11 +77,11 @@ lightdm-gtk-greeter
 
 #### xfce
 xfce4
-xfce4-goodies
+
 
 ## xfce extra
-dockbarx
 
+xfce4-goodies
 
 ## Optional dependencies for print-manager
 system-config-printer  # auto-detect the printer driver
