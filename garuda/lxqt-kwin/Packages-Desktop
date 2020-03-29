@@ -27,7 +27,6 @@ garuda-bluetooth
 bluedevil
 >extra nx-firewall-git
 >extra ufw-extras
-performance-tweaks
 bluetooth-autoconnect
 #---------=> settings manager
 garuda-settings-manager
@@ -124,7 +123,6 @@ xdg-utils
 grub-btrfs
 timeshift
 timeshift-autosnap
-systemd-guest-user
 #---------=> file management
 lxqt-archiver-git
 pcmanfm-qt-git

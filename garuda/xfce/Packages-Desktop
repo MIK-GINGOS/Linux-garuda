@@ -4,8 +4,6 @@
 gtk-engine-murrine
 kvantum-qt5
 
-
-
 grub-theme-garuda
 plymouth-theme-garuda
 >extra wish-wallpapers
@@ -152,7 +150,6 @@ htop
 grub-btrfs
 timeshift
 timeshift-autosnap
-systemd-guest-user
 busybox
 hidapi
 conky-lua-nv
@@ -161,16 +158,7 @@ micro-git
 android-tools
 android-udev
 
-#---------=> improve responsiveness 
-#kernel-alive
-systemd-swap
-cpupower
-haveged
-preload
-irqbalance
-nohang-git
-ananicy-git
-performance-tweaks
+
 
 
 

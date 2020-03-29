@@ -3,6 +3,7 @@
 >multilib gcc-libs-multilib
 acpi
 acpid
+ananicy-git
 amd-ucode
 b43-fwcutter
 bash-completion
@@ -43,6 +44,7 @@ iptables
 iputils
 ipw2100-fw
 ipw2200-fw
+irqbalance
 jfsutils
 KERNEL
 KERNEL-headers
@@ -61,12 +63,15 @@ mhwd-db-garuda
 mkinitcpio-openswap
 nano
 nfs-utils
+nohang-git
 ntfs-3g
 os-prober
 pacman
 pacman-contrib
 pciutils
 perl
+performance-tweaks
+preload
 procps-ng
 psmisc
 reflector
@@ -79,7 +84,9 @@ shadow
 sudo
 sysfsutils
 #systemd-fsck-silent
+systemd-guest-user
 systemd-sysvcompat
+systemd-swap
 tar
 texinfo
 #tlp

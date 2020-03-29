@@ -345,7 +345,6 @@ htop
 grub-btrfs
 timeshift
 timeshift-autosnap
-systemd-guest-user
 busybox
 hidapi
 conky-lua-nv
@@ -353,18 +352,6 @@ micro-git
 #---------=> android and file transfer management
 android-tools
 android-udev
-
-#---------=> improve responsiveness 
-#kernel-alive
-systemd-swap
-cpupower
-haveged
-preload
-irqbalance
-nohang-git
-ananicy-git
-performance-tweaks
-
 
 #---------->>virtualization
 >extra virtualbox

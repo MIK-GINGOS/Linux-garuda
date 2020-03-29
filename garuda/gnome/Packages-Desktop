@@ -158,17 +158,9 @@ grub-btrfs
 timeshift-autosnap
 >extra linuxconsole
 #accountsservice
-systemd-guest-user
 numlockx
 xautolock
 xbindkeys
-#---------=> improve responsiveness 
-systemd-swap
-preload
-irqbalance
-nohang-git
-kernel-alive
-ananicy-git
 #---------=> android and file transfer management
 android-tools
 android-udev

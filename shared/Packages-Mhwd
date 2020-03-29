@@ -39,6 +39,7 @@ libxpm
 libxvmc
 >multilib lib32-libxvmc
 
+qemu-guest-agent
 open-vm-tools
 spice-vdagent
 gtkmm3
