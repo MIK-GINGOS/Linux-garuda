@@ -166,7 +166,7 @@ def modify_mkinitcpio_conf(partitions, root_mount_point):
         modules.append("crc32c i915 amdgpu nouveau radeon virtio virtio_scsi virtio_blk virtio_pci virtio_net")
     elif (btrfs == "yes"
           and cpu['proc0']['vendor_id'].lower() == "genuineintel"):
-        modules.append("crc32c-intel i915 amdgpu nouveau radeon")
+        modules.append("crc32c-intel i915 amdgpu nouveau radeon virtio virtio_scsi virtio_blk virtio_pci virtio_net")
     elif not os.path.exists(os.path.join(root_mount_point, "usr/bin/grub-set-bootflag")):
         hooks.append("fsck")
 
