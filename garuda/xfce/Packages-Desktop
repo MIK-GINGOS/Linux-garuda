@@ -90,12 +90,12 @@ xfce4-meta
 >extra onboard
 garuda-ibus
 >extra orca
-systemd-ui
+>extra systemd-ui
 gnome-keyring
 ## xfce extra
 xfdashboard
-xfce4-dockbarx-plugin-gtk3-git
-xfce4-goodies-meta
+>extra xfce4-dockbarx-plugin-gtk3-git
+>extra xfce4-goodies-meta
 
 
 #---------=> android and file transfer management
@@ -121,12 +121,12 @@ libopenraw
 librsvg
 
 pragha
-guvcview
-peek
+>extra guvcview
+>extra peek
 catfish
-gcolor3
+>extra gcolor3
 gcalculator
-gnome-disk-utility
+>extra gnome-disk-utility
 menulibre
 xarchiver
 ###-------archive formats
