@@ -94,7 +94,7 @@ garuda-ibus
 gnome-keyring
 ## xfce extra
 xfdashboard
->extra xfce4-dockbarx-plugin-gtk3-git
+xfce4-dockbarx-plugin-gtk3-git
 >extra xfce4-goodies-meta
 
 
