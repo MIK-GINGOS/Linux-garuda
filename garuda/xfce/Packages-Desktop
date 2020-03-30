@@ -1,15 +1,22 @@
 ## theme package
-#garuda-xfce-settings
-#papirus-icon-theme
-gtk-engine-murrine
-kvantum-qt5
+garuda-xfce-settings
 
+
+#---------=> edition theming and settings
 grub-theme-garuda
 plymouth-theme-garuda
->extra wish-wallpapers
+kvantum-qt5
+kvantum-theme-layan-git
+#layan-kde-git
+tela-icon-theme-git
+layan-gtk-theme-git
+gtk-engine-murrine
+wish-wallpapers
 garuda-wallpapers
 garuda-icons
+xcursor-breeze
 ## Fonts
+freetype2
 noto-fonts               # default font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
@@ -29,6 +36,8 @@ modem-manager-gui
 >extra qomui-git
 >extra gpsd
 bluetooth-autoconnect
+network-manager-applet
+blueberry
 ## Libraries for Sound/Audio/Video
 
 #---------=> audio
@@ -68,31 +77,92 @@ garuda-settings-manager-knotifier
 manjaro-zsh-config
 garuda-settings-samba
 garuda-printer
-
+simple-scan
 ## Display manager
 lightdm
 lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice  # Enhanced user accounts handling
+
 
 #### xfce
-xfce4
-
-
+xfce4-meta
+>extra onboard
+garuda-ibus
+>extra orca
+systemd-ui
+gnome-keyring
 ## xfce extra
+xfdashboard
+xfce4-dockbarx-plugin-gtk3-git
+xfce4-goodies-meta
 
-xfce4-goodies
 
-## Optional dependencies for print-manager
+#---------=> android and file transfer management
+android-tools
+android-udev
+
+gvfs-mtp
+gvfs
+gvfs-afc
+gvfs-nfs
+gvfs-smb
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
+
+tumbler
+ffmpegthumbnailer
+libgsf
+mupdf
+>extra poppler-data
+poppler-glib
+libopenraw
+librsvg
+
+pragha
+guvcview
+peek
+catfish
+gcolor3
+gcalculator
+gnome-disk-utility
+menulibre
+xarchiver
+###-------archive formats
+>extra arj
+binutils
+bzip2
+>extra cpio
+gzip
+>extra lha
+>extra lrzip
+>extra lz4
+>extra lzip
+>extra lzop
+p7zip
+tar
+>extra unace
+unarchiver
+unarj
+unrar
+unzip
+xz
+zip
+zstd
+
+
+## Optional dependencies for printer
 system-config-printer  # auto-detect the printer driver
 
 
 plymouth-git
-plymouth-kcm
 imagewriter
 >extra guiscrcpy
 >extra usbaudio-git
 >extra nitroshare
 stacer
->extra variety
+#>extra variety
 >extra shortwave-git
 >extra telegram-desktop
 >extra libreoffice-fresh
@@ -154,9 +224,7 @@ busybox
 hidapi
 conky-lua-nv
 micro-git
-#---------=> android and file transfer management
-android-tools
-android-udev
+
 
 
 

@@ -128,14 +128,31 @@ lxqt-archiver-git
 pcmanfm-qt-git
 lximage-qt-git
 #------opt deps for archiver & file manager
+
+####-------archive formats
+arj
+binutils
+bzip2
+cpio
+gzip
+lha
+lrzip
+lz4
+lzip
+lzop
+p7zip
+tar
+unace
+unarchiver
+unarj
 unrar
 unzip
-p7zip
-unace
-lrzip
-lzop
+xz
 zip
-unarchiver
+zstd
+unzip
+p7zip
+
 ffmpegthumbnailer
 libgsf
 android-tools
