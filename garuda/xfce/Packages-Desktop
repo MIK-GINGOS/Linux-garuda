@@ -95,7 +95,7 @@ gnome-keyring
 ## xfce extra
 xfdashboard
 xfce4-dockbarx-plugin-gtk3-git
->extra xfce4-goodies-meta
+xfce4-goodies-meta
 
 
 #---------=> android and file transfer management
