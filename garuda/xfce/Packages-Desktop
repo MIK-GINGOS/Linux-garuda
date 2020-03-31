@@ -5,6 +5,8 @@ garuda-xfce-settings
 #---------=> edition theming and settings
 grub-theme-garuda
 plymouth-theme-garuda
+sound-theme-smooth
+qt5ct
 kvantum-qt5
 kvantum-theme-layan-git
 #layan-kde-git
@@ -119,15 +121,15 @@ mupdf
 poppler-glib
 libopenraw
 librsvg
-
+redshift
 pragha
+qbittorrent
 >extra guvcview
 >extra peek
 catfish
 >extra gcolor3
-gcalculator
+galculator
 >extra gnome-disk-utility
-menulibre
 xarchiver
 ###-------archive formats
 >extra arj
@@ -159,7 +161,6 @@ system-config-printer  # auto-detect the printer driver
 plymouth-git
 imagewriter
 >extra guiscrcpy
->extra usbaudio-git
 >extra nitroshare
 stacer
 #>extra variety
@@ -186,7 +187,7 @@ stacer
 ####input
 garuda-input
 evdev-right-click-emulation
-libinput_gestures_qt
+gestures-manager-x-git
 >extra easystroke
 #xf86-input-mtrack
 #xf86-input-synaptics
