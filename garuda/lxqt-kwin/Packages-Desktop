@@ -52,6 +52,7 @@ kcm-fcitx
 #---------=> edition theming and settings
 grub-theme-garuda
 plymouth-theme-garuda
+sound-theme-smooth
 kvantum-qt5
 kvantum-theme-layan-git
 #layan-kde-git
