@@ -1,6 +1,7 @@
 #-------------------------------------------------
 #### EDITION BASE PACKAGES
 wayfire-default-settings
+performance-tweaks
 #---------=> audio
 alsa-firmware
 alsa-utils
@@ -173,7 +174,6 @@ gvfs-gphoto2
 >extra gvfs-nfs
 >extra gvfs-smb
 #---------=> applications
-plymouth-git
 >basic epiphany
 gedit
 nautilus

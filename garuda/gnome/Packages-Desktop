@@ -1,6 +1,8 @@
 #-------------------------------------------------
 #### EDITION BASE PACKAGES
 garuda-gnome-settings
+performance-tweaks
+
 mw-wallpapers
 #---------=> audio
 garuda-alsa
@@ -277,7 +279,6 @@ poppler-data
 >extra tigervnc
 
 #-------=>gnome de
->extra plymouth-git
 gdm
 garuda-gdm-theme
 garuda-gdm-tweak 

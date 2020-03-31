@@ -20,7 +20,9 @@ dhcpcd
 diffutils
 dmraid
 dnsmasq
+dnsutils
 dosfstools
+ethtool
 e2fsprogs
 ecryptfs-utils
 efibootmgr
@@ -51,6 +53,7 @@ KERNEL-headers
 less
 licenses
 linux-firmware
+linux-atm
 logrotate
 lsb-release
 lvm2
@@ -62,6 +65,8 @@ mhwd-garuda
 mhwd-db-garuda
 mkinitcpio-openswap
 nano
+net-tools
+ndisc6
 nfs-utils
 nohang-git
 ntfs-3g
@@ -69,8 +74,8 @@ os-prober
 pacman
 pacman-contrib
 pciutils
+plymouth-git
 perl
-performance-tweaks
 preload
 procps-ng
 psmisc
@@ -93,12 +98,21 @@ texinfo
 usbutils
 util-linux
 vi
+wireless_tools
+wireless-regdb
 wget
 which
+whois
 wpa_supplicant
+wvdial
 xfsprogs
+xl2tpd
 zsh
 >extra base-devel
 >extra extra-cmake-modules
 >extra ninja
 >extra meson
+
+
+
+

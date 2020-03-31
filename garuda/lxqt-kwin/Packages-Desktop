@@ -1,5 +1,6 @@
 #### EDITION BASE PACKAGES
 garuda-lxqt-kwin-settings
+performance-tweaks
 #---------=> audio
 garuda-alsa
 garuda-pulse
@@ -130,29 +131,20 @@ pcmanfm-qt-git
 lximage-qt-git
 #------opt deps for archiver & file manager
 
-####-------archive formats
-arj
-binutils
-bzip2
-cpio
-gzip
-lha
-lrzip
-lz4
-lzip
-lzop
+###-------archive formats
+>extra arj
+>extra cpio
+>extra lha
+>extra lrzip
+>extra lzip
+>extra lzop
+>extra unace
 p7zip
-tar
-unace
 unarchiver
 unarj
 unrar
 unzip
-xz
 zip
-zstd
-unzip
-p7zip
 
 ffmpegthumbnailer
 libgsf
@@ -240,7 +232,6 @@ featherpad-git
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-keepassxc-browser
 #>extra firefox-extension-plasma-integration
-plymouth-git
 plymouth-kcm
 
 ####gaming tools

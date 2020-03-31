@@ -1,6 +1,6 @@
 ## theme package
 garuda-xfce-settings
-
+performance-tweaks
 
 #---------=> edition theming and settings
 grub-theme-garuda
@@ -13,12 +13,11 @@ kvantum-theme-layan-git
 tela-icon-theme-git
 layan-gtk-theme-git
 gtk-engine-murrine
-wish-wallpapers
+>extra wish-wallpapers
 garuda-wallpapers
 garuda-icons
 xcursor-breeze
 ## Fonts
-freetype2
 noto-fonts               # default font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-emoji
@@ -40,6 +39,9 @@ modem-manager-gui
 bluetooth-autoconnect
 network-manager-applet
 blueberry
+
+
+
 ## Libraries for Sound/Audio/Video
 
 #---------=> audio
@@ -55,8 +57,7 @@ playerctl
 #### video
 garuda-vaapi
 garuda-gstreamer
-mesa-demos
->multilib lib32-mesa-demos
+
 
 #--------=> package management
 pamac-aur-git
@@ -80,25 +81,20 @@ manjaro-zsh-config
 garuda-settings-samba
 garuda-printer
 simple-scan
-## Display manager
-lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
-accountsservice  # Enhanced user accounts handling
+
+## Optional dependencies for printer
+system-config-printer  # auto-detect the printer driver
 
 
-#### xfce
-xfce4-meta
->extra onboard
-garuda-ibus
->extra orca
->extra systemd-ui
-gnome-keyring
-## xfce extra
-xfdashboard
-xfce4-dockbarx-plugin-gtk3-git
-xfce4-goodies-meta
-
+#---------+> input and gesture support
+####input
+garuda-input
+evdev-right-click-emulation
+gesture-manager-x-git
+>extra easystroke
+#xf86-input-mtrack
+#xf86-input-synaptics
+#>extra fingerprint-gui
 
 #---------=> android and file transfer management
 android-tools
@@ -113,85 +109,28 @@ gvfs-gphoto2
 gvfs-google
 gvfs-goa
 
-tumbler
 ffmpegthumbnailer
 libgsf
-mupdf
->extra poppler-data
-poppler-glib
 libopenraw
 librsvg
-redshift
-pragha
-qbittorrent
->extra guvcview
->extra peek
-catfish
->extra gcolor3
-galculator
->extra gnome-disk-utility
+>extra poppler-data
+>extra poppler-glib
+
 xarchiver
 ###-------archive formats
 >extra arj
-binutils
-bzip2
 >extra cpio
-gzip
 >extra lha
 >extra lrzip
->extra lz4
 >extra lzip
 >extra lzop
-p7zip
-tar
 >extra unace
+p7zip
 unarchiver
 unarj
 unrar
 unzip
-xz
 zip
-zstd
-
-
-## Optional dependencies for printer
-system-config-printer  # auto-detect the printer driver
-
-
-plymouth-git
-imagewriter
->extra guiscrcpy
->extra nitroshare
-stacer
-#>extra variety
->extra shortwave-git
->extra telegram-desktop
->extra libreoffice-fresh
->extra libmythes
->extra thunderbird
->extra firefox
->extra xdman
->extra keepassxc
->extra flashplugin
->extra firefox-extension-https-everywhere 
->extra firefox-decentraleyes
->extra firefox-extension-privacybadger 
->extra firefox-ublock-origin 
->extra firefox-dark-reader
->extra firefox-extension-google-search-link-fix
->extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-keepassxc-browser
->extra firefox-extension-plasma-integration
->extra qwikaccess-git # my own app
-#---------+> input and gesture support
-####input
-garuda-input
-evdev-right-click-emulation
-gestures-manager-x-git
->extra easystroke
-#xf86-input-mtrack
-#xf86-input-synaptics
-#>extra fingerprint-gui
 
 #---------=> xorg
 xorg-server
@@ -199,7 +138,7 @@ xorg-xhost
 xorg-xinit
 xorg-xinput
 xorg-xrandr
-
+xorg-xkill
 
 ## Desktop Utils
 perl-file-mimeinfo
@@ -225,9 +164,119 @@ busybox
 hidapi
 conky-lua-nv
 micro-git
+mesa-demos
+>multilib lib32-mesa-demos
+
+## Display manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice  # Enhanced user accounts handling
 
 
+#### xfce
+exo
+garcon
+thunar
+thunar-volman
+tumbler
+xfce4-appfinder
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfce4-terminal
+xfconf
+xfdesktop
+xfwm4
+xfwm4-themes
+## xfce extra
+mousepad
+orage
+ristretto
+thunar-archive-plugin
+thunar-media-tags-plugin
+xfce4-battery-plugin
+xfce4-clipman-plugin
+xfce4-datetime-plugin
+xfce4-dict
+xfce4-notes-plugin
+xfce4-notifyd
+xfce4-pulseaudio-plugin
+xfce4-screensaver
+xfce4-screenshooter
+xfce4-weather-plugin
+xfce4-xkb-plugin
+xfce4-mount-plugin
+xfce4-whiskermenu-plugin
+xfce4-taskmanager
+xfdashboard
+xfce4-dockbarx-plugin-gtk3-git
+>extra xfce4-cpufreq-plugin
+>extra xfce4-cpugraph-plugin
+>extra xfce4-diskperf-plugin
+>extra xfce4-eyes-plugin
+>extra xfce4-fsguard-plugin
+>extra xfce4-genmon-plugin
+>extra xfce4-mailwatch-plugin
+>extra xfce4-mpc-plugin
+>extra xfce4-netload-plugin
+>extra xfce4-sensors-plugin 
+>extra xfce4-smartbookmark-plugin
+>extra xfce4-systemload-plugin
+>extra xfce4-time-out-plugin
+>extra xfce4-timer-plugin
+>extra xfce4-verve-plugin
+>extra xfce4-wavelan-plugin
+>extra xfburn
+>extra xfce4-artwork
+>extra orca
 
+onboard
+garuda-ibus
+systemd-ui
+gnome-keyring
+redshift
+pragha
+qpdfview
+qbittorrent
+#imagewriter
+peek
+mintstick
+galculator
+catfish
+gnome-disk-utility
+>basic mpv
+>basic midori
+>basic sylpheed
+>extra guiscrcpy
+>extra nitroshare
+>extra usbaudio-git
+>extra vlc
+>extra stacer
+>extra converseen
+>extra transmageddon
+#>extra variety
+>extra guvcview
+>extra gcolor3
+>extra shortwave-git
+>extra telegram-desktop
+>extra libreoffice-fresh
+>extra libmythes
+>extra thunderbird
+>extra firefox
+>extra xdman
+>extra keepassxc
+>extra flashplugin
+>extra firefox-extension-https-everywhere 
+>extra firefox-decentraleyes
+>extra firefox-extension-privacybadger 
+>extra firefox-ublock-origin 
+>extra firefox-dark-reader
+>extra firefox-extension-google-search-link-fix
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
+>extra firefox-extension-plasma-integration
 
 
 

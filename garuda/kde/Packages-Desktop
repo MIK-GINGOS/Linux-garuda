@@ -1,5 +1,7 @@
 ## theme package
 garuda-kde-settings
+performance-tweaks
+
 #papirus-icon-theme
 sound-theme-smooth
 gtk-engine-murrine
@@ -248,8 +250,6 @@ encfs
 #>extra kipi-plugins  # export to various online services
 #>extra hugin         # panorama tool
 
-
-plymouth-git
 plymouth-kcm
 
 qbittorrent
