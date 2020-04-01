@@ -46,10 +46,11 @@ garuda-input
 >extra plasma-thunderbolt
 libinput_gestures_qt
 >extra easystroke
-fcitx-qt5
 >extra fingerprint-gui
-kcm-fcitx
 #>extra kcm-wacomtablet
+garuda-fcitx
+garuda-indic
+
 #---------=> edition theming and settings
 grub-theme-garuda
 plymouth-theme-garuda
@@ -168,6 +169,7 @@ xorg-server
 >extra apparmor
 >extra fwupd
 >extra snapd
+>extra snapd-glib
 >extra flatpak
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-kde

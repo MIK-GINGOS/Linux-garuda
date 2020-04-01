@@ -66,6 +66,7 @@ pamac-aur-tray-appindicator-git
 >extra bauh
 >extra apparmor
 >extra snapd
+>extra snapd-glib
 >extra fwupd
 #kalu
 ## Flatpak support
@@ -81,7 +82,8 @@ manjaro-zsh-config
 garuda-settings-samba
 garuda-printer
 simple-scan
-
+garuda-ibus
+garuda-indic
 ## Optional dependencies for printer
 system-config-printer  # auto-detect the printer driver
 
@@ -233,7 +235,8 @@ xfce4-dockbarx-plugin-gtk3-git
 >extra orca
 
 onboard
-garuda-ibus
+menulibre
+mugshot
 systemd-ui
 gnome-keyring
 redshift

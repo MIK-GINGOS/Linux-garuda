@@ -19,7 +19,7 @@ garuda-icons
 ## Fonts
 noto-fonts               # default font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra noto-fonts-emoji
+noto-fonts-emoji
 terminus-font
 >extra ttf-opensans
 >extra powerline-fonts
@@ -61,6 +61,7 @@ pamac-aur-tray-appindicator-git
 >extra bauh
 >extra apparmor
 >extra snapd
+>extra snapd-glib
 >extra fwupd
 kalu-kde
 ## Flatpak support
@@ -75,7 +76,8 @@ garuda-settings-manager-knotifier
 manjaro-zsh-config
 garuda-settings-samba
 garuda-printer
-
+garuda-fcitx
+garuda-indic
 ## Display manager
 sddm
 sddm-kcm
@@ -114,7 +116,6 @@ kwin-decoration-sierra-breeze-enhanced-git
 samba-mounter-git
 fancontrol-kcm-git
 kcm-wacomtablet 
-kcm-fcitx
 colord-kde
 #>extra systemd-kcm
 kdenetwork-filesharing
