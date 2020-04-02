@@ -19,14 +19,14 @@ garuda-icons
 xcursor-breeze
 ## Fonts
 noto-fonts               # default font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra noto-fonts-emoji
+
+noto-fonts-emoji
 terminus-font
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra ttf-opensans
 >extra powerline-fonts
 >extra ttf-liberation
 >extra ttf-indic-otf
-#>extra ttf-lohit-fonts
 
 ## Network
 garuda-network
@@ -76,8 +76,8 @@ pamac-aur-tray-appindicator-git
 
 #---------=> settings manager
 garuda-settings-manager
-garuda-settings-manager-kcm
-garuda-settings-manager-knotifier
+#garuda-settings-manager-kcm
+garuda-settings-manager-notifier
 manjaro-zsh-config
 garuda-settings-samba
 garuda-printer
