@@ -25,14 +25,13 @@ terminus-font
 >extra powerline-fonts
 >extra ttf-liberation
 >extra ttf-indic-otf
-#>extra ttf-lohit-fonts
 
 ## Network
 garuda-network
 garuda-bluetooth
 garuda-modem
 modem-manager-gui
->extra firewalld
+firewalld
 >extra qomui-git
 >extra gpsd
 bluetooth-autoconnect
@@ -57,17 +56,17 @@ mesa-demos
 #--------=> package management
 pamac-aur-git
 pamac-aur-tray-appindicator-git
->extra appimagelauncher
->extra bauh
->extra apparmor
->extra snapd
->extra snapd-glib
->extra fwupd
+appimagelauncher
+bauh
+apparmor
+snapd
+snapd-glib
+fwupd
 kalu-kde
 ## Flatpak support
->extra flatpak
->extra xdg-desktop-portal
->extra xdg-desktop-portal-kde
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-kde
 
 #---------=> settings manager
 garuda-settings-manager
@@ -354,6 +353,20 @@ micro-git
 #---------=> android and file transfer management
 android-tools
 android-udev
+
+#---------->>virtualization qemu and libvirt
+#>extra virt-manager 
+#>extra ebtables 
+#>extra bridge-utils 
+#>extra gnu-netcat 
+#>extra qemu
+#>extra radvd 
+#>extra ceph
+#>extra ovmf
+#>extra qemu-block-gluster
+#>extra qemu-block-iscsi
+#>extra qemu-block-rbd
+#>extra qemu-arch-extra
 
 #---------->>virtualization
 >extra virtualbox

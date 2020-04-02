@@ -62,22 +62,21 @@ garuda-gstreamer
 #--------=> package management
 pamac-aur-git
 pamac-aur-tray-appindicator-git
->extra appimagelauncher
->extra bauh
->extra apparmor
->extra snapd
->extra snapd-glib
->extra fwupd
+appimagelauncher
+bauh
+apparmor
+snapd
+snapd-glib
+fwupd
 #kalu
 ## Flatpak support
->extra flatpak
->extra xdg-desktop-portal
->extra xdg-desktop-portal-gtk
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-gtk
 
 #---------=> settings manager
 garuda-settings-manager
-#garuda-settings-manager-kcm
-garuda-settings-manager-notifier
+garuda-settings-manager-knotifier
 manjaro-zsh-config
 garuda-settings-samba
 garuda-printer
