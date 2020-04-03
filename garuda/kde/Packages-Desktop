@@ -77,6 +77,56 @@ garuda-settings-samba
 garuda-printer
 garuda-fcitx
 garuda-indic
+
+
+#---------+> input and gesture support
+####input
+garuda-input
+evdev-right-click-emulation
+libinput_gestures_qt
+>extra easystroke
+#xf86-input-mtrack
+#xf86-input-synaptics
+#>extra fingerprint-gui
+
+#---------=> xorg
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+
+
+## Desktop Utils
+perl-file-mimeinfo
+>extra perl-net-dbus
+>extra perl-x11-protocol
+xdg-utils
+numlockx
+xautolock
+xdg-user-dirs
+xbindkeys
+xcape
+kdocker
+autokey
+#---------=> utilities
+libdvdcss
+powertop
+dmidecode
+inxi
+neofetch
+htop
+grub-btrfs
+timeshift
+timeshift-autosnap
+busybox
+hidapi
+conky-lua-nv
+micro-git
+#---------=> android and file transfer management
+android-tools
+android-udev
+
 ## Display manager
 sddm
 sddm-kcm
@@ -180,7 +230,11 @@ skanlite
 #>extra kphotoalbum
 #>extra marble
 #>extra skrooge
-
+>extra argyllcms
+>extra colord-sane
+>extra orca
+>extra flite
+>extra festival
 
 
 
@@ -256,12 +310,32 @@ qbittorrent
 latte-dock
 flameshot
 imagewriter
+stacer
 
->extra argyllcms
->extra colord-sane
->extra orca
->extra flite
->extra festival
+#>basic falkon
+>basic mpv
+thunderbird
+garuda-firefox
+firefox-extension-plasma-integration
+
+>extra mediaelch
+>extra youtube-dl
+>extra qytdl
+>extra obs-studio
+>extra pdfmixtool
+>extra guiscrcpy
+>extra usbaudio-git
+>extra nitroshare
+#>extra variety
+>extra shortwave-git
+>extra telegram-desktop
+>extra discord
+>extra mumble
+>extra murmur
+>extra libreoffice-fresh
+>extra libmythes
+
+
 
 #>extra popcorntime-git
 #>extra qownnotes
@@ -273,74 +347,6 @@ imagewriter
 #>extra smplayer-skins
 #>extra smplayer-themes
 #>extra smtube
-
->extra mediaelch
->extra youtube-dl
->extra qytdl
->extra obs-studio
->extra pdfmixtool
->extra guiscrcpy
->extra usbaudio-git
->extra nitroshare
-stacer
-#>extra variety
->extra shortwave-git
->extra telegram-desktop
->extra discord
->extra mumble
->extra murmur
->extra libreoffice-fresh
->extra libmythes
->extra thunderbird
->basic falkon
->basic mpv
->extra garuda-firefox
->extra firefox-extension-plasma-integration
-#---------+> input and gesture support
-####input
-garuda-input
-evdev-right-click-emulation
-libinput_gestures_qt
->extra easystroke
-#xf86-input-mtrack
-#xf86-input-synaptics
-#>extra fingerprint-gui
-
-#---------=> xorg
-xorg-server-xwayland 
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-
-
-## Desktop Utils
-perl-file-mimeinfo
->extra perl-net-dbus
->extra perl-x11-protocol
-xdg-utils
-numlockx
-xautolock
-xdg-user-dirs
-xbindkeys
-xcape
-#---------=> utilities
-libdvdcss
-powertop
-dmidecode
-inxi
-neofetch
-htop
-grub-btrfs
-timeshift
-timeshift-autosnap
-busybox
-hidapi
-conky-lua-nv
-micro-git
-#---------=> android and file transfer management
-android-tools
-android-udev
 
 #---------->>virtualization qemu and libvirt
 #>extra virt-manager 
