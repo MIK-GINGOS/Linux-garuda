@@ -13,10 +13,10 @@ kvantum-theme-layan-git
 tela-icon-theme-git
 layan-gtk-theme-git
 gtk-engine-murrine
->extra wish-wallpapers
+xcursor-breeze
 garuda-wallpapers
 garuda-icons
-xcursor-breeze
+>extra wish-wallpapers
 ## Fonts
 noto-fonts               # default font
 
@@ -26,22 +26,19 @@ terminus-font
 >extra ttf-opensans
 >extra powerline-fonts
 >extra ttf-liberation
->extra ttf-indic-otf
 
 ## Network
 garuda-network
 garuda-bluetooth
 garuda-modem
 modem-manager-gui
->extra firewalld
->extra qomui-git
->extra gpsd
+firewalld
 bluetooth-autoconnect
 network-manager-applet
 blueberry
 
-
-
+>extra qomui-git
+>extra gpsd
 ## Libraries for Sound/Audio/Video
 
 #---------=> audio
@@ -145,10 +142,10 @@ xorg-xkill
 perl-file-mimeinfo
 >extra perl-net-dbus
 >extra perl-x11-protocol
+xdg-user-dirs
 xdg-utils
 numlockx
 xautolock
-xdg-user-dirs
 xbindkeys
 xcape
 #---------=> utilities
@@ -165,6 +162,8 @@ busybox
 hidapi
 conky-lua-nv
 micro-git
+autokey
+kdocker
 mesa-demos
 >multilib lib32-mesa-demos
 
@@ -192,9 +191,13 @@ xfdesktop
 xfwm4
 xfwm4-themes
 ## xfce extra
+menulibre
+mugshot
 mousepad
 orage
 ristretto
+pragha
+#parole
 thunar-archive-plugin
 thunar-media-tags-plugin
 xfce4-battery-plugin
@@ -230,55 +233,38 @@ xfce4-dockbarx-plugin-gtk3-git
 >extra xfce4-verve-plugin
 >extra xfce4-wavelan-plugin
 >extra xfburn
->extra xfce4-artwork
->extra orca
 
+orca
 onboard
-menulibre
-mugshot
+
+shortwave-git
 systemd-ui
 gnome-keyring
 redshift
-pragha
 qpdfview
 qbittorrent
-#imagewriter
 peek
 mintstick
 galculator
 gparted
->basic mpv
+mpv
 >basic midori
 >basic sylpheed
 >extra catfish
 >extra guiscrcpy
 >extra nitroshare
->extra usbaudio-git
->extra vlc
 >extra stacer
 >extra converseen
 >extra transmageddon
+>extra soundconvertor
 #>extra variety
 >extra guvcview
 >extra gcolor3
->extra shortwave-git
 >extra telegram-desktop
 >extra libreoffice-fresh
 >extra libmythes
 >extra thunderbird
->extra firefox
->extra xdman
->extra keepassxc
->extra flashplugin
->extra firefox-extension-https-everywhere 
->extra firefox-decentraleyes
->extra firefox-extension-privacybadger 
->extra firefox-ublock-origin 
->extra firefox-dark-reader
->extra firefox-extension-google-search-link-fix
->extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-keepassxc-browser
->extra firefox-extension-plasma-integration
+>extra garuda-firefox
 
 
 

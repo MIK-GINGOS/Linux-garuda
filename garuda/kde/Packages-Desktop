@@ -255,7 +255,7 @@ plymouth-kcm
 qbittorrent
 latte-dock
 flameshot
-isoimagewriter
+imagewriter
 
 >extra argyllcms
 >extra colord-sane
@@ -294,20 +294,8 @@ stacer
 >extra thunderbird
 >basic falkon
 >basic mpv
->extra firefox
->extra xdman
->extra keepassxc
->extra flashplugin
->extra firefox-extension-https-everywhere 
->extra firefox-decentraleyes
->extra firefox-extension-privacybadger 
->extra firefox-ublock-origin 
->extra firefox-dark-reader
->extra firefox-extension-google-search-link-fix
->extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-keepassxc-browser
+>extra garuda-firefox
 >extra firefox-extension-plasma-integration
->extra qwikaccess-git # my own app
 #---------+> input and gesture support
 ####input
 garuda-input
