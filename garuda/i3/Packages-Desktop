@@ -1,0 +1,298 @@
+## theme package
+garuda-xfce-settings
+performance-tweaks
+
+#---------=> edition theming and settings
+grub-theme-garuda
+plymouth-theme-garuda
+sound-theme-smooth
+qt5ct
+kvantum-qt5
+kvantum-theme-layan-git
+#layan-kde-git
+tela-icon-theme-git
+layan-gtk-theme-git
+gtk-engine-murrine
+xcursor-breeze
+garuda-wallpapers
+garuda-icons
+#>extra wish-wallpapers
+## Fonts
+noto-fonts               # default font
+
+noto-fonts-emoji
+terminus-font
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra ttf-opensans
+>extra powerline-fonts
+>extra ttf-liberation
+
+## Network
+garuda-network
+garuda-bluetooth
+garuda-modem
+modem-manager-gui
+firewalld
+bluetooth-autoconnect
+network-manager-applet
+blueberry
+
+>extra qomui-git
+>extra gpsd
+## Libraries for Sound/Audio/Video
+
+#---------=> audio
+garuda-alsa
+garuda-pulse
+pavucontrol
+pulseaudio-equalizer-ladspa
+paprefs
+pasystray
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+playerctl
+#### video
+garuda-vaapi
+garuda-gstreamer
+
+
+#--------=> package management
+pamac-aur-git
+pamac-aur-tray-appindicator-git
+appimagelauncher
+bauh
+apparmor
+snapd
+snapd-glib
+fwupd
+#kalu
+
+>extra yay
+>extra downgrade
+>extra powerpill
+
+## Flatpak support
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+
+#---------=> settings manager
+garuda-settings-manager
+garuda-settings-manager-knotifier
+manjaro-zsh-config
+garuda-settings-samba
+garuda-printer
+simple-scan
+garuda-ibus
+garuda-indic
+## Optional dependencies for printer
+system-config-printer  # auto-detect the printer driver
+
+
+#---------+> input and gesture support
+####input
+garuda-input
+evdev-right-click-emulation
+gesture-manager-x-git
+>extra easystroke
+#xf86-input-mtrack
+#xf86-input-synaptics
+#>extra fingerprint-gui
+
+#---------=> android and file transfer management
+android-tools
+android-udev
+
+gvfs-mtp
+gvfs
+gvfs-afc
+gvfs-nfs
+gvfs-smb
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
+
+ffmpegthumbnailer
+libgsf
+libopenraw
+librsvg
+>extra poppler-data
+>extra poppler-glib
+
+xarchiver
+###-------archive formats
+>extra arj
+>extra cpio
+>extra lha
+>extra lrzip
+>extra lzip
+>extra lzop
+>extra unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+#---------=> xorg
+xorg-server
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xkill
+xorg-xbacklight
+
+## Desktop Utils
+perl-file-mimeinfo
+>extra perl-net-dbus
+>extra perl-x11-protocol
+xdg-user-dirs
+xdg-utils
+numlockx
+xautolock
+xbindkeys
+xcape
+xdotool
+wmctrl
+#---------=> utilities
+libdvdcss
+powertop
+dmidecode
+inxi
+neofetch
+htop
+grub-btrfs
+timeshift
+timeshift-autosnap
+busybox
+hidapi
+conky-lua-nv
+micro-git
+autokey
+kdocker
+mesa-demos
+>multilib lib32-mesa-demos
+
+## Display manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice  # Enhanced user accounts handling
+
+
+
+
+clipman
+polkit-gnome
+#### xfce
+thunar
+thunar-volman
+tumbler
+xfce4-power-manager
+xfce4-terminal
+## xfce extra
+mousepad
+orage
+thunar-archive-plugin
+thunar-media-tags-plugin
+xfce4-screensaver
+>extra xfburn
+xfce4-power-manager
+>extra orca
+onboard
+
+
+
+######------>i3
+i3-wm
+i3blocks
+i3lock
+i3status
+i3
+menumaker
+rofi
+arandr
+lxinput
+
+archlinux-xdg-menu
+scrot
+
+viewnior
+jq
+feh
+lxappearance-gtk3
+picom
+terminator
+nitrogen
+shortwave-git
+systemd-ui
+gnome-keyring
+redshift
+qpdfview
+qbittorrent
+peek
+mintstick
+galculator
+gparted
+flameshot
+mpv
+>basic midori
+>basic sylpheed
+>extra catfish
+>extra guiscrcpy
+>extra nitroshare
+>extra stacer
+>extra converseen
+>extra transmageddon
+>extra soundconvertor
+#>extra variety
+>extra guvcview
+>extra gcolor3
+>extra telegram-desktop
+>extra libreoffice-fresh
+>extra libmythes
+>extra thunderbird
+>extra garuda-firefox
+>extra gimp
+>extra inkscape
+>extra blender
+
+
+
+
+
+
+
+
+ttf-bitstream-vera
+>extra ttf-dejavu
+>extra ttf-droid
+>extra ttf-inconsolata
+dfc
+groff
+>extra vnstat
+json-c
+>extra libgpod
+libtool
+>extra lm_sensors
+markdown_previewer
+mlocate
+ncdu
+moc
+ranger
+sbxkb
+speedtest-cli
+syslog-ng
+tree
+volumeicon
+pasys
+w3m
+
+
+
+
+
+
