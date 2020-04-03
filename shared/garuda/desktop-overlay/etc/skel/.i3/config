@@ -281,6 +281,7 @@ exec --no-startup-id nitrogen --restore; sleep 1; picom -b
 exec --no-startup-id start_conky_live_maia
 # exec --no-startup-id blueberry
 exec --no-startup-id clipman
+exec --no-startup-id mako
 exec --no-startup-id desktop-items
 exec --no-startup-id manjaro-hello
 exec --no-startup-id nm-applet
