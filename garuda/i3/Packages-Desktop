@@ -223,6 +223,8 @@ scrot
 viewnior
 jq
 feh
+tree
+w3m
 lxappearance-gtk3
 picom
 terminator
@@ -272,12 +274,8 @@ ttf-bitstream-vera
 >extra ttf-droid
 >extra ttf-inconsolata
 dfc
-groff
 >extra vnstat
-json-c
 >extra libgpod
-libtool
->extra lm_sensors
 markdown_previewer
 mlocate
 ncdu
@@ -286,10 +284,7 @@ ranger
 sbxkb
 speedtest-cli
 syslog-ng
-tree
-volumeicon
-pasys
-w3m
+
 
 
 
