@@ -192,18 +192,16 @@ thunar
 thunar-volman
 tumbler
 xfce4-power-manager
-xfce4-terminal
 ## xfce extra
-mousepad
+notepadqq
 orage
 thunar-archive-plugin
 thunar-media-tags-plugin
-xfce4-screensaver
 >extra xfburn
 xfce4-power-manager
->extra orca
+#>extra orca
 onboard
-
+xfce-screensaver
 
 
 ######------>i3
@@ -216,10 +214,11 @@ menumaker
 rofi
 arandr
 lxinput
-mako
+dunst
 archlinux-xdg-menu
 scrot
-
+sgtk-menu
+wlogout
 viewnior
 jq
 feh
@@ -227,7 +226,7 @@ tree
 w3m
 lxappearance-gtk3
 picom
-terminator
+alacritty
 nitrogen
 shortwave-git
 systemd-ui
@@ -261,29 +260,6 @@ mpv
 >extra gimp
 >extra inkscape
 >extra blender
-
-
-
-
-
-
-
-
-ttf-bitstream-vera
->extra ttf-dejavu
->extra ttf-droid
->extra ttf-inconsolata
-dfc
->extra vnstat
->extra libgpod
-markdown_previewer
-mlocate
-ncdu
-moc
-ranger
-sbxkb
-speedtest-cli
-syslog-ng
 
 
 
