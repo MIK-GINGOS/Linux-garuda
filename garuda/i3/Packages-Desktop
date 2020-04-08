@@ -171,6 +171,9 @@ busybox
 hidapi
 conky-lua-nv
 micro-git
+geany
+terminator
+xfce4-terminal
 autokey
 kdocker
 mesa-demos
