@@ -201,8 +201,8 @@ thunar-media-tags-plugin
 xfce4-power-manager
 #>extra orca
 onboard
-xfce-screensaver
-
+xfce4-screensaver
+xfce4-terminal
 
 ######------>i3
 i3-wm

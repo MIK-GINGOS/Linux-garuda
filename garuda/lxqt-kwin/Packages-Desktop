@@ -166,15 +166,15 @@ gvfs-goa
 xorg-server
 
 ##------------> package manager
->extra appimagelauncher
->extra bauh
->extra apparmor
->extra fwupd
->extra snapd
->extra snapd-glib
->extra flatpak
->extra xdg-desktop-portal
->extra xdg-desktop-portal-kde
+appimagelauncher
+bauh
+apparmor
+fwupd
+snapd
+snapd-glib
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-kde
 
 pamac-aur-git
 pamac-aur-tray-appindicator-git
@@ -186,9 +186,11 @@ mpv
 ksmoothdock
 partitionmanager
 imagewriter
-audacious-qt5
-audacious-plugins-qt5
+audacious
+audacious-plugins
+stacer
 >basic falkon
+>basic trojita
 >extra simplescreenrecorder
 >extra guvcview-qt
 >extra guiscrcpy-git
@@ -199,7 +201,6 @@ audacious-plugins-qt5
 >extra krdc
 >extra freerdp
 >extra nitroshare
-stacer
 >extra photoflare
 >extra youtube-dl
 >extra qytdl
@@ -226,55 +227,5 @@ featherpad-git
 >extra thunderbird
 >extra garuda-firefox
 #>extra firefox-extension-plasma-integration
-
-
-####gaming tools
-#>extra corectrl
-#>extra fancontrol-gui-git
-#>extra gwe
-#>extra piper
-#>extra goverlay-git
-#>extra mangohud-git
-#>extra lib32-mangohud-git
-#>extra gamemode
-#>extra lib32-gamemode
-
-
-## Game launchers 
-
-#>extra steam
-#>extra steam-native-runtime
-#>extra linux-steam-integration
-#>extra lutris
-#>extra gamehub
-#>extra itch
-#>extra gamerworld
-#>extra minigalaxy
-#>extra ialauncher-git
-#>extra athenaeum-git
-#>extra python-numpy
-#>extra moonlight-qt
-#>extra pegasus-frontend-git
-
-
-#### controller 
-
-#>extra antimicrox
-#>extra linuxconsole
-#>extra xboxdrv
-#>extra xpadneo-dkms-git
-#>extra steamos-xpad-dkms
-#>extra xow-git
-#>extra xbox-generic-controller
-#>extra koku-xinput-wine
-
-#### games emulators
-#>extra emulationstation
-#>extra libretro
-#>extra ppsspp
-#>extra pcsxr
-#>extra pcsx2-git
-#>extra rpcs3-git
-#>extra yuzu-mainline-git
 
 

@@ -239,12 +239,20 @@ skanlite
 
 
 ## Optional dependencies for ark
-p7zip  # 7Z format support
-unarchiver  # RAR format support
-unrar
->extra unzip
+###-------archive formats
+>extra arj
+>extra cpio
+>extra lha
 >extra lrzip
+>extra lzip
 >extra lzop
+>extra unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -349,12 +357,13 @@ firefox-extension-plasma-integration
 #>extra smtube
 
 #---------->>virtualization qemu and libvirt
-#>extra virt-manager 
-#>extra ebtables 
-#>extra bridge-utils 
-#>extra gnu-netcat 
+#>extra virt-manager
+#>extra virt-viewer
+#>extra ebtables
+#>extra bridge-utils
+#>extra gnu-netcat
 #>extra qemu
-#>extra radvd 
+#>extra radvd
 #>extra ceph
 #>extra ovmf
 #>extra qemu-block-gluster
@@ -371,12 +380,12 @@ firefox-extension-plasma-integration
 >extra virtualbox-host-dkms
 >extra tigervnc
 >extra vde2
-
+>extra virtualbox-ext-oracle
 
 ####amd vulkan
->extra amdvlk
->extra lib32-amdvlk
->extra vulkan-tools
+#>extra amdvlk
+#>extra lib32-amdvlk
+
 
 
 
@@ -420,8 +429,8 @@ firefox-extension-plasma-integration
 >extra lib32-mangohud-git
 >extra gamemode
 >extra lib32-gamemode
-
-
+>extra vkbasalt
+>extra vulkan-tools
 
 ## Game launchers 
 
