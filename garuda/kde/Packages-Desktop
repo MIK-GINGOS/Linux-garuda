@@ -168,6 +168,7 @@ kcm-wacomtablet
 colord-kde
 #>extra systemd-kcm
 kdenetwork-filesharing
+qt5-tools
 
 ## kde apps
 ark
@@ -177,6 +178,7 @@ filelight
 kate
 #basket
 gwenview
+svgpart
 konsole
 #breezemite-yakuake-git
 yakuake
@@ -235,7 +237,7 @@ skanlite
 >extra orca
 >extra flite
 >extra festival
-
+>extra kile
 
 
 ## Optional dependencies for ark
@@ -357,36 +359,30 @@ firefox-extension-plasma-integration
 #>extra smtube
 
 #---------->>virtualization qemu and libvirt
-#>extra virt-manager
-#>extra virt-viewer
-#>extra ebtables
-#>extra bridge-utils
-#>extra gnu-netcat
-#>extra qemu
-#>extra radvd
-#>extra ceph
-#>extra ovmf
-#>extra qemu-block-gluster
-#>extra qemu-block-iscsi
-#>extra qemu-block-rbd
-#>extra qemu-arch-extra
+>extra virt-manager
+>extra virt-viewer
+>extra ebtables
+>extra bridge-utils
+>extra gnu-netcat
+>extra qemu
+>extra radvd
+>extra ceph
+>extra ovmf
+>extra qemu-block-gluster
+>extra qemu-block-iscsi
+>extra qemu-block-rbd
+>extra qemu-arch-extra
 
 #---------->>virtualization
->extra virtualbox
->extra virtualbox-ext-vnc
->extra virtualbox-guest-iso
->extra virtualbox-sdk
+#>extra virtualbox
+#>extra virtualbox-ext-vnc
+#>extra virtualbox-guest-iso
+#>extra virtualbox-sdk
 #>extra KERNEL-virtualbox-host-modules
->extra virtualbox-host-dkms
->extra tigervnc
->extra vde2
->extra virtualbox-ext-oracle
-
-####amd vulkan
-#>extra amdvlk
-#>extra lib32-amdvlk
-
-
+#>extra virtualbox-host-dkms
+#>extra tigervnc
+#>extra vde2
+#>extra virtualbox-ext-oracle
 
 
 ####wine additions
@@ -480,12 +476,18 @@ firefox-extension-plasma-integration
 >extra minetest
 >extra minetest-server
 >extra teeworlds
+>extra puzzles
+>extra texlive-games
 #megaglest
 #xonotic
 #supertuxkart
 #enemy-territory
 #enemy-trritory-data
 
+
+####   amd vulkan
+#>extra amdvlk
+#>extra lib32-amdvlk
 
 
 
