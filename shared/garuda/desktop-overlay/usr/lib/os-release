@@ -1,11 +1,11 @@
-NAME="garuda Linux"
-PRETTY_NAME="garuda Linux"
+NAME="garuda linux"
+PRETTY_NAME="garuda linux"
 ID=garuda
 ID_LIKE=arch
 BUILD_ID=rolling
 ANSI_COLOR="0;36"
-HOME_URL="https://www.archlinux.org/"
+HOME_URL="https://www.garudalinux.in/"
 DOCUMENTATION_URL="https://wiki.archlinux.org/"
-SUPPORT_URL="https://bbs.archlinux.org/"
-BUG_REPORT_URL="https://bugs.archlinux.org/"
-LOGO=archlinux
+SUPPORT_URL="https://forum.garudalinux.in/"
+BUG_REPORT_URL="https://forum.garudalinux.in/"
+LOGO=garudalinux
