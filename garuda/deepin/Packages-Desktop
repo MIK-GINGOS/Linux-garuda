@@ -1,0 +1,206 @@
+## theme package
+garuda-deepin-settings
+performance-tweaks
+
+#---------=> edition theming and settings
+grub-theme-garuda
+garuda-browser-settings
+plymouth-theme-garuda
+#qt5ct
+#kvantum-qt5
+gtk-engine-murrine
+garuda-wallpapers
+garuda-icons
+wish-wallpapers
+## Fonts
+noto-fonts               # default font
+noto-fonts-emoji
+terminus-font
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra ttf-opensans
+>extra powerline-fonts
+>extra ttf-liberation
+
+## Network
+garuda-network
+garuda-bluetooth
+garuda-modem
+modem-manager-gui
+firewalld
+bluetooth-autoconnect
+network-manager-applet
+blueberry
+
+>extra qomui-git
+>extra gpsd
+## Libraries for Sound/Audio/Video
+
+#---------=> audio
+garuda-alsa
+garuda-pulse
+pavucontrol
+pulseaudio-equalizer-ladspa
+paprefs
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+playerctl
+#### video
+garuda-vaapi
+garuda-gstreamer
+
+
+#--------=> package management
+pamac-aur-git
+pamac-aur-tray-appindicator-git
+appimagelauncher
+bauh
+apparmor
+snapd
+snapd-glib
+fwupd
+#kalu
+## Flatpak support
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+
+#---------=> settings manager
+garuda-settings-manager
+garuda-settings-manager-knotifier
+manjaro-zsh-config
+garuda-settings-samba
+garuda-printer
+simple-scan
+garuda-ibus
+garuda-indic
+## Optional dependencies for printer
+system-config-printer  # auto-detect the printer driver
+
+
+#---------+> input and gesture support
+####input
+garuda-input
+evdev-right-click-emulation
+gesture-manager-x-git
+>extra easystroke
+#xf86-input-mtrack
+#xf86-input-synaptics
+#>extra fingerprint-gui
+
+#---------=> android and file transfer management
+android-tools
+android-udev
+
+gvfs-mtp
+gvfs
+gvfs-afc
+gvfs-nfs
+gvfs-smb
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
+
+ffmpegthumbnailer
+libgsf
+libopenraw
+librsvg
+>extra poppler-data
+>extra poppler-glib
+
+file-roller 
+###-------archive formats
+>extra arj
+>extra cpio
+>extra lha
+>extra lrzip
+>extra lzip
+>extra lzop
+>extra unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+#---------=> xorg
+xorg-server
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xkill
+
+## Desktop Utils
+perl-file-mimeinfo
+>extra perl-net-dbus
+>extra perl-x11-protocol
+xdg-user-dirs
+xdg-utils
+numlockx
+xautolock
+xbindkeys
+xcape
+#---------=> utilities
+libdvdcss
+powertop
+dmidecode
+inxi
+neofetch
+htop
+grub-btrfs
+timeshift
+timeshift-autosnap
+busybox
+hidapi
+conky-lua-nv
+micro-git
+autokey
+kdocker
+mesa-demos
+>multilib lib32-mesa-demos
+
+## Display manager
+lightdm
+accountsservice  # Enhanced user accounts handling
+
+
+#### deepin
+deepin-anything-dkms
+deepin
+deepin-kwin
+## deepin extra
+deepin-extra
+deepin-topbar
+shadowsocks-deepin
+proxychains-ng
+
+orca
+onboard
+
+pdftricks
+ciano
+shortwave-git
+
+gnome-keyring
+redshift
+qpdfview
+qbittorrent
+gparted
+>extra guiscrcpy
+>extra nitroshare
+>extra stacer
+>extra telegram-desktop
+>extra wps-office
+>extra ttf-wps-office
+>extra wps-office-mime
+>extra libmythes
+>extra thunderbird
+>extra garuda-firefox
+
+
+
+
+
+

@@ -1,0 +1,4 @@
+DISTRIB_ID=garudalinux
+DISTRIB_RELEASE=rolling
+DISTRIB_CODENAME=fusion
+DISTRIB_DESCRIPTION="garuda linux"
