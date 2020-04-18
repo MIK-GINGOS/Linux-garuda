@@ -50,6 +50,7 @@ libinput_gestures_qt
 #>extra kcm-wacomtablet
 garuda-fcitx
 garuda-indic
+kcm-fcitx
 
 #---------=> edition theming and settings
 grub-theme-garuda

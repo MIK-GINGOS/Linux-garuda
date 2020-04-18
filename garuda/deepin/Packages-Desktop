@@ -11,7 +11,7 @@ plymouth-theme-garuda
 gtk-engine-murrine
 garuda-wallpapers
 garuda-icons
-wish-wallpapers
+deepin-wallpapers-plasma
 ## Fonts
 noto-fonts               # default font
 noto-fonts-emoji
@@ -28,8 +28,8 @@ garuda-modem
 modem-manager-gui
 firewalld
 bluetooth-autoconnect
-network-manager-applet
-blueberry
+#network-manager-applet
+#blueberry
 
 >extra qomui-git
 >extra gpsd
@@ -72,7 +72,7 @@ manjaro-zsh-config
 garuda-settings-samba
 garuda-printer
 simple-scan
-garuda-ibus
+garuda-fcitx
 garuda-indic
 ## Optional dependencies for printer
 system-config-printer  # auto-detect the printer driver
@@ -82,7 +82,7 @@ system-config-printer  # auto-detect the printer driver
 ####input
 garuda-input
 evdev-right-click-emulation
-gesture-manager-x-git
+libinput_gestures_qt
 >extra easystroke
 #xf86-input-mtrack
 #xf86-input-synaptics
@@ -156,8 +156,8 @@ busybox
 hidapi
 conky-lua-nv
 micro-git
-autokey
-kdocker
+#>extra autokey
+#>extra kdocker
 mesa-demos
 >multilib lib32-mesa-demos
 
@@ -170,14 +170,13 @@ accountsservice  # Enhanced user accounts handling
 deepin-anything-dkms
 deepin
 deepin-kwin
+kwin-effects-yet-another-magic-lamp
 ## deepin extra
 deepin-extra
-deepin-topbar
 shadowsocks-deepin
 proxychains-ng
 
-orca
-onboard
+
 
 pdftricks
 ciano
@@ -185,7 +184,7 @@ shortwave-git
 
 gnome-keyring
 redshift
-qpdfview
+evince
 qbittorrent
 gparted
 >extra guiscrcpy
@@ -199,7 +198,8 @@ gparted
 >extra thunderbird
 >extra garuda-firefox
 
-
+>extra orca
+>extra onboard
 
 
 

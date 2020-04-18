@@ -77,7 +77,7 @@ garuda-settings-samba
 garuda-printer
 garuda-fcitx
 garuda-indic
-
+kcm-fcitx
 
 #---------+> input and gesture support
 ####input
