@@ -4,7 +4,7 @@
 # === This file is part of Calamares - <https://github.com/calamares> ===
 #
 #   Copyright 2014, Rohan Garg <rohan@kde.org>
-#   Copyright 2015 - 2018, Philip Müller <philm@manjaro.org>
+#   Copyright 2015,2019,2020, Philip Müller <philm@manjaro.org>
 #   Copyright 2017, Alf Gaida <agaida@sidution.org>
 #   Copyright 2019, Adriaan de Groot <groot@kde.org>
 #
@@ -22,6 +22,7 @@
 #   along with Calamares. If not, see <http://www.gnu.org/licenses/>.
 
 import libcalamares
+from libcalamares.utils import debug, target_env_call
 import os
 from collections import OrderedDict
 
@@ -100,6 +101,17 @@ def write_mkinitcpio_lines(hooks, modules, files, root_mount_point):
     with open(path, "w") as mkinitcpio_file:
         mkinitcpio_file.write("\n".join(mklins) + "\n")
 
+def detect_plymouth():
+    """
+    Checks existence (runnability) of plymouth in the target system.
+
+    @return True if plymouth exists in the target, False otherwise
+    """
+    # Used to only check existence of path /usr/bin/plymouth in target
+    isPlymouth = target_env_call(["sh", "-c", "which plymouth"])
+    debug("which plymouth exit code: {!s}".format(isPlymouth))
+
+    return isPlymouth == 0
 
 def modify_mkinitcpio_conf(partitions, root_mount_point):
     """
@@ -121,11 +133,21 @@ def modify_mkinitcpio_conf(partitions, root_mount_point):
     unencrypted_separate_boot = False
 
     # It is important that the plymouth hook comes before any encrypt hook
-    plymouth_bin = os.path.join(root_mount_point, "usr/bin/plymouth")
-    if os.path.exists(plymouth_bin):
+    if detect_plymouth():
         hooks.append("plymouth")
 
+    # Detect bootsplash theme and enable hook
+    bootsplash_folder = os.path.join(root_mount_point, "usr/lib/firmware/bootsplash-themes")
+    if os.path.exists(bootsplash_folder):
+         bootsplash_themes = os.listdir(bootsplash_folder)
+         for bootsplash_theme in bootsplash_themes:
+             hooks.append("bootsplash-{!s}".format(bootsplash_theme))
+
     for partition in partitions:
+        if partition["fs"] == "linuxswap" and not partition.get("claimed", None):
+            # Skip foreign swap
+            continue
+
         if partition["fs"] == "linuxswap":
             swap_uuid = partition["uuid"]
             if "luksMapperName" in partition:
@@ -143,6 +165,9 @@ def modify_mkinitcpio_conf(partitions, root_mount_point):
         if (partition["mountPoint"] == "/boot"
                 and "luksMapperName" not in partition):
             unencrypted_separate_boot = True
+
+        if partition["mountPoint"] == "/usr":
+            hooks.append("usr")
 
     if encrypt_hook:
         hooks.append("encrypt")
@@ -163,7 +188,7 @@ def modify_mkinitcpio_conf(partitions, root_mount_point):
         hooks.extend(["filesystems"])
 
     if btrfs == "yes" and cpu['proc0']['vendor_id'].lower() != "genuineintel":
-        modules.append("crc32c i915 amdgpu radeon virtio virtio_scsi virtio_blk virtio_pci virtio_net")
+        modules.append("crc32c amdgpu radeon virtio virtio_scsi virtio_blk virtio_pci virtio_net")
     elif (btrfs == "yes"
           and cpu['proc0']['vendor_id'].lower() == "genuineintel"):
         modules.append("crc32c-intel i915 amdgpu radeon virtio virtio_scsi virtio_blk virtio_pci virtio_net")
