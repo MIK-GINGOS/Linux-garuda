@@ -8,15 +8,14 @@ plymouth-theme-garuda
 sound-theme-smooth
 qt5ct
 kvantum-qt5
-kvantum-theme-layan-git
-#layan-kde-git
-tela-icon-theme-git
-layan-gtk-theme-git
+kvantum-theme-qogir-git
+qogir-icon-theme-git
+qogir-gtk-theme-git
 gtk-engine-murrine
-xcursor-breeze
+qogir-cursor-git
 garuda-wallpapers
 garuda-icons
-wish-wallpapers
+>extra wish-wallpapers
 ## Fonts
 noto-fonts               # default font
 
@@ -161,9 +160,9 @@ timeshift-autosnap
 busybox
 hidapi
 conky-lua-nv
-micro-git
-autokey
-kdocker
+>extra micro-git
+>extra autokey
+>extra kdocker
 mesa-demos
 >multilib lib32-mesa-demos
 
@@ -234,7 +233,7 @@ xfce4-dockbarx-plugin-gtk3-git
 >extra xfce4-wavelan-plugin
 >extra xfburn
 
-orca
+>extra orca
 onboard
 
 shortwave-git
@@ -248,9 +247,9 @@ mintstick
 galculator
 gparted
 mpv
->basic midori
->basic sylpheed
->extra catfish
+catfish
+thunderbird
+garuda-firefox
 >extra guiscrcpy
 >extra nitroshare
 >extra stacer
@@ -263,8 +262,7 @@ mpv
 >extra telegram-desktop
 >extra libreoffice-fresh
 >extra libmythes
->extra thunderbird
->extra garuda-firefox
+
 
 
 
