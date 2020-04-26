@@ -188,7 +188,7 @@ gnome-shell-extension-cpufreq-git
 gnome-shell-extension-dash-to-dock-git           
 gnome-shell-extension-gamemode-git               
 gnome-shell-extension-gsconnect                  
-gnome-shell-extension-material-shell-git         
+#gnome-shell-extension-material-shell-git         
 gnome-shell-extension-netspeed-git               
 gnome-shell-extension-refresh-wifi-git           
 gnome-shell-extension-sound-output-device-chooser
