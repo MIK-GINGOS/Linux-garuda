@@ -214,6 +214,7 @@ nautilus-sendto
 nautilus-share
 nautilus-admin
 nautilus-pdf-tools-git
+nautilus-mediainfo
 eog-plugins
 grilo-plugins
 gedit-plugins
