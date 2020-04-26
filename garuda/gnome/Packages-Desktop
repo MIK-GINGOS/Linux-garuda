@@ -184,17 +184,16 @@ gnome-shell-performance
 chrome-gnome-shell 
 gnome-tweaks 
 gnome-shell-extensions
->extra gnome-shell-extension-arc-menu-git               
->extra gnome-shell-extension-cpufreq-git                              
->extra gnome-shell-extension-dash-to-dock-git           
->extra gnome-shell-extension-gamemode-git               
->extra gnome-shell-extension-gsconnect                  
-#>extra gnome-shell-extension-material-shell-git         
->extra gnome-shell-extension-netspeed-git               
->extra gnome-shell-extension-refresh-wifi-git           
->extra gnome-shell-extension-sound-output-device-chooser
-gnome-menus       
- 
+gnome-shell-extension-arc-menu-git               
+gnome-shell-extension-dash-to-dock-git           
+gnome-shell-extension-gsconnect                  
+gnome-shell-extension-netspeed-git               
+gnome-shell-extension-refresh-wifi-git           
+gnome-shell-extension-sound-output-device-chooser
+       
+>extra gnome-shell-extension-gamemode-git
+>extra gnome-shell-extension-cpufreq-git 
+#>extra gnome-shell-extension-material-shell-git 
 ##---------> gnome apps
 #>basic celluloid
 #>basic epiphany
@@ -257,6 +256,7 @@ gnome-online-miners
 gnome-remote-desktop
 gnome-weather
 gnome-firmware
+gnome-menus
 >extra gnome-autoar                                     
 >extra gnome-backgrounds                                
 >extra gnome-books                                      

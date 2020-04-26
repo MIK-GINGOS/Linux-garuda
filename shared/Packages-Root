@@ -36,7 +36,8 @@ gcc-libs
 gettext
 glibc
 grep
-grub-garuda
+grub
+update-grub
 gzip
 haveged
 inetutils
