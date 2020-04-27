@@ -19,6 +19,7 @@ exec --no-startup-id conky
 exec --no-startup-id conky -c ~/.config/conky/conky-shcts 
 exec --no-startup-id clipman
 exec --no-startup-id dunst
+exec --no-startup-id redshift
 exec --no-startup-id desktop-items
 exec --no-startup-id nm-applet
 exec --no-startup-id pamac-tray
@@ -29,19 +30,24 @@ exec_always --no-startup-id setcursor
 #exec_always --no-startup-id ${HOME}/.config/polybar/launch.sh
 exec_always --no-startup-id numlockx on
 exec blueberry-tray
+exec --no-startup-id java -Xmx1024m -jar "/opt/xdman/xdman.jar" -m
+# start a terminal #alacritty
+bindsym $super+Return exec xfce4-terminal
+bindsym $super+t exec xfce4-terminal
+bindsym $super+Shift+Return exec terminator
 
-# start a terminal
-bindsym $super+Return exec alacritty
-bindsym $super+i exec sudo -E calamares
+# hide/unhide i3status bar
+bindsym $super+m bar mode toggle
+
 # start dmenu (a program launcher)
-bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=10'"
-bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 10'
+bindsym $super+Shift+d exec i3-dmenu-desktop --dmenu="dmenu -i -fn 'Noto Sans:size=18'"
+bindsym $super+d exec rofi -lines 12 -padding 18 -width 60 -location 0 -show drun -sidebar-mode -columns 3 -font 'Noto Sans 18'
 
 # launch categorized menu
 bindsym $super+z exec --no-startup-id sgtk-grid
 
 # exit menu
-bindsym Ctrl+$alt+Delete exec wlogout
+#bindsym Ctrl+$alt+Delete exec wlogout
 
 
 # Lock screen
@@ -49,9 +55,11 @@ bindsym $super+l exec i3lock -i /usr/share/wallpapers/garuda-wallpapers/garuda-w
 
 
 # common apps keybinds
-bindsym $super+F1 exec firefox;workspace 2;focus
-bindsym $super+F2 exec thunar;workspace 3;focus
-bindsym $super+F3 exec thunderbird;workspace 4;focus
+bindsym $super+F1 exec firefox;focus
+bindsym $super+F2 exec thunderbird;focus
+bindsym $super+F3 exec thunar;focus
+bindsym $super+F4 exec geany;focus
+bindsym $super+F9 exec flameshot gui
 
 # Screen brightness controls
 bindsym XF86MonBrightnessUp exec "xbacklight -inc 10; notify-send 'brightness up'"
@@ -77,7 +85,7 @@ bindsym $super+Shift+Print --release exec --no-startup-id i3-scrot -s
 
 # kill focused window
 bindsym $super+c kill
-bindsym $alt+F4 kill
+bindsym $super+q kill
 
 # change focus
 bindsym $super+Left focus left
@@ -166,7 +174,7 @@ bindsym $super+Shift+c reload
 bindsym $super+Shift+r restart
 
 # exit i3
-bindsym $super+q exec "i3-nagbar -t warning -m 'Really, exit?' -b 'Yes' 'i3-msg exit'"
+#bindsym $super+q exec "i3-nagbar -t warning -m 'Really, exit?' -b 'Yes' 'i3-msg exit'"
 
 # resize window (you can also use the mouse for that)
 mode "resize" {
@@ -178,22 +186,31 @@ mode "resize" {
 }
 bindsym $super+r mode "resize"
 
-# panel
-bar {
-        colors {
-        background #2f343f
-        statusline #2f343f
-        separator #4b5262
+# change borders
+bindsym $super+u border none
+bindsym $super+y border pixel 1
+bindsym $super+n border normal
 
-        # colour of border, background, and text
-        focused_workspace       #2f343f #bf616a #d8dee8
-        active_workspace        #2f343f #2f343f #d8dee8
-        inactive_workspace      #2f343f #2f343f #d8dee8
-        urgent_workspacei       #2f343f #ebcb8b #2f343f
+
+# panel
+# Start i3bar to display a workspace bar
+	
+bar {
+	status_command exec /usr/bin/net-speed.sh
+	#strip_workspace_numbers yes|no
+	#strip_workspace_name yes|no
+	colors {
+    background #2f343f
+    statusline #FFFFFF
+    separator  #666666
+
+    focused_workspace  #4C7899 #285577 #FFFFFF
+    active_workspace   #333333 #222222 #FFFFFF
+    inactive_workspace #333333 #222222 #888888
+    urgent_workspace   #2F343A #900000 #FFFFFF
+    #binding_mode      #2F343A #900000 #FFFFFF
+    # colour of border, background, and text    
     }
-	i3bar_command i3bar
-        status_command i3status
-#	position bottom
 }
 
 # hide/unhide i3status bar
@@ -233,11 +250,11 @@ for_window [class="Xfburn"] floating enable
 # window rules, you can find the window class using xprop
 for_window [class=".*"] border pixel 4
 assign [class=URxvt] 1
-assign [class=Firefox|Transmission-gtk] 2
-assign [class=Thunar|File-roller] 3
-assign [class=Geany|Evince|Gucharmap|Soffice|libreoffice*] 4
-assign [class=Audacity|Vlc|mpv|Ghb|Xfburn|Gimp*|Inkscape] 5
-assign [class=Lxappearance|System-config-printer.py|Lxtask|GParted|Pavucontrol|Exo-helper*|Lxrandr|Arandr] 6
+#assign [class=Firefox|Transmission-gtk] 2
+#assign [class=Thunar|File-roller] 3
+#assign [class=Geany|Evince|Gucharmap|Soffice|libreoffice*] 4
+#assign [class=Audacity|Vlc|mpv|Ghb|Xfburn|Gimp*|Inkscape] 5
+#assign [class=Lxappearance|System-config-printer.py|Lxtask|GParted|Pavucontrol|Exo-helper*|Lxrandr|Arandr] 6
 for_window [class=Viewnior|feh|Audacious|File-roller|Lxappearance|Lxtask|Pavucontrol] floating enable
 for_window [class=URxvt|Firefox|Geany|Evince|Soffice|libreoffice*|mpv|Ghb|Xfburn|Gimp*|Inkscape|Vlc|Lxappearance|Audacity] focus
 for_window [class=Xfburn|GParted|System-config-printer.py|Lxtask|Pavucontrol|Exo-helper*|Lxrandr|Arandr] focus
@@ -309,14 +326,21 @@ mode "$mode_gaps_outer" {
         bindsym Escape mode "default"
 }
 
+# Set shut down, restart and locking features
+bindsym $super+0 mode "$mode_system"
+set $mode_system (l)ock, (e)xit, switch_(u)ser, (s)uspend, (h)ibernate, (r)eboot, (Shift+s)hutdown
+mode "$mode_system" {
+    bindsym l exec --no-startup-id i3exit lock, mode "default"
+    bindsym s exec --no-startup-id i3exit suspend, mode "default"
+    bindsym u exec --no-startup-id i3exit switch_user, mode "default"
+    bindsym e exec --no-startup-id i3exit logout, mode "default"
+    bindsym h exec --no-startup-id i3exit hibernate, mode "default"
+    bindsym r exec --no-startup-id i3exit reboot, mode "default"
+    bindsym Shift+s exec --no-startup-id i3exit shutdown, mode "default"
 
-
-
-
-
-
-
-
-
-
+    # exit system mode: "Enter" or "Escape"
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+https://gitlab.com/garuda-linux/tools/iso-profiles/-/blob/master/garuda/i3/live-overlay/etc/skel/.config/conky/conky-shcts
 

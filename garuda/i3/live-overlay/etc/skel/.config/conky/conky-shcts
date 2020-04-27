@@ -32,7 +32,7 @@ conky.config = {
 	gap_y = 50,
   minimum_width = 350,
   minimum_height = 450,
-  maximum_width = 400,
+  maximum_width = 600,
   border_inner_margin = 0,
   border_outer_margin = 20,
   --xinerama_head = 0,
@@ -49,45 +49,46 @@ conky.config = {
   color1 = '#DDDDDD',
   color2 = '#AAAAAA',
   color3 = '#FFFFFF',
-  -- Orange EF5A29 green 159a7f
   color4 = '#808080',
-  -- Green Pihole
+  --
   color5 = '#EF5A29',
-  --color0
-  color6='#b2c8d8',
- -- color1
-  color7='#b2c8d8',
-  color8 = '#697987', -- DeepSkyBlue 00BFFF grau=323232
-  color9 = '#2d3b41', -- CadetBlue 5F9EA0, light grey
-
+  color6 = '#b2c8d8',
+  color7 = '#b2c8d8',
+  color8 = '#697987',
+  color9 = '#2d3b41',
 }
 
 conky.text = [[
 ${font Play:size=10:style=normal}
-${color2}open Terminal - ${alignr}${color}super+Enter
+${color2}open terminal - ${alignr}${color}super+enter
 ${color2}open browser - ${alignr}${color}super+F1
-${color2}open Filemanager - ${alignr}${color}super+F2
+${color2}open filemanager - ${alignr}${color}super+F2
 ${color2}open mail - ${alignr}${color}super+F3
+${color2}open text - ${alignr}${color}super+F4
 
-${color2}rofi - ${alignr}${color}super+d
-${color2}sgtk-grid - ${alignr}${color}super+z
-${color2}Screenshot - ${alignr}${color}Print
+#rofi
+${color2}application launcher ... - ${alignr}${color}super+d
+#sgt-grid
+${color2}gui application launcher - ${alignr}${color}super+z
+${color2}screenshot - ${alignr}${color}print
 
 ${color2}resize window - ${alignr}${color}super+r
-${color2}kill focused - ${alignr}${color}alt+f4
+${color2}kill focused - ${alignr}${color}super+c | super+q
 ${color2}toggle split direction - ${alignr}${color}super+shift+q
-${color2}toggle floating - ${alignr}${color}super+Shift+Space
+${color2}toggle floating - ${alignr}${color}super+shift+space
 ${color2}toggle fullscreen - ${alignr}${color}super+f
+# switch to workspace
 ${color2}switch to workspace 1-8 - ${alignr}${color}super+1-8
-${color2}send to workspace 1-8 - ${alignr}${color}super+Ctrl+1-8
-${color2}navigate workspaces - ${alignr}${color}super+Ctrl+arrowkeys
-${color2}navigate windows - ${alignr}${color}super+Shift+arrowkeys
-${color2}Change Focus - ${alignr}${color}super+arrowkeys
+# move focused container to workspace
+${color2}send to workspace 1-8 - ${alignr}${color}super+shift+1-8
+# Move to workspace with focused container
+${color2}move to workspace 1-8 - ${alignr}${color}alt+shift+1-8
+${color2}navigate workspaces - ${alignr}${color}super+ctrl+arrowkeys
+${color2}navigate windows - ${alignr}${color}super+shift+arrowkeys
+${color2}change focus - ${alignr}${color}super+arrowkeys
 ${color2}restart i3 inplace - ${alignr}${color}super+shift+r
 ${color2}reload config file - ${alignr}${color}super+shift+c
-${color2}logout - ${alignr}${color}super+q
-${color2}exit - ${alignr}${color}ctrl+alt+delete
+${color2}logout, reboot, shutdown ... - ${alignr}${color}super+0
 
 ${color2}install Garuda Linux - ${alignr}${color}super+i
 ]];
-
