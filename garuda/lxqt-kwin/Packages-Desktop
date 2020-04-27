@@ -23,7 +23,7 @@ cmst
 >extra wds-git
 garuda-modem
 modem-manager-gui
->extra gpsd
+gpsd
 garuda-bluetooth
 bluedevil
 >extra nx-firewall-git
@@ -47,7 +47,7 @@ garuda-input
 libinput_gestures_qt
 >extra easystroke
 >extra fingerprint-gui
-#>extra kcm-wacomtablet
+>extra wacom-utility
 garuda-fcitx
 garuda-indic
 kcm-fcitx
@@ -57,10 +57,6 @@ grub-theme-garuda
 plymouth-theme-garuda
 sound-theme-smooth
 kvantum-qt5
-kvantum-theme-layan-git
-#layan-kde-git
-tela-icon-theme-git
-layan-gtk-theme-git
 gtk-engine-murrine
 wish-wallpapers
 garuda-wallpapers
@@ -80,10 +76,10 @@ sddm
 sddm-kcm
 qt5-virtualkeyboard
 #---------=> kwin window manager
-kwin-lowlatency
+kwin
 kde-cli-tools
 plasma-workspace
-#kwin-decoration-sierra-breeze-enhanced-git
+kwin-decoration-sierra-breeze-enhanced-git
 
 plymouth-kcm
 #---------=> lxqt core
@@ -190,11 +186,9 @@ imagewriter
 audacious
 audacious-plugins
 stacer
->basic falkon
->basic trojita
 >extra simplescreenrecorder
 >extra guvcview-qt
->extra guiscrcpy-git
+>extra guiscrcpy
 >extra kdeconnect
 >extra sshfs
 >extra systemdgenie
@@ -210,7 +204,7 @@ stacer
 >extra lector
 >extra qvkbd
 >extra meteo-qt-git
->extra shortwave-git
+>extra shortwave
 >extra redshift-qt
 ##------------> office
 qpdfview
@@ -225,8 +219,8 @@ featherpad-git
 #>extra jre-openjdk
 
 ## Internet applications
->extra thunderbird
->extra garuda-firefox
+thunderbird
+garuda-firefox
 #>extra firefox-extension-plasma-integration
 
 
