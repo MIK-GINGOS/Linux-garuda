@@ -62,7 +62,7 @@ apparmor
 snapd
 snapd-glib
 fwupd
-kalu-kde
+#kalu-kde
 ## Flatpak support
 flatpak
 xdg-desktop-portal

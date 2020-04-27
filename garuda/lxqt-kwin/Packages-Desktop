@@ -175,7 +175,7 @@ xdg-desktop-portal-kde
 
 pamac-aur-git
 pamac-aur-tray-appindicator-git
-kalu-kde
+#kalu-kde
 #---------=> applications
 speedcrunch
 qbittorrent
