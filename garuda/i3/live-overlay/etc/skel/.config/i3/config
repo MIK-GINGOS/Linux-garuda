@@ -50,7 +50,7 @@ bindsym $super+z exec --no-startup-id sgtk-grid
 #bindsym Ctrl+$alt+Delete exec wlogout
 
 # Garuda Linux install
-bindsym $super+i exec calamares-git
+bindsym $super+i exec sudo -E calamares
 
 # Lock screen
 bindsym $super+l exec i3lock -i /usr/share/wallpapers/garuda-wallpapers/garuda-wp-scratch-02-2160p-sgs.png
