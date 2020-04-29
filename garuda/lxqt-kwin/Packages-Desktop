@@ -64,7 +64,7 @@ garuda-icons
 #---------=> fonts
 freetype2
 noto-fonts               # default font
->extra noto-font-cjk
+>extra noto-fonts-cjk
 >extra noto-fonts-emoji
 terminus-font
 >extra powerline-fonts
