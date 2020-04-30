@@ -214,8 +214,6 @@ bar {
     }
 }
 
-# hide/unhide i3status bar
-bindsym $super+m bar mode toggle
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
