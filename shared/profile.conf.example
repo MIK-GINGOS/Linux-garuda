@@ -51,7 +51,7 @@
 # addgroups="lp,network,power,wheel"
 
 # the same workgroup name if samba is used
-# smb_workgroup="Manjaro"
+# smb_workgroup="Garuda"
 
 # default system shell is bash
 # '/etc/defaults/useradd': " "
@@ -62,15 +62,15 @@
 ################# live-session #################
 
 # unset defaults to given value
-# hostname="manjaro"
+# hostname="garuda"
 
 # unset defaults to given value
-# username="manjaro"
+# username="garuda"
 
 # unset defaults to given value
-# password="manjaro"
+# password="garuda"
 
 # unset defaults to given values
 # names must match systemd service names
 # services in enable_systemd array don't need to be listed here
-# enable_systemd_live=('manjaro-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
+# enable_systemd_live=('garuda-live' 'mhwd-live' 'pacman-init' 'mirrors-live')

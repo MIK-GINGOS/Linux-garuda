@@ -2,7 +2,7 @@
 
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
-GRUB_DISTRIBUTOR="ManjaroWish"
+GRUB_DISTRIBUTOR="Garuda"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash apparmor=1 security=apparmor audit=0 loglevel=3 rd.udev.log_priority=3 vt.global_cursor_default=0 apparmor=1 security=apparmor"
 GRUB_CMDLINE_LINUX=""
 
@@ -44,7 +44,7 @@ GRUB_COLOR_HIGHLIGHT="green/black"
 
 # Uncomment one of them for the gfx desired, a image background or a gfxtheme
 #GRUB_BACKGROUND="/usr/share/grub/background.png"
-GRUB_THEME="/usr/share/grub/themes/manjaro/theme.txt"
+GRUB_THEME="/usr/share/grub/themes/garuda/theme.txt"
 
 # Uncomment to get a beep at GRUB start
 #GRUB_INIT_TUNE="480 440 1"
