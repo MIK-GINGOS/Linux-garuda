@@ -2,7 +2,7 @@
 
 GRUB_DEFAULT=0
 GRUB_TIMEOUT=5
-GRUB_DISTRIBUTOR="Garuda"
+GRUB_DISTRIBUTOR="garuda"
 GRUB_CMDLINE_LINUX_DEFAULT="quiet splash apparmor=1 security=apparmor audit=0 loglevel=3 rd.udev.log_priority=3 vt.global_cursor_default=0 apparmor=1 security=apparmor"
 GRUB_CMDLINE_LINUX=""
 

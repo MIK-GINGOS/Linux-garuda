@@ -134,4 +134,4 @@ ${profile_dir}/user-repos.conf
 
 
 ###### Calamares
-* netgroups definitions go in [this](https://github.com/manjaro/calamares-netgroups) repo please
+* netgroups definitions go in [this](https://github.com/garuda/calamares-netgroups) repo please

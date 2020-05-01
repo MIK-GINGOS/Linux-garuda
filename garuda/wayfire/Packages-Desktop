@@ -86,14 +86,14 @@ net-tools
 qomui  # openvpn gui with firewall
 #firewalld  #requires networkmanager
 #---------=> settings manager
-manjaro-settings-manager
-#manjaro-settings-manager-notifier
+garuda-settings-manager
+#garuda-settings-manager-notifier
 manjaro-zsh-config
-manjaro-hotfixes
-manjaro-base-skel
+garuda-hotfixes
+garuda-base-skel
 #mntray
 #---------=> edition theming and settings
-grub-theme-manjaro
+grub-theme-garuda
 kvantum-qt5
 qt5ct
 gtk-engine-murrine
@@ -240,8 +240,8 @@ flashplugin
 >extra libreoffice-fresh
 >extra libmythes
 >extra evolution
->extra manjaro-settings-samba
->extra manjaro-printer
+>extra garuda-settings-samba
+>extra garuda-printer
 >extra simple-scan
 >extra bluez-cups
 >extra gufw
