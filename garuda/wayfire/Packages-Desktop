@@ -88,6 +88,10 @@ qomui  # openvpn gui with firewall
 #---------=> settings manager
 garuda-settings-manager
 #garuda-settings-manager-notifier
+garuda-boot-repair-git
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
 manjaro-zsh-config
 garuda-hotfixes
 garuda-base-skel
