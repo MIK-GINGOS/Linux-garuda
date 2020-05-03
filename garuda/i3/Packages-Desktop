@@ -99,9 +99,7 @@ system-config-printer  # auto-detect the printer driver
 garuda-input
 evdev-right-click-emulation
 gesture-manager-x-git
->extra easystroke
-#xf86-input-mtrack
-#xf86-input-synaptics
+
 #>extra fingerprint-gui
 
 #---------=> android and file transfer management
@@ -157,7 +155,6 @@ xdg-user-dirs
 xdg-utils
 numlockx
 xautolock
-xbindkeys
 xcape
 xdotool
 wmctrl

@@ -91,9 +91,7 @@ system-config-printer  # auto-detect the printer driver
 garuda-input
 evdev-right-click-emulation
 gesture-manager-x-git
->extra easystroke
-#xf86-input-mtrack
-#xf86-input-synaptics
+
 #>extra fingerprint-gui
 
 
@@ -154,7 +152,6 @@ xdg-user-dirs
 xdg-utils
 numlockx
 xautolock
-xbindkeys
 xcape
 #---------=> utilities
 libdvdcss

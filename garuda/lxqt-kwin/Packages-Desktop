@@ -49,7 +49,6 @@ system-config-printer
 garuda-input
 >extra plasma-thunderbolt
 libinput_gestures_qt
->extra easystroke
 >extra fingerprint-gui
 >extra wacom-utility
 garuda-fcitx
@@ -112,7 +111,7 @@ htop
 powertop
 numlockx
 xautolock
-xbindkeys
+
 xcape
 libdvdcss
 busybox

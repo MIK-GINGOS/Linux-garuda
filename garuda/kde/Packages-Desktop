@@ -88,9 +88,7 @@ kcm-fcitx
 garuda-input
 evdev-right-click-emulation
 libinput_gestures_qt
->extra easystroke
-#xf86-input-mtrack
-#xf86-input-synaptics
+
 #>extra fingerprint-gui
 
 #---------=> xorg
@@ -109,7 +107,6 @@ xdg-utils
 numlockx
 xautolock
 xdg-user-dirs
-xbindkeys
 xcape
 kdocker
 autokey

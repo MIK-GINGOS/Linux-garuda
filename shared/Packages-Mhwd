@@ -33,12 +33,6 @@ libva-vdpau-driver
 >multilib lib32-libva-vdpau-driver
 
 
-pangox-compat
-libxaw
-libxpm
-libxvmc
->multilib lib32-libxvmc
-
 qemu-guest-agent
 open-vm-tools
 spice-vdagent
