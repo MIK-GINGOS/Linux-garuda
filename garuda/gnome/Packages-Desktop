@@ -167,8 +167,8 @@ busybox
 hidapi
 conky-lua-nv
 >extra micro-git
->extra autokey
->extra kdocker
+#>extra autokey
+#>extra kdocker
 mesa-demos
 >multilib lib32-mesa-demos
 
@@ -268,10 +268,11 @@ gnome-menus
 >extra gnome-code-assistance                                                        
 >extra gnome-dictionary                                 
 >extra gnome-documents                                                                                                                                                        
->extra gnome-font-viewer                                                                                           
->extra gnome-icon-theme                                 
->extra gnome-icon-theme-extras                          
->extra gnome-icon-theme-symbolic                                                    
+>extra gnome-font-viewer     
+#>extra gnome-themes-extra                                                                                          
+#>extra gnome-icon-theme                                 
+#>extra gnome-icon-theme-extras                          
+#>extra gnome-icon-theme-symbolic                                                    
 >extra gnome-latex                                      
 >extra gnome-maps                                                                                                                                                  
 >extra gnome-multi-writer                               
@@ -284,11 +285,10 @@ gnome-menus
 >extra gnome-power-manager                              
 >extra gnome-recipes                                    
 >extra gnome-sound-recorder                             
->extra gnome-subtitles                                                                
->extra gnome-themes-extra                               
+>extra gnome-subtitles                                                                                           
 >extra gnome-todo                                                                           
 >extra gnome-twitch                                     
->extra gnome-usage                                                                                                 
+#>extra gnome-usage                                                                                                 
 #>extra gnome-network-displays 
 
 
@@ -319,6 +319,7 @@ firefox-extension-gnome-shell-integration
 >extra converseen
 >extra gnac
 >extra gimp
+>extra inkscape
 >extra pitivi
 >extra audacity
 #---------->>virtualization
@@ -334,111 +335,111 @@ firefox-extension-gnome-shell-integration
 >extra qemu-block-rbd
 >extra qemu-arch-extra
 #-----------=>games
->extra aisleriot
->extra gnuchess
->extra quadrapassel
->extra gnome-chess
->extra gnome-mahjongg
->extra gnome-klotski
->extra gnome-mines
->extra gnome-nibbles
->extra minetest
->extra minetest-server
->extra teeworlds
->extra gnome-games
->extra gnome-2048 
->extra gnome-robots
->extra gnome-tetravex
->extra gnome-taquin
->extra gnome-sudoku  
->extra quadrapssel
->extra five-or-more
->extra four-in-row
->extra hitori
->extra iagno
->extra lightsoff
->extra swell-foop
->extra tali
->extra mari0
+#>extra aisleriot
+#>extra gnuchess
+#>extra quadrapassel
+#>extra gnome-chess
+#>extra gnome-mahjongg
+#>extra gnome-klotski
+#>extra gnome-mines
+#>extra gnome-nibbles
+#>extra minetest
+#>extra minetest-server
+#>extra teeworlds
+#>extra gnome-games
+#>extra gnome-2048 
+#>extra gnome-robots
+#>extra gnome-tetravex
+#>extra gnome-taquin
+#>extra gnome-sudoku  
+>#extra quadrapssel
+#>extra five-or-more
+#>extra four-in-row
+#>extra hitori
+#>extra iagno
+#>extra lightsoff
+#>extra swell-foop
+#>extra tali
+#>extra mari0
 
 ####gaming tools
->extra corectrl
->extra fancontrol-gui-git
->extra gwe
->extra piper
->extra goverlay-git
->extra mangohud-git
->extra lib32-mangohud-git
->extra gamemode
->extra lib32-gamemode
->extra vkbasalt
->extra vulkan-tools
+#>extra corectrl
+#>extra fancontrol-gui-git
+#>extra gwe
+#>extra piper
+#>extra goverlay-git
+#>extra mangohud-git
+#>extra lib32-mangohud-git
+#>extra gamemode
+#>extra lib32-gamemode
+#>extra vkbasalt
+#>extra vulkan-tools
 
 ## Game launchers 
 
->extra steam
->extra steam-native-runtime
->extra linux-steam-integration
->extra lutris
->extra gamehub
->extra itch
->extra gamerworld
->extra minigalaxy
->extra ialauncher-git
->extra athenaeum-git
->extra python-numpy
->extra moonlight-qt
->extra pegasus-frontend-git
+#>extra steam
+#>extra steam-native-runtime
+#>extra linux-steam-integration
+#>extra lutris
+#>extra gamehub
+#>extra itch
+#>extra gamerworld
+#>extra minigalaxy
+#>extra ialauncher-git
+#>extra athenaeum-git
+#>extra python-numpy
+#>extra moonlight-qt
+#>extra pegasus-frontend-git
 
 
 
 #### controller 
 
->extra antimicrox
->extra linuxconsole
->extra xboxdrv
->extra xpadneo-dkms-git
->extra steamos-xpad-dkms
->extra xow-git
->extra xbox-generic-controller
->extra koku-xinput-wine
+#>extra antimicrox
+#>extra linuxconsole
+#>extra xboxdrv
+#>extra xpadneo-dkms-git
+#>extra steamos-xpad-dkms
+#>extra xow-git
+#>extra xbox-generic-controller
+#>extra koku-xinput-wine
 
 
 #### games emulators
->extra emulationstation
->extra libretro
->extra ppsspp
->extra pcsxr
->extra pcsx2-git
->extra rpcs3-git
->extra yuzu-mainline-git
+#>extra emulationstation
+#>extra libretro
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
 
 ####wine additions
->extra lutris-wine-meta
->extra wine-staging
->extra wine-gecko 
->extra wine-mono 
->extra wine-nine
->extra wine-installer-git
->extra winetricks-git
->extra wineasio-git
->extra q4wine
->extra execute-git
->extra exe-thumbnailer
->extra fuseiso
->extra openh264
->extra ocl-icd
->extra vkd3d
->extra faudio
->extra vulkan-icd-loader
->extra vulkan-validation-layers
->extra lib32-vulkan-icd-loader
->extra lib32-vulkan-validation-layers
->extra lib32-v4l-utils
->extra lib32-ocl-icd
->extra lib32-libxslt
->extra lib32-vkd3d
->extra lib32-faudio
->extra lib32-gst-plugins-base-libs
->extra dxvk-mingw-git
->extra dosbox
+#>extra lutris-wine-meta
+#>extra wine-staging
+#>extra wine-gecko 
+#>extra wine-mono 
+#>extra wine-nine
+#>extra wine-installer-git
+#>extra winetricks-git
+#>extra wineasio-git
+#>extra q4wine
+#>extra execute-git
+#>extra exe-thumbnailer
+#>extra fuseiso
+#>extra openh264
+#>extra ocl-icd
+#>extra vkd3d
+#>extra faudio
+#>extra vulkan-icd-loader
+#>extra vulkan-validation-layers
+#>extra lib32-vulkan-icd-loader
+#>extra lib32-vulkan-validation-layers
+#>extra lib32-v4l-utils
+#>extra lib32-ocl-icd
+#>extra lib32-libxslt
+#>extra lib32-vkd3d
+#>extra lib32-faudio
+#>extra lib32-gst-plugins-base-libs
+#>extra dxvk-mingw-git
+#>extra dosbox
