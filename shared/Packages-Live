@@ -7,3 +7,4 @@ garuda-live-systemd
 mkinitcpio-nfs-utils
 nbd
 #clonezilla
+garuda-boot-repair-git
