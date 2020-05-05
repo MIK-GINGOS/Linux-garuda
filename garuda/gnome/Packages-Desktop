@@ -229,7 +229,6 @@ cheese
 orca
 drawing
 gcolor3
-#>extra guake
 baobab
 dconf-editor
 peek
@@ -290,7 +289,8 @@ gnome-menus
 >extra gnome-twitch                                     
 #>extra gnome-usage                                                                                                 
 #>extra gnome-network-displays 
-
+#>extra guake
+#>extra caffeine-ng
 
 #---------=> applications
 shortwave
@@ -303,7 +303,6 @@ firefox-extension-gnome-shell-integration
 >extra telegram-desktop
 >extra guiscrcpy
 >extra bleachbit
-#>extra caffeine-ng
 >extra remmina
 >extra accerciser
 >extra devhelp
@@ -322,6 +321,7 @@ firefox-extension-gnome-shell-integration
 >extra inkscape
 >extra pitivi
 >extra audacity
+
 #---------->>virtualization
 >extra ebtables
 >extra bridge-utils
@@ -334,6 +334,7 @@ firefox-extension-gnome-shell-integration
 >extra qemu-block-iscsi
 >extra qemu-block-rbd
 >extra qemu-arch-extra
+
 #-----------=>games
 #>extra aisleriot
 #>extra gnuchess
@@ -443,3 +444,5 @@ firefox-extension-gnome-shell-integration
 #>extra lib32-gst-plugins-base-libs
 #>extra dxvk-mingw-git
 #>extra dosbox
+
+flameshot
