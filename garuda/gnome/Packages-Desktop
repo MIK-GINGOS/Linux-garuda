@@ -303,14 +303,14 @@ firefox-extension-gnome-shell-integration
 >extra telegram-desktop
 >extra guiscrcpy
 >extra bleachbit
->extra caffeine-ng
+#>extra caffeine-ng
 >extra remmina
 >extra accerciser
 >extra devhelp
 >extra polari
 >extra sysprof
 >extra ghex
->extra glables
+>extra glabels
 >extra gtranslator
 >extra gucharmap
 >extra gydl-git
@@ -352,7 +352,7 @@ firefox-extension-gnome-shell-integration
 #>extra gnome-tetravex
 #>extra gnome-taquin
 #>extra gnome-sudoku  
->#extra quadrapssel
+#>extra quadrapssel
 #>extra five-or-more
 #>extra four-in-row
 #>extra hitori
