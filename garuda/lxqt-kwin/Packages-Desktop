@@ -83,7 +83,7 @@ kde-cli-tools
 plasma-workspace
 kwin-decoration-sierra-breeze-enhanced-git
 
-plymouth-kcm
+#plymouth-kcm
 #---------=> lxqt core
 lxqt-about-git
 lxqt-admin-git
