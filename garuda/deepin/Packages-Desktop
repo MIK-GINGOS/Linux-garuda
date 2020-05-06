@@ -189,10 +189,10 @@ qbittorrent
 gparted
 >extra guiscrcpy
 >extra nitroshare
->extra stacer
+stacer
 >extra telegram-desktop
 >extra wps-office
->extra ttf-wps-office
+>extra ttf-wps-fonts
 >extra wps-office-mime
 >extra libmythes
 >extra thunderbird
