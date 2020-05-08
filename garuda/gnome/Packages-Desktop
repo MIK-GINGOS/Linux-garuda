@@ -186,13 +186,16 @@ gnome-tweaks
 gnome-shell-extensions
 gnome-shell-extension-arc-menu-git               
 gnome-shell-extension-dash-to-dock-git           
-gnome-shell-extension-gsconnect                  
+gnome-shell-extension-gsconnect-git                  
 gnome-shell-extension-netspeed-git               
 gnome-shell-extension-refresh-wifi-git           
-gnome-shell-extension-sound-output-device-chooser
-       
->extra gnome-shell-extension-gamemode-git
->extra gnome-shell-extension-cpufreq-git 
+gnome-shell-extension-sound-output-device-chooser-git
+gnome-shell-extension-dash-to-panel-git
+gnome-shell-extension-appindicator-git
+gnome-shell-extension-unite-git
+#>extra gnome-shell-extension-pop-shell-git      
+#>extra gnome-shell-extension-gamemode-git
+#>extra gnome-shell-extension-cpufreq-git 
 #>extra gnome-shell-extension-material-shell-git 
 ##---------> gnome apps
 #>basic celluloid
@@ -299,6 +302,7 @@ garuda-firefox
 firefox-extension-gnome-shell-integration
 firefox-extension-gsconnect
 stacer
+usbguard
 >extra libreoffice-fresh
 >extra libmythes
 >extra discord
