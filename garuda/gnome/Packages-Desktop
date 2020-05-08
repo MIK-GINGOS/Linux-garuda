@@ -31,8 +31,8 @@ garuda-modem
 modem-manager-gui
 firewalld
 bluetooth-autoconnect
-network-manager-applet
-blueberry
+#network-manager-applet
+#blueberry
 
 >extra qomui-git
 >extra gpsd
@@ -232,6 +232,7 @@ baobab
 dconf-editor
 peek
 yelp
+meld
 gnome-bluetooth 
 gnome-contacts
 gnome-calendar

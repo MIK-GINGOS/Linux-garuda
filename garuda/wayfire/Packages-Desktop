@@ -2,118 +2,353 @@
 #### EDITION BASE PACKAGES
 wayfire-default-settings
 performance-tweaks
-#---------=> audio
-alsa-firmware
-alsa-utils
-alsa-lib
->multilib lib32-alsa-lib
->multilib lib32-alsa-plugins
->multilib lib32-libpulse
-libcanberra
->multilib lib32-libcanberra
-libcanberra-pulse
->multilib lib32-libcanberra-pulse
-libcanberra-gstreamer
-libldac
-fluidsynth
->multilib lib32-fluidsynth
-playerctl
-pulseaudio-alsa
-pulseaudio-ctl
-pulseaudio-jack
-pulseaudio-zeroconf
-pavucontrol
-pulseaudio-equalizer-ladspa
-pulseaudio-modules-bt-git
-####video
 
-ffmpeg
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gst-plugins-espeak
->multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
-libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
-mesa-demos
->multilib lib32-mesa-demos
+#---------=> edition theming and settings
+grub-theme-garuda
+plymouth-theme-garuda
+kvantum-qt5
+qt5ct
+gtk-engine-murrine
+xcursor-breeze
+sound-theme-smooth
+garuda-wallpapers
+garuda-icons
 
-#---------=> fonts
-freetype2
-noto-fonts
->extra terminus-font
+## Fonts
+noto-fonts               # default font
+
+noto-fonts-emoji
+terminus-font
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra ttf-opensans
 >extra powerline-fonts
 >extra ttf-liberation
->extra ttf-indic-otf
->extra ttf-lohit-fonts
-#---------+> input and gesture support
 
-####input
-evdev-right-click-emulation
-libinput-gestures
-gesture-manager-x-git
-#---------=> xorg
-xorg-server-xwayland 
-xorg-xhost
-
-#---------=> network
-avahi
-openssh
-openssl
-openresolv
-openvpn
-openconnect
-pptpclient
-wpa_supplicant
-#connman
-pacrunner
-ofono
-nss-mdns
-usb_modeswitch
-wds
-mobile-broadband-provider-info
+## Network
+garuda-network
+garuda-bluetooth
+garuda-modem
 modem-manager-gui
-#cmst
+firewalld
+bluetooth-autoconnect
+network-manager-applet
 blueberry
-connman-gtk-git
-ebtables
-net-tools
-qomui  # openvpn gui with firewall
-#firewalld  #requires networkmanager
+
+>extra qomui-git
+>extra gpsd
+## Libraries for Sound/Audio/Video
+
+#---------=> audio
+garuda-alsa
+garuda-pulse
+pavucontrol
+pulseaudio-equalizer-ladspa
+paprefs
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+playerctl
+#### video
+garuda-vaapi
+garuda-gstreamer
+
+
+#--------=> package management
+pamac-aur-git
+pamac-aur-tray-appindicator-git
+appimagelauncher
+bauh
+apparmor
+snapd
+snapd-glib
+fwupd
+#kalu
+## Flatpak support
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+
 #---------=> settings manager
 garuda-settings-manager
-#garuda-settings-manager-notifier
-garuda-boot-repair-git
+garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
 manjaro-zsh-config
-garuda-hotfixes
-garuda-base-skel
-#mntray
-#---------=> edition theming and settings
-grub-theme-garuda
-kvantum-qt5
-qt5ct
-gtk-engine-murrine
-gtk3
-xcursor-breeze
-papirus-maia-icon-theme
-matcha-gtk-theme
-kvantum-theme-matchama
-dconf-editor
-#--------=> package management
-pamac-gtk
-#pamac-snap-plugin 
+garuda-settings-samba
+garuda-printer
+simple-scan
+garuda-ibus
+garuda-indic
+## Optional dependencies for printer
+system-config-printer  # auto-detect the printer driver
+
+>extra system-config-samba    # samba config gui
+
+#---------+> input and gesture support
+####input
+garuda-input
+evdev-right-click-emulation
+gesture-manager-x-git
+
+#>extra fingerprint-gui
+
+
+#---------=> android and file transfer management
+android-tools
+android-udev
+
+gvfs-mtp
+gvfs
+gvfs-afc
+gvfs-nfs
+gvfs-smb
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
+
+ffmpegthumbnailer
+libgsf
+libopenraw
+librsvg
+>extra poppler-data
+>extra poppler-glib
+
+file-roller
+###-------archive formats
+>extra arj
+>extra cpio
+>extra lha
+>extra lrzip
+>extra lzip
+>extra lzop
+>extra unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+#---------=> xorg
+xorg-server-xwayland 
+xorg-xhost
+
+
+
+
+## Desktop Utils
+perl-file-mimeinfo
+>extra perl-net-dbus
+>extra perl-x11-protocol
+xdg-user-dirs
+xdg-utils
+numlockx
+xautolock
+xcape
+#---------=> utilities
+libdvdcss
+powertop
+dmidecode
+inxi
+neofetch
+htop
+grub-btrfs
+timeshift
+timeshift-autosnap
+busybox
+hidapi
+conky-lua-nv
+>extra micro-git
+#>extra autokey
+#>extra kdocker
+mesa-demos
+>multilib lib32-mesa-demos
+
+
+egl-wayland
+qt5-wayland
 #---------=> display manager and theme
 sddm
 sddm-theme-matcha
 qt5-virtualkeyboard
+##---------> gnome apps
+#>basic celluloid
+#>basic epiphany
+#>basic geary
+evolution
+gpaste
+gedit
+eog
+evince
+fragments
+totem
+file-roller
+nautilus
+nautilus-bluetooth
+nautilus-image-converter
+nautilus-sendto
+nautilus-share
+nautilus-admin
+nautilus-pdf-tools-git
+nautilus-mediainfo
+eog-plugins
+grilo-plugins
+gedit-plugins
+sushi
+seahorse-nautilus
+gtkhash-nautilus
+seahorse
+vino
+rygel
+mousetweaks
+cheese
+orca
+drawing
+gcolor3
+baobab
+dconf-editor
+peek
+yelp
+gnome-bluetooth 
+gnome-contacts
+gnome-calendar
+gnome-calculator
+gnome-clocks
+gnome-common
+gnome-control-center                             
+gnome-desktop  
+gnome-disk-utility
+gnome-keyring 
+gnome-logs 
+gnome-music 
+gnome-notes
+gnome-screenshot
+gnome-system-monitor                                                                          
+gnome-terminal-transparency
+gnome-user-share
+gnome-search-tool
+gnome-online-accounts                            
+gnome-online-miners 
+gnome-remote-desktop
+gnome-weather
+gnome-firmware
+gnome-menus
+>extra gnome-autoar                                     
+>extra gnome-backgrounds                                
+>extra gnome-books                                      
+>extra gnome-boxes                                      
+>extra gnome-break-timer                                
+>extra gnome-builder                                                                    
+>extra gnome-characters                                                                       
+>extra gnome-code-assistance                                                        
+>extra gnome-dictionary                                 
+>extra gnome-documents                                                                                                                                                        
+>extra gnome-font-viewer     
+#>extra gnome-themes-extra                                                                                          
+#>extra gnome-icon-theme                                 
+#>extra gnome-icon-theme-extras                          
+#>extra gnome-icon-theme-symbolic                                                    
+>extra gnome-latex                                      
+>extra gnome-maps                                                                                                                                                  
+>extra gnome-multi-writer                               
+>extra gnome-nettool                                    
+>extra gnome-passwordsafe                               
+>extra gnome-phone-manager                              
+>extra gnome-photos                                     
+>extra gnome-pie                                        
+>extra gnome-podcasts                                   
+>extra gnome-power-manager                              
+>extra gnome-recipes                                    
+>extra gnome-sound-recorder                             
+>extra gnome-subtitles                                                                                           
+>extra gnome-todo                                                                           
+>extra gnome-twitch                                     
+#>extra gnome-usage                                                                                                 
+#>extra gnome-network-displays 
+#>extra guake
+#>extra caffeine-ng
+#---------=> applications
+qbittorrent
+>extra meld
+>extra obs-studio
+>extra wlrobs-hg
+
+#---------=> applications
+shortwave
+popsicle-git
+garuda-firefox
+firefox-extension-gnome-shell-integration
+firefox-extension-gsconnect
+stacer
+>extra libreoffice-fresh
+>extra libmythes
+>extra discord
+>extra telegram-desktop
+>extra guiscrcpy
+>extra remmina
+>extra accerciser
+>extra devhelp
+>extra polari
+>extra sysprof
+>extra ghex
+>extra glabels
+>extra gtranslator
+>extra gucharmap
+>extra gydl-git
+>extra gespeaker
+>extra transmageddon
+>extra converseen
+>extra gnac
+>extra gimp
+>extra inkscape
+>extra pitivi
+>extra audacity
+
+#---------->>virtualization
+>extra ebtables
+>extra bridge-utils
+>extra gnu-netcat
+>extra qemu
+>extra radvd
+>extra ceph
+>extra ovmf
+>extra qemu-block-gluster
+>extra qemu-block-iscsi
+>extra qemu-block-rbd
+>extra qemu-arch-extra
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #---------=> WayfireWM
 wayfire-git
 wf-config-git
@@ -143,109 +378,7 @@ egl-wayland
 qt5-wayland
 ydotool-git
 
-#---------=> utilities
-libdvdcss
-dmidecode
-inxi
-neofetch
-htop
-mesa-demos
-perl-file-mimeinfo
-xdg-user-dirs-gtk
-xdg-utils
-xdg-su
-grub-btrfs
-timeshift-autosnap
-systemd-guest-user
-gnome-keyring
-#---------=> improve responsiveness 
-systemd-swap
-preload
-irqbalance
-nohang-git
-ananicy-git
-kernel-alive
-#---------=> android and file transfer management
-android-tools
-android-udev
-###opt-deps 
-gvfs
-gvfs-mtp
-gvfs-afc
-gvfs-gphoto2
->extra gvfs-goa
->extra gvfs-google
->extra gvfs-nfs
->extra gvfs-smb
-#---------=> applications
->basic epiphany
-gedit
-nautilus
-file-roller
-eog
-evince
-gnome-terminal-fedora
-lollypop
-totem
-qbittorrent
-unrar
-unace
-p7zip
-poppler-data
-nautilus-admin
-nautilus-empty-file
-sushi
-ffmpegthumbnailer
-gnome-disk-utility
-gnome-calculator
-gnome-sound-recorder
-gnome-logs
-shortwave
-cheese
-stacer
-imagewriter
-guiscrcpy
-gydl-git
-youtube-dl
-flashplugin
-#filemanager-actions
->extra nautilus-bluetooth
->extra nautilus-image-converter
->extra nautilus-sendto
->extra nautilus-share
->extra eog-plugins
->extra gedit-plugins
->extra grilo-plugins
->extra meld
->extra remmina
->extra freerdp
->extra lanshare
->extra gnome-notes
->extra gnome-todo
->extra gnome-clocks
->extra gnome-weather
->extra gnome-maps
->extra seahorse-nautilus
->extra gtkhash-nautilus
->extra obs-studio
->extra wlrobs-hg
->extra xdman
->extra keepassxc
->extra gespeaker
->extra firefox
->extra firefox-extension-https-everywhere 
->extra firefox-decentraleyes
->extra firefox-extension-privacybadger 
->extra firefox-ublock-origin 
->extra firefox-dark-reader
->extra firefox-extension-google-search-link-fix
->extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-keepassxc-browser
->extra libreoffice-fresh
->extra libmythes
->extra evolution
->extra garuda-settings-samba
->extra garuda-printer
->extra simple-scan
->extra bluez-cups
->extra gufw
+
+
+
+

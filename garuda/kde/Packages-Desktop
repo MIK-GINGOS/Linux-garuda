@@ -146,10 +146,10 @@ qt5-wayland
 kde-servicemenus-rootactions
 kde-servicemenus-pdf
 kde-servicemenus-encfs
-#kde-service-menu-reimage
+kde-service-menu-reimage
 #kde-servicemenus-pkg-tools
 #kde-services
-kim4
+#kim4
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
