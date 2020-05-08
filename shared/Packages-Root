@@ -7,7 +7,7 @@ aic94xx-firmware
 ananicy-git
 amd-ucode
 b43-fwcutter
-#b43-firmware
+b43-firmware
 bash-completion
 btrfs-progs
 bzip2

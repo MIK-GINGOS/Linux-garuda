@@ -24,18 +24,20 @@ terminus-font
 >extra powerline-fonts
 >extra ttf-liberation
 
-## Network
-garuda-network
-garuda-bluetooth
+#---------=> network
+garuda-connman
+cmst
+>extra qomui-git
+>extra wds-git
 garuda-modem
 modem-manager-gui
-firewalld
-bluetooth-autoconnect
-network-manager-applet
+gpsd
+garuda-bluetooth
 blueberry
+>extra gufw
+>extra ufw-extras
+bluetooth-autoconnect
 
->extra qomui-git
->extra gpsd
 ## Libraries for Sound/Audio/Video
 
 #---------=> audio
@@ -143,9 +145,6 @@ perl-file-mimeinfo
 >extra perl-x11-protocol
 xdg-user-dirs
 xdg-utils
-numlockx
-xautolock
-xcape
 #---------=> utilities
 libdvdcss
 powertop
@@ -317,36 +316,6 @@ stacer
 >extra qemu-block-iscsi
 >extra qemu-block-rbd
 >extra qemu-arch-extra
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 #---------=> WayfireWM
