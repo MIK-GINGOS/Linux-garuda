@@ -73,7 +73,7 @@ ndisc6
 nfs-utils
 nohang-git
 ntfs-3g
-os-prober
+os-prober-garuda
 pacman
 pacman-contrib
 pciutils
