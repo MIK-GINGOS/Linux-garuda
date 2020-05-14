@@ -39,6 +39,7 @@ gettext
 glibc
 grep
 grub
+grub-garuda
 update-grub
 gzip
 haveged
@@ -73,7 +74,7 @@ ndisc6
 nfs-utils
 nohang-git
 ntfs-3g
-os-prober-garuda
+os-prober
 pacman
 pacman-contrib
 pciutils
