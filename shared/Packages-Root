@@ -68,6 +68,7 @@ memtest86+
 mhwd-garuda
 mhwd-db-garuda
 mkinitcpio-openswap
+mtools
 nano
 net-tools
 ndisc6

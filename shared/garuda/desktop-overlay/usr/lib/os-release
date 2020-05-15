@@ -1,5 +1,5 @@
-NAME="garuda linux"
-PRETTY_NAME="garuda linux"
+NAME="Garuda Linux"
+PRETTY_NAME="Garuda Linux"
 ID=garuda
 ID_LIKE=arch
 BUILD_ID=rolling
