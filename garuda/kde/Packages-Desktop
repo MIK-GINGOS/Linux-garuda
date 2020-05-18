@@ -338,7 +338,7 @@ firefox-extension-kdeconnect
 >extra usbaudio-git
 >extra nitroshare
 #>extra variety
->extra shortwave-git
+>extra shortwave
 >extra telegram-desktop
 >extra discord
 >extra mumble
@@ -428,7 +428,7 @@ firefox-extension-kdeconnect
 >extra lib32-gamemode
 >extra vkbasalt
 >extra vulkan-tools
-
+>extra ntfix-git
 ## Game launchers 
 
 >extra steam

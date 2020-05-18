@@ -9,7 +9,7 @@ plymouth-theme-garuda
 #qt5ct
 #kvantum-qt5
 gtk-engine-murrine
-garuda-wallpapers
+#garuda-wallpapers
 garuda-icons
 deepin-wallpapers-plasma
 ## Fonts
@@ -75,18 +75,17 @@ manjaro-zsh-config
 garuda-settings-samba
 garuda-printer
 simple-scan
-garuda-fcitx
-garuda-indic
+
 ## Optional dependencies for printer
 system-config-printer  # auto-detect the printer driver
-
 
 #---------+> input and gesture support
 ####input
 garuda-input
 evdev-right-click-emulation
 libinput_gestures_qt
-
+garuda-fcitx
+garuda-indic
 #>extra fingerprint-gui
 
 #---------=> android and file transfer management
@@ -176,12 +175,9 @@ deepin-extra
 shadowsocks-deepin
 proxychains-ng
 
-
-
 pdftricks
 ciano
 shortwave-git
-
 gnome-keyring
 redshift
 evince
@@ -203,4 +199,52 @@ stacer
 
 flameshot
 
+>extra firefox-extension-kdeconnect
 
+#---------->>virtualization qemu and libvirt
+>extra virt-manager
+>extra virt-viewer
+>extra ebtables
+>extra bridge-utils
+>extra gnu-netcat
+>extra qemu
+>extra radvd
+>extra ceph
+>extra ovmf
+>extra qemu-block-gluster
+>extra qemu-block-iscsi
+>extra qemu-block-rbd
+>extra qemu-arch-extra
+
+#---------->>virtualization
+#>extra virtualbox
+#>extra virtualbox-ext-vnc
+#>extra virtualbox-guest-iso
+#>extra virtualbox-sdk
+#>extra KERNEL-virtualbox-host-modules
+#>extra virtualbox-host-dkms
+#>extra tigervnc
+#>extra vde2
+#>extra virtualbox-ext-oracle
+
+####gaming tools
+>extra corectrl
+>extra fancontrol-gui-git
+>extra gwe
+>extra piper
+>extra goverlay-git
+>extra mangohud-git
+>extra lib32-mangohud-git
+>extra gamemode
+>extra lib32-gamemode
+>extra vkbasalt
+>extra vulkan-tools
+>extra ntfix-git
+## Game launchers 
+
+>extra steam
+>extra steam-native-runtime
+>extra lutris
+>extra gamehub
+>extra itch
+>extra minigalaxy

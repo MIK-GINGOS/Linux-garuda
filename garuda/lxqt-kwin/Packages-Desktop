@@ -12,7 +12,7 @@ libldac
 pulseaudio-ctl
 playerctl
 #------gst plugins
->extra garuda-gstreamer
+garuda-gstreamer
 garuda-vaapi
 mesa-demos
 >multilib lib32-mesa-demos
@@ -53,7 +53,7 @@ libinput_gestures_qt
 garuda-fcitx
 garuda-indic
 kcm-fcitx
-
+evdev-right-click-emulation
 #---------=> edition theming and settings
 grub-theme-garuda
 plymouth-theme-garuda
@@ -208,6 +208,7 @@ stacer
 >extra meteo-qt-git
 >extra shortwave
 >extra redshift-qt
+>extra pdfmixtool
 ##------------> office
 qpdfview
 >extra poppler-data
@@ -226,3 +227,28 @@ garuda-firefox
 #>extra firefox-extension-plasma-integration
 >extra firefox-extension-kdeconnect
 
+#---------->>virtualization qemu and libvirt
+>extra virt-manager
+>extra virt-viewer
+>extra ebtables
+>extra bridge-utils
+>extra gnu-netcat
+>extra qemu
+>extra radvd
+>extra ceph
+>extra ovmf
+>extra qemu-block-gluster
+>extra qemu-block-iscsi
+>extra qemu-block-rbd
+>extra qemu-arch-extra
+
+#---------->>virtualization
+#>extra virtualbox
+#>extra virtualbox-ext-vnc
+#>extra virtualbox-guest-iso
+#>extra virtualbox-sdk
+#>extra KERNEL-virtualbox-host-modules
+#>extra virtualbox-host-dkms
+#>extra tigervnc
+#>extra vde2
+#>extra virtualbox-ext-oracle
