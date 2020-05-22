@@ -1,0 +1,328 @@
+## theme package
+garuda-recbox-settings
+performance-tweaks
+
+#---------=> edition theming and settings
+grub-theme-garuda
+plymouth-theme-garuda
+sound-theme-smooth
+qt5ct 
+qt5-styleplugins 
+kvantum-qt5
+flat-remix
+matcha-gtk-theme 
+kvantum-theme-matcha
+gtk-engine-murrine
+qogir-cursors-git
+garuda-wallpapers
+garuda-icons
+>extra wish-wallpapers
+## Fonts
+noto-fonts               # default font
+
+noto-fonts-emoji
+terminus-font
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra ttf-opensans
+>extra powerline-fonts
+>extra ttf-liberation
+
+## Network
+garuda-network
+garuda-bluetooth
+garuda-modem
+modem-manager-gui
+firewalld
+bluetooth-autoconnect
+#network-manager-applet
+blueberry
+networkmanager-dmenu
+
+python-pyqt5  # dep of firewall-applet
+
+
+>extra qomui-git
+>extra gpsd
+## Libraries for Sound/Audio/Video
+
+#---------=> audio
+garuda-alsa
+garuda-pulse
+pavucontrol
+pulseaudio-equalizer-ladspa
+paprefs
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+playerctl
+pamixer
+pasystray
+#### video
+garuda-vaapi
+garuda-gstreamer
+
+
+#--------=> package management
+pamac-aur-git
+pamac-aur-tray-appindicator-git
+appimagelauncher
+bauh
+apparmor
+snapd
+snapd-glib
+fwupd
+#kalu
+## Flatpak support
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+
+#---------=> settings manager
+garuda-settings-manager
+garuda-settings-manager-knotifier
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
+manjaro-zsh-config
+garuda-settings-samba
+garuda-printer
+simple-scan
+garuda-ibus
+garuda-indic
+## Optional dependencies for printer
+system-config-printer  # auto-detect the printer driver
+
+
+#---------+> input and gesture support
+####input
+garuda-input
+evdev-right-click-emulation
+gesture-manager-x-git
+
+#>extra fingerprint-gui
+
+#---------=> android and file transfer management
+android-tools
+android-udev
+
+gvfs-mtp
+gvfs
+gvfs-afc
+gvfs-nfs
+gvfs-smb
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
+
+ffmpegthumbnailer
+libgsf
+libopenraw
+librsvg
+>extra poppler-data
+>extra poppler-glib
+
+xarchiver
+###-------archive formats
+>extra arj
+>extra cpio
+>extra lha
+>extra lrzip
+>extra lzip
+>extra lzop
+>extra unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+#---------=> xorg
+xorg-server
+xorg-server-xephyr
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xkill
+xorg-xbacklight
+xorg-xprop
+xorg-xwininfo
+
+
+
+
+## Desktop Utils
+perl-file-mimeinfo
+>extra perl-net-dbus
+>extra perl-x11-protocol
+xdg-user-dirs
+xdg-utils
+numlockx
+xautolock
+xcape
+wmctrl
+xdotool
+#---------=> utilities
+libdvdcss
+powertop
+dmidecode
+inxi
+neofetch
+htop
+grub-btrfs
+timeshift
+timeshift-autosnap
+busybox
+hidapi
+conky-lua-nv
+>extra micro-git
+>extra autokey
+>extra kdocker
+mesa-demos
+>multilib lib32-mesa-demos
+
+## Display manager
+lightdm
+lightdm-gtk-greeter
+lightdm-gtk-greeter-settings
+accountsservice  # Enhanced user accounts handling
+
+
+
+#### xfce
+exo
+garcon
+thunar
+thunar-volman
+tumbler
+xfce4-power-manager
+xfce4-settings
+## xfce extra
+mousepad
+
+#parole
+thunar-archive-plugin
+thunar-media-tags-plugin
+
+>extra xfburn
+>extra orca
+onboard
+
+##### openbox
+betterlockscreen 
+
+nitrogen
+obkey
+obconf 
+obmenu-generator
+openbox
+dunst 
+jgmenu 
+picom 
+polybar
+rofi
+scrot
+skippy-xd
+tint2
+zenity 
+flashfocus
+
+polkit-gnome
+gnome-keyring
+
+termite
+termite-terminfo
+
+cmus
+
+
+redshift
+python-pyxdg
+arandr
+lxappearance-gtk3
+galculator
+gsimplecal
+gpickview-gtk3
+systemd-ui
+geany
+qpdfview
+qbittorrent
+peek
+kid3
+flameshot
+shortwave-git
+#gnome-disk-utility
+gparted
+mintstick
+mpv
+catfish
+meld
+stacer 
+bleachbit 
+thunderbird
+garuda-firefox
+>extra guiscrcpy
+>extra nitroshare
+>extra converseen
+>extra transmageddon
+>extra soundconverter
+#>extra variety
+>extra guvcview
+>extra gcolor3
+>extra telegram-desktop
+>extra libreoffice-fresh
+>extra libmythes
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+>extra smtube
+
+
+
+
+##### OPENBOX PROFILE
+mc
+ranger
+mlocate
+hddtemp
+pastebinit
+ps_mem
+xclip
+xsel
+hardinfo 
+
+
+## multimedia
+deadbeef
+faad2
+flac
+imlib2
+libmad
+libvorbis
+mpg123
+jack2 
+libffado 
+alsa-tools
+ardour
+lmms
+mixxx
+audacity
+guitarix
+calf
+dragonfly-reverb
+helm-synth
+qtractor
+wolf-shaper
+hydrogen
+setbfree
+yoshimi
+zynaddsubfx
+aj-snapshot
+carla
+patchmatrix
+qastools
+qjackctl
+cadence
+qmidictl
+qmidinet

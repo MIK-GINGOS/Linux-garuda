@@ -5,7 +5,7 @@ broadcom-wl-dkms
 #zfs-dkms
 #zfs-utils
 KERNEL-headers
-
+rtlwifi_new-extended-dkms
 
 >nonfree_x86_64 nvidia-prime
 >nonfree_x86_64 nvidia-settings

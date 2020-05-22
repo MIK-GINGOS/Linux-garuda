@@ -100,6 +100,7 @@ systemd-swap
 tar
 texinfo
 #tlp
+traceroute
 usbutils
 util-linux
 vi
