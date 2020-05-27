@@ -199,7 +199,7 @@ tumbler
 xfce4-power-manager
 xfce4-settings
 ## xfce extra
-mousepad
+#mousepad
 
 #parole
 thunar-archive-plugin
@@ -262,6 +262,7 @@ stacer
 bleachbit 
 thunderbird
 garuda-firefox
+xed
 >extra guiscrcpy
 >extra nitroshare
 >extra converseen
