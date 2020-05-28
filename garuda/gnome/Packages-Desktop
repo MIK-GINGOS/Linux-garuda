@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #### EDITION BASE PACKAGES
-garuda-gnome-settings
+#garuda-gnome-settings
 performance-tweaks
 
 #---------=> edition theming and settings
@@ -9,62 +9,36 @@ plymouth-theme-garuda
 kvantum-qt5
 qt5ct
 gtk-engine-murrine
-xcursor-breeze
-sound-theme-smooth
 garuda-wallpapers
 garuda-icons
+tela-circle-icon-theme-git
+yaru-gnome-shell-theme
+yaru-gtk-theme
+yaru-sound-theme
 
 ## Fonts
 noto-fonts               # default font
-
 noto-fonts-emoji
 terminus-font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra ttf-opensans
->extra powerline-fonts
->extra ttf-liberation
+ttf-google-sans
 
 ## Network
-garuda-network
-garuda-bluetooth
-garuda-modem
-modem-manager-gui
 firewalld
-bluetooth-autoconnect
-#network-manager-applet
-#blueberry
+networkmanager
+dnsmasq
 
->extra qomui-git
->extra gpsd
 ## Libraries for Sound/Audio/Video
 
 #---------=> audio
-garuda-alsa
-garuda-pulse
-pavucontrol
-pulseaudio-equalizer-ladspa
+pulseaudio
 paprefs
-pulseaudio-modules-bt-git
-libldac
-pulseaudio-ctl
-playerctl
+
 #### video
-garuda-vaapi
-garuda-gstreamer
 
 
 #--------=> package management
 pamac-aur-git
 pamac-aur-tray-appindicator-git
-appimagelauncher
-bauh
-apparmor
-snapd
-snapd-glib
-fwupd
-#kalu
-## Flatpak support
-flatpak
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
@@ -73,48 +47,30 @@ garuda-settings-manager
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
-garuda-network-assistant-git
 manjaro-zsh-config
-garuda-settings-samba
-garuda-printer
-simple-scan
-garuda-ibus
-garuda-indic
-## Optional dependencies for printer
-system-config-printer  # auto-detect the printer driver
 
 >extra system-config-samba    # samba config gui
 
 #---------+> input and gesture support
 ####input
 garuda-input
-evdev-right-click-emulation
-gesture-manager-x-git
-
-#>extra fingerprint-gui
 
 
 #---------=> android and file transfer management
-android-tools
-android-udev
+android-sdk-platform-tools
+android-udev-git
 
 gvfs-mtp
 gvfs
 gvfs-afc
 gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
-gvfs-google
 gvfs-goa
 
 ffmpegthumbnailer
 libgsf
 libopenraw
 librsvg
->extra poppler-data
->extra poppler-glib
 
-file-roller
 ###-------archive formats
 >extra arj
 >extra cpio
@@ -144,38 +100,20 @@ xorg-xkill
 
 
 ## Desktop Utils
-perl-file-mimeinfo
->extra perl-net-dbus
->extra perl-x11-protocol
 xdg-user-dirs
 xdg-utils
-numlockx
-xautolock
-xcape
 #---------=> utilities
-libdvdcss
-powertop
-dmidecode
-inxi
-neofetch
+neofetch-git
 htop
 grub-btrfs
 timeshift
 timeshift-autosnap
 busybox
-hidapi
-conky-lua-nv
->extra micro-git
-#>extra autokey
-#>extra kdocker
-mesa-demos
->multilib lib32-mesa-demos
-
+spotify-adblock-git
 
 egl-wayland
 qt5-wayland
 #-------=>gnome de
-pulseaudio-bluetooth-a2dp-gdm-fix
 gdm
 mutter-performance
 gnome-session                                    
@@ -184,32 +122,11 @@ gnome-shell-performance
 chrome-gnome-shell 
 gnome-tweaks 
 gnome-shell-extensions
-gnome-shell-extension-arc-menu-git               
-gnome-shell-extension-dash-to-dock-git           
-gnome-shell-extension-gsconnect-git                  
-gnome-shell-extension-netspeed-git               
-gnome-shell-extension-refresh-wifi-git           
-gnome-shell-extension-sound-output-device-chooser-git
-gnome-shell-extension-dash-to-panel-git
-gnome-shell-extension-appindicator-git
-gnome-shell-extension-unite-git
-#>extra gnome-shell-extension-pop-shell-git      
-#>extra gnome-shell-extension-gamemode-git
-#>extra gnome-shell-extension-cpufreq-git 
-#>extra gnome-shell-extension-material-shell-git 
-##---------> gnome apps
-#>basic celluloid
-#>basic epiphany
-#>basic geary
-evolution
-gpaste
 gedit
 eog
 evince
-fragments
-totem
 file-roller
-nautilus
+nautilus-typeahead
 nautilus-bluetooth
 nautilus-image-converter
 nautilus-sendto
@@ -218,155 +135,35 @@ nautilus-admin
 nautilus-pdf-tools-git
 nautilus-mediainfo
 eog-plugins
-grilo-plugins
 gedit-plugins
 sushi
-seahorse-nautilus
-gtkhash-nautilus
-seahorse
-vino
-rygel
-mousetweaks
-cheese
-orca
-drawing
-gcolor3
-baobab
 dconf-editor
-peek
-yelp
-meld
-gnome-bluetooth 
-gnome-contacts
-gnome-calendar
-gnome-calculator
-gnome-clocks
-gnome-common
-gnome-control-center                             
+gnome-control-center-nocheese                           
 gnome-desktop  
 gnome-disk-utility
 gnome-keyring 
-gnome-logs 
-gnome-music 
-gnome-notes
-gnome-screenshot
 gnome-system-monitor                                                                          
 gnome-terminal-transparency
-gnome-user-share
-gnome-search-tool
-gnome-online-accounts                            
-gnome-online-miners 
-gnome-remote-desktop
-gnome-weather
-gnome-firmware
 gnome-menus
->extra gnome-autoar                                     
->extra gnome-backgrounds                                
->extra gnome-books                                      
->extra gnome-boxes                                      
->extra gnome-break-timer                                
->extra gnome-builder                                                                    
->extra gnome-characters                                                                       
->extra gnome-code-assistance                                                        
->extra gnome-dictionary                                 
->extra gnome-documents                                                                                                                                                        
->extra gnome-font-viewer     
-#>extra gnome-themes-extra                                                                                          
-#>extra gnome-icon-theme                                 
-#>extra gnome-icon-theme-extras                          
-#>extra gnome-icon-theme-symbolic                                                    
->extra gnome-latex                                      
->extra gnome-maps                                                                                                                                                  
->extra gnome-multi-writer                               
->extra gnome-nettool                                    
->extra gnome-passwordsafe                               
->extra gnome-phone-manager                              
->extra gnome-photos                                     
->extra gnome-pie                                        
->extra gnome-podcasts                                   
->extra gnome-power-manager                              
->extra gnome-recipes                                    
->extra gnome-sound-recorder                             
->extra gnome-subtitles                                                                                           
->extra gnome-todo                                                                           
->extra gnome-twitch                                     
-#>extra gnome-usage                                                                                                 
-#>extra gnome-network-displays 
-#>extra guake
-#>extra caffeine-ng
+
 
 #---------=> applications
-shortwave
-popsicle-git
-garuda-firefox
 firefox-extension-gnome-shell-integration
-firefox-extension-gsconnect
-stacer
-usbguard
+firefox
+thunderbird
+flameshot-git
 >extra libreoffice-fresh
 >extra libmythes
->extra discord
 >extra telegram-desktop
 >extra guiscrcpy
 >extra remmina
->extra accerciser
->extra devhelp
->extra polari
->extra sysprof
->extra ghex
->extra glabels
->extra gtranslator
->extra gucharmap
->extra gydl-git
->extra gespeaker
->extra transmageddon
->extra converseen
->extra gnac
 >extra gimp
 >extra inkscape
->extra pitivi
->extra audacity
 
 #---------->>virtualization
 >extra ebtables
 >extra bridge-utils
->extra gnu-netcat
 >extra qemu
->extra radvd
->extra ceph
->extra ovmf
->extra qemu-block-gluster
->extra qemu-block-iscsi
->extra qemu-block-rbd
->extra qemu-arch-extra
-
-#-----------=>games
-#>extra aisleriot
-#>extra gnuchess
-#>extra quadrapassel
-#>extra gnome-chess
-#>extra gnome-mahjongg
-#>extra gnome-klotski
-#>extra gnome-mines
-#>extra gnome-nibbles
-#>extra minetest
-#>extra minetest-server
-#>extra teeworlds
-#>extra gnome-games
-#>extra gnome-2048 
-#>extra gnome-robots
-#>extra gnome-tetravex
-#>extra gnome-taquin
-#>extra gnome-sudoku  
-#>extra quadrapssel
-#>extra five-or-more
-#>extra four-in-row
-#>extra hitori
-#>extra iagno
-#>extra lightsoff
-#>extra swell-foop
-#>extra tali
-#>extra mari0
 
 ####gaming tools
 #>extra corectrl
@@ -374,10 +171,10 @@ usbguard
 #>extra gwe
 #>extra piper
 #>extra goverlay-git
-#>extra mangohud-git
-#>extra lib32-mangohud-git
-#>extra gamemode
-#>extra lib32-gamemode
+>extra mangohud-git
+>extra lib32-mangohud-git
+>extra gamemode
+>extra lib32-gamemode
 #>extra vkbasalt
 #>extra vulkan-tools
 
@@ -386,7 +183,7 @@ usbguard
 #>extra steam
 #>extra steam-native-runtime
 #>extra linux-steam-integration
-#>extra lutris
+>extra lutris
 #>extra gamehub
 #>extra itch
 #>extra gamerworld
@@ -397,57 +194,32 @@ usbguard
 #>extra moonlight-qt
 #>extra pegasus-frontend-git
 
-
-
-#### controller 
-
-#>extra antimicrox
-#>extra linuxconsole
-#>extra xboxdrv
-#>extra xpadneo-dkms-git
-#>extra steamos-xpad-dkms
-#>extra xow-git
-#>extra xbox-generic-controller
-#>extra koku-xinput-wine
-
-
-#### games emulators
-#>extra emulationstation
-#>extra libretro
-#>extra ppsspp
-#>extra pcsxr
-#>extra pcsx2-git
-#>extra rpcs3-git
-#>extra yuzu-mainline-git
-
 ####wine additions
 #>extra lutris-wine-meta
-#>extra wine-staging
-#>extra wine-gecko 
-#>extra wine-mono 
+>extra wine-staging
+>extra wine-gecko 
+>extra wine-mono 
 #>extra wine-nine
 #>extra wine-installer-git
-#>extra winetricks-git
+>extra winetricks-git
 #>extra wineasio-git
 #>extra q4wine
 #>extra execute-git
 #>extra exe-thumbnailer
 #>extra fuseiso
-#>extra openh264
-#>extra ocl-icd
+>extra openh264
+>extra ocl-icd
 #>extra vkd3d
-#>extra faudio
-#>extra vulkan-icd-loader
-#>extra vulkan-validation-layers
-#>extra lib32-vulkan-icd-loader
-#>extra lib32-vulkan-validation-layers
+>extra faudio
+>extra vulkan-icd-loader
+>extra vulkan-validation-layers
+>extra lib32-vulkan-icd-loader
+>extra lib32-vulkan-validation-layers
 #>extra lib32-v4l-utils
-#>extra lib32-ocl-icd
+>extra lib32-ocl-icd
 #>extra lib32-libxslt
 #>extra lib32-vkd3d
-#>extra lib32-faudio
-#>extra lib32-gst-plugins-base-libs
-#>extra dxvk-mingw-git
+>extra lib32-faudio
+>extra lib32-gst-plugins-base-libs
+>extra dxvk-mingw-git
 #>extra dosbox
-
-flameshot
