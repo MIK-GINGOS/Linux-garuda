@@ -23,7 +23,8 @@ terminus-font
 ttf-google-sans
 
 ## Network
-firewalld
+ufw
+gufw
 networkmanager
 dnsmasq
 
@@ -34,7 +35,8 @@ pulseaudio
 paprefs
 
 #### video
-
+celluloid
+mpv
 
 #--------=> package management
 pamac-aur-git
@@ -49,12 +51,9 @@ garuda-boot-options-git
 garuda-welcome-git
 manjaro-zsh-config
 
->extra system-config-samba    # samba config gui
-
 #---------+> input and gesture support
 ####input
 garuda-input
-
 
 #---------=> android and file transfer management
 android-sdk-platform-tools
@@ -94,25 +93,21 @@ xorg-xinput
 xorg-xrandr
 xorg-xkill
 
-
-
-
-
-
 ## Desktop Utils
 xdg-user-dirs
 xdg-utils
+
 #---------=> utilities
 neofetch-git
 htop
 grub-btrfs
+gparted
 timeshift
 timeshift-autosnap
 busybox
-spotify-adblock-git
-
 egl-wayland
 qt5-wayland
+
 #-------=>gnome de
 gdm
 mutter-performance
@@ -146,24 +141,31 @@ gnome-system-monitor
 gnome-terminal-transparency
 gnome-menus
 
-
 #---------=> applications
 firefox-extension-gnome-shell-integration
+firefox-dark-reader
+firefox-ublock-origin
 firefox
 thunderbird
+libreoffice-fresh
+libmythes
+telegram-desktop
+guiscrcpy-git
+remmina
+gimp
+inkscape
+cockpit
+cockpit-machines
+cockpit-dashboard
 flameshot-git
->extra libreoffice-fresh
->extra libmythes
->extra telegram-desktop
->extra guiscrcpy
->extra remmina
->extra gimp
->extra inkscape
+spotify-adblock-git
 
 #---------->>virtualization
->extra ebtables
->extra bridge-utils
->extra qemu
+ebtables
+bridge-utils
+qemu
+libvirt
+virt-manager
 
 ####gaming tools
 #>extra corectrl
@@ -173,17 +175,15 @@ flameshot-git
 #>extra goverlay-git
 >extra mangohud-git
 >extra lib32-mangohud-git
->extra gamemode
->extra lib32-gamemode
-#>extra vkbasalt
-#>extra vulkan-tools
+gamemode
+#lib32-gamemode
 
 ## Game launchers 
 
 #>extra steam
 #>extra steam-native-runtime
 #>extra linux-steam-integration
->extra lutris
+lutris
 #>extra gamehub
 #>extra itch
 #>extra gamerworld
@@ -201,7 +201,7 @@ flameshot-git
 >extra wine-mono 
 #>extra wine-nine
 #>extra wine-installer-git
->extra winetricks-git
+#winetricks-git
 #>extra wineasio-git
 #>extra q4wine
 #>extra execute-git
@@ -211,7 +211,7 @@ flameshot-git
 >extra ocl-icd
 #>extra vkd3d
 >extra faudio
->extra vulkan-icd-loader
+#vulkan-icd-loader
 >extra vulkan-validation-layers
 >extra lib32-vulkan-icd-loader
 >extra lib32-vulkan-validation-layers
@@ -222,4 +222,3 @@ flameshot-git
 >extra lib32-faudio
 >extra lib32-gst-plugins-base-libs
 >extra dxvk-mingw-git
-#>extra dosbox
