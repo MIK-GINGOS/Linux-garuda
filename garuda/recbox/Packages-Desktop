@@ -279,7 +279,9 @@ xed
 >extra smplayer-themes
 >extra smtube
 
-
+#>extra lmms
+#>extra mixxx
+#>extra audacity
 
 
 ##### OPENBOX PROFILE
@@ -295,7 +297,6 @@ hardinfo
 
 
 ## multimedia
-deadbeef
 faad2
 flac
 imlib2
@@ -305,25 +306,73 @@ mpg123
 jack2 
 libffado 
 alsa-tools
-ardour
-lmms
-mixxx
-audacity
-guitarix
-calf
-dragonfly-reverb
-helm-synth
 qtractor
-wolf-shaper
-hydrogen
-setbfree
-yoshimi
-zynaddsubfx
 aj-snapshot
+
+##RecBox Center
+a2jmidid
+aeolus
+amb-plugins
+ardour
+artyfx
+aubio
+avldrums.lv2
+cadence
+calf
+caps
 carla
+cmt
+dpf-plugins
+dragonfly-reverb
+dssi
+eq10q
+eteroj.lv2
+fabla
+fil-plugins
+fluidsynth
+fomp.lv2
+gmsynth.lv2
+guitarix
+helm-synth
+hydrogen
+ir.lv2
+jack_capture
+jacktrip
+jalv
+mcp-plugins
+mda.lv2
+midi_matrix.lv2
+njconnect
+osc2midi
+osmid
 patchmatrix
+pulseaudio-alsa
+pulseaudio-jack
+pvoc
 qastools
 qjackctl
-cadence
+qmidiarp
 qmidictl
 qmidinet
+qmidiroute
+qxgedit
+realtime-privileges
+rev-plugins
+setbfree
+swh-plugins
+tap-plugins
+vamp-plugin-sdk
+vco-plugins
+vm.lv2
+wolf-shaper
+yoshimi
+zam-plugins
+zita-ajbridge
+zita-at1
+zita-bls1
+zita-dpl1
+zita-lrx
+zita-mu1
+zita-njbridge
+zita-rev1
+zynaddsubfx
