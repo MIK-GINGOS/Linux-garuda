@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #### EDITION BASE PACKAGES
-#garuda-gnome-settings
+garuda-gnome-settings
 performance-tweaks
 
 #---------=> edition theming and settings
@@ -9,7 +9,7 @@ plymouth-theme-garuda
 kvantum-qt5
 qt5ct
 gtk-engine-murrine
-garuda-wallpapers
+#garuda-wallpapers
 garuda-icons
 tela-circle-icon-theme-git
 yaru-gnome-shell-theme
@@ -33,6 +33,7 @@ dnsmasq
 #---------=> audio
 pulseaudio
 paprefs
+lollypop
 
 #### video
 celluloid
@@ -107,6 +108,8 @@ timeshift-autosnap
 busybox
 egl-wayland
 qt5-wayland
+packagekit
+bleachbit
 
 #-------=>gnome de
 gdm
@@ -146,7 +149,7 @@ firefox-extension-gnome-shell-integration
 firefox-dark-reader
 firefox-ublock-origin
 firefox
-thunderbird
+geary
 libreoffice-fresh
 libmythes
 telegram-desktop
@@ -158,7 +161,7 @@ cockpit
 cockpit-machines
 cockpit-dashboard
 flameshot-git
-spotify-adblock-git
+#spotify-adblock-git
 
 #---------->>virtualization
 ebtables
@@ -196,9 +199,9 @@ lutris
 
 ####wine additions
 #>extra lutris-wine-meta
->extra wine-staging
->extra wine-gecko 
->extra wine-mono 
+#>extra wine-staging
+#>extra wine-gecko 
+#>extra wine-mono 
 #>extra wine-nine
 #>extra wine-installer-git
 #winetricks-git
@@ -207,18 +210,18 @@ lutris
 #>extra execute-git
 #>extra exe-thumbnailer
 #>extra fuseiso
->extra openh264
->extra ocl-icd
+#>extra openh264
+#>extra ocl-icd
 #>extra vkd3d
->extra faudio
+#>extra faudio
 #vulkan-icd-loader
->extra vulkan-validation-layers
->extra lib32-vulkan-icd-loader
->extra lib32-vulkan-validation-layers
+#>extra vulkan-validation-layers
+#>extra lib32-vulkan-icd-loader
+#>extra lib32-vulkan-validation-layers
 #>extra lib32-v4l-utils
->extra lib32-ocl-icd
+#>extra lib32-ocl-icd
 #>extra lib32-libxslt
 #>extra lib32-vkd3d
->extra lib32-faudio
->extra lib32-gst-plugins-base-libs
->extra dxvk-mingw-git
+#>extra lib32-faudio
+#>extra lib32-gst-plugins-base-libs
+#>extra dxvk-mingw-git
