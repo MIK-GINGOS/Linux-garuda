@@ -9,6 +9,7 @@ plymouth-theme-garuda
 kvantum-qt5
 qt5ct
 gtk-engine-murrine
+pywal-git
 #garuda-wallpapers
 garuda-icons
 tela-circle-icon-theme-git
@@ -143,6 +144,7 @@ gnome-keyring
 gnome-system-monitor                                                                          
 gnome-terminal-transparency
 gnome-menus
+shotwell
 
 #---------=> applications
 firefox-extension-gnome-shell-integration
@@ -161,7 +163,7 @@ cockpit
 cockpit-machines
 cockpit-dashboard
 flameshot-git
-#spotify-adblock-git
+>extra spotify-adblock-git
 
 #---------->>virtualization
 ebtables
@@ -172,14 +174,14 @@ virt-manager
 
 ####gaming tools
 #>extra corectrl
-#>extra fancontrol-gui-git
+>extra fancontrol-gui-git
 #>extra gwe
 #>extra piper
 #>extra goverlay-git
 >extra mangohud-git
 >extra lib32-mangohud-git
 gamemode
-#lib32-gamemode
+lib32-gamemode
 
 ## Game launchers 
 
@@ -198,30 +200,30 @@ lutris
 #>extra pegasus-frontend-git
 
 ####wine additions
-#>extra lutris-wine-meta
-#>extra wine-staging
-#>extra wine-gecko 
-#>extra wine-mono 
+>extra lutris-wine-meta
+>extra wine-staging
+>extra wine-gecko 
+>extra wine-mono 
 #>extra wine-nine
 #>extra wine-installer-git
-#winetricks-git
+>extra winetricks-git
 #>extra wineasio-git
 #>extra q4wine
 #>extra execute-git
 #>extra exe-thumbnailer
-#>extra fuseiso
-#>extra openh264
-#>extra ocl-icd
+>extra fuseiso
+>extra openh264
+>extra ocl-icd
 #>extra vkd3d
-#>extra faudio
+>extra faudio
 #vulkan-icd-loader
-#>extra vulkan-validation-layers
-#>extra lib32-vulkan-icd-loader
-#>extra lib32-vulkan-validation-layers
-#>extra lib32-v4l-utils
-#>extra lib32-ocl-icd
-#>extra lib32-libxslt
+>extra vulkan-validation-layers
+>extra lib32-vulkan-icd-loader
+>extra lib32-vulkan-validation-layers
+>extra lib32-v4l-utils
+>extra lib32-ocl-icd
+>extra lib32-libxslt
 #>extra lib32-vkd3d
-#>extra lib32-faudio
-#>extra lib32-gst-plugins-base-libs
-#>extra dxvk-mingw-git
+>extra lib32-faudio
+>extra lib32-gst-plugins-base-libs
+>extra dxvk-mingw-git
