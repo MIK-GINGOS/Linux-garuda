@@ -16,18 +16,29 @@ tela-circle-icon-theme-git
 yaru-gnome-shell-theme
 yaru-gtk-theme
 yaru-sound-theme
+>extra garuda-firefox
 
 ## Fonts
 noto-fonts               # default font
 noto-fonts-emoji
 terminus-font
 ttf-google-sans
+>extra ttf-opensans
+>extra powerline-fonts
+>extra ttf-liberation
 
 ## Network
 ufw
 gufw
 networkmanager
 dnsmasq
+>extra garuda-network
+>extra garuda-bluetooth
+>extra garuda-modem
+>extra modem-manager-gui
+>extra bluetooth-autoconnect
+>extra network-manager-applet
+>extra blueberry
 
 ## Libraries for Sound/Audio/Video
 
@@ -35,16 +46,29 @@ dnsmasq
 pulseaudio
 paprefs
 lollypop
+>extra garuda-alsa
+>extra garuda-pulse
+>extra pavucontrol
+>extra pulseaudio-equalizer-ladspa
+>extra pulseaudio-modules-bt-git
+>extra libldac
 
 #### video
 celluloid
 mpv
+>extra garuda-vaapi
+>extra garuda-gstreamer
 
 #--------=> package management
 pamac-aur-git
 pamac-aur-tray-appindicator-git
 xdg-desktop-portal
 xdg-desktop-portal-gtk
+>extra bauh
+>extra apparmor
+>extra snapd
+>extra snapd-glib
+>extra fwupd
 
 #---------=> settings manager
 garuda-settings-manager
@@ -52,6 +76,13 @@ garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 manjaro-zsh-config
+>extra garuda-boot-options-git
+>extra garuda-welcome-git
+>extra garuda-network-assistant-git
+>extra garuda-settings-samba
+>extra garuda-printer
+>extra simple-scan
+>extra garuda-ibus
 
 #---------+> input and gesture support
 ####input
@@ -71,6 +102,8 @@ ffmpegthumbnailer
 libgsf
 libopenraw
 librsvg
+>extra poppler-data
+>extra poppler-glib
 
 ###-------archive formats
 >extra arj
@@ -98,6 +131,11 @@ xorg-xkill
 ## Desktop Utils
 xdg-user-dirs
 xdg-utils
+>extra perl-net-dbus
+>extra perl-x11-protocol
+>extra numlockx
+>extra xautolock
+>extra xcape
 
 #---------=> utilities
 neofetch-git
@@ -111,6 +149,14 @@ egl-wayland
 qt5-wayland
 packagekit
 bleachbit
+fzf
+>extra micro-git
+>extra autokey
+>extra kdocker
+>extra libdvdcss
+>extra powertop
+>extra dmidecode
+>extra inxi
 
 #-------=>gnome de
 gdm
@@ -164,6 +210,7 @@ cockpit-machines
 cockpit-dashboard
 flameshot-git
 >extra spotify-adblock-git
+>extra variety
 
 #---------->>virtualization
 ebtables
@@ -176,8 +223,8 @@ virt-manager
 #>extra corectrl
 >extra fancontrol-gui-git
 #>extra gwe
-#>extra piper
-#>extra goverlay-git
+>extra piper
+>extra goverlay-git
 >extra mangohud-git
 >extra lib32-mangohud-git
 gamemode
@@ -185,9 +232,9 @@ lib32-gamemode
 
 ## Game launchers 
 
-#>extra steam
-#>extra steam-native-runtime
-#>extra linux-steam-integration
+>extra steam
+>extra steam-native-runtime
+>extra linux-steam-integration
 lutris
 #>extra gamehub
 #>extra itch
@@ -207,23 +254,23 @@ lutris
 #>extra wine-nine
 #>extra wine-installer-git
 >extra winetricks-git
-#>extra wineasio-git
-#>extra q4wine
-#>extra execute-git
-#>extra exe-thumbnailer
+>extra wineasio-git
+>extra q4wine
+>extra execute-git
+>extra exe-thumbnailer
 >extra fuseiso
 >extra openh264
 >extra ocl-icd
-#>extra vkd3d
+>extra vkd3d
 >extra faudio
-#vulkan-icd-loader
+vulkan-icd-loader
 >extra vulkan-validation-layers
 >extra lib32-vulkan-icd-loader
 >extra lib32-vulkan-validation-layers
 >extra lib32-v4l-utils
 >extra lib32-ocl-icd
 >extra lib32-libxslt
-#>extra lib32-vkd3d
+>extra lib32-vkd3d
 >extra lib32-faudio
 >extra lib32-gst-plugins-base-libs
 >extra dxvk-mingw-git
