@@ -12,6 +12,7 @@ gtk-engine-murrine
 pywal-git
 #garuda-wallpapers
 garuda-icons
+garuda-zsh-config
 tela-circle-icon-theme-git
 yaru-gnome-shell-theme
 yaru-gtk-theme
@@ -73,9 +74,7 @@ xdg-desktop-portal-gtk
 #---------=> settings manager
 garuda-settings-manager
 garuda-settings-manager-knotifier
-garuda-boot-options-git
 garuda-welcome-git
-manjaro-zsh-config
 >extra garuda-boot-options-git
 >extra garuda-welcome-git
 >extra garuda-network-assistant-git
@@ -139,17 +138,17 @@ xdg-utils
 
 #---------=> utilities
 neofetch-git
-htop
+>extra htop
 grub-btrfs
 gparted
 timeshift
 timeshift-autosnap
-busybox
+>extra busybox
 egl-wayland
 qt5-wayland
 packagekit
-bleachbit
 fzf
+>bleachbit
 >extra micro-git
 >extra autokey
 >extra kdocker
@@ -172,57 +171,58 @@ eog
 evince
 file-roller
 nautilus-typeahead
-nautilus-bluetooth
+>extra nautilus-bluetooth
 nautilus-image-converter
-nautilus-sendto
+>extra nautilus-sendto
 nautilus-share
 nautilus-admin
 nautilus-pdf-tools-git
 nautilus-mediainfo
-eog-plugins
+>extra eog-plugins
 gedit-plugins
 sushi
 dconf-editor
 gnome-control-center-nocheese                           
 gnome-desktop  
-gnome-disk-utility
+>extra gnome-disk-utility
 gnome-keyring 
 gnome-system-monitor                                                                          
 gnome-terminal-transparency
 gnome-menus
-shotwell
+>extra shotwell
 
 #---------=> applications
 firefox-extension-gnome-shell-integration
+firefox-extension-https-everywhere
 firefox-dark-reader
 firefox-ublock-origin
 firefox
-geary
-libreoffice-fresh
 libmythes
-telegram-desktop
-guiscrcpy-git
-remmina
-gimp
-inkscape
 cockpit
-cockpit-machines
 cockpit-dashboard
 flameshot-git
 >extra spotify-adblock-git
 >extra variety
+>extra telegram-desktop
+>extra libreoffice-fresh
+>extra guiscrcpy-git
+>extra gimp
+>extra inkscape
+>extra remmina
+>extra geary
+>extra cockpit-machines
 
 #---------->>virtualization
 ebtables
 bridge-utils
-qemu
-libvirt
-virt-manager
+>extra qemu
+>extra libvirt
+>extra virt-manager
 
 ####gaming tools
 #>extra corectrl
->extra fancontrol-gui-git
 #>extra gwe
+>extra fancontrol-gui-git
 >extra piper
 >extra goverlay-git
 >extra mangohud-git
@@ -235,7 +235,7 @@ lib32-gamemode
 >extra steam
 >extra steam-native-runtime
 >extra linux-steam-integration
-lutris
+>extra lutris
 #>extra gamehub
 #>extra itch
 #>extra gamerworld
@@ -247,12 +247,12 @@ lutris
 #>extra pegasus-frontend-git
 
 ####wine additions
+vulkan-icd-loader
+lib32-vulkan-icd-loader
 >extra lutris-wine-meta
 >extra wine-staging
 >extra wine-gecko 
 >extra wine-mono 
-#>extra wine-nine
-#>extra wine-installer-git
 >extra winetricks-git
 >extra wineasio-git
 >extra q4wine
@@ -263,9 +263,7 @@ lutris
 >extra ocl-icd
 >extra vkd3d
 >extra faudio
-vulkan-icd-loader
 >extra vulkan-validation-layers
->extra lib32-vulkan-icd-loader
 >extra lib32-vulkan-validation-layers
 >extra lib32-v4l-utils
 >extra lib32-ocl-icd
@@ -274,3 +272,5 @@ vulkan-icd-loader
 >extra lib32-faudio
 >extra lib32-gst-plugins-base-libs
 >extra dxvk-mingw-git
+#>extra wine-nine
+#>extra wine-installer-git
