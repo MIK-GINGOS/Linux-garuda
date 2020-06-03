@@ -38,8 +38,8 @@ dnsmasq
 >extra garuda-modem
 >extra modem-manager-gui
 >extra bluetooth-autoconnect
->extra network-manager-applet
->extra blueberry
+#>extra network-manager-applet
+#>extra blueberry
 
 ## Libraries for Sound/Audio/Video
 
@@ -148,7 +148,7 @@ egl-wayland
 qt5-wayland
 packagekit
 fzf
->bleachbit
+bleachbit
 >extra micro-git
 >extra autokey
 >extra kdocker
