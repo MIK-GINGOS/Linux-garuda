@@ -155,8 +155,6 @@ busybox
 hidapi
 conky-lua-nv
 micro-git
-#>extra autokey
-#>extra kdocker
 mesa-demos
 >multilib lib32-mesa-demos
 
@@ -172,7 +170,6 @@ deepin-kwin
 kwin-effects-yet-another-magic-lamp
 ## deepin extra
 deepin-extra
-shadowsocks-deepin
 proxychains-ng
 
 pdftricks
@@ -180,7 +177,6 @@ ciano
 shortwave-git
 gnome-keyring
 redshift
-evince
 qbittorrent
 gparted
 >extra guiscrcpy
