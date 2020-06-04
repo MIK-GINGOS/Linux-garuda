@@ -10,13 +10,16 @@ kvantum-qt5
 qt5ct
 gtk-engine-murrine
 pywal-git
-#garuda-wallpapers
+clutter # needed for blyr
+clutter-gtk
+garuda-wallpapers
 garuda-icons
 garuda-zsh-config
 tela-circle-icon-theme-git
 yaru-gnome-shell-theme
 yaru-gtk-theme
 yaru-sound-theme
+garuda-browser-settings
 >extra garuda-firefox
 
 ## Fonts
@@ -29,8 +32,7 @@ ttf-google-sans
 >extra ttf-liberation
 
 ## Network
-ufw
-gufw
+firewalld
 networkmanager
 dnsmasq
 >extra garuda-network
@@ -75,8 +77,7 @@ xdg-desktop-portal-gtk
 garuda-settings-manager
 garuda-settings-manager-knotifier
 garuda-welcome-git
->extra garuda-boot-options-git
->extra garuda-welcome-git
+garuda-boot-options-git
 >extra garuda-network-assistant-git
 >extra garuda-settings-samba
 >extra garuda-printer
@@ -138,12 +139,11 @@ xdg-utils
 
 #---------=> utilities
 neofetch-git
->extra htop
 grub-btrfs
 gparted
 timeshift
 timeshift-autosnap
->extra busybox
+busybox
 egl-wayland
 qt5-wayland
 packagekit
@@ -156,6 +156,7 @@ bleachbit
 >extra powertop
 >extra dmidecode
 >extra inxi
+>extra htop
 
 #-------=>gnome de
 gdm
