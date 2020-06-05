@@ -144,6 +144,7 @@ gparted
 timeshift
 timeshift-autosnap
 busybox
+git
 egl-wayland
 qt5-wayland
 packagekit
