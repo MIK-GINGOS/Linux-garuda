@@ -22,7 +22,7 @@ noto-fonts               # default font
 
 noto-fonts-emoji
 terminus-font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra ttf-opensans
 >extra powerline-fonts
 >extra ttf-liberation
@@ -61,10 +61,10 @@ garuda-gstreamer
 pamac-aur-git
 pamac-aur-tray-appindicator-git
 appimagelauncher
-bauh
-apparmor
-snapd
-snapd-glib
+#bauh
+#apparmor
+#snapd
+#snapd-glib
 fwupd
 #kalu
 
@@ -73,9 +73,9 @@ fwupd
 >extra powerpill
 
 ## Flatpak support
-flatpak
-xdg-desktop-portal
-xdg-desktop-portal-gtk
+#flatpak
+#xdg-desktop-portal
+#xdg-desktop-portal-gtk
 
 #---------=> settings manager
 garuda-settings-manager
@@ -83,7 +83,7 @@ garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
-manjaro-zsh-config
+garuda-zsh-config
 garuda-settings-samba
 garuda-printer
 simple-scan
@@ -245,7 +245,9 @@ flameshot
 mpv
 >basic midori
 >basic sylpheed
->extra catfish
+#>extra catfish
+>extra locate
+>extra recoll
 >extra guiscrcpy
 >extra nitroshare
 stacer
@@ -263,7 +265,7 @@ stacer
 >extra gimp
 >extra inkscape
 >extra blender
-
+>extra signal
 
 
 
