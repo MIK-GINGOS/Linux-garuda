@@ -1,11 +1,11 @@
 ## Normal MHWD package list
-
+#KERNEL-headers
 
 broadcom-wl-dkms
+rtlwifi_new-dkms
+#r8168-dkms
 #zfs-dkms
 #zfs-utils
-KERNEL-headers
-rtlwifi_new-extended-dkms
 
 >nonfree_x86_64 nvidia-prime
 >nonfree_x86_64 nvidia-settings
