@@ -62,7 +62,7 @@ pamac-aur-git
 pamac-aur-tray-appindicator-git
 appimagelauncher
 #bauh
-#apparmor
+apparmor
 #snapd
 #snapd-glib
 fwupd
