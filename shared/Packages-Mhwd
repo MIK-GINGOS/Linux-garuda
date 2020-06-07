@@ -15,7 +15,8 @@ rtlwifi_new-dkms
 >nonfree_multilib lib32-nvidia-utils
 >nonfree_multilib lib32-opencl-nvidia
 
-
+beignet
+intel-compute-runtime
 opencl-mesa
 mesa-vdpau
 vulkan-radeon
