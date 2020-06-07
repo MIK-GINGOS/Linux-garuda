@@ -26,6 +26,7 @@ vulkan-intel
 >multilib lib32-vulkan-intel
 >multilib lib32-mesa-vdpau
 
+intel-media-driver
 libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
