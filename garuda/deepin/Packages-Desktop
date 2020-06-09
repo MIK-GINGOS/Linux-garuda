@@ -7,7 +7,8 @@ grub-theme-garuda
 garuda-browser-settings
 plymouth-theme-garuda
 #qt5ct
-#kvantum-qt5
+kvantum-qt5
+kvantum-theme-fluent-git
 gtk-engine-murrine
 #garuda-wallpapers
 garuda-icons
@@ -140,7 +141,6 @@ xdg-user-dirs
 xdg-utils
 numlockx
 xautolock
-xcape
 #---------=> utilities
 libdvdcss
 powertop
@@ -171,7 +171,7 @@ kwin-effects-yet-another-magic-lamp
 ## deepin extra
 deepin-extra
 proxychains-ng
-
+zssh
 pdftricks
 ciano
 shortwave-git
@@ -179,9 +179,9 @@ gnome-keyring
 redshift
 qbittorrent
 gparted
+stacer
 >extra guiscrcpy
 >extra nitroshare
-stacer
 >extra telegram-desktop
 >extra wps-office
 >extra ttf-wps-fonts
@@ -189,7 +189,6 @@ stacer
 >extra libmythes
 >extra thunderbird
 >extra garuda-firefox
-
 >extra orca
 >extra onboard
 

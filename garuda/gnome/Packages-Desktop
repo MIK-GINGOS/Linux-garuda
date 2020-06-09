@@ -59,8 +59,8 @@ lollypop
 #### video
 celluloid
 mpv
->extra garuda-vaapi
->extra garuda-gstreamer
+garuda-vaapi
+garuda-gstreamer
 
 #--------=> package management
 pamac-aur-git
