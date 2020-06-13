@@ -103,7 +103,7 @@ qterminal-git
 qps-git
 xsettingsd
 ##------------> basic utilities
-neofetch
+neofetch-git
 inxi
 dmidecode
 htop

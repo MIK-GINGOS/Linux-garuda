@@ -146,7 +146,7 @@ libdvdcss
 powertop
 dmidecode
 inxi
-neofetch
+neofetch-git
 htop
 grub-btrfs
 timeshift
