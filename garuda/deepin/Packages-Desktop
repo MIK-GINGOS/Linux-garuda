@@ -109,7 +109,7 @@ librsvg
 >extra poppler-data
 >extra poppler-glib
 
-file-roller 
+
 ###-------archive formats
 >extra arj
 >extra cpio
