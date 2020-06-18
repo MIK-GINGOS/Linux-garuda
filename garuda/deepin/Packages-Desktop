@@ -219,7 +219,6 @@ flameshot
 >extra virtualbox-ext-vnc
 >extra virtualbox-guest-iso
 >extra virtualbox-sdk
->extra KERNEL-virtualbox-host-modules
 >extra virtualbox-host-dkms
 >extra tigervnc
 >extra vde2
