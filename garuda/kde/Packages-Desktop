@@ -471,7 +471,7 @@ firefox-extension-kdeconnect
 
 ######### GAMES
 >extra aisleriot
->extra kdegames-meta 
+>extra kde-games-meta 
 >extra gnuchess   
 >extra mari0
 >extra minetest
