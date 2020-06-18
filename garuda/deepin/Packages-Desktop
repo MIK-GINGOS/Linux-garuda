@@ -172,14 +172,20 @@ kwin-effects-yet-another-magic-lamp
 deepin-extra
 proxychains-ng
 zssh
-pdftricks
-ciano
-shortwave-git
+>extra pdftricks
+>extra ciano
+>extra shortwave-git
 gnome-keyring
 redshift
 qbittorrent
 gparted
 stacer
+>extra zoom
+>extra vscodium
+opera
+opera-ffmpeg-codecs
+pepper-flash
+discord
 >extra guiscrcpy
 >extra nitroshare
 >extra telegram-desktop
@@ -188,39 +194,65 @@ stacer
 >extra wps-office-mime
 >extra libmythes
 >extra thunderbird
->extra garuda-firefox
 >extra orca
 >extra onboard
-
+>extra flashplugin
 flameshot
 
->extra firefox-extension-kdeconnect
 
 #---------->>virtualization qemu and libvirt
->extra virt-manager
->extra virt-viewer
->extra ebtables
->extra bridge-utils
->extra gnu-netcat
->extra qemu
->extra radvd
->extra ceph
->extra ovmf
->extra qemu-block-gluster
->extra qemu-block-iscsi
->extra qemu-block-rbd
->extra qemu-arch-extra
+#>extra virt-viewer
+#>extra ebtables
+#>extra bridge-utils
+#>extra gnu-netcat
+#>extra qemu
+#>extra radvd
+#>extra ceph
+#>extra ovmf
+#>extra qemu-block-gluster
+#>extra qemu-block-iscsi
+#>extra qemu-block-rbd
+#>extra qemu-arch-extra
 
 #---------->>virtualization
-#>extra virtualbox
-#>extra virtualbox-ext-vnc
-#>extra virtualbox-guest-iso
-#>extra virtualbox-sdk
-#>extra KERNEL-virtualbox-host-modules
-#>extra virtualbox-host-dkms
-#>extra tigervnc
-#>extra vde2
-#>extra virtualbox-ext-oracle
+>extra virtualbox
+>extra virtualbox-ext-vnc
+>extra virtualbox-guest-iso
+>extra virtualbox-sdk
+>extra KERNEL-virtualbox-host-modules
+>extra virtualbox-host-dkms
+>extra tigervnc
+>extra vde2
+>extra virtualbox-ext-oracle
+
+####wine additions
+>extra lutris-wine-meta
+>extra wine-staging
+>extra wine-gecko 
+>extra wine-mono 
+>extra wine-nine
+>extra wine-installer-git
+>extra winetricks-git
+>extra wineasio-git
+>extra q4wine
+>extra exe-thumbnailer
+>extra fuseiso
+>extra openh264
+>extra ocl-icd
+>extra vkd3d
+>extra faudio
+>extra vulkan-icd-loader
+>extra vulkan-validation-layers
+>extra lib32-vulkan-icd-loader
+>extra lib32-vulkan-validation-layers
+>extra lib32-v4l-utils
+>extra lib32-ocl-icd
+>extra lib32-libxslt
+>extra lib32-vkd3d
+>extra lib32-faudio
+>extra lib32-gst-plugins-base-libs
+>extra dxvk-mingw-git
+>extra dosbox
 
 ####gaming tools
 >extra corectrl
