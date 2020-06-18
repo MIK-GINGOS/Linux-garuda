@@ -276,3 +276,5 @@ lib32-vulkan-icd-loader
 >extra dxvk-mingw-git
 #>extra wine-nine
 #>extra wine-installer-git
+>extra scummvm-tools
+>extra scummvm

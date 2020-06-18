@@ -258,7 +258,8 @@ flameshot
 >extra lib32-gst-plugins-base-libs
 >extra dxvk-mingw-git
 >extra dosbox
-
+>extra scummvm-tools
+>extra scummvm
 ####gaming tools
 >extra corectrl
 >extra fancontrol-gui-git

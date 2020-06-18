@@ -466,7 +466,8 @@ firefox-extension-kdeconnect
 >extra pcsx2-git
 >extra rpcs3-git
 >extra yuzu-mainline-git
-
+>extra scummvm-tools
+>extra scummvm
 
 
 ######### GAMES
