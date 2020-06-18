@@ -10,7 +10,7 @@ qt5ct
 qt5-styleplugins 
 kvantum-qt5
 flat-remix
-matcha-gtk-theme 
+matcha-gtk-theme-git
 kvantum-theme-matcha
 gtk-engine-murrine
 qogir-cursors-git
@@ -243,7 +243,7 @@ arandr
 lxappearance-gtk3
 galculator
 gsimplecal
-gpickview-gtk3
+gpicview-gtk3
 systemd-ui
 geany
 qpdfview
