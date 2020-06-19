@@ -345,8 +345,11 @@ firefox-extension-kdeconnect
 >extra murmur
 >extra libreoffice-fresh
 >extra libmythes
-
-
+>extra stremio
+>extra joplin
+>extra zoom
+>extra streamlink-twitch-gui
+>extra spotify-adblock-git
 
 #>extra popcorntime-git
 #>extra qownnotes
@@ -429,6 +432,9 @@ firefox-extension-kdeconnect
 >extra vkbasalt
 >extra vulkan-tools
 >extra ntfix-git
+>extra openrgb-git
+
+
 ## Game launchers 
 
 >extra steam
@@ -444,8 +450,9 @@ firefox-extension-kdeconnect
 >extra python-numpy
 >extra moonlight-qt
 >extra pegasus-frontend-git
-#>extra legendary
+>extra legendary
 
+>extra proton-tkg-git
 
 #### controller 
 
@@ -488,8 +495,8 @@ firefox-extension-kdeconnect
 
 
 ####   amd vulkan
-#>extra amdvlk
-#>extra lib32-amdvlk
+#>extra amdvlk-tkg-git
+#>extra lib32-amdvlk-tkg-git
 
 
 
