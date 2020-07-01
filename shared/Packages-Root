@@ -81,6 +81,7 @@ pacman-contrib
 pciutils
 plymouth-git
 perl
+powerpill
 preload
 procps-ng
 psmisc
@@ -114,6 +115,7 @@ wpa_supplicant
 wvdial
 xfsprogs
 xl2tpd
+yay
 zsh
 >extra base-devel
 >extra extra-cmake-modules

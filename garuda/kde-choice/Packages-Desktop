@@ -1,0 +1,482 @@
+## theme package
+garuda-kde-settings
+performance-tweaks
+
+#papirus-icon-theme
+sound-theme-smooth
+gtk-engine-murrine
+mojave-gtk-theme-git
+kvantum-qt5
+#>extra oxygen
+#>extra oxygen-icons
+breeze
+>extra breeze-gtk
+grub-theme-garuda
+plymouth-theme-garuda
+>extra wish-wallpapers
+garuda-wallpapers
+garuda-icons
+## Fonts
+noto-fonts               # default font
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+noto-fonts-emoji
+terminus-font
+>extra ttf-opensans
+>extra powerline-fonts
+>extra ttf-liberation
+>extra ttf-indic-otf
+
+## Network
+garuda-network
+garuda-bluetooth
+garuda-modem
+>extra qomui-git
+## Libraries for Sound/Audio/Video
+
+#---------=> audio
+garuda-alsa
+garuda-pulse
+garuda-pipewire
+pavucontrol-qt
+pulseaudio-equalizer-ladspa
+paprefs
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+playerctl
+#### video
+garuda-vaapi
+garuda-gstreamer
+
+
+#--------=> package management
+pamac-aur
+pamac-tray-appindicator
+appimagelauncher
+bauh
+apparmor
+snapd
+snapd-glib
+fwupd
+
+## Flatpak support
+flatpak
+xdg-desktop-portal
+xdg-desktop-portal-kde
+
+#---------=> settings manager
+garuda-settings-manager
+garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
+garuda-zsh-config
+garuda-settings-samba
+garuda-printer
+garuda-fcitx
+garuda-indic
+kcm-fcitx
+>extra system-config-samba # python2 package
+#---------+> input and gesture support
+####input
+garuda-input
+evdev-right-click-emulation
+libinput_gestures_qt
+
+#>extra fingerprint-gui
+
+#---------=> xorg
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+
+
+## Desktop Utils
+perl-file-mimeinfo
+>extra perl-net-dbus
+>extra perl-x11-protocol
+xdg-utils
+numlockx
+xautolock
+xdg-user-dirs
+xcape
+>extra kdocker
+>extra autokey
+#---------=> utilities
+libdvdcss
+powertop
+dmidecode
+inxi
+neofetch-git
+htop
+grub-btrfs
+timeshift
+timeshift-autosnap
+busybox
+conky-lua-nv
+micro-git
+#---------=> android and file transfer management
+android-tools
+android-udev
+
+## Display manager
+sddm
+sddm-kcm
+qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
+
+#### kde
+plasma-meta
+
+## plasma extra
+appmenu-gtk-module
+kde-gtk-config
+quota-tools
+plasma-wayland-session
+qt5-wayland
+
+## extra kde stuff
+
+
+plasma5-applets-latte-spacer
+plasma5-applets-latte-separator
+plasma5-applets-window-title
+plasma5-applets-window-appmenu
+plasma5-applets-window-buttons
+plasma5-applets-presentwindows
+plasma5-applets-audio-device-switcher
+plasma5-applets-netspeed
+plasma5-applets-plasma-pstate
+plasma5-applets-eventcalendar
+kwin-scripts-forceblur
+kwin-scripts-window-colors
+kwin-effects-yet-another-magic-lamp
+kwin-effects-sliding-notifications
+kwin-decoration-sierra-breeze-enhanced-git
+
+kde-servicemenus-rootactions
+kde-servicemenus-pdf
+kde-servicemenus-encfs
+kde-service-menu-reimage
+
+samba-mounter-git
+fancontrol-kcm-git
+kcm-wacomtablet 
+colord-kde
+kdenetwork-filesharing
+qt5-tools
+#>extra systemd-kcm
+
+## kde apps
+ark
+dolphin
+dolphin-plugins
+filelight
+kate
+gwenview
+svgpart
+konsole
+yakuake
+elisa
+kcolorchooser
+kcalc
+keditbookmarks
+kdialog
+kfind
+kdeconnect
+okular
+khelpcenter
+zeroconf-ioslave
+kio-extras
+kio-gdrive
+kio-fuse
+audiocd-kio
+kdf
+kcron
+ksystemlog
+kwalletmanager
+kamoso
+partitionmanager
+kup
+bup
+smb4k
+print-manager
+skanlite
+>extra krdc
+>extra krfb
+>extra kmouth
+>extra kmousetool
+>extra kmag
+>extra krename
+>extra kompare
+>extra kimtoy
+>extra kleopatra
+>extra kid3
+>extra krita
+>extra kdenlive
+>extra kwave
+>extra kaudiocreator
+>extra k3b
+>extra subtitlecomposer
+>extra soundkonverter
+>extra qwinff
+>extra converseen
+#>extra kmix
+#>extra tellico
+#>extra digikam
+#>extra kphotoalbum
+#>extra marble
+#>extra skrooge
+>extra argyllcms
+>extra colord-sane
+>extra orca
+>extra flite
+>extra festival
+>extra kile
+
+
+## Optional dependencies for ark
+###-------archive formats
+>extra arj
+>extra cpio
+>extra lha
+>extra lrzip
+>extra lzip
+>extra lzop
+>extra unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+## Optional dependencies for dolphin
+kdegraphics-thumbnailers  # PDF and PS thumbnails
+ffmpegthumbs              # video thumbnails
+>extra ruby                      # installing new service menus with GHNS
+
+## Optional dependencies for gwenview
+>extra kimageformats     # support for dds, xcf, exr, psd, and more image formats
+>extra qt5-imageformats  # support for tiff, webp, and more image formats
+>extra kipi-plugins
+>extra kamera
+
+## Optional dependencies for okular
+poppler-data  # encoding data to display PDF documents containing CJK characters
+>extra kdegraphics-mobipocket
+>extra ebook-tools
+
+## Optional dependencies for print-manager
+system-config-printer  # auto-detect the printer driver
+
+## Optional dependencies for kaccounts-integration
+kaccounts-providers
+
+## Optional dependencies for kdeconnect
+sshfs  # remote filesystem browser
+
+## Optional dependencies for k3b
+>extra cdparanoia    # for cd ripping support
+>extra cdrdao        # for disk-at-once (DAO) mode support
+>extra dvd+rw-tools  # for dvd burning support
+>extra emovix        # for bootable multimedia cd/dvd support
+>extra transcode     # for advanced mpeg conversion support
+>extra vcdimager     # for vcd burning support
+>extra cdrtools
+
+## Optional dependencies for kdenlive
+>extra cdrtools         # for creation of DVD ISO images
+>extra dvdauthor        # for creation of DVD
+>extra dvgrab           # for firewire capture
+>extra recordmydesktop  # for screen capture
+>extra vlc              # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
+>extra movit            # for GPU video processing
+>extra sox 
+>extra ladspa
+>extra opus-tools
+>extra frei0r-plugins
+
+## Optional dependencies for plasma-vault
+encfs
+>extra cryfs
+
+## Optional dependencies for krita
+>extra krita-plugin-gmic
+>extra opencolorio
+
+## Optional dependency for digikam
+#>extra kipi-plugins  # export to various online services
+#>extra hugin         # panorama tool
+
+#plymouth-kcm
+
+qbittorrent
+latte-dock-git
+flameshot
+imagewriter
+>extra stacer
+
+#>basic falkon
+>basic mpv
+>extra thunderbird
+>extra garuda-firefox
+>extra firefox-extension-plasma-integration
+>extra firefox-extension-kdeconnect
+
+>extra mediaelch
+>extra youtube-dl
+>extra qytdl
+>extra obs-studio
+>extra pdfmixtool
+>extra guiscrcpy
+>extra usbaudio-git
+>extra nitroshare
+
+>extra shortwave
+>extra telegram-desktop
+>extra discord
+>extra mumble
+>extra murmur
+>extra libreoffice-fresh
+>extra libmythes
+>extra stremio
+>extra joplin
+>extra zoom
+>extra streamlink-twitch-gui
+>extra spotify-adblock-git
+#>extra variety
+#>extra popcorntime-git
+#>extra qownnotes
+#>extra kodi 
+#>extra kodi-platform 
+#>extra kodi-eventclients 
+#>extra lmms
+#>extra smplayer
+#>extra smplayer-skins
+#>extra smplayer-themes
+#>extra smtube
+
+#---------->>virtualization qemu and libvirt
+>extra virt-manager
+>extra virt-viewer
+>extra ebtables
+>extra bridge-utils
+>extra gnu-netcat
+>extra qemu
+>extra radvd
+>extra ceph
+>extra ovmf
+>extra qemu-block-gluster
+>extra qemu-block-iscsi
+>extra qemu-block-rbd
+>extra qemu-arch-extra
+
+#---------->>virtualization
+#>extra virtualbox
+#>extra virtualbox-ext-vnc
+#>extra virtualbox-guest-iso
+#>extra virtualbox-sdk
+#>extra KERNEL-virtualbox-host-modules
+#>extra virtualbox-host-dkms
+#>extra tigervnc
+#>extra vde2
+#>extra virtualbox-ext-oracle
+
+
+####wine additions
+>extra garuda-wine
+
+####gaming tools
+>extra openrgb-git
+>extra piper
+>extra fancontrol-gui-git
+>extra corectrl
+>extra gwe
+
+
+>extra goverlay-git
+>extra mangohud-git
+>extra lib32-mangohud-git
+>extra gamemode
+>extra lib32-gamemode
+>extra vkbasalt
+>extra mesa-demos
+>extra lib32-mesa-demos
+>extra vulkan-tools
+
+>extra ntfix-git
+>extra q4wine
+>extra fuseiso
+
+>extra openh264
+>extra dxvk-mingw-git
+>extra proton-tkg-git
+
+## Game launchers 
+
+>extra steam
+>extra steam-native-runtime
+>extra linux-steam-integration
+>extra lutris
+>extra gamehub
+>extra itch
+>extra minigalaxy
+>extra legendary
+>extra gamerworld
+>extra ialauncher-git
+>extra athenaeum-git
+>extra python-numpy
+>extra moonlight-qt
+>extra pegasus-frontend-git
+
+
+
+
+#### controller 
+
+>extra antimicrox
+>extra linuxconsole
+>extra xboxdrv
+>extra xpadneo-dkms-git
+>extra steamos-xpad-dkms
+>extra xow-git
+>extra xbox-generic-controller
+
+#### games emulators
+>extra emulationstation
+>extra libretro
+>extra ppsspp
+>extra pcsxr
+>extra pcsx2-git
+>extra rpcs3-git
+>extra yuzu-mainline-git
+>extra scummvm-tools
+>extra scummvm
+>extra dosbox
+
+######### GAMES
+>extra aisleriot
+>extra kde-games-meta 
+>extra gnuchess   
+>extra mari0
+>extra minetest
+>extra minetest-server
+>extra teeworlds
+>extra puzzles
+>extra texlive-games
+#megaglest
+#xonotic
+#supertuxkart
+#enemy-territory
+#enemy-trritory-data
+
+
+####   amd vulkan
+#>extra amdvlk-tkg-git
+#>extra lib32-amdvlk-tkg-git
+
+
+

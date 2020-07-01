@@ -30,16 +30,13 @@ terminus-font
 garuda-network
 garuda-bluetooth
 garuda-modem
-modem-manager-gui
-firewalld
 >extra qomui-git
->extra gpsd
-bluetooth-autoconnect
 ## Libraries for Sound/Audio/Video
 
 #---------=> audio
 garuda-alsa
 garuda-pulse
+garuda-pipewire
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
 paprefs
@@ -50,19 +47,18 @@ playerctl
 #### video
 garuda-vaapi
 garuda-gstreamer
-mesa-demos
->multilib lib32-mesa-demos
+
 
 #--------=> package management
-pamac-aur-git
-pamac-aur-tray-appindicator-git
+pamac-aur
+pamac-tray-appindicator
 appimagelauncher
 bauh
 apparmor
 snapd
 snapd-glib
 fwupd
-#kalu-kde
+
 ## Flatpak support
 flatpak
 xdg-desktop-portal
@@ -107,8 +103,8 @@ numlockx
 xautolock
 xdg-user-dirs
 xcape
-kdocker
-autokey
+>extra kdocker
+>extra autokey
 #---------=> utilities
 libdvdcss
 powertop
@@ -120,7 +116,6 @@ grub-btrfs
 timeshift
 timeshift-autosnap
 busybox
-hidapi
 conky-lua-nv
 micro-git
 #---------=> android and file transfer management
@@ -143,32 +138,36 @@ plasma-wayland-session
 qt5-wayland
 
 ## extra kde stuff
-kde-servicemenus-rootactions
-kde-servicemenus-pdf
-kde-servicemenus-encfs
-kde-service-menu-reimage
-#kde-servicemenus-pkg-tools
-#kde-services
-#kim4
+
+
+plasma5-applets-latte-spacer
+plasma5-applets-latte-separator
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-presentwindows
-kwin-scripts-forceblur
-kwin-scripts-window-colors
 plasma5-applets-audio-device-switcher
 plasma5-applets-netspeed
 plasma5-applets-plasma-pstate
 plasma5-applets-eventcalendar
+kwin-scripts-forceblur
+kwin-scripts-window-colors
 kwin-effects-yet-another-magic-lamp
+kwin-effects-sliding-notifications
 kwin-decoration-sierra-breeze-enhanced-git
+
+kde-servicemenus-rootactions
+kde-servicemenus-pdf
+kde-servicemenus-encfs
+kde-service-menu-reimage
+
 samba-mounter-git
 fancontrol-kcm-git
 kcm-wacomtablet 
 colord-kde
-#>extra systemd-kcm
 kdenetwork-filesharing
 qt5-tools
+#>extra systemd-kcm
 
 ## kde apps
 ark
@@ -176,11 +175,9 @@ dolphin
 dolphin-plugins
 filelight
 kate
-#basket
 gwenview
 svgpart
 konsole
-#breezemite-yakuake-git
 yakuake
 elisa
 kcolorchooser
@@ -317,10 +314,10 @@ encfs
 #plymouth-kcm
 
 qbittorrent
-latte-dock
+latte-dock-git
 flameshot
 imagewriter
-stacer
+>extra stacer
 
 #>basic falkon
 >basic mpv
@@ -337,7 +334,7 @@ firefox-extension-kdeconnect
 >extra guiscrcpy
 >extra usbaudio-git
 >extra nitroshare
-#>extra variety
+
 >extra shortwave
 >extra telegram-desktop
 >extra discord
@@ -345,12 +342,12 @@ firefox-extension-kdeconnect
 >extra murmur
 >extra libreoffice-fresh
 >extra libmythes
->extra stremio
->extra joplin
->extra zoom
->extra streamlink-twitch-gui
+#>extra stremio
+#>extra joplin
+#>extra zoom
+#>extra streamlink-twitch-gui
 >extra spotify-adblock-git
-
+#>extra variety
 #>extra popcorntime-git
 #>extra qownnotes
 #>extra kodi 
@@ -390,50 +387,33 @@ firefox-extension-kdeconnect
 
 
 ####wine additions
->extra lutris-wine-meta
->extra wine-staging
->extra wine-gecko 
->extra wine-mono 
->extra wine-nine
->extra wine-installer-git
->extra winetricks-git
->extra wineasio-git
->extra q4wine
->extra execute-git
->extra exe-thumbnailer
->extra fuseiso
->extra openh264
->extra ocl-icd
->extra vkd3d
->extra faudio
->extra vulkan-icd-loader
->extra vulkan-validation-layers
->extra lib32-vulkan-icd-loader
->extra lib32-vulkan-validation-layers
->extra lib32-v4l-utils
->extra lib32-ocl-icd
->extra lib32-libxslt
->extra lib32-vkd3d
->extra lib32-faudio
->extra lib32-gst-plugins-base-libs
->extra dxvk-mingw-git
->extra dosbox
+>extra garuda-wine
 
 ####gaming tools
->extra corectrl
->extra fancontrol-gui-git
->extra gwe
+>extra openrgb-git
 >extra piper
+>extra fancontrol-gui-git
+>extra corectrl
+>extra gwe
+
+
 >extra goverlay-git
 >extra mangohud-git
 >extra lib32-mangohud-git
 >extra gamemode
 >extra lib32-gamemode
 >extra vkbasalt
+>extra mesa-demos
+>extra lib32-mesa-demos
 >extra vulkan-tools
->extra ntfix-git
->extra openrgb-git
 
+>extra ntfix-git
+>extra q4wine
+>extra fuseiso
+
+>extra openh264
+>extra dxvk-mingw-git
+>extra proton-tkg-git
 
 ## Game launchers 
 
@@ -443,16 +423,17 @@ firefox-extension-kdeconnect
 >extra lutris
 >extra gamehub
 >extra itch
->extra gamerworld
 >extra minigalaxy
+>extra legendary
+>extra gamerworld
 >extra ialauncher-git
 >extra athenaeum-git
 >extra python-numpy
 >extra moonlight-qt
 >extra pegasus-frontend-git
->extra legendary
 
->extra proton-tkg-git
+
+
 
 #### controller 
 
@@ -463,7 +444,6 @@ firefox-extension-kdeconnect
 >extra steamos-xpad-dkms
 >extra xow-git
 >extra xbox-generic-controller
->extra koku-xinput-wine
 
 #### games emulators
 >extra emulationstation
@@ -475,7 +455,7 @@ firefox-extension-kdeconnect
 >extra yuzu-mainline-git
 >extra scummvm-tools
 >extra scummvm
-
+>extra dosbox
 
 ######### GAMES
 >extra aisleriot
