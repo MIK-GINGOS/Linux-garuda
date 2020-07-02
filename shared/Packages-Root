@@ -91,16 +91,13 @@ rsync
 s-nail
 sed
 shadow
-#spectre-meltdown-checker
 sudo
 sysfsutils
-#systemd-fsck-silent
 systemd-guest-user
 systemd-sysvcompat
 systemd-swap
 tar
 texinfo
-#tlp
 traceroute
 usbutils
 util-linux
@@ -117,11 +114,8 @@ xfsprogs
 xl2tpd
 yay
 zsh
->extra base-devel
+base-devel
+git
 >extra extra-cmake-modules
 >extra ninja
 >extra meson
->extra git
-
-
-
