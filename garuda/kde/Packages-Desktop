@@ -75,7 +75,7 @@ garuda-zsh-config
 garuda-settings-samba
 garuda-printer
 garuda-fcitx
-garuda-indic
+#garuda-indic
 kcm-fcitx
 >extra system-config-samba # python2 package
 #---------+> input and gesture support

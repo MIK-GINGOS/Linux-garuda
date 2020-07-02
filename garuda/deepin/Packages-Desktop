@@ -86,7 +86,7 @@ garuda-input
 evdev-right-click-emulation
 libinput_gestures_qt
 garuda-fcitx
-garuda-indic
+#garuda-indic
 #>extra fingerprint-gui
 
 #---------=> android and file transfer management

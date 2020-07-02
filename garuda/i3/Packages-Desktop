@@ -88,7 +88,7 @@ garuda-settings-samba
 garuda-printer
 simple-scan
 garuda-ibus
-garuda-indic
+#garuda-indic
 ## Optional dependencies for printer
 system-config-printer  # auto-detect the printer driver
 

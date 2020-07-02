@@ -51,7 +51,7 @@ libinput_gestures_qt
 >extra fingerprint-gui
 >extra wacom-utility
 garuda-fcitx
-garuda-indic
+#garuda-indic
 kcm-fcitx
 evdev-right-click-emulation
 #---------=> edition theming and settings
