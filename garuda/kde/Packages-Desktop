@@ -108,19 +108,15 @@ xcape
 #---------=> utilities
 libdvdcss
 powertop
-dmidecode
-inxi
 neofetch-git
 htop
-grub-btrfs
 timeshift
 timeshift-autosnap
-busybox
 conky-lua-nv
-micro-git
 #---------=> android and file transfer management
 android-tools
 android-udev
+busybox
 
 ## Display manager
 sddm
