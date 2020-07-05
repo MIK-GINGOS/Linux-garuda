@@ -159,6 +159,7 @@ bleachbit
 
 #-------=>gnome de
 gdm-prime
+libgdm-prime
 mutter-performance
 gnome-session                                    
 gnome-settings-daemon                                           
