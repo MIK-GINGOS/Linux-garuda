@@ -17,9 +17,20 @@ ipw2200-fw
 aic94xx-firmware
 b43-firmware
 wd719x-firmware
+
+## mhwd
+
 mhwd-garuda
 mhwd-db-garuda
 
+# grub + efi
+grub
+efibootmgr
+os-prober-garuda
+grub-garuda
+plymouth-git
+grub-btrfs
+memtest86+
 
 ## package management 
 pacman-contrib
@@ -31,9 +42,6 @@ yay
 git
 >extra subversion
 >extra mercurial
->extra extra-cmake-modules
->extra ninja
->extra meson
 
 
 
@@ -41,6 +49,7 @@ git
 btrfs-progs
 dosfstools
 e2fsprogs
+ecryptfs-utils
 exfat-utils
 f2fs-tools
 fatresize
@@ -54,18 +63,13 @@ udftools
 xfsprogs
 
 
-# grub + efi 
 
-grub-garuda
-plymouth-git
-systemd-guest-user
-grub-btrfs
-
-mkinitcpio-utils
-mkinitcpio-netconf
-mkinitcpio-systemd-tool
 
 # extra things
+
+usbutils
+inetutils
+
 hwdetect
 cryptsetup
 dmraid
@@ -75,16 +79,18 @@ man-db
 man-pages
 logrotate
 lsb-release
-micro
 nano
 rsync
-zsh
-garuda-zsh-config
 freetype2
 inxi
 dmidecode
-usbutils
-inetutils
 
 
+micro
+systemd-guest-user
+garuda-zsh-config
 
+
+#mkinitcpio-utils
+#mkinitcpio-netconf
+#mkinitcpio-systemd-tool
