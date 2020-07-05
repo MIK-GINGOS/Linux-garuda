@@ -38,8 +38,6 @@ dnsmasq
 >extra garuda-network
 >extra garuda-bluetooth
 >extra garuda-modem
->extra modem-manager-gui
->extra bluetooth-autoconnect
 #>extra network-manager-applet
 #>extra blueberry
 
@@ -91,6 +89,7 @@ garuda-input
 #---------=> android and file transfer management
 android-sdk-platform-tools
 android-udev-git
+busybox
 
 gvfs-mtp
 gvfs
@@ -143,7 +142,6 @@ grub-btrfs
 gparted
 timeshift
 timeshift-autosnap
-busybox
 git
 egl-wayland
 qt5-wayland
@@ -160,7 +158,7 @@ bleachbit
 >extra htop
 
 #-------=>gnome de
-gdm
+gdm-prime
 mutter-performance
 gnome-session                                    
 gnome-settings-daemon                                           
@@ -215,11 +213,7 @@ flameshot-git
 >extra cockpit-machines
 
 #---------->>virtualization
-ebtables
-bridge-utils
->extra qemu
->extra libvirt
->extra virt-manager
+>extra garuda-virt-manager
 
 ####gaming tools
 #>extra corectrl
@@ -251,30 +245,6 @@ lib32-gamemode
 ####wine additions
 vulkan-icd-loader
 lib32-vulkan-icd-loader
->extra lutris-wine-meta
->extra wine-staging
->extra wine-gecko 
->extra wine-mono 
->extra winetricks-git
->extra wineasio-git
->extra q4wine
->extra execute-git
->extra exe-thumbnailer
->extra fuseiso
->extra openh264
->extra ocl-icd
->extra vkd3d
->extra faudio
->extra vulkan-validation-layers
->extra lib32-vulkan-validation-layers
->extra lib32-v4l-utils
->extra lib32-ocl-icd
->extra lib32-libxslt
->extra lib32-vkd3d
->extra lib32-faudio
->extra lib32-gst-plugins-base-libs
->extra dxvk-mingw-git
-#>extra wine-nine
-#>extra wine-installer-git
+>extra garuda-wine
 >extra scummvm-tools
 >extra scummvm
