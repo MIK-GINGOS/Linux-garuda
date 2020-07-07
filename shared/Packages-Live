@@ -6,5 +6,9 @@ garuda-live-skel
 garuda-live-systemd
 mkinitcpio-nfs-utils
 nbd
-#clonezilla
+clonezilla
 garuda-boot-repair-git
+ddrescue
+testdisk
+chntpw
+fsarchiver

@@ -7,6 +7,7 @@ rtlwifi_new-dkms
 #zfs-dkms
 #zfs-utils
 
+>nonfree_x86_64 bbswitch-dkms
 >nonfree_x86_64 optimus-manager
 >nonfree_x86_64 optimus-manager-qt
 >nonfree_x86_64 nvidia-prime

@@ -32,10 +32,7 @@ ttf-google-sans
 >extra ttf-liberation
 
 ## Network
-firewalld
-networkmanager
-dnsmasq
->extra garuda-network
+garuda-network
 >extra garuda-bluetooth
 >extra garuda-modem
 #>extra network-manager-applet
@@ -138,11 +135,9 @@ xdg-utils
 
 #---------=> utilities
 neofetch-git
-grub-btrfs
 gparted
 timeshift
 timeshift-autosnap
-git
 egl-wayland
 qt5-wayland
 packagekit
@@ -153,8 +148,6 @@ bleachbit
 >extra kdocker
 >extra libdvdcss
 >extra powertop
->extra dmidecode
->extra inxi
 >extra htop
 
 #-------=>gnome de

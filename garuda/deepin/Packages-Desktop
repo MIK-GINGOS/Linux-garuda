@@ -1,98 +1,165 @@
-## theme package
-garuda-deepin-settings
-performance-tweaks
+###############################
+### This is a template list ###
+###############################
+####---->> PACKAGE MANAGEMENT
+## Graphical
+pamac-aur
+pamac-tray-appindicator
+>extra bauh
+>extra octopi
 
-#---------=> edition theming and settings
-grub-theme-garuda
-garuda-browser-settings
-plymouth-theme-garuda
-#qt5ct
-kvantum-qt5
-kvantum-theme-fluent-git
-gtk-engine-murrine
-#garuda-wallpapers
-garuda-icons
-deepin-wallpapers-plasma
-## Fonts
-noto-fonts               # default font
-noto-fonts-emoji
-terminus-font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra ttf-opensans
->extra powerline-fonts
->extra ttf-liberation
+## APPIMAGE Support
+>extra appimagelauncher
 
-## Network
-garuda-network
-garuda-bluetooth
-garuda-modem
-modem-manager-gui
-firewalld
-bluetooth-autoconnect
-#network-manager-applet
-#blueberry
+## FIRMWARE UPDATES
+>extra fwupd
 
->extra qomui-git
->extra gpsd
-## Libraries for Sound/Audio/Video
+## Snap Support
+>extra apparmor
+>extra snapd
+>extra snapd-glib
 
-#---------=> audio
+## Flatpak support
+>extra flatpak
+
+
+####---->> AUDIO
 garuda-alsa
 garuda-pulse
-pavucontrol
+garuda-pipewire
+pavucontrol-qt
 pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-modules-bt-git
 libldac
 pulseaudio-ctl
 playerctl
-#### video
+
+
+####---->> VIDEO
 garuda-vaapi
 garuda-gstreamer
 
+####---->> NETWORK
+garuda-network
+garuda-modem
+garuda-bluetooth
+>extra qomui-git
 
-#--------=> package management
-pamac-aur-git
-pamac-aur-tray-appindicator-git
-appimagelauncher
-bauh
-apparmor
-snapd
-snapd-glib
-fwupd
-#kalu
-## Flatpak support
-flatpak
+
+####---->> PRINTER
+garuda-printer
+garuda-settings-samba
+>extra system-config-samba # python2 package
+simple-scan
+system-config-printer
+
+####---->> INPUT
+garuda-input
+evdev-right-click-emulation
+libinput_gestures_qt
+#>extra fingerprint-gui
+garuda-fcitx
+garuda-indic
+>extra wacom-utility
+
+####---->> XORG
+xorg-server
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xprop
+xorg-xkill
+
+####---->> WAYLAND
+
+
+
+####---->> UTILITIES
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
 xdg-desktop-portal
-xdg-desktop-portal-gtk
+xdg-desktop-portal-kde
+wmctrl
+numlockx
+xbindkeys
+xcape
+xdotool
+xautolock
+#---------=> utilities
+>extra libdvdcss
+powertop
+neofetch-git
+htop
+timeshift
+timeshift-autosnap
+conky-lua-nv
+vulkan-tools
+mesa-demos
+>multilib lib32-mesa-demos
+#---------=> android 
+android-tools
+android-udev
+busybox
 
-#---------=> settings manager
+####---->> THEMING
+## theme package
+garuda-deepin-settings
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+
+sound-theme-smooth
+gtk-engine-murrine
+kvantum-qt5
+kvantum-theme-fluent-git
+
+deepin-wallpapers-plasma
+#wish-wallpapers
+#garuda-wallpapers
+garuda-icons
+
+## Fonts
+noto-fonts               # default font
+#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+noto-fonts-emoji
+terminus-font
+>extra ttf-opensans
+>extra powerline-fonts
+
+
+####---->> SETTINGS
 garuda-settings-manager
+garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
-garuda-zsh-config
-garuda-settings-samba
-garuda-printer
-simple-scan
 
-## Optional dependencies for printer
-system-config-printer  # auto-detect the printer driver
 
-#---------+> input and gesture support
-####input
-garuda-input
-evdev-right-click-emulation
-libinput_gestures_qt
-garuda-fcitx
-#garuda-indic
-#>extra fingerprint-gui
 
-#---------=> android and file transfer management
-android-tools
-android-udev
+####---->> DISPLAY MANAGER
+lightdm
+accountsservice  # Enhanced user accounts handling
 
+
+####---->> DESKTOP ENVIRONMENT
+deepin-anything-dkms
+deepin
+deepin-kwin
+kwin-effects-yet-another-magic-lamp
+
+
+####---->> DESKTOP ENVIRONMENT APPS
+#------opt deps for archiver & file manager
+ffmpegthumbnailer
+libgsf
+libopenraw
+librsvg
 gvfs-mtp
 gvfs
 gvfs-afc
@@ -101,14 +168,6 @@ gvfs-smb
 gvfs-gphoto2
 gvfs-google
 gvfs-goa
-
-ffmpegthumbnailer
-libgsf
-libopenraw
-librsvg
->extra poppler-data
->extra poppler-glib
-
 
 ###-------archive formats
 >extra arj
@@ -125,159 +184,145 @@ unrar
 unzip
 zip
 
-#---------=> xorg
-xorg-server
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xkill
+>extra poppler-data
+>extra poppler-glib
 
-## Desktop Utils
-perl-file-mimeinfo
->extra perl-net-dbus
->extra perl-x11-protocol
-xdg-user-dirs
-xdg-utils
-numlockx
-xautolock
-#---------=> utilities
-libdvdcss
-powertop
-dmidecode
-inxi
-neofetch-git
-htop
-grub-btrfs
-timeshift
-timeshift-autosnap
-busybox
-hidapi
-conky-lua-nv
-micro-git
-mesa-demos
->multilib lib32-mesa-demos
-
-## Display manager
-lightdm
-accountsservice  # Enhanced user accounts handling
-
-
-#### deepin
-deepin-anything-dkms
-deepin
-deepin-kwin
-kwin-effects-yet-another-magic-lamp
 ## deepin extra
 deepin-extra
 proxychains-ng
 zssh
->extra pdftricks
->extra ciano
->extra shortwave-git
+onboard
+>extra orca
 gnome-keyring
 redshift
-qbittorrent
-freedownloadmanager
-streamlink-twitch-gui
-stremio
-gparted
+
+####---->> OTHER APPS
+flameshot
+partitionmanager
 stacer
-joplin
-bitwarden
+>extra kdeconnect
+>extra sshfs
+>extra systemdgenie
+>extra shortwave
+>extra python-xdg
+>extra pdftricks
+>extra ciano
+>extra qbittorrent
+>extra freedownloadmanager
+>extra streamlink-twitch-gui
+>extra stremio
+>extra gparted
+>extra joplin
+>extra bitwarden
 >extra zoom
 >extra vscodium-bin
-opera
-opera-ffmpeg-codecs
-pepper-flash
-discord
-teamviewer
+>extra discord
+>extra teamviewer
 >extra guiscrcpy
 >extra nitroshare
->extra telegram-desktop
+>extra spotify-adblock-git
+##------------> office
 >extra wps-office
 >extra ttf-wps-fonts
 >extra wps-office-mime
 >extra libmythes
->extra thunderbird
->extra orca
->extra onboard
+
+## Internet applications
+thunderbird
+>extra telegram-desktop
+opera
+opera-ffmpeg-codecs
+pepper-flash
 >extra flashplugin
-flameshot
->extra spotify-adblock-git
 
-#---------->>virtualization qemu and libvirt
-#>extra virt-viewer
-#>extra ebtables
-#>extra bridge-utils
-#>extra gnu-netcat
-#>extra qemu
-#>extra radvd
-#>extra ceph
-#>extra ovmf
-#>extra qemu-block-gluster
-#>extra qemu-block-iscsi
-#>extra qemu-block-rbd
-#>extra qemu-arch-extra
+####---->> VIRTUALIZATION
+#>extra garuda-virt-manager
+>extra garuda-virtualbox
 
-#---------->>virtualization
->extra virtualbox
->extra virtualbox-ext-vnc
->extra virtualbox-guest-iso
->extra virtualbox-sdk
->extra virtualbox-host-dkms
->extra tigervnc
->extra vde2
->extra virtualbox-ext-oracle
+####---->> WINE
+>extra garuda-wine
 
-####wine additions
->extra lutris-wine-meta
->extra wine-staging
->extra wine-gecko 
->extra wine-mono 
->extra wine-nine
->extra wine-installer-git
->extra winetricks-git
->extra wineasio-git
->extra q4wine
->extra exe-thumbnailer
->extra fuseiso
->extra openh264
->extra ocl-icd
->extra vkd3d
->extra faudio
->extra vulkan-icd-loader
->extra vulkan-validation-layers
->extra lib32-vulkan-icd-loader
->extra lib32-vulkan-validation-layers
->extra lib32-v4l-utils
->extra lib32-ocl-icd
->extra lib32-libxslt
->extra lib32-vkd3d
->extra lib32-faudio
->extra lib32-gst-plugins-base-libs
->extra dxvk-mingw-git
->extra dosbox
+
+####---->> EMULATORS
+>extra emulationstation
+>extra libretro
+>extra ppsspp
+>extra pcsxr
+>extra pcsx2-git
+>extra rpcs3-git
+>extra yuzu-mainline-git
 >extra scummvm-tools
 >extra scummvm
-####gaming tools
->extra corectrl
->extra fancontrol-gui-git
->extra gwe
+>extra dosbox
+
+####---->> GAME LAUNCHERS
+
+>extra steam
+>extra steam-native-runtime
+>extra linux-steam-integration
+>extra lutris
+>extra gamehub
+>extra itch
+>extra minigalaxy
+>extra legendary
+>extra gamerworld
+>extra ialauncher-git
+>extra athenaeum-git
+>extra python-numpy
+>extra moonlight-qt
+>extra pegasus-frontend-git
+
+####---->> GAMING TOOLS
+>extra openrgb-git
 >extra piper
+>extra fancontrol-gui-git
+>extra corectrl
+>extra gwe
+
+
 >extra goverlay-git
 >extra mangohud-git
 >extra lib32-mangohud-git
 >extra gamemode
 >extra lib32-gamemode
 >extra vkbasalt
->extra vulkan-tools
->extra ntfix-git
-## Game launchers 
 
->extra steam
->extra steam-native-runtime
->extra lutris
->extra gamehub
->extra itch
->extra minigalaxy
+
+>extra ntfix-git
+>extra q4wine
+>extra fuseiso
+
+>extra openh264
+>extra dxvk-mingw-git
+>extra proton-tkg-git
+####   amd vulkan
+#>extra amdvlk-tkg-git
+#>extra lib32-amdvlk-tkg-git
+
+####---->> GAME CONTROLLER
+>extra antimicrox
+>extra linuxconsole
+>extra xboxdrv
+>extra xpadneo-dkms-git
+>extra steamos-xpad-dkms
+>extra xow-git
+>extra xbox-generic-controller
+
+
+####---->> GAMES
+
+>extra aisleriot
+>extra kde-games-meta 
+>extra gnuchess   
+>extra mari0
+>extra minetest
+>extra minetest-server
+>extra teeworlds
+>extra puzzles
+>extra texlive-games
+#megaglest
+#xonotic
+#supertuxkart
+#enemy-territory
+#enemy-trritory-data
+
