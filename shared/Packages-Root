@@ -5,7 +5,7 @@
 filesystem
 gcc-libs
 glibc
-bash
+bash-completion
 coreutils
 file
 findutils
@@ -103,7 +103,7 @@ mtools
 
 
 ## extra things
-
+bridge-utils
 usbutils
 inetutils
 lockdown-ms
@@ -115,6 +115,7 @@ man-db
 man-pages
 logrotate
 lsb-release
+wget
 rsync
 freetype2
 inxi
@@ -123,4 +124,5 @@ cronie
 micro
 systemd-guest-user
 garuda-zsh-config
-
+garuda-browser-settings
+garuda-hooks

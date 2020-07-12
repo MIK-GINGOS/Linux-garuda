@@ -86,6 +86,7 @@ xcape
 xdotool
 xautolock
 #---------=> utilities
+autorandr
 >extra libdvdcss
 powertop
 neofetch-git
@@ -318,6 +319,7 @@ sshfs  # remote filesystem browser
 >extra ladspa
 >extra opus-tools
 >extra frei0r-plugins
+>extra opencv
 
 ## Optional dependencies for plasma-vault
 encfs

@@ -94,6 +94,7 @@ xcape
 xdotool
 xautolock
 #---------=> utilities
+autorandr
 >extra libdvdcss
 powertop
 neofetch-git
@@ -139,7 +140,7 @@ terminus-font
 
 ####---->> SETTINGS
 garuda-settings-manager
-garuda-settings-manager-kcm
+#garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
@@ -286,20 +287,20 @@ garuda-firefox
 #>extra garuda-virtualbox
 
 ####---->> WINE
->extra garuda-wine
+#>extra garuda-wine
 
 
 ####---->> EMULATORS
->extra emulationstation
->extra libretro
->extra ppsspp
->extra pcsxr
->extra pcsx2-git
->extra rpcs3-git
->extra yuzu-mainline-git
->extra scummvm-tools
->extra scummvm
->extra dosbox
+#>extra emulationstation
+#>extra libretro
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
+#>extra scummvm-tools
+#>extra scummvm
+#>extra dosbox
 
 ####---->> GAME LAUNCHERS
 
@@ -311,19 +312,19 @@ garuda-firefox
 >extra itch
 >extra minigalaxy
 >extra legendary
->extra gamerworld
->extra ialauncher-git
->extra athenaeum-git
->extra python-numpy
->extra moonlight-qt
->extra pegasus-frontend-git
+#>extra gamerworld
+#>extra ialauncher-git
+#>extra athenaeum-git
+#>extra python-numpy
+#>extra moonlight-qt
+#>extra pegasus-frontend-git
 
 ####---->> GAMING TOOLS
->extra openrgb-git
->extra piper
->extra fancontrol-gui-git
->extra corectrl
->extra gwe
+#>extra openrgb-git
+#>extra piper
+#>extra fancontrol-gui-git
+#>extra corectrl
+#>extra gwe
 
 
 >extra goverlay-git
@@ -332,17 +333,15 @@ garuda-firefox
 >extra gamemode
 >extra lib32-gamemode
 >extra vkbasalt
->extra mesa-demos
->extra lib32-mesa-demos
->extra vulkan-tools
 
->extra ntfix-git
->extra q4wine
->extra fuseiso
 
->extra openh264
->extra dxvk-mingw-git
->extra proton-tkg-git
+#>extra ntfix-git
+#>extra q4wine
+#>extra fuseiso
+
+#>extra openh264
+#>extra dxvk-mingw-git
+#>extra proton-tkg-git
 ####   amd vulkan
 #>extra amdvlk-tkg-git
 #>extra lib32-amdvlk-tkg-git
@@ -350,27 +349,28 @@ garuda-firefox
 ####---->> GAME CONTROLLER
 >extra antimicrox
 >extra linuxconsole
->extra xboxdrv
->extra xpadneo-dkms-git
->extra steamos-xpad-dkms
->extra xow-git
->extra xbox-generic-controller
+#>extra xboxdrv
+#>extra xpadneo-dkms-git
+#>extra steamos-xpad-dkms
+#>extra xow-git
+#>extra xbox-generic-controller
 
 
 ####---->> GAMES
 
 >extra aisleriot
->extra kde-games-meta 
->extra gnuchess   
+#>extra kde-games-meta 
+#>extra gnuchess   
 >extra mari0
 >extra minetest
 >extra minetest-server
 >extra teeworlds
->extra puzzles
->extra texlive-games
+>extra gnome-chess
+>extra gnome-mahjongg
+#>extra puzzles
+#>extra texlive-games
 #megaglest
 #xonotic
 #supertuxkart
 #enemy-territory
 #enemy-trritory-data
-
