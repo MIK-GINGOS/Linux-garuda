@@ -39,8 +39,8 @@ playerctl
 
 
 ####---->> VIDEO
-garuda-vaapi
-garuda-gstreamer
+>extra garuda-vaapi
+>extra garuda-gstreamer
 
 ####---->> NETWORK
 garuda-connman
