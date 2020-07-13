@@ -22,6 +22,8 @@ pamac-tray-appindicator
 ## Flatpak support
 >extra flatpak
 
+## PACKAGEKIT SUPPORT
+>extra packagekit-qt5
 
 ####---->> AUDIO
 >extra garuda-alsa
