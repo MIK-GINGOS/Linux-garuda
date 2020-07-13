@@ -24,16 +24,16 @@ pamac-tray-appindicator
 
 
 ####---->> AUDIO
-garuda-alsa
-garuda-pulse
-garuda-pipewire
+>extra garuda-alsa
+>extra garuda-pulse
+>extra garuda-pipewire
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-modules-bt-git
 libldac
-pulseaudio-ctl
-playerctl
+>extra pulseaudio-ctl
+>extra playerctl
 
 
 ####---->> VIDEO
@@ -48,17 +48,17 @@ garuda-modem
 
 
 ####---->> PRINTER
-garuda-printer
+>extra garuda-printer
 garuda-settings-samba
 >extra system-config-samba # python2 package
 
 ####---->> INPUT
 garuda-input
-evdev-right-click-emulation
+>extra evdev-right-click-emulation
 libinput_gestures_qt
 #>extra fingerprint-gui
 garuda-fcitx
-garuda-indic
+>extra garuda-indic
 
 ####---->> XORG
 xorg-server-xwayland 
@@ -211,7 +211,7 @@ zeroconf-ioslave
 kio-extras
 kio-gdrive
 kio-fuse
-audiocd-kio
+>extra audiocd-kio
 kdf
 kcron
 ksystemlog
@@ -219,14 +219,14 @@ kwalletmanager
 kamoso
 partitionmanager
 kup
-krename
-kompare
-kleopatra
 smb4k
-print-manager
-skanlite
-krdc
-krfb
+>extra krename
+>extra kompare
+>extra kleopatra
+>extra print-manager
+>extra skanlite
+>extra krdc
+>extra krfb
 >extra kmouth
 >extra kmousetool
 >extra kmag

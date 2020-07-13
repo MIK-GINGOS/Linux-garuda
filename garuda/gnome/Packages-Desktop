@@ -40,8 +40,8 @@ libldac
 
 
 ####---->> VIDEO
->extra garuda-vaapi
->extra garuda-gstreamer
+garuda-vaapi
+garuda-gstreamer
 
 ####---->> NETWORK
 garuda-network
@@ -62,9 +62,9 @@ garuda-settings-samba
 ####---->> INPUT
 garuda-input
 >extra evdev-right-click-emulation
->extra gesture-manager-x-git
+gesture-manager-x-git
 #>extra fingerprint-gui
->extra garuda-ibus
+garuda-ibus
 >extra garuda-indic
 
 ####---->> XORG
@@ -97,9 +97,9 @@ xdg-user-dirs
 #---------=> utilities
 autorandr
 >extra libdvdcss
->extra powertop
+powertop
 neofetch-git
->extra htop
+htop
 timeshift
 timeshift-autosnap
 >extra conky-lua-nv

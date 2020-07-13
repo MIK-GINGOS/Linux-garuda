@@ -24,9 +24,9 @@ pamac-tray-appindicator
 
 
 ####---->> AUDIO
-garuda-alsa
-garuda-pulse
-garuda-pipewire
+>extra garuda-alsa
+>extra garuda-pulse
+>extra garuda-pipewire
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
 paprefs
@@ -48,24 +48,23 @@ cmst
 bluedevil
 >extra qomui-git
 >extra wds-git
->extra nx-firewall-git
->extra ufw-extras
+nx-firewall-git
 
 ####---->> PRINTER
-garuda-printer
+>extra garuda-printer
 garuda-settings-samba
 >extra system-config-samba # python2 package
-print-manager
-skanlite
-system-config-printer
+>extra print-manager
+>extra skanlite
+>extra system-config-printer
 
 ####---->> INPUT
 garuda-input
-evdev-right-click-emulation
+>extra evdev-right-click-emulation
 libinput_gestures_qt
 #>extra fingerprint-gui
 garuda-fcitx
-garuda-indic
+>extra garuda-indic
 >extra plasma-thunderbolt
 >extra wacom-utility
 kcm-fcitx
@@ -87,8 +86,8 @@ xorg-xprop
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
-xdg-desktop-portal
-xdg-desktop-portal-kde
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde
 wmctrl
 numlockx
 xbindkeys
@@ -228,6 +227,8 @@ stacer
 >extra krfb
 >extra krdc
 >extra freerdp
+>extra kdiff3
+>extra krename
 >extra nitroshare
 >extra photoflare
 >extra youtube-dl

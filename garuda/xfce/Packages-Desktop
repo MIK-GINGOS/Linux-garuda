@@ -6,7 +6,7 @@
 pamac-aur
 pamac-tray-appindicator
 >extra bauh
->extra octopi
+#>extra octopi
 
 ## APPIMAGE Support
 >extra appimagelauncher
@@ -24,16 +24,16 @@ pamac-tray-appindicator
 
 
 ####---->> AUDIO
-garuda-alsa
-garuda-pulse
-garuda-pipewire
+>extra garuda-alsa
+>extra garuda-pulse
+>extra garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-modules-bt-git
 libldac
-pulseaudio-ctl
-playerctl
+>extra pulseaudio-ctl
+>extra playerctl
 
 
 ####---->> VIDEO
@@ -49,20 +49,20 @@ network-manager-applet
 blueberry
 
 ####---->> PRINTER
-garuda-printer
+>extra garuda-printer
 garuda-settings-samba
 >extra system-config-samba # python2 package
-simple-scan
-system-config-printer
+>extra simple-scan
+>extra system-config-printer
 
 
 ####---->> INPUT
 garuda-input
-evdev-right-click-emulation
+>extra evdev-right-click-emulation
 gesture-manager-x-git
 #>extra fingerprint-gui
 garuda-ibus
-garuda-indic
+>extra garuda-indic
 >extra wacom-utility
 
 ####---->> XORG
@@ -84,8 +84,8 @@ xorg-xkill
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
-xdg-desktop-portal
-xdg-desktop-portal-gtk
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-gtk
 wmctrl
 numlockx
 xbindkeys
@@ -255,7 +255,7 @@ xfce4-dockbarx-plugin-gtk3-git
 onboard
 ####---->> OTHER APPS
 flameshot
-shortwave
+>extra shortwave
 systemd-ui
 gnome-keyring
 redshift
