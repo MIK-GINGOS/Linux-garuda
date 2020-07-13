@@ -225,7 +225,7 @@ freedownloadmanager
 >extra spotify-adblock-git
 ##------------> office
 >extra wps-office
->extra ttf-wps-fonts
+>extra wps-office-fonts
 >extra wps-office-mime
 >extra libmythes
 

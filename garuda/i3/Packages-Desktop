@@ -266,7 +266,7 @@ nitrogen
 >extra soundconverter
 >extra guvcview
 >extra gcolor3
->extra locate
+>extra mlocate
 >extra recoll
 ##------------> Graphics
 >extra gimp
