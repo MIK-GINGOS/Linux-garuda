@@ -40,7 +40,7 @@ libldac
 
 ####---->> VIDEO
 >extra garuda-vaapi
->extra garuda-gstreamer
+garuda-gstreamer
 
 ####---->> NETWORK
 garuda-network
@@ -98,7 +98,7 @@ timeshift-autosnap
 conky-lua-nv
 vulkan-tools
 mesa-demos
->multilib lib32-mesa-demos
+>extra lib32-mesa-demos
 #---------=> android and file transfer management
 android-tools
 android-udev
@@ -114,7 +114,7 @@ plymouth-theme-garuda
 
 #papirus-icon-theme
 sound-theme-smooth
-gtk-engine-murrine
+>extra gtk-engine-murrine
 mojave-gtk-theme-git
 kvantum-qt5
 #>extra oxygen

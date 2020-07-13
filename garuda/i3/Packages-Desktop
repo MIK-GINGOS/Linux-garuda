@@ -40,7 +40,7 @@ playerctl
 
 ####---->> VIDEO
 >extra garuda-vaapi
->extra garuda-gstreamer
+garuda-gstreamer
 
 ####---->> NETWORK
 garuda-network
@@ -106,7 +106,7 @@ timeshift-autosnap
 conky-lua-nv
 vulkan-tools
 mesa-demos
->multilib lib32-mesa-demos
+>extra lib32-mesa-demos
 #---------=> android 
 android-tools
 android-udev
@@ -120,7 +120,7 @@ grub-theme-garuda
 plymouth-theme-garuda
 
 sound-theme-smooth
-gtk-engine-murrine
+>extra gtk-engine-murrine
 qt5ct
 kvantum-qt5
 kvantum-theme-qogir-git
