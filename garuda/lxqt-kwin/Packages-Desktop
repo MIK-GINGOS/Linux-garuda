@@ -52,13 +52,25 @@ bluedevil
 >extra wds-git
 nx-firewall-git
 
+
+
 ####---->> PRINTER
->extra garuda-printer
+## samba
 garuda-settings-samba
 >extra system-config-samba # python2 package
->extra print-manager
->extra skanlite
+
+## printing
+>extra garuda-printer
 >extra system-config-printer
+>extra python-pysmbc
+>extra splix
+>extra hplip
+>extra python-pyqt5
+>extra python-reportlab
+>extra print-manager
+
+## scanning
+>extra skanlite
 
 ####---->> INPUT
 garuda-input
@@ -237,6 +249,7 @@ stacer
 >extra qytdl
 >extra mystiq
 >extra converseen
+>extra shotcut
 >extra lector
 >extra qvkbd
 >extra meteo-qt-git

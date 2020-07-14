@@ -50,11 +50,21 @@ garuda-bluetooth
 
 
 ####---->> PRINTER
->extra garuda-printer
+## samba
 garuda-settings-samba
 >extra system-config-samba # python2 package
->extra simple-scan
+
+## printing
+>extra garuda-printer
 >extra system-config-printer
+>extra python-pysmbc
+>extra splix
+>extra hplip
+>extra python-pyqt5
+>extra python-reportlab
+
+## scanning
+>extra simple-scan
 
 ####---->> INPUT
 garuda-input
@@ -116,7 +126,7 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 
-sound-theme-smooth
+#sound-theme-smooth
 >extra gtk-engine-murrine
 kvantum-qt5
 kvantum-theme-fluent-git

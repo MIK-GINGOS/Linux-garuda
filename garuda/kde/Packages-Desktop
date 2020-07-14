@@ -50,9 +50,22 @@ garuda-modem
 
 
 ####---->> PRINTER
->extra garuda-printer
+## samba
 garuda-settings-samba
 >extra system-config-samba # python2 package
+
+## printing
+>extra garuda-printer
+>extra system-config-printer
+>extra python-pysmbc
+>extra splix
+>extra hplip
+>extra python-pyqt5
+>extra python-reportlab
+>extra print-manager
+
+## scanning
+>extra skanlite
 
 ####---->> INPUT
 garuda-input
@@ -241,7 +254,7 @@ smb4k
 >extra k3b
 >extra subtitlecomposer
 >extra soundkonverter
->extra qwinff
+>extra mystiq
 >extra converseen
 >extra argyllcms
 >extra colord-sane
@@ -290,9 +303,6 @@ poppler-data  # encoding data to display PDF documents containing CJK characters
 poppler-glib
 >extra kdegraphics-mobipocket
 >extra ebook-tools
-
-## Optional dependencies for print-manager
-system-config-printer  # auto-detect the printer driver
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
