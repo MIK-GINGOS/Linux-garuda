@@ -125,15 +125,12 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 
-#papirus-icon-theme
+papirus-icon-theme
 sound-theme-smooth
 >extra gtk-engine-murrine
 mojave-gtk-theme-git
 kvantum-qt5
-#>extra oxygen
-#>extra oxygen-icons
-breeze
-breeze-gtk
+
 
 wish-wallpapers
 garuda-wallpapers
@@ -168,6 +165,7 @@ plasma-meta
 plasma5-applets-latte-spacer
 plasma5-applets-latte-separator
 plasma5-applets-tiledmenu
+plasma5-applets-simplemenu-git
 plasma5-applets-latte-sidebar-button
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
@@ -191,7 +189,7 @@ kde-service-menu-reimage
 #plymouth-kcm
 kcm-fcitx
 samba-mounter-git
-fancontrol-kcm-git
+>extra fancontrol-kcm-git
 kcm-wacomtablet 
 colord-kde
 kdenetwork-filesharing
@@ -213,7 +211,8 @@ gwenview
 svgpart
 konsole
 yakuake
-elisa
+
+kolourpaint
 kcolorchooser
 kcalc
 keditbookmarks
@@ -221,20 +220,26 @@ kdialog
 kfind
 kdeconnect
 okular
-khelpcenter
+kamoso
+partitionmanager
+ksystemlog
+kdf
+kcron
+kup
+smb4k
 zeroconf-ioslave
 kio-extras
 kio-gdrive
 kio-fuse
 >extra audiocd-kio
-kdf
-kcron
-ksystemlog
-kwalletmanager
-kamoso
-partitionmanager
-kup
-smb4k
+
+
+>extra elisa
+
+>basic vvave-git
+
+>extra khelpcenter
+>extra kwalletmanager
 >extra krename
 >extra kompare
 >extra kleopatra
@@ -358,7 +363,7 @@ thunderbird
 garuda-firefox
 firefox-extension-plasma-integration
 firefox-extension-kdeconnect
-
+>basic simplescreenrecorder
 >extra mediaelch
 >extra youtube-dl
 >extra qytdl

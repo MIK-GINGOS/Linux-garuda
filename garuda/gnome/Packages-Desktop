@@ -259,18 +259,17 @@ cockpit
 cockpit-dashboard
 flameshot-git
 bleachbit
+deluge-gtk
+peek
+popsicle-git
 >extra spotify-adblock-git
 >extra variety
 >extra remmina
 >extra geary
 >extra cockpit-machines
-
 >extra shortwave
 >extra systemd-ui
 >extra redshift
->extra qbittorrent
->extra peek
->extra mintstick
 >extra catfish
 >extra meld
 >extra pitivi

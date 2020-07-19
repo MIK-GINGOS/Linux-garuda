@@ -232,7 +232,7 @@ imagewriter
 audacious
 audacious-plugins
 stacer
->extra simplescreenrecorder
+simplescreenrecorder
 >extra guvcview-qt
 >extra guiscrcpy
 >extra kdeconnect
