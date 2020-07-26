@@ -292,27 +292,28 @@ thunderbird
 garuda-firefox
 >extra telegram-desktop
 >extra signal-desktop
-
+>extra streamlink-twitch-gui
+>extra discord
 
 ####---->> VIRTUALIZATION
 >extra garuda-virt-manager
 #>extra garuda-virtualbox
 
 ####---->> WINE
-#>extra garuda-wine
+>extra garuda-wine
 
 
 ####---->> EMULATORS
-#>extra emulationstation
-#>extra libretro
-#>extra ppsspp
-#>extra pcsxr
-#>extra pcsx2-git
-#>extra rpcs3-git
-#>extra yuzu-mainline-git
-#>extra scummvm-tools
-#>extra scummvm
-#>extra dosbox
+>extra emulationstation
+>extra libretro
+>extra ppsspp
+>extra pcsxr
+>extra pcsx2-git
+>extra rpcs3-git
+>extra yuzu-mainline-git
+>extra scummvm-tools
+>extra scummvm
+>extra dosbox
 
 ####---->> GAME LAUNCHERS
 
@@ -324,19 +325,19 @@ garuda-firefox
 >extra itch
 >extra minigalaxy
 >extra legendary
-#>extra gamerworld
-#>extra ialauncher-git
-#>extra athenaeum-git
-#>extra python-numpy
-#>extra moonlight-qt
-#>extra pegasus-frontend-git
+>extra gamerworld
+>extra ialauncher-git
+>extra athenaeum-git
+>extra python-numpy
+>extra moonlight-qt
+>extra pegasus-frontend-git
 
 ####---->> GAMING TOOLS
-#>extra openrgb-git
-#>extra piper
-#>extra fancontrol-gui-git
-#>extra corectrl
-#>extra gwe
+>extra openrgb-git
+>extra piper
+>extra fancontrol-gui-git
+>extra corectrl
+>extra gwe
 
 
 >extra goverlay-git
@@ -347,13 +348,13 @@ garuda-firefox
 >extra vkbasalt
 
 
-#>extra ntfix-git
-#>extra q4wine
-#>extra fuseiso
+>extra ntfix-git
+>extra q4wine
+>extra fuseiso
 
-#>extra openh264
-#>extra dxvk-mingw-git
-#>extra proton-tkg-git
+>extra openh264
+>extra dxvk-mingw-git
+>extra proton-tkg-git
 ####   amd vulkan
 #>extra amdvlk-tkg-git
 #>extra lib32-amdvlk-tkg-git
@@ -361,11 +362,11 @@ garuda-firefox
 ####---->> GAME CONTROLLER
 >extra antimicrox
 >extra linuxconsole
-#>extra xboxdrv
-#>extra xpadneo-dkms-git
-#>extra steamos-xpad-dkms
-#>extra xow-git
-#>extra xbox-generic-controller
+>extra xboxdrv
+>extra xpadneo-dkms-git
+>extra steamos-xpad-dkms
+>extra xow-git
+>extra xbox-generic-controller
 
 
 ####---->> GAMES

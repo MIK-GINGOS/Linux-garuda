@@ -76,6 +76,7 @@ garuda-fcitx
 >extra garuda-indic
 
 ####---->> XORG
+xorg-server
 xorg-server-xwayland 
 xorg-xhost
 xorg-xinit
@@ -92,20 +93,20 @@ xorg-xprop
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
-xdg-desktop-portal
-xdg-desktop-portal-kde
-wmctrl
-numlockx
-xbindkeys
-xcape
-xdotool
-xautolock
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde
+>extra wmctrl
+>extra numlockx
+>extra xbindkeys
+>extra xcape
+>extra xdotool
+>extra xautolock
 #---------=> utilities
 autorandr
 >extra libdvdcss
-powertop
+>extra powertop
 neofetch-git
-htop
+>extra htop
 timeshift
 timeshift-autosnap
 conky-lua-nv
@@ -166,6 +167,7 @@ plasma5-applets-latte-spacer
 plasma5-applets-latte-separator
 plasma5-applets-tiledmenu
 plasma5-applets-simplemenu-git
+plasma5-applets-uswitch
 plasma5-applets-latte-sidebar-button
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
@@ -185,7 +187,7 @@ kde-servicemenus-rootactions
 kde-servicemenus-pdf
 kde-servicemenus-encfs
 kde-service-menu-reimage
-
+jhead
 #plymouth-kcm
 kcm-fcitx
 samba-mounter-git
@@ -222,10 +224,8 @@ kdeconnect
 okular
 kamoso
 partitionmanager
-ksystemlog
 kdf
 kcron
-kup
 smb4k
 zeroconf-ioslave
 kio-extras
@@ -238,6 +238,8 @@ kio-fuse
 
 >basic vvave-git
 
+>extra ksystemlog
+>extra kup
 >extra khelpcenter
 >extra kwalletmanager
 >extra krename
@@ -375,6 +377,7 @@ firefox-extension-kdeconnect
 
 >extra shortwave
 >extra telegram-desktop
+>extra streamlink-twitch-gui
 >extra discord
 >extra mumble
 >extra murmur
@@ -383,7 +386,6 @@ firefox-extension-kdeconnect
 #>extra stremio
 #>extra joplin
 #>extra zoom
-#>extra streamlink-twitch-gui
 #>extra spotify-adblock-git
 #>extra variety
 #>extra popcorntime-git

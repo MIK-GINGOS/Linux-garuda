@@ -83,7 +83,6 @@ xorg-xinit
 xorg-xinput
 xorg-xrandr
 xorg-xprop
-xorg-xkill
 
 ####---->> WAYLAND
 
@@ -105,9 +104,9 @@ xdg-user-dirs
 #---------=> utilities
 autorandr
 >extra libdvdcss
-powertop
+>extra powertop
 neofetch-git
-htop
+>extra htop
 timeshift
 timeshift-autosnap
 conky-lua-nv
@@ -222,12 +221,12 @@ freedownloadmanager
 >extra pdftricks
 >extra ciano
 >extra streamlink-twitch-gui
+>extra discord
 >extra stremio
 >extra joplin
 >extra bitwarden
 >extra zoom
 >extra vscodium-bin
->extra discord
 >extra teamviewer
 >extra guiscrcpy
 >extra nitroshare
@@ -251,20 +250,20 @@ pepper-flash
 >extra garuda-virtualbox
 
 ####---->> WINE
-#>extra garuda-wine
+>extra garuda-wine
 
 
 ####---->> EMULATORS
-#>extra emulationstation
-#>extra libretro
-#>extra ppsspp
-#>extra pcsxr
-#>extra pcsx2-git
-#>extra rpcs3-git
-#>extra yuzu-mainline-git
-#>extra scummvm-tools
-#>extra scummvm
-#>extra dosbox
+>extra emulationstation
+>extra libretro
+>extra ppsspp
+>extra pcsxr
+>extra pcsx2-git
+>extra rpcs3-git
+>extra yuzu-mainline-git
+>extra scummvm-tools
+>extra scummvm
+>extra dosbox
 
 ####---->> GAME LAUNCHERS
 
@@ -276,19 +275,19 @@ pepper-flash
 >extra itch
 >extra minigalaxy
 >extra legendary
-#>extra gamerworld
-#>extra ialauncher-git
-#>extra athenaeum-git
-#>extra python-numpy
-#>extra moonlight-qt
-#>extra pegasus-frontend-git
+>extra gamerworld
+>extra ialauncher-git
+>extra athenaeum-git
+>extra python-numpy
+>extra moonlight-qt
+>extra pegasus-frontend-git
 
 ####---->> GAMING TOOLS
-#>extra openrgb-git
-#>extra piper
-#>extra fancontrol-gui-git
-#>extra corectrl
-#>extra gwe
+>extra openrgb-git
+>extra piper
+>extra fancontrol-gui-git
+>extra corectrl
+>extra gwe
 
 
 >extra goverlay-git
@@ -299,13 +298,13 @@ pepper-flash
 >extra vkbasalt
 
 
-#>extra ntfix-git
-#>extra q4wine
-#>extra fuseiso
+>extra ntfix-git
+>extra q4wine
+>extra fuseiso
 
-#>extra openh264
-#>extra dxvk-mingw-git
-#>extra proton-tkg-git
+>extra openh264
+>extra dxvk-mingw-git
+>extra proton-tkg-git
 ####   amd vulkan
 #>extra amdvlk-tkg-git
 #>extra lib32-amdvlk-tkg-git
@@ -313,11 +312,11 @@ pepper-flash
 ####---->> GAME CONTROLLER
 >extra antimicrox
 >extra linuxconsole
-#>extra xboxdrv
-#>extra xpadneo-dkms-git
-#>extra steamos-xpad-dkms
-#>extra xow-git
-#>extra xbox-generic-controller
+>extra xboxdrv
+>extra xpadneo-dkms-git
+>extra steamos-xpad-dkms
+>extra xow-git
+>extra xbox-generic-controller
 
 
 ####---->> GAMES
