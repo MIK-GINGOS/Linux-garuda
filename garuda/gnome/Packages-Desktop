@@ -7,7 +7,7 @@ pamac-aur
 pamac-tray-appindicator
 >extra bauh
 #>extra octopi
->extra Gnome-software
+>extra gnome-software
 
 ## APPIMAGE Support
 >extra appimagelauncher
