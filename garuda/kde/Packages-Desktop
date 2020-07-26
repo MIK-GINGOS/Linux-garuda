@@ -446,8 +446,8 @@ firefox-extension-kdeconnect
 
 
 >extra goverlay-git
->extra mangohud-git
->extra lib32-mangohud-git
+>extra mangohud
+>extra lib32-mangohud
 >extra gamemode
 >extra lib32-gamemode
 >extra vkbasalt
