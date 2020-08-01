@@ -177,7 +177,7 @@ thunar
 thunar-volman
 tumbler
 xfce4-power-manager
-xfce4-settings
+#xfce4-settings
 ## xfce extra
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -189,11 +189,9 @@ ristretto
 pragha
 #parole
 >extra geany
->extra terminator
+
 
 >extra xfburn
->extra xfce4-screensaver
-xfce4-terminal
 ######------>i3
 i3-wm
 i3blocks
@@ -207,11 +205,22 @@ nitrogen
 polybar
 tint2
 rofi
+dmenu
 jgmenu
 skippy-xd
 flashfocus
 archlinux-xdg-menu
 menumaker
+alacritty
+
+
+lxappearance-gtk3
+arandr
+lxinput-gtk3
+
+sgtk-menu
+wlogout
+zenity
 
 ####---->> DESKTOP ENVIRONMENT APPS
 #------opt deps for archiver & file manager
@@ -249,21 +258,22 @@ zip
 
 ####---->> OTHER APPS
 
-lxappearance-gtk3
-arandr
-lxinput
-
-sgtk-menu
-wlogout
+## cli apps
+mc
+ranger
+mlocate
+recoll
+hddtemp
+pastebinit
+ps_mem
+xclip
+xsel
+hardinfo 
 scrot
 jq
 feh
 tree
 w3m
-zenity
-termite
-termite-terminfo
-alacritty
 cmus
 
 
@@ -281,8 +291,6 @@ gparted
 mpv
 stacer
 >extra shortwave
->extra mlocate
->extra recoll
 >extra catfish
 >extra meld
 >extra python-xdg
