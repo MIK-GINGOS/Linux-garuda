@@ -113,6 +113,8 @@ neofetch-git
 timeshift
 timeshift-autosnap
 >extra conky-lua-nv
+libva-utils
+vdpauinfo
 vulkan-tools
 mesa-demos
 >extra lib32-mesa-demos

@@ -1,11 +1,16 @@
 ## Normal MHWD package list
 #KERNEL-headers
 
+
+## Network
+
 broadcom-wl-dkms
 rtlwifi_new-dkms
 #r8168-dkms
 #zfs-dkms
 #zfs-utils
+
+## Nonfree Nvidia
 
 >nonfree_x86_64 acpi_call-dkms
 >nonfree_x86_64 bbswitch-dkms
@@ -19,38 +24,39 @@ rtlwifi_new-dkms
 >nonfree_multilib lib32-nvidia-utils
 >nonfree_multilib lib32-opencl-nvidia
 
+## Opencl
+
 beignet
 intel-compute-runtime
 opencl-mesa
-mesa-vdpau
+>multilib lib32-opencl-mesa
+
+
+## Vulkan
+
 vulkan-radeon
 vulkan-intel
->multilib lib32-opencl-mesa
 >multilib lib32-vulkan-radeon
 >multilib lib32-vulkan-intel
->multilib lib32-mesa-vdpau
 
+
+## Vaapi
+
+libvdpau-va-gl
 intel-media-driver
 libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
+libva1-intel-driver
+mesa-vdpau
+>multilib lib32-mesa-vdpau
 >multilib lib32-libva-mesa-driver
->multilib lib32-libva-intel-driver
 >multilib lib32-libva-vdpau-driver
+>multilib lib32-libva-intel-driver
+>multilib lib32-libva1-intel-driver
 
 
-qemu-guest-agent
-open-vm-tools
-spice-vdagent
-gtkmm3
-virtualbox-guest-utils
-virtualbox-guest-dkms
-
-xf86-video-qxl
-xf86-video-vmware
-xf86-input-vmmouse
-
-
+## Free Drivers
 
 xf86-video-amdgpu
 xf86-video-ati
@@ -66,7 +72,18 @@ xf86-video-sisusb
 xf86-video-voodoo
 
 
+## Virtualization
 
+qemu-guest-agent
+open-vm-tools
+spice-vdagent
+gtkmm3
+virtualbox-guest-utils
+virtualbox-guest-dkms
+
+xf86-video-qxl
+xf86-video-vmware
+xf86-input-vmmouse
 
 
 
