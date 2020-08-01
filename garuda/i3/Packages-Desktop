@@ -36,7 +36,7 @@ pulseaudio-modules-bt-git
 libldac
 pulseaudio-ctl
 playerctl
-
+pasystray
 
 ####---->> VIDEO
 >extra garuda-vaapi
@@ -177,6 +177,7 @@ thunar
 thunar-volman
 tumbler
 xfce4-power-manager
+xfce4-settings
 ## xfce extra
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -200,6 +201,17 @@ i3lock
 i3status
 i3
 
+dunst
+picom
+nitrogen
+polybar
+tint2
+rofi
+jgmenu
+skippy-xd
+flashfocus
+archlinux-xdg-menu
+menumaker
 
 ####---->> DESKTOP ENVIRONMENT APPS
 #------opt deps for archiver & file manager
@@ -236,8 +248,26 @@ zip
 >extra poppler-glib
 
 ####---->> OTHER APPS
+
+lxappearance-gtk3
+arandr
+lxinput
+
+sgtk-menu
+wlogout
+scrot
+jq
+feh
+tree
+w3m
+zenity
+termite
+termite-terminfo
+alacritty
+cmus
+
+
 flameshot
->extra shortwave
 systemd-ui
 gnome-keyring
 redshift
@@ -246,42 +276,30 @@ qbittorrent
 peek
 mintstick
 galculator
+gsimplecal
 gparted
 mpv
+stacer
+>extra shortwave
+>extra mlocate
+>extra recoll
 >extra catfish
 >extra meld
-stacer 
-menumaker
-rofi
-arandr
-lxinput
-dunst
-archlinux-xdg-menu
-scrot
-sgtk-menu
-wlogout
-jq
-feh
-tree
-w3m
-lxappearance-gtk3
-picom
-alacritty
-nitrogen
 >extra python-xdg
 >extra guiscrcpy
 >extra nitroshare
+>extra guvcview
 >extra converseen
 >extra transmageddon
 >extra soundconverter
->extra guvcview
->extra gcolor3
->extra mlocate
->extra recoll
+>extra pitivi
+>extra audacity
+>extra easytag
 ##------------> Graphics
 >extra gimp
 >extra inkscape
 >extra blender
+>extra gcolor3
 
 ##------------> office
 >extra libreoffice-fresh

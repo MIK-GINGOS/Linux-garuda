@@ -264,6 +264,8 @@ deluge-gtk
 peek
 popsicle-git
 >extra spotify-adblock-git
+>extra streamlink-twitch-gui
+>extra discord
 >extra variety
 >extra remmina
 >extra geary
@@ -273,16 +275,15 @@ popsicle-git
 >extra redshift
 >extra catfish
 >extra meld
->extra pitivi
->extra audacity
 >extra python-xdg
 >extra guiscrcpy
 >extra nitroshare
 >extra converseen
 >extra transmageddon
 >extra soundconverter
->extra streamlink-twitch-gui
->extra discord
+>extra pitivi
+>extra audacity
+>extra easytag
 
 ##------------> Graphics
 >extra gimp

@@ -283,12 +283,13 @@ stacer
 >extra python-xdg
 >extra guiscrcpy
 >extra nitroshare
+>extra guvcview
 >extra converseen
 >extra transmageddon
 >extra soundconverter
->extra guvcview
 >extra pitivi
 >extra audacity
+>extra easytag
 
 ##------------> Graphics
 >extra gimp
