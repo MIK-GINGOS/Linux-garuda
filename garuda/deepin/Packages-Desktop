@@ -284,8 +284,6 @@ pepper-flash
 >extra moonlight-qt
 >extra pegasus-frontend-git
 >extra steam-tweaks
->extra steam-tools-ng
->extra steam-buddy
 
 ####---->> GAMING TOOLS
 >extra openrgb-git
@@ -323,7 +321,7 @@ pepper-flash
 >extra xow-git
 >extra xbox-generic-controller
 >extra game-devices-udev
-
+>extra retroarch-autoconfig-udev-git
 
 
 ####---->> GAMES

@@ -360,8 +360,6 @@ garuda-firefox
 >extra moonlight-qt
 >extra pegasus-frontend-git
 >extra steam-tweaks
->extra steam-tools-ng
->extra steam-buddy
 
 ####---->> GAMING TOOLS
 >extra openrgb-git
@@ -399,6 +397,7 @@ garuda-firefox
 >extra xow-git
 >extra xbox-generic-controller
 >extra game-devices-udev
+>extra retroarch-autoconfig-udev-git
 
 
 

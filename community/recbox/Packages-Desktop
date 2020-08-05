@@ -470,6 +470,7 @@ zynaddsubfx
 >extra python-numpy
 >extra moonlight-qt
 >extra pegasus-frontend-git
+>extra steam-tweaks
 
 ####---->> GAMING TOOLS
 >extra openrgb-git
@@ -495,8 +496,8 @@ zynaddsubfx
 >extra dxvk-mingw-git
 >extra proton-tkg-git
 ####   amd vulkan
-#>extra amdvlk-tkg-git
-#>extra lib32-amdvlk-tkg-git
+>extra amdvlk
+>extra lib32-amdvlk
 
 ####---->> GAME CONTROLLER
 >extra antimicrox
@@ -506,6 +507,8 @@ zynaddsubfx
 >extra steamos-xpad-dkms
 >extra xow-git
 >extra xbox-generic-controller
+>extra game-devices-udev
+>extra retroarch-autoconfig-udev-git
 
 
 ####---->> GAMES
