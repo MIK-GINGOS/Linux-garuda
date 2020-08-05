@@ -340,6 +340,9 @@ popsicle-git
 >extra python-numpy
 >extra moonlight-qt
 >extra pegasus-frontend-git
+>extra steam-tweaks
+>extra steam-tools-ng
+>extra steam-buddy
 
 ####---->> GAMING TOOLS
 >extra openrgb-git
@@ -365,8 +368,8 @@ popsicle-git
 >extra dxvk-mingw-git
 >extra proton-tkg-git
 ####   amd vulkan
-#>extra amdvlk-tkg-git
-#>extra lib32-amdvlk-tkg-git
+>extra amdvlk
+>extra lib32-amdvlk
 
 ####---->> GAME CONTROLLER
 >extra antimicrox
@@ -376,6 +379,9 @@ popsicle-git
 >extra steamos-xpad-dkms
 >extra xow-git
 >extra xbox-generic-controller
+>extra game-devices-udev
+
+
 
 
 ####---->> GAMES
