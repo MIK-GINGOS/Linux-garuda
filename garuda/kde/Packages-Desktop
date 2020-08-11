@@ -39,7 +39,7 @@ libldac
 
 
 ####---->> VIDEO
->extra garuda-vaapi
+garuda-vaapi
 garuda-gstreamer
 
 ####---->> NETWORK

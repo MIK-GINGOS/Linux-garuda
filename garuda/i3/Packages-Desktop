@@ -39,7 +39,7 @@ playerctl
 pasystray
 
 ####---->> VIDEO
->extra garuda-vaapi
+garuda-vaapi
 garuda-gstreamer
 
 ####---->> NETWORK
@@ -297,7 +297,7 @@ stacer
 >extra meld
 >extra python-xdg
 >extra guiscrcpy
->extra nitroshare
+>extra warpinator
 >extra guvcview
 >extra converseen
 >extra transmageddon

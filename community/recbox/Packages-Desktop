@@ -39,7 +39,7 @@ playerctl
 pasystray
 
 ####---->> VIDEO
->extra garuda-vaapi
+garuda-vaapi
 garuda-gstreamer
 
 ####---->> NETWORK
@@ -145,7 +145,7 @@ kvantum-qt5
 flat-remix
 matcha-gtk-theme-git
 kvantum-theme-matcha
-
+capitaine-cursors
 wish-wallpapers
 garuda-wallpapers
 garuda-icons

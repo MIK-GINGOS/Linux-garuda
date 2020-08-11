@@ -1,0 +1,379 @@
+###############################
+### This is a template list ###
+###############################
+####---->> PACKAGE MANAGEMENT
+## Graphical
+pamac-aur
+pamac-tray-appindicator
+>extra bauh
+#>extra octopi
+>extra gnome-software
+
+## APPIMAGE Support
+>extra appimagelauncher
+
+## FIRMWARE UPDATES
+>extra fwupd
+
+## Snap Support
+>extra apparmor
+>extra snapd
+>extra snapd-glib
+
+## Flatpak support
+>extra flatpak
+
+## PACKAGEKIT SUPPORT
+>extra packagekit
+
+####---->> AUDIO
+>extra garuda-alsa
+>extra garuda-pulse
+>extra garuda-pipewire
+pavucontrol
+pulseaudio-equalizer-ladspa
+paprefs
+pulseaudio-modules-bt-git
+libldac
+>extra pulseaudio-ctl
+>extra playerctl
+
+
+####---->> VIDEO
+garuda-vaapi
+garuda-gstreamer
+
+####---->> NETWORK
+garuda-connman
+garuda-modem
+garuda-bluetooth
+>extra qomui-git
+>extra wds-git
+>extra gufw
+connman-gtk
+blueberry
+
+####---->> PRINTER
+## samba
+garuda-settings-samba
+>extra system-config-samba # python2 package
+
+## printing
+>extra garuda-printer
+>extra system-config-printer
+>extra python-pysmbc
+>extra splix
+>extra hplip
+>extra python-pyqt5
+>extra python-reportlab
+
+## scanning
+>extra simple-scan
+
+
+####---->> INPUT
+garuda-input
+evdev-right-click-emulation
+gesture-manager-x-git
+#>extra fingerprint-gui
+garuda-ibus
+>extra garuda-indic
+
+####---->> XORG
+xorg-server-xwayland 
+xorg-xhost
+
+####---->> WAYLAND
+qt5-wayland
+
+
+####---->> UTILITIES
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-wlr
+#---------=> utilities
+>extra libdvdcss
+>extra powertop
+neofetch-git
+>extra htop
+timeshift
+timeshift-autosnap
+libva-utils
+vdpauinfo
+vulkan-tools
+mesa-demos
+>extra lib32-mesa-demos
+#---------=> android 
+#android-tools
+#android-udev
+android-sdk-platform-tools
+android-udev-git
+busybox
+
+####---->> THEMING
+## theme package
+garuda-wayfire-settings
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+capitaine-cursors
+>extra gtk-engine-murrine
+qt5ct
+kvantum-qt5
+kvantum-theme-fluent-git
+tela-circle-icon-theme-git
+orchis-theme-git
+sound-theme-smooth
+
+#wish-wallpapers
+#>extra garuda-wallpapers
+garuda-icons
+
+## Fonts
+noto-fonts               # default font
+#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+noto-fonts-emoji
+terminus-font
+ttf-google-sans
+>extra ttf-opensans
+>extra powerline-fonts
+
+
+####---->> SETTINGS
+garuda-settings-manager
+#garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
+
+
+
+####---->> DISPLAY MANAGER
+greetd
+greetd-gtkgreeter
+
+
+
+####---->> DESKTOP ENVIRONMENT
+#wayfire
+
+wayfire-desktop-git
+
+
+####---->> DESKTOP ENVIRONMENT APPS
+alacritty
+cheese
+geary
+dconf-editor
+lollypop
+mpv
+gedit
+eog
+>extra eog-plugins
+>extra grilo-plugins
+gedit-plugins
+evince
+file-roller
+nautilus-typeahead
+nautilus-bluetooth
+nautilus-image-converter
+nautilus-sendto
+nautilus-share
+nautilus-admin
+nautilus-pdf-tools-git
+nautilus-mediainfo
+>extra seahorse-nautilus
+>extra gtkhash-nautilus
+sushi
+pywal-git
+gnome-disk-utility
+gnome-logs
+gnome-calculator
+gnome-system-monitor
+>extra shotwell
+#------opt deps for archiver & file manager
+ffmpegthumbnailer
+libgsf
+libopenraw
+librsvg
+gvfs-mtp
+gvfs
+gvfs-afc
+>extra gvfs-nfs
+gvfs-smb
+>extra gvfs-gphoto2
+>extra gvfs-google
+>extra gvfs-goa
+
+###-------archive formats
+>extra arj
+>extra cpio
+>extra lha
+>extra lrzip
+>extra lzip
+>extra lzop
+>extra unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+
+>extra poppler-data
+>extra poppler-glib
+
+####---->> OTHER APPS
+firefox-extension-https-everywhere
+firefox-dark-reader
+firefox-ublock-origin
+firefox-extension-privacybadger
+firefox-extension-google-search-link-fix
+firefox-decentraleyes
+firefox
+cockpit
+cockpit-dashboard
+bleachbit
+deluge-gtk
+popsicle-git
+>extra obs-studio
+>extra wlrobs-hg
+>extra spotify-adblock-git
+>extra streamlink-twitch-gui
+>extra discord
+#>extra variety
+>extra remmina
+>extra cockpit-machines
+>extra shortwave
+>extra systemd-ui
+>extra redshift
+>extra catfish
+>extra meld
+>extra python-xdg
+>extra guiscrcpy
+>extra warpinator
+>extra converseen
+>extra transmageddon
+>extra soundconverter
+>extra pitivi
+>extra audacity
+>extra easytag
+
+##------------> Graphics
+>extra gimp
+>extra inkscape
+>extra blender
+>extra gcolor3
+
+##------------> office
+>extra libreoffice-fresh
+>extra libmythes
+
+## Internet applications
+#>extra thunderbird
+>extra garuda-firefox
+>extra telegram-desktop
+#>extra signal-desktop
+
+
+####---->> VIRTUALIZATION
+>extra garuda-virt-manager
+#>extra garuda-virtualbox
+
+####---->> WINE
+>extra garuda-wine
+
+
+####---->> EMULATORS
+>extra emulationstation
+>extra libretro
+>extra ppsspp
+>extra pcsxr
+>extra pcsx2-git
+>extra rpcs3-git
+>extra yuzu-mainline-git
+>extra scummvm-tools
+>extra scummvm
+>extra dosbox
+
+####---->> GAME LAUNCHERS
+
+>extra steam
+>extra steam-native-runtime
+>extra linux-steam-integration
+>extra lutris
+>extra gamehub
+>extra itch
+>extra minigalaxy
+>extra legendary
+>extra gamerworld
+>extra ialauncher-git
+>extra athenaeum-git
+>extra python-numpy
+>extra moonlight-qt
+>extra pegasus-frontend-git
+>extra steam-tweaks
+
+####---->> GAMING TOOLS
+>extra openrgb-git
+>extra piper
+>extra fancontrol-gui-git
+>extra corectrl
+>extra gwe
+
+
+>extra goverlay-git
+>extra mangohud
+>extra lib32-mangohud
+>extra gamemode
+>extra lib32-gamemode
+>extra vkbasalt
+
+
+>extra ntfix-git
+>extra q4wine
+>extra fuseiso
+
+>extra openh264
+>extra dxvk-mingw-git
+>extra proton-tkg-git
+####   amd vulkan
+>extra amdvlk
+>extra lib32-amdvlk
+
+####---->> GAME CONTROLLER
+>extra antimicrox
+>extra linuxconsole
+>extra xboxdrv
+>extra xpadneo-dkms-git
+>extra steamos-xpad-dkms
+>extra xow-git
+>extra xbox-generic-controller
+>extra game-devices-udev
+>extra retroarch-autoconfig-udev-git
+
+
+
+####---->> GAMES
+
+>extra aisleriot
+#>extra kde-games-meta 
+#>extra gnuchess   
+>extra mari0
+>extra minetest
+>extra minetest-server
+>extra teeworlds
+>extra gnome-chess
+>extra gnome-mahjongg
+#>extra puzzles
+#>extra texlive-games
+#megaglest
+#xonotic
+#supertuxkart
+#enemy-territory
+#enemy-trritory-data

@@ -40,22 +40,6 @@ vulkan-intel
 >multilib lib32-vulkan-intel
 
 
-## Vaapi
-
-libvdpau-va-gl
-intel-media-driver
-libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
-libva1-intel-driver
-mesa-vdpau
->multilib lib32-mesa-vdpau
->multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
->multilib lib32-libva-intel-driver
->multilib lib32-libva1-intel-driver
-
-
 ## Free Drivers
 
 xf86-video-amdgpu
