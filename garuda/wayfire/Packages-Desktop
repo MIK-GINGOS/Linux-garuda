@@ -145,7 +145,7 @@ ttf-google-sans
 ####---->> SETTINGS
 garuda-settings-manager
 #garuda-settings-manager-kcm
-garuda-settings-manager-knotifier
+#garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
