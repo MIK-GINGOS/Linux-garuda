@@ -180,15 +180,10 @@ kwin-decoration-sierra-breeze-enhanced-git
 kwin-scripts-krohnkite-git
 #---------=> lxqt core
 lxqt-kwin-desktop-git
-qterminal-git
-qps-git
 xsettingsd
 
 ####---->> DESKTOP ENVIRONMENT APPS
-#---------=> file management
-lxqt-archiver-git
-pcmanfm-qt-git
-lximage-qt-git
+
 #------opt deps for archiver & file manager
 ffmpegthumbnailer
 libgsf
@@ -217,8 +212,8 @@ unzip
 zip
 
 ## Text editor
-feathernotes-git
-featherpad-git
+feathernotes
+featherpad
 
 qpdfview
 >extra poppler-data
@@ -255,7 +250,7 @@ simplescreenrecorder
 >extra shotcut
 >extra lector
 >extra qvkbd
->extra meteo-qt-git
+>extra meteo-qt
 >extra shortwave
 >extra redshift-qt
 >extra python-xdg
