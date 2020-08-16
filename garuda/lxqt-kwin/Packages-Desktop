@@ -102,7 +102,7 @@ perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
 >extra xdg-desktop-portal
->extra xdg-desktop-portal-gtk
+>extra xdg-desktop-portal-kde
 >extra wmctrl
 >extra numlockx
 >extra xbindkeys
