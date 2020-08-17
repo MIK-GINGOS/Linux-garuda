@@ -32,9 +32,9 @@ exec_always --no-startup-id numlockx on
 exec blueberry-tray
 exec --no-startup-id java -Xmx1024m -jar "/opt/xdman/xdman.jar" -m
 # start a terminal #alacritty
-bindsym $super+Return exec xfce4-terminal
-bindsym $super+t exec xfce4-terminal
-bindsym $super+Shift+Return exec terminator
+bindsym $super+Return exec alacritty
+bindsym $super+t exec alacritty
+bindsym $super+Shift+Return exec alacritty
 
 # hide/unhide i3status bar
 bindsym $super+m bar mode toggle

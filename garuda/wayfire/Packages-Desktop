@@ -204,11 +204,11 @@ librsvg
 gvfs-mtp
 gvfs
 gvfs-afc
->extra gvfs-nfs
+gvfs-nfs
 gvfs-smb
->extra gvfs-gphoto2
->extra gvfs-google
->extra gvfs-goa
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
 
 ###-------archive formats
 >extra arj

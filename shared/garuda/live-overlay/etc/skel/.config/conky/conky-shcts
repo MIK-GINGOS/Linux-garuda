@@ -68,8 +68,6 @@ ${color2}open text - ${alignr}${color}super+F4
 
 #rofi
 ${color2}application launcher ... - ${alignr}${color}super+d
-#sgt-grid
-${color2}gui application launcher - ${alignr}${color}super+z
 ${color2}screenshot - ${alignr}${color}print
 
 ${color2}resize window - ${alignr}${color}super+r
