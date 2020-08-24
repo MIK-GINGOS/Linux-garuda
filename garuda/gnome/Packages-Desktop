@@ -1,10 +1,7 @@
-###############################
-### This is a template list ###
-###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
 pamac-aur
-pamac-tray-appindicator
+#pamac-tray-appindicator
 >extra bauh
 #>extra octopi
 >extra gnome-software
@@ -24,7 +21,7 @@ pamac-tray-appindicator
 >extra flatpak
 
 ## PACKAGEKIT SUPPORT
->extra packagekit
+packagekit
 
 ####---->> AUDIO
 >extra garuda-alsa
@@ -114,15 +111,15 @@ timeshift-autosnap
 >extra conky-lua-nv
 libva-utils
 vdpauinfo
-vulkan-tools
-mesa-demos
+>extra vulkan-tools
+>extra mesa-demos
 >extra lib32-mesa-demos
 #---------=> android 
 #android-tools
 #android-udev
 android-sdk-platform-tools
 android-udev-git
-busybox
+>extra busybox
 
 ####---->> THEMING
 ## theme package
@@ -135,8 +132,7 @@ plymouth-theme-garuda
 qt5ct
 kvantum-qt5
 tela-circle-icon-theme-git
-yaru-gnome-shell-theme
-yaru-gtk-theme
+whitesur-cursor-theme-git
 yaru-sound-theme
 
 #wish-wallpapers
@@ -149,6 +145,7 @@ noto-fonts               # default font
 noto-fonts-emoji
 terminus-font
 ttf-google-sans
+ttf-meslo-nerd-font-powerlevel10k
 >extra ttf-opensans
 >extra powerline-fonts
 
@@ -185,7 +182,7 @@ gnome-keyring
 gnome-system-monitor                                                                          
 gnome-terminal-transparency
 gnome-menus
-gpaste
+>extra gpaste
 >extra gnome-control-center
 >basic gnome-control-center-nocheese
 clutter # needed for blyr
@@ -217,17 +214,17 @@ nautilus-mediainfo
 >extra seahorse-nautilus
 >extra gtkhash-nautilus
 sushi
-pywal-git
 gnome-disk-utility
-gnome-logs
 gnome-calculator
+>extra gnome-logs
 >extra gnome-remote-desktop
 >extra vino
 >extra rygel
 >extra gnome-user-share
 >extra mousetweaks
 >extra shotwell
-#------opt deps for archiver & file manager
+
+###-------opt deps for archiver & file manager
 ffmpegthumbnailer
 libgsf
 libopenraw
@@ -256,29 +253,30 @@ unrar
 unzip
 zip
 
-
 >extra poppler-data
 >extra poppler-glib
+
 
 ####---->> OTHER APPS
 firefox-extension-gnome-shell-integration
 firefox-extension-https-everywhere
+firefox-extension-canvasblocker
 firefox-dark-reader
 firefox-ublock-origin
 firefox
-cockpit
-cockpit-dashboard
 flameshot-git
 bleachbit
 deluge-gtk
 peek
 popsicle-git
+>extra cockpit
+>extra cockpit-dashboard
+>extra cockpit-machines
 >extra spotify-adblock-git
 >extra streamlink-twitch-gui
 >extra discord
 >extra variety
 >extra remmina
->extra cockpit-machines
 >extra shortwave
 >extra systemd-ui
 >extra redshift
@@ -304,7 +302,7 @@ popsicle-git
 >extra libreoffice-fresh
 >extra libmythes
 
-## Internet applications
+##------------> Internet applications
 #>extra thunderbird
 >extra garuda-firefox
 >extra telegram-desktop
@@ -317,7 +315,6 @@ popsicle-git
 
 ####---->> WINE
 >extra garuda-wine
-
 
 ####---->> EMULATORS
 >extra emulationstation
@@ -332,7 +329,6 @@ popsicle-git
 >extra dosbox
 
 ####---->> GAME LAUNCHERS
-
 >extra steam
 >extra steam-native-runtime
 >extra linux-steam-integration
