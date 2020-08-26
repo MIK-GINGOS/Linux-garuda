@@ -1,7 +1,8 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
-pamac-aur
-#pamac-tray-appindicator
+>basic pamac-aur
+#>basic pamac-tray-appindicator
+>extra pamac-all
 >extra bauh
 #>extra octopi
 >extra gnome-software
