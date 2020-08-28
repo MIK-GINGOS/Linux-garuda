@@ -62,6 +62,7 @@ memtest86+
 ## package management 
 pacman-contrib
 reflector
+chaotic-mirrorlist
 
 ## aur support
 >extra yay
