@@ -134,9 +134,10 @@ sound-theme-smooth
 >extra gtk-engine-murrine
 qt5ct
 kvantum-qt5
-kvantum-theme-qogir-git
-qogir-icon-theme-git
-qogir-gtk-theme-git
+whitesur-gtk-theme-git
+whitesur-kde-theme-git
+tela-circle-icon-theme-git
+whitesur-cursor-theme-git
 
 wish-wallpapers
 garuda-wallpapers

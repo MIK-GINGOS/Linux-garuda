@@ -294,8 +294,8 @@ gparted
 mpv
 stacer
 >extra shortwave
->extra catfish
->extra meld
+catfish
+meld
 >extra python-xdg
 >extra guiscrcpy
 >extra warpinator

@@ -128,11 +128,12 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 
-tela-circle-icon-theme-git
 sound-theme-smooth
 >extra gtk-engine-murrine
 whitesur-gtk-theme-git
 whitesur-kde-theme-git
+tela-circle-icon-theme-git
+whitesur-cursor-theme-git
 kvantum-qt5
 
 
