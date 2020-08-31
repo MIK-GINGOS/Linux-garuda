@@ -371,7 +371,7 @@ firefox-extension-plasma-integration
 firefox-extension-kdeconnect
 >basic simplescreenrecorder
 >extra mediaelch
->extra youtube-dl
+youtube-dl
 >extra qytdl
 >extra obs-studio
 >extra pdfmixtool
@@ -485,14 +485,16 @@ firefox-extension-kdeconnect
 ####---->> GAMES
 
 >extra aisleriot
->extra kde-games-meta 
+#>extra kde-games-meta 
+>extra knights
+>extra kmahjongg
 >extra gnuchess   
 >extra mari0
 >extra minetest
 >extra minetest-server
 >extra teeworlds
->extra puzzles
->extra texlive-games
+#>extra puzzles
+#>extra texlive-games
 #megaglest
 #xonotic
 #supertuxkart
