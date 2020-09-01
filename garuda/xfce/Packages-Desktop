@@ -247,7 +247,7 @@ xfce4-mount-plugin
 xfce4-whiskermenu-plugin
 xfce4-taskmanager
 xfdashboard
-xfce4-dockbarx-plugin-gtk3-git
+xfce4-dockbarx-plugin
 >extra xfce4-cpufreq-plugin
 >extra xfce4-cpugraph-plugin
 >extra xfce4-diskperf-plugin
