@@ -123,7 +123,7 @@ inxi
 dmidecode
 cronie
 micro
-#systemd-guest-user
+systemd-guest-user
 garuda-zsh-config
 garuda-browser-settings
 garuda-hooks
