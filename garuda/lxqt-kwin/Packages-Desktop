@@ -79,7 +79,8 @@ garuda-input
 libinput_gestures_qt
 #>extra fingerprint-gui
 garuda-fcitx
->extra garuda-indic
+fcitx-m17n
+garuda-indic
 >extra plasma-thunderbolt
 >extra wacom-utility
 kcm-fcitx
@@ -119,6 +120,7 @@ neofetch-git
 timeshift
 timeshift-autosnap
 conky-lua-nv
+conky-manager2-git
 libva-utils
 vdpauinfo
 vulkan-tools

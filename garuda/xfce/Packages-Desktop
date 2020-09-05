@@ -75,7 +75,8 @@ garuda-input
 gesture-manager-x-git
 #>extra fingerprint-gui
 garuda-ibus
->extra garuda-indic
+ibus-m17n
+garuda-indic
 >extra wacom-utility
 
 ####---->> XORG
@@ -113,6 +114,7 @@ neofetch-git
 timeshift
 timeshift-autosnap
 conky-lua-nv
+conky-manager2-git
 libva-utils
 vdpauinfo
 vulkan-tools
@@ -164,8 +166,8 @@ garuda-network-assistant-git
 
 ####---->> DISPLAY MANAGER
 lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+lightdm-slick-greeter
+lightdm-settings
 accountsservice  # Enhanced user accounts handling
 
 
