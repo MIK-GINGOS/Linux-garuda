@@ -111,7 +111,6 @@ neofetch-git
 timeshift
 timeshift-autosnap
 >extra conky-lua-nv
->extra conky-manager2-git
 libva-utils
 vdpauinfo
 >extra vulkan-tools
