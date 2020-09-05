@@ -219,7 +219,7 @@ xed
 xreader
 #xplayer
 nemo
-nemo-pdf-tools-git
+#nemo-pdf-tools-git
 nemo-fileroller
 nemo-image-converter
 nemo-preview
@@ -228,9 +228,9 @@ nemo-share
 gtkhash-nemo
 gnome-color-manager
 gnome-online-accounts
-gnome-terminal-transparency
 gnome-screenshot
 gnome-logs
+gnome-calculator
 >extra orca
 onboard
 mousetweaks
@@ -246,8 +246,6 @@ olivia
 youtube-dl
 peek
 mintstick
-galculator
-gsimplecal
 gparted
 catfish
 meld
