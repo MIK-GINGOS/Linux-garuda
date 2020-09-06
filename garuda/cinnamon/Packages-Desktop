@@ -230,6 +230,7 @@ gnome-online-accounts
 gnome-screenshot
 gnome-logs
 gnome-calculator
+gnome-terminal-transparancy
 >extra orca
 onboard
 mousetweaks
@@ -250,6 +251,7 @@ catfish
 meld
 stacer 
 warpinator
+webapp-manager-git
 guvcview
 >extra python-xdg
 >extra guiscrcpy
