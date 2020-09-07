@@ -171,6 +171,8 @@ accountsservice  # Enhanced user accounts handling
 bspwm
 picom-ibhagwan-git
 sxhkd
+rofi
+dmenu
 exo
 garcon
 thunar
