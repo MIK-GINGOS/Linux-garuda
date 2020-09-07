@@ -1,11 +1,9 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
 >basic pamac-aur
-#>basic pamac-tray-appindicator
+#>basic pamac-tray-appindicator # we use Arch Update indicator
 >extra pamac-all
 >extra bauh
-#>extra octopi
->extra gnome-software
 
 ## APPIMAGE Support
 >extra appimagelauncher
@@ -22,17 +20,17 @@
 >extra flatpak
 
 ## PACKAGEKIT SUPPORT
-packagekit
+>extra packagekit
 
 ####---->> AUDIO
+pulseaudio-modules-bt-git
+libldac
+>extra pavucontrol
+>extra pulseaudio-equalizer-ladspa
 >extra garuda-alsa
 >extra garuda-pulse
 >extra garuda-pipewire
-pavucontrol
-pulseaudio-equalizer-ladspa
-paprefs
-pulseaudio-modules-bt-git
-libldac
+>extra paprefs
 >extra pulseaudio-ctl
 >extra playerctl
 
@@ -46,12 +44,10 @@ garuda-network
 garuda-modem
 garuda-bluetooth
 >extra qomui-git
-#network-manager-applet
-#blueberry
 
 ####---->> PRINTER
 ## samba
-garuda-settings-samba
+>extra garuda-settings-samba
 >extra system-config-samba # python2 package
 
 ## printing
@@ -68,13 +64,13 @@ garuda-settings-samba
 
 
 ####---->> INPUT
-garuda-input
->extra evdev-right-click-emulation
-gesture-manager-x-git
-#>extra fingerprint-gui
 garuda-ibus
-ibus-m17n
-garuda-indic
+garuda-input
+>extra ibus-m17n
+>extra garuda-indic
+>extra evdev-right-click-emulation
+>extra gesture-manager-x-git
+
 
 ####---->> XORG
 xorg-server
@@ -102,24 +98,24 @@ xdg-user-dirs
 >extra xcape
 >extra xdotool
 >extra xautolock
+
 #---------=> utilities
 autorandr
->extra libdvdcss
->extra powertop
 neofetch-git
->extra htop
 timeshift
 timeshift-autosnap
+>extra libdvdcss
+>extra powertop
+>extra htop
 >extra conky-lua-nv
-libva-utils
-vdpauinfo
+>extra libva-utils
+>extra vdpauinfo
 >extra vulkan-tools
 >extra mesa-demos
 >extra lib32-mesa-demos
+
 #---------=> android 
-#android-tools
-#android-udev
-android-sdk-platform-tools
+android-tools
 android-udev-git
 >extra busybox
 
@@ -130,7 +126,7 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 
->extra gtk-engine-murrine
+gtk-engine-murrine
 qt5ct
 kvantum-qt5
 tela-circle-icon-theme-git
@@ -138,24 +134,21 @@ whitesur-kvantum-theme-git
 whitesur-cursor-theme-git
 yaru-sound-theme
 
-#wish-wallpapers
->extra garuda-wallpapers
 garuda-icons
+>extra wish-wallpapers
+>extra garuda-wallpapers
 
 ## Fonts
 noto-fonts               # default font
-#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 noto-fonts-emoji
 terminus-font
 ttf-google-sans
-ttf-meslo-nerd-font-powerlevel10k
 >extra ttf-opensans
 >extra powerline-fonts
 
 
 ####---->> SETTINGS
 garuda-settings-manager
-#garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
@@ -171,7 +164,6 @@ libgdm-prime
 
 ####---->> DESKTOP ENVIRONMENT
 >extra orca
-#onboard
 #-------=>gnome de
 mutter-performance
 gnome-session                                    
@@ -185,19 +177,18 @@ gnome-keyring
 gnome-system-monitor                                                                          
 gnome-terminal-transparency
 gnome-menus
->extra gpaste
->extra gnome-control-center
->basic gnome-control-center-nocheese
 clutter # needed for blyr
 clutter-gtk
 qt5-wayland
-
+>extra gpaste
+>extra gnome-control-center
+>basic gnome-control-center-nocheese
 
 ####---->> DESKTOP ENVIRONMENT APPS
-geary
-dconf-editor
-lollypop
-celluloid
+>extra geary
+>extra dconf-editor
+>extra olivia
+>extra celluloid
 mpv
 gedit
 gedit-plugins
@@ -214,11 +205,11 @@ nautilus-share
 nautilus-admin
 nautilus-pdf-tools-git
 nautilus-mediainfo
+sushi
+>extra gnome-disk-utility
+>extra gnome-calculator
 >extra seahorse-nautilus
 >extra gtkhash-nautilus
-sushi
-gnome-disk-utility
-gnome-calculator
 >extra gnome-logs
 >extra gnome-remote-desktop
 >extra vino
@@ -234,12 +225,12 @@ libopenraw
 librsvg
 gvfs-mtp
 gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
-gvfs-google
-gvfs-goa
+>extra gvfs-afc
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra gvfs-gphoto2
+>extra gvfs-google
+>extra gvfs-goa
 
 ###-------archive formats
 >extra arj
@@ -269,20 +260,18 @@ firefox-ublock-origin
 firefox
 flameshot-git
 bleachbit
-deluge-gtk
-peek
-popsicle-git
+>extra deluge-gtk
+>extra peek
+>extra popsicle-git
 >extra cockpit
 >extra cockpit-dashboard
 >extra cockpit-machines
 >extra spotify-adblock-git
 >extra streamlink-twitch-gui
->extra discord
 >extra variety
 >extra remmina
 >extra shortwave
 >extra systemd-ui
->extra redshift
 >extra catfish
 >extra meld
 >extra python-xdg
@@ -306,8 +295,6 @@ popsicle-git
 >extra libmythes
 
 ##------------> Internet applications
-#>extra thunderbird
->extra garuda-firefox
 >extra telegram-desktop
 #>extra signal-desktop
 
@@ -320,16 +307,16 @@ popsicle-git
 >extra garuda-wine
 
 ####---->> EMULATORS
->extra emulationstation
->extra libretro
->extra ppsspp
->extra pcsxr
->extra pcsx2-git
->extra rpcs3-git
->extra yuzu-mainline-git
->extra scummvm-tools
->extra scummvm
->extra dosbox
+#>extra emulationstation
+#>extra libretro
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
+#>extra scummvm-tools
+#>extra scummvm
+#>extra dosbox
 
 ####---->> GAME LAUNCHERS
 >extra steam
@@ -390,15 +377,15 @@ popsicle-git
 
 ####---->> GAMES
 
->extra aisleriot
+#extra aisleriot
 #>extra kde-games-meta 
 #>extra gnuchess   
->extra mari0
->extra minetest
->extra minetest-server
->extra teeworlds
->extra gnome-chess
->extra gnome-mahjongg
+#>extra mari0
+#>extra minetest
+#>extra minetest-server
+#>extra teeworlds
+#>extra gnome-chess
+#>extra gnome-mahjongg
 #>extra puzzles
 #>extra texlive-games
 #megaglest

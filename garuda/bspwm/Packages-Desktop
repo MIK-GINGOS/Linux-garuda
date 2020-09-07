@@ -1,0 +1,402 @@
+####---->> PACKAGE MANAGEMENT
+## Graphical
+>basic pamac-aur
+>basic pamac-tray-appindicator
+>extra pamac-all
+>extra bauh
+
+## APPIMAGE Support
+>extra appimagelauncher
+
+## FIRMWARE UPDATES
+>extra fwupd
+
+## Snap Support
+>extra apparmor
+>extra snapd
+>extra snapd-glib
+
+## Flatpak support
+>extra flatpak
+
+## PACKAGEKIT SUPPORT
+>extra packagekit
+
+####---->> AUDIO
+pulseaudio-modules-bt-git
+libldac
+>extra garuda-alsa
+>extra garuda-pulse
+>extra garuda-pipewire
+>extra pavucontrol
+>extra pulseaudio-equalizer-ladspa
+>extra paprefs
+>extra pulseaudio-ctl
+>extra playerctl
+
+
+####---->> VIDEO
+garuda-vaapi
+garuda-gstreamer
+
+####---->> NETWORK
+garuda-network
+garuda-modem
+garuda-bluetooth
+blueberry
+network-manager-applet
+>extra qomui-git
+
+
+####---->> PRINTER
+## samba
+>extra garuda-settings-samba
+>extra system-config-samba # python2 package
+
+## printing
+>extra garuda-printer
+>extra system-config-printer
+>extra python-pysmbc
+>extra splix
+>extra hplip
+>extra python-pyqt5
+>extra python-reportlab
+
+## scanning
+>extra simple-scan
+
+
+####---->> INPUT
+garuda-input
+garuda-ibus
+>extra evdev-right-click-emulation
+>extra gesture-manager-x-git
+#>extra fingerprint-gui
+>extra ibus-m17n
+>extra garuda-indic
+>extra wacom-utility
+
+####---->> XORG
+xorg-server
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xprop
+
+####---->> WAYLAND
+
+
+
+####---->> UTILITIES
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-gtk
+>extra wmctrl
+>extra numlockx
+>extra xbindkeys
+>extra xcape
+>extra xdotool
+>extra xautolock
+#---------=> utilities
+autorandr
+neofetch-git
+timeshift
+timeshift-autosnap
+>extra vulkan-tools
+>extra libva-utils
+>extra vdpauinfo
+>extra conky-lua-nv
+>extra libdvdcss
+>extra powertop
+>extra htop
+>extra lib32-mesa-demos
+>extra mesa-demos
+
+#---------=> android 
+android-tools
+android-udev-git
+>extra busybox
+
+####---->> THEMING
+## theme package
+garuda-bspwm-settings
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+
+yaru-sound-theme
+gtk-engine-murrine
+qt5ct
+kvantum-qt5
+whitesur-gtk-theme-git
+whitesur-kvantum-theme-git
+tela-circle-icon-theme-git
+whitesur-cursor-theme-git
+
+garuda-wallpapers
+garuda-icons
+>extra wish-wallpapers
+
+## Fonts
+ttf-google-sans           
+noto-fonts-emoji
+terminus-font
+>extra ttf-opensans
+>extra powerline-fonts
+
+
+####---->> SETTINGS
+garuda-settings-manager
+garuda-settings-manager-knotifier
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
+
+
+
+####---->> DISPLAY MANAGER
+lightdm
+lightdm-slick-greeter
+lightdm-settings
+accountsservice  # Enhanced user accounts handling
+
+
+####---->> DESKTOP ENVIRONMENT
+#### xfce
+exo
+garcon
+thunar
+thunar-volman
+tumbler
+xfce4-appfinder
+xfce4-panel
+xfce4-power-manager
+xfce4-session
+xfce4-settings
+xfconf
+xfdesktop
+
+
+####---->> DESKTOP ENVIRONMENT APPS
+#------opt deps for archiver & file manager
+ffmpegthumbnailer
+libgsf
+libopenraw
+librsvg
+gvfs-mtp
+gvfs
+>extra gvfs-afc
+>extra gvfs-nfs
+>extra gvfs-smb
+>extra gvfs-gphoto2
+>extra gvfs-google
+>extra gvfs-goa
+
+###-------archive formats
+>extra arj
+>extra cpio
+>extra lha
+>extra lrzip
+>extra lzip
+>extra lzop
+>extra unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+>extra poppler-data
+>extra poppler-glib
+xarchiver
+
+## xfce extra
+menulibre
+mousepad
+orage
+ristretto
+pragha
+thunar-archive-plugin
+thunar-media-tags-plugin
+xfce4-battery-plugin
+xfce4-clipman-plugin
+xfce4-datetime-plugin
+xfce4-notes-plugin
+xfce4-notifyd
+xfce4-pulseaudio-plugin
+xfce4-weather-plugin
+xfce4-xkb-plugin
+xfce4-mount-plugin
+xfce4-whiskermenu-plugin
+#>extra xfce4-cpufreq-plugin
+#>extra xfce4-cpugraph-plugin
+#>extra xfce4-diskperf-plugin
+#>extra xfce4-eyes-plugin
+#>extra xfce4-fsguard-plugin
+#>extra xfce4-genmon-plugin
+#>extra xfce4-mailwatch-plugin
+#>extra xfce4-mpc-plugin
+#>extra xfce4-netload-plugin
+#>extra xfce4-sensors-plugin 
+#>extra xfce4-smartbookmark-plugin
+#>extra xfce4-systemload-plugin
+#>extra xfce4-time-out-plugin
+#>extra xfce4-timer-plugin
+#>extra xfce4-verve-plugin
+#>extra xfce4-wavelan-plugin
+>extra mugshot
+>extra xfburn
+>extra orca
+onboard
+
+
+####---->> OTHER APPS
+flameshot-git
+>extra shortwave
+>extra systemd-ui
+gnome-keyring
+redshift
+>extra qpdfview
+>extra deluge-gtk
+>extra peek
+>extra popsicle-git
+>extra galculator
+gparted
+mpv
+>extra catfish
+>extra meld
+>extra python-xdg
+>extra guiscrcpy
+>extra warpinator
+>extra guvcview
+>extra converseen
+>extra transmageddon
+>extra soundconverter
+>extra pitivi
+>extra olivia
+>extra easytag
+
+##------------> Graphics
+>extra gimp
+>extra inkscape
+>extra blender
+>extra gcolor3
+
+##------------> office
+>extra libreoffice-fresh
+>extra libmythes
+
+## Internet applications
+>extra thunderbird
+>extra telegram-desktop
+firefox
+firefox-extension-privacybadger
+firefox-extension-ublock-origin
+firefox-extension-dark-reader
+firefox-extension-decentraleyes
+firefox-extension-https-everywhere
+firefox-extension-canvasblocker
+>extra streamlink-twitch-gui
+
+####---->> VIRTUALIZATION
+>extra garuda-virt-manager
+#>extra garuda-virtualbox
+
+####---->> WINE
+>extra garuda-wine
+
+
+####---->> EMULATORS
+#>extra emulationstation
+#>extra libretro
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
+#>extra scummvm-tools
+#>extra scummvm
+#>extra dosbox
+
+####---->> GAME LAUNCHERS
+
+>extra steam
+>extra steam-native-runtime
+>extra linux-steam-integration
+>extra lutris
+>extra gamehub
+>extra itch
+>extra minigalaxy
+>extra legendary
+>extra gamerworld
+>extra ialauncher-git
+>extra athenaeum-git
+>extra python-numpy
+>extra moonlight-qt
+>extra pegasus-frontend-git
+>extra steam-tweaks
+
+####---->> GAMING TOOLS
+>extra openrgb-git
+>extra piper
+>extra fancontrol-gui-git
+>extra corectrl
+>extra gwe
+
+
+>extra goverlay-git
+>extra mangohud
+>extra lib32-mangohud
+>extra gamemode
+>extra lib32-gamemode
+>extra vkbasalt
+
+
+>extra ntfix-git
+>extra q4wine
+>extra fuseiso
+
+>extra openh264
+>extra dxvk-mingw-git
+>extra proton-tkg-git
+####   amd vulkan
+>extra amdvlk
+>extra lib32-amdvlk
+
+####---->> GAME CONTROLLER
+>extra antimicrox
+>extra linuxconsole
+>extra xboxdrv
+>extra xpadneo-dkms-git
+>extra steamos-xpad-dkms
+>extra xow-git
+>extra xbox-generic-controller
+>extra game-devices-udev
+>extra retroarch-autoconfig-udev-git
+
+
+####---->> GAMES
+
+#>extra aisleriot
+#>extra kde-games-meta 
+#>extra gnuchess   
+#>extra mari0
+#>extra minetest
+#>extra minetest-server
+#>extra teeworlds
+#>extra gnome-chess
+#>extra gnome-mahjongg
+#>extra puzzles
+#>extra texlive-games
+#megaglest
+#xonotic
+#supertuxkart
+#enemy-territory
+#enemy-trritory-data
+
