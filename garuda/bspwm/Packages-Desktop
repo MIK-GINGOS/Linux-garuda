@@ -23,12 +23,12 @@
 >extra packagekit
 
 ####---->> AUDIO
-pulseaudio-modules-bt-git
 libldac
+pavucontrol
+pulseaudio-modules-bt-git
 >extra garuda-alsa
 >extra garuda-pulse
 >extra garuda-pipewire
->extra pavucontrol
 >extra pulseaudio-equalizer-ladspa
 >extra paprefs
 >extra pulseaudio-ctl
@@ -167,7 +167,10 @@ accountsservice  # Enhanced user accounts handling
 
 
 ####---->> DESKTOP ENVIRONMENT
-#### xfce
+#### bspwm & xfce core
+bspwm
+picom-ibhagwan-git
+sxhkd
 exo
 garcon
 thunar
@@ -296,10 +299,9 @@ mpv
 >extra thunderbird
 >extra telegram-desktop
 firefox
-firefox-extension-privacybadger
-firefox-extension-ublock-origin
-firefox-extension-dark-reader
-firefox-extension-decentraleyes
+firefox-ublock-origin
+firefox-dark-reader
+firefox-decentraleyes
 firefox-extension-https-everywhere
 firefox-extension-canvasblocker
 >extra streamlink-twitch-gui
