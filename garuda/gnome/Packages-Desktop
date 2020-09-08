@@ -146,6 +146,8 @@ terminus-font
 ttf-google-sans
 >extra ttf-opensans
 >extra powerline-fonts
+>extra noto-fonts-extra
+>extra noto-fonts-cjk
 
 
 ####---->> SETTINGS

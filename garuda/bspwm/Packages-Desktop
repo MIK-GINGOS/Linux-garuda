@@ -149,6 +149,8 @@ noto-fonts-emoji
 terminus-font
 >extra ttf-opensans
 >extra powerline-fonts
+>extra noto-fonts-extra
+>extra noto-fonts-cjk
 
 
 ####---->> SETTINGS
@@ -236,6 +238,10 @@ xfce4-notifyd
 xfce4-pulseaudio-plugin
 xfce4-mount-plugin
 xfce4-fsguard-plugin
+onboard
+>extra mugshot
+>extra xfburn
+>extra orca
 #>extra xfce4-whiskermenu-plugin
 #>extra xfce4-cpufreq-plugin
 #>extra xfce4-cpugraph-plugin
@@ -252,10 +258,7 @@ xfce4-fsguard-plugin
 #>extra xfce4-timer-plugin
 #>extra xfce4-verve-plugin
 #>extra xfce4-wavelan-plugin
->extra mugshot
->extra xfburn
->extra orca
-onboard
+
 
 
 ####---->> OTHER APPS
