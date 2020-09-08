@@ -234,12 +234,12 @@ xfce4-notes-plugin
 xfce4-notifyd
 xfce4-pulseaudio-plugin
 xfce4-mount-plugin
+xfce4-fsguard-plugin
 #>extra xfce4-whiskermenu-plugin
 #>extra xfce4-cpufreq-plugin
 #>extra xfce4-cpugraph-plugin
 #>extra xfce4-diskperf-plugin
 #>extra xfce4-eyes-plugin
-#>extra xfce4-fsguard-plugin
 #>extra xfce4-genmon-plugin
 #>extra xfce4-mailwatch-plugin
 #>extra xfce4-mpc-plugin
