@@ -25,6 +25,7 @@
 ####---->> AUDIO
 libldac
 pavucontrol
+pasystray
 pulseaudio-modules-bt-git
 >extra garuda-alsa
 >extra garuda-pulse
@@ -71,7 +72,6 @@ garuda-input
 garuda-ibus
 >extra evdev-right-click-emulation
 >extra gesture-manager-x-git
-#>extra fingerprint-gui
 >extra ibus-m17n
 >extra garuda-indic
 >extra wacom-utility
@@ -172,7 +172,6 @@ bspwm
 picom-ibhagwan-git
 sxhkd
 rofi
-dmenu
 exo
 garcon
 thunar
@@ -180,11 +179,11 @@ thunar-volman
 tumbler
 xfce4-appfinder
 xfce4-panel
-xfce4-power-manager
-xfce4-session
+xfce4-power-manager-git
+xfce4-session-git
 xfce4-settings
-xfconf
-xfdesktop
+xfconf-git
+xfdesktop-git
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -230,15 +229,12 @@ pragha
 thunar-archive-plugin
 thunar-media-tags-plugin
 xfce4-battery-plugin
-xfce4-clipman-plugin
 xfce4-datetime-plugin
 xfce4-notes-plugin
 xfce4-notifyd
 xfce4-pulseaudio-plugin
-xfce4-weather-plugin
-xfce4-xkb-plugin
 xfce4-mount-plugin
-xfce4-whiskermenu-plugin
+#>extra xfce4-whiskermenu-plugin
 #>extra xfce4-cpufreq-plugin
 #>extra xfce4-cpugraph-plugin
 #>extra xfce4-diskperf-plugin
@@ -263,17 +259,17 @@ onboard
 
 ####---->> OTHER APPS
 flameshot-git
->extra shortwave
->extra systemd-ui
 gnome-keyring
 redshift
+gparted
+mpv
+>extra shortwave
+>extra systemd-ui
 >extra qpdfview
 >extra deluge-gtk
 >extra peek
 >extra popsicle-git
 >extra galculator
-gparted
-mpv
 >extra catfish
 >extra meld
 >extra python-xdg
@@ -298,23 +294,21 @@ mpv
 >extra libmythes
 
 ## Internet applications
->extra thunderbird
->extra telegram-desktop
 firefox
 firefox-ublock-origin
 firefox-dark-reader
 firefox-decentraleyes
 firefox-extension-https-everywhere
 firefox-extension-canvasblocker
+>extra thunderbird
+>extra telegram-desktop
 >extra streamlink-twitch-gui
 
 ####---->> VIRTUALIZATION
 >extra garuda-virt-manager
-#>extra garuda-virtualbox
 
 ####---->> WINE
 >extra garuda-wine
-
 
 ####---->> EMULATORS
 #>extra emulationstation
