@@ -108,6 +108,7 @@ timeshift-autosnap
 >extra powertop
 >extra htop
 >extra conky-lua-nv
+>extra conky-manager2-git	
 >extra libva-utils
 >extra vdpauinfo
 >extra vulkan-tools

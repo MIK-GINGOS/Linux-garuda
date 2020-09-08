@@ -111,6 +111,7 @@ timeshift-autosnap
 >extra libva-utils
 >extra vdpauinfo
 >extra conky-lua-nv
+>extra conky-manager2-git
 >extra libdvdcss
 >extra powertop
 >extra htop
