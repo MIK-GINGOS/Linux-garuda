@@ -6,8 +6,6 @@
 >basic pamac-aur
 >basic pamac-tray-appindicator
 >extra pamac-all
->extra bauh
->extra octopi
 
 ## APPIMAGE Support
 >extra appimagelauncher
@@ -50,14 +48,13 @@ garuda-bluetooth
 cmst
 bluedevil
 >extra qomui-git
->extra wds-git
 nx-firewall-git
 
 
 
 ####---->> PRINTER
 ## samba
-garuda-settings-samba
+>extra garuda-settings-samba
 >extra system-config-samba # python2 package
 
 ## printing
@@ -75,19 +72,17 @@ garuda-settings-samba
 
 ####---->> INPUT
 garuda-input
->extra evdev-right-click-emulation
-libinput_gestures_qt
-#>extra fingerprint-gui
 garuda-fcitx
 fcitx-m17n
 garuda-indic
 >extra plasma-thunderbolt
 >extra wacom-utility
-kcm-fcitx
+>extra kcm-fcitx
+>extra evdev-right-click-emulation
+>extra libinput_gestures_qt
 
 ####---->> XORG
 xorg-server
-xorg-server-xwayland 
 xorg-xhost
 xorg-xinit
 xorg-xinput
@@ -95,7 +90,7 @@ xorg-xrandr
 xorg-xprop
 
 ####---->> WAYLAND
-
+>extra xorg-server-xwayland 
 
 
 ####---->> UTILITIES
@@ -113,22 +108,23 @@ xdg-user-dirs
 >extra xautolock
 #---------=> utilities
 autorandr
->extra libdvdcss
->extra powertop
-neofetch-git
->extra htop
+neofetch
 timeshift
 timeshift-autosnap
 conky-lua-nv
-libva-utils
-vdpauinfo
-vulkan-tools
-mesa-demos
+conky-manager
+>extra libdvdcss
+>extra powertop
+>extra htop
+>extra libva-utils
+>extra vdpauinfo
+>extra vulkan-tools
+>extra mesa-demos
 >extra lib32-mesa-demos
 #---------=> android 
 android-tools
 android-udev
-busybox
+>extra busybox
 
 ####---->> THEMING
 ## theme package
@@ -151,11 +147,11 @@ garuda-icons
 
 ## Fonts
 noto-fonts               # default font
-#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 noto-fonts-emoji
-terminus-font
+ttf-liberation
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-extra
 >extra ttf-opensans
->extra powerline-fonts
 
 
 ####---->> SETTINGS
@@ -195,8 +191,8 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
-gvfs-google
-gvfs-goa
+>extra gvfs-google
+>extra gvfs-goa
 
 ###-------archive formats
 >extra arj
@@ -265,46 +261,41 @@ simplescreenrecorder
 ## Internet applications
 thunderbird
 garuda-firefox
->extra firefox-extension-kdeconnect
+>extra telegram-desktop
+>extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
+
+####   amd vulkan
+>extra amdvlk
+>extra lib32-amdvlk
+
 ####---->> VIRTUALIZATION
 >extra garuda-virt-manager
-#>extra garuda-virtualbox
 
 ####---->> WINE
 >extra garuda-wine
 
 
-####---->> EMULATORS
->extra emulationstation
->extra libretro
->extra ppsspp
->extra pcsxr
->extra pcsx2-git
->extra rpcs3-git
->extra yuzu-mainline-git
->extra scummvm-tools
->extra scummvm
->extra dosbox
+
 
 ####---->> GAME LAUNCHERS
 
 >extra steam
 >extra steam-native-runtime
->extra linux-steam-integration
 >extra lutris
 >extra gamehub
 >extra itch
 >extra minigalaxy
 >extra legendary
->extra gamerworld
 >extra ialauncher-git
->extra athenaeum-git
->extra python-numpy
->extra moonlight-qt
->extra pegasus-frontend-git
->extra steam-tweaks
+#>extra gamerworld
+#>extra athenaeum-git
+#>extra python-numpy
+#>extra moonlight-qt
+#>extra pegasus-frontend-git
+#>extra steam-tweaks
+#>extra linux-steam-integration
 
 ####---->> GAMING TOOLS
 >extra openrgb-git
@@ -312,7 +303,6 @@ garuda-firefox
 >extra fancontrol-gui-git
 >extra corectrl
 >extra gwe
-
 
 >extra goverlay-git
 >extra mangohud
@@ -322,16 +312,14 @@ garuda-firefox
 >extra vkbasalt
 
 
->extra ntfix-git
->extra q4wine
->extra fuseiso
+#>extra ntfix-git
+#>extra q4wine
+#>extra fuseiso
 
->extra openh264
->extra dxvk-mingw-git
->extra proton-tkg-git
-####   amd vulkan
->extra amdvlk
->extra lib32-amdvlk
+#>extra openh264
+#>extra dxvk-mingw-git
+#>extra proton-tkg-git
+
 
 ####---->> GAME CONTROLLER
 >extra antimicrox
@@ -344,15 +332,23 @@ garuda-firefox
 >extra game-devices-udev
 >extra retroarch-autoconfig-udev-git
 
-
-
+####---->> EMULATORS
+>extra libretro
+#>extra emulationstation
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
+#>extra scummvm-tools
+#>extra scummvm
+#>extra dosbox
 
 ####---->> GAMES
 
 >extra aisleriot
-#>extra kde-games-meta 
-#>extra gnuchess   
 >extra mari0
+>extra gnuchess 
 >extra minetest
 >extra minetest-server
 >extra teeworlds
@@ -362,6 +358,7 @@ garuda-firefox
 #>extra gnome-mahjongg
 #>extra puzzles
 #>extra texlive-games
+#>extra kde-games-meta 
 #megaglest
 #xonotic
 #supertuxkart

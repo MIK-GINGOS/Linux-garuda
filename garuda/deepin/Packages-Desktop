@@ -6,8 +6,6 @@
 >basic pamac-aur
 >basic pamac-tray-appindicator
 >extra pamac-all
->extra bauh
-#>extra octopi
 
 ## APPIMAGE Support
 >extra appimagelauncher
@@ -35,8 +33,7 @@ pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-modules-bt-git
 libldac
->extra pulseaudio-ctl
->extra playerctl
+
 
 
 ####---->> VIDEO
@@ -53,33 +50,30 @@ garuda-bluetooth
 ####---->> PRINTER
 ## samba
 garuda-settings-samba
->extra system-config-samba # python2 package
+
 
 ## printing
->extra garuda-printer
->extra system-config-printer
->extra python-pysmbc
->extra splix
->extra hplip
->extra python-pyqt5
->extra python-reportlab
+garuda-printer
+python-pysmbc
+splix
+hplip
+python-pyqt5
+python-reportlab
 
 ## scanning
->extra simple-scan
+simple-scan
 
 ####---->> INPUT
 garuda-input
->extra evdev-right-click-emulation
+evdev-right-click-emulation
 libinput_gestures_qt
-#>extra fingerprint-gui
 garuda-fcitx
 fcitx-m17n
 garuda-indic
->extra wacom-utility
+wacom-utility
 
 ####---->> XORG
 xorg-server
-xorg-server-xwayland 
 xorg-xhost
 xorg-xinit
 xorg-xinput
@@ -87,7 +81,7 @@ xorg-xrandr
 xorg-xprop
 
 ####---->> WAYLAND
-
+>extra xorg-server-xwayland 
 
 
 ####---->> UTILITIES
@@ -105,22 +99,23 @@ xdg-user-dirs
 >extra xautolock
 #---------=> utilities
 autorandr
->extra libdvdcss
->extra powertop
-neofetch-git
->extra htop
+neofetch
 timeshift
 timeshift-autosnap
 conky-lua-nv
-libva-utils
-vdpauinfo
-vulkan-tools
-mesa-demos
+conky-manager
+>extra libdvdcss
+>extra powertop
+>extra htop
+>extra libva-utils
+>extra vdpauinfo
+>extra vulkan-tools
+>extra mesa-demos
 >extra lib32-mesa-demos
-#---------=> android 
+#---------=> android
 android-tools
 android-udev
-busybox
+>extra busybox
 
 ####---->> THEMING
 ## theme package
@@ -129,28 +124,21 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 
-#sound-theme-smooth
->extra gtk-engine-murrine
-kvantum-qt5
-kvantum-theme-fluent-git
-
+gtk-engine-murrine
 deepin-wallpapers-plasma
-#wish-wallpapers
-#garuda-wallpapers
 garuda-icons
 
 ## Fonts
 noto-fonts               # default font
-#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 noto-fonts-emoji
-terminus-font
+ttf-liberation
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-extra
 >extra ttf-opensans
->extra powerline-fonts
 
 
 ####---->> SETTINGS
 garuda-settings-manager
-#garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
@@ -167,7 +155,6 @@ accountsservice  # Enhanced user accounts handling
 deepin-anything-dkms
 deepin
 deepin-kwin
-kwin-effects-yet-another-magic-lamp
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -208,140 +195,27 @@ deepin-extra
 >extra proxychains-ng
 >extra zssh
 onboard
+mousetweaks
 >extra orca
 gnome-keyring
 redshift
 
 ####---->> OTHER APPS
-flameshot
 partitionmanager
 stacer
 freedownloadmanager
->extra kdeconnect
->extra sshfs
->extra systemdgenie
->extra shortwave
->extra python-xdg
->extra pdftricks
->extra ciano
->extra streamlink-twitch-gui
->extra discord
->extra stremio
->extra joplin
->extra bitwarden
->extra zoom
->extra vscodium-bin
->extra teamviewer
->extra guiscrcpy
->extra nitroshare
->extra spotify-adblock-git
 ##------------> office
->extra wps-office
->extra wps-office-fonts
->extra wps-office-mime
->extra libmythes
+wps-office
+wps-office-fonts
+wps-office-mime
+libmythes
 
 ## Internet applications
 thunderbird
->extra telegram-desktop
 opera
 opera-ffmpeg-codecs
 pepper-flash
->extra flashplugin
-
-####---->> VIRTUALIZATION
-#>extra garuda-virt-manager
->extra garuda-virtualbox
-
-####---->> WINE
->extra garuda-wine
+zoom
 
 
-####---->> EMULATORS
->extra emulationstation
->extra libretro
->extra ppsspp
->extra pcsxr
->extra pcsx2-git
->extra rpcs3-git
->extra yuzu-mainline-git
->extra scummvm-tools
->extra scummvm
->extra dosbox
-
-####---->> GAME LAUNCHERS
-
->extra steam
->extra steam-native-runtime
->extra linux-steam-integration
->extra lutris
->extra gamehub
->extra itch
->extra minigalaxy
->extra legendary
->extra gamerworld
->extra ialauncher-git
->extra athenaeum-git
->extra python-numpy
->extra moonlight-qt
->extra pegasus-frontend-git
->extra steam-tweaks
-
-####---->> GAMING TOOLS
->extra openrgb-git
->extra piper
->extra fancontrol-gui-git
->extra corectrl
->extra gwe
-
-
->extra goverlay-git
->extra mangohud
->extra lib32-mangohud
->extra gamemode
->extra lib32-gamemode
->extra vkbasalt
-
-
->extra ntfix-git
->extra q4wine
->extra fuseiso
-
->extra openh264
->extra dxvk-mingw-git
->extra proton-tkg-git
-####   amd vulkan
->extra amdvlk
->extra lib32-amdvlk
-
-####---->> GAME CONTROLLER
->extra antimicrox
->extra linuxconsole
->extra xboxdrv
->extra xpadneo-dkms-git
->extra steamos-xpad-dkms
->extra xow-git
->extra xbox-generic-controller
->extra game-devices-udev
->extra retroarch-autoconfig-udev-git
-
-
-####---->> GAMES
-
->extra aisleriot
-#>extra kde-games-meta 
-#>extra gnuchess   
->extra mari0
->extra minetest
->extra minetest-server
->extra teeworlds
->extra gnome-chess
->extra gnome-mahjongg
-#>extra puzzles
-#>extra texlive-games
-#megaglest
-#xonotic
-#supertuxkart
-#enemy-territory
-#enemy-trritory-data
 

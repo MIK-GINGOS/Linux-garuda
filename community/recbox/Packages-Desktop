@@ -6,8 +6,6 @@
 >basic pamac-aur
 >basic pamac-tray-appindicator
 >extra pamac-all
->extra bauh
-#>extra octopi
 
 ## APPIMAGE Support
 >extra appimagelauncher
@@ -72,16 +70,15 @@ garuda-settings-samba
 
 ####---->> INPUT
 garuda-input
->extra evdev-right-click-emulation
-gesture-manager-x-git
-#>extra fingerprint-gui
 garuda-ibus
+>extra evdev-right-click-emulation
+>extra gesture-manager-x-git
+>extra ibus-m17n
 >extra garuda-indic
 >extra wacom-utility
 
 ####---->> XORG
 xorg-server
-xorg-server-xwayland 
 xorg-server-xephyr
 xorg-xwininfo
 xorg-xhost
@@ -96,7 +93,7 @@ xorg-xbacklight
 
 ####---->> WAYLAND
 
-
+>extra xorg-server-xwayland 
 
 ####---->> UTILITIES
 ## Desktop Utils
@@ -105,30 +102,31 @@ xdg-utils
 xdg-user-dirs
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-gtk
-wmctrl
-numlockx
-xbindkeys
-xcape
-xdotool
-xautolock
+>extra wmctrl
+>extra numlockx
+>extra xbindkeys
+>extra xcape
+>extra xdotool
+>extra xautolock
 #---------=> utilities
 autorandr
->extra libdvdcss
-powertop
-neofetch-git
-htop
+neofetch
 timeshift
 timeshift-autosnap
 conky-lua-nv
-libva-utils
-vdpauinfo
-vulkan-tools
-mesa-demos
+conky-manager
+>extra htop
+>extra libdvdcss
+>extra powertop
+>extra libva-utils
+>extra vdpauinfo
+>extra vulkan-tools
+>extra mesa-demos
 >extra lib32-mesa-demos
 #---------=> android 
 android-tools
 android-udev
-busybox
+>extra busybox
 
 ####---->> THEMING
 ## theme package
@@ -138,7 +136,7 @@ grub-theme-garuda
 plymouth-theme-garuda
 
 sound-theme-smooth
->extra gtk-engine-murrine
+gtk-engine-murrine
 
 qt5ct 
 qt5-styleplugins 
@@ -153,16 +151,15 @@ garuda-icons
 
 ## Fonts
 noto-fonts               # default font
-#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 noto-fonts-emoji
-terminus-font
+ttf-liberation
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-extra
 >extra ttf-opensans
->extra powerline-fonts
 
 
 ####---->> SETTINGS
 garuda-settings-manager
-#garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
@@ -172,9 +169,13 @@ garuda-network-assistant-git
 
 ####---->> DISPLAY MANAGER
 lightdm
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+lightdm-slick-greeter
+lightdm-settings
 accountsservice  # Enhanced user accounts handling
+
+>extra orca
+onboard
+mousetweaks
 
 
 ####---->> DESKTOP ENVIRONMENT
@@ -182,16 +183,12 @@ clipman
 polkit-gnome
 gnome-keyring
 
->extra orca
-onboard
-
 #### xfce
-exo
-garcon
 thunar
 thunar-volman
 tumbler
 xfce4-power-manager
+
 xfce4-settings
 
 ## xfce extra
@@ -200,12 +197,9 @@ thunar-media-tags-plugin
 
 xarchiver
 mousepad
-orage
 ristretto
 pragha
-#parole
->extra xfburn
-xfce4-terminal
+
 termite
 termite-terminfo
 
@@ -232,10 +226,10 @@ alacritty
 
 
 lxappearance-gtk3
-arandr
+lxrandr
 lxinput-gtk3
 
-sgtk-menu
+
 wlogout
 zenity
 
@@ -252,8 +246,8 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
-gvfs-google
-gvfs-goa
+>extra gvfs-google
+>extra gvfs-goa
 
 ###-------archive formats
 >extra arj
@@ -295,28 +289,30 @@ tree
 w3m
 cmus
 
+
 flameshot
->extra shortwave
-systemd-ui
 gnome-keyring
 redshift
 qpdfview
-qbittorrent
-peek
-mintstick
 galculator
 gsimplecal
 gparted
 mpv
->extra catfish
->extra meld
-stacer 
+catfish
+meld
+deluge-gtk
+peek
+mintstick
+bleachbit
 
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
 >extra smtube
-
+>extra xfburn
+>extra youtube-dl
+>extra shortwave
+>extra systemd-ui
 >extra python-xdg
 >extra guiscrcpy
 >extra nitroshare
@@ -325,8 +321,8 @@ stacer
 >extra soundconverter
 >extra guvcview
 >extra pitivi
+>extra easytag
 
-kid3
 #>extra lmms
 #>extra mixxx
 #>extra audacity
@@ -344,10 +340,6 @@ kid3
 ## Internet applications
 thunderbird
 garuda-firefox
->extra telegram-desktop
->extra signal-desktop
->extra streamlink-twitch-gui
->extra discord
 
 ##### RecBox
 
@@ -432,101 +424,3 @@ zita-mu1
 zita-njbridge
 zita-rev1
 zynaddsubfx
-
-
-
-####---->> VIRTUALIZATION
->extra garuda-virt-manager
-#>extra garuda-virtualbox
-
-####---->> WINE
->extra garuda-wine
-
-
-####---->> EMULATORS
->extra emulationstation
->extra libretro
->extra ppsspp
->extra pcsxr
->extra pcsx2-git
->extra rpcs3-git
->extra yuzu-mainline-git
->extra scummvm-tools
->extra scummvm
->extra dosbox
-
-####---->> GAME LAUNCHERS
-
->extra steam
->extra steam-native-runtime
->extra linux-steam-integration
->extra lutris
->extra gamehub
->extra itch
->extra minigalaxy
->extra legendary
->extra gamerworld
->extra ialauncher-git
->extra athenaeum-git
->extra python-numpy
->extra moonlight-qt
->extra pegasus-frontend-git
->extra steam-tweaks
-
-####---->> GAMING TOOLS
->extra openrgb-git
->extra piper
->extra fancontrol-gui-git
->extra corectrl
->extra gwe
-
-
->extra goverlay-git
->extra mangohud
->extra lib32-mangohud
->extra gamemode
->extra lib32-gamemode
->extra vkbasalt
-
-
->extra ntfix-git
->extra q4wine
->extra fuseiso
-
->extra openh264
->extra dxvk-mingw-git
->extra proton-tkg-git
-####   amd vulkan
->extra amdvlk
->extra lib32-amdvlk
-
-####---->> GAME CONTROLLER
->extra antimicrox
->extra linuxconsole
->extra xboxdrv
->extra xpadneo-dkms-git
->extra steamos-xpad-dkms
->extra xow-git
->extra xbox-generic-controller
->extra game-devices-udev
->extra retroarch-autoconfig-udev-git
-
-
-####---->> GAMES
-
->extra aisleriot
-#>extra kde-games-meta 
-#>extra gnuchess   
->extra mari0
->extra minetest
->extra minetest-server
->extra teeworlds
->extra gnome-chess
->extra gnome-mahjongg
-#>extra puzzles
-#>extra texlive-games
-#megaglest
-#xonotic
-#supertuxkart
-#enemy-territory
-#enemy-trritory-data

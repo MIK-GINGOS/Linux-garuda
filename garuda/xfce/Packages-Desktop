@@ -6,8 +6,6 @@
 >basic pamac-aur
 >basic pamac-tray-appindicator
 >extra pamac-all
->extra bauh
-#>extra octopi
 
 ## APPIMAGE Support
 >extra appimagelauncher
@@ -27,14 +25,14 @@
 >extra packagekit
 
 ####---->> AUDIO
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
+pulseaudio-modules-bt-git
+libldac
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-modules-bt-git
-libldac
+>extra garuda-alsa
+>extra garuda-pulse
+>extra garuda-pipewire
 >extra pulseaudio-ctl
 >extra playerctl
 
@@ -47,13 +45,13 @@ garuda-gstreamer
 garuda-network
 garuda-modem
 garuda-bluetooth
->extra qomui-git
 network-manager-applet
 blueberry
+>extra qomui-git
 
 ####---->> PRINTER
 ## samba
-garuda-settings-samba
+>extra garuda-settings-samba
 >extra system-config-samba # python2 package
 
 ## printing
@@ -71,17 +69,15 @@ garuda-settings-samba
 
 ####---->> INPUT
 garuda-input
->extra evdev-right-click-emulation
-gesture-manager-x-git
-#>extra fingerprint-gui
 garuda-ibus
-ibus-m17n
-garuda-indic
+>extra ibus-m17n
+>extra garuda-indic
 >extra wacom-utility
+>extra evdev-right-click-emulation
+>extra gesture-manager-x-git
 
 ####---->> XORG
 xorg-server
-xorg-server-xwayland 
 xorg-xhost
 xorg-xinit
 xorg-xinput
@@ -89,7 +85,7 @@ xorg-xrandr
 xorg-xprop
 
 ####---->> WAYLAND
-
+>extra xorg-server-xwayland 
 
 
 ####---->> UTILITIES
@@ -107,22 +103,23 @@ xdg-user-dirs
 >extra xautolock
 #---------=> utilities
 autorandr
->extra libdvdcss
->extra powertop
-neofetch-git
->extra htop
+neofetch
 timeshift
 timeshift-autosnap
 conky-lua-nv
-libva-utils
-vdpauinfo
-vulkan-tools
-mesa-demos
+conky-manager
+>extra libdvdcss
+>extra powertop
+>extra htop
+>extra libva-utils
+>extra vdpauinfo
+>extra vulkan-tools
+>extra mesa-demos
 >extra lib32-mesa-demos
 #---------=> android 
 android-tools
 android-udev
-busybox
+>extra busybox
 
 ####---->> THEMING
 ## theme package
@@ -132,7 +129,7 @@ grub-theme-garuda
 plymouth-theme-garuda
 
 sound-theme-smooth
->extra gtk-engine-murrine
+gtk-engine-murrine
 qt5ct
 kvantum-qt5
 whitesur-gtk-theme-git
@@ -140,22 +137,21 @@ whitesur-kvantum-theme-git
 tela-circle-icon-theme-git
 whitesur-cursor-theme-git
 
-wish-wallpapers
+>extra wish-wallpapers
 garuda-wallpapers
 garuda-icons
 
 ## Fonts
 noto-fonts               # default font
-#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 noto-fonts-emoji
-terminus-font
+ttf-liberation
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-extra
 >extra ttf-opensans
->extra powerline-fonts
 
 
 ####---->> SETTINGS
 garuda-settings-manager
-#garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
@@ -201,8 +197,8 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
-gvfs-google
-gvfs-goa
+>extra gvfs-google
+>extra gvfs-goa
 
 ###-------archive formats
 >extra arj
@@ -265,26 +261,32 @@ xfce4-dockbarx-plugin
 >extra xfce4-timer-plugin
 >extra xfce4-verve-plugin
 >extra xfce4-wavelan-plugin
->extra xfburn
 
 >extra orca
 onboard
+mousetweaks
 ####---->> OTHER APPS
 flameshot
->extra shortwave
-systemd-ui
 gnome-keyring
 redshift
 qpdfview
-qbittorrent
-peek
-mintstick
 galculator
 gparted
+deluge-gtk
 mpv
 catfish
 meld
-stacer 
+peek
+mintstick
+bleachbit
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+>extra smtube
+>extra xfburn
+>extra youtube-dl
+>extra olivia
+>extra systemd-ui
 >extra python-xdg
 >extra guiscrcpy
 >extra warpinator
@@ -308,47 +310,42 @@ stacer
 
 ## Internet applications
 thunderbird
->extra telegram-desktop
 garuda-firefox
+>extra telegram-desktop
+>extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
+
+####   amd vulkan
+>extra amdvlk
+>extra lib32-amdvlk
+
 ####---->> VIRTUALIZATION
 >extra garuda-virt-manager
-#>extra garuda-virtualbox
 
 ####---->> WINE
 >extra garuda-wine
 
 
-####---->> EMULATORS
->extra emulationstation
->extra libretro
->extra ppsspp
->extra pcsxr
->extra pcsx2-git
->extra rpcs3-git
->extra yuzu-mainline-git
->extra scummvm-tools
->extra scummvm
->extra dosbox
+
 
 ####---->> GAME LAUNCHERS
 
 >extra steam
 >extra steam-native-runtime
->extra linux-steam-integration
 >extra lutris
 >extra gamehub
 >extra itch
 >extra minigalaxy
 >extra legendary
->extra gamerworld
 >extra ialauncher-git
->extra athenaeum-git
->extra python-numpy
->extra moonlight-qt
->extra pegasus-frontend-git
->extra steam-tweaks
+#>extra gamerworld
+#>extra athenaeum-git
+#>extra python-numpy
+#>extra moonlight-qt
+#>extra pegasus-frontend-git
+#>extra steam-tweaks
+#>extra linux-steam-integration
 
 ####---->> GAMING TOOLS
 >extra openrgb-git
@@ -356,7 +353,6 @@ garuda-firefox
 >extra fancontrol-gui-git
 >extra corectrl
 >extra gwe
-
 
 >extra goverlay-git
 >extra mangohud
@@ -366,16 +362,14 @@ garuda-firefox
 >extra vkbasalt
 
 
->extra ntfix-git
->extra q4wine
->extra fuseiso
+#>extra ntfix-git
+#>extra q4wine
+#>extra fuseiso
 
->extra openh264
->extra dxvk-mingw-git
->extra proton-tkg-git
-####   amd vulkan
->extra amdvlk
->extra lib32-amdvlk
+#>extra openh264
+#>extra dxvk-mingw-git
+#>extra proton-tkg-git
+
 
 ####---->> GAME CONTROLLER
 >extra antimicrox
@@ -388,12 +382,21 @@ garuda-firefox
 >extra game-devices-udev
 >extra retroarch-autoconfig-udev-git
 
+####---->> EMULATORS
+>extra libretro
+#>extra emulationstation
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
+#>extra scummvm-tools
+#>extra scummvm
+#>extra dosbox
 
 ####---->> GAMES
 
 >extra aisleriot
-#>extra kde-games-meta 
-#>extra gnuchess   
 >extra mari0
 >extra minetest
 >extra minetest-server
@@ -402,9 +405,10 @@ garuda-firefox
 >extra gnome-mahjongg
 #>extra puzzles
 #>extra texlive-games
+#>extra kde-games-meta 
+#>extra gnuchess 
 #megaglest
 #xonotic
 #supertuxkart
 #enemy-territory
 #enemy-trritory-data
-

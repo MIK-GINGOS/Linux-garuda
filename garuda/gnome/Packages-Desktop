@@ -108,7 +108,7 @@ timeshift-autosnap
 >extra powertop
 >extra htop
 >extra conky-lua-nv
->extra conky-manager2-git	
+>extra conky-manager	
 >extra libva-utils
 >extra vdpauinfo
 >extra vulkan-tools
@@ -142,13 +142,11 @@ garuda-icons
 ## Fonts
 noto-fonts               # default font
 noto-fonts-emoji
-terminus-font
+ttf-liberation
 ttf-google-sans
->extra ttf-opensans
->extra powerline-fonts
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-extra
->extra noto-fonts-cjk
-
+>extra ttf-opensans
 
 ####---->> SETTINGS
 garuda-settings-manager
@@ -263,6 +261,8 @@ firefox-ublock-origin
 firefox
 flameshot-git
 bleachbit
+>extra baobab
+>extra brasero
 >extra deluge-gtk
 >extra peek
 >extra popsicle-git
@@ -270,13 +270,13 @@ bleachbit
 >extra cockpit-dashboard
 >extra cockpit-machines
 >extra spotify-adblock-git
->extra streamlink-twitch-gui
 >extra variety
 >extra remmina
 >extra shortwave
 >extra systemd-ui
 >extra catfish
 >extra meld
+>extra youtube-dl
 >extra python-xdg
 >extra guiscrcpy
 >extra warpinator
@@ -297,46 +297,42 @@ bleachbit
 >extra libreoffice-fresh
 >extra libmythes
 
-##------------> Internet applications
+## Internet applications
 >extra telegram-desktop
-#>extra signal-desktop
+>extra signal-desktop
+>extra streamlink-twitch-gui
+>extra discord
 
+####   amd vulkan
+>extra amdvlk
+>extra lib32-amdvlk
 
 ####---->> VIRTUALIZATION
 >extra garuda-virt-manager
-#>extra garuda-virtualbox
 
 ####---->> WINE
 >extra garuda-wine
 
-####---->> EMULATORS
-#>extra emulationstation
-#>extra libretro
-#>extra ppsspp
-#>extra pcsxr
-#>extra pcsx2-git
-#>extra rpcs3-git
-#>extra yuzu-mainline-git
-#>extra scummvm-tools
-#>extra scummvm
-#>extra dosbox
+
+
 
 ####---->> GAME LAUNCHERS
+
 >extra steam
 >extra steam-native-runtime
->extra linux-steam-integration
 >extra lutris
 >extra gamehub
 >extra itch
 >extra minigalaxy
 >extra legendary
->extra gamerworld
 >extra ialauncher-git
->extra athenaeum-git
->extra python-numpy
->extra moonlight-qt
->extra pegasus-frontend-git
->extra steam-tweaks
+#>extra gamerworld
+#>extra athenaeum-git
+#>extra python-numpy
+#>extra moonlight-qt
+#>extra pegasus-frontend-git
+#>extra steam-tweaks
+#>extra linux-steam-integration
 
 ####---->> GAMING TOOLS
 >extra openrgb-git
@@ -344,7 +340,6 @@ bleachbit
 >extra fancontrol-gui-git
 >extra corectrl
 >extra gwe
-
 
 >extra goverlay-git
 >extra mangohud
@@ -354,16 +349,14 @@ bleachbit
 >extra vkbasalt
 
 
->extra ntfix-git
->extra q4wine
->extra fuseiso
+#>extra ntfix-git
+#>extra q4wine
+#>extra fuseiso
 
->extra openh264
->extra dxvk-mingw-git
->extra proton-tkg-git
-####   amd vulkan
->extra amdvlk
->extra lib32-amdvlk
+#>extra openh264
+#>extra dxvk-mingw-git
+#>extra proton-tkg-git
+
 
 ####---->> GAME CONTROLLER
 >extra antimicrox
@@ -376,21 +369,31 @@ bleachbit
 >extra game-devices-udev
 >extra retroarch-autoconfig-udev-git
 
-
+####---->> EMULATORS
+>extra libretro
+#>extra emulationstation
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
+#>extra scummvm-tools
+#>extra scummvm
+#>extra dosbox
 
 ####---->> GAMES
 
-#extra aisleriot
-#>extra kde-games-meta 
-#>extra gnuchess   
-#>extra mari0
-#>extra minetest
-#>extra minetest-server
-#>extra teeworlds
-#>extra gnome-chess
-#>extra gnome-mahjongg
+>extra aisleriot
+>extra mari0
+>extra minetest
+>extra minetest-server
+>extra teeworlds
+>extra gnome-chess
+>extra gnome-mahjongg
 #>extra puzzles
 #>extra texlive-games
+#>extra kde-games-meta 
+#>extra gnuchess 
 #megaglest
 #xonotic
 #supertuxkart

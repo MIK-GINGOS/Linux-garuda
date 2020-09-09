@@ -111,7 +111,7 @@ timeshift-autosnap
 >extra libva-utils
 >extra vdpauinfo
 >extra conky-lua-nv
->extra conky-manager2-git
+>extra conky-manager
 >extra libdvdcss
 >extra powertop
 >extra htop
@@ -308,97 +308,4 @@ firefox-extension-canvasblocker
 >extra telegram-desktop
 >extra streamlink-twitch-gui
 
-####---->> VIRTUALIZATION
->extra garuda-virt-manager
-
-####---->> WINE
->extra garuda-wine
-
-####---->> EMULATORS
-#>extra emulationstation
-#>extra libretro
-#>extra ppsspp
-#>extra pcsxr
-#>extra pcsx2-git
-#>extra rpcs3-git
-#>extra yuzu-mainline-git
-#>extra scummvm-tools
-#>extra scummvm
-#>extra dosbox
-
-####---->> GAME LAUNCHERS
-
->extra steam
->extra steam-native-runtime
->extra linux-steam-integration
->extra lutris
->extra gamehub
->extra itch
->extra minigalaxy
->extra legendary
->extra gamerworld
->extra ialauncher-git
->extra athenaeum-git
->extra python-numpy
->extra moonlight-qt
->extra pegasus-frontend-git
->extra steam-tweaks
-
-####---->> GAMING TOOLS
->extra openrgb-git
->extra piper
->extra fancontrol-gui-git
->extra corectrl
->extra gwe
-
-
->extra goverlay-git
->extra mangohud
->extra lib32-mangohud
->extra gamemode
->extra lib32-gamemode
->extra vkbasalt
-
-
->extra ntfix-git
->extra q4wine
->extra fuseiso
-
->extra openh264
->extra dxvk-mingw-git
->extra proton-tkg-git
-####   amd vulkan
->extra amdvlk
->extra lib32-amdvlk
-
-####---->> GAME CONTROLLER
->extra antimicrox
->extra linuxconsole
->extra xboxdrv
->extra xpadneo-dkms-git
->extra steamos-xpad-dkms
->extra xow-git
->extra xbox-generic-controller
->extra game-devices-udev
->extra retroarch-autoconfig-udev-git
-
-
-####---->> GAMES
-
-#>extra aisleriot
-#>extra kde-games-meta 
-#>extra gnuchess   
-#>extra mari0
-#>extra minetest
-#>extra minetest-server
-#>extra teeworlds
-#>extra gnome-chess
-#>extra gnome-mahjongg
-#>extra puzzles
-#>extra texlive-games
-#megaglest
-#xonotic
-#supertuxkart
-#enemy-territory
-#enemy-trritory-data
 

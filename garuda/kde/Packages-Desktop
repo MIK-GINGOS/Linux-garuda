@@ -3,10 +3,10 @@
 ###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
-pamac-all
-discover-snap
->extra bauh
->extra octopi
+>basic pamac-aur
+>basic pamac-tray-appindicator
+>extra pamac-all
+>extra discover-snap
 
 ## APPIMAGE Support
 >extra appimagelauncher
@@ -71,7 +71,6 @@ garuda-settings-samba
 garuda-input
 >extra evdev-right-click-emulation
 libinput_gestures_qt
-#>extra fingerprint-gui
 garuda-fcitx
 fcitx-m17n
 garuda-indic
@@ -104,17 +103,18 @@ xdg-user-dirs
 >extra xautolock
 #---------=> utilities
 autorandr
->extra libdvdcss
->extra powertop
-neofetch-git
->extra htop
+neofetch
 timeshift
 timeshift-autosnap
 conky-lua-nv
-libva-utils
-vdpauinfo
-vulkan-tools
-mesa-demos
+conky-manager
+>extra libdvdcss
+>extra powertop
+>extra htop
+>extra libva-utils
+>extra vdpauinfo
+>extra vulkan-tools
+>extra mesa-demos
 >extra lib32-mesa-demos
 #---------=> android and file transfer management
 android-tools
@@ -130,7 +130,7 @@ grub-theme-garuda
 plymouth-theme-garuda
 
 sound-theme-smooth
->extra gtk-engine-murrine
+gtk-engine-murrine
 whitesur-gtk-theme-git
 whitesur-kde-theme-git
 tela-circle-icon-theme-git
@@ -141,13 +141,14 @@ kvantum-qt5
 wish-wallpapers
 garuda-wallpapers
 garuda-icons
+
 ## Fonts
 noto-fonts               # default font
-#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 noto-fonts-emoji
-terminus-font
+ttf-liberation
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra noto-fonts-extra
 >extra ttf-opensans
->extra powerline-fonts
 
 
 ####---->> SETTINGS
@@ -167,7 +168,34 @@ qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 
 
 ####---->> DESKTOP ENVIRONMENT
-plasma-meta
+bluedevil
+drkonqi
+kdeplasma-addons
+khotkeys
+kinfocenter
+ksysguard
+kscreen
+ksshaskpass
+kwrited
+plasma-browser-integration
+plasma-desktop
+plasma-nm
+plasma-workspace-wallpapers
+plasma-pa
+plasma-thunderbolt
+plasma-vault
+kwayland-integration
+kwallet-pam
+kgamma5
+user-manager
+breeze-gtk
+powerdevil
+qt5-tools
+quota-tools
+appmenu-gtk-module
+kde-gtk-config
+>extra plasma-meta
+plasma-wayland-session
 plasma5-applets-latte-spacer
 plasma5-applets-latte-separator
 plasma5-applets-tiledmenu
@@ -184,28 +212,26 @@ plasma5-applets-plasma-pstate
 plasma5-applets-eventcalendar
 kwin-scripts-forceblur
 kwin-scripts-window-colors
-#kwin-effects-yet-another-magic-lamp
 kwin-effects-sliding-notifications
-#kwin-decoration-sierra-breeze-enhanced-git
 
 kde-servicemenus-rootactions
 kde-servicemenus-pdf
 kde-servicemenus-encfs
 kde-service-menu-reimage
 jhead
-#plymouth-kcm
-kcm-fcitx
-samba-mounter-git
->extra fancontrol-kcm-git
-kcm-wacomtablet 
+
+
+
+
+
+
+
 colord-kde
 kdenetwork-filesharing
-qt5-tools
-#>extra systemd-kcm
-appmenu-gtk-module
-kde-gtk-config
-quota-tools
-plasma-wayland-session
+kcm-wacomtablet 
+samba-mounter-git
+kcm-fcitx
+>extra fancontrol-kcm-git
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ## kde apps
@@ -218,7 +244,7 @@ gwenview
 svgpart
 konsole
 yakuake
-
+lokalize
 kolourpaint
 kcolorchooser
 kcalc
@@ -236,13 +262,10 @@ zeroconf-ioslave
 kio-extras
 kio-gdrive
 kio-fuse
+spectacle
 >extra audiocd-kio
-
-
 >extra elisa
-
 >basic olivia
-
 >extra ksystemlog
 >extra kup
 >extra khelpcenter
@@ -264,21 +287,12 @@ kio-fuse
 >extra kwave
 >extra k3b
 >extra subtitlecomposer
->extra soundkonverter
->extra mystiq
->extra converseen
 >extra argyllcms
 >extra colord-sane
 >extra orca
 >extra flite
 >extra kile
-#>extra callibre-python3
-#>extra kmix
-#>extra tellico
-#>extra digikam
-#>extra kphotoalbum
-#>extra marble
-#>extra skrooge
+
 
 
 
@@ -362,85 +376,67 @@ latte-dock-git
 flameshot
 imagewriter
 stacer
-
+youtube-dl
 #>basic falkon
 >basic mpv
-thunderbird
-garuda-firefox
-firefox-extension-plasma-integration
-firefox-extension-kdeconnect
 >basic simplescreenrecorder
 >extra mediaelch
-youtube-dl
 >extra qytdl
 >extra obs-studio
 >extra pdfmixtool
 >extra guiscrcpy
->extra usbaudio-git
 >extra nitroshare
+>extra soundkonverter
+>extra mystiq
+>extra converseen
 
->extra shortwave
+##------------> office
+>extra libreoffice-fresh
+>extra libmythes
+
+
+## Internet applications
+thunderbird
+garuda-firefox
+firefox-extension-plasma-integration
+firefox-extension-kdeconnect
 >extra telegram-desktop
+>extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
 >extra mumble
 >extra murmur
->extra libreoffice-fresh
->extra libmythes
-#>extra stremio
-#>extra joplin
-#>extra zoom
-#>extra spotify-adblock-git
-#>extra variety
-#>extra popcorntime-git
-#>extra qownnotes
-#>extra kodi 
-#>extra kodi-platform 
-#>extra kodi-eventclients 
-#>extra lmms
-#>extra smplayer
-#>extra smplayer-skins
-#>extra smplayer-themes
-#>extra smtube
 
+####   amd vulkan
+>extra amdvlk
+>extra lib32-amdvlk
 
 ####---->> VIRTUALIZATION
 >extra garuda-virt-manager
-#>extra garuda-virtualbox
 
 ####---->> WINE
 >extra garuda-wine
 
 
-####---->> EMULATORS
->extra emulationstation
->extra libretro
->extra ppsspp
->extra pcsxr
->extra pcsx2-git
->extra rpcs3-git
->extra yuzu-mainline-git
->extra scummvm-tools
->extra scummvm
->extra dosbox
+
 
 ####---->> GAME LAUNCHERS
 
 >extra steam
 >extra steam-native-runtime
->extra linux-steam-integration
 >extra lutris
 >extra gamehub
 >extra itch
 >extra minigalaxy
 >extra legendary
->extra gamerworld
 >extra ialauncher-git
->extra athenaeum-git
->extra python-numpy
->extra moonlight-qt
->extra pegasus-frontend-git
->extra steam-tweaks
+#>extra gamerworld
+#>extra athenaeum-git
+#>extra python-numpy
+#>extra moonlight-qt
+#>extra pegasus-frontend-git
+#>extra steam-tweaks
+#>extra linux-steam-integration
 
 ####---->> GAMING TOOLS
 >extra openrgb-git
@@ -448,7 +444,6 @@ youtube-dl
 >extra fancontrol-gui-git
 >extra corectrl
 >extra gwe
-
 
 >extra goverlay-git
 >extra mangohud
@@ -458,16 +453,14 @@ youtube-dl
 >extra vkbasalt
 
 
->extra ntfix-git
->extra q4wine
->extra fuseiso
+#>extra ntfix-git
+#>extra q4wine
+#>extra fuseiso
 
->extra openh264
->extra dxvk-mingw-git
->extra proton-tkg-git
-####   amd vulkan
->extra amdvlk
->extra lib32-amdvlk
+#>extra openh264
+#>extra dxvk-mingw-git
+#>extra proton-tkg-git
+
 
 ####---->> GAME CONTROLLER
 >extra antimicrox
@@ -480,12 +473,21 @@ youtube-dl
 >extra game-devices-udev
 >extra retroarch-autoconfig-udev-git
 
-
+####---->> EMULATORS
+>extra libretro
+#>extra emulationstation
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
+#>extra scummvm-tools
+#>extra scummvm
+#>extra dosbox
 
 ####---->> GAMES
 
 >extra aisleriot
-#>extra kde-games-meta 
 >extra knights
 >extra kmahjongg
 >extra gnuchess   
@@ -495,6 +497,7 @@ youtube-dl
 >extra teeworlds
 #>extra puzzles
 #>extra texlive-games
+#>extra kde-games-meta 
 #megaglest
 #xonotic
 #supertuxkart
