@@ -51,7 +51,7 @@ garuda-modem
 
 ####---->> PRINTER
 ## samba
-garuda-settings-samba
+>extra garuda-settings-samba
 >extra system-config-samba # python2 package
 
 ## printing
@@ -400,6 +400,8 @@ thunderbird
 garuda-firefox
 firefox-extension-plasma-integration
 firefox-extension-kdeconnect
+firefox-extension-xdm-browser-monitor
+firefox-extension-keepassxc-browser
 >extra telegram-desktop
 >extra signal-desktop
 >extra streamlink-twitch-gui

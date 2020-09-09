@@ -134,7 +134,7 @@ grub-theme-garuda
 plymouth-theme-garuda
 
 sound-theme-smooth
->extra gtk-engine-murrine
+gtk-engine-murrine
 kvantum-qt5
 vimix-cursors
 kvantum-theme-vimix-git  
@@ -265,6 +265,9 @@ garuda-firefox
 >extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
+>extra firefox-extension-kdeconnect
 
 ####   amd vulkan
 >extra amdvlk

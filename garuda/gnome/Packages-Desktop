@@ -253,12 +253,7 @@ zip
 
 
 ####---->> OTHER APPS
-firefox-extension-gnome-shell-integration
-firefox-extension-https-everywhere
-firefox-extension-canvasblocker
-firefox-dark-reader
-firefox-ublock-origin
-firefox
+
 flameshot-git
 bleachbit
 >extra baobab
@@ -302,7 +297,10 @@ bleachbit
 >extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
-
+garuda-firefox
+firefox-extension-gnome-shell-integration
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
 ####   amd vulkan
 >extra amdvlk
 >extra lib32-amdvlk
