@@ -62,9 +62,10 @@ garuda-modem
 >extra hplip
 >extra python-pyqt5
 >extra python-reportlab
->extra print-manager
+print-manager
 
 ## scanning
+>extra garuda-scanner
 >extra skanlite
 
 ####---->> INPUT

@@ -12,6 +12,7 @@
 >extra appimagelauncher
 
 ## FIRMWARE UPDATES
+>extra gnome-firmware
 >extra fwupd
 
 ## Snap Support
@@ -66,6 +67,7 @@ blueberry
 >extra python-reportlab
 
 ## scanning
+>extra garuda-scanner
 >extra simple-scan
 
 

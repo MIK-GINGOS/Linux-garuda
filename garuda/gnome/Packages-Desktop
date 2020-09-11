@@ -9,6 +9,7 @@
 >extra appimagelauncher
 
 ## FIRMWARE UPDATES
+>extra gnome-firmware
 >extra fwupd
 
 ## Snap Support
@@ -60,6 +61,7 @@ garuda-bluetooth
 >extra python-reportlab
 
 ## scanning
+>extra garuda-scanner
 >extra simple-scan
 
 
@@ -213,6 +215,7 @@ sushi
 >extra gtkhash-nautilus
 >extra gnome-logs
 >extra gnome-remote-desktop
+>extra gnome-sound-recorder
 >extra vino
 >extra rygel
 >extra gnome-user-share

@@ -9,6 +9,7 @@
 >extra appimagelauncher
 
 ## FIRMWARE UPDATES
+>extra gnome-firmware
 >extra fwupd
 
 ## Snap Support
@@ -64,6 +65,7 @@ network-manager-applet
 >extra python-reportlab
 
 ## scanning
+>extra garuda-scanner
 >extra simple-scan
 
 
