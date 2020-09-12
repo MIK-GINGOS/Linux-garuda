@@ -99,6 +99,8 @@ reiserfsprogs
 xfsprogs
 nilfs-utils
 mtools
+ecryptfs-utils
+nfs-utils
 >extra udftools
 
 
