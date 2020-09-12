@@ -123,6 +123,7 @@ inxi
 dmidecode
 cronie
 micro
+mkinitcpio-openswap
 #systemd-guest-user
 garuda-zsh-config
 garuda-browser-settings
