@@ -110,6 +110,7 @@ bridge-utils
 usbutils
 inetutils
 lockdown-ms
+fscrypt
 cryptsetup
 dmraid
 lvm2
@@ -126,6 +127,8 @@ dmidecode
 cronie
 micro
 mkinitcpio-openswap
+mkinitcpio-nfs-utils
+mkinitcpio-systemd-tool
 #systemd-guest-user
 garuda-zsh-config
 garuda-browser-settings
