@@ -131,6 +131,7 @@ garuda-bspwm-settings
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
+lxappearance
 
 yaru-sound-theme
 gtk-engine-murrine
@@ -264,7 +265,7 @@ onboard
 
 
 ####---->> OTHER APPS
-flameshot-git
+ksnip-git
 gnome-keyring
 redshift
 gparted
