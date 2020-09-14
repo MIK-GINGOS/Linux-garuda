@@ -9,6 +9,7 @@
 
 ## APPIMAGE Support
 >extra appimagelauncher
+>extra libappimage
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
@@ -58,12 +59,6 @@ networkmanager-dmenu
 
 ## printing
 >extra garuda-printer
->extra system-config-printer
->extra python-pysmbc
->extra splix
->extra hplip
->extra python-pyqt5
->extra python-reportlab
 
 ## scanning
 >extra garuda-scanner
@@ -104,12 +99,12 @@ xdg-utils
 xdg-user-dirs
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-gtk
->extra wmctrl
->extra numlockx
->extra xbindkeys
->extra xcape
->extra xdotool
->extra xautolock
+wmctrl
+numlockx
+xbindkeys
+xcape
+xdotool
+xautolock
 #---------=> utilities
 autorandr
 neofetch
@@ -155,6 +150,7 @@ garuda-icons
 noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
+terminus-font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-extra
 >extra ttf-opensans
@@ -191,7 +187,7 @@ thunar-volman
 tumbler
 xfce4-power-manager
 
-xfce4-settings
+>extra xfce4-settings
 
 ## xfce extra
 thunar-archive-plugin
@@ -292,7 +288,7 @@ w3m
 cmus
 
 
-flameshot
+ksnip
 gnome-keyring
 redshift
 qpdfview

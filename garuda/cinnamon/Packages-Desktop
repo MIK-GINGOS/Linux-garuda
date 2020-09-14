@@ -9,6 +9,7 @@
 
 ## APPIMAGE Support
 >extra appimagelauncher
+>extra libappimage
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
@@ -57,12 +58,6 @@ blueberry
 
 ## printing
 >extra garuda-printer
->extra system-config-printer
->extra python-pysmbc
->extra splix
->extra hplip
->extra python-pyqt5
->extra python-reportlab
 
 ## scanning
 >extra garuda-scanner
@@ -109,7 +104,7 @@ timeshift
 timeshift-autosnap
 conky-lua-nv
 conky-manager
-neofetch-git
+neofetch
 >extra libdvdcss
 >extra powertop
 >extra htop
@@ -146,6 +141,7 @@ garuda-icons
 noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
+terminus-font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-extra
 >extra ttf-opensans
@@ -235,7 +231,6 @@ webapp-manager-git
  
 
 ####---->> OTHER APPS
-flameshot
 mpv
 gnome-keyring
 redshift
@@ -253,7 +248,7 @@ peek
 >extra baobab
 >extra brasero
 >extra systemd-ui
->extra olivia
+>extra shortwave
 >extra youtube-dl
 >extra guvcview
 >extra python-xdg

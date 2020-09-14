@@ -6,9 +6,11 @@
 >basic pamac-aur
 >basic pamac-tray-appindicator
 >extra pamac-all
+>extra discover-snap
 
 ## APPIMAGE Support
 >extra appimagelauncher
+>extra libappimage
 
 ## FIRMWARE UPDATES
 >extra fwupd
@@ -59,12 +61,6 @@ nx-firewall-git
 
 ## printing
 >extra garuda-printer
->extra system-config-printer
->extra python-pysmbc
->extra splix
->extra hplip
->extra python-pyqt5
->extra python-reportlab
 print-manager
 
 ## scanning
@@ -150,6 +146,7 @@ garuda-icons
 noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
+terminus-font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-extra
 >extra ttf-opensans
@@ -219,7 +216,6 @@ qpdfview
 >extra poppler-glib
 
 ####---->> OTHER APPS
-flameshot
 speedcrunch
 qbittorrent
 mpv
@@ -250,7 +246,7 @@ simplescreenrecorder
 >extra lector
 >extra qvkbd
 >extra meteo-qt
->extra shortwave
+>extra olivia
 >extra redshift-qt
 >extra python-xdg
 >extra pdfmixtool

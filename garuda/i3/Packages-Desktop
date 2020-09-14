@@ -10,6 +10,7 @@
 
 ## APPIMAGE Support
 >extra appimagelauncher
+>extra libappimage
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
@@ -58,12 +59,6 @@ blueberry
 
 ## printing
 >extra garuda-printer
->extra system-config-printer
->extra python-pysmbc
->extra splix
->extra hplip
->extra python-pyqt5
->extra python-reportlab
 
 ## scanning
 >extra garuda-scanner
@@ -100,12 +95,12 @@ xdg-utils
 xdg-user-dirs
 >extra xdg-desktop-portal
 >extra xdg-desktop-portal-gtk
->extra wmctrl
->extra numlockx
->extra xbindkeys
->extra xcape
->extra xdotool
->extra xautolock
+wmctrl
+numlockx
+xbindkeys
+xcape
+xdotool
+xautolock
 #---------=> utilities
 autorandr
 timeshift
@@ -150,9 +145,10 @@ garuda-icons
 noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
+terminus-font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-extra
->extra ttf-opensan
+>extra ttf-opensans
 
 
 ####---->> SETTINGS
@@ -278,8 +274,7 @@ tree
 w3m
 cmus
 
-
-flameshot
+ksnip
 gnome-keyring
 redshift
 qpdfview
@@ -302,7 +297,7 @@ bleachbit
 >extra smtube
 >extra xfburn
 >extra youtube-dl
->extra olivia
+>extra shortwave
 >extra systemd-ui
 >extra python-xdg
 >extra guiscrcpy

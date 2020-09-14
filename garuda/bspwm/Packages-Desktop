@@ -3,10 +3,10 @@
 >basic pamac-aur
 >basic pamac-tray-appindicator
 >extra pamac-all
->extra bauh
 
 ## APPIMAGE Support
 >extra appimagelauncher
+>extra libappimage
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
@@ -57,12 +57,6 @@ network-manager-applet
 
 ## printing
 >extra garuda-printer
->extra system-config-printer
->extra python-pysmbc
->extra splix
->extra hplip
->extra python-pyqt5
->extra python-reportlab
 
 ## scanning
 >extra garuda-scanner
@@ -148,12 +142,13 @@ garuda-icons
 
 ## Fonts
 ttf-google-sans           
+noto-fonts               # default font
 noto-fonts-emoji
+ttf-liberation
 terminus-font
->extra ttf-opensans
->extra powerline-fonts
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-extra
->extra noto-fonts-cjk
+>extra ttf-opensans
 
 
 ####---->> SETTINGS
@@ -185,11 +180,11 @@ thunar-volman
 tumbler
 xfce4-appfinder
 xfce4-panel
-xfce4-power-manager-git
-xfce4-session-git
+xfce4-power-manager
+xfce4-session
 xfce4-settings
-xfconf-git
-xfdesktop-git
+xfconf
+xfdesktop
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -265,7 +260,7 @@ onboard
 
 
 ####---->> OTHER APPS
-ksnip-git
+ksnip
 gnome-keyring
 redshift
 gparted

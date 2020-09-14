@@ -9,6 +9,7 @@
 
 ## APPIMAGE Support
 >extra appimagelauncher
+>extra libappimage
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
@@ -50,29 +51,25 @@ garuda-bluetooth
 
 ####---->> PRINTER
 ## samba
-garuda-settings-samba
-
+>extra garuda-settings-samba
+>extra system-config-samba # python2 package
 
 ## printing
-garuda-printer
-python-pysmbc
-splix
-hplip
-python-pyqt5
-python-reportlab
+>extra garuda-printer
+
 
 ## scanning
-garuda-scanner
-simple-scan
+>extra garuda-scanner
+>extra simple-scan
 
 ####---->> INPUT
 garuda-input
-evdev-right-click-emulation
+>extra evdev-right-click-emulation
 libinput_gestures_qt
 garuda-fcitx
-fcitx-m17n
-garuda-indic
-wacom-utility
+>extra fcitx-m17n
+>extra garuda-indic
+>extra wacom-utility
 
 ####---->> XORG
 xorg-server
@@ -134,10 +131,10 @@ garuda-icons
 noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
+terminus-font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-extra
 >extra ttf-opensans
-
 
 ####---->> SETTINGS
 garuda-settings-manager
@@ -206,18 +203,119 @@ redshift
 partitionmanager
 stacer
 freedownloadmanager
+shortwave
 ##------------> office
-wps-office
-wps-office-fonts
-wps-office-mime
-libmythes
+>extra wps-office
+>extra wps-office-fonts
+>extra wps-office-mime
+>extra libmythes
 
 ## Internet applications
 thunderbird
 opera
 opera-ffmpeg-codecs
 pepper-flash
-zoom
+>extra zoom
+>extra telegram-desktop
+>extra signal-desktop
+>extra streamlink-twitch-gui
+>extra discord
 
+####   amd vulkan
+>extra amdvlk
+>extra lib32-amdvlk
+
+####---->> VIRTUALIZATION
+>extra garuda-virt-manager
+
+####---->> WINE
+>extra garuda-wine
+
+
+
+
+####---->> GAME LAUNCHERS
+
+>extra steam
+>extra steam-native-runtime
+>extra lutris
+>extra gamehub
+>extra itch
+>extra minigalaxy
+>extra legendary
+>extra ialauncher-git
+#>extra gamerworld
+#>extra athenaeum-git
+#>extra python-numpy
+#>extra moonlight-qt
+#>extra pegasus-frontend-git
+#>extra steam-tweaks
+#>extra linux-steam-integration
+
+####---->> GAMING TOOLS
+>extra openrgb-git
+>extra piper
+>extra fancontrol-gui-git
+>extra corectrl
+>extra gwe
+
+>extra goverlay-git
+>extra mangohud
+>extra lib32-mangohud
+>extra gamemode
+>extra lib32-gamemode
+>extra vkbasalt
+
+
+#>extra ntfix-git
+#>extra q4wine
+#>extra fuseiso
+
+#>extra openh264
+#>extra dxvk-mingw-git
+#>extra proton-tkg-git
+
+
+####---->> GAME CONTROLLER
+>extra antimicrox
+>extra linuxconsole
+>extra xboxdrv
+>extra xpadneo-dkms-git
+>extra steamos-xpad-dkms
+>extra xow-git
+>extra xbox-generic-controller
+>extra game-devices-udev
+>extra retroarch-autoconfig-udev-git
+
+####---->> EMULATORS
+>extra libretro
+#>extra emulationstation
+#>extra ppsspp
+#>extra pcsxr
+#>extra pcsx2-git
+#>extra rpcs3-git
+#>extra yuzu-mainline-git
+#>extra scummvm-tools
+#>extra scummvm
+#>extra dosbox
+
+####---->> GAMES
+
+>extra aisleriot
+>extra mari0
+>extra minetest
+>extra minetest-server
+>extra teeworlds
+>extra gnome-chess
+>extra gnome-mahjongg
+#>extra puzzles
+#>extra texlive-games
+#>extra kde-games-meta 
+#>extra gnuchess 
+#megaglest
+#xonotic
+#supertuxkart
+#enemy-territory
+#enemy-trritory-data
 
 

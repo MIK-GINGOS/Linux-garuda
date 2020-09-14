@@ -10,6 +10,7 @@
 
 ## APPIMAGE Support
 >extra appimagelauncher
+>extra libappimage
 
 ## FIRMWARE UPDATES
 >extra fwupd
@@ -56,12 +57,6 @@ garuda-modem
 
 ## printing
 >extra garuda-printer
->extra system-config-printer
->extra python-pysmbc
->extra splix
->extra hplip
->extra python-pyqt5
->extra python-reportlab
 print-manager
 
 ## scanning
@@ -147,6 +142,7 @@ garuda-icons
 noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
+terminus-font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-extra
 >extra ttf-opensans
@@ -178,7 +174,6 @@ ksysguard
 kscreen
 ksshaskpass
 kwrited
-plasma-browser-integration
 plasma-desktop
 plasma-nm
 plasma-workspace-wallpapers
@@ -264,9 +259,10 @@ kio-extras
 kio-gdrive
 kio-fuse
 spectacle
+
+olivia
 >extra audiocd-kio
 >extra elisa
->basic olivia
 >extra ksystemlog
 >extra kup
 >extra khelpcenter
@@ -374,7 +370,6 @@ encfs
 ####---->> OTHER APPS
 qbittorrent
 latte-dock-git
-flameshot
 imagewriter
 stacer
 youtube-dl
@@ -399,10 +394,9 @@ youtube-dl
 ## Internet applications
 thunderbird
 garuda-firefox
-firefox-extension-plasma-integration
-firefox-extension-kdeconnect
-firefox-extension-xdm-browser-monitor
-firefox-extension-keepassxc-browser
+>extra firefox-extension-plasma-integration
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
 >extra telegram-desktop
 >extra signal-desktop
 >extra streamlink-twitch-gui

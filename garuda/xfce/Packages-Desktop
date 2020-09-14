@@ -9,6 +9,7 @@
 
 ## APPIMAGE Support
 >extra appimagelauncher
+>extra libappimage
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
@@ -57,12 +58,6 @@ blueberry
 
 ## printing
 >extra garuda-printer
->extra system-config-printer
->extra python-pysmbc
->extra splix
->extra hplip
->extra python-pyqt5
->extra python-reportlab
 
 ## scanning
 >extra garuda-scanner
@@ -147,6 +142,7 @@ garuda-icons
 noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
+terminus-font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra noto-fonts-extra
 >extra ttf-opensans
@@ -268,7 +264,6 @@ xfce4-dockbarx-plugin
 onboard
 mousetweaks
 ####---->> OTHER APPS
-flameshot
 gnome-keyring
 redshift
 qpdfview
@@ -287,7 +282,7 @@ bleachbit
 >extra smtube
 >extra xfburn
 >extra youtube-dl
->extra olivia
+>extra shortwave
 >extra systemd-ui
 >extra python-xdg
 >extra guiscrcpy
