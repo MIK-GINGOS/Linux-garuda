@@ -207,7 +207,7 @@ plasma5-applets-netspeed
 plasma5-applets-plasma-pstate
 plasma5-applets-eventcalendar
 kwin-scripts-forceblur
-kwin-scripts-window-colors
+#kwin-scripts-window-colors
 kwin-effects-sliding-notifications
 
 kde-servicemenus-rootactions
@@ -215,10 +215,6 @@ kde-servicemenus-pdf
 kde-servicemenus-encfs
 kde-service-menu-reimage
 jhead
-
-
-
-
 
 
 
