@@ -63,6 +63,7 @@ memtest86+
 pacman-contrib
 reflector
 chaotic-mirrorlist
+chaotic-keyring
 
 ## aur support
 >extra yay
