@@ -100,7 +100,7 @@ xdg-user-dirs
 >extra xautolock
 #---------=> utilities
 autorandr
-neofetch-git
+neofetch
 timeshift
 timeshift-autosnap
 >extra vulkan-tools

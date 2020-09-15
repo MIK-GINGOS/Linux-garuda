@@ -101,8 +101,8 @@ autorandr
 neofetch
 timeshift
 timeshift-autosnap
-conky-lua-nv
-conky-manager
+>extra conky-lua-nv
+>extra conky-manager
 >extra libdvdcss
 >extra powertop
 >extra htop
@@ -226,7 +226,7 @@ pepper-flash
 >extra lib32-amdvlk
 
 ####---->> VIRTUALIZATION
->extra garuda-virt-manager
+>extra garuda-virtualbox
 
 ####---->> WINE
 >extra garuda-wine

@@ -102,8 +102,8 @@ xdg-user-dirs
 autorandr
 timeshift
 timeshift-autosnap
-conky-lua-nv
-conky-manager
+>extra conky-lua-nv
+>extra conky-manager
 neofetch
 >extra libdvdcss
 >extra powertop
@@ -166,7 +166,6 @@ accountsservice  # Enhanced user accounts handling
 #### cinnamon
 cinnamon
 cinnamon-sound-effects
-
 
 ####---->> DESKTOP ENVIRONMENT APPS
 #------opt deps for archiver & file manager

@@ -102,8 +102,8 @@ autorandr
 neofetch
 timeshift
 timeshift-autosnap
-conky-lua-nv
-conky-manager
+>extra conky-lua-nv
+>extra conky-manager
 >extra libdvdcss
 >extra powertop
 >extra htop

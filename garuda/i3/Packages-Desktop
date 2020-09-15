@@ -106,8 +106,8 @@ autorandr
 timeshift
 timeshift-autosnap
 neofetch
-conky-lua-nv
-conky-manager
+>extra conky-lua-nv
+>extra conky-manager
 >extra libdvdcss
 >extra powertop
 >extra htop
@@ -198,7 +198,7 @@ i3status
 i3
 
 dunst
-picom
+picom-ibhagwan-git
 nitrogen
 polybar
 tint2

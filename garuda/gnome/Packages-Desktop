@@ -98,7 +98,7 @@ xdg-user-dirs
 
 #---------=> utilities
 autorandr
-neofetch-git
+neofetch
 timeshift
 timeshift-autosnap
 >extra libdvdcss

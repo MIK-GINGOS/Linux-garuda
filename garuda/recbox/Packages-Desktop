@@ -110,8 +110,8 @@ autorandr
 neofetch
 timeshift
 timeshift-autosnap
-conky-lua-nv
-conky-manager
+>extra conky-lua-nv
+>extra conky-manager
 >extra htop
 >extra libdvdcss
 >extra powertop
@@ -209,7 +209,7 @@ obmenu-generator
 openbox
 
 dunst
-picom
+picom-ibhagwan-git
 nitrogen
 polybar
 tint2
@@ -321,9 +321,9 @@ bleachbit
 >extra pitivi
 >extra easytag
 
-#>extra lmms
-#>extra mixxx
-#>extra audacity
+>extra lmms
+>extra mixxx
+>extra audacity
 
 ##------------> Graphics
 >extra gimp
