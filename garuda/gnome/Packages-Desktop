@@ -291,15 +291,20 @@ bleachbit
 >extra libreoffice-fresh
 >extra libmythes
 
+firefox-extension-gnome-shell-integration
+
 ## Internet applications
+thunderbird
+garuda-firefox
 >extra telegram-desktop
 >extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
-garuda-firefox
-firefox-extension-gnome-shell-integration
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-keepassxc-browser
+>extra jitsi-meet
+>extra syncthing-gtk
+
 ####   amd vulkan
 >extra amdvlk
 >extra lib32-amdvlk

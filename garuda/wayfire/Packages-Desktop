@@ -158,7 +158,6 @@ wayfire-desktop-git
 
 ####---->> DESKTOP ENVIRONMENT APPS
 alacritty
-geary
 dconf-editor
 lollypop
 mpv
@@ -230,5 +229,14 @@ shortwave
 >extra libmythes
 
 ## Internet applications
+>extra thunderbird
 garuda-firefox
+>extra telegram-desktop
+>extra signal-desktop
+>extra streamlink-twitch-gui
+>extra discord
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
+>extra jitsi-meet
+>extra syncthing-gtk
 

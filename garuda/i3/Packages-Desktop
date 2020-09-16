@@ -106,8 +106,8 @@ autorandr
 timeshift
 timeshift-autosnap
 neofetch
->extra conky-lua-nv
->extra conky-manager
+conky-lua-nv
+conky-manager
 >extra libdvdcss
 >extra powertop
 >extra htop
@@ -323,4 +323,12 @@ bleachbit
 ## Internet applications
 thunderbird
 garuda-firefox
+>extra telegram-desktop
+>extra signal-desktop
+>extra streamlink-twitch-gui
+>extra discord
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
+>extra jitsi-meet
+>extra syncthing-gtk
 

@@ -220,6 +220,7 @@ pepper-flash
 >extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
+>extra syncthing-gtk
 
 ####   amd vulkan
 >extra amdvlk

@@ -296,14 +296,14 @@ mpv
 >extra libmythes
 
 ## Internet applications
-firefox
-firefox-ublock-origin
-firefox-dark-reader
-firefox-decentraleyes
-firefox-extension-https-everywhere
-firefox-extension-canvasblocker
 >extra thunderbird
+garuda-firefox
 >extra telegram-desktop
+>extra signal-desktop
 >extra streamlink-twitch-gui
-
+>extra discord
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-keepassxc-browser
+>extra jitsi-meet
+>extra syncthing-gtk
 
