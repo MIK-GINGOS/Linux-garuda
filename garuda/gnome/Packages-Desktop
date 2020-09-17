@@ -125,6 +125,7 @@ grub-theme-garuda
 plymouth-theme-garuda
 
 gtk-engine-murrine
+gtk-engines # dep of whitesur-gtk
 qt5ct
 kvantum-qt5
 tela-circle-icon-theme-git
