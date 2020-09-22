@@ -80,6 +80,7 @@ xorg-xinit
 xorg-xinput
 xorg-xrandr
 xorg-xprop
+xorg-xsetroot
 
 ####---->> WAYLAND
 
