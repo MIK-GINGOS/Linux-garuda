@@ -72,7 +72,6 @@ garuda-ibus
 >extra gesture-manager-x-git
 >extra ibus-m17n
 >extra garuda-indic
->extra wacom-utility
 
 ####---->> XORG
 xorg-server

@@ -73,7 +73,6 @@ garuda-fcitx
 fcitx-m17n
 garuda-indic
 >extra plasma-thunderbolt
->extra wacom-utility
 >extra kcm-fcitx
 >extra evdev-right-click-emulation
 >extra libinput_gestures_qt

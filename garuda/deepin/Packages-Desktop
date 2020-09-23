@@ -69,7 +69,6 @@ libinput_gestures_qt
 garuda-fcitx
 >extra fcitx-m17n
 >extra garuda-indic
->extra wacom-utility
 
 ####---->> XORG
 xorg-server

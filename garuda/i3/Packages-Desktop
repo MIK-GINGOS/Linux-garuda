@@ -70,7 +70,6 @@ garuda-input
 garuda-ibus
 >extra ibus-m17n
 >extra garuda-indic
->extra wacom-utility
 >extra evdev-right-click-emulation
 >extra gesture-manager-x-git
 
