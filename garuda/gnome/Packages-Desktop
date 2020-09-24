@@ -291,18 +291,19 @@ bleachbit
 >extra libreoffice-fresh
 >extra libmythes
 
-firefox-extension-gnome-shell-integration
-
 ## Internet applications
 thunderbird
 garuda-firefox
+firefox-extension-gnome-shell-integration
 >extra telegram-desktop
 >extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
+>extra fractal
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-keepassxc-browser
 >extra syncthing-gtk
+>extra nextcloud-client
 
 ####   amd vulkan
 >extra amdvlk
@@ -313,9 +314,6 @@ garuda-firefox
 
 ####---->> WINE
 >extra garuda-wine
-
-
-
 
 ####---->> GAME LAUNCHERS
 
@@ -384,13 +382,13 @@ garuda-firefox
 
 ####---->> GAMES
 
->extra aisleriot
->extra mari0
->extra minetest
->extra minetest-server
->extra teeworlds
->extra gnome-chess
->extra gnome-mahjongg
+#>extra aisleriot
+#>extra mari0
+#>extra minetest
+#>extra minetest-server
+#>extra teeworlds
+#>extra gnome-chess
+#>extra gnome-mahjongg
 #>extra puzzles
 #>extra texlive-games
 #>extra kde-games-meta 
