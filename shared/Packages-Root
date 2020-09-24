@@ -107,6 +107,7 @@ nfs-utils
 
 
 ## extra things
+xclip
 bridge-utils
 usbutils
 inetutils
