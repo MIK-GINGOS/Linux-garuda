@@ -221,6 +221,7 @@ pepper-flash
 >extra streamlink-twitch-gui
 >extra discord
 >extra syncthing-gtk
+>extra joplin
 
 ####   amd vulkan
 >extra amdvlk

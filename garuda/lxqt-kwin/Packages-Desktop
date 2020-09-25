@@ -265,6 +265,7 @@ garuda-firefox
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-bitwarden
 >extra syncthing-gtk
+>extra joplin
 
 ####   amd vulkan
 >extra amdvlk

@@ -304,6 +304,7 @@ firefox-extension-gnome-shell-integration
 >extra syncthing-gtk
 >extra fractal
 >extra nextcloud-client
+>extra joplin
 
 ####   amd vulkan
 >extra amdvlk
