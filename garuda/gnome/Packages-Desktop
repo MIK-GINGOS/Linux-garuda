@@ -296,13 +296,12 @@ thunderbird
 garuda-firefox
 firefox-extension-gnome-shell-integration
 >extra telegram-desktop
->extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
 >extra fractal
 >extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-keepassxc-browser
 >extra syncthing-gtk
+>extra fractal
 >extra nextcloud-client
 
 ####   amd vulkan

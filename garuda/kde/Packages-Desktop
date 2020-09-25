@@ -392,9 +392,9 @@ thunderbird
 garuda-firefox
 >extra firefox-extension-plasma-integration
 >extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-keepassxc-browser
 >extra telegram-desktop
->extra signal-desktop
+>extra fractal
+>extra nextcloud-client
 >extra streamlink-twitch-gui
 >extra discord
 >extra mumble

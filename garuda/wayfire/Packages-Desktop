@@ -232,10 +232,10 @@ shortwave
 >extra thunderbird
 garuda-firefox
 >extra telegram-desktop
->extra signal-desktop
 >extra streamlink-twitch-gui
 >extra discord
 >extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-keepassxc-browser
+>extra fractal
+>extra nextcloud-client
 >extra syncthing-gtk
 

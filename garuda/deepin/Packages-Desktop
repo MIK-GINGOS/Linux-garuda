@@ -216,7 +216,8 @@ opera-ffmpeg-codecs
 pepper-flash
 >extra zoom
 >extra telegram-desktop
->extra signal-desktop
+>extra fractal
+>extra nextcloud-client
 >extra streamlink-twitch-gui
 >extra discord
 >extra syncthing-gtk
