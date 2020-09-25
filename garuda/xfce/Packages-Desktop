@@ -312,6 +312,7 @@ garuda-firefox
 >extra streamlink-twitch-gui
 >extra discord
 >extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-bitwarden
 >extra fractal
 >extra nextcloud-client
 >extra syncthing-gtk

@@ -392,6 +392,7 @@ thunderbird
 garuda-firefox
 >extra firefox-extension-plasma-integration
 >extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-bitwarden
 >extra telegram-desktop
 >extra fractal
 >extra nextcloud-client
