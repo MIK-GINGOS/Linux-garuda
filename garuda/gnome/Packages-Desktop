@@ -192,6 +192,7 @@ mpv
 gedit
 gedit-plugins
 eog
+geary
 >extra eog-plugins
 >extra grilo-plugins
 evince
@@ -292,7 +293,7 @@ bleachbit
 >extra libmythes
 
 ## Internet applications
-thunderbird
+#thunderbird  using geary (lightweight)
 garuda-firefox
 firefox-extension-gnome-shell-integration
 >extra telegram-desktop
