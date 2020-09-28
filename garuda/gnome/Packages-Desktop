@@ -180,8 +180,9 @@ clutter # needed for blyr
 clutter-gtk
 qt5-wayland
 >extra gpaste
->extra gnome-control-center
->basic gnome-control-center-nocheese
+gnome-control-center 
+#>basic gnome-control-center-nocheese # 3.38 update
+plank
 
 ####---->> DESKTOP ENVIRONMENT APPS
 >extra geary
