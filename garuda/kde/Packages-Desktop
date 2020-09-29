@@ -196,18 +196,14 @@ plasma5-applets-latte-spacer
 plasma5-applets-latte-separator
 plasma5-applets-tiledmenu
 plasma5-applets-simplemenu-git
-plasma5-applets-uswitch
 plasma5-applets-latte-sidebar-button
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-presentwindows
-plasma5-applets-audio-device-switcher
 plasma5-applets-netspeed
-plasma5-applets-plasma-pstate
 plasma5-applets-eventcalendar
 kwin-scripts-forceblur
-#kwin-scripts-window-colors
 kwin-effects-sliding-notifications
 
 kde-servicemenus-rootactions
