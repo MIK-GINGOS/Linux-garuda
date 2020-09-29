@@ -49,15 +49,15 @@ garuda-bluetooth
 
 ####---->> PRINTER
 ## samba
->extra garuda-settings-samba
+garuda-settings-samba
 >extra system-config-samba # python2 package
 
 ## printing
->extra garuda-printer
+garuda-printer
 
 ## scanning
->extra garuda-scanner
->extra simple-scan
+garuda-scanner
+simple-scan
 
 
 ####---->> INPUT
@@ -164,7 +164,7 @@ gdm
 ####---->> DESKTOP ENVIRONMENT
 >extra orca
 #-------=>gnome de
-mutter-performance
+mutter # -performance
 gnome-session                                    
 gnome-settings-daemon                                           
 gnome-shell # -performance

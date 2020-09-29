@@ -56,16 +56,16 @@ nx-firewall-git
 
 ####---->> PRINTER
 ## samba
->extra garuda-settings-samba
+garuda-settings-samba
 >extra system-config-samba # python2 package
 
 ## printing
->extra garuda-printer
+garuda-printer
 print-manager
 
 ## scanning
->extra garuda-scanner
->extra skanlite
+garuda-scanner
+skanlite
 
 ####---->> INPUT
 garuda-input

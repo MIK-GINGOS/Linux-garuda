@@ -55,15 +55,15 @@ blueberry
 
 ####---->> PRINTER
 ## samba
->extra garuda-settings-samba
+garuda-settings-samba
 >extra system-config-samba # python2 package
 
 ## printing
->extra garuda-printer
+garuda-printer
 
 ## scanning
->extra garuda-scanner
->extra simple-scan
+garuda-scanner
+simple-scan
 
 
 ####---->> INPUT
@@ -168,7 +168,7 @@ eog
 gedit-plugins
 evince
 file-roller
-nautilus-typeahead
+nautilus # -typeahead
 nautilus-bluetooth
 nautilus-image-converter
 nautilus-sendto
@@ -229,6 +229,7 @@ shortwave
 >extra libmythes
 
 ## Internet applications
+geary
 >extra thunderbird
 garuda-firefox
 >extra telegram-desktop
