@@ -45,7 +45,7 @@ garuda-gstreamer
 garuda-network
 garuda-modem
 garuda-bluetooth
-blueberry
+blueman
 network-manager-applet
 >extra qomui-git
 

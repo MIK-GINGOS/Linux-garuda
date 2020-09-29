@@ -48,7 +48,7 @@ garuda-network
 garuda-modem
 garuda-bluetooth
 network-manager-applet
-blueberry
+blueman
 >extra qomui-git
 
 ####---->> PRINTER
