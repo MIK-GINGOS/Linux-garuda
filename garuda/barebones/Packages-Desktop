@@ -1,0 +1,60 @@
+####---->> XORG
+xorg-server
+xorg-server-xwayland 
+xorg-xinit
+
+xdg-user-dirs
+
+#---------=> utilities
+timeshift
+timeshift-autosnap
+
+
+####---->> THEMING
+## theme package
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+gtk-engine-murrine
+
+garuda-icons
+
+## Fonts
+noto-fonts               # default font
+noto-fonts-emoji
+
+
+####---->> SETTINGS
+garuda-settings-manager
+garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
+garuda-welcome-git
+
+
+####---->> DISPLAY MANAGER
+sddm
+sddm-kcm
+
+
+####---->> DESKTOP ENVIRONMENT
+khotkeys
+kscreen
+plasma-desktop
+plasma-nm
+plasma-pa
+kwallet-pam
+powerdevil
+appmenu-gtk-module
+kde-gtk-config
+
+####---->> DESKTOP ENVIRONMENT APPS
+## kde apps
+dolphin
+konsole
+
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
