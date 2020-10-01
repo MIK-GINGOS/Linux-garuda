@@ -1,0 +1,50 @@
+####---->> XORG
+xorg-server
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+
+xdg-user-dirs
+
+#---------=> utilities
+timeshift
+timeshift-autosnap
+
+####---->> THEMING
+## theme package
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+garuda-icons
+
+## Fonts
+noto-fonts               # default font
+noto-fonts-emoji
+
+####---->> SETTINGS
+garuda-settings-manager
+garuda-settings-manager-knotifier
+garuda-welcome-git
+
+####---->> DISPLAY MANAGER
+gdm
+
+####---->> DESKTOP ENVIRONMENT
+mutter # -performance
+gnome-session                                    
+gnome-settings-daemon                                           
+gnome-shell # -performance
+gnome-desktop                                                             
+gnome-terminal # -transparency
+gnome-control-center # -no-cheese
+
+####---->> DESKTOP ENVIRONMENT APPS
+nautilus # typeahead after 3.38
+
+###-------archive formats
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
