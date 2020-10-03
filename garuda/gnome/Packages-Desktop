@@ -1,7 +1,7 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
 >basic pamac-aur
-#>basic pamac-tray-appindicator # we use Arch Update indicator
+>basic pamac-tray-appindicator
 >extra pamac-all
 >extra bauh
 
