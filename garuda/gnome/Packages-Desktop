@@ -181,11 +181,10 @@ clutter-gtk
 qt5-wayland
 >extra gpaste
 gnome-control-center 
-#>basic gnome-control-center-nocheese # 3.38 update
-plank
+>basic gnome-control-center-nocheese
+>extra gnome-control-center
 
 ####---->> DESKTOP ENVIRONMENT APPS
->extra geary
 >extra dconf-editor
 >extra olivia
 >extra celluloid
