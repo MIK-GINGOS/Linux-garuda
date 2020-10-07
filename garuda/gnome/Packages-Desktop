@@ -351,12 +351,12 @@ firefox-extension-gnome-shell-integration
 
 
 #>extra ntfix-git
-#>extra q4wine
-#>extra fuseiso
-
 #>extra openh264
-#>extra dxvk-mingw-git
-#>extra proton-tkg-git
+
+>extra q4wine
+>extra fuseiso
+>extra dxvk-mingw-git
+>extra proton-tkg-git
 
 
 ####---->> GAME CONTROLLER
@@ -384,13 +384,13 @@ firefox-extension-gnome-shell-integration
 
 ####---->> GAMES
 
-#>extra aisleriot
-#>extra mari0
-#>extra minetest
-#>extra minetest-server
-#>extra teeworlds
-#>extra gnome-chess
-#>extra gnome-mahjongg
+>extra aisleriot
+>extra mari0
+>extra minetest
+>extra minetest-server
+>extra teeworlds
+>extra gnome-chess
+>extra gnome-mahjongg
 #>extra puzzles
 #>extra texlive-games
 #>extra kde-games-meta 

@@ -314,12 +314,12 @@ garuda-firefox
 
 
 #>extra ntfix-git
-#>extra q4wine
-#>extra fuseiso
-
 #>extra openh264
-#>extra dxvk-mingw-git
-#>extra proton-tkg-git
+
+>extra q4wine
+>extra fuseiso
+>extra dxvk-mingw-git
+>extra proton-tkg-git
 
 
 ####---->> GAME CONTROLLER
