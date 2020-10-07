@@ -16,8 +16,8 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 gtk-engine-murrine
-
 garuda-icons
+garuda-common-settings
 
 ## Fonts
 noto-fonts               # default font
