@@ -184,7 +184,7 @@ zip
 >extra poppler-data
 >extra poppler-glib
 
-## deepin extra
+## ukui extra
 onboard
 mousetweaks
 >extra orca
