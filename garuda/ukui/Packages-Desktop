@@ -65,8 +65,8 @@ simple-scan
 garuda-input
 >extra evdev-right-click-emulation
 >extra gesture-manager-x-git
-garuda-ibus
->extra ibus-m17n
+garuda-fcitx
+>extra fcitx-m17n
 >extra garuda-indic
 
 ####---->> XORG
@@ -192,26 +192,30 @@ gnome-keyring
 redshift
 
 ####---->> OTHER APPS
-speedcrunch
-qbittorrent
+mate-calc
 mpv
-phototonic
-spectacle
-ark
-notepadqq
+eom
+mate-utils
+mate-terminal
+engrampa
+pluma
 imagewriter
 audacious
 audacious-plugins
-qpdfview
-simplescreenrecorder
+atril
+warpinator
+webapp-manager-git
+peek
 partitionmanager
 stacer
 freedownloadmanager
 shortwave
+ciano
+cheese
 ##------------> office
->extra wps-office
->extra wps-office-fonts
->extra wps-office-mime
+wps-office
+wps-office-fonts
+wps-office-mime
 >extra libmythes
 
 ## Internet applications

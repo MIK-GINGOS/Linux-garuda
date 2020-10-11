@@ -234,7 +234,7 @@ deepin-screen-recorder
 deepin-screensaver-pp
 deepin-terminal 
 deepin-voice-note
-
+ciano
 >extra proxychains-ng
 >extra zssh
 onboard
@@ -248,10 +248,12 @@ partitionmanager
 stacer
 freedownloadmanager
 shortwave
+warpinator
+webapp-manager-git
 ##------------> office
->extra wps-office
->extra wps-office-fonts
->extra wps-office-mime
+wps-office
+wps-office-fonts
+wps-office-mime
 >extra libmythes
 
 ## Internet applications
