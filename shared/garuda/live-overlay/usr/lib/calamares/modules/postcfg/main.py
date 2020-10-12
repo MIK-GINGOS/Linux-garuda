@@ -118,17 +118,27 @@ class ConfigController:
         if exists(join(self.root, "usr/bin/grub-set-bootflag")):
             target_env_call(["grub-editenv", "-", "set", "menu_auto_hide=1", "boot_success=1"])
 
+        #install systemd-guest-user
+        cmd = ["pacman", "-S", "systemd-guest-user", "--noconfirm", "--config", "/opt/mhwd/pacman-mhwd.conf" ]
+            self.mkdir("opt/mhwd")
+            self.mount("opt/mhwd")
+            self.mount("etc/resolv.conf")
+            target_env_call(cmd)
+            self.umount("opt/mhwd")
+            self.rmdir("opt/mhwd")
+            self.umount("etc/resolv.conf")
+
         # Install Office Suite if selected (WIP)
         office_package = libcalamares.globalstorage.value("packagechooser_packagechooser")
         if not office_package:
             libcalamares.utils.warning("no office suite selected, {!s}".format(office_package))
         else:
             # For PoC we added the Office Packages to mhwd-live overlay in 18.1.0
-            cmd = ["pacman", "-S", office_package, "--noconfirm", "--config", "/opt/mhwd/pacman-mhwd.conf" ]
+            cmd1 = ["pacman", "-S", office_package, "--noconfirm", "--config", "/opt/mhwd/pacman-mhwd.conf" ]
             self.mkdir("opt/mhwd")
             self.mount("opt/mhwd")
             self.mount("etc/resolv.conf")
-            target_env_call(cmd)
+            target_env_call(cmd1)
             self.umount("opt/mhwd")
             self.rmdir("opt/mhwd")
             self.umount("etc/resolv.conf")
