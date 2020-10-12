@@ -27,9 +27,9 @@
 >extra packagekit
 
 ####---->> AUDIO
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
+garuda-alsa
+garuda-pulse
+garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
@@ -109,9 +109,9 @@ autorandr
 neofetch
 timeshift
 timeshift-autosnap
->extra conky-lua-nv
->extra conky-manager
->extra htop
+conky-lua-nv
+conky-manager
+htop
 >extra libdvdcss
 >extra powertop
 >extra libva-utils
@@ -141,7 +141,6 @@ flat-remix
 matcha-gtk-theme-git
 kvantum-theme-matcha
 capitaine-cursors
-wish-wallpapers
 garuda-wallpapers
 garuda-icons
 
@@ -176,7 +175,6 @@ mousetweaks
 
 
 ####---->> DESKTOP ENVIRONMENT
-clipman
 polkit-gnome
 gnome-keyring
 
@@ -186,7 +184,7 @@ thunar-volman
 tumbler
 xfce4-power-manager
 
->extra xfce4-settings
+xfce4-settings
 
 ## xfce extra
 thunar-archive-plugin
@@ -219,15 +217,6 @@ skippy-xd
 flashfocus
 archlinux-xdg-menu
 menumaker
-alacritty
-
-
-lxappearance-gtk3
-lxrandr
-lxinput-gtk3
-
-
-wlogout
 zenity
 
 
@@ -301,7 +290,7 @@ deluge-gtk
 peek
 mintstick
 bleachbit
-
+kid3
 >extra smplayer
 >extra smplayer-skins
 >extra smplayer-themes
@@ -325,13 +314,13 @@ bleachbit
 >extra audacity
 
 ##------------> Graphics
->extra gimp
+gimp
 >extra inkscape
 >extra blender
 >extra gcolor3
 
 ##------------> office
->extra libreoffice-fresh
+libreoffice-fresh
 >extra libmythes
 
 ## Internet applications
@@ -382,6 +371,7 @@ dssi
 eq10q
 eteroj.lv2
 fabla
+libffado
 fil-plugins
 fluidsynth
 fomp.lv2
