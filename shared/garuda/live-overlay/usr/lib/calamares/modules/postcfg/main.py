@@ -120,13 +120,13 @@ class ConfigController:
 
         #install systemd-guest-user
         cmd = ["pacman", "-S", "systemd-guest-user", "--noconfirm", "--config", "/opt/mhwd/pacman-mhwd.conf" ]
-            self.mkdir("opt/mhwd")
-            self.mount("opt/mhwd")
-            self.mount("etc/resolv.conf")
-            target_env_call(cmd)
-            self.umount("opt/mhwd")
-            self.rmdir("opt/mhwd")
-            self.umount("etc/resolv.conf")
+        self.mkdir("opt/mhwd")
+        self.mount("opt/mhwd")
+        self.mount("etc/resolv.conf")
+        target_env_call(cmd)
+        self.umount("opt/mhwd")
+        self.rmdir("opt/mhwd")
+        self.umount("etc/resolv.conf")
 
         # Install Office Suite if selected (WIP)
         office_package = libcalamares.globalstorage.value("packagechooser_packagechooser")
