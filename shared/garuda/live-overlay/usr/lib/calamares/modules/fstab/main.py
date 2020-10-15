@@ -206,6 +206,20 @@ class FstabGenerator(object):
                             dct = self.generate_fstab_line_info(home_entry)
                             if dct:
                                 self.print_fstab_line(dct, file=fstab_file)
+                        elif line.endswith(b'path @root'):
+                            rootuser_entry = partition
+                            rootuser_entry["mountPoint"] = "/root"
+                            rootuser_entry["subvol"] = "@root"
+                            dct = self.generate_fstab_line_info(rootuser_entry)
+                            if dct:
+                                self.print_fstab_line(dct, file=fstab_file)
+                        elif line.endswith(b'path @srv'):
+                            srv_entry = partition
+                            srv_entry["mountPoint"] = "/srv"
+                            srv_entry["subvol"] = "@srv"
+                            dct = self.generate_fstab_line_info(srv_entry)
+                            if dct:
+                                self.print_fstab_line(dct, file=fstab_file)
                         elif line.endswith(b'path @cache'):
                             cache_entry = partition
                             cache_entry["mountPoint"] = "/var/cache"
@@ -220,6 +234,13 @@ class FstabGenerator(object):
                             dct = self.generate_fstab_line_info(log_entry)
                             if dct:
                                 self.print_fstab_line(dct, file=fstab_file) 
+                        elif line.endswith(b'path @tmp'):
+                            tmp_entry = partition
+                            tmp_entry["mountPoint"] = "/var/tmp"
+                            tmp_entry["subvol"] = "@tmp"
+                            dct = self.generate_fstab_line_info(tmp_entry)
+                            if dct:
+                                self.print_fstab_line(dct, file=fstab_file)
 
                 else:
                     dct = self.generate_fstab_line_info(partition)
