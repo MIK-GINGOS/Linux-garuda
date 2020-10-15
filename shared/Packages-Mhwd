@@ -27,7 +27,6 @@ rtlwifi_new-dkms
 
 ## Opencl
 
-beignet
 intel-compute-runtime
 opencl-mesa
 >multilib lib32-opencl-mesa
