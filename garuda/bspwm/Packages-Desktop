@@ -28,11 +28,11 @@ libldac
 pavucontrol
 pasystray
 pulseaudio-modules-bt-git
+pulseaudio-equalizer-ladspa
+paprefs
 >extra garuda-alsa
 >extra garuda-pulse
 >extra garuda-pipewire
->extra pulseaudio-equalizer-ladspa
->extra paprefs
 >extra pulseaudio-ctl
 >extra playerctl
 
@@ -65,11 +65,11 @@ simple-scan
 
 ####---->> INPUT
 garuda-input
-garuda-ibus
 >extra evdev-right-click-emulation
 >extra gesture-manager-x-git
+>extra garuda-ibus
 >extra ibus-m17n
->extra garuda-indic
+
 
 ####---->> XORG
 xorg-server
@@ -146,9 +146,12 @@ noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
 terminus-font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+
 >extra noto-fonts-extra
 >extra ttf-opensans
+>extra ttf-indic-otf
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra garuda-asian
 
 
 ####---->> SETTINGS
@@ -241,6 +244,7 @@ onboard
 >extra mugshot
 >extra xfburn
 >extra orca
+>extra festival
 #>extra xfce4-whiskermenu-plugin
 #>extra xfce4-cpufreq-plugin
 #>extra xfce4-cpugraph-plugin

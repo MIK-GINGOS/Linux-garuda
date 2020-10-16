@@ -69,11 +69,9 @@ skanlite
 
 ####---->> INPUT
 garuda-input
-garuda-fcitx
-fcitx-m17n
-garuda-indic
+>extra garuda-fcitx
+>extra fcitx-m17n
 >extra plasma-thunderbolt
->extra kcm-fcitx
 >extra evdev-right-click-emulation
 >extra libinput_gestures_qt
 
@@ -146,9 +144,12 @@ noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
 terminus-font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+
 >extra noto-fonts-extra
 >extra ttf-opensans
+>extra ttf-indic-otf
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra garuda-asian
 
 
 ####---->> SETTINGS

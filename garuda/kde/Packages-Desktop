@@ -67,9 +67,8 @@ skanlite
 garuda-input
 >extra evdev-right-click-emulation
 libinput_gestures_qt
-garuda-fcitx
-fcitx-m17n
-garuda-indic
+>extra garuda-fcitx
+>extra fcitx-m17n
 
 ####---->> XORG
 xorg-server
@@ -143,9 +142,12 @@ noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
 terminus-font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+
 >extra noto-fonts-extra
 >extra ttf-opensans
+>extra ttf-indic-otf
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra garuda-asian
 
 
 ####---->> SETTINGS
@@ -219,7 +221,6 @@ colord-kde
 kdenetwork-filesharing
 kcm-wacomtablet 
 samba-mounter-git
-kcm-fcitx
 >extra fancontrol-kcm-git
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -280,6 +281,7 @@ olivia
 >extra argyllcms
 >extra colord-sane
 >extra orca
+>extra festival
 >extra flite
 >extra kile
 

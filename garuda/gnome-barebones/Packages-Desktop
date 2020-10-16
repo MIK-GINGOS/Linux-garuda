@@ -41,6 +41,7 @@ gnome-control-center # -no-cheese
 
 ####---->> DESKTOP ENVIRONMENT APPS
 nautilus # typeahead after 3.38
+file-roller
 
 ###-------archive formats
 p7zip

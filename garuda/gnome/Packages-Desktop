@@ -61,10 +61,9 @@ simple-scan
 
 
 ####---->> INPUT
-garuda-ibus
+>extra garuda-ibus
 garuda-input
 >extra ibus-m17n
->extra garuda-indic
 >extra evdev-right-click-emulation
 >extra gesture-manager-x-git
 
@@ -144,9 +143,12 @@ noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
 terminus-font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+
 >extra noto-fonts-extra
 >extra ttf-opensans
+>extra ttf-indic-otf
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra garuda-asian
 
 ####---->> SETTINGS
 garuda-settings-manager
@@ -164,6 +166,7 @@ gdm
 
 ####---->> DESKTOP ENVIRONMENT
 >extra orca
+>extra festival
 #-------=>gnome de
 mutter # -performance
 gnome-session                                    

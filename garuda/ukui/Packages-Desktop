@@ -67,7 +67,6 @@ garuda-input
 >extra gesture-manager-x-git
 garuda-fcitx
 >extra fcitx-m17n
->extra garuda-indic
 
 ####---->> XORG
 xorg-server
@@ -129,9 +128,12 @@ noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
 terminus-font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+
 >extra noto-fonts-extra
 >extra ttf-opensans
+>extra ttf-indic-otf
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+garuda-asian
 
 ####---->> SETTINGS
 garuda-settings-manager
@@ -188,6 +190,7 @@ zip
 onboard
 mousetweaks
 >extra orca
+>extra festival
 gnome-keyring
 
 ####---->> OTHER APPS

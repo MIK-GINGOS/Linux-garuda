@@ -51,6 +51,7 @@ kde-gtk-config
 ## kde apps
 dolphin
 konsole
+ark
 
 p7zip
 unarchiver

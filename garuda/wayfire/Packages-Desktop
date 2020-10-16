@@ -70,8 +70,6 @@ simple-scan
 garuda-input
 evdev-right-click-emulation
 gesture-manager-x-git
->extra garuda-ibus
->extra garuda-indic
 
 ####---->> XORG
 xorg-server-xwayland 
@@ -130,9 +128,12 @@ noto-fonts               # default font
 noto-fonts-emoji
 ttf-liberation
 terminus-font
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+
 >extra noto-fonts-extra
 >extra ttf-opensans
+>extra ttf-indic-otf
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+>extra garuda-asian
 
 
 ####---->> SETTINGS
