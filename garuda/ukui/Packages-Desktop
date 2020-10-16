@@ -3,25 +3,23 @@
 ###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
->basic pamac-aur
->basic pamac-tray-appindicator
->extra pamac-all
+pamac-all
 
 ## APPIMAGE Support
->extra appimagelauncher
->extra libappimage
+appimagelauncher
+libappimage
 
 ## FIRMWARE UPDATES
->extra gnome-firmware
->extra fwupd
+gnome-firmware
+fwupd
 
 ## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
+apparmor
+snapd
+snapd-glib
 
 ## Flatpak support
->extra flatpak
+flatpak
 
 ## PACKAGEKIT SUPPORT
 >extra packagekit
