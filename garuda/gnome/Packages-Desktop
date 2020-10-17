@@ -168,17 +168,17 @@ gdm
 >extra orca
 >extra festival
 #-------=>gnome de
-mutter # -performance
+mutter-performance
 gnome-session                                    
 gnome-settings-daemon                                           
-gnome-shell # -performance
+gnome-shell-performance
 chrome-gnome-shell 
 gnome-tweaks 
 gnome-shell-extensions
 gnome-desktop  
 gnome-keyring 
 gnome-system-monitor                                                                          
-gnome-terminal # -transparency
+gnome-terminal-transparency
 gnome-menus
 clutter # needed for blyr
 clutter-gtk
@@ -201,7 +201,7 @@ geary
 >extra grilo-plugins
 evince
 file-roller
-nautilus # typeahead after 3.38
+nautilus-typeahead
 nautilus-bluetooth
 nautilus-image-converter
 nautilus-sendto
