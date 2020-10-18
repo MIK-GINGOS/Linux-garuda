@@ -29,7 +29,7 @@ garuda-settings-manager
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-welcome-git
-
+garuda-common-settings
 
 ####---->> DISPLAY MANAGER
 sddm
