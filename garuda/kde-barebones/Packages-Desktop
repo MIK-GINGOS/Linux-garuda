@@ -42,6 +42,7 @@ kscreen
 plasma-desktop
 plasma-nm
 plasma-pa
+kwin-lowlatency
 kwallet-pam
 powerdevil
 appmenu-gtk-module

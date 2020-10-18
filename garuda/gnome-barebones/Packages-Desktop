@@ -31,16 +31,16 @@ garuda-welcome-git
 gdm
 
 ####---->> DESKTOP ENVIRONMENT
-mutter # -performance
+mutter-performance
 gnome-session                                    
 gnome-settings-daemon                                           
-gnome-shell # -performance
+gnome-shell-performance
 gnome-desktop                                                             
-gnome-terminal # -transparency
-gnome-control-center # -no-cheese
+gnome-terminal-transparency
+gnome-control-center-no-cheese
 
 ####---->> DESKTOP ENVIRONMENT APPS
-nautilus # typeahead after 3.38
+nautilus-typeahead
 file-roller
 
 ###-------archive formats
