@@ -195,9 +195,9 @@ thunar-archive-plugin
 thunar-media-tags-plugin
 
 xarchiver
-mousepad
-ristretto
-pragha
+xed
+viewnior
+deadbeef
 
 termite
 termite-terminfo
@@ -295,9 +295,9 @@ peek
 mintstick
 bleachbit
 kid3
->extra smplayer
->extra smplayer-skins
->extra smplayer-themes
+smplayer
+smplayer-skins
+smplayer-themes
 >extra smtube
 >extra xfburn
 >extra youtube-dl
@@ -319,7 +319,7 @@ kid3
 
 ##------------> Graphics
 gimp
->extra inkscape
+inkscape
 >extra blender
 >extra gcolor3
 
