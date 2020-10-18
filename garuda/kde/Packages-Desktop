@@ -186,7 +186,7 @@ plasma-disks
 kwayland-integration
 kwallet-pam
 kgamma5
-user-manager
+usermanager
 breeze-gtk
 powerdevil
 qt5-tools
