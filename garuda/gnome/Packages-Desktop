@@ -300,7 +300,7 @@ bleachbit
 #thunderbird  using geary (lightweight)
 garuda-firefox
 firefox-extension-gnome-shell-integration
->extra telegram-desktop
+telegram-desktop
 >extra streamlink-twitch-gui
 >extra discord
 >extra fractal

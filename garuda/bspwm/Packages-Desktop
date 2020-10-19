@@ -303,7 +303,7 @@ mpv
 ## Internet applications
 >extra thunderbird
 garuda-firefox
->extra telegram-desktop
+telegram-desktop
 >extra fractal
 >extra nextcloud-client
 >extra streamlink-twitch-gui
