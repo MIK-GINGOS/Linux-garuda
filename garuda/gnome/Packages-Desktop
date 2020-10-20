@@ -158,10 +158,11 @@ garuda-welcome-git
 garuda-network-assistant-git
 
 
-
 ####---->> DISPLAY MANAGER
 lightdm
-
+lightdm-slick-greeter
+lightdm-settings
+gnome-screensaver
 
 
 ####---->> DESKTOP ENVIRONMENT
