@@ -234,7 +234,7 @@ gwenview
 svgpart
 konsole
 yakuake
-lokalize
+kwalletmanager
 kolourpaint
 kcolorchooser
 kcalc
@@ -260,7 +260,7 @@ olivia
 >extra ksystemlog
 >extra kup
 >extra khelpcenter
->extra kwalletmanager
+>extra lokalize
 >extra krename
 >extra kompare
 >extra kleopatra
