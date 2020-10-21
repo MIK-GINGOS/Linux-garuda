@@ -97,7 +97,7 @@ def modify_grub_default(partitions, root_mount_point, distributor):
             break
 
     if have_plymouth:
-        use_splash = "splash rd.udev.log_priority=3 vt.global_cursor_default=0"
+        use_splash = "splash rd.udev.log_priority=3 vt.global_cursor_default=0 systemd.unified_cgroup_hierarchy=1"
 
     cryptdevice_params = []
 
