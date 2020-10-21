@@ -28,7 +28,7 @@ garuda-settings-manager-knotifier
 garuda-welcome-git
 
 ####---->> DISPLAY MANAGER
-gdm
+lightdm
 
 ####---->> DESKTOP ENVIRONMENT
 mutter-performance

@@ -162,7 +162,7 @@ garuda-network-assistant-git
 lightdm
 lightdm-slick-greeter
 lightdm-settings
-gnome-screensaver
+i3lock
 
 
 ####---->> DESKTOP ENVIRONMENT
@@ -192,8 +192,7 @@ gnome-control-center
 ####---->> DESKTOP ENVIRONMENT APPS
 >extra dconf-editor
 >extra olivia
->extra celluloid
-mpv
+vlc
 gedit
 gedit-plugins
 eog
