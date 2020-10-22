@@ -37,7 +37,7 @@ gnome-settings-daemon
 gnome-shell-performance
 gnome-desktop                                                             
 gnome-terminal-transparency
-gnome-control-center-no-cheese
+gnome-control-center-nocheese
 
 ####---->> DESKTOP ENVIRONMENT APPS
 nautilus-typeahead

@@ -184,7 +184,6 @@ clutter # needed for blyr
 clutter-gtk
 qt5-wayland
 >extra gpaste
-gnome-control-center 
 >basic gnome-control-center-nocheese
 >extra gnome-control-center
 
