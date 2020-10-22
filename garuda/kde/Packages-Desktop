@@ -88,8 +88,8 @@ xorg-xprop
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-kde
+xdg-desktop-portal
+xdg-desktop-portal-kde
 >extra wmctrl
 >extra numlockx
 >extra xbindkeys
@@ -389,7 +389,7 @@ youtube-dl
 ## Internet applications
 thunderbird
 garuda-firefox
->extra firefox-extension-plasma-integration
+firefox-extension-plasma-integration
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-bitwarden
 telegram-desktop

@@ -83,8 +83,8 @@ xorg-xprop
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-kde
+xdg-desktop-portal
+xdg-desktop-portal-kde
 >extra wmctrl
 >extra numlockx
 >extra xbindkeys
@@ -208,7 +208,7 @@ webapp-manager-git
 peek
 partitionmanager
 stacer
-freedownloadmanager
+qbittorrent
 shortwave
 ciano
 cheese
@@ -221,10 +221,11 @@ wps-office-mime
 ## Internet applications
 thunderbird
 garuda-firefox
+firefox-extension-xdm-browser-monitor
 >extra zoom
 telegram-desktop
 >extra fractal
->extra nextcloud-client
+nextcloud-client
 >extra streamlink-twitch-gui
 >extra discord
 >extra syncthing-gtk
