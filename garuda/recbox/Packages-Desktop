@@ -301,7 +301,7 @@ smplayer-themes
 >extra smtube
 >extra xfburn
 >extra youtube-dl
->extra shortwave
+# >extra shortwave not in the repo
 >extra systemd-ui
 >extra python-xdg
 >extra guiscrcpy

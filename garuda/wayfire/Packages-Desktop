@@ -224,7 +224,8 @@ deluge-gtk
 popsicle-git
 catfish
 meld
-shortwave
+#shortwave not in the repo
+
 ##------------> office
 >extra libreoffice-fresh
 >extra libmythes
