@@ -270,7 +270,7 @@ bleachbit
 >extra spotify-adblock-git
 >extra variety
 >extra remmina
->extra shortwave
+# >extra shortwave doesnt exist
 >extra systemd-ui
 >extra catfish
 >extra meld

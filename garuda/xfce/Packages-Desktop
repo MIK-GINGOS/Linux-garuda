@@ -284,7 +284,7 @@ bleachbit
 >extra smtube
 >extra xfburn
 >extra youtube-dl
->extra shortwave
+# >extra shortwave doesnt exist
 >extra systemd-ui
 >extra python-xdg
 >extra guiscrcpy

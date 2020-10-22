@@ -249,7 +249,7 @@ peek
 >extra baobab
 >extra brasero
 >extra systemd-ui
->extra shortwave
+# >extra shortwave doesnt exist
 >extra youtube-dl
 >extra guvcview
 >extra python-xdg
