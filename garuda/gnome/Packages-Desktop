@@ -158,20 +158,17 @@ garuda-network-assistant-git
 
 
 ####---->> DISPLAY MANAGER
-lightdm
-lightdm-slick-greeter
-lightdm-settings
-i3lock
+gdm
 
 
 ####---->> DESKTOP ENVIRONMENT
 >extra orca
 >extra festival
 #-------=>gnome de
-mutter-performance
+mutter
 gnome-session                                    
 gnome-settings-daemon                                           
-gnome-shell-performance
+gnome-shell
 chrome-gnome-shell 
 gnome-tweaks 
 gnome-shell-extensions
@@ -183,9 +180,8 @@ gnome-menus
 clutter # needed for blyr
 clutter-gtk
 qt5-wayland
+gnome-control-center
 >extra gpaste
->basic gnome-control-center-nocheese
->extra gnome-control-center
 
 ####---->> DESKTOP ENVIRONMENT APPS
 >extra dconf-editor

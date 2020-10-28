@@ -31,12 +31,12 @@ garuda-welcome-git
 lightdm
 
 ####---->> DESKTOP ENVIRONMENT
-mutter-performance
+mutter
 gnome-session                                    
 gnome-settings-daemon                                           
-gnome-shell-performance
+gnome-shell
 gnome-desktop                                                             
-gnome-terminal-transparency
+gnome-terminal
 gnome-control-center-nocheese
 
 ####---->> DESKTOP ENVIRONMENT APPS
