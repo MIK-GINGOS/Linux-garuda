@@ -158,7 +158,7 @@ garuda-network-assistant-git
 
 
 ####---->> DISPLAY MANAGER
-gdm
+gdm-plymouth
 
 
 ####---->> DESKTOP ENVIRONMENT
