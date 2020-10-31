@@ -9,6 +9,7 @@ xdg-user-dirs
 #---------=> utilities
 timeshift
 timeshift-autosnap
+networkmanager
 
 ####---->> THEMING
 ## theme package
