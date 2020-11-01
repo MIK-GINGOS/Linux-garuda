@@ -15,11 +15,6 @@
 >extra gnome-firmware
 >extra fwupd
 
-## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
-
 ## Flatpak support
 >extra flatpak
 
@@ -37,7 +32,6 @@ paprefs
 >extra garuda-pipewire
 >extra pulseaudio-ctl
 >extra playerctl
-
 
 ####---->> VIDEO
 garuda-vaapi
@@ -63,7 +57,6 @@ garuda-printer
 garuda-scanner
 simple-scan
 
-
 ####---->> INPUT
 garuda-input
 >extra garuda-ibus
@@ -82,7 +75,6 @@ xorg-xprop
 
 ####---->> WAYLAND
 >extra xorg-server-xwayland 
-
 
 ####---->> UTILITIES
 ## Desktop Utils
@@ -115,7 +107,6 @@ timeshift-autosnap
 #---------=> android 
 android-tools
 android-udev
->extra busybox
 
 ####---->> THEMING
 ## theme package
@@ -149,7 +140,6 @@ terminus-font
 >extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra garuda-asian
 
-
 ####---->> SETTINGS
 garuda-settings-manager
 garuda-settings-manager-knotifier
@@ -157,14 +147,11 @@ garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
 
-
-
 ####---->> DISPLAY MANAGER
 lightdm
 lightdm-slick-greeter
 lightdm-settings
 accountsservice  # Enhanced user accounts handling
-
 
 ####---->> DESKTOP ENVIRONMENT
 #### xfce
@@ -225,7 +212,6 @@ mousepad
 orage
 ristretto
 pragha
-#parole
 thunar-archive-plugin
 thunar-media-tags-plugin
 xfce4-battery-plugin
@@ -271,20 +257,14 @@ redshift
 qpdfview
 galculator
 gparted
-deluge-gtk
-mpv
+transmission-gtk
 catfish
 meld
 peek
 mintstick
 bleachbit
->extra smplayer
->extra smplayer-skins
->extra smplayer-themes
->extra smtube
 >extra xfburn
 >extra youtube-dl
-# >extra shortwave doesnt exist
 >extra systemd-ui
 >extra python-xdg
 >extra guiscrcpy
@@ -307,7 +287,6 @@ bleachbit
 >extra libreoffice-fresh
 >extra libmythes
 
-
 ## Internet applications
 thunderbird
 garuda-firefox
@@ -326,55 +305,8 @@ telegram-desktop
 >extra lib32-amdvlk
 
 ####---->> VIRTUALIZATION
->extra garuda-virt-manager
 
 ####---->> WINE
->extra garuda-wine
-
-
-
-
-####---->> GAME LAUNCHERS
-
->extra steam
->extra steam-native-runtime
->extra lutris
->extra gamehub
->extra itch
->extra minigalaxy
->extra legendary
->extra ialauncher-git
-#>extra gamerworld
-#>extra athenaeum-git
-#>extra python-numpy
-#>extra moonlight-qt
-#>extra pegasus-frontend-git
-#>extra steam-tweaks
-#>extra linux-steam-integration
-
-####---->> GAMING TOOLS
->extra openrgb-git
->extra piper
->extra fancontrol-gui-git
->extra corectrl
->extra gwe
-
->extra goverlay-git
->extra mangohud
->extra lib32-mangohud
->extra gamemode
->extra lib32-gamemode
->extra vkbasalt
-
-
-#>extra ntfix-git
-#>extra openh264
-
->extra q4wine
->extra fuseiso
->extra dxvk-mingw-git
->extra proton-tkg-git
-
 
 ####---->> GAME CONTROLLER
 >extra antimicrox
@@ -387,33 +319,3 @@ telegram-desktop
 >extra game-devices-udev
 >extra retroarch-autoconfig-udev-git
 
-####---->> EMULATORS
->extra libretro
-#>extra emulationstation
-#>extra ppsspp
-#>extra pcsxr
-#>extra pcsx2-git
-#>extra rpcs3-git
-#>extra yuzu-mainline-git
-#>extra scummvm-tools
-#>extra scummvm
-#>extra dosbox
-
-####---->> GAMES
-
->extra aisleriot
->extra mari0
->extra minetest
->extra minetest-server
->extra teeworlds
->extra gnome-chess
->extra gnome-mahjongg
-#>extra puzzles
-#>extra texlive-games
-#>extra kde-games-meta 
-#>extra gnuchess 
-#megaglest
-#xonotic
-#supertuxkart
-#enemy-territory
-#enemy-trritory-data
