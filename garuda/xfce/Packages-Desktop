@@ -7,19 +7,9 @@
 >basic pamac-tray-appindicator
 >extra pamac-all
 
-## APPIMAGE Support
->extra appimagelauncher
->extra libappimage
-
 ## FIRMWARE UPDATES
 >extra gnome-firmware
 >extra fwupd
-
-## Flatpak support
->extra flatpak
-
-## PACKAGEKIT SUPPORT
->extra packagekit
 
 ####---->> AUDIO
 pulseaudio-modules-bt-git
