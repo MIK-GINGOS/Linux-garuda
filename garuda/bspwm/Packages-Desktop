@@ -1,41 +1,25 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
->basic pamac-aur
->basic pamac-tray-appindicator
->extra pamac-all
-
-## APPIMAGE Support
->extra appimagelauncher
->extra libappimage
+pamac-aur
+pamac-tray-appindicator
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
 >extra fwupd
 
-## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
-
-## Flatpak support
->extra flatpak
-
-## PACKAGEKIT SUPPORT
->extra packagekit
 
 ####---->> AUDIO
-libldac
+garuda-alsa
+garuda-pulse
+garuda-pipewire
 pavucontrol
-pasystray
-pulseaudio-modules-bt-git
 pulseaudio-equalizer-ladspa
 paprefs
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
->extra pulseaudio-ctl
->extra playerctl
-
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+playerctl
+pasystray
 
 ####---->> VIDEO
 garuda-vaapi
@@ -47,13 +31,11 @@ garuda-modem
 garuda-bluetooth
 blueman
 network-manager-applet
->extra qomui-git
-
+qomui-git
 
 ####---->> PRINTER
 ## samba
 garuda-settings-samba
->extra system-config-samba # python2 package
 
 ## printing
 garuda-printer
@@ -65,10 +47,7 @@ simple-scan
 
 ####---->> INPUT
 garuda-input
->extra evdev-right-click-emulation
->extra gesture-manager-x-git
->extra garuda-ibus
->extra ibus-m17n
+gesture-manager-x-git
 
 
 ####---->> XORG
@@ -87,37 +66,19 @@ xorg-xsetroot
 
 ####---->> UTILITIES
 ## Desktop Utils
+autorandr
+timeshift
+timeshift-autosnap
+libdvdcss
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-gtk
->extra wmctrl
->extra numlockx
->extra xbindkeys
->extra xcape
->extra xdotool
->extra xautolock
-#---------=> utilities
-autorandr
-neofetch
-timeshift
-timeshift-autosnap
->extra vulkan-tools
->extra libva-utils
->extra vdpauinfo
->extra conky-lua-nv
->extra conky-manager
->extra libdvdcss
->extra powertop
->extra htop
->extra lib32-mesa-demos
->extra mesa-demos
+xdg-desktop-portal
+xdg-desktop-portal-gtk
 
 #---------=> android 
 android-tools
-android-udev-git
->extra busybox
+android-udev
 
 ####---->> THEMING
 ## theme package
@@ -138,19 +99,17 @@ whitesur-cursor-theme-git
 
 garuda-wallpapers
 garuda-icons
->extra wish-wallpapers
 
 ## Fonts
 ttf-google-sans           
 noto-fonts               # default font
-noto-fonts-emoji
+noto-fonts-cjk           # asian fonts
+noto-fonts-emoji         # emoji font
 ttf-liberation
 terminus-font
+ttf-opensans
 
 >extra noto-fonts-extra
->extra ttf-opensans
->extra ttf-indic-otf
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra garuda-asian
 
 

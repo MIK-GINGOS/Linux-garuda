@@ -3,25 +3,23 @@
 ###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
->basic pamac-aur
->basic pamac-tray-appindicator
->extra pamac-all
+pamac-aur
+pamac-tray-appindicator
+
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
 >extra fwupd
 
 ####---->> AUDIO
-pulseaudio-modules-bt-git
-libldac
+garuda-alsa
+garuda-pulse
+garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
->extra pulseaudio-ctl
->extra playerctl
+pulseaudio-modules-bt-git
+libldac
 
 ####---->> VIDEO
 garuda-vaapi
@@ -33,12 +31,11 @@ garuda-modem
 garuda-bluetooth
 network-manager-applet
 blueman
->extra qomui-git
+qomui-git
 
 ####---->> PRINTER
 ## samba
 garuda-settings-samba
->extra system-config-samba # python2 package
 
 ## printing
 garuda-printer
@@ -49,11 +46,7 @@ simple-scan
 
 ####---->> INPUT
 garuda-input
->extra garuda-ibus
->extra ibus-m17n
->extra wacom-utility
->extra evdev-right-click-emulation
->extra gesture-manager-x-git
+gesture-manager-x-git
 
 ####---->> XORG
 xorg-server
@@ -68,32 +61,16 @@ xorg-xprop
 
 ####---->> UTILITIES
 ## Desktop Utils
+autorandr
+libdvdcss
+timeshift
+timeshift-autosnap
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-gtk
->extra wmctrl
->extra numlockx
->extra xbindkeys
->extra xcape
->extra xdotool
->extra xautolock
-#---------=> utilities
-autorandr
-neofetch
-timeshift
-timeshift-autosnap
->extra conky-lua-nv
->extra conky-manager
->extra libdvdcss
->extra powertop
->extra htop
->extra libva-utils
->extra vdpauinfo
->extra vulkan-tools
->extra mesa-demos
->extra lib32-mesa-demos
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+
 #---------=> android 
 android-tools
 android-udev
@@ -105,7 +82,6 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 
-sound-theme-smooth
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
@@ -114,20 +90,18 @@ whitesur-kvantum-theme-git
 tela-circle-icon-theme-git
 whitesur-cursor-theme-git
 
->extra wish-wallpapers
 garuda-wallpapers
 garuda-icons
 
-## Fonts
+## Fonts        
 noto-fonts               # default font
-noto-fonts-emoji
+noto-fonts-cjk           # asian fonts
+noto-fonts-emoji         # emoji font
 ttf-liberation
 terminus-font
+ttf-opensans
 
 >extra noto-fonts-extra
->extra ttf-opensans
->extra ttf-indic-otf
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra garuda-asian
 
 ####---->> SETTINGS

@@ -3,34 +3,17 @@
 ###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
->basic pamac-aur
->basic pamac-tray-appindicator
->extra pamac-all
-
-
-## APPIMAGE Support
->extra appimagelauncher
->extra libappimage
+pamac-aur
+pamac-tray-appindicator
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
 >extra fwupd
 
-## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
-
-## Flatpak support
->extra flatpak
-
-## PACKAGEKIT SUPPORT
->extra packagekit
-
 ####---->> AUDIO
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
+garuda-alsa
+garuda-pulse
+garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
@@ -50,12 +33,11 @@ garuda-modem
 garuda-bluetooth
 network-manager-applet
 blueman
->extra qomui-git
+qomui-git
 
 ####---->> PRINTER
 ## samba
 garuda-settings-samba
->extra system-config-samba # python2 package
 
 ## printing
 garuda-printer
@@ -67,10 +49,6 @@ simple-scan
 
 ####---->> INPUT
 garuda-input
->extra garuda-ibus
->extra ibus-m17n
->extra garuda-indic
->extra evdev-right-click-emulation
 >extra gesture-manager-x-git
 
 ####---->> XORG
@@ -89,36 +67,21 @@ xorg-xbacklight
 
 ####---->> UTILITIES
 ## Desktop Utils
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-gtk
-wmctrl
-numlockx
-xbindkeys
-xcape
-xdotool
-xautolock
-#---------=> utilities
 autorandr
 timeshift
 timeshift-autosnap
-neofetch
+libdvdcss
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+#---------=> utilities
 conky-lua-nv
 conky-manager
->extra libdvdcss
->extra powertop
->extra htop
->extra libva-utils
->extra vdpauinfo
->extra vulkan-tools
->extra mesa-demos
->extra lib32-mesa-demos
 #---------=> android 
 android-tools
 android-udev
->extra busybox
 
 ####---->> THEMING
 ## theme package
@@ -127,7 +90,6 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 
-sound-theme-smooth
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
@@ -135,21 +97,19 @@ kvantum-theme-qogir-git
 qogir-icon-theme-git
 qogir-gtk-theme-git
 
->extra wish-wallpapers
 garuda-wallpapers
 garuda-icons
 
 
-## Fonts
+## Fonts        
 noto-fonts               # default font
-noto-fonts-emoji
+noto-fonts-cjk           # asian fonts
+noto-fonts-emoji         # emoji font
 ttf-liberation
 terminus-font
+ttf-opensans
 
 >extra noto-fonts-extra
->extra ttf-opensans
->extra ttf-indic-otf
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra garuda-asian
 
 

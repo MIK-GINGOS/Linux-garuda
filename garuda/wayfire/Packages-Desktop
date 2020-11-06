@@ -3,41 +3,24 @@
 ###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
->basic pamac-aur
-#>basic pamac-tray-appindicator
->extra pamac-all
-
-
-## APPIMAGE Support
->extra appimagelauncher
->extra libappimage
+pamac-aur
+pamac-tray-appindicator
 
 ## FIRMWARE UPDATES
 >extra gnome-firmware
 >extra fwupd
 
-## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
-
-## Flatpak support
->extra flatpak
-
-## PACKAGEKIT SUPPORT
->extra packagekit
-
 ####---->> AUDIO
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
+garuda-alsa
+garuda-pulse
+garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-modules-bt-git
 libldac
->extra pulseaudio-ctl
->extra playerctl
+pulseaudio-ctl
+playerctl
 
 
 ####---->> VIDEO
@@ -48,15 +31,13 @@ garuda-gstreamer
 garuda-connman
 garuda-modem
 garuda-bluetooth
->extra qomui-git
-gufw
+qomui-git
 connman-gtk
 blueberry
 
 ####---->> PRINTER
 ## samba
 garuda-settings-samba
->extra system-config-samba # python2 package
 
 ## printing
 garuda-printer
@@ -65,10 +46,8 @@ garuda-printer
 garuda-scanner
 simple-scan
 
-
 ####---->> INPUT
 garuda-input
-evdev-right-click-emulation
 gesture-manager-x-git
 
 ####---->> XORG
@@ -78,30 +57,19 @@ xorg-xhost
 ####---->> WAYLAND
 qt5-wayland
 
-
 ####---->> UTILITIES
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-wlr
-#---------=> utilities
-neofetch
+xdg-desktop-portal
+xdg-desktop-portal-wlr
 timeshift
 timeshift-autosnap
->extra htop
->extra libdvdcss
->extra powertop
->extra libva-utils
->extra vdpauinfo
->extra vulkan-tools
->extra mesa-demos
->extra lib32-mesa-demos
+libdvdcss
 #---------=> android 
 android-tools
 android-udev
->extra busybox
 
 ####---->> THEMING
 ## theme package
@@ -117,22 +85,19 @@ kvantum-qt5
 kvantum-theme-materia
 tela-circle-icon-theme-git
 orchis-theme-git
-sound-theme-smooth
 
-#wish-wallpapers
 garuda-wallpapers
 garuda-icons
 
-## Fonts
+## Fonts        
 noto-fonts               # default font
-noto-fonts-emoji
+noto-fonts-cjk           # asian fonts
+noto-fonts-emoji         # emoji font
 ttf-liberation
 terminus-font
+ttf-opensans
 
 >extra noto-fonts-extra
->extra ttf-opensans
->extra ttf-indic-otf
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra garuda-asian
 
 
