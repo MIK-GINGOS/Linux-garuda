@@ -27,14 +27,17 @@
 >extra packagekit-qt5
 
 ####---->> AUDIO
-garuda-alsa
-garuda-pulse
-garuda-pipewire
+>extra garuda-alsa
+>extra garuda-pulse
+>extra garuda-pipewire
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-modules-bt-git
 libldac
+>extra pulseaudio-ctl
+>extra playerctl
+
 
 ####---->> VIDEO
 garuda-vaapi
@@ -44,12 +47,13 @@ garuda-gstreamer
 garuda-network
 garuda-bluetooth
 garuda-modem
-qomui-git
+>extra qomui-git
 
 
 ####---->> PRINTER
 ## samba
 garuda-settings-samba
+>extra system-config-samba # python2 package
 
 ## printing
 garuda-printer
@@ -61,7 +65,10 @@ skanlite
 
 ####---->> INPUT
 garuda-input
+>extra evdev-right-click-emulation
 libinput_gestures_qt
+>extra garuda-fcitx
+>extra fcitx-m17n
 
 ####---->> XORG
 xorg-server
@@ -78,21 +85,37 @@ xorg-xprop
 
 ####---->> UTILITIES
 ## Desktop Utils
-autorandr
-libdvdcss
-timeshift
-timeshift-autosnap
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-kde
+>extra wmctrl
+>extra numlockx
+>extra xbindkeys
+>extra xcape
+>extra xdotool
+>extra xautolock
 #---------=> utilities
+autorandr
+neofetch
+timeshift
+timeshift-autosnap
 >extra conky-lua-nv
 >extra conky-manager
+>extra libdvdcss
+>extra powertop
+>extra htop
+>extra libva-utils
+>extra vdpauinfo
+>extra vulkan-tools
+>extra mesa-demos
+>extra lib32-mesa-demos
 #---------=> android and file transfer management
 android-tools
 android-udev
+busybox
+
 
 ####---->> THEMING
 ## theme package
@@ -101,6 +124,7 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 
+sound-theme-smooth
 gtk-engine-murrine
 whitesur-gtk-theme-git
 whitesur-kde-theme-git
@@ -108,18 +132,21 @@ tela-circle-icon-theme-git
 whitesur-cursor-theme-git
 kvantum-qt5
 
+
+>extra wish-wallpapers
 garuda-wallpapers
 garuda-icons
 
-## Fonts        
+## Fonts
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts
-noto-fonts-emoji         # emoji font
+noto-fonts-emoji
 ttf-liberation
 terminus-font
-ttf-opensans
 
 >extra noto-fonts-extra
+>extra ttf-opensans
+>extra ttf-indic-otf
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra garuda-asian
 
 

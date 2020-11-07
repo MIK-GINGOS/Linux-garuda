@@ -3,22 +3,41 @@
 ###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
-pamac-aur
-pamac-tray-appindicator
+>basic pamac-aur
+>basic pamac-tray-appindicator
+>extra pamac-all
+>extra discover-snap
+
+## APPIMAGE Support
+>extra appimagelauncher
+>extra libappimage
 
 ## FIRMWARE UPDATES
->extra gnome-firmware
 >extra fwupd
 
+## Snap Support
+>extra apparmor
+>extra snapd
+>extra snapd-glib
+
+## Flatpak support
+>extra flatpak
+
+## PACKAGEKIT SUPPORT
+>extra packagekit-qt5
+
 ####---->> AUDIO
-garuda-alsa
-garuda-pulse
-garuda-pipewire
+>extra garuda-alsa
+>extra garuda-pulse
+>extra garuda-pipewire
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-modules-bt-git
 libldac
+>extra pulseaudio-ctl
+>extra playerctl
+
 
 ####---->> VIDEO
 garuda-vaapi
@@ -30,11 +49,15 @@ garuda-modem
 garuda-bluetooth
 cmst
 bluedevil
-qomui-git
+>extra qomui-git
+nx-firewall-git
+
+
 
 ####---->> PRINTER
 ## samba
 garuda-settings-samba
+>extra system-config-samba # python2 package
 
 ## printing
 garuda-printer
@@ -46,8 +69,11 @@ skanlite
 
 ####---->> INPUT
 garuda-input
-libinput_gestures_qt
-plasma-thunderbolt
+>extra garuda-fcitx
+>extra fcitx-m17n
+>extra plasma-thunderbolt
+>extra evdev-right-click-emulation
+>extra libinput_gestures_qt
 
 ####---->> XORG
 xorg-server
@@ -63,15 +89,36 @@ xorg-xprop
 
 ####---->> UTILITIES
 ## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+>extra xdg-desktop-portal
+>extra xdg-desktop-portal-kde
+>extra wmctrl
+>extra numlockx
+>extra xbindkeys
+>extra xcape
+>extra xdotool
+>extra xautolock
+#---------=> utilities
 autorandr
-libdvdcss
+neofetch
 timeshift
 timeshift-autosnap
-xdg-desktop-portal
-xdg-desktop-portal-kde
+>extra conky-lua-nv
+>extra conky-manager
+>extra libdvdcss
+>extra powertop
+>extra htop
+>extra libva-utils
+>extra vdpauinfo
+>extra vulkan-tools
+>extra mesa-demos
+>extra lib32-mesa-demos
 #---------=> android 
 android-tools
 android-udev
+>extra busybox
 
 ####---->> THEMING
 ## theme package
@@ -80,6 +127,7 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 
+sound-theme-smooth
 gtk-engine-murrine
 kvantum-qt5
 vimix-cursors
@@ -87,18 +135,20 @@ kvantum-theme-vimix-git
 vimix-gtk-themes-git
 vimix-icon-theme-git
 
+wish-wallpapers
 garuda-wallpapers
 garuda-icons
 
-## Fonts        
+## Fonts
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts
-noto-fonts-emoji         # emoji font
+noto-fonts-emoji
 ttf-liberation
 terminus-font
-ttf-opensans
 
 >extra noto-fonts-extra
+>extra ttf-opensans
+>extra ttf-indic-otf
+>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 >extra garuda-asian
 
 

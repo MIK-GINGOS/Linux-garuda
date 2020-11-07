@@ -41,20 +41,33 @@ b43-fwcutter
 ipw2100-fw
 ipw2200-fw
 sof-firmware
-alsa-firmware
+
+#aic94xx-firmware
+#b43-firmware
+#wd719x-firmware
+
+## mhwd
+
+mhwd-garuda
+mhwd-db-garuda
 
 ## grub + efi
 grub
 efibootmgr
-os-prober
+os-prober-garuda
+grub-garuda
+plymouth-git
 grub-btrfs
 memtest86+
 
 ## package management 
 pacman-contrib
 reflector
+chaotic-mirrorlist
+chaotic-keyring
 
 ## aur support
+>extra yay
 >extra autoconf
 >extra automake
 >extra binutils
@@ -95,11 +108,7 @@ nfs-utils
 
 
 ## extra things
-mkinitcpio-openswap
-mkinitcpio-nfs-utils
-mkinitcpio-systemd-tool
-
-
+xclip
 bridge-utils
 usbutils
 inetutils
@@ -113,32 +122,17 @@ man-db
 man-pages
 logrotate
 lsb-release
+wget
 rsync
 freetype2
-cronie
-micro
-xclip
-neofetch
-powertop
-htop
 inxi
 dmidecode
-mesa-demos
-vulkan-tools
->extra libva-utils
->extra vdpauinfo
-
-# chaotic repo
-chaotic-mirrorlist
-chaotic-keyring
-
-## mhwd
-
-mhwd-garuda
-mhwd-db-garuda
-
-plymouth-git
-grub-garuda
+cronie
+micro
+mkinitcpio-openswap
+mkinitcpio-nfs-utils
+mkinitcpio-systemd-tool
+#systemd-guest-user
 garuda-zsh-config
 garuda-browser-settings
 garuda-hooks

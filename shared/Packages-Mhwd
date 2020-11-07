@@ -5,16 +5,17 @@ systemd-guest-user
 ## Network
 
 broadcom-wl-dkms
+rtlwifi_new-dkms
 #r8168-dkms
 #zfs-dkms
 #zfs-utils
 
 ## Nonfree Nvidia
 
->nonfree_x86_64 acpi_call-dkms
->nonfree_x86_64 bbswitch-dkms
->nonfree_x86_64 optimus-manager-git
->nonfree_x86_64 optimus-manager-qt-git
+#>nonfree_x86_64 acpi_call-dkms
+#>nonfree_x86_64 bbswitch-dkms
+#>nonfree_x86_64 optimus-manager
+#>nonfree_x86_64 optimus-manager-qt
 
 >nonfree_x86_64 nvidia-prime
 >nonfree_x86_64 nvidia-settings
