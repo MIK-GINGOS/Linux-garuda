@@ -83,7 +83,6 @@ autorandr
 neofetch
 timeshift
 timeshift-autosnap
-libdvdcss
 powertop
 htop
 libva-utils
@@ -252,8 +251,9 @@ python-xdg
 warpinator
 guvcview
 
-## Media
+## Multimedia
 vlc
+libdvdcss
 handbrake
 pitivi
 audacity
