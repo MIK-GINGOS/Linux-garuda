@@ -1,0 +1,160 @@
+####---->> MEDIA
+pavucontrol-qt
+pulseaudio-modules-bt-git
+libldac
+garuda-vaapi
+garuda-gstreamer
+garuda-bluetooth
+
+
+####---->> XORG
+xorg-server
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xprop
+
+
+####---->> UTILITIES
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+xdg-desktop-portal
+xdg-desktop-portal-kde
+neofetch-git
+timeshift
+timeshift-autosnap
+powertop
+htop
+octopi
+
+#---------=> android and file transfer management
+android-tools
+android-udev-git
+
+
+####---->> THEMING
+## theme package
+garuda-dr460nized
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+kvantum-qt5
+garuda-icons
+
+## Fonts
+noto-fonts
+noto-fonts-emoji
+terminus-font
+ttf-fantasque-sans-mono
+ttf-fira-sans
+
+
+####---->> SETTINGS
+garuda-settings-manager
+garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
+garuda-welcome-git
+
+
+####---->> DISPLAY MANAGER
+sddm
+sddm-kcm
+
+
+####---->> DESKTOP ENVIRONMENT
+bluedevil
+kdeplasma-addons
+khotkeys
+kinfocenter
+ksysguard
+kscreen
+plasma-desktop
+plasma-nm
+plasma-pa
+kwayland-integration
+kwallet-pam
+powerdevil
+quota-tools
+appmenu-gtk-module
+kde-gtk-config
+plasma-wayland-session
+plasma5-applets-window-title
+plasma5-applets-window-appmenu
+plasma5-applets-window-buttons
+
+
+####---->> DESKTOP ENVIRONMENT APPS
+## kde apps
+ark
+dolphin
+dolphin-plugins
+kdeconnect
+okular
+partitionmanager
+spectacle
+elisa
+krdc
+krfb
+kdenlive
+
+
+## Optional dependencies for ark
+###-------archive formats
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+ffmpegthumbs           
+kaccounts-providers
+sshfs
+fish
+
+
+####---->> OTHER APPS
+latte-dock
+imagewrite
+obs-studio
+ufw
+gufw
+bleachbit
+base-devel
+
+##------------> office
+libreoffice-fresh
+libreoffice-fresh-de
+libmythes
+
+
+## Internet applications
+firefox-developer-edition-i18n-de
+firefox-extension-plasma-integration
+firefox-extension-bitwarden
+telegram-desktop-dev
+nextcloud-client
+kmozillahelper
+ungoogled-chromium-git
+
+garuda-virtualbox
+
+lutris
+gimp-git
+visual-studio-code-insiders
+vlc
+github-desktop-bin
+alacritty-ligatures-git
+cmatrix
+cowsay
+
+gamemode
+lib32-gamemode
+
+docker
+docker-compose
+
+spotify
