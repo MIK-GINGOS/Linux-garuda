@@ -305,3 +305,8 @@ xbox-generic-controller
 game-devices-udev
 retroarch-autoconfig-udev-git
 
+## Java
+>extra jdk8-openjdk
+>extra jre8-openjdk-headless
+>extra jre8-openjdk
+>extra java8-openjfx
