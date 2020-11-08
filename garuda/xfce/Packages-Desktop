@@ -3,13 +3,14 @@
 ###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
->basic pamac-aur
->basic pamac-tray-appindicator
->extra pamac-all
+pamac-aur
+pamac-tray-appindicator
+pamac-all
+yay
 
 ## FIRMWARE UPDATES
->extra gnome-firmware
->extra fwupd
+gnome-firmware
+fwupd
 
 ####---->> AUDIO
 pulseaudio-modules-bt-git
@@ -17,11 +18,11 @@ libldac
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
->extra pulseaudio-ctl
->extra playerctl
+garuda-alsa
+garuda-pulse
+garuda-pipewire
+pulseaudio-ctl
+playerctl
 
 ####---->> VIDEO
 garuda-vaapi
@@ -33,12 +34,12 @@ garuda-modem
 garuda-bluetooth
 network-manager-applet
 blueman
->extra qomui-git
+qomui
 
 ####---->> PRINTER
 ## samba
 garuda-settings-samba
->extra system-config-samba # python2 package
+system-config-samba # python2 package
 
 ## printing
 garuda-printer
@@ -49,11 +50,11 @@ simple-scan
 
 ####---->> INPUT
 garuda-input
->extra garuda-ibus
->extra ibus-m17n
->extra wacom-utility
->extra evdev-right-click-emulation
->extra gesture-manager-x-git
+garuda-ibus
+ibus-m17n
+wacom-utility
+evdev-right-click-emulation
+gesture-manager-x-git
 
 ####---->> XORG
 xorg-server
@@ -64,36 +65,34 @@ xorg-xrandr
 xorg-xprop
 
 ####---->> WAYLAND
->extra xorg-server-xwayland 
+xorg-server-xwayland 
 
 ####---->> UTILITIES
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-gtk
->extra wmctrl
->extra numlockx
->extra xbindkeys
->extra xcape
->extra xdotool
->extra xautolock
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+wmctrl
+numlockx
+xbindkeys
+xcape
+xdotool
+xautolock
 #---------=> utilities
 autorandr
 neofetch
 timeshift
 timeshift-autosnap
->extra conky-lua-nv
->extra conky-manager
->extra libdvdcss
->extra powertop
->extra htop
->extra libva-utils
->extra vdpauinfo
->extra vulkan-tools
->extra mesa-demos
->extra lib32-mesa-demos
+libdvdcss
+powertop
+htop
+libva-utils
+vdpauinfo
+vulkan-tools
+mesa-demos
+lib32-mesa-demos
 #---------=> android 
 android-tools
 android-udev
@@ -109,23 +108,21 @@ sound-theme-smooth
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
-tela-circle-icon-theme-git
+papirus-icon-theme
 
->extra wish-wallpapers
 garuda-wallpapers
 garuda-icons
 
 ## Fonts
 noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
 noto-fonts-emoji
+noto-fonts-extra
 ttf-liberation
 terminus-font
-
->extra noto-fonts-extra
->extra ttf-opensans
->extra ttf-indic-otf
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra garuda-asian
+ttf-opensans
+ttf-indic-otf
+garuda-asian
 
 ####---->> SETTINGS
 garuda-settings-manager
@@ -170,17 +167,17 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
->extra gvfs-google
->extra gvfs-goa
+gvfs-google
+gvfs-goa
 
 ###-------archive formats
->extra arj
->extra cpio
->extra lha
->extra lrzip
->extra lzip
->extra lzop
->extra unace
+arj
+cpio
+lha
+lrzip
+lzip
+lzop
+unace
 p7zip
 unarchiver
 unarj
@@ -188,8 +185,8 @@ unrar
 unzip
 zip
 
->extra poppler-data
->extra poppler-glib
+poppler-data
+poppler-glib
 xarchiver
 
 ## xfce extra
@@ -215,30 +212,32 @@ xfce4-xkb-plugin
 xfce4-mount-plugin
 xfce4-whiskermenu-plugin
 xfce4-taskmanager
->extra xfce4-cpufreq-plugin
->extra xfce4-cpugraph-plugin
->extra xfce4-diskperf-plugin
->extra xfce4-eyes-plugin
->extra xfce4-fsguard-plugin
->extra xfce4-genmon-plugin
->extra xfce4-mailwatch-plugin
->extra xfce4-mpc-plugin
->extra xfce4-netload-plugin
->extra xfce4-sensors-plugin 
->extra xfce4-smartbookmark-plugin
->extra xfce4-systemload-plugin
->extra xfce4-time-out-plugin
->extra xfce4-timer-plugin
->extra xfce4-verve-plugin
->extra xfce4-wavelan-plugin
+## Not needed but nice to have
+xfce4-cpufreq-plugin
+xfce4-cpugraph-plugin
+xfce4-diskperf-plugin
+xfce4-eyes-plugin
+xfce4-fsguard-plugin
+xfce4-genmon-plugin
+xfce4-mailwatch-plugin
+xfce4-mpc-plugin
+xfce4-netload-plugin
+xfce4-sensors-plugin 
+xfce4-smartbookmark-plugin
+xfce4-systemload-plugin
+xfce4-time-out-plugin
+xfce4-timer-plugin
+xfce4-verve-plugin
+xfce4-wavelan-plugin
 
->extra orca
->extra festival
+## Accessibility
+orca
+festival
 onboard
 mousetweaks
+
 ####---->> OTHER APPS
 gnome-keyring
-redshift
 qpdfview
 galculator
 gparted
@@ -248,59 +247,58 @@ meld
 peek
 mintstick
 bleachbit
->extra xfburn
->extra youtube-dl
->extra systemd-ui
->extra python-xdg
->extra guiscrcpy
->extra warpinator
->extra guvcview
->extra converseen
->extra transmageddon
->extra soundconverter
->extra pitivi
->extra audacity
->extra easytag
+xfburn
+#youtube-dl
+systemd-ui
+python-xdg
+
+warpinator
+guvcview
+
+## Media
+vlc
+handbrake
+pitivi
+audacity
+easytag
 
 ##------------> Graphics
->extra gimp
->extra inkscape
->extra blender
->extra gcolor3
+gimp
+inkscape
+gcolor3
+converseen
+#blender
 
-##------------> office
->extra libreoffice-fresh
->extra libmythes
+##------------> Office
+libreoffice-fresh
+libmythes
 
 ## Internet applications
 thunderbird
 garuda-firefox
 telegram-desktop
->extra streamlink-twitch-gui
->extra discord
->extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-bitwarden
->extra fractal
->extra nextcloud-client
->extra syncthing-gtk
->extra joplin
+discord
+firefox-extension-bitwarden
+fractal
+nextcloud-client
+syncthing-gtk
 
-####   amd vulkan
->extra amdvlk
->extra lib32-amdvlk
+####   AMD Vulkan
+#amdvlk
+#lib32-amdvlk
 
 ####---->> VIRTUALIZATION
 
 ####---->> WINE
 
 ####---->> GAME CONTROLLER
->extra antimicrox
->extra linuxconsole
->extra xboxdrv
->extra xpadneo-dkms-git
->extra steamos-xpad-dkms
->extra xow-git
->extra xbox-generic-controller
->extra game-devices-udev
->extra retroarch-autoconfig-udev-git
+antimicrox
+linuxconsole
+xboxdrv
+xpadneo-dkms-git
+steamos-xpad-dkms
+xow-git
+xbox-generic-controller
+game-devices-udev
+retroarch-autoconfig-udev-git
 
