@@ -4,8 +4,6 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
 pamac-aur
-pamac-tray-appindicator
-pamac-all
 yay
 
 ## FIRMWARE UPDATES
