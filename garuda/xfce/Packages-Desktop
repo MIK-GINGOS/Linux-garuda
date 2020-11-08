@@ -305,7 +305,7 @@ game-devices-udev
 retroarch-autoconfig-udev-git
 
 ## Java
->extra jdk8-openjdk
->extra jre8-openjdk-headless
->extra jre8-openjdk
->extra java8-openjfx
+jdk8-openjdk
+jre8-openjdk-headless
+jre8-openjdk
+java8-openjfx
