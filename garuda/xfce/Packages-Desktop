@@ -4,6 +4,7 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
 pamac-aur
+downgrade
 yay
 
 ## FIRMWARE UPDATES
@@ -92,8 +93,8 @@ vulkan-tools
 mesa-demos
 lib32-mesa-demos
 #---------=> android 
-#android-tools
-#android-udev
+android-tools
+android-udev
 
 ####---->> THEMING
 ## theme package
