@@ -27,6 +27,7 @@ playerctl
 ####---->> VIDEO
 garuda-vaapi
 garuda-gstreamer
+redshift
 
 ####---->> NETWORK
 garuda-network
@@ -94,8 +95,8 @@ vulkan-tools
 mesa-demos
 lib32-mesa-demos
 #---------=> android 
-android-tools
-android-udev
+#android-tools
+#android-udev
 
 ####---->> THEMING
 ## theme package
@@ -241,7 +242,6 @@ gnome-keyring
 qpdfview
 galculator
 gparted
-transmission-gtk
 catfish
 meld
 peek
@@ -282,6 +282,7 @@ firefox-extension-bitwarden
 fractal
 nextcloud-client
 syncthing-gtk
+transmission-gtk
 
 ####   AMD Vulkan
 #amdvlk
