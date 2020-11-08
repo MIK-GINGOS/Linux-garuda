@@ -64,7 +64,6 @@ xorg-xrandr
 xorg-xprop
 
 ####---->> WAYLAND
-xorg-server-xwayland 
 
 ####---->> UTILITIES
 ## Desktop Utils
@@ -281,6 +280,10 @@ fractal
 nextcloud-client
 syncthing-gtk
 transmission-gtk
+
+## Security
+gtkhash
+veracrypt
 
 ####   AMD Vulkan
 #amdvlk
