@@ -74,7 +74,6 @@ xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 wmctrl
-numlockx
 xbindkeys
 xcape
 xdotool
