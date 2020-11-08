@@ -109,10 +109,7 @@ sound-theme-smooth
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
-whitesur-gtk-theme-git
-whitesur-kvantum-theme-git
 tela-circle-icon-theme-git
-whitesur-cursor-theme-git
 
 >extra wish-wallpapers
 garuda-wallpapers
@@ -218,8 +215,6 @@ xfce4-xkb-plugin
 xfce4-mount-plugin
 xfce4-whiskermenu-plugin
 xfce4-taskmanager
-xfdashboard
-xfce4-dockbarx-plugin
 >extra xfce4-cpufreq-plugin
 >extra xfce4-cpugraph-plugin
 >extra xfce4-diskperf-plugin
