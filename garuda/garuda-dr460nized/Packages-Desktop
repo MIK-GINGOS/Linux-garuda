@@ -2,9 +2,7 @@
 pavucontrol-qt
 pulseaudio-modules-bt-git
 libldac
-garuda-vaapi
 garuda-gstreamer
-garuda-bluetooth
 
 
 ####---->> XORG
@@ -132,7 +130,7 @@ libmythes
 
 
 ## Internet applications
-firefox-developer-edition-i18n-de
+firefox-developer-edition
 firefox-extension-plasma-integration
 firefox-extension-bitwarden
 telegram-desktop-dev
@@ -150,11 +148,12 @@ github-desktop-bin
 alacritty-ligatures-git
 cmatrix
 cowsay
+lolcat
+cmake
+spotify-dev
 
 gamemode
 lib32-gamemode
 
 docker
 docker-compose
-
-spotify
