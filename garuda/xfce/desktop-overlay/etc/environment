@@ -1,0 +1,12 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+#
+EDITOR=/usr/bin/micro
+BROWSER=firefox
+TERM=alacritty
+MAIL=thunderbird
+DIFFPROG=/usr/bin/meld
+QT_QPA_PLATFORMTHEME=qt5ct
+GTK2_RC_FILES="$HOME/.gtkrc-2.0"
