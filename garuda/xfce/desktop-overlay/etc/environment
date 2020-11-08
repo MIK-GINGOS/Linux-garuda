@@ -3,7 +3,6 @@
 #
 # Syntax: simple "KEY=VAL" pairs on separate lines
 #
-EDITOR=/usr/bin/micro
 BROWSER=firefox
 TERM=alacritty
 MAIL=thunderbird
