@@ -3,7 +3,7 @@
 ###############################
 
 alsa-firmware
-dmidecode
+dmidecode # optional dependency inxi
 inxi
 garuda-hotfixes
 mesa-demos
@@ -39,3 +39,5 @@ xorg-server-utils
 xorg-twm
 xorg-utils
 xorg-xinit
+xorg-xdpyinfo # optional dependency inxi
+xorg-xprop # optional dependency inxi
