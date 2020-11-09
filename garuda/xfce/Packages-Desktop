@@ -2,10 +2,10 @@
 ### This is a template list ###
 ###############################
 ####---->> PACKAGE MANAGEMENT
-## Graphical
 pamac-aur
 downgrade
 yay
+pacdiff
 
 ## FIRMWARE UPDATES
 gnome-firmware
