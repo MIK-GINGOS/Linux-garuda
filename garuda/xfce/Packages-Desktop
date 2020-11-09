@@ -5,7 +5,6 @@
 pamac-aur
 downgrade
 yay
-pacdiff
 
 ## FIRMWARE UPDATES
 gnome-firmware
@@ -247,6 +246,7 @@ xfburn
 #youtube-dl
 systemd-ui
 python-xdg
+vim # Needed for pacdiff
 
 warpinator
 guvcview
