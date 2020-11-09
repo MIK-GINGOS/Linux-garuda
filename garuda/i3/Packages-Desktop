@@ -1,36 +1,20 @@
-###############################
-### This is a template list ###
-###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
->basic pamac-aur
->basic pamac-tray-appindicator
->extra pamac-all
-
-
-## APPIMAGE Support
->extra appimagelauncher
->extra libappimage
+pamac-aur
+pamac-tray-appindicator
+yay
+downgrade
 
 ## FIRMWARE UPDATES
->extra gnome-firmware
->extra fwupd
+gnome-firmware
+fwupd
 
-## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
-
-## Flatpak support
->extra flatpak
-
-## PACKAGEKIT SUPPORT
->extra packagekit
 
 ####---->> AUDIO
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
+garuda-alsa
+garuda-jack
+garuda-pulse
+garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
@@ -39,6 +23,7 @@ libldac
 pulseaudio-ctl
 playerctl
 pasystray
+qjackctl
 
 ####---->> VIDEO
 garuda-vaapi
@@ -48,14 +33,14 @@ garuda-gstreamer
 garuda-network
 garuda-modem
 garuda-bluetooth
-network-manager-applet
 blueman
->extra qomui-git
+network-manager-applet
+qomui-git
+modem-manager-gui
 
 ####---->> PRINTER
 ## samba
-garuda-settings-samba
->extra system-config-samba # python2 package
+garuda-samba
 
 ## printing
 garuda-printer
@@ -67,14 +52,61 @@ simple-scan
 
 ####---->> INPUT
 garuda-input
->extra garuda-ibus
->extra ibus-m17n
->extra garuda-indic
->extra evdev-right-click-emulation
->extra gesture-manager-x-git
+gesture-manager-x-git
+
+
+## Fonts          
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts
+noto-fonts-emoji         # emoji font
+ttf-liberation
+terminus-font
+ttf-opensans
+
+>extra noto-fonts-extra
+>extra garuda-asian
+
+
+####---->> GARUDA THEMING & SETTINGS
+## theme package
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+garuda-wallpapers
+garuda-icons
+
+## garuda package
+garuda-settings-manager
+garuda-settings-manager-knotifier
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
+
+
+####---->> UTILITIES
+## Desktop Utils
+autorandr
+timeshift
+timeshift-autosnap
+libdvdcss
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+
+## Conky 
+>extra conky-lua-nv
+>extra conky-manager
+
+#---------=> android 
+android-tools
+android-udev
 
 ####---->> XORG
 xorg-server
+xorg-server-xephyr
+xorg-xwininfo
 xorg-xhost
 xorg-xinit
 xorg-xinput
@@ -82,84 +114,27 @@ xorg-xrandr
 xorg-xprop
 xorg-xkill
 xorg-xbacklight
+xorg-xsetroot
 
-####---->> WAYLAND
->extra xorg-server-xwayland 
-
-
-####---->> UTILITIES
-## Desktop Utils
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-gtk
+## xorg apps
 wmctrl
 numlockx
 xbindkeys
 xcape
 xdotool
 xautolock
-#---------=> utilities
-autorandr
-timeshift
-timeshift-autosnap
-neofetch
-conky-lua-nv
-conky-manager
->extra libdvdcss
->extra powertop
->extra htop
->extra libva-utils
->extra vdpauinfo
->extra vulkan-tools
->extra mesa-demos
->extra lib32-mesa-demos
-#---------=> android 
-android-tools
-android-udev
->extra busybox
 
-####---->> THEMING
-## theme package
+####---->> WAYLAND
+>extra xorg-server-xwayland 
+
+####---->> DESKTOP THEMING
 garuda-i3-settings
-performance-tweaks
-grub-theme-garuda
-plymouth-theme-garuda
-
-sound-theme-smooth
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
 kvantum-theme-qogir-git
 qogir-icon-theme-git
 qogir-gtk-theme-git
-
->extra wish-wallpapers
-garuda-wallpapers
-garuda-icons
-
-
-## Fonts
-noto-fonts               # default font
-noto-fonts-emoji
-ttf-liberation
-terminus-font
-
->extra noto-fonts-extra
->extra ttf-opensans
->extra ttf-indic-otf
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra garuda-asian
-
-
-####---->> SETTINGS
-garuda-settings-manager
-garuda-settings-manager-knotifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
-
 
 
 ####---->> DISPLAY MANAGER
@@ -168,8 +143,8 @@ lightdm-slick-greeter
 lightdm-settings
 accountsservice  # Enhanced user accounts handling
 
->extra orca
->extra festival
+orca
+festival
 onboard
 mousetweaks
 
@@ -235,17 +210,17 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
->extra gvfs-google
->extra gvfs-goa
+gvfs-google
+gvfs-goa
 
 ###-------archive formats
->extra arj
->extra cpio
->extra lha
->extra lrzip
->extra lzip
->extra lzop
->extra unace
+arj
+cpio
+lha
+lrzip
+lzip
+lzop
+unace
 p7zip
 unarchiver
 unarj
@@ -254,8 +229,8 @@ unzip
 zip
 
 
->extra poppler-data
->extra poppler-glib
+poppler-data
+poppler-glib
 
 ####---->> OTHER APPS
 
@@ -320,19 +295,14 @@ bleachbit
 >extra gcolor3
 
 ##------------> office
->extra libreoffice-fresh
->extra libmythes
+libreoffice-fresh
+libmythes
 
 ## Internet applications
 thunderbird
 garuda-firefox
 telegram-desktop
->extra fractal
->extra nextcloud-client
->extra streamlink-twitch-gui
->extra discord
->extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-bitwarden
->extra syncthing-gtk
->extra joplin
+nextcloud-client
+syncthing-gtk
+joplin
 

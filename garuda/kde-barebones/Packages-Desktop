@@ -42,7 +42,7 @@ kscreen
 plasma-desktop
 plasma-nm
 plasma-pa
-kwin-lowlatency
+kwin
 kwallet-pam
 powerdevil
 appmenu-gtk-module
@@ -53,6 +53,7 @@ kde-gtk-config
 dolphin
 konsole
 ark
+gwenview
 
 p7zip
 unarchiver

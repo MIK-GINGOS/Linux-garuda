@@ -1,44 +1,29 @@
-###############################
-### This is a template list ###
-###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
->basic pamac-aur
-#>basic pamac-tray-appindicator
->extra pamac-all
-
-
-## APPIMAGE Support
->extra appimagelauncher
->extra libappimage
+pamac-aur
+pamac-tray-appindicator
+yay
+downgrade
 
 ## FIRMWARE UPDATES
->extra gnome-firmware
->extra fwupd
+gnome-firmware
+fwupd
 
-## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
-
-## Flatpak support
->extra flatpak
-
-## PACKAGEKIT SUPPORT
->extra packagekit
 
 ####---->> AUDIO
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
+garuda-alsa
+garuda-jack
+garuda-pulse
+garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-modules-bt-git
 libldac
->extra pulseaudio-ctl
->extra playerctl
-
+pulseaudio-ctl
+playerctl
+pasystray
+qjackctl
 
 ####---->> VIDEO
 garuda-vaapi
@@ -48,15 +33,14 @@ garuda-gstreamer
 garuda-connman
 garuda-modem
 garuda-bluetooth
->extra qomui-git
-gufw
-connman-gtk
 blueberry
+connman-gtk
+qomui-git
+modem-manager-gui
 
 ####---->> PRINTER
 ## samba
-garuda-settings-samba
->extra system-config-samba # python2 package
+garuda-samba
 
 ## printing
 garuda-printer
@@ -68,48 +52,61 @@ simple-scan
 
 ####---->> INPUT
 garuda-input
-evdev-right-click-emulation
 gesture-manager-x-git
 
-####---->> XORG
-xorg-server-xwayland 
-xorg-xhost
 
-####---->> WAYLAND
-qt5-wayland
+## Fonts
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts
+noto-fonts-emoji         # emoji font
+ttf-liberation
+terminus-font
+ttf-opensans
+
+>extra noto-fonts-extra
+>extra garuda-asian
+
+
+####---->> GARUDA THEMING & SETTINGS
+## theme package
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+garuda-wallpapers
+garuda-icons
+
+## garuda package
+garuda-settings-manager
+garuda-settings-manager-knotifier
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
 
 
 ####---->> UTILITIES
 ## Desktop Utils
+autorandr
+timeshift
+timeshift-autosnap
+libdvdcss
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-wlr
-#---------=> utilities
-neofetch
-timeshift
-timeshift-autosnap
->extra htop
->extra libdvdcss
->extra powertop
->extra libva-utils
->extra vdpauinfo
->extra vulkan-tools
->extra mesa-demos
->extra lib32-mesa-demos
+xdg-desktop-portal
+xdg-desktop-portal-wlr
+
 #---------=> android 
 android-tools
 android-udev
->extra busybox
 
-####---->> THEMING
-## theme package
+####---->> XORG
+xorg-xhost
+
+####---->> WAYLAND
+xorg-server-xwayland 
+
+####---->> DESKTOP THEMING
 garuda-wayfire-settings
-performance-tweaks
-grub-theme-garuda
-plymouth-theme-garuda
-
 capitaine-cursors
 gtk-engine-murrine
 qt5ct
@@ -117,33 +114,6 @@ kvantum-qt5
 kvantum-theme-materia
 tela-circle-icon-theme-git
 orchis-theme-git
-sound-theme-smooth
-
-#wish-wallpapers
-garuda-wallpapers
-garuda-icons
-
-## Fonts
-noto-fonts               # default font
-noto-fonts-emoji
-ttf-liberation
-terminus-font
-
->extra noto-fonts-extra
->extra ttf-opensans
->extra ttf-indic-otf
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra garuda-asian
-
-
-####---->> SETTINGS
-garuda-settings-manager
-#garuda-settings-manager-knotifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
-
-
 
 ####---->> DISPLAY MANAGER
 greetd
@@ -196,17 +166,17 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
->extra gvfs-google
->extra gvfs-goa
+gvfs-google
+gvfs-goa
 
 ###-------archive formats
->extra arj
->extra cpio
->extra lha
->extra lrzip
->extra lzip
->extra lzop
->extra unace
+arj
+cpio
+lha
+lrzip
+lzip
+lzop
+unace
 p7zip
 unarchiver
 unarj
@@ -215,8 +185,8 @@ unzip
 zip
 
 
->extra poppler-data
->extra poppler-glib
+poppler-data
+poppler-glib
 
 ####---->> OTHER APPS
 bleachbit
@@ -235,11 +205,6 @@ geary
 >extra thunderbird
 garuda-firefox
 telegram-desktop
->extra streamlink-twitch-gui
->extra discord
->extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-bitwarden
->extra fractal
 >extra nextcloud-client
 >extra syncthing-gtk
 >extra joplin

@@ -1,13 +1,11 @@
-###############################
-### This is a template list ###
-###############################
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
 >basic pamac-aur
 >basic pamac-tray-appindicator
 >extra pamac-all
 >extra discover-snap
-
+yay
+downgrade
 ## APPIMAGE Support
 >extra appimagelauncher
 >extra libappimage
@@ -26,18 +24,20 @@
 ## PACKAGEKIT SUPPORT
 >extra packagekit-qt5
 
+
 ####---->> AUDIO
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
+garuda-alsa
+garuda-jack
+garuda-pulse
+garuda-pipewire
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-modules-bt-git
 libldac
->extra pulseaudio-ctl
->extra playerctl
-
+pulseaudio-ctl
+playerctl
+qjackctl
 
 ####---->> VIDEO
 garuda-vaapi
@@ -45,119 +45,109 @@ garuda-gstreamer
 
 ####---->> NETWORK
 garuda-network
-garuda-bluetooth
 garuda-modem
->extra qomui-git
+garuda-bluetooth
+qomui-git
+modem-manager-gui
 
 
 ####---->> PRINTER
 ## samba
-garuda-settings-samba
->extra system-config-samba # python2 package
+garuda-samba
 
 ## printing
 garuda-printer
-print-manager
 
 ## scanning
 garuda-scanner
-skanlite
+simple-scan
+
 
 ####---->> INPUT
 garuda-input
->extra evdev-right-click-emulation
 libinput_gestures_qt
->extra garuda-fcitx
->extra fcitx-m17n
 
-####---->> XORG
-xorg-server
-xorg-server-xwayland 
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
 
-####---->> WAYLAND
+## Fonts          
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts
+noto-fonts-emoji         # emoji font
+ttf-liberation
+terminus-font
+ttf-opensans
 
+>extra noto-fonts-extra
+>extra garuda-asian
+
+
+####---->> GARUDA THEMING & SETTINGS
+## theme package
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+garuda-wallpapers
+garuda-icons
+
+## garuda package
+garuda-settings-manager
+garuda-settings-manager-knotifier
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
 
 
 ####---->> UTILITIES
 ## Desktop Utils
+autorandr
+timeshift
+timeshift-autosnap
+libdvdcss
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-kde
->extra wmctrl
->extra numlockx
->extra xbindkeys
->extra xcape
->extra xdotool
->extra xautolock
-#---------=> utilities
-autorandr
-neofetch
-timeshift
-timeshift-autosnap
+
+## Conky 
 >extra conky-lua-nv
 >extra conky-manager
->extra libdvdcss
->extra powertop
->extra htop
->extra libva-utils
->extra vdpauinfo
->extra vulkan-tools
->extra mesa-demos
->extra lib32-mesa-demos
-#---------=> android and file transfer management
+
+#---------=> android 
 android-tools
 android-udev
-busybox
 
+####---->> XORG
+xorg-server
+xorg-server-xephyr
+xorg-xwininfo
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xprop
+xorg-xkill
+xorg-xbacklight
+xorg-xsetroot
 
-####---->> THEMING
-## theme package
+## xorg apps
+wmctrl
+numlockx
+xbindkeys
+xcape
+xdotool
+xautolock
+
+####---->> WAYLAND
+>extra xorg-server-xwayland 
+
+####---->> DESKTOP THEMING
 garuda-kde-settings
-performance-tweaks
-grub-theme-garuda
-plymouth-theme-garuda
-
-sound-theme-smooth
 gtk-engine-murrine
 whitesur-gtk-theme-git
 whitesur-kde-theme-git
 tela-circle-icon-theme-git
 whitesur-cursor-theme-git
 kvantum-qt5
-
-
->extra wish-wallpapers
-garuda-wallpapers
-garuda-icons
-
-## Fonts
-noto-fonts               # default font
-noto-fonts-emoji
-ttf-liberation
-terminus-font
-
->extra noto-fonts-extra
->extra ttf-opensans
->extra ttf-indic-otf
->extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
->extra garuda-asian
-
-
-####---->> SETTINGS
-garuda-settings-manager
-garuda-settings-manager-kcm
-garuda-settings-manager-knotifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
-
 
 
 ####---->> DISPLAY MANAGER

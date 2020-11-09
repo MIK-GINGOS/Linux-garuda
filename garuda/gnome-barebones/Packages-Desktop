@@ -39,11 +39,11 @@ gnome-settings-daemon
 gnome-shell
 gnome-desktop                                                             
 gnome-terminal
-gnome-control-center-nocheese
-
+gnome-control-center
 ####---->> DESKTOP ENVIRONMENT APPS
-nautilus-typeahead
+nautilus
 file-roller
+eog
 
 ###-------archive formats
 p7zip
