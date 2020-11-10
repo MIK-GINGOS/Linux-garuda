@@ -260,10 +260,9 @@ audacity
 easytag
 
 ##------------> Graphics
-gimp
-inkscape
 gcolor3
-converseen
+#gimp
+#inkscape
 #blender
 
 ##------------> Office
