@@ -24,9 +24,10 @@ xdg-desktop-portal-kde
 neofetch-git
 timeshift
 timeshift-autosnap
-powertop
 htop
-octopi
+pamac-aur
+downgrade
+paru
 
 #---------=> android and file transfer management
 android-tools
@@ -36,6 +37,7 @@ android-udev-git
 ####---->> THEMING
 ## theme package
 garuda-dr460nized
+garuda-common-settings
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
@@ -94,9 +96,7 @@ okular
 partitionmanager
 spectacle
 elisa
-krdc
-krfb
-kdenlive
+
 
 
 ## Optional dependencies for ark
@@ -116,15 +116,15 @@ fish
 
 ####---->> OTHER APPS
 latte-dock
-obs-studio
 ufw
 gufw
 bleachbit
 base-devel
+vlc
+alacritty-ligatures-git
 
 ##------------> office
 libreoffice-fresh
-libreoffice-fresh-de
 libmythes
 
 
@@ -135,24 +135,3 @@ firefox-extension-bitwarden
 telegram-desktop-dev
 nextcloud-client
 kmozillahelper
-ungoogled-chromium-git
-
-garuda-virtualbox
-
-lutris
-gimp-git
-visual-studio-code-insiders
-vlc
-github-desktop-bin
-alacritty-ligatures-git
-cmatrix
-cowsay
-lolcat
-cmake
-spotify-dev
-
-gamemode
-lib32-gamemode
-
-docker
-docker-compose
