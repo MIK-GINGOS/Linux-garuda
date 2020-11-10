@@ -138,8 +138,8 @@ yaru-sound-theme
 
 
 ####---->> DISPLAY MANAGER
-gdm-prime
-libgdm-prime
+gdm
+libgdm
 
 
 ####---->> DESKTOP ENVIRONMENT

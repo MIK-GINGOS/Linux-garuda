@@ -29,8 +29,8 @@ garuda-settings-manager-knotifier
 garuda-welcome-git
 
 ####---->> DISPLAY MANAGER
-gdm-prime
-libgdm-prime
+gdm
+libgdm
 
 ####---->> DESKTOP ENVIRONMENT
 mutter
