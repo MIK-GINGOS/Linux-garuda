@@ -15,7 +15,7 @@ xorg-server-xwayland
 
 ###---->> INPUT
 garuda-input
-libinput-gesture
+libinput-gestures
 gestures
 
 ####---->> DISPLAY MANAGER
