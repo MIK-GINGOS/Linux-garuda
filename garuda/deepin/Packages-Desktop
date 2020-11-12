@@ -222,6 +222,7 @@ deepin-music
 deepin-picker
 deepin-printer
 deepin-reader
+deepin-screenshot
 deepin-screen-recorder
 deepin-screensaver-pp
 deepin-terminal 
@@ -238,11 +239,7 @@ qbittorrent
 warpinator
 webapp-manager-git
 hypnotix-git
-##------------> office
-wps-office
-wps-office-fonts
-wps-office-mime
-libmythes
+
 
 ## Internet applications
 thunderbird

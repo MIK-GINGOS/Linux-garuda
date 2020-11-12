@@ -223,25 +223,6 @@ xfce4-pulseaudio-plugin
 xfce4-mount-plugin
 xfce4-fsguard-plugin
 mugshot
->extra xfburn
-#>extra xfce4-whiskermenu-plugin
-#>extra xfce4-cpufreq-plugin
-#>extra xfce4-cpugraph-plugin
-#>extra xfce4-diskperf-plugin
-#>extra xfce4-eyes-plugin
-#>extra xfce4-genmon-plugin
-#>extra xfce4-mailwatch-plugin
-#>extra xfce4-mpc-plugin
-#>extra xfce4-netload-plugin
-#>extra xfce4-sensors-plugin 
-#>extra xfce4-smartbookmark-plugin
-#>extra xfce4-systemload-plugin
-#>extra xfce4-time-out-plugin
-#>extra xfce4-timer-plugin
-#>extra xfce4-verve-plugin
-#>extra xfce4-wavelan-plugin
-
-
 
 ####---->> OTHER APPS
 ksnip
@@ -257,26 +238,7 @@ catfish
 meld
 peek
 galculator
->extra python-xdg
->extra guiscrcpy
->extra warpinator
->extra guvcview
->extra converseen
->extra transmageddon
->extra soundconverter
->extra pitivi
->extra olivia
->extra easytag
 
-##------------> Graphics
->extra gimp
->extra inkscape
->extra blender
->extra gcolor3
-
-##------------> office
-libreoffice-fresh
-libmythes
 
 ## Internet applications
 >extra thunderbird

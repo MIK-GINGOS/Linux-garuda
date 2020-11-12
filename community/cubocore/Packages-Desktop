@@ -1,189 +1,63 @@
-###############################
-### This is a template list ###
-###############################
 ####---->> PACKAGE MANAGEMENT
-## Graphical
->extra pamac-aur
->extra pamac-tray-appindicator
->extra bauh
 octopi
-
-## APPIMAGE Support
->extra appimagelauncher
-
-## FIRMWARE UPDATES
->extra fwupd
-
-## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
-
-## Flatpak support
->extra flatpak
-
-## PACKAGEKIT SUPPORT
->extra packagekit-qt5
-
-####---->> AUDIO
->extra garuda-alsa
->extra garuda-pulse
->extra garuda-pipewire
-pavucontrol-qt
-pulseaudio-equalizer-ladspa
-paprefs
-pulseaudio-modules-bt-git
-libldac
->extra pulseaudio-ctl
->extra playerctl
-
-
-####---->> VIDEO
->extra garuda-vaapi
-garuda-gstreamer
-
 ####---->> NETWORK
-garuda-connman
-garuda-modem
-garuda-bluetooth
+connman
+iwd
 cmst
-bluedevil
->extra qomui-git
->extra wds-git
->extra nx-firewall-git
-
-
-
-####---->> PRINTER
-## samba
-garuda-settings-samba
->extra system-config-samba # python2 package
-
-## printing
->extra garuda-printer
->extra system-config-printer
->extra python-pysmbc
->extra splix
->extra hplip
->extra python-pyqt5
->extra python-reportlab
->extra print-manager
-
-## scanning
->extra skanlite
-
-####---->> INPUT
-garuda-input
-evdev-right-click-emulation
-libinput_gestures_qt
-#>extra fingerprint-gui
-garuda-fcitx
->extra garuda-indic
->extra plasma-thunderbolt
->extra wacom-utility
->extra kcm-fcitx
+blueberry
+qomui-git
 
 ####---->> XORG
-xorg-server
-xorg-server-xwayland 
 xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
 
 ####---->> WAYLAND
+xorg-server-xwayland 
 
+###---->> INPUT
+garuda-input
+libinput-gesture
+gestures
 
+####---->> DISPLAY MANAGER
+sddm
+
+####---->> DESKTOP ENVIRONMENT
+paperdesktop-git
+
+wayfire
+wayfire-plugins-extra
+wcm
+wdisplays                               # display output management
+kanshi                                  # multimonitor display config
+wf-recorder                             # for recording screen
+wf-osk-git                              # virtual keyboard
+mako                                    # notification daemon
+lxqt-policykit                          # policykit agent
+swaylock                                # locksceen
+swayidle                                # idle management
+grim                                    # screenshot
+slurp                                   # screenshot
+redshift-wayland-git                    # nightmode
+clipman                                 # clipboard management
+wofi                                    # menus
+brightnessctl                           # brightness
+pulseaudio-ctl                          # audio
+playerctl                               # multimedia keys
+
+gnome-keyring
 
 ####---->> UTILITIES
 ## Desktop Utils
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
->extra xdg-desktop-portal
->extra xdg-desktop-portal-gtk
->extra wmctrl
->extra numlockx
->extra xbindkeys
->extra xcape
->extra xdotool
->extra xautolock
-#---------=> utilities
-autorandr
->extra libdvdcss
->extra powertop
-neofetch-git
->extra htop
-timeshift
-timeshift-autosnap
->extra conky-lua-nv
-libva-utils
-vdpauinfo
-vulkan-tools
-mesa-demos
->extra lib32-mesa-demos
+xdg-desktop-portal-wlr
+
 #---------=> android 
 android-tools
 android-udev
-busybox
 
-####---->> THEMING
-## theme package
-garuda-cubocore-settings
-performance-tweaks
-grub-theme-garuda
-plymouth-theme-garuda
-
-sound-theme-smooth
->extra gtk-engine-murrine
-qt5ct
-kvantum-qt5
-kvantum-theme-vimix-git
-
-## Fonts
-noto-fonts               # default font
-#>extra noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
-noto-fonts-emoji
-terminus-font
->extra ttf-opensans
->extra powerline-fonts
-
-
-####---->> SETTINGS
-garuda-settings-manager
-garuda-settings-manager-kcm
-garuda-settings-manager-knotifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
-
-
-
-####---->> DISPLAY MANAGER
-sddm
->extra sddm-kcm
-qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
-
-
-####---->> DESKTOP ENVIRONMENT
-kwin
->extra kde-cli-tools
->extra plasma-workspace
-kwin-decoration-sierra-breeze-enhanced-git
-kwin-scripts-krohnkite-git
-
-desq-git
-coreapps-git
-
-###-------archive formats
->extra arj
->extra cpio
->extra lha
->extra lrzip
->extra lzip
->extra lzop
->extra unace
+## archive formats
 p7zip
 unarchiver
 unarj
@@ -191,49 +65,40 @@ unrar
 unzip
 zip
 
->extra poppler-data
->extra poppler-glib
-
-####---->> OTHER APPS
-android-file-transfer
-speedcrunch
-qbittorrent
+## applications
+firefox
+coreapps-git
 mpv
-partitionmanager
-imagewriter
-audacious
-audacious-plugins
-simplescreenrecorder
-guvcview-qt
-redshift-qt
-systemdgenie
-smb4k
->extra stacer
->extra guiscrcpy
->extra kdeconnect
->extra sshfs
->extra krfb
->extra krdc
->extra freerdp
->extra kdiff3
->extra krename
->extra nitroshare
->extra photoflare
->extra mystiq
->extra converseen
->extra shotcut
->extra python-xdg
->extra pdfmixtool
->extra shortwave
-##------------> office
->extra libreoffice-fresh
->extra libmythes
+pavucontrol-qt
+pulseaudio-equalizer-ladspa
+paprefs
+pulseaudio-modules-bt-git
+libldac
+android-file-transfer
 
-## Internet applications
-otter-browser-nowebengine
-trojita
+####---->> THEMING
+capitaine-cursors
+gtk-engine-murrine
+qt5ct
+kvantum-qt5
+kvantum-theme-materia
+tela-circle-icon-theme-git
+orchis-theme-git
 
->extra thunderbird
->extra garuda-firefox
->extra firefox-extension-kdeconnect
+## Fonts
+noto-fonts               # default font
+noto-fonts-emoji
+
+#---------=> utilities
+timeshift
+timeshift-autosnap
+
+## theme package
+garuda-wayfire-settings
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+
+
+
 

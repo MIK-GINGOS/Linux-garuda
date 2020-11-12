@@ -267,8 +267,8 @@ popsicle-git
 >extra gcolor3
 
 ##------------> office
-libreoffice-fresh
-libmythes
+>extra libreoffice-fresh
+>extra libmythes
 
 ## Internet applications
 #thunderbird  using geary (lightweight)

@@ -207,12 +207,8 @@ webapp-manager-git
 hypnotix-git
 xviewer-plugins
 nemo-seahorse
-
 gtkhash-nemo
->extra gnome-color-manager
->extra gnome-online-accounts
->extra gnome-logs
- 
+
 
 ####---->> OTHER APPS
 mpv
@@ -233,6 +229,7 @@ rhythmbox
 >extra baobab
 >extra brasero
 >extra systemd-ui
+# >extra shortwave doesnt exist
 >extra youtube-dl
 >extra guvcview
 >extra python-xdg
@@ -251,8 +248,8 @@ rhythmbox
 >extra gcolor3
 
 ##------------> office
-libreoffice-fresh
-libmythes
+>extra libreoffice-fresh
+>extra libmythes
 
 ## Internet applications
 thunderbird

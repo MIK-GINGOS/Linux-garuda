@@ -197,6 +197,7 @@ audacious-plugins
 atril
 warpinator
 webapp-manager-git
+hypnotix-git
 peek
 partitionmanager
 stacer
@@ -205,10 +206,10 @@ qbittorrent
 ciano
 cheese
 ##------------> office
-wps-office
-wps-office-fonts
-wps-office-mime
-libmythes
+>extra wps-office
+>extra wps-office-fonts
+>extra wps-office-mime
+>extra libmythes
 
 ## Internet applications
 thunderbird
