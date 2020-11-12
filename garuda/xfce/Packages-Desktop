@@ -22,7 +22,6 @@ pulseaudio-modules-bt-git
 libldac
 pulseaudio-ctl
 playerctl
-pasystray
 qjackctl
 
 ####---->> VIDEO
@@ -37,7 +36,6 @@ blueman
 network-manager-applet
 qomui-git
 modem-manager-gui
-networkmanager-dmenu
 
 ####---->> PRINTER
 ## samba
@@ -128,7 +126,7 @@ xautolock
 >extra xorg-server-xwayland 
 
 ####---->> DESKTOP THEMING
-garuda-recbox-settings
+garuda-xfce-settings
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
