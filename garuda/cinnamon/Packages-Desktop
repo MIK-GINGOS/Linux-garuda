@@ -202,6 +202,9 @@ nemo-share
 gnome-calculator
 gnome-terminal-transparency
 gnome-screenshot
+gnome-color-manager
+gnome-online-accounts
+gnome-logs
 warpinator
 webapp-manager-git
 hypnotix-git
