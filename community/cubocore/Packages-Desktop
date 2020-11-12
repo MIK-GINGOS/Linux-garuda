@@ -20,7 +20,8 @@ gestures
 
 ####---->> DISPLAY MANAGER
 sddm
-
+sddm-theme-sugar-candy-git
+qt5-virtualkeyboard
 ####---->> DESKTOP ENVIRONMENT
 paperdesktop-git
 
