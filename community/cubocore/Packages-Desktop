@@ -68,7 +68,31 @@ zip
 
 ## applications
 firefox
-coreapps-git
+libcprime-git
+libcsys-git
+coreaction-git
+libarchive-qt
+corearchiver
+corefm-git
+coregarage-git
+corehunt-git
+coreimage-git
+coreinfo-git
+#corekeyboard
+corepad-git
+corepaint-git
+corepdf-git
+corepins-git
+corerenamer-git
+#coreshot-git
+corestats-git
+#libdesq-git
+#corestuff-git
+coreterminal
+coretime-git
+coretoppings-git
+coreuniverse-git
+
 mpv
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
