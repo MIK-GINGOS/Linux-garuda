@@ -1,7 +1,6 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
 pamac-aur
-pamac-tray-appindicator
 yay
 downgrade
 
@@ -27,6 +26,7 @@ qjackctl
 ####---->> VIDEO
 garuda-vaapi
 garuda-gstreamer
+redshift
 
 ####---->> NETWORK
 garuda-network
