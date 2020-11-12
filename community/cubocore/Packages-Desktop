@@ -71,8 +71,8 @@ firefox
 libcprime-git
 libcsys-git
 coreaction-git
-libarchive-qt
-corearchiver
+libarchive-qt-git
+corearchiver-git
 corefm-git
 coregarage-git
 corehunt-git
@@ -88,7 +88,7 @@ corerenamer-git
 corestats-git
 #libdesq-git
 #corestuff-git
-coreterminal
+coreterminal-git
 coretime-git
 coretoppings-git
 coreuniverse-git
