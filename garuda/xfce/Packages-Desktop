@@ -1,6 +1,4 @@
-###############################
-### This is a template list ###
-###############################
+####
 ####---->> PACKAGE MANAGEMENT
 pamac-aur
 downgrade
