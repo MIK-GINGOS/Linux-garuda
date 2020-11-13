@@ -1,3 +1,6 @@
+###############################
+### This is a template list ###
+###############################
 ####---->> PACKAGE MANAGEMENT
 pamac-aur
 downgrade
@@ -8,18 +11,16 @@ gnome-firmware
 fwupd
 
 ####---->> AUDIO
-garuda-alsa
-garuda-jack
-garuda-pulse
-garuda-pipewire
+pulseaudio-modules-bt-git
+libldac
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-modules-bt-git
-libldac
+garuda-alsa
+garuda-pulse
+garuda-pipewire
 pulseaudio-ctl
 playerctl
-qjackctl
 
 ####---->> VIDEO
 garuda-vaapi
@@ -30,14 +31,14 @@ redshift
 garuda-network
 garuda-modem
 garuda-bluetooth
-blueman
 network-manager-applet
-qomui-git
-modem-manager-gui
+blueman
+qomui
 
 ####---->> PRINTER
 ## samba
-garuda-samba
+garuda-settings-samba
+system-config-samba # python2 package
 
 ## printing
 garuda-printer
@@ -48,76 +49,83 @@ simple-scan
 
 ####---->> INPUT
 garuda-input
+garuda-ibus
+ibus-m17n
+wacom-utility
+evdev-right-click-emulation
 gesture-manager-x-git
-
-## Fonts
-noto-fonts               # default font
-noto-fonts-cjk           # asian fonts
-noto-fonts-emoji         # emoji font
-ttf-liberation
-terminus-font
-ttf-opensans
-
->extra noto-fonts-extra
->extra garuda-asian
-
-####---->> GARUDA THEMING & SETTINGS
-## theme package
-performance-tweaks
-grub-theme-garuda
-plymouth-theme-garuda
-garuda-wallpapers
-garuda-icons
-
-## garuda package
-garuda-settings-manager
-garuda-settings-manager-knotifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
-
-####---->> UTILITIES
-## Desktop Utils
-autorandr
-timeshift
-timeshift-autosnap
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
-xdg-desktop-portal
-xdg-desktop-portal-gtk
-
-#---------=> android 
-android-tools
-android-udev
 
 ####---->> XORG
 xorg-server
-xorg-server-xephyr
-xorg-xwininfo
 xorg-xhost
 xorg-xinit
 xorg-xinput
 xorg-xrandr
 xorg-xprop
-xorg-xkill
-xorg-xbacklight
-xorg-xsetroot
 
-## xorg apps
+####---->> WAYLAND
+
+####---->> UTILITIES
+## Desktop Utils
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+xdg-desktop-portal
+xdg-desktop-portal-gtk
 wmctrl
-numlockx
 xbindkeys
 xcape
 xdotool
 xautolock
+#---------=> utilities
+autorandr
+neofetch
+timeshift
+timeshift-autosnap
+powertop
+htop
+libva-utils
+vdpauinfo
+vulkan-tools
+mesa-demos
+lib32-mesa-demos
+#---------=> android 
+android-tools
+android-udev
 
-####---->> DESKTOP THEMING
+####---->> THEMING
+## theme package
 garuda-xfce-settings
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+
+sound-theme-smooth
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
 papirus-icon-theme
+
+garuda-wallpapers
+garuda-icons
+
+## Fonts
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+noto-fonts-emoji
+noto-fonts-extra
+ttf-liberation
+terminus-font
+ttf-opensans
+ttf-indic-otf
+garuda-asian
+
+####---->> SETTINGS
+garuda-settings-manager
+garuda-settings-manager-knotifier
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
 
 ####---->> DISPLAY MANAGER
 lightdm
