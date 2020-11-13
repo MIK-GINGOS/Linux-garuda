@@ -61,8 +61,6 @@ xorg-xinput
 xorg-xrandr
 xorg-xprop
 
-####---->> WAYLAND
-
 ####---->> UTILITIES
 ## Desktop Utils
 perl-file-mimeinfo
