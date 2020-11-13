@@ -1,14 +1,15 @@
-####
-####---->> PACKAGE MANAGEMENT
+## Garuda Linux XFCE
+
+## Package Management
 pamac-aur
 downgrade
 yay
 
-## FIRMWARE UPDATES
+## Firmware Updates
 gnome-firmware
 fwupd
 
-####---->> AUDIO
+## Audio
 pulseaudio-modules-bt-git
 libldac
 pavucontrol
@@ -20,12 +21,12 @@ garuda-pipewire
 pulseaudio-ctl
 playerctl
 
-####---->> VIDEO
+## Video
 garuda-vaapi
 garuda-gstreamer
 redshift
 
-####---->> NETWORK
+## Network
 garuda-network
 garuda-modem
 garuda-bluetooth
@@ -33,19 +34,18 @@ network-manager-applet
 blueman
 qomui
 
-####---->> PRINTER
-## samba
+## Samba
 garuda-settings-samba
 system-config-samba # python2 package
 
-## printing
+## Printing
 garuda-printer
 
-## scanning
+## Scanning
 garuda-scanner
 simple-scan
 
-####---->> INPUT
+## Input
 garuda-input
 garuda-ibus
 ibus-m17n
@@ -53,7 +53,7 @@ wacom-utility
 evdev-right-click-emulation
 gesture-manager-x-git
 
-####---->> XORG
+## XORG
 xorg-server
 xorg-xhost
 xorg-xinit
@@ -61,8 +61,8 @@ xorg-xinput
 xorg-xrandr
 xorg-xprop
 
-####---->> UTILITIES
-## Desktop Utils
+## Utilities
+## Desktop Utilities
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
@@ -73,7 +73,8 @@ xbindkeys
 xcape
 xdotool
 xautolock
-#---------=> utilities
+
+## General Utilities
 autorandr
 neofetch
 timeshift
@@ -85,12 +86,12 @@ vdpauinfo
 vulkan-tools
 mesa-demos
 lib32-mesa-demos
-#---------=> android 
+
+## Android 
 android-tools
 android-udev
 
-####---->> THEMING
-## theme package
+## Theme Packages
 garuda-xfce-settings
 performance-tweaks
 grub-theme-garuda
@@ -116,21 +117,20 @@ ttf-opensans
 ttf-indic-otf
 garuda-asian
 
-####---->> SETTINGS
+## General Settings
 garuda-settings-manager
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
 
-####---->> DISPLAY MANAGER
+## Display Manager
 lightdm
 lightdm-slick-greeter
 lightdm-settings
 accountsservice  # Enhanced user accounts handling
 
-####---->> DESKTOP ENVIRONMENT
-#### xfce
+## Desktop Environment - XFCE
 exo
 garcon
 thunar
@@ -147,7 +147,7 @@ xfdesktop
 xfwm4
 xfwm4-themes
 
-####---->> DESKTOP ENVIRONMENT APPS
+## Desktop Environment Applications
 #------opt deps for archiver & file manager
 ffmpegthumbnailer
 libgsf
@@ -162,7 +162,7 @@ gvfs-gphoto2
 gvfs-google
 gvfs-goa
 
-###-------archive formats
+## Archive formats
 arj
 cpio
 lha
@@ -181,7 +181,7 @@ poppler-data
 poppler-glib
 xarchiver
 
-## xfce extra
+## XFCE Extra
 menulibre
 mugshot
 mousepad
@@ -203,6 +203,7 @@ xfce4-xkb-plugin
 xfce4-mount-plugin
 xfce4-whiskermenu-plugin
 xfce4-taskmanager
+
 ## Not needed but nice to have
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
@@ -227,25 +228,6 @@ festival
 onboard
 mousetweaks
 
-####---->> OTHER APPS
-gnome-keyring
-qpdfview
-galculator
-gparted
-catfish
-meld
-peek
-mintstick
-bleachbit
-xfburn
-#youtube-dl
-systemd-ui
-python-xdg
-vim # Needed for pacdiff
-
-warpinator
-guvcview
-
 ## Multimedia
 vlc
 libdvdcss
@@ -254,13 +236,13 @@ pitivi
 audacity
 easytag
 
-##------------> Graphics
+## Graphics
 gcolor3
 #gimp
 #inkscape
 #blender
 
-##------------> Office
+## Office
 abiword
 #libreoffice-fresh
 libmythes
@@ -279,22 +261,30 @@ transmission-gtk
 gtkhash
 veracrypt
 
-####   AMD Vulkan
+## AMD Vulkan
 #amdvlk
 #lib32-amdvlk
 
-####---->> VIRTUALIZATION
+## Virtualisation
 
-####---->> GAME CONTROLLER
-antimicrox
-linuxconsole
+## Miscellaneous Application
+gnome-keyring
+qpdfview
+galculator
+gparted
+catfish
+meld
+peek
+mintstick
+bleachbit
+xfburn
+#youtube-dl
+systemd-ui
+python-xdg
+vim # Needed for pacdiff
 xboxdrv
-xpadneo-dkms-git
-steamos-xpad-dkms
-xow-git
-xbox-generic-controller
-game-devices-udev
-retroarch-autoconfig-udev-git
+warpinator
+guvcview
 
 ## Java
 jdk8-openjdk
