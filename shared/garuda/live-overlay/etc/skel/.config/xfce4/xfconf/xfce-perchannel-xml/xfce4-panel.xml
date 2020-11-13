@@ -12,6 +12,7 @@
       <property name="size" type="uint" value="38"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
+        <value type="int" value="7"/>
         <value type="int" value="15"/>
         <value type="int" value="17"/>
         <value type="int" value="18"/>
@@ -51,6 +52,8 @@
       <property name="show-frame" type="bool" value="false"/>
       <property name="square-icons" type="bool" value="true"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="nextcloud"/>
+        <value type="string" value="redshift-gtk"/>
         <value type="string" value="firewall-applet"/>
         <value type="string" value="hp-systray"/>
         <value type="string" value="onboard"/>
@@ -108,6 +111,9 @@
       <property name="items" type="array">
         <value type="string" value="16047989901.desktop"/>
       </property>
+    </property>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="style" type="uint" value="0"/>
     </property>
   </property>
 </channel>
