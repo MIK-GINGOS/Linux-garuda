@@ -1,13 +1,11 @@
 ####---->> PACKAGE MANAGEMENT
-## Graphical
 pamac-aur
-yay
 downgrade
+yay
 
 ## FIRMWARE UPDATES
 gnome-firmware
 fwupd
-
 
 ####---->> AUDIO
 garuda-alsa
@@ -48,11 +46,9 @@ garuda-printer
 garuda-scanner
 simple-scan
 
-
 ####---->> INPUT
 garuda-input
 gesture-manager-x-git
-
 
 ## Fonts
 noto-fonts               # default font
@@ -64,7 +60,6 @@ ttf-opensans
 
 >extra noto-fonts-extra
 >extra garuda-asian
-
 
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
@@ -80,7 +75,6 @@ garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
-
 
 ####---->> UTILITIES
 ## Desktop Utils
