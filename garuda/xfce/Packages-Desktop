@@ -147,8 +147,7 @@ xfdesktop
 xfwm4
 xfwm4-themes
 
-## Desktop Environment Applications
-#------opt deps for archiver & file manager
+## File Manager Extensions
 ffmpegthumbnailer
 libgsf
 libopenraw
