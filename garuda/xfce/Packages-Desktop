@@ -96,15 +96,15 @@ garuda-xfce-settings
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
-
+garuda-wallpapers
+garuda-icons
+#
 sound-theme-smooth
 gtk-engine-murrine
+#
 qt5ct
 kvantum-qt5
 papirus-icon-theme
-
-garuda-wallpapers
-garuda-icons
 
 ## Fonts
 noto-fonts               # default font
@@ -259,6 +259,7 @@ transmission-gtk
 ## Security
 gtkhash
 veracrypt
+signal-desktop # Secure messaging application
 
 ## AMD Vulkan
 #amdvlk
