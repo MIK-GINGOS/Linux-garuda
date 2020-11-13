@@ -87,10 +87,6 @@ xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
-## Conky 
->extra conky-lua-nv
->extra conky-manager
-
 #---------=> android 
 android-tools
 android-udev
