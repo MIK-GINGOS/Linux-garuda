@@ -1,5 +1,4 @@
 ####---->> MEDIA
-pavucontrol-qt
 pulseaudio-modules-bt-git
 libldac
 garuda-gstreamer
@@ -29,7 +28,8 @@ pamac-aur
 downgrade
 paru
 
-#---------=> android and file transfer management
+
+####---->> ANDROID
 android-tools
 android-udev-git
 
@@ -44,7 +44,7 @@ plymouth-theme-garuda
 kvantum-qt5
 garuda-icons
 
-## Fonts
+####---->> FONTS
 noto-fonts
 noto-fonts-emoji
 terminus-font
@@ -98,9 +98,7 @@ spectacle
 elisa
 
 
-
-## Optional dependencies for ark
-###-------archive formats
+####---->> ARCHIVE
 p7zip
 unarchiver
 unarj
@@ -111,7 +109,6 @@ zip
 ffmpegthumbs           
 kaccounts-providers
 sshfs
-fish
 
 
 ####---->> OTHER APPS
@@ -122,16 +119,7 @@ bleachbit
 base-devel
 vlc
 alacritty-ligatures-git
-
-##------------> office
-libreoffice-fresh
-libmythes
-
-
-## Internet applications
-firefox-developer-edition
-firefox-extension-plasma-integration
-firefox-extension-bitwarden
-telegram-desktop-dev
-nextcloud-client
+fish
+firefox-appmenu
 kmozillahelper
+
