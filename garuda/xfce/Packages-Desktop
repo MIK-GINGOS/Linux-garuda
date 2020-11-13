@@ -122,9 +122,6 @@ xcape
 xdotool
 xautolock
 
-####---->> WAYLAND
->extra xorg-server-xwayland 
-
 ####---->> DESKTOP THEMING
 garuda-xfce-settings
 gtk-engine-murrine
