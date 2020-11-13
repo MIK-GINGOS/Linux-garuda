@@ -1,132 +1,136 @@
-####---->> PACKAGE MANAGEMENT
+## Garuda Linux XFCE
+
+## Package Management
 pamac-aur
 downgrade
 yay
 
-## FIRMWARE UPDATES
+## Firmware Updates
 gnome-firmware
 fwupd
 
-####---->> AUDIO
-garuda-alsa
-garuda-jack
-garuda-pulse
-garuda-pipewire
+## Audio
+pulseaudio-modules-bt-git
+libldac
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-modules-bt-git
-libldac
+garuda-alsa
+garuda-pulse
+garuda-pipewire
 pulseaudio-ctl
 playerctl
-qjackctl
 
-####---->> VIDEO
+## Video
 garuda-vaapi
 garuda-gstreamer
 redshift
 
-####---->> NETWORK
+## Network
 garuda-network
 garuda-modem
 garuda-bluetooth
-blueman
 network-manager-applet
-qomui-git
-modem-manager-gui
+blueman
+qomui
 
-####---->> PRINTER
-## samba
-garuda-samba
+## Samba
+garuda-settings-samba
+system-config-samba # python2 package
 
-## printing
+## Printing
 garuda-printer
 
-## scanning
+## Scanning
 garuda-scanner
 simple-scan
 
-####---->> INPUT
+## Input
 garuda-input
+garuda-ibus
+ibus-m17n
+wacom-utility
+evdev-right-click-emulation
 gesture-manager-x-git
 
-## Fonts
-noto-fonts               # default font
-noto-fonts-cjk           # asian fonts
-noto-fonts-emoji         # emoji font
-ttf-liberation
-terminus-font
-ttf-opensans
+## XORG
+xorg-server
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xprop
 
->extra noto-fonts-extra
->extra garuda-asian
+## Utilities
+## Desktop Utilities
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+wmctrl
+xbindkeys
+xcape
+xdotool
+xautolock
 
-####---->> GARUDA THEMING & SETTINGS
-## theme package
+## General Utilities
+autorandr
+neofetch
+timeshift
+timeshift-autosnap
+powertop
+htop
+libva-utils
+vdpauinfo
+vulkan-tools
+mesa-demos
+lib32-mesa-demos
+
+## Android 
+android-tools
+android-udev
+
+## Theme Packages
+garuda-xfce-settings
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 garuda-wallpapers
 garuda-icons
+#
+sound-theme-smooth
+gtk-engine-murrine
+#
+qt5ct
+kvantum-qt5
+papirus-icon-theme
 
-## garuda package
+## Fonts
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts - needed big package, ~76 mb compressed
+noto-fonts-emoji
+noto-fonts-extra
+ttf-liberation
+terminus-font
+ttf-opensans
+ttf-indic-otf
+garuda-asian
+
+## General Settings
 garuda-settings-manager
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
 
-####---->> UTILITIES
-## Desktop Utils
-autorandr
-timeshift
-timeshift-autosnap
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
-xdg-desktop-portal
-xdg-desktop-portal-gtk
-
-#---------=> android 
-android-tools
-android-udev
-
-####---->> XORG
-xorg-server
-xorg-server-xephyr
-xorg-xwininfo
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
-xorg-xkill
-xorg-xbacklight
-xorg-xsetroot
-
-## xorg apps
-wmctrl
-numlockx
-xbindkeys
-xcape
-xdotool
-xautolock
-
-####---->> DESKTOP THEMING
-garuda-xfce-settings
-gtk-engine-murrine
-qt5ct
-kvantum-qt5
-papirus-icon-theme
-
-####---->> DISPLAY MANAGER
+## Display Manager
 lightdm
 lightdm-slick-greeter
 lightdm-settings
 accountsservice  # Enhanced user accounts handling
 
-####---->> DESKTOP ENVIRONMENT
-#### xfce
+## Desktop Environment - XFCE
 exo
 garcon
 thunar
@@ -143,8 +147,7 @@ xfdesktop
 xfwm4
 xfwm4-themes
 
-####---->> DESKTOP ENVIRONMENT APPS
-#------opt deps for archiver & file manager
+## File Manager Extensions
 ffmpegthumbnailer
 libgsf
 libopenraw
@@ -158,7 +161,7 @@ gvfs-gphoto2
 gvfs-google
 gvfs-goa
 
-###-------archive formats
+## Archive formats
 arj
 cpio
 lha
@@ -177,7 +180,7 @@ poppler-data
 poppler-glib
 xarchiver
 
-## xfce extra
+## XFCE Extra
 menulibre
 mugshot
 mousepad
@@ -199,6 +202,7 @@ xfce4-xkb-plugin
 xfce4-mount-plugin
 xfce4-whiskermenu-plugin
 xfce4-taskmanager
+
 ## Not needed but nice to have
 xfce4-cpufreq-plugin
 xfce4-cpugraph-plugin
@@ -223,25 +227,6 @@ festival
 onboard
 mousetweaks
 
-####---->> OTHER APPS
-gnome-keyring
-qpdfview
-galculator
-gparted
-catfish
-meld
-peek
-mintstick
-bleachbit
-xfburn
-#youtube-dl
-systemd-ui
-python-xdg
-vim # Needed for pacdiff
-
-warpinator
-guvcview
-
 ## Multimedia
 vlc
 libdvdcss
@@ -250,13 +235,13 @@ pitivi
 audacity
 easytag
 
-##------------> Graphics
+## Graphics
 gcolor3
 #gimp
 #inkscape
 #blender
 
-##------------> Office
+## Office
 abiword
 #libreoffice-fresh
 libmythes
@@ -274,23 +259,32 @@ transmission-gtk
 ## Security
 gtkhash
 veracrypt
+signal-desktop # Secure messaging application
 
-####   AMD Vulkan
+## AMD Vulkan
 #amdvlk
 #lib32-amdvlk
 
-####---->> VIRTUALIZATION
+## Virtualisation
 
-####---->> GAME CONTROLLER
-antimicrox
-linuxconsole
+## Miscellaneous Application
+gnome-keyring
+qpdfview
+galculator
+gparted
+catfish
+meld
+peek
+mintstick
+bleachbit
+xfburn
+#youtube-dl
+systemd-ui
+python-xdg
+vim # Needed for pacdiff
 xboxdrv
-xpadneo-dkms-git
-steamos-xpad-dkms
-xow-git
-xbox-generic-controller
-game-devices-udev
-retroarch-autoconfig-udev-git
+warpinator
+guvcview
 
 ## Java
 jdk8-openjdk
