@@ -244,9 +244,10 @@ kio-gdrive
 kio-fuse
 spectacle
 
-olivia
+
+elisa
+>extra olivia
 >extra audiocd-kio
->extra elisa
 >extra ksystemlog
 >extra kup
 >extra khelpcenter
@@ -358,11 +359,8 @@ latte-dock-git
 imagewriter
 stacer
 youtube-dl
-#>basic falkon
->basic mpv
 >basic simplescreenrecorder
 >extra mediaelch
->extra qytdl
 >extra obs-studio
 >extra pdfmixtool
 >extra guiscrcpy
@@ -402,9 +400,6 @@ telegram-desktop
 ####---->> WINE
 >extra garuda-wine
 
-
-
-
 ####---->> GAME LAUNCHERS
 
 >extra steam
@@ -415,31 +410,20 @@ telegram-desktop
 >extra minigalaxy
 >extra legendary
 >extra ialauncher-git
-#>extra gamerworld
-#>extra athenaeum-git
-#>extra python-numpy
-#>extra moonlight-qt
-#>extra pegasus-frontend-git
-#>extra steam-tweaks
-#>extra linux-steam-integration
+
 
 ####---->> GAMING TOOLS
->extra openrgb-git
 >extra piper
 >extra fancontrol-gui-git
 >extra corectrl
 >extra gwe
-
 >extra goverlay-git
 >extra mangohud
 >extra lib32-mangohud
 >extra gamemode
 >extra lib32-gamemode
 >extra vkbasalt
-
-
-#>extra ntfix-git
-#>extra openh264
+>extra lib32-vkbasalt
 
 >extra q4wine
 >extra fuseiso
@@ -460,15 +444,6 @@ telegram-desktop
 
 ####---->> EMULATORS
 >extra libretro
-#>extra emulationstation
-#>extra ppsspp
-#>extra pcsxr
-#>extra pcsx2-git
-#>extra rpcs3-git
-#>extra yuzu-mainline-git
-#>extra scummvm-tools
-#>extra scummvm
-#>extra dosbox
 
 ####---->> GAMES
 
@@ -480,12 +455,5 @@ telegram-desktop
 >extra minetest
 >extra minetest-server
 >extra teeworlds
-#>extra puzzles
-#>extra texlive-games
-#>extra kde-games-meta 
-#megaglest
-#xonotic
-#supertuxkart
-#enemy-territory
-#enemy-trritory-data
+
 
