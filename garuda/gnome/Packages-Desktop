@@ -138,8 +138,7 @@ yaru-sound-theme
 
 
 ####---->> DISPLAY MANAGER
-gdm
-libgdm
+sddm
 
 
 ####---->> DESKTOP ENVIRONMENT
@@ -159,8 +158,6 @@ gnome-keyring
 gnome-system-monitor                                                                          
 gnome-terminal-transparency
 gnome-menus
-clutter # needed for blyr
-clutter-gtk
 qt5-wayland
 gnome-control-center
 >extra gpaste
@@ -235,7 +232,6 @@ poppler-glib
 
 ksnip
 bleachbit
-deluge-gtk
 peek
 popsicle-git
 >extra baobab
@@ -271,11 +267,5 @@ popsicle-git
 >extra libmythes
 
 ## Internet applications
-#thunderbird  using geary (lightweight)
 garuda-firefox
 firefox-extension-gnome-shell-integration
-telegram-desktop
-syncthing-gtk
-nextcloud-client
-joplin
-
