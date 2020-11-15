@@ -418,6 +418,7 @@ telegram-desktop
 >extra displaycal
 >extra piper
 >extra fancontrol-gui-git
+>extra noisetorch-bin
 >extra corectrl
 >extra gwe
 >extra goverlay-git
@@ -427,7 +428,7 @@ telegram-desktop
 >extra lib32-gamemode
 >extra vkbasalt
 >extra lib32-vkbasalt
->extra gamescope-git
+>extra replay-sorcery
 >extra steamtinkerlaunch
 >extra fastgame-git
 >extra q4wine
@@ -435,10 +436,11 @@ telegram-desktop
 >extra dxvk-mingw-git
 >extra proton-tkg-git
 >extra protontricks-git
-
+>extra boxtron
 
 ####---->> GAME CONTROLLER
 >extra antimicrox
+>extra sc-controller
 >extra oversteer
 >extra linuxconsole
 >extra xboxdrv
