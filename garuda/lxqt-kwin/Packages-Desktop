@@ -215,7 +215,6 @@ audacious
 audacious-plugins
 stacer
 simplescreenrecorder
-
 kdeconnect
 sshfs
 >extra guvcview-qt
@@ -248,7 +247,7 @@ sshfs
 ## Internet applications
 thunderbird
 garuda-firefox
-telegram-desktop
-nextcloud-client
-syncthing-gtk
-joplin
+>extra telegram-desktop
+>extra nextcloud-client
+>extra syncthing-gtk
+>extra joplin

@@ -222,7 +222,6 @@ deepin-music
 deepin-picker
 deepin-printer
 deepin-reader
-deepin-screenshot
 deepin-screen-recorder
 deepin-screensaver-pp
 deepin-terminal 
@@ -244,7 +243,7 @@ hypnotix-git
 ## Internet applications
 thunderbird
 garuda-firefox
-telegram-desktop
-nextcloud-client
-syncthing-gtk
-joplin
+>extra telegram-desktop
+>extra nextcloud-client
+>extra syncthing-gtk
+>extra joplin

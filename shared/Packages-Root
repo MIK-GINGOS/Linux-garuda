@@ -112,6 +112,7 @@ mdadm
 man-db
 man-pages
 logrotate
+mlocate
 lsb-release
 rsync
 freetype2

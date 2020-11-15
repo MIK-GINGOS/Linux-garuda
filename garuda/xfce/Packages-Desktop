@@ -237,21 +237,18 @@ easytag
 
 ## Graphics
 gcolor3
-#gimp
-#inkscape
-#blender
+pinta
 
 ## Office
 abiword
-#libreoffice-fresh
 libmythes
 
 ## Internet applications
 thunderbird
-garuda-firefox
+firefox
+firefox-ublock-origin
+firefox-extension-https-everywhere
 telegram-desktop
-discord
-fractal
 nextcloud-client
 syncthing-gtk
 transmission-gtk
