@@ -413,6 +413,9 @@ telegram-desktop
 
 
 ####---->> GAMING TOOLS
+>extra openrgb-git
+>extra keyboard-visualizer-git
+>extra displaycal
 >extra piper
 >extra fancontrol-gui-git
 >extra corectrl
@@ -424,15 +427,19 @@ telegram-desktop
 >extra lib32-gamemode
 >extra vkbasalt
 >extra lib32-vkbasalt
-
+>extra gamescope-git
+>extra steamtinkerlaunch
+>extra fastgame-git
 >extra q4wine
 >extra fuseiso
 >extra dxvk-mingw-git
 >extra proton-tkg-git
+>extra protontricks-git
 
 
 ####---->> GAME CONTROLLER
 >extra antimicrox
+>extra oversteer
 >extra linuxconsole
 >extra xboxdrv
 >extra xpadneo-dkms-git
