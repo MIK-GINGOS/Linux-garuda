@@ -96,6 +96,7 @@ okular
 partitionmanager
 spectacle
 elisa
+konsole
 
 
 ####---->> ARCHIVE
@@ -122,4 +123,10 @@ alacritty-ligatures-git
 fish
 firefox-appmenu
 kmozillahelper
-
+>extra visual-studio-code-insiders
+>extra github-desktop-bin
+>extra garuda-virtualbox
+>extra libreoffice-fresh-de
+>extra spotify-adblock-git
+>extra nextcloud-client
+>extra telegram-desktop-dev
