@@ -93,12 +93,10 @@ nfs-utils
 >extra udftools
 
 
-
 ## extra things
 mkinitcpio-openswap
 mkinitcpio-nfs-utils
 mkinitcpio-systemd-tool
-
 
 bridge-utils
 usbutils
@@ -124,7 +122,6 @@ powertop
 htop
 inxi
 dmidecode
-mesa-demos
 vulkan-tools
 >extra libva-utils
 >extra vdpauinfo
@@ -133,13 +130,12 @@ vulkan-tools
 chaotic-mirrorlist
 chaotic-keyring
 
-## mhwd
-
+# mhwd
 mhwd-garuda
 mhwd-db-garuda
 
+# Garuda specific
 plymouth-git
 grub-garuda
-garuda-zsh-config
 garuda-browser-settings
 garuda-hooks
