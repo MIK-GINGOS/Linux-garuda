@@ -100,11 +100,11 @@ plasma5-applets-window-buttons
 ark
 dolphin
 dolphin-plugins
+kde-servicemenus-rootactions
 kdeconnect
 okular
 partitionmanager
 spectacle
-elisa
 konsole
 krfb
 kate
@@ -135,6 +135,7 @@ kmozillahelper
 firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn
+firefox-extension-plasma-integration
 
 >extra krdc
 >extra base-devel
@@ -142,7 +143,7 @@ firefox-extension-localcdn
 >extra visual-studio-code-insiders
 >extra github-desktop-bin
 >extra garuda-virtualbox
->extra libreoffice-fresh-de
+>extra libreoffice-fresh
 >extra spotify-adblock-git
 >extra spicetify-cli
 >extra spicetify-themes-git
@@ -150,3 +151,8 @@ firefox-extension-localcdn
 >extra telegram-desktop-dev
 >extra ungoogled-chromium-git
 >extra torbrowser-launcher
+>extra docker
+>extra docker-compose
+>extra linux-xanmod
+>extra linux-xanmod-headers
+>extra lutris
