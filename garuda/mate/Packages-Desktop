@@ -73,6 +73,7 @@ grub-theme-garuda
 plymouth-theme-garuda
 garuda-wallpapers
 garuda-icons
+garuda-zsh-config
 
 ## garuda package
 garuda-settings-manager

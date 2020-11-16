@@ -138,4 +138,5 @@ mhwd-db-garuda
 plymouth-git
 grub-garuda
 garuda-browser-settings
+garuda-common-settings
 garuda-hooks
