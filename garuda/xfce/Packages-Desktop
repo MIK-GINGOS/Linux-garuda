@@ -123,6 +123,7 @@ garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
+garuda-zsh-config
 
 ## Display Manager
 lightdm
