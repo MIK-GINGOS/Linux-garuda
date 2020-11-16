@@ -34,7 +34,6 @@ garuda-pulse
 garuda-vaapi
 garuda-gstreamer
 garuda-input
-garuda-firefox
 
 
 ####---->> ANDROID
@@ -73,22 +72,25 @@ sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
+appmenu-gtk-module
+powerdevil
+quota-tools
+kde-gtk-config
 bluedevil
 kdeplasma-addons
 khotkeys
 kinfocenter
 ksysguard
 kscreen
+kwallet-pam
+kwayland-integration
+plasma-wayland-session
 plasma-desktop
 plasma-nm
 plasma-pa
-kwayland-integration
-kwallet-pam
-powerdevil
-quota-tools
-appmenu-gtk-module
-kde-gtk-config
-plasma-wayland-session
+plasma-vault
+plasma-thunderbolt
+plasma-browser-integration
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
@@ -129,10 +131,15 @@ gufw
 bleachbit
 vlc
 alacritty-ligatures-git
+firefox-appmenu
 kmozillahelper
+firefox-dark-reader
+firefox-ublock-origin
+firefox-extension-localcdn
 
 >extra krdc
 >extra base-devel
+>extra kdenlive
 >extra visual-studio-code-insiders
 >extra github-desktop-bin
 >extra garuda-virtualbox
