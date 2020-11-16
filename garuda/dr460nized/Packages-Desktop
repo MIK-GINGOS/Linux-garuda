@@ -40,7 +40,7 @@ garuda-dr460nized
 garuda-fish-config
 performance-tweaks
 grub-theme-garuda
-plymouth-theme-garuda
+plymouth-theme-garuda-purple
 kvantum-qt5
 garuda-icons
 
@@ -128,5 +128,8 @@ kmozillahelper
 >extra garuda-virtualbox
 >extra libreoffice-fresh-de
 >extra spotify-adblock-git
+>extra spicetify-cli
+>extra spicetify-themes-git
 >extra nextcloud-client
 >extra telegram-desktop-dev
+>extra ungoogled-chromium-git
