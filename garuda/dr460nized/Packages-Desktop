@@ -29,6 +29,14 @@ downgrade
 paru
 
 
+####---->> GARUDA META
+garuda-pulse
+garuda-vaapi
+garuda-gstreamer
+garuda-input
+garuda-firefox
+
+
 ####---->> ANDROID
 android-tools
 android-udev-git
@@ -97,6 +105,7 @@ partitionmanager
 spectacle
 elisa
 konsole
+krdc
 
 
 ####---->> ARCHIVE
@@ -117,12 +126,12 @@ latte-dock
 ufw
 gufw
 bleachbit
-base-devel
 vlc
 alacritty-ligatures-git
-fish
-firefox-appmenu
 kmozillahelper
+
+>extra krfb
+>extra base-devel
 >extra visual-studio-code-insiders
 >extra github-desktop-bin
 >extra garuda-virtualbox
