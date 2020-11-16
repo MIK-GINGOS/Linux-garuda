@@ -38,6 +38,7 @@ android-udev-git
 ## theme package
 garuda-dr460nized
 garuda-common-settings
+garuda-fish-config
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
