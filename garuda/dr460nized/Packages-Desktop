@@ -105,7 +105,8 @@ partitionmanager
 spectacle
 elisa
 konsole
-krdc
+krfb
+kate
 
 
 ####---->> ARCHIVE
@@ -130,7 +131,7 @@ vlc
 alacritty-ligatures-git
 kmozillahelper
 
->extra krfb
+>extra krdc
 >extra base-devel
 >extra visual-studio-code-insiders
 >extra github-desktop-bin
