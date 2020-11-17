@@ -93,6 +93,7 @@ plasma-browser-integration
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
+kwin-scripts-forceblur
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -124,7 +125,7 @@ sshfs
 
 
 ####---->> OTHER APPS
-latte-dock
+latte-dock-git
 ufw
 gufw
 bleachbit
