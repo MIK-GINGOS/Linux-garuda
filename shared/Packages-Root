@@ -127,6 +127,9 @@ mesa-demos # needed for glxinfo command
 libva-utils
 vdpauinfo
 
+# terminal font
+terminus-font
+
 # chaotic repo
 chaotic-mirrorlist
 chaotic-keyring

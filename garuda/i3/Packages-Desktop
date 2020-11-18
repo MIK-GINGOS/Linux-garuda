@@ -55,18 +55,6 @@ garuda-input
 gesture-manager-x-git
 
 
-## Fonts          
-noto-fonts               # default font
-noto-fonts-cjk           # asian fonts
-noto-fonts-emoji         # emoji font
-ttf-liberation
-terminus-font
-ttf-opensans
-
->extra noto-fonts-extra
->extra garuda-asian
-
-
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
 performance-tweaks
@@ -82,6 +70,16 @@ garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
+
+## Fonts     
+noto-fonts               # default font
+noto-fonts-emoji         # emoji font
+ttf-liberation
+ttf-opensans
+
+>extra noto-fonts-cjk
+>extra noto-fonts-extra
+>extra garuda-asian
 
 
 ####---->> UTILITIES
@@ -300,6 +298,6 @@ bleachbit
 >extra libmythes
 
 ## Internet applications
-thunderbird
 garuda-firefox
+>extra thunderbird
 

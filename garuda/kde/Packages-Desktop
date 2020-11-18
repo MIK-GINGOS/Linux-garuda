@@ -68,18 +68,6 @@ garuda-input
 libinput_gestures_qt
 
 
-## Fonts          
-noto-fonts               # default font
-noto-fonts-cjk           # asian fonts
-noto-fonts-emoji         # emoji font
-ttf-liberation
-terminus-font
-ttf-opensans
-
->extra noto-fonts-extra
->extra garuda-asian
-
-
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
 performance-tweaks
@@ -96,6 +84,15 @@ garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
 
+## Fonts         
+noto-fonts               # default font
+noto-fonts-emoji         # emoji font
+ttf-liberation
+ttf-opensans
+
+>extra noto-fonts-cjk
+>extra noto-fonts-extra
+>extra garuda-asian
 
 ####---->> UTILITIES
 ## Desktop Utils
@@ -376,12 +373,12 @@ youtube-dl
 
 
 ## Internet applications
-thunderbird
 garuda-firefox
+>extra thunderbird
 firefox-extension-plasma-integration
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-bitwarden
-telegram-desktop
+>extra telegram-desktop
 >extra fractal
 >extra nextcloud-client
 >extra streamlink-twitch-gui
