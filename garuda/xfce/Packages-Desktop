@@ -38,13 +38,13 @@ network-manager-applet
 qomui-git
 modem-manager-gui
 
-## samba
+## Samba
 garuda-samba
 
-## printing
+## Printing
 garuda-printer
 
-## scanning
+## Scanning
 garuda-scanner
 simple-scan
 
@@ -52,16 +52,6 @@ simple-scan
 garuda-input
 wacom-utility
 gesture-manager-x-git
-
-## Fonts
-noto-fonts               # default font
-noto-fonts-cjk           # asian fonts
-noto-fonts-emoji         # emoji font
-noto-fonts-extra
-ttf-liberation
-terminus-font
-ttf-opensans
-garuda-asian
 
 ##Garuda theming & Settings
 ## theme package
@@ -78,6 +68,16 @@ garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
+
+## Fonts
+noto-fonts               # default font
+noto-fonts-cjk           # asian fonts
+noto-fonts-emoji         # emoji font
+noto-fonts-extra
+ttf-liberation
+terminus-font
+ttf-opensans
+garuda-asian
 
 ## Utilities
 ## Desktop Utilities
@@ -108,7 +108,7 @@ xorg-xkill
 xorg-xbacklight
 xorg-xsetroot
 
-## xorg apps
+## XORG Apps
 wmctrl
 numlockx
 xbindkeys
