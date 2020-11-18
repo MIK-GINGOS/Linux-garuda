@@ -53,8 +53,8 @@ garuda-input
 wacom-utility
 gesture-manager-x-git
 
-##Garuda theming & Settings
-## theme package
+## Garuda Theming & Settings
+## Theme package
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
@@ -62,7 +62,7 @@ garuda-wallpapers
 garuda-icons
 garuda-zsh-config
 
-## garuda package
+## Garuda Packages
 garuda-settings-manager
 garuda-settings-manager-knotifier
 garuda-boot-options-git
@@ -108,7 +108,7 @@ xorg-xkill
 xorg-xbacklight
 xorg-xsetroot
 
-## XORG Apps
+## XORG Applications
 wmctrl
 numlockx
 xbindkeys
@@ -167,7 +167,7 @@ gvfs-gphoto2
 gvfs-google
 gvfs-goa
 
-## Archive formats
+## Archive Formats
 arj
 cpio
 lha
@@ -249,7 +249,7 @@ pinta
 abiword
 libmythes
 
-## Internet applications
+## Internet Applications
 thunderbird
 firefox
 firefox-ublock-origin
