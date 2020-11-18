@@ -66,8 +66,7 @@ garuda-welcome-git
 
 
 ####---->> DISPLAY MANAGER
-sddm
-sddm-kcm
+gdm
 
 
 ####---->> DESKTOP ENVIRONMENT
