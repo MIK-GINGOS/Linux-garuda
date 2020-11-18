@@ -4,8 +4,6 @@ xorg-server-xwayland
 xorg-xhost
 xorg-xinit
 
-xdg-user-dirs
-
 #---------=> utilities
 timeshift
 timeshift-autosnap
@@ -30,7 +28,6 @@ garuda-welcome-git
 
 ####---->> DISPLAY MANAGER
 gdm
-libgdm
 
 ####---->> DESKTOP ENVIRONMENT
 mutter
@@ -40,10 +37,12 @@ gnome-shell
 gnome-desktop                                                             
 gnome-terminal
 gnome-control-center
+
 ####---->> DESKTOP ENVIRONMENT APPS
 nautilus
 file-roller
 eog
+xdg-user-dirs
 
 ###-------archive formats
 p7zip
