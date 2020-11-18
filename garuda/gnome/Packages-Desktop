@@ -139,7 +139,7 @@ yaru-sound-theme
 
 
 ####---->> DISPLAY MANAGER
-sddm
+gdm
 
 
 ####---->> DESKTOP ENVIRONMENT

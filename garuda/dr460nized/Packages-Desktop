@@ -49,6 +49,7 @@ grub-theme-garuda
 plymouth-theme-garuda-purple
 kvantum-qt5
 garuda-icons
+yaru-sound-theme
 
 ####---->> FONTS
 noto-fonts
@@ -66,7 +67,8 @@ garuda-welcome-git
 
 
 ####---->> DISPLAY MANAGER
-gdm
+sddm
+sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
