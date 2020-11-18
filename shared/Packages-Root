@@ -122,9 +122,10 @@ powertop
 htop
 inxi
 dmidecode
-vulkan-tools
->extra libva-utils
->extra vdpauinfo
+vulkan-tools # needed for vkcube command
+mesa-demos # needed for glxinfo command
+libva-utils
+vdpauinfo
 
 # chaotic repo
 chaotic-mirrorlist
