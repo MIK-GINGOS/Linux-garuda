@@ -71,13 +71,10 @@ garuda-network-assistant-git
 
 ## Fonts
 noto-fonts               # default font
-noto-fonts-cjk           # asian fonts
 noto-fonts-emoji         # emoji font
-noto-fonts-extra
 ttf-liberation
 terminus-font
 ttf-opensans
-garuda-asian
 
 ## Utilities
 ## Desktop Utilities
