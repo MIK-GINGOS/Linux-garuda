@@ -138,7 +138,7 @@ yaru-sound-theme
 
 
 ####---->> DISPLAY MANAGER
-gdm-plymouth
+gdm
 
 
 ####---->> DESKTOP ENVIRONMENT
