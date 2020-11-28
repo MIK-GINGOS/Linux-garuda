@@ -188,7 +188,7 @@ flashfocus
 archlinux-xdg-menu
 menumaker
 alacritty
-
+xfce4-terminal
 
 lxappearance-gtk3
 lxrandr
@@ -252,7 +252,7 @@ tree
 w3m
 cmus
 
-ksnip
+flameshot
 gnome-keyring
 redshift
 qpdfview
@@ -266,7 +266,7 @@ deluge-gtk
 peek
 mintstick
 bleachbit
-
+viewnior
 
 
 >extra smplayer
