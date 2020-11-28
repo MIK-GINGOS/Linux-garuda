@@ -63,6 +63,7 @@ plymouth-theme-garuda
 garuda-wallpapers
 garuda-icons
 garuda-zsh-config
+garuda-common-settings
 
 ## garuda package
 garuda-settings-manager
@@ -175,7 +176,7 @@ i3status
 i3
 
 dunst
-picom-ibhagwan-git
+picom
 nitrogen
 polybar
 tint2
