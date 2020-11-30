@@ -96,8 +96,8 @@ xdg-desktop-portal
 xdg-desktop-portal-gtk
 
 ## Conky 
-extra conky-lua-nv
->extra conky-manager
+conky-lua-nv
+conky-manager
 
 #---------=> android 
 android-tools
