@@ -25,7 +25,6 @@ timeshift-autosnap
 htop
 pamac-aur
 downgrade
-paru
 
 
 ####---->> GARUDA META
@@ -33,6 +32,7 @@ garuda-pulse
 garuda-vaapi
 garuda-gstreamer
 garuda-input
+garuda-bluetooth
 
 
 ####---->> ANDROID
