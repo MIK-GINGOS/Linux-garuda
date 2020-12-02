@@ -51,7 +51,10 @@ grub-theme-garuda
 plymouth-theme-garuda-purple
 kvantum-qt5
 garuda-icons
-
+beautyline
+sweet-theme-dark
+xcursor-sweet
+kvantum-theme-sweet-git
 
 ####---->> FONTS
 noto-fonts
