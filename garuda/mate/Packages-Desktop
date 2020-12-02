@@ -131,9 +131,10 @@ garuda-mate-settings
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
-capitaine-cursors
-flat-remix
-flat-remix-gtk
+kvantum-theme-sweet
+beautyline
+sweet-theme-dark
+xcursor-sweet
 
 
 ####---->> DISPLAY MANAGER
