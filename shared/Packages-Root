@@ -122,6 +122,7 @@ powertop
 htop
 inxi
 dmidecode
+gnu-netcat
 
 # terminal font
 terminus-font
