@@ -181,7 +181,8 @@ nautilus-sendto
 nautilus-share
 nautilus-admin
 nautilus-pdf-tools-git
-nautilus-mediainfo
+# nautilus-admin            broken due to Python 3.9
+# nautilus-mediainfo
 sushi
 gnome-disk-utility
 gnome-calculator
