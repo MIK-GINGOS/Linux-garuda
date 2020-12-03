@@ -98,6 +98,7 @@ plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 kwin-scripts-forceblur
+kwin-effects-sliding-notifications
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -105,6 +106,10 @@ ark
 dolphin
 dolphin-plugins
 kde-servicemenus-rootactions
+kde-servicemenus-pdf
+kde-servicemenus-encfs
+kde-service-menu-reimage
+jhead
 kdeconnect
 okular
 partitionmanager
@@ -112,6 +117,8 @@ spectacle
 konsole
 krfb
 kate
+gwenview
+kcalc
 
 
 ####---->> ARCHIVE
@@ -124,9 +131,13 @@ zip
 
 
 ####---->> OTHER APPS
+libinput_gestures_qt
 ffmpegthumbs           
 kaccounts-providers
 sshfs
+kio-extras
+kio-gdrive
+kio-fuse
 latte-dock-git
 ufw
 gufw

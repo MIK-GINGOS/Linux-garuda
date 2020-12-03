@@ -182,7 +182,6 @@ quota-tools
 appmenu-gtk-module
 kde-gtk-config
 >extra plasma-meta
-plasma-wayland-session
 plasma5-applets-latte-spacer
 plasma5-applets-latte-separator
 plasma5-applets-tiledmenu
