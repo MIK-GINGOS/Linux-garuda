@@ -11,10 +11,6 @@ fwupd
 
 
 ####---->> AUDIO
-garuda-alsa
-garuda-jack
-garuda-pulse
-garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
@@ -26,7 +22,6 @@ pasystray
 qjackctl
 
 ####---->> VIDEO
-garuda-vaapi
 garuda-gstreamer
 
 ####---->> NETWORK

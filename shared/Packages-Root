@@ -122,10 +122,6 @@ powertop
 htop
 inxi
 dmidecode
-vulkan-tools # needed for vkcube command
-mesa-demos # needed for glxinfo command
-libva-utils
-vdpauinfo
 
 # terminal font
 terminus-font
@@ -134,9 +130,6 @@ terminus-font
 chaotic-mirrorlist
 chaotic-keyring
 
-# mhwd
-mhwd-garuda
-mhwd-db-garuda
 
 # Garuda specific
 plymouth-git

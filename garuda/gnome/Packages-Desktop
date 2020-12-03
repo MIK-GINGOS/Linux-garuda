@@ -11,10 +11,6 @@ fwupd
 
 
 ####---->> AUDIO
-garuda-alsa
-garuda-jack
-garuda-pulse
-garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
@@ -25,7 +21,6 @@ playerctl
 qjackctl
 
 ####---->> VIDEO
-garuda-vaapi
 garuda-gstreamer
 
 ####---->> NETWORK
@@ -181,8 +176,7 @@ nautilus-sendto
 nautilus-share
 nautilus-admin
 nautilus-pdf-tools-git
-# nautilus-admin            broken due to Python 3.9
-# nautilus-mediainfo
+nautilus-mediainfo
 sushi
 gnome-disk-utility
 gnome-calculator

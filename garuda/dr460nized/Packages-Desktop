@@ -1,4 +1,5 @@
 ####---->> MEDIA
+pulseaudio-equalizer-ladspa
 pulseaudio-modules-bt-git
 libldac
 garuda-gstreamer
@@ -28,9 +29,6 @@ downgrade
 
 
 ####---->> GARUDA META
-garuda-pulse
-garuda-vaapi
-garuda-gstreamer
 garuda-input
 garuda-bluetooth
 garuda-network
