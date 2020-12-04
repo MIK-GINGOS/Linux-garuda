@@ -22,12 +22,12 @@ pasystray
 qjackctl
 
 ####---->> VIDEO
-garuda-gstreamer
+gstreamer-meta
 
 ####---->> NETWORK
-garuda-connman
-garuda-modem
-garuda-bluetooth
+connman-support
+
+bluetooth-support
 blueberry
 connman-gtk
 qomui-git
@@ -35,18 +35,18 @@ modem-manager-gui
 
 ####---->> PRINTER
 ## samba
-garuda-samba
+samba-support
 
 ## printing
-garuda-printer
+printer-support
 
 ## scanning
-garuda-scanner
+scanner-support
 simple-scan
 
 
 ####---->> INPUT
-garuda-input
+input-devices-support
 gesture-manager-x-git
 
 
@@ -75,7 +75,7 @@ ttf-opensans
 
 >extra noto-fonts-cjk
 >extra noto-fonts-extra
->extra garuda-asian
+>extra asian-fonts
 
 
 ####---->> UTILITIES
@@ -197,7 +197,10 @@ meld
 
 ## Internet applications
 geary
-garuda-firefox
+firefox
+firefox-dark-reader
+firefox-ublock-origin
+firefox-extension-localcdn
 >extra thunderbird
 >extra telegram-desktop
 >extra nextcloud-client

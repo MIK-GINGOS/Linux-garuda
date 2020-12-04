@@ -91,6 +91,7 @@ mtools
 ecryptfs-utils
 nfs-utils
 >extra udftools
+sshfs
 
 
 ## extra things
@@ -122,7 +123,7 @@ powertop
 htop
 inxi
 dmidecode
-gnu-netcat
+openbsd-netcat
 
 # terminal font
 terminus-font

@@ -36,30 +36,30 @@ playerctl
 qjackctl
 
 ####---->> VIDEO
-garuda-gstreamer
+gstreamer-meta
 
 ####---->> NETWORK
-garuda-network
-garuda-modem
-garuda-bluetooth
+networkmanager-support
+
+bluetooth-support
 qomui-git
 modem-manager-gui
 
 
 ####---->> PRINTER
 ## samba
-garuda-samba
+samba-support
 
 ## printing
-garuda-printer
+printer-support
 
 ## scanning
-garuda-scanner
+scanner-support
 simple-scan
 
 
 ####---->> INPUT
-garuda-input
+input-devices-support
 libinput_gestures_qt
 
 
@@ -87,7 +87,7 @@ ttf-opensans
 
 >extra noto-fonts-cjk
 >extra noto-fonts-extra
->extra garuda-asian
+>extra asian-fonts
 
 ####---->> UTILITIES
 ## Desktop Utils
@@ -367,7 +367,10 @@ youtube-dl
 
 
 ## Internet applications
-garuda-firefox
+firefox
+firefox-dark-reader
+firefox-ublock-origin
+firefox-extension-localcdn
 >extra thunderbird
 firefox-extension-plasma-integration
 >extra firefox-extension-xdm-browser-monitor
@@ -387,7 +390,7 @@ firefox-extension-plasma-integration
 >extra lib32-amdvlk
 
 ####---->> VIRTUALIZATION
->extra garuda-virt-manager
+>extra virt-manager-meta
 
 ####---->> WINE
 >extra garuda-wine

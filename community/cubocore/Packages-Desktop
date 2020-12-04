@@ -14,7 +14,7 @@ xorg-xhost
 xorg-server-xwayland 
 
 ###---->> INPUT
-garuda-input
+input-devices-support
 libinput-gestures
 gestures
 

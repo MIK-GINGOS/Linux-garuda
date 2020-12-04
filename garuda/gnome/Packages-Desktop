@@ -21,29 +21,29 @@ playerctl
 qjackctl
 
 ####---->> VIDEO
-garuda-gstreamer
+gstreamer-meta
 
 ####---->> NETWORK
-garuda-network
-garuda-modem
-garuda-bluetooth
+networkmanager-support
+
+bluetooth-support
 qomui-git
 modem-manager-gui
 
 ####---->> PRINTER
 ## samba
-garuda-samba
+samba-support
 
 ## printing
-garuda-printer
+printer-support
 
 ## scanning
-garuda-scanner
+scanner-support
 simple-scan
 
 
 ####---->> INPUT
-garuda-input
+input-devices-support
 gesture-manager-x-git
 
 
@@ -73,7 +73,7 @@ ttf-opensans
 
 >extra noto-fonts-cjk
 >extra noto-fonts-extra
->extra garuda-asian
+>extra asian-fonts
 
 
 ####---->> UTILITIES
@@ -262,5 +262,8 @@ popsicle-git
 >extra libmythes
 
 ## Internet applications
-garuda-firefox
+firefox
+firefox-dark-reader
+firefox-ublock-origin
+firefox-extension-localcdn
 firefox-extension-gnome-shell-integration
