@@ -10,10 +10,6 @@ gnome-firmware
 fwupd
 
 ## Audio
-garuda-alsa
-garuda-jack
-garuda-pulse
-garuda-pipewire
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
@@ -25,31 +21,30 @@ pasystray
 qjackctl
 
 ## Video
-garuda-vaapi
-garuda-gstreamer
+gstreamer-meta
 redshift
 
 ## Network
-garuda-network
-garuda-modem
-garuda-bluetooth
+networkmanager-support
+
+bluetooth-support
 blueman
 network-manager-applet
 qomui-git
 modem-manager-gui
 
 ## Samba
-garuda-samba
+samba-support
 
 ## Printing
-garuda-printer
+printer-support
 
 ## Scanning
-garuda-scanner
+scanner-support
 simple-scan
 
 ## Input
-garuda-input
+input-devices-support
 wacom-utility
 gesture-manager-x-git
 
