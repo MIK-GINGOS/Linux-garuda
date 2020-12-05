@@ -9,6 +9,12 @@ timeshift
 timeshift-autosnap
 networkmanager
 
+####---->> AUDIO
+pipewire-pulse
+pipewire-alsa
+pipewire-jack
+wireplumber
+
 ####---->> THEMING
 ## theme package
 performance-tweaks

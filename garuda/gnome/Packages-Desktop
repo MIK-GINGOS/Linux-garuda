@@ -11,17 +11,14 @@ fwupd
 
 
 ####---->> AUDIO
-pavucontrol
-pulseaudio-equalizer-ladspa
-paprefs
-pulseaudio-modules-bt-git
-libldac
-pulseaudio-ctl
-playerctl
-qjackctl
+pipewire-pulse
+pipewire-alsa
+pipewire-jack
+wireplumber
 
 ####---->> VIDEO
 gstreamer-meta
+gst-plugin-pipewire
 
 ####---->> NETWORK
 networkmanager-support
