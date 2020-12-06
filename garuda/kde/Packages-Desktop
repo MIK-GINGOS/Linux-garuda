@@ -393,7 +393,7 @@ firefox-extension-plasma-integration
 >extra virt-manager-meta
 
 ####---->> WINE
->extra garuda-wine
+>extra wine-meta
 
 ####---->> GAME LAUNCHERS
 
