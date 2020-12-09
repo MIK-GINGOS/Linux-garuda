@@ -1,0 +1,291 @@
+####---->> PACKAGE MANAGEMENT
+## Graphical
+pamac-aur
+pamac-tray-appindicator
+yay
+downgrade
+
+## FIRMWARE UPDATES
+gnome-firmware
+fwupd
+
+
+####---->> AUDIO
+pavucontrol
+pulseaudio-equalizer-ladspa
+paprefs
+pulseaudio-modules-bt-git
+libldac
+pulseaudio-ctl
+playerctl
+pasystray
+qjackctl
+
+####---->> VIDEO
+gstreamer-meta
+
+####---->> NETWORK
+networkmanager-support
+
+bluetooth-support
+blueman
+network-manager-applet
+qomui-git
+modem-manager-gui
+
+####---->> PRINTER
+## samba
+samba-support
+
+## printing
+printer-support
+
+## scanning
+scanner-support
+simple-scan
+
+
+####---->> INPUT
+input-devices-support
+gesture-manager-x-git
+
+
+####---->> GARUDA THEMING & SETTINGS
+## theme package
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda
+garuda-wallpapers
+garuda-icons
+garuda-zsh-config
+garuda-common-settings
+garuda-fish-config
+
+## garuda package
+garuda-settings-manager
+garuda-settings-manager-knotifier
+garuda-boot-options-git
+garuda-welcome-git
+garuda-network-assistant-git
+
+## Fonts     
+noto-fonts               # default font
+noto-fonts-emoji         # emoji font
+ttf-liberation
+ttf-opensans
+ttf-fantasque-sans-mono
+ttf-font-awesome
+
+>extra noto-fonts-cjk
+>extra noto-fonts-extra
+>extra asian-fonts
+
+
+####---->> UTILITIES
+## Desktop Utils
+autorandr
+timeshift
+timeshift-autosnap
+libdvdcss
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+
+## Conky 
+conky-lua-nv
+
+#---------=> android 
+android-tools
+android-udev
+
+####---->> XORG
+xorg-server
+xorg-server-xephyr
+xorg-xwininfo
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xprop
+xorg-xkill
+xorg-xbacklight
+xorg-xsetroot
+
+## xorg apps
+wmctrl
+numlockx
+xbindkeys
+xcape
+xdotool
+xautolock
+
+####---->> WAYLAND
+>extra xorg-server-xwayland 
+
+####---->> DESKTOP THEMING
+
+gtk-engine-murrine
+qt5ct
+kvantum-qt5
+kvantum-theme-qogir-git
+qogir-icon-theme-git
+qogir-gtk-theme-git
+
+
+####---->> DISPLAY MANAGER
+lightdm
+lightdm-slick-greeter
+lightdm-settings
+accountsservice  # Enhanced user accounts handling
+
+orca
+festival
+onboard
+mousetweaks
+
+####---->> DESKTOP ENVIRONMENT
+qtile
+clipman
+polkit-gnome
+pcmanfm
+tumbler
+xarchiver
+mousepad
+ristretto
+pragha
+
+termite
+termite-terminfo
+i3lock
+
+dunst
+picom
+nitrogen
+polybar
+rofi
+dmenu
+jgmenu
+skippy-xd
+flashfocus
+archlinux-xdg-menu
+menumaker
+alacritty
+
+lxappearance-gtk3
+lxrandr
+lxinput-gtk3
+
+
+wlogout
+zenity
+
+####---->> DESKTOP ENVIRONMENT APPS
+#------opt deps for archiver & file manager
+ffmpegthumbnailer
+libgsf
+libopenraw
+librsvg
+gvfs-mtp
+gvfs
+gvfs-afc
+gvfs-nfs
+gvfs-smb
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
+
+###-------archive formats
+arj
+cpio
+lha
+lrzip
+lzip
+lzop
+unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+
+poppler-data
+poppler-glib
+
+####---->> OTHER APPS
+
+## cli apps
+mc
+ranger
+mlocate
+recoll
+hddtemp
+pastebinit
+ps_mem
+xclip
+xsel
+hardinfo 
+scrot
+jq
+feh
+tree
+w3m
+cmus
+ranger
+
+flameshot
+ksnip
+gnome-keyring
+qpdfview
+galculator
+gsimplecal
+gparted
+mpv
+catfish
+meld
+deluge-gtk
+peek
+mintstick
+bleachbit
+viewnior
+
+
+>extra smplayer
+>extra smplayer-skins
+>extra smplayer-themes
+>extra smtube
+>extra xfburn
+>extra youtube-dl
+>extra shortwave
+>extra systemd-ui
+>extra python-xdg
+>extra guiscrcpy
+>extra warpinator
+>extra converseen
+>extra transmageddon
+>extra soundconverter
+>extra guvcview
+>extra pitivi
+>extra easytag
+>extra audacity
+
+##------------> Graphics
+>extra gimp
+>extra inkscape
+>extra blender
+>extra gcolor3
+
+##------------> office
+>extra libreoffice-fresh
+>extra libmythes
+
+## Internet applications
+firefox
+firefox-dark-reader
+firefox-ublock-origin
+firefox-extension-localcdn
+>extra thunderbird
+
