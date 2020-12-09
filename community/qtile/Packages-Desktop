@@ -59,6 +59,7 @@ garuda-wallpapers
 garuda-icons
 garuda-zsh-config
 garuda-common-settings
+fish
 garuda-fish-config
 
 ## garuda package
@@ -71,6 +72,7 @@ garuda-network-assistant-git
 ## Fonts     
 noto-fonts               # default font
 noto-fonts-emoji         # emoji font
+awesome-terminal-fonts
 ttf-liberation
 ttf-opensans
 ttf-fantasque-sans-mono
@@ -167,6 +169,8 @@ polybar
 rofi
 dmenu
 jgmenu
+gmrun
+nwg-launchers
 skippy-xd
 flashfocus
 archlinux-xdg-menu
@@ -195,6 +199,7 @@ gvfs-smb
 gvfs-gphoto2
 gvfs-google
 gvfs-goa
+python-psutil
 
 ###-------archive formats
 arj
