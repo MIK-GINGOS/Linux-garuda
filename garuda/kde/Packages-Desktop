@@ -48,14 +48,15 @@ modem-manager-gui
 
 ####---->> PRINTER
 ## samba
-samba-support
+>extra samba-support
 
 ## printing
-printer-support
+>extra printer-support
+>extra print-manager
 
 ## scanning
-scanner-support
-simple-scan
+>extra scanner-support
+>extra skanlite
 
 
 ####---->> INPUT
@@ -74,6 +75,7 @@ garuda-zsh-config
 
 ## garuda package
 garuda-settings-manager
+garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git

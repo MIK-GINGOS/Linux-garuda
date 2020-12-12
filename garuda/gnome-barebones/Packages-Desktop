@@ -10,10 +10,7 @@ timeshift-autosnap
 networkmanager
 
 ####---->> AUDIO
-pipewire-pulse
-pipewire-alsa
-pipewire-jack
-wireplumber
+pipewire-support
 
 ####---->> THEMING
 ## theme package
@@ -29,7 +26,7 @@ noto-fonts-emoji
 
 ####---->> SETTINGS
 garuda-settings-manager
-garuda-settings-manager-knotifier
+garuda-settings-manager-notifier
 garuda-welcome-git
 
 ####---->> DISPLAY MANAGER

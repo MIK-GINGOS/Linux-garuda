@@ -11,10 +11,7 @@ fwupd
 
 
 ####---->> AUDIO
-pipewire-pulse
-pipewire-alsa
-pipewire-jack
-wireplumber
+pipewire-support
 
 ####---->> VIDEO
 gstreamer-meta
@@ -29,14 +26,14 @@ modem-manager-gui
 
 ####---->> PRINTER
 ## samba
-samba-support
+>extra samba-support
 
 ## printing
-printer-support
+>extra printer-support
 
 ## scanning
-scanner-support
-simple-scan
+>extra scanner-support
+>extra simple-scan
 
 
 ####---->> INPUT
@@ -55,7 +52,7 @@ garuda-zsh-config
 
 ## garuda package
 garuda-settings-manager
-garuda-settings-manager-knotifier
+garuda-settings-manager-notifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git

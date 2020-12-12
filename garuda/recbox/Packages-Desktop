@@ -20,6 +20,9 @@ pulseaudio-ctl
 playerctl
 pasystray
 qjackctl
+alsa-support
+jack-support
+pulseaudio-support
 
 ####---->> VIDEO
 gstreamer-meta
@@ -36,14 +39,14 @@ networkmanager-dmenu
 
 ####---->> PRINTER
 ## samba
-samba-support
+>extra samba-support
 
 ## printing
-printer-support
+>extra printer-support
 
 ## scanning
-scanner-support
-simple-scan
+>extra scanner-support
+>extra simple-scan
 
 
 ####---->> INPUT
@@ -63,7 +66,7 @@ garuda-zsh-config
 
 ## garuda package
 garuda-settings-manager
-garuda-settings-manager-knotifier
+garuda-settings-manager-notifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
@@ -251,7 +254,7 @@ w3m
 cmus
 
 
-ksnip
+flameshot
 gnome-keyring
 redshift
 qpdfview
