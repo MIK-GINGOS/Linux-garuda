@@ -226,7 +226,7 @@ onboard
 mousetweaks
 
 ## Multimedia
-celluloid
+celluloid # GTK+ front-end for mpv
 libdvdcss
 handbrake
 pitivi
