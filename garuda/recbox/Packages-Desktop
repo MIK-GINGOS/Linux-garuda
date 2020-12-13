@@ -213,25 +213,6 @@ gvfs-gphoto2
 >extra gvfs-google
 >extra gvfs-goa
 
-###-------archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
-
-poppler-data
-poppler-glib
-
 
 ####---->> OTHER APPS
 

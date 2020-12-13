@@ -20,6 +20,7 @@ pulseaudio-ctl
 playerctl
 pasystray
 qjackctl
+pulseaudio-support
 
 ####---->> VIDEO
 gstreamer-meta
@@ -144,7 +145,7 @@ onboard
 mousetweaks
 
 ####---->> DESKTOP ENVIRONMENT
-clipman
+copyq
 polkit-gnome
 #### xfce
 thunar
@@ -160,9 +161,6 @@ xarchiver
 mousepad
 ristretto
 pragha
-
-termite
-termite-terminfo
 
 ######------>i3
 i3blocks
@@ -182,15 +180,12 @@ skippy-xd
 flashfocus
 archlinux-xdg-menu
 menumaker
-alacritty
 xfce4-terminal
 
 lxappearance-gtk3
 lxrandr
 lxinput-gtk3
 
-
-wlogout
 zenity
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -208,44 +203,7 @@ gvfs-gphoto2
 gvfs-google
 gvfs-goa
 
-###-------archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
-
-poppler-data
-poppler-glib
-
 ####---->> OTHER APPS
-
-## cli apps
-mc
-ranger
-mlocate
-recoll
-hddtemp
-pastebinit
-ps_mem
-xclip
-xsel
-hardinfo 
-scrot
-jq
-feh
-tree
-w3m
-cmus
 
 flameshot
 gnome-keyring
@@ -261,7 +219,6 @@ deluge-gtk
 peek
 mintstick
 bleachbit
-viewnior
 
 
 >extra smplayer

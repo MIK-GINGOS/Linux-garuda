@@ -1,7 +1,5 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
->basic pamac-aur
->basic pamac-tray-appindicator
 >extra pamac-all
 >extra discover-snap
 yay
@@ -26,15 +24,13 @@ downgrade
 
 
 ####---->> AUDIO
-pavucontrol-qt
 pulseaudio-equalizer-ladspa
-paprefs
 pulseaudio-modules-bt-git
 libldac
 pulseaudio-ctl
 playerctl
 qjackctl
-
+pulseaudio-support
 ####---->> VIDEO
 gstreamer-meta
 
@@ -271,24 +267,6 @@ elisa
 >extra kile
 
 
-
-
-## Optional dependencies for ark
-###-------archive formats
->extra arj
->extra cpio
->extra lha
->extra lrzip
->extra lzip
->extra lzop
->extra unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
@@ -369,7 +347,8 @@ youtube-dl
 
 
 ## Internet applications
-firefox
+firefox-appmenu
+kmozillahelper
 firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn

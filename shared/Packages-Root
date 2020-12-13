@@ -139,3 +139,20 @@ grub-garuda
 garuda-browser-settings
 garuda-common-settings
 garuda-hooks
+
+# archive formats
+arj
+cpio
+lha
+lrzip
+lzip
+lzop
+unace
+
+####---->> ARCHIVE
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip

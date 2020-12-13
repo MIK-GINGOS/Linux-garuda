@@ -153,8 +153,8 @@ gnome-control-center
 
 ####---->> DESKTOP ENVIRONMENT APPS
 >extra dconf-editor
->extra olivia
-vlc
+lollypop
+celluloid # GTK+ front-end for mpv
 gedit
 gedit-plugins
 eog
@@ -176,6 +176,7 @@ gnome-disk-utility
 gnome-calculator
 >extra seahorse-nautilus
 >extra gtkhash-nautilus
+>extra gnome-color-manager
 >extra gnome-logs
 >extra gnome-remote-desktop
 >extra gnome-sound-recorder
@@ -198,28 +199,10 @@ gvfs-gphoto2
 gvfs-google
 gvfs-goa
 
-###-------archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
-poppler-data
-poppler-glib
-
 
 ####---->> OTHER APPS
 
-ksnip
+flameshot
 bleachbit
 peek
 popsicle-git
@@ -238,6 +221,8 @@ popsicle-git
 >extra python-xdg
 >extra guiscrcpy
 >extra warpinator
+>extra hypnotix
+>extra shortwave
 >extra converseen
 >extra transmageddon
 >extra soundconverter

@@ -34,7 +34,7 @@ libldac
 pulseaudio-ctl
 playerctl
 qjackctl
-
+pulseaudio-support
 ####---->> VIDEO
 gstreamer-meta
 
@@ -178,33 +178,15 @@ gvfs-gphoto2
 gvfs-google
 gvfs-goa
 
-###-------archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
 ## Text editor
 feathernotes
 featherpad
 
 qpdfview
-poppler-data
-poppler-glib
 
 ####---->> OTHER APPS
 speedcrunch
 qbittorrent
-mpv
 ksmoothdock
 partitionmanager
 imagewriter
@@ -214,6 +196,11 @@ stacer
 simplescreenrecorder
 kdeconnect
 sshfs
+smplayer
+smplayer-skins
+smplayer-themes
+>extra smtube
+>extra youtube-dl
 >extra guvcview-qt
 >extra guiscrcpy
 >extra systemdgenie
@@ -224,8 +211,6 @@ sshfs
 >extra krename
 >extra nitroshare
 >extra photoflare
->extra youtube-dl
->extra qytdl
 >extra mystiq
 >extra converseen
 >extra shotcut

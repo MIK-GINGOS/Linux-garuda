@@ -20,6 +20,7 @@ pulseaudio-ctl
 playerctl
 pasystray
 qjackctl
+pulseaudio-support
 
 ####---->> VIDEO
 gstreamer-meta
@@ -35,14 +36,14 @@ modem-manager-gui
 
 ####---->> PRINTER
 ## samba
-samba-support
+>extra samba-support
 
 ## printing
-printer-support
+>extra printer-support
 
 ## scanning
-scanner-support
-simple-scan
+>extra scanner-support
+>extra simple-scan
 
 
 ####---->> INPUT
@@ -150,7 +151,7 @@ mousetweaks
 ####---->> DESKTOP ENVIRONMENT
 qtile
 garuda-qtile-settings
-clipman
+copyq
 polkit-gnome
 pcmanfm
 tumbler
@@ -182,8 +183,6 @@ lxappearance-gtk3
 lxrandr
 lxinput-gtk3
 
-
-wlogout
 zenity
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -202,24 +201,6 @@ gvfs-google
 gvfs-goa
 python-psutil
 
-###-------archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
-
-poppler-data
-poppler-glib
 
 ####---->> OTHER APPS
 
@@ -243,7 +224,6 @@ cmus
 ranger
 
 flameshot
-ksnip
 gnome-keyring
 qpdfview
 galculator
@@ -256,7 +236,6 @@ deluge-gtk
 peek
 mintstick
 bleachbit
-viewnior
 
 
 >extra smplayer

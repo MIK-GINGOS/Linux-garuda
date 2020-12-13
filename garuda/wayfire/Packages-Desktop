@@ -20,7 +20,7 @@ pulseaudio-ctl
 playerctl
 pasystray
 qjackctl
-
+pulseaudio-support
 ####---->> VIDEO
 gstreamer-meta
 
@@ -149,6 +149,7 @@ gnome-disk-utility
 gnome-logs
 gnome-calculator
 gnome-system-monitor
+>extra gnome-online-accounts
 
 #------opt deps for archiver & file manager
 ffmpegthumbnailer
@@ -161,27 +162,9 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
-gvfs-google
-gvfs-goa
+>extra gvfs-google
+>extra gvfs-goa
 
-###-------archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
-
-poppler-data
-poppler-glib
 
 ####---->> OTHER APPS
 bleachbit

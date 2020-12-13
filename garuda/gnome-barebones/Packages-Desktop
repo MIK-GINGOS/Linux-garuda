@@ -47,10 +47,3 @@ file-roller
 eog
 xdg-user-dirs
 
-###-------archive formats
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip

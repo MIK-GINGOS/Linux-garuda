@@ -20,6 +20,7 @@ pulseaudio-ctl
 playerctl
 pasystray
 qjackctl
+pulseaudio-support
 
 ####---->> VIDEO
 gstreamer-meta
@@ -178,26 +179,9 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
-gvfs-google
-gvfs-goa
+>extra gvfs-google
+>extra gvfs-goa
 
-###-------archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
-poppler-data
-poppler-glib
 xarchiver
 
 ## xfce extra
@@ -221,8 +205,9 @@ mugshot
 flameshot
 gnome-keyring
 redshift
-vlc
+celluloid # GTK+ front-end for mpv
 qpdfview
+deluge-gtk
 bleachbit
 mintstick
 meld

@@ -19,6 +19,7 @@ libldac
 pulseaudio-ctl
 playerctl
 qjackctl
+pulseaudio-support
 
 ####---->> VIDEO
 gstreamer-meta
@@ -165,24 +166,6 @@ gvfs-gphoto2
 gvfs-google
 gvfs-goa
 
-###-------archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
-poppler-data
-poppler-glib
-
 ## cinnamon extra
 
 xviewer
@@ -203,14 +186,14 @@ gnome-online-accounts
 gnome-logs
 warpinator
 webapp-manager-git
-hypnotix-git
+hypnotix
 xviewer-plugins
 nemo-seahorse
 gtkhash-nemo
-
+argyllcms
 
 ####---->> OTHER APPS
-mpv
+celluloid # GTK+ front-end for mpv
 gnome-keyring
 redshift
 gparted
@@ -220,17 +203,13 @@ mintstick
 catfish
 meld
 peek
-rhythmbox
->extra smplayer
->extra smplayer-skins
->extra smplayer-themes
->extra smtube
+lollypop
 >extra baobab
 >extra brasero
 >extra systemd-ui
 # >extra shortwave doesnt exist
 >extra youtube-dl
->extra guvcview
+>extra cheese
 >extra python-xdg
 >extra guiscrcpy
 >extra converseen

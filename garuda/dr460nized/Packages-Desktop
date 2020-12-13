@@ -3,7 +3,7 @@ pulseaudio-equalizer-ladspa
 pulseaudio-modules-bt-git
 libldac
 gstreamer-meta
-
+pulseaudio-support
 
 ####---->> XORG
 xorg-server
@@ -118,15 +118,6 @@ gwenview
 kcalc
 
 
-####---->> ARCHIVE
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
-
-
 ####---->> OTHER APPS
 libinput_gestures_qt
 ffmpegthumbs           
@@ -139,7 +130,6 @@ latte-dock-git
 ufw
 gufw
 bleachbit
-mpv
 alacritty-ligatures-git
 firefox-appmenu
 kmozillahelper
@@ -148,6 +138,13 @@ firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-plasma-integration
 
+strawberry
+smplayer
+smplayer-skins
+smplayer-themes
+
+>extra smtube
+>extra youtube-dl
 >extra krdc
 >extra base-devel
 >extra kdenlive
