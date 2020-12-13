@@ -25,7 +25,7 @@ downgrade
 
 ####---->> AUDIO
 pulseaudio-equalizer-ladspa
-pulseaudio-modules-bt-git
+pulseaudio-modules-bt
 libldac
 pulseaudio-ctl
 playerctl

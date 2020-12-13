@@ -1,6 +1,6 @@
 ####---->> MEDIA
 pulseaudio-equalizer-ladspa
-pulseaudio-modules-bt-git
+pulseaudio-modules-bt
 libldac
 gstreamer-meta
 pulseaudio-support

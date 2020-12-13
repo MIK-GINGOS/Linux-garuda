@@ -97,7 +97,7 @@ mpv
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-modules-bt-git
+pulseaudio-modules-bt
 libldac
 android-file-transfer
 
