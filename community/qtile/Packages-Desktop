@@ -166,8 +166,6 @@ i3lock
 
 dunst
 picom
-nitrogen
-polybar
 rofi
 dmenu
 jgmenu
@@ -178,7 +176,7 @@ flashfocus
 archlinux-xdg-menu
 menumaker
 alacritty
-
+lxtask-gtk3
 lxappearance-gtk3
 lxrandr
 lxinput-gtk3
@@ -236,7 +234,7 @@ deluge-gtk
 peek
 mintstick
 bleachbit
-
+okular
 
 >extra smplayer
 >extra smplayer-skins
