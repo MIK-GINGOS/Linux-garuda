@@ -223,13 +223,12 @@ ranger
 
 flameshot
 gnome-keyring
-qpdfview
 galculator
 gsimplecal
 gparted
 mpv
 catfish
-meld
+#meld
 deluge-gtk
 peek
 mintstick
