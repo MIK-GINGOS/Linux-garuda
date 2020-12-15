@@ -79,8 +79,6 @@ xf86-video-intel
 xf86-video-nouveau
 
 xf86-video-vesa
-xf86-video-dummy
-xf86-video-fbdev
 
 xf86-video-openchrome
 xf86-video-sisusb
@@ -94,13 +92,6 @@ open-vm-tools
 spice-vdagent
 gtkmm3
 virtualbox-guest-utils
-virtualbox-guest-dkms
 
-xf86-video-qxl
 xf86-video-vmware
 xf86-input-vmmouse
-
-
-
-
-
