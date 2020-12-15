@@ -1,0 +1,235 @@
+####---->> MEDIA
+pulseaudio-equalizer-ladspa
+pulseaudio-modules-bt
+libldac
+gstreamer-meta
+pulseaudio-support
+
+####---->> XORG
+xorg-server
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xprop
+
+
+####---->> UTILITIES
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+xdg-desktop-portal
+xdg-desktop-portal-kde
+autorandr
+timeshift
+timeshift-autosnap
+pamac-aur
+downgrade
+
+
+####---->> GARUDA META
+input-devices-support
+bluetooth-support
+networkmanager-support
+
+
+####---->> ANDROID
+android-tools
+android-udev-git
+
+
+####---->> THEMING
+## theme package
+garuda-dr460nized
+garuda-fish-config
+garuda-wallpapers
+performance-tweaks
+grub-theme-garuda
+plymouth-theme-garuda-purple
+kvantum-qt5
+garuda-icons
+beautyline
+sweet-theme-dark
+xcursor-sweet
+
+####---->> FONTS
+noto-fonts
+noto-fonts-emoji
+ttf-fantasque-sans-mono
+ttf-fira-sans
+
+
+####---->> SETTINGS
+garuda-settings-manager
+garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
+garuda-welcome-git
+
+
+####---->> DISPLAY MANAGER
+sddm
+sddm-kcm
+
+
+####---->> DESKTOP ENVIRONMENT
+appmenu-gtk-module
+powerdevil
+quota-tools
+kde-gtk-config
+bluedevil
+kdeplasma-addons
+khotkeys
+kinfocenter
+ksysguard
+kscreen
+kwallet-pam
+kwayland-integration
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-vault
+plasma-thunderbolt
+plasma-browser-integration
+plasma5-applets-window-title
+plasma5-applets-window-appmenu
+plasma5-applets-window-buttons
+kwin-scripts-forceblur
+kwin-effects-sliding-notifications
+
+
+####---->> DESKTOP ENVIRONMENT APPS
+ark
+dolphin
+dolphin-plugins
+kde-servicemenus-rootactions
+kde-servicemenus-pdf
+kde-servicemenus-encfs
+kde-service-menu-reimage
+jhead
+kdeconnect
+okular
+partitionmanager
+spectacle
+konsole
+krfb
+krdc
+kate
+gwenview
+kcalc
+
+
+####---->> OTHER APPS
+libinput_gestures_qt
+ffmpegthumbs           
+kaccounts-providers
+sshfs
+kio-extras
+kio-gdrive
+kio-fuse
+latte-dock-git
+qbittorrent
+stacer
+imagewriter
+alacritty-ligatures-git
+firefox-appmenu
+kmozillahelper
+firefox-dark-reader
+firefox-ublock-origin
+firefox-extension-localcdn
+firefox-extension-plasma-integration
+
+strawberry
+smplayer
+smplayer-skins
+smplayer-themes
+
+>extra smtube
+>extra youtube-dl
+
+
+
+>extra firefox-extension-xdm-browser-monitor
+>extra firefox-extension-bitwarden
+>extra telegram-desktop
+>extra nextcloud-client
+>extra streamlink-twitch-gui
+>extra discord
+>extra mumble
+>extra murmur
+>extra syncthing-gtk
+
+####---->> VIRTUALIZATION
+>extra virt-manager-meta
+
+####---->> WINE
+>extra wine-staging
+>extra wine-meta
+
+####---->> GAME LAUNCHERS
+>extra zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
+>extra steam
+>extra steam-native-runtime
+>extra lutris
+>extra gamehub
+>extra itch
+>extra minigalaxy
+>extra legendary
+>extra rare-git
+>extra ialauncher-git
+
+
+####---->> GAMING TOOLS
+>extra obs-studio
+>extra openrgb-git
+>extra keyboard-visualizer-git
+>extra displaycal
+>extra argyllcms
+>extra piper
+>extra fancontrol-gui-git
+>extra noisetorch-bin
+>extra corectrl
+>extra gwe
+>extra goverlay-git
+>extra mangohud
+>extra lib32-mangohud
+>extra gamemode
+>extra lib32-gamemode
+>extra vkbasalt
+>extra lib32-vkbasalt
+>extra replay-sorcery
+>extra steamtinkerlaunch
+>extra fastgame-git
+>extra q4wine
+>extra fuseiso
+>extra dxvk-mingw-git
+>extra proton-tkg-git
+>extra protontricks-git
+>extra boxtron
+
+####---->> GAME CONTROLLER
+>extra antimicrox
+>extra sc-controller
+>extra oversteer
+>extra linuxconsole
+>extra xboxdrv
+>extra xpadneo-dkms-git
+>extra steamos-xpad-dkms
+>extra xow-git
+>extra xbox-generic-controller
+>extra game-devices-udev
+>extra retroarch-autoconfig-udev-git
+
+####---->> EMULATORS
+>extra libretro
+
+####---->> GAMES
+
+>extra aisleriot
+>extra knights
+>extra kmahjongg
+>extra gnuchess   
+>extra mari0
+>extra minetest
+>extra minetest-server
+>extra teeworlds

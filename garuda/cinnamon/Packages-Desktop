@@ -187,6 +187,7 @@ gnome-logs
 warpinator
 webapp-manager-git
 hypnotix
+shortwave
 xviewer-plugins
 nemo-seahorse
 gtkhash-nemo
@@ -207,7 +208,6 @@ lollypop
 >extra baobab
 >extra brasero
 >extra systemd-ui
-# >extra shortwave doesnt exist
 >extra youtube-dl
 >extra cheese
 >extra python-xdg

@@ -10,20 +10,32 @@ broadcom-wl-dkms
 #zfs-dkms
 #zfs-utils
 
-## Nonfree Nvidia
+## hybrid Nvidia
 
 >nonfree_x86_64 acpi_call-dkms
 >nonfree_x86_64 bbswitch-dkms
 >nonfree_x86_64 optimus-manager-git
 >nonfree_x86_64 optimus-manager-qt-git
-
 >nonfree_x86_64 nvidia-prime
->nonfree_x86_64 nvidia-settings
->nonfree_x86_64 nvidia-dkms
->nonfree_x86_64 nvidia-utils
->nonfree_x86_64 opencl-nvidia
->nonfree_multilib lib32-nvidia-utils
->nonfree_multilib lib32-opencl-nvidia
+
+## Nonfree Nvidia
+
+#>nonfree_x86_64 nvidia-settings
+#>nonfree_x86_64 nvidia-dkms
+#>nonfree_x86_64 nvidia-utils
+#>nonfree_x86_64 opencl-nvidia
+#>nonfree_multilib lib32-nvidia-utils
+#>nonfree_multilib lib32-opencl-nvidia
+
+
+## chaotic tkg Nvidia
+>nonfree_x86_64 chaotic-nvidia-egl-wayland-tkg
+>nonfree_x86_64 chaotic-nvidia-settings-tkg
+>nonfree_x86_64 chaotic-nvidia-dkms-tkg
+>nonfree_x86_64 chaotic-nvidia-utils-tkg
+>nonfree_x86_64 chaotic-nvidia-opencl-tkg
+>nonfree_multilib lib32-chaotic-nvidia-utils-tkg
+>nonfree_multilib lib32-chaotic-nvidia-opencl-tkg
 
 ## Opencl
 

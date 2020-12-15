@@ -30,9 +30,12 @@ libldac
 pulseaudio-ctl
 playerctl
 qjackctl
+alsa-support
+jack-support
 pulseaudio-support
 ####---->> VIDEO
 gstreamer-meta
+gst-plugin-opencv
 
 ####---->> NETWORK
 networkmanager-support
@@ -195,6 +198,7 @@ kde-servicemenus-encfs
 kde-service-menu-reimage
 jhead
 
+latte-dock-git
 
 
 colord-kde
@@ -233,10 +237,7 @@ kio-extras
 kio-gdrive
 kio-fuse
 spectacle
-
-
 elisa
->extra olivia
 >extra audiocd-kio
 >extra ksystemlog
 >extra kup
@@ -264,7 +265,6 @@ elisa
 >extra orca
 >extra festival
 >extra flite
->extra kile
 
 
 ## Optional dependencies for dolphin
@@ -275,7 +275,7 @@ ffmpegthumbs              # video thumbnails
 ## Optional dependencies for gwenview
 >extra kimageformats     # support for dds, xcf, exr, psd, and more image formats
 >extra qt5-imageformats  # support for tiff, webp, and more image formats
->extra kipi-plugins
+>extra kipi-plugins  # export to various online services
 kamera
 
 ## Optional dependencies for okular
@@ -304,7 +304,6 @@ sshfs  # remote filesystem browser
 >extra dvdauthor        # for creation of DVD
 >extra dvgrab           # for firewire capture
 >extra recordmydesktop  # for screen capture
->extra vlc              # for DVD preview, needs xine-ui or vlc, vlc is in "Applications" section
 >extra movit            # for GPU video processing
 >extra sox 
 >extra ladspa
@@ -321,124 +320,50 @@ encfs
 >extra opencolorio
 
 ## Optional dependency for digikam
-#>extra kipi-plugins  # export to various online services
 #>extra hugin         # panorama tool
 
 
-####---->> OTHER APPS
-qbittorrent
-latte-dock-git
+####---->> Mulimedia
+>extra marble 
+>extra kphotoalbum
+
 imagewriter
 stacer
-youtube-dl
->basic simplescreenrecorder
->extra mediaelch
 >extra obs-studio
->extra pdfmixtool
->extra guiscrcpy
+>extra qt-scrcpy
 >extra nitroshare
 >extra soundkonverter
 >extra mystiq
 >extra converseen
+>extra lmms
 
 ##------------> office
+>extra kile
+>extra kbibtex
+
+
 >extra libreoffice-fresh
 >extra libmythes
-
+>extra scribus
+>extra tellico
+>extra calibre
+>extra skrooge
+>extra fontforge
 
 ## Internet applications
+qbittorrent
 firefox-appmenu
 kmozillahelper
 firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn
->extra thunderbird
 firefox-extension-plasma-integration
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-bitwarden
+>extra thunderbird
 >extra telegram-desktop
 >extra fractal
 >extra nextcloud-client
->extra streamlink-twitch-gui
->extra discord
->extra mumble
->extra murmur
->extra syncthing-gtk
->extra joplin
 
-####   amd vulkan
->extra amdvlk
->extra lib32-amdvlk
-
-####---->> VIRTUALIZATION
->extra virt-manager-meta
-
-####---->> WINE
->extra wine-meta
-
-####---->> GAME LAUNCHERS
-
->extra steam
->extra steam-native-runtime
->extra lutris
->extra gamehub
->extra itch
->extra minigalaxy
->extra legendary
->extra ialauncher-git
-
-
-####---->> GAMING TOOLS
->extra openrgb-git
->extra keyboard-visualizer-git
->extra displaycal
->extra piper
->extra fancontrol-gui-git
->extra noisetorch-bin
->extra corectrl
->extra gwe
->extra goverlay-git
->extra mangohud
->extra lib32-mangohud
->extra gamemode
->extra lib32-gamemode
->extra vkbasalt
->extra lib32-vkbasalt
->extra replay-sorcery
->extra steamtinkerlaunch
->extra fastgame-git
->extra q4wine
->extra fuseiso
->extra dxvk-mingw-git
->extra proton-tkg-git
->extra protontricks-git
->extra boxtron
-
-####---->> GAME CONTROLLER
->extra antimicrox
->extra sc-controller
->extra oversteer
->extra linuxconsole
->extra xboxdrv
->extra xpadneo-dkms-git
->extra steamos-xpad-dkms
->extra xow-git
->extra xbox-generic-controller
->extra game-devices-udev
->extra retroarch-autoconfig-udev-git
-
-####---->> EMULATORS
->extra libretro
-
-####---->> GAMES
-
->extra aisleriot
->extra knights
->extra kmahjongg
->extra gnuchess   
->extra mari0
->extra minetest
->extra minetest-server
->extra teeworlds
 
 

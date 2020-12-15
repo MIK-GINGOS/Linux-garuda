@@ -205,7 +205,7 @@ mugshot
 flameshot
 gnome-keyring
 redshift
-celluloid # GTK+ front-end for mpv
+mpv
 qpdfview
 deluge-gtk
 bleachbit
