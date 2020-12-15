@@ -39,14 +39,14 @@ networkmanager-dmenu
 
 ####---->> PRINTER
 ## samba
->extra samba-support
+samba-support
 
 ## printing
->extra printer-support
+printer-support
 
 ## scanning
->extra scanner-support
->extra simple-scan
+scanner-support
+simple-scan
 
 
 ####---->> INPUT
@@ -253,19 +253,19 @@ kid3
 smplayer
 smplayer-skins
 smplayer-themes
+pitivi
+
 >extra smtube
 >extra xfburn
 >extra youtube-dl
-# >extra shortwave not in the repo
 >extra systemd-ui
 >extra python-xdg
->extra guiscrcpy
+>extra qt-scrcpy
 >extra nitroshare
 >extra converseen
 >extra transmageddon
 >extra soundconverter
 >extra guvcview
->extra pitivi
 >extra easytag
 
 >extra lmms
