@@ -138,11 +138,7 @@ qogir-gtk-theme-git
 
 
 ####---->> DISPLAY MANAGER
-lightdm
-lightdm-slick-greeter
-lightdm-settings
-lightdm-gtk-greeter
-lightdm-gtk-greeter-settings
+sddm
 accountsservice  # Enhanced user accounts handling
 
 orca
