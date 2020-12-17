@@ -1,7 +1,6 @@
 ## Normal MHWD package list
 #KERNEL-headers
 systemd-guest-user
-gwe
 
 ## Network
 
