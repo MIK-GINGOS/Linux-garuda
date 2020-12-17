@@ -151,8 +151,9 @@ smplayer-themes
 
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-bitwarden
->extra telegram-desktop
+
 >extra nextcloud-client
+>extra telegram-desktop
 >extra streamlink-twitch-gui
 >extra discord
 >extra mumble
