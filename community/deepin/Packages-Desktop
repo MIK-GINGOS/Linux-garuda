@@ -19,7 +19,7 @@ libldac
 pulseaudio-ctl
 playerctl
 qjackctl
-
+pulseaudio-support
 ####---->> VIDEO
 gstreamer-meta
 
@@ -231,7 +231,8 @@ stacer
 qbittorrent
 warpinator
 webapp-manager-git
-hypnotix-git
+hypnotix
+shortwave
 
 
 ## Internet applications
@@ -239,8 +240,8 @@ firefox
 firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn
+firefox-extension-bitwarden
+nextcloud-client
 >extra thunderbird
 >extra telegram-desktop
->extra nextcloud-client
 >extra syncthing-gtk
->extra joplin
