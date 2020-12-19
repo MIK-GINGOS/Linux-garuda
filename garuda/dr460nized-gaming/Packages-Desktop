@@ -118,16 +118,31 @@ kate
 gwenview
 kcalc
 
-
-####---->> OTHER APPS
-libinput_gestures_qt
-ffmpegthumbs           
-kaccounts-providers
-sshfs
 kio-extras
 kio-gdrive
 kio-fuse
+
 latte-dock-git
+
+## Optional dependencies for dolphin
+kdegraphics-thumbnailers  # PDF and PS thumbnails
+ffmpegthumbs              # video thumbnails
+>extra ruby               # installing new service menus with GHNS
+
+## Optional dependencies for gwenview
+>extra kimageformats     # support for dds, xcf, exr, psd, and more image formats
+>extra qt5-imageformats  # support for tiff, webp, and more image formats
+>extra kipi-plugins  # export to various online services
+>extra kamera
+
+## Optional dependencies for kaccounts-integration
+kaccounts-providers
+
+## Optional dependencies for kdeconnect
+sshfs  # remote filesystem browser
+
+####---->> OTHER APPS
+libinput_gestures_qt
 qbittorrent
 stacer
 imagewriter
