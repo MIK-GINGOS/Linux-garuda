@@ -1,4 +1,4 @@
-﻿####---->> Media
+####---->> Media
 pulseaudio-equalizer-ladspa
 pulseaudio-bluetooth
 libldac
@@ -142,7 +142,6 @@ firefox-extension-localcdn
 firefox-extension-plasma-integration
 firefox-extension-bitwarden
 nextcloud-client
-
 smplayer
 smplayer-skins
 smplayer-themes
