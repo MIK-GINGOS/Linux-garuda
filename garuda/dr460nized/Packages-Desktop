@@ -129,7 +129,7 @@ kio-gdrive
 kio-fuse
 latte-dock-git
 qbittorrent
-persepolis
+kget
 ufw
 gufw
 bleachbit
@@ -142,9 +142,7 @@ firefox-extension-localcdn
 firefox-extension-plasma-integration
 firefox-extension-bitwarden
 nextcloud-client
-smplayer
-smplayer-skins
-smplayer-themes
+mpv
 
 >extra smtube
 >extra youtube-dl
