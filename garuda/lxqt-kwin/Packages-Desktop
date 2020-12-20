@@ -1,7 +1,6 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
 >basic pamac-aur
->basic pamac-tray-appindicator
 >extra pamac-all
 >extra discover-snap
 yay
