@@ -131,9 +131,13 @@ xautolock
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
-kvantum-theme-qogir-git
-qogir-icon-theme-git
-qogir-gtk-theme-git
+#candy-icons-git
+tela-icon-theme
+sweet-theme-dark
+#vimix-gtk-themes
+#yaru-colors-gtk-theme-git
+#kvantum-theme-vimix-git
+kvantum-theme-sweet-git
 
 
 ####---->> DISPLAY MANAGER
@@ -149,7 +153,7 @@ mousetweaks
 qtile
 garuda-qtile-settings
 copyq
-polkit-gnome
+lxsession
 pcmanfm
 tumbler
 xarchiver
