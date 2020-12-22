@@ -1,7 +1,7 @@
 >i686 archlinux32-keyring
 #>garuda garuda-release
 
-## base system
+## Base system
 filesystem
 gcc-libs
 glibc
@@ -43,18 +43,18 @@ ipw2200-fw
 sof-firmware
 alsa-firmware
 
-## grub + efi
+## GRUB + EFI
 grub
 efibootmgr
 os-prober
 grub-btrfs
 memtest86+
 
-## package management 
+## Package management 
 pacman-contrib
 reflector
 
-## aur support
+## AUR support
 >extra autoconf
 >extra automake
 >extra binutils
@@ -73,9 +73,7 @@ reflector
 >extra subversion
 >extra mercurial
 
-
-
-## filesystem needed
+## Filesystem needed
 btrfs-progs
 dosfstools
 e2fsprogs
@@ -93,12 +91,10 @@ nfs-utils
 >extra udftools
 sshfs
 
-
-## extra things
+## Extra things
 mkinitcpio-openswap
 mkinitcpio-nfs-utils
 mkinitcpio-systemd-tool
-
 bridge-utils
 usbutils
 inetutils
@@ -124,16 +120,16 @@ htop
 inxi
 dmidecode
 openbsd-netcat
+fwupd
 
-# terminal font
+## Terminal font
 terminus-font
 
-# chaotic repo
+## Chaotic repo
 chaotic-mirrorlist
 chaotic-keyring
 
-
-# Garuda specific
+## Garuda specific
 plymouth-git
 grub-garuda
 garuda-browser-settings
@@ -141,7 +137,7 @@ garuda-common-settings
 garuda-hooks
 garuda-setup-assistant
 
-# archive formats
+## Archive formats
 arj
 cpio
 lha
@@ -149,8 +145,6 @@ lrzip
 lzip
 lzop
 unace
-
-####---->> ARCHIVE
 p7zip
 unarchiver
 unarj
