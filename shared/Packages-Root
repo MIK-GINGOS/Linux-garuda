@@ -139,6 +139,7 @@ grub-garuda
 garuda-browser-settings
 garuda-common-settings
 garuda-hooks
+garuda-setup-assistant
 
 # archive formats
 arj
