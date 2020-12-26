@@ -132,7 +132,7 @@ gtk-engine-murrine
 qt5ct
 kvantum-qt5
 #candy-icons-git
-tela-icon-theme
+tela-icon-theme-git
 sweet-theme-dark
 #vimix-gtk-themes
 #yaru-colors-gtk-theme-git
@@ -274,3 +274,4 @@ firefox-extension-bitwarden
 nextcloud-client
 >extra thunderbird
 
+:q
