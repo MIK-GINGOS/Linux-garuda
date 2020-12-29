@@ -157,10 +157,9 @@ lxsession
 pcmanfm
 tumbler
 xarchiver
-mousepad
 ristretto
 pragha
-
+geany
 termite
 termite-terminfo
 i3lock
@@ -172,10 +171,7 @@ dmenu
 jgmenu
 gmrun
 nwg-launchers
-skippy-xd
-flashfocus
 archlinux-xdg-menu
-menumaker
 alacritty
 lxtask-gtk3
 lxappearance-gtk3
@@ -204,8 +200,6 @@ python-pywal
 ####---->> OTHER APPS
 
 ## cli apps
-mc
-ranger
 mlocate
 recoll
 hddtemp
@@ -215,12 +209,11 @@ xclip
 xsel
 hardinfo 
 scrot
-jq
-feh
+jqe
 tree
 w3m
 cmus
-ranger
+feh
 
 flameshot
 gnome-keyring
@@ -273,5 +266,3 @@ firefox-extension-localcdn
 firefox-extension-bitwarden
 nextcloud-client
 >extra thunderbird
-
-:q
