@@ -182,7 +182,6 @@ xarchiver
 menulibre
 mugshot
 mousepad
-orage
 ristretto
 thunar-archive-plugin
 thunar-media-tags-plugin
@@ -246,7 +245,7 @@ thunderbird
 firefox
 firefox-ublock-origin
 telegram-desktop
-nextcloud-client
+#nextcloud-client
 syncthing-gtk
 transmission-gtk
 
@@ -272,7 +271,7 @@ peek
 mintstick
 bleachbit
 xfburn
-#youtube-dl
+youtube-dl
 systemd-ui
 python-xdg
 vim # Needed for pacdiff
