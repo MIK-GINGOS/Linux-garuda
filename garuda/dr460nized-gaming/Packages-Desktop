@@ -1,6 +1,6 @@
 ####---->> MEDIA
 pulseaudio-equalizer-ladspa
-pulseaudio-modules-bt
+pulseaudio-bluetooth
 libldac
 gstreamer-meta
 pulseaudio-support
@@ -34,21 +34,14 @@ bluetooth-support
 networkmanager-support
 
 
-####---->> ANDROID
-android-tools
-android-udev
-
-
 ####---->> THEMING
 ## theme package
 garuda-dr460nized
-garuda-fish-config
-garuda-wallpapers
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda-purple
+
 kvantum-qt5
-garuda-icons
 beautyline
 sweet-theme-dark
 xcursor-sweet
@@ -64,7 +57,6 @@ ttf-fira-sans
 garuda-settings-manager
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
-garuda-welcome-git
 
 
 ####---->> DISPLAY MANAGER

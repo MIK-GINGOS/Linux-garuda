@@ -17,8 +17,6 @@ pipewire-support
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
-garuda-icons
-garuda-zsh-config
 
 ## Fonts
 noto-fonts               # default font
@@ -27,7 +25,6 @@ noto-fonts-emoji
 ####---->> SETTINGS
 garuda-settings-manager
 garuda-settings-manager-notifier
-garuda-welcome-git
 
 ####---->> DISPLAY MANAGER
 gdm

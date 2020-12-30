@@ -1,0 +1,72 @@
+####---->> PACKAGE MANAGEMENT
+## Graphical
+pamac-aur
+yay
+downgrade
+
+## FIRMWARE UPDATES
+gnome-firmware
+fwupd
+
+
+## Terminal font
+terminus-font
+
+## Archive formats
+arj
+cpio
+lha
+lrzip
+lzip
+lzop
+unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+## Android 
+android-tools
+android-udev
+
+## Utilities
+timeshift
+timeshift-autosnap
+
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+
+
+## Shells
+dashbinsh
+garuda-zsh-config
+garuda-fish-config
+
+
+## Garuda specific
+garuda-wallpapers
+garuda-icons
+plymouth-git
+grub-garuda
+garuda-browser-settings
+garuda-common-settings
+garuda-hooks
+garuda-settings-manager
+garuda-setup-assistant
+garuda-welcome-git
+garuda-assistant-git
+garuda-gamer-git
+garuda-network-assistant-git
+garuda-boot-options-git
+
+## Bluetooth
+
+bluetooth-support
+
+####---->> VIDEO
+gstreamer-meta
+
+input-devices-support

@@ -53,25 +53,26 @@ memtest86+
 ## Package management 
 pacman-contrib
 reflector
+pkgfile
 
 ## AUR support
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra groff
->extra libtool
->extra m4
->extra make
->extra patch
->extra pkgconf
->extra texinfo
->extra git
->extra subversion
->extra mercurial
+autoconf
+automake
+binutils
+bison
+fakeroot
+flex
+gcc
+groff
+libtool
+m4
+make
+patch
+pkgconf
+texinfo
+git
+subversion
+mercurial
 
 ## Filesystem needed
 btrfs-progs
@@ -119,39 +120,11 @@ powertop
 htop
 inxi
 dmidecode
+nss-mdns
 openbsd-netcat
 fwupd
 
-## Terminal font
-terminus-font
 
 ## Chaotic repo
 chaotic-mirrorlist
 chaotic-keyring
-
-## Garuda specific
-plymouth-git
-grub-garuda
-garuda-browser-settings
-garuda-common-settings
-garuda-hooks
-garuda-setup-assistant
-garuda-gamer-git
-garuda-network-assistant-git
-garuda-boot-options-git
-
-
-## Archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip

@@ -1,8 +1,6 @@
 ####---->> Media
 pulseaudio-equalizer-ladspa
 pulseaudio-bluetooth
-libldac
-gstreamer-meta
 pulseaudio-support
 
 ####---->> XORG
@@ -16,39 +14,25 @@ xorg-xprop
 
 
 ####---->> UTILITIES
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-kde
 autorandr
-timeshift
-timeshift-autosnap
-pamac-aur
-downgrade
+
 
 
 ####---->> GARUDA META
-input-devices-support
-bluetooth-support
+
 networkmanager-support
-
-
-####---->> ANDROID
-android-tools
-android-udev
-
 
 ####---->> THEMING
 ## theme package
 garuda-dr460nized
-garuda-fish-config
-garuda-wallpapers
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda-purple
+
+
 kvantum-qt5
-garuda-icons
 beautyline
 sweet-theme-dark
 xcursor-sweet
@@ -61,10 +45,9 @@ ttf-fira-sans
 
 
 ####---->> SETTINGS
-garuda-settings-manager
+
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
-garuda-welcome-git
 
 
 ####---->> DISPLAY MANAGER

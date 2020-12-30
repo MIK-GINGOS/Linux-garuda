@@ -13,8 +13,6 @@ fwupd
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-modules-bt
-libldac
 pulseaudio-ctl
 playerctl
 pasystray
@@ -59,17 +57,10 @@ gesture-manager-x-git
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
-garuda-wallpapers
-garuda-icons
-garuda-zsh-config
 
 ## garuda package
 garuda-settings-manager
 garuda-settings-manager-notifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
-
 
 ## Fonts           
 noto-fonts               # default font
@@ -98,9 +89,6 @@ xdg-desktop-portal-gtk
 >extra conky-lua-nv
 >extra conky-manager
 
-#---------=> android 
-android-tools
-android-udev
 
 ####---->> XORG
 xorg-server
@@ -123,8 +111,6 @@ xcape
 xdotool
 xautolock
 
-####---->> WAYLAND
->extra xorg-server-xwayland 
 
 ####---->> DESKTOP THEMING
 garuda-recbox-settings

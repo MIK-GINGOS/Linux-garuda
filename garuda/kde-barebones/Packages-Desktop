@@ -16,8 +16,7 @@ performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
 gtk-engine-murrine
-garuda-icons
-garuda-zsh-config
+
 
 ## Fonts
 noto-fonts               # default font
@@ -28,8 +27,6 @@ noto-fonts-emoji
 garuda-settings-manager
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
-garuda-welcome-git
-garuda-common-settings
 
 ####---->> DISPLAY MANAGER
 sddm

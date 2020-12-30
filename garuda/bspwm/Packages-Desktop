@@ -1,19 +1,11 @@
-####---->> PACKAGE MANAGEMENT
-## Graphical
-pamac-aur
-yay
-downgrade
 
-## FIRMWARE UPDATES
-gnome-firmware
-fwupd
 
 
 ####---->> AUDIO
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-modules-bt
+pulseaudio-bluetooth
 libldac
 pulseaudio-ctl
 playerctl
@@ -21,13 +13,10 @@ pasystray
 qjackctl
 pulseaudio-support
 
-####---->> VIDEO
-gstreamer-meta
+
 
 ####---->> NETWORK
 networkmanager-support
-
-bluetooth-support
 blueman
 network-manager-applet
 qomui-git
@@ -55,16 +44,13 @@ gesture-manager-x-git
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
-garuda-wallpapers
-garuda-icons
-garuda-zsh-config
 
 ## garuda package
 garuda-settings-manager
 garuda-settings-manager-notifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
+
+
+
 
 ## Fonts
 ttf-fantasque-sans-mono
@@ -80,22 +66,14 @@ noto-fonts-emoji         # emoji font
 ####---->> UTILITIES
 ## Desktop Utils
 autorandr
-timeshift
-timeshift-autosnap
 libdvdcss
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
+
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
 ## Conky 
 >extra conky-lua-nv
 >extra conky-manager
-
-#---------=> android 
-android-tools
-android-udev
 
 ####---->> XORG
 xorg-server

@@ -13,8 +13,6 @@ fwupd
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-modules-bt
-libldac
 pulseaudio-ctl
 playerctl
 pasystray
@@ -54,16 +52,10 @@ gesture-manager-x-git
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda
-garuda-wallpapers
-garuda-icons
-garuda-zsh-config
 
 ## garuda package
 garuda-settings-manager
 garuda-settings-manager-notifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
 
 
 ## Fonts          
@@ -89,12 +81,6 @@ xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-wlr
 
-#---------=> android 
-android-tools
-android-udev
-
-####---->> XORG
-xorg-xhost
 
 ####---->> WAYLAND
 xorg-server-xwayland 
