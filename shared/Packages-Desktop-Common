@@ -1,13 +1,11 @@
-####---->> PACKAGE MANAGEMENT
-## Graphical
+## Package Management
 >basic pamac-aur
 yay
 downgrade
 
-## FIRMWARE UPDATES
+## Firmware
 gnome-firmware
 fwupd
-
 
 ## Terminal font
 terminus-font
@@ -18,7 +16,6 @@ ttf-fantasque-sans-mono
 ttf-fira-sans          
 ttf-liberation
 ttf-opensans
-
 noto-fonts               # default font
 noto-fonts-emoji         # emoji font
 >extra noto-fonts-cjk
@@ -52,12 +49,9 @@ perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
 
-
 ## Shells
-dashbinsh
 garuda-zsh-config
 garuda-fish-config
-
 
 ## Garuda specific
 garuda-wallpapers
@@ -75,16 +69,15 @@ garuda-gamer-git
 garuda-network-assistant-git
 garuda-boot-options-git
 
-## theme package
+## Theme package
 performance-tweaks
 grub-theme-garuda
-
 
 ## Bluetooth
 bluetooth-support
 
-####---->> VIDEO
+## Video
 gstreamer-meta
 
-####---->> Input
+## Input
 input-devices-support
