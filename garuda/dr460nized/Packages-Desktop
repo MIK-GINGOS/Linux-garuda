@@ -1,6 +1,5 @@
 ####---->> Media
 pulseaudio-equalizer-ladspa
-pulseaudio-bluetooth
 pulseaudio-support
 
 ####---->> XORG
@@ -27,8 +26,6 @@ networkmanager-support
 ####---->> THEMING
 ## theme package
 garuda-dr460nized
-performance-tweaks
-grub-theme-garuda
 plymouth-theme-garuda-purple
 
 
@@ -36,13 +33,6 @@ kvantum-qt5
 beautyline
 sweet-theme-dark
 xcursor-sweet
-
-####---->> FONTS
-noto-fonts
-noto-fonts-emoji
-ttf-fantasque-sans-mono
-ttf-fira-sans
-
 
 ####---->> SETTINGS
 

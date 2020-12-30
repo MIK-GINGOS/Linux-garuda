@@ -1,19 +1,11 @@
-
-
-
 ####---->> AUDIO
+pulseaudio-support
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-bluetooth
-libldac
 pulseaudio-ctl
 playerctl
 pasystray
-qjackctl
-pulseaudio-support
-
-
 
 ####---->> NETWORK
 networkmanager-support
@@ -35,39 +27,21 @@ modem-manager-gui
 
 
 ####---->> INPUT
-input-devices-support
 gesture-manager-x-git
 
 
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
-performance-tweaks
-grub-theme-garuda
 plymouth-theme-garuda
 
 ## garuda package
-garuda-settings-manager
+
 garuda-settings-manager-notifier
 
-
-
-
-## Fonts
-ttf-fantasque-sans-mono
-ttf-fira-sans          
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
-
-
->extra noto-fonts-cjk
->extra noto-fonts-extra
->extra asian-fonts
 
 ####---->> UTILITIES
 ## Desktop Utils
 autorandr
-libdvdcss
-
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
