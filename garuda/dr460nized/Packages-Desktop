@@ -116,7 +116,7 @@ kget
 ufw
 gufw
 bleachbit
-alacritty-ligatures-git
+alacritty #-ligatures-git
 firefox-appmenu
 kmozillahelper
 firefox-dark-reader
