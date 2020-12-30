@@ -46,7 +46,7 @@ alsa-firmware
 ## GRUB + EFI
 grub
 efibootmgr
-os-prober
+os-prober-garuda
 grub-btrfs
 memtest86+
 
