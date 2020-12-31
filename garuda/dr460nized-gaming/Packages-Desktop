@@ -5,6 +5,7 @@ libldac
 gstreamer-meta
 pulseaudio-support
 
+
 ####---->> XORG
 xorg-server
 xorg-server-xwayland 
@@ -40,11 +41,11 @@ garuda-dr460nized
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda-purple
-
 kvantum-qt5
 beautyline
 sweet-theme-dark
 xcursor-sweet
+
 
 ####---->> FONTS
 noto-fonts
@@ -109,12 +110,9 @@ krdc
 kate
 gwenview
 kcalc
-
 kio-extras
 kio-gdrive
 kio-fuse
-
-latte-dock-git
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -133,33 +131,33 @@ kaccounts-providers
 ## Optional dependencies for kdeconnect
 sshfs  # remote filesystem browser
 
+
 ####---->> OTHER APPS
 libinput_gestures_qt
+ffmpegthumbs           
+kaccounts-providers
+sshfs
+kio-extras
+kio-gdrive
+kio-fuse
+latte-dock-git
 qbittorrent
-stacer
-imagewriter
-alacritty-ligatures-git
+kget
+ufw
+gufw
+bleachbit
+alacritty #-ligatures-git
 firefox-appmenu
 kmozillahelper
 firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-plasma-integration
-
-strawberry
-smplayer
-smplayer-skins
-smplayer-themes
-
->extra smtube
->extra youtube-dl
-
-
-
+firefox-extension-bitwarden
+nextcloud-client
+mpv
 >extra firefox-extension-xdm-browser-monitor
 >extra firefox-extension-bitwarden
-
->extra nextcloud-client
 >extra telegram-desktop
 >extra streamlink-twitch-gui
 >extra discord
@@ -167,12 +165,15 @@ smplayer-themes
 >extra murmur
 >extra syncthing-gtk
 
+
 ####---->> VIRTUALIZATION
 >extra virt-manager-meta
+
 
 ####---->> WINE
 >extra wine-staging
 >extra wine-meta
+
 
 ####---->> GAME LAUNCHERS
 >extra zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
@@ -214,6 +215,7 @@ smplayer-themes
 >extra protontricks-git
 >extra boxtron
 
+
 ####---->> GAME CONTROLLER
 >extra antimicrox
 >extra sc-controller
@@ -227,11 +229,12 @@ smplayer-themes
 >extra game-devices-udev
 >extra retroarch-autoconfig-udev-git
 
+
 ####---->> EMULATORS
 >extra libretro
 
-####---->> GAMES
 
+####---->> GAMES
 >extra aisleriot
 >extra knights
 >extra kmahjongg

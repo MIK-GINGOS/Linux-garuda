@@ -2,6 +2,7 @@
 pulseaudio-equalizer-ladspa
 pulseaudio-support
 
+
 ####---->> XORG
 xorg-server
 xorg-server-xwayland 
@@ -18,24 +19,21 @@ xdg-desktop-portal-kde
 autorandr
 
 
-
 ####---->> GARUDA META
-
 networkmanager-support
+
 
 ####---->> THEMING
 ## theme package
 garuda-dr460nized
 plymouth-theme-garuda-purple
-
-
 kvantum-qt5
 beautyline
 sweet-theme-dark
 xcursor-sweet
 
-####---->> SETTINGS
 
+####---->> SETTINGS
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 
@@ -117,12 +115,11 @@ firefox-extension-bitwarden
 nextcloud-client
 mpv
 
->extra smtube
 >extra youtube-dl
 >extra krdc
 >extra base-devel
 >extra kdenlive
->extra visual-studio-code-insiders
+>extra visual-studio-code-insiders-bin
 >extra github-desktop-bin
 >extra virtualbox-meta
 >extra libreoffice-fresh
@@ -130,11 +127,8 @@ mpv
 >extra spicetify-cli
 >extra spicetify-themes-git
 >extra nextcloud-client
->extra telegram-desktop-dev
->extra ungoogled-chromium-git
+>extra telegram-desktop
 >extra torbrowser-launcher
 >extra docker
 >extra docker-compose
->extra linux-xanmod
->extra linux-xanmod-headers
 >extra lutris
