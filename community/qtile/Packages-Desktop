@@ -1,12 +1,8 @@
 ####---->> PACKAGE MANAGEMENT
 ## Graphical
 pamac-aur
-yay
-downgrade
 
 ## FIRMWARE UPDATES
-gnome-firmware
-fwupd
 
 
 ####---->> AUDIO
@@ -20,12 +16,10 @@ qjackctl
 pulseaudio-support
 
 ####---->> VIDEO
-gstreamer-meta
 
 ####---->> NETWORK
 networkmanager-support
 
-bluetooth-support
 blueman
 network-manager-applet
 qomui-git
@@ -33,54 +27,31 @@ modem-manager-gui
 
 ####---->> PRINTER
 ## samba
->extra samba-support
 
 ## printing
->extra printer-support
 
 ## scanning
 >extra scanner-support
->extra simple-scan
 
 
 ####---->> INPUT
-input-devices-support
 gesture-manager-x-git
 
 
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
-performance-tweaks
-grub-theme-garuda
 plymouth-theme-garuda-purple
 garuda-wallpapers-extra
 
 
 ## garuda package
-garuda-settings-manager-knotifier
-## Fonts     
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
+## Fonts
 awesome-terminal-fonts
-ttf-liberation
-ttf-opensans
-ttf-fantasque-sans-mono
 ttf-font-awesome
-
->extra noto-fonts-cjk
->extra noto-fonts-extra
->extra asian-fonts
-
 
 ####---->> UTILITIES
 ## Desktop Utils
 autorandr
-timeshift
-timeshift-autosnap
-libdvdcss
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
