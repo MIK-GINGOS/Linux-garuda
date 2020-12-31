@@ -1,15 +1,17 @@
+# Theming
 calamares-git
-grub-theme-garuda-live
 calamares-branding-garuda
-gsmartcontrol
 garuda-tools-base-git
+
+# Tools
 arch-install-scripts
+garuda-boot-repair-git
 garuda-live-skel
 garuda-live-systemd
 nbd
 clonezilla
-garuda-boot-repair-git
 ddrescue
 testdisk
 chntpw
 fsarchiver
+gsmarcontrol

@@ -1,5 +1,5 @@
 ## Package Management
->basic pamac-aur
+pamac-aur
 yay
 downgrade
 
@@ -18,9 +18,6 @@ ttf-liberation
 ttf-opensans
 noto-fonts               # default font
 noto-fonts-emoji         # emoji font
->extra noto-fonts-cjk
->extra noto-fonts-extra
->extra asian-fonts
 
 ## Archive formats
 arj
