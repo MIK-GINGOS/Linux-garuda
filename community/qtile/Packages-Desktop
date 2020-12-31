@@ -13,8 +13,6 @@ fwupd
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-modules-bt
-libldac
 pulseaudio-ctl
 playerctl
 pasystray
@@ -55,20 +53,11 @@ gesture-manager-x-git
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda-purple
-garuda-wallpapers
-garuda-icons
-garuda-zsh-config
-garuda-common-settings
-fish
-garuda-fish-config
+garuda-wallpapers-extra
+
 
 ## garuda package
-garuda-settings-manager
 garuda-settings-manager-knotifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
-
 ## Fonts     
 noto-fonts               # default font
 noto-fonts-emoji         # emoji font
@@ -97,10 +86,6 @@ xdg-desktop-portal-gtk
 
 ## Conky 
 conky-lua-nv
-
-#---------=> android 
-android-tools
-android-udev
 
 ####---->> XORG
 xorg-server
@@ -142,11 +127,6 @@ kvantum-theme-sweet-git
 
 ####---->> DISPLAY MANAGER
 sddm
-accountsservice  # Enhanced user accounts handling
-
-orca
-festival
-onboard
 mousetweaks
 
 ####---->> DESKTOP ENVIRONMENT
@@ -199,19 +179,10 @@ python-pywal
 ####---->> OTHER APPS
 
 ## cli apps
-mlocate
-recoll
-hddtemp
-pastebinit
-ps_mem
 xclip
 xsel
-hardinfo 
-scrot
-jqe
 tree
 w3m
-cmus
 feh
 
 flameshot
@@ -219,8 +190,6 @@ gnome-keyring
 galculator
 gsimplecal
 gparted
-mpv
-catfish
 #meld
 deluge-gtk
 peek
@@ -228,34 +197,8 @@ mintstick
 bleachbit
 okular
 
->extra smplayer
->extra smplayer-skins
->extra smplayer-themes
->extra smtube
->extra xfburn
->extra youtube-dl
->extra shortwave
->extra systemd-ui
->extra python-xdg
->extra guiscrcpy
->extra warpinator
->extra converseen
->extra transmageddon
->extra soundconverter
->extra guvcview
->extra pitivi
->extra easytag
->extra audacity
 
-##------------> Graphics
->extra gimp
->extra inkscape
->extra blender
->extra gcolor3
 
-##------------> office
->extra libreoffice-fresh
->extra libmythes
 
 ## Internet applications
 firefox
@@ -264,4 +207,4 @@ firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-bitwarden
 nextcloud-client
->extra thunderbird
+
