@@ -1,14 +1,3 @@
-####---->> PACKAGE MANAGEMENT
-## Graphical
-pamac-aur
-yay
-downgrade
-
-## FIRMWARE UPDATES
-gnome-firmware
-fwupd
-
-
 ####---->> AUDIO
 pavucontrol
 pulseaudio-equalizer-ladspa
@@ -18,9 +7,6 @@ playerctl
 pasystray
 qjackctl
 pulseaudio-support
-
-####---->> VIDEO
-gstreamer-meta
 
 ####---->> NETWORK
 networkmanager-support
@@ -125,7 +111,6 @@ lightdm
 lightdm-slick-greeter
 lightdm-settings
 accountsservice  # Enhanced user accounts handling
-
 orca
 festival
 onboard
@@ -134,13 +119,10 @@ mousetweaks
 ####---->> DESKTOP ENVIRONMENT
 copyq
 polkit-gnome
-#### xfce
 thunar
 thunar-volman
 tumbler
 xfce4-power-manager
-
-## xfce extra
 thunar-archive-plugin
 thunar-media-tags-plugin
 
@@ -176,7 +158,6 @@ lxinput-gtk3
 zenity
 
 ####---->> DESKTOP ENVIRONMENT APPS
-#------opt deps for archiver & file manager
 ffmpegthumbnailer
 libgsf
 libopenraw
@@ -191,7 +172,6 @@ gvfs-google
 gvfs-goa
 
 ####---->> OTHER APPS
-
 flameshot
 gnome-keyring
 redshift
@@ -207,42 +187,11 @@ peek
 mintstick
 bleachbit
 
-
->extra smplayer
->extra smplayer-skins
->extra smplayer-themes
->extra smtube
->extra xfburn
->extra youtube-dl
->extra shortwave
->extra systemd-ui
->extra python-xdg
->extra guiscrcpy
->extra warpinator
->extra converseen
->extra transmageddon
->extra soundconverter
->extra guvcview
->extra pitivi
->extra easytag
->extra audacity
-
-##------------> Graphics
->extra gimp
->extra inkscape
->extra blender
->extra gcolor3
-
-##------------> office
->extra libreoffice-fresh
->extra libmythes
-
-## Internet applications
+####---->> INTERNET
 firefox
 firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-bitwarden
 nextcloud-client
->extra thunderbird
 

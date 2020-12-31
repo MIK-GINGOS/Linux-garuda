@@ -1,28 +1,3 @@
-####---->> PACKAGE MANAGEMENT
-## Graphical
->extra pamac-all
->extra discover-snap
-yay
-downgrade
-## APPIMAGE Support
->extra appimagelauncher
->extra libappimage
-
-## FIRMWARE UPDATES
->extra fwupd
-
-## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
-
-## Flatpak support
->extra flatpak
-
-## PACKAGEKIT SUPPORT
->extra packagekit-qt5
-
-
 ####---->> AUDIO
 pulseaudio-equalizer-ladspa
 pulseaudio-ctl
@@ -31,17 +6,12 @@ qjackctl
 alsa-support
 jack-support
 pulseaudio-support
-####---->> VIDEO
-gstreamer-meta
 gst-plugin-opencv
 
 ####---->> NETWORK
 networkmanager-support
-
-bluetooth-support
 qomui-git
 modem-manager-gui
-
 
 ####---->> PRINTER
 ## samba
@@ -55,42 +25,17 @@ modem-manager-gui
 >extra scanner-support
 >extra skanlite
 
-
 ####---->> INPUT
-input-devices-support
 libinput_gestures_qt
 
-
 ####---->> GARUDA THEMING & SETTINGS
-## theme package
-performance-tweaks
-grub-theme-garuda
 plymouth-theme-garuda
-
-## garuda package
-garuda-settings-manager
-garuda-settings-manager-kcm
-garuda-settings-manager-knotifier
-
-## Fonts         
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
-ttf-liberation
-ttf-opensans
-
 >extra noto-fonts-cjk
 >extra noto-fonts-extra
 >extra asian-fonts
 
 ####---->> UTILITIES
-## Desktop Utils
 autorandr
-timeshift
-timeshift-autosnap
-libdvdcss
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-kde
 
@@ -110,8 +55,6 @@ xorg-xprop
 xorg-xkill
 xorg-xbacklight
 xorg-xsetroot
-
-## xorg apps
 wmctrl
 numlockx
 xbindkeys
@@ -140,7 +83,6 @@ qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 
 ####---->> DESKTOP ENVIRONMENT
 bluedevil
-drkonqi
 kdeplasma-addons
 khotkeys
 kinfocenter
@@ -179,16 +121,11 @@ plasma5-applets-netspeed
 plasma5-applets-eventcalendar
 kwin-scripts-forceblur
 kwin-effects-sliding-notifications
-
 kde-servicemenus-rootactions
 kde-servicemenus-pdf
 kde-servicemenus-encfs
 kde-service-menu-reimage
 jhead
-
-latte-dock-git
-
-
 colord-kde
 kdenetwork-filesharing
 kcm-wacomtablet 
@@ -196,7 +133,6 @@ samba-mounter-git
 >extra fancontrol-kcm-git
 
 ####---->> DESKTOP ENVIRONMENT APPS
-## kde apps
 ark
 dolphin
 dolphin-plugins
@@ -226,6 +162,7 @@ kio-gdrive
 kio-fuse
 spectacle
 elisa
+latte-dock-git
 >extra audiocd-kio
 >extra ksystemlog
 >extra kup
@@ -253,7 +190,6 @@ elisa
 >extra orca
 >extra festival
 >extra flite
-
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -307,16 +243,11 @@ encfs
 >extra krita-plugin-gmic
 >extra opencolorio
 
-## Optional dependency for digikam
-#>extra hugin         # panorama tool
-
-
 ####---->> Mulimedia
->extra marble 
->extra kphotoalbum
-
 imagewriter
 stacer
+>extra marble 
+>extra kphotoalbum
 >extra obs-studio
 >extra qt-scrcpy
 >extra nitroshare
