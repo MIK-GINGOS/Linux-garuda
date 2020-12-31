@@ -1,14 +1,3 @@
-####---->> PACKAGE MANAGEMENT
-## Graphical
-pamac-aur
-yay
-downgrade
-
-## FIRMWARE UPDATES
-gnome-firmware
-fwupd
-
-
 ####---->> AUDIO
 pavucontrol
 pulseaudio-equalizer-ladspa
@@ -18,72 +7,33 @@ playerctl
 pasystray
 qjackctl
 pulseaudio-support
-####---->> VIDEO
-gstreamer-meta
+
 
 ####---->> NETWORK
 connman-support
-
-bluetooth-support
 blueberry
 connman-gtk
 qomui-git
 modem-manager-gui
 
-####---->> PRINTER
-## samba
->extra samba-support
-
-## printing
->extra printer-support
-
-## scanning
->extra scanner-support
->extra simple-scan
-
 
 ####---->> INPUT
-input-devices-support
 gesture-manager-x-git
 
 
 ####---->> GARUDA THEMING & SETTINGS
-## theme package
-performance-tweaks
-grub-theme-garuda
 plymouth-theme-garuda
-
-## garuda package
-garuda-settings-manager
-garuda-settings-manager-notifier
-
-
-## Fonts          
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
-ttf-liberation
-ttf-opensans
-
->extra noto-fonts-cjk
->extra noto-fonts-extra
->extra asian-fonts
 
 
 ####---->> UTILITIES
-## Desktop Utils
 autorandr
-timeshift
-timeshift-autosnap
-libdvdcss
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-wlr
 
 
 ####---->> WAYLAND
 xorg-server-xwayland 
+
 
 ####---->> DESKTOP THEMING
 garuda-wayfire-settings
@@ -95,15 +45,13 @@ kvantum-theme-materia
 tela-circle-icon-theme-git
 orchis-theme-git
 
+
 ####---->> DISPLAY MANAGER
 greetd
 greetd-gtkgreet
 
 
-
 ####---->> DESKTOP ENVIRONMENT
-#wayfire
-
 wayfire-desktop-git
 
 
@@ -114,8 +62,6 @@ lollypop
 mpv
 gedit
 eog
->extra eog-plugins
->extra grilo-plugins
 gedit-plugins
 evince
 file-roller
@@ -127,16 +73,12 @@ nautilus-share
 nautilus-admin
 nautilus-pdf-tools-git
 nautilus-mediainfo
->extra seahorse-nautilus
->extra gtkhash-nautilus
 sushi
 gnome-disk-utility
 gnome-logs
 gnome-calculator
 gnome-system-monitor
->extra gnome-online-accounts
 
-#------opt deps for archiver & file manager
 ffmpegthumbnailer
 libgsf
 libopenraw
@@ -147,8 +89,6 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
->extra gvfs-google
->extra gvfs-goa
 
 
 ####---->> OTHER APPS
@@ -159,11 +99,7 @@ catfish
 meld
 
 
-##------------> office
->extra libreoffice-fresh
->extra libmythes
-
-## Internet applications
+####---->> INTERNET
 geary
 firefox
 firefox-dark-reader
@@ -171,8 +107,5 @@ firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-bitwarden
 nextcloud-client
->extra thunderbird
->extra telegram-desktop
->extra syncthing-gtk
 
 

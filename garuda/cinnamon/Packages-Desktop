@@ -1,91 +1,35 @@
-####---->> PACKAGE MANAGEMENT
-## Graphical
-pamac-aur
-yay
-downgrade
-
-## FIRMWARE UPDATES
-gnome-firmware
-fwupd
-
-
 ####---->> AUDIO
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-bluetooth
 libldac
 pulseaudio-ctl
 playerctl
 qjackctl
 pulseaudio-support
 
-####---->> VIDEO
-gstreamer-meta
 
 ####---->> NETWORK
 networkmanager-support
-
-bluetooth-support
 blueberry
 network-manager-applet
 qomui-git
 modem-manager-gui
 
 
-####---->> PRINTER
-## samba
->extra samba-support
-
-## printing
->extra printer-support
-
-## scanning
->extra scanner-support
->extra simple-scan
-
-
 ####---->> INPUT
-input-devices-support
 gesture-manager-x-git
 
 
 ####---->> GARUDA THEMING & SETTINGS
-## theme package
-performance-tweaks
-grub-theme-garuda
 plymouth-theme-garuda
 
-## garuda package
-garuda-settings-manager
-garuda-settings-manager-notifier
-
-
-## Fonts         
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
-ttf-liberation
-ttf-opensans
-
->extra noto-fonts-cjk
->extra noto-fonts-extra
->extra asian-fonts
 
 ####---->> UTILITIES
-## Desktop Utils
 autorandr
-timeshift
-timeshift-autosnap
-libdvdcss
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
-## Conky 
->extra conky-lua-nv
->extra conky-manager
 
 ####---->> XORG
 xorg-server
@@ -99,8 +43,6 @@ xorg-xprop
 xorg-xkill
 xorg-xbacklight
 xorg-xsetroot
-
-## xorg apps
 wmctrl
 numlockx
 xbindkeys
@@ -108,8 +50,6 @@ xcape
 xdotool
 xautolock
 
-####---->> WAYLAND
->extra xorg-server-xwayland 
 
 ####---->> DESKTOP THEMING
 garuda-cinnamon-settings
@@ -129,34 +69,15 @@ lightdm
 lightdm-slick-greeter
 lightdm-settings
 accountsservice  # Enhanced user accounts handling
-
 orca
 festival
 onboard
 mousetweaks
 
+
 ####---->> DESKTOP ENVIRONMENT
-#### cinnamon
 cinnamon
 cinnamon-sound-effects
-
-####---->> DESKTOP ENVIRONMENT APPS
-#------opt deps for archiver & file manager
-ffmpegthumbnailer
-libgsf
-libopenraw
-librsvg
-gvfs-mtp
-gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
-gvfs-google
-gvfs-goa
-
-## cinnamon extra
-
 xviewer
 xed
 xreader
@@ -182,8 +103,23 @@ nemo-seahorse
 gtkhash-nemo
 argyllcms
 
+####---->> DESKTOP ENVIRONMENT APPS
+ffmpegthumbnailer
+libgsf
+libopenraw
+librsvg
+gvfs-mtp
+gvfs
+gvfs-afc
+gvfs-nfs
+gvfs-smb
+gvfs-gphoto2
+gvfs-google
+gvfs-goa
+
+
 ####---->> OTHER APPS
-celluloid # GTK+ front-end for mpv
+celluloid
 gnome-keyring
 redshift
 gparted
@@ -194,36 +130,13 @@ catfish
 meld
 peek
 lollypop
->extra baobab
->extra brasero
->extra systemd-ui
->extra youtube-dl
->extra cheese
->extra python-xdg
->extra guiscrcpy
->extra converseen
->extra transmageddon
->extra soundconverter
->extra pitivi
->extra audacity
->extra easytag
 
-##------------> Graphics
->extra gimp
->extra inkscape
->extra blender
->extra gcolor3
 
-##------------> office
->extra libreoffice-fresh
->extra libmythes
-
-## Internet applications
+####---->> INTERNET
 firefox
 firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-bitwarden
 nextcloud-client
->extra thunderbird
 

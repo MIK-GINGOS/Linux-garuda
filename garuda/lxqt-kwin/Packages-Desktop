@@ -1,29 +1,3 @@
-####---->> PACKAGE MANAGEMENT
-## Graphical
->basic pamac-aur
->extra pamac-all
->extra discover-snap
-yay
-downgrade
-## APPIMAGE Support
->extra appimagelauncher
->extra libappimage
-
-## FIRMWARE UPDATES
->extra fwupd
-
-## Snap Support
->extra apparmor
->extra snapd
->extra snapd-glib
-
-## Flatpak support
->extra flatpak
-
-## PACKAGEKIT SUPPORT
->extra packagekit-qt5
-
-
 ####---->> AUDIO
 pavucontrol-qt
 pulseaudio-equalizer-ladspa
@@ -32,75 +6,29 @@ pulseaudio-ctl
 playerctl
 qjackctl
 pulseaudio-support
-####---->> VIDEO
-gstreamer-meta
+
 
 ####---->> NETWORK
 connman-support
-
-bluetooth-support
 qomui-git
 modem-manager-gui
 cmst
 bluedevil
 
-####---->> PRINTER
-## samba
->extra samba-support
-
-## printing
->extra printer-support
->extra print-manager
-
-## scanning
->extra scanner-support
->extra skanlite
-
 
 ####---->> INPUT
-input-devices-support
 libinput_gestures_qt
 
 
 ####---->> GARUDA THEMING & SETTINGS
-## theme package
-performance-tweaks
-grub-theme-garuda
 plymouth-theme-garuda
 
 
-## garuda package
-garuda-settings-manager
-garuda-settings-manager-kcm
-garuda-settings-manager-knotifier
-
-
-## Fonts 
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
-ttf-liberation
-ttf-opensans
-
->extra noto-fonts-cjk
->extra noto-fonts-extra
->extra asian-fonts
-
-
 ####---->> UTILITIES
-## Desktop Utils
 autorandr
-timeshift
-timeshift-autosnap
-libdvdcss
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-kde
 
-## Conky 
->extra conky-lua-nv
->extra conky-manager
 
 ####---->> XORG
 xorg-server
@@ -114,8 +42,6 @@ xorg-xprop
 xorg-xkill
 xorg-xbacklight
 xorg-xsetroot
-
-## xorg apps
 wmctrl
 numlockx
 xbindkeys
@@ -123,8 +49,6 @@ xcape
 xdotool
 xautolock
 
-####---->> WAYLAND
->extra xorg-server-xwayland 
 
 ####---->> DESKTOP THEMING
 garuda-lxqt-kwin-settings
@@ -139,7 +63,6 @@ vimix-icon-theme-git
 ####---->> DISPLAY MANAGER
 sddm
 sddm-kcm
-qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 
 
 ####---->> DESKTOP ENVIRONMENT
@@ -148,13 +71,11 @@ kde-cli-tools
 plasma-workspace
 kwin-decoration-sierra-breeze-enhanced-git
 kwin-scripts-krohnkite-git
-#---------=> lxqt core
 lxqt-kwin-desktop-git
 xsettingsd
 
-####---->> DESKTOP ENVIRONMENT APPS
 
-#------opt deps for archiver & file manager
+####---->> DESKTOP ENVIRONMENT APPS
 ffmpegthumbnailer
 libgsf
 gvfs-mtp
@@ -165,12 +86,10 @@ gvfs-smb
 gvfs-gphoto2
 gvfs-google
 gvfs-goa
-
-## Text editor
 feathernotes
 featherpad
-
 qpdfview
+
 
 ####---->> OTHER APPS
 speedcrunch
@@ -187,40 +106,12 @@ sshfs
 smplayer
 smplayer-skins
 smplayer-themes
->extra smtube
->extra youtube-dl
->extra guvcview-qt
->extra guiscrcpy
->extra systemdgenie
->extra krfb
->extra krdc
->extra freerdp
->extra kdiff3
->extra krename
->extra nitroshare
->extra photoflare
->extra mystiq
->extra converseen
->extra shotcut
->extra lector
->extra qvkbd
->extra meteo-qt
->extra olivia
->extra redshift-qt
->extra python-xdg
->extra pdfmixtool
 
-##------------> office
->extra libreoffice-fresh
->extra libmythes
 
-## Internet applications
+####---->> INTERNET
 firefox
 firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-bitwarden
 nextcloud-client
->extra thunderbird
->extra telegram-desktop
->extra syncthing-gtk
