@@ -1,78 +1,25 @@
-####---->> PACKAGE MANAGEMENT
-## Graphical
-pamac-aur
-yay
-downgrade
-
-## FIRMWARE UPDATES
-gnome-firmware
-fwupd
-
-
 ####---->> AUDIO
 pipewire-support
 
 ####---->> VIDEO
-gstreamer-meta
 gst-plugin-pipewire
 
 ####---->> NETWORK
 networkmanager-support
-
-bluetooth-support
 qomui-git
 modem-manager-gui
 
-####---->> PRINTER
-## samba
->extra samba-support
-
-## printing
->extra printer-support
-
-## scanning
->extra scanner-support
->extra simple-scan
-
-
 ####---->> INPUT
-input-devices-support
 gesture-manager-x-git
 
-
 ####---->> GARUDA THEMING & SETTINGS
-## theme package
-performance-tweaks
-grub-theme-garuda
 plymouth-theme-garuda
-
-## garuda package
-garuda-settings-manager
 garuda-settings-manager-notifier
 
-
-## Fonts
-ttf-fantasque-sans-mono
-ttf-fira-sans         
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
-
-
 ####---->> UTILITIES
-## Desktop Utils
 autorandr
-timeshift
-timeshift-autosnap
-libdvdcss
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-gtk
-
-## Conky 
->extra conky-lua-nv
->extra conky-manager
 
 ####---->> XORG
 xorg-server
@@ -86,8 +33,6 @@ xorg-xprop
 xorg-xkill
 xorg-xbacklight
 xorg-xsetroot
-
-## xorg apps
 wmctrl
 numlockx
 xbindkeys
@@ -101,7 +46,7 @@ xautolock
 ####---->> DESKTOP THEMING
 garuda-gnome-settings
 gtk-engine-murrine
-gtk-engines # dep of whitesur-gtk
+gtk-engines
 qt5ct
 kvantum-qt5
 tela-circle-icon-theme-git
@@ -109,16 +54,10 @@ whitesur-kvantum-theme-git
 whitesur-cursor-theme-git
 yaru-sound-theme
 
-
 ####---->> DISPLAY MANAGER
 gdm
 
-
 ####---->> DESKTOP ENVIRONMENT
-orca
-festival
-mousetweaks
-#-------=>gnome de
 mutter
 gnome-session                                    
 gnome-settings-daemon                                           
@@ -133,18 +72,17 @@ gnome-terminal-transparency
 gnome-menus
 qt5-wayland
 gnome-control-center
->extra gpaste
+orca
+festival
+mousetweaks
 
 ####---->> DESKTOP ENVIRONMENT APPS
->extra dconf-editor
 lollypop
-celluloid # GTK+ front-end for mpv
+celluloid
 gedit
 gedit-plugins
 eog
 geary
->extra eog-plugins
->extra grilo-plugins
 evince
 file-roller
 nautilus-typeahead
@@ -158,18 +96,6 @@ nautilus-mediainfo
 sushi
 gnome-disk-utility
 gnome-calculator
->extra seahorse-nautilus
->extra gtkhash-nautilus
->extra gnome-color-manager
->extra gnome-logs
->extra gnome-remote-desktop
->extra gnome-sound-recorder
->extra vino
->extra rygel
->extra gnome-user-share
->extra shotwell
-
-###-------opt deps for archiver & file manager
 ffmpegthumbnailer
 libgsf
 libopenraw
@@ -183,48 +109,13 @@ gvfs-gphoto2
 gvfs-google
 gvfs-goa
 
-
 ####---->> OTHER APPS
-
 flameshot
 bleachbit
 peek
 popsicle-git
->extra baobab
->extra brasero
->extra cockpit
->extra cockpit-dashboard
->extra cockpit-machines
->extra spotify-adblock-git
->extra variety
->extra remmina
->extra systemd-ui
->extra catfish
->extra meld
->extra youtube-dl
->extra python-xdg
->extra guiscrcpy
->extra warpinator
->extra hypnotix
->extra shortwave
->extra converseen
->extra transmageddon
->extra soundconverter
->extra pitivi
->extra audacity
->extra easytag
 
-##------------> Graphics
->extra gimp
->extra inkscape
->extra blender
->extra gcolor3
-
-##------------> office
->extra libreoffice-fresh
->extra libmythes
-
-## Internet applications
+####---->> INTERNET
 firefox
 firefox-dark-reader
 firefox-ublock-origin

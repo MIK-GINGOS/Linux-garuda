@@ -14,40 +14,17 @@ network-manager-applet
 qomui-git
 modem-manager-gui
 
-####---->> PRINTER
-## samba
->extra samba-support
-
-## printing
->extra printer-support
-
-## scanning
->extra scanner-support
->extra simple-scan
-
-
 ####---->> INPUT
 gesture-manager-x-git
 
-
 ####---->> GARUDA THEMING & SETTINGS
-## theme package
 plymouth-theme-garuda
-
-## garuda package
-
 garuda-settings-manager-notifier
 
-
 ####---->> UTILITIES
-## Desktop Utils
 autorandr
 xdg-desktop-portal
 xdg-desktop-portal-gtk
-
-## Conky 
->extra conky-lua-nv
->extra conky-manager
 
 ####---->> XORG
 xorg-server
@@ -61,17 +38,12 @@ xorg-xprop
 xorg-xkill
 xorg-xbacklight
 xorg-xsetroot
-
-## xorg apps
 wmctrl
 numlockx
 xbindkeys
 xcape
 xdotool
 xautolock
-
-####---->> WAYLAND
->extra xorg-server-xwayland 
 
 ####---->> DESKTOP THEMING
 garuda-bspwm-settings
@@ -91,14 +63,12 @@ lightdm
 lightdm-slick-greeter
 lightdm-settings
 accountsservice  # Enhanced user accounts handling
-
 onboard
 orca
 festival
 mousetweaks
 
 ####---->> DESKTOP ENVIRONMENT
-#### bspwm & xfce core
 bspwm
 picom-ibhagwan-git
 sxhkd
@@ -119,7 +89,6 @@ xfdesktop
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
-#------opt deps for archiver & file manager
 ffmpegthumbnailer
 libgsf
 libopenraw
@@ -130,15 +99,11 @@ gvfs-afc
 gvfs-nfs
 gvfs-smb
 gvfs-gphoto2
->extra gvfs-google
->extra gvfs-goa
-
 xarchiver
 
 ## xfce extra
 menulibre
 mousepad
-orage
 ristretto
 pragha
 thunar-archive-plugin
@@ -164,7 +129,6 @@ mintstick
 meld
 peek
 
-
 ## Internet applications
 firefox
 firefox-dark-reader
@@ -172,5 +136,4 @@ firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-bitwarden
 nextcloud-client
->extra thunderbird
 
