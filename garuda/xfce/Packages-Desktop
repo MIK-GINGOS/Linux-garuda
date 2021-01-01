@@ -1,14 +1,5 @@
 ## Garuda Linux XFCE
 
-## Package Management
-pamac-aur
-downgrade
-yay
-
-## Firmware Updates
-gnome-firmware
-fwupd
-
 ## Audio
 pavucontrol
 pulseaudio-equalizer-ladspa
@@ -26,8 +17,6 @@ redshift
 
 ## Network
 networkmanager-support
-
-bluetooth-support
 blueman
 network-manager-applet
 qomui-git
@@ -44,48 +33,15 @@ scanner-support
 simple-scan
 
 ## Input
-input-devices-support
 wacom-utility
-gesture-manager-x-git
-
-## Garuda Theming & Settings
-## Theme package
-performance-tweaks
-grub-theme-garuda
-plymouth-theme-garuda
-garuda-wallpapers
-garuda-icons
-garuda-zsh-config
-
-## Garuda Packages
-garuda-settings-manager
-garuda-settings-manager-knotifier
-garuda-boot-options-git
-garuda-welcome-git
-garuda-network-assistant-git
 
 ## Fonts
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
-ttf-liberation
-terminus-font
-ttf-opensans
 
 ## Utilities
 ## Desktop Utilities
 autorandr
-timeshift
-timeshift-autosnap
-libdvdcss
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
 xdg-desktop-portal
 xdg-desktop-portal-gtk
-
-## Android 
-android-tools
-android-udev
 
 ## XORG
 xorg-server
@@ -110,11 +66,7 @@ xautolock
 
 ## Theme Packages
 garuda-xfce-settings
-performance-tweaks
-grub-theme-garuda
 plymouth-theme-garuda
-garuda-wallpapers
-garuda-icons
 #
 gtk-engine-murrine
 #
@@ -158,21 +110,6 @@ gvfs-smb
 gvfs-gphoto2
 gvfs-google
 gvfs-goa
-
-## Archive Formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unarj
-unrar
-unzip
-zip
 
 poppler-data
 poppler-glib
@@ -226,7 +163,6 @@ mousetweaks
 
 ## Multimedia
 celluloid # GTK+ front-end for mpv
-libdvdcss
 handbrake
 pitivi
 audacity
