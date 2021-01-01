@@ -207,7 +207,7 @@ vkbasalt
 lib32-vkbasalt
 replay-sorcery
 steamtinkerlaunch
-fastgame-git
+#fastgame-git PKGBUILD broken
 q4wine
 fuseiso
 dxvk-mingw-git
