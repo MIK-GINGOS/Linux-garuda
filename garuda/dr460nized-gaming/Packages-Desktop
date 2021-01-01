@@ -117,13 +117,13 @@ kio-fuse
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
->extra ruby               # installing new service menus with GHNS
+ruby               # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
->extra kimageformats     # support for dds, xcf, exr, psd, and more image formats
->extra qt5-imageformats  # support for tiff, webp, and more image formats
->extra kipi-plugins  # export to various online services
->extra kamera
+kimageformats     # support for dds, xcf, exr, psd, and more image formats
+qt5-imageformats  # support for tiff, webp, and more image formats
+kipi-plugins  # export to various online services
+kamera
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -156,90 +156,90 @@ firefox-extension-plasma-integration
 firefox-extension-bitwarden
 nextcloud-client
 mpv
->extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-bitwarden
->extra telegram-desktop
->extra streamlink-twitch-gui
->extra discord
->extra mumble
->extra murmur
->extra syncthing-gtk
+firefox-extension-xdm-browser-monitor
+firefox-extension-bitwarden
+telegram-desktop
+streamlink-twitch-gui
+discord
+mumble
+murmur
+syncthing-gtk
 
 
 ####---->> VIRTUALIZATION
->extra virt-manager-meta
+virt-manager-meta
 
 
 ####---->> WINE
->extra wine-staging
->extra wine-meta
+wine-staging
+wine-meta
 
 
 ####---->> GAME LAUNCHERS
->extra zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
->extra steam
->extra steam-native-runtime
->extra lutris
->extra gamehub
->extra itch
->extra minigalaxy
->extra legendary
->extra rare-git
->extra ialauncher-git
+zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
+steam
+steam-native-runtime
+lutris
+gamehub
+itch
+minigalaxy
+legendary
+rare-git
+ialauncher-git
 
 
 ####---->> GAMING TOOLS
->extra obs-studio
->extra openrgb
->extra keyboard-visualizer-git
->extra displaycal
->extra argyllcms
->extra piper
->extra fancontrol-gui-git
->extra noisetorch-bin
->extra corectrl
->extra goverlay-git
->extra mangohud
->extra lib32-mangohud
->extra gamemode
->extra lib32-gamemode
->extra vkbasalt
->extra lib32-vkbasalt
->extra replay-sorcery
->extra steamtinkerlaunch
->extra fastgame-git
->extra q4wine
->extra fuseiso
->extra dxvk-mingw-git
-#>extra proton-tkg-git missing
->extra protontricks-git
->extra boxtron
+obs-studio
+openrgb
+keyboard-visualizer-git
+displaycal
+argyllcms
+piper
+fancontrol-gui-git
+noisetorch-bin
+corectrl
+goverlay-git
+mangohud
+lib32-mangohud
+gamemode
+lib32-gamemode
+vkbasalt
+lib32-vkbasalt
+replay-sorcery
+steamtinkerlaunch
+fastgame-git
+q4wine
+fuseiso
+dxvk-mingw-git
+#proton-tkg-git missing
+protontricks-git
+boxtron
 
 
 ####---->> GAME CONTROLLER
->extra antimicrox
->extra sc-controller
->extra oversteer
->extra linuxconsole
->extra xboxdrv
->extra xpadneo-dkms-git
->extra steamos-xpad-dkms
->extra xow
->extra xbox-generic-controller
->extra game-devices-udev
->extra retroarch-autoconfig-udev-git
+antimicrox
+sc-controller
+oversteer
+linuxconsole
+xboxdrv
+xpadneo-dkms-git
+steamos-xpad-dkms
+xow
+xbox-generic-controller
+game-devices-udev
+retroarch-autoconfig-udev-git
 
 
 ####---->> EMULATORS
->extra libretro
+libretro
 
 
 ####---->> GAMES
->extra aisleriot
->extra knights
->extra kmahjongg
->extra gnuchess   
->extra mari0
->extra minetest
->extra minetest-server
->extra teeworlds
+aisleriot
+knights
+kmahjongg
+gnuchess   
+mari0
+minetest
+minetest-server
+teeworlds

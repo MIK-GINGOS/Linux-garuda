@@ -15,24 +15,24 @@ modem-manager-gui
 
 ####---->> PRINTER
 ## samba
->extra samba-support
+samba-support
 
 ## printing
->extra printer-support
->extra print-manager
+printer-support
+print-manager
 
 ## scanning
->extra scanner-support
->extra skanlite
+scanner-support
+skanlite
 
 ####---->> INPUT
 libinput_gestures_qt
 
 ####---->> GARUDA THEMING & SETTINGS
 plymouth-theme-garuda
->extra noto-fonts-cjk
->extra noto-fonts-extra
->extra asian-fonts
+noto-fonts-cjk
+noto-fonts-extra
+asian-fonts
 
 ####---->> UTILITIES
 autorandr
@@ -40,8 +40,8 @@ xdg-desktop-portal
 xdg-desktop-portal-kde
 
 ## Conky 
->extra conky-lua-nv
->extra conky-manager
+conky-lua-nv
+conky-manager
 
 ####---->> XORG
 xorg-server
@@ -63,7 +63,7 @@ xdotool
 xautolock
 
 ####---->> WAYLAND
->extra xorg-server-xwayland 
+xorg-server-xwayland 
 
 ####---->> DESKTOP THEMING
 garuda-kde-settings
@@ -107,7 +107,7 @@ qt5-tools
 quota-tools
 appmenu-gtk-module
 kde-gtk-config
->extra plasma-meta
+plasma-meta
 plasma5-applets-latte-spacer
 plasma5-applets-latte-separator
 plasma5-applets-tiledmenu
@@ -130,7 +130,7 @@ colord-kde
 kdenetwork-filesharing
 kcm-wacomtablet 
 samba-mounter-git
->extra fancontrol-kcm-git
+fancontrol-kcm-git
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
@@ -163,50 +163,50 @@ kio-fuse
 spectacle
 elisa
 latte-dock-git
->extra audiocd-kio
->extra ksystemlog
->extra kup
->extra khelpcenter
->extra lokalize
->extra krename
->extra kompare
->extra kleopatra
->extra print-manager
->extra skanlite
->extra krdc
->extra krfb
->extra kmouth
->extra kmousetool
->extra kmag
->extra kimtoy
->extra kid3
->extra krita
->extra kdenlive
->extra kwave
->extra k3b
->extra subtitlecomposer
->extra argyllcms
->extra colord-sane
->extra orca
->extra festival
->extra flite
+audiocd-kio
+ksystemlog
+kup
+khelpcenter
+lokalize
+krename
+kompare
+kleopatra
+print-manager
+skanlite
+krdc
+krfb
+kmouth
+kmousetool
+kmag
+kimtoy
+kid3
+krita
+kdenlive
+kwave
+k3b
+subtitlecomposer
+argyllcms
+colord-sane
+orca
+festival
+flite
 
 ## Optional dependencies for dolphin
 kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
->extra ruby                      # installing new service menus with GHNS
+ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
->extra kimageformats     # support for dds, xcf, exr, psd, and more image formats
->extra qt5-imageformats  # support for tiff, webp, and more image formats
->extra kipi-plugins  # export to various online services
+kimageformats     # support for dds, xcf, exr, psd, and more image formats
+qt5-imageformats  # support for tiff, webp, and more image formats
+kipi-plugins  # export to various online services
 kamera
 
 ## Optional dependencies for okular
 poppler-data  # encoding data to display PDF documents containing CJK characters
 poppler-glib
->extra kdegraphics-mobipocket
->extra ebook-tools
+kdegraphics-mobipocket
+ebook-tools
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -215,59 +215,59 @@ kaccounts-providers
 sshfs  # remote filesystem browser
 
 ## Optional dependencies for k3b
->extra cdparanoia    # for cd ripping support
->extra cdrdao        # for disk-at-once (DAO) mode support
->extra dvd+rw-tools  # for dvd burning support
->extra emovix        # for bootable multimedia cd/dvd support
->extra transcode     # for advanced mpeg conversion support
->extra vcdimager     # for vcd burning support
->extra cdrtools
+cdparanoia    # for cd ripping support
+cdrdao        # for disk-at-once (DAO) mode support
+dvd+rw-tools  # for dvd burning support
+emovix        # for bootable multimedia cd/dvd support
+transcode     # for advanced mpeg conversion support
+vcdimager     # for vcd burning support
+cdrtools
 
 ## Optional dependencies for kdenlive
->extra cdrtools         # for creation of DVD ISO images
->extra dvdauthor        # for creation of DVD
->extra dvgrab           # for firewire capture
->extra recordmydesktop  # for screen capture
->extra movit            # for GPU video processing
->extra sox 
->extra ladspa
->extra opus-tools
->extra frei0r-plugins
->extra opencv
+cdrtools         # for creation of DVD ISO images
+dvdauthor        # for creation of DVD
+dvgrab           # for firewire capture
+recordmydesktop  # for screen capture
+movit            # for GPU video processing
+sox 
+ladspa
+opus-tools
+frei0r-plugins
+opencv
 
 ## Optional dependencies for plasma-vault
 encfs
->extra cryfs
+cryfs
 
 ## Optional dependencies for krita
->extra krita-plugin-gmic
->extra opencolorio
+krita-plugin-gmic
+opencolorio
 
 ####---->> Mulimedia
 imagewriter
 stacer
->extra marble 
->extra kphotoalbum
->extra obs-studio
->extra qt-scrcpy
->extra nitroshare
->extra soundkonverter
->extra mystiq
->extra converseen
->extra lmms
+marble 
+kphotoalbum
+obs-studio
+qt-scrcpy
+nitroshare
+soundkonverter
+mystiq
+converseen
+lmms
 
 ##------------> office
->extra kile
->extra kbibtex
+kile
+kbibtex
 
 
->extra libreoffice-fresh
->extra libmythes
->extra scribus
->extra tellico
->extra calibre
->extra skrooge
->extra fontforge
+libreoffice-fresh
+libmythes
+scribus
+tellico
+calibre
+skrooge
+fontforge
 
 ## Internet applications
 qbittorrent
@@ -277,12 +277,12 @@ firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-plasma-integration
->extra firefox-extension-xdm-browser-monitor
->extra firefox-extension-bitwarden
->extra thunderbird
->extra telegram-desktop
->extra fractal
->extra nextcloud-client
+firefox-extension-xdm-browser-monitor
+firefox-extension-bitwarden
+thunderbird
+telegram-desktop
+fractal
+nextcloud-client
 
 
 
