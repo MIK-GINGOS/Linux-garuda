@@ -1,8 +1,3 @@
-
-
-## FIRMWARE UPDATES
-
-
 ####---->> AUDIO
 pavucontrol
 pulseaudio-equalizer-ladspa
@@ -12,8 +7,6 @@ playerctl
 pasystray
 qjackctl
 pulseaudio-support
-
-####---->> VIDEO
 
 ####---->> NETWORK
 networkmanager-support
@@ -25,11 +18,14 @@ modem-manager-gui
 
 ####---->> PRINTER
 ## samba
+>extra samba-support
 
 ## printing
+>extra printer-support
 
 ## scanning
 >extra scanner-support
+>extra simple-scan
 
 
 ####---->> INPUT
@@ -43,9 +39,17 @@ garuda-wallpapers-extra
 
 
 ## garuda package
+garuda-settings-manager-notifier-git
+
+
+
 ## Fonts
 awesome-terminal-fonts
 ttf-font-awesome
+>extra noto-fonts-cjk
+>extra noto-fonts-extra
+>extra asian-fonts
+
 
 ####---->> UTILITIES
 ## Desktop Utils
@@ -101,7 +105,6 @@ mousetweaks
 ####---->> DESKTOP ENVIRONMENT
 qtile
 garuda-qtile-settings
-copyq
 lxsession
 pcmanfm
 tumbler
@@ -129,7 +132,6 @@ lxinput-gtk3
 zenity
 
 ####---->> DESKTOP ENVIRONMENT APPS
-#------opt deps for archiver & file manager
 ffmpegthumbnailer
 libgsf
 libopenraw
@@ -150,8 +152,6 @@ python-pywal
 ## cli apps
 xclip
 xsel
-tree
-w3m
 feh
 
 flameshot
@@ -166,10 +166,7 @@ mintstick
 bleachbit
 okular
 
-
-
-
-## Internet applications
+####---->> INTERNET
 firefox
 firefox-dark-reader
 firefox-ublock-origin
