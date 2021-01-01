@@ -190,7 +190,7 @@ mpv
 
 ####---->> GAMING TOOLS
 >extra obs-studio
->extra openrgb-git
+>extra openrgb
 >extra keyboard-visualizer-git
 >extra displaycal
 >extra argyllcms
@@ -211,7 +211,7 @@ mpv
 >extra q4wine
 >extra fuseiso
 >extra dxvk-mingw-git
->extra proton-tkg-git
+#>extra proton-tkg-git missing
 >extra protontricks-git
 >extra boxtron
 
