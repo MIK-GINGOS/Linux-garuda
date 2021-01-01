@@ -1,11 +1,13 @@
 ## Garuda Linux XFCE
 
+## Garuda Specific
+garuda-settings-manager-notifier
+
 ## Audio
+pulseaudio-support
 pavucontrol
 pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-modules-bt-git
-libldac
 pulseaudio-ctl
 playerctl
 pasystray
@@ -34,8 +36,7 @@ simple-scan
 
 ## Input
 wacom-utility
-
-## Fonts
+gesture-manager-git
 
 ## Utilities
 ## Desktop Utilities
@@ -193,8 +194,6 @@ signal-desktop # Secure messaging application
 ## AMD Vulkan
 #amdvlk
 #lib32-amdvlk
-
-## Virtualisation
 
 ## Miscellaneous Application
 gnome-keyring
