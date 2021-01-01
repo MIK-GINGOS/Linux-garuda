@@ -224,7 +224,7 @@ mpv
 >extra xboxdrv
 >extra xpadneo-dkms-git
 >extra steamos-xpad-dkms
->extra xow-git
+>extra xow
 >extra xbox-generic-controller
 >extra game-devices-udev
 >extra retroarch-autoconfig-udev-git
