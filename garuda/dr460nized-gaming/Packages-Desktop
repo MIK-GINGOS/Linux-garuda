@@ -67,10 +67,8 @@ sddm-kcm
 
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
-powerdevil
-quota-tools
-kde-gtk-config
 bluedevil
+kde-gtk-config
 kdeplasma-addons
 khotkeys
 kinfocenter
@@ -78,6 +76,9 @@ ksysguard
 kscreen
 kwallet-pam
 kwayland-integration
+kwin-lowlatency
+kwin-effects-sliding-notifications
+kwin-scripts-forceblur
 plasma-desktop
 plasma-nm
 plasma-pa
@@ -87,8 +88,9 @@ plasma-browser-integration
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
-kwin-scripts-forceblur
-kwin-effects-sliding-notifications
+powerdevil
+quota-tools
+
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -114,50 +116,38 @@ kio-extras
 kio-gdrive
 kio-fuse
 
-## Optional dependencies for dolphin
-kdegraphics-thumbnailers  # PDF and PS thumbnails
-ffmpegthumbs              # video thumbnails
-ruby               # installing new service menus with GHNS
 
-## Optional dependencies for gwenview
-kimageformats     # support for dds, xcf, exr, psd, and more image formats
-qt5-imageformats  # support for tiff, webp, and more image formats
-kipi-plugins  # export to various online services
+####---->> ADDITIONAL FUNCTIONALITY
+kdegraphics-thumbnailers
+ffmpegthumbs
+ruby
+kimageformats
+qt5-imageformats
+kipi-plugins
 kamera
-
-## Optional dependencies for kaccounts-integration
 kaccounts-providers
-
-## Optional dependencies for kdeconnect
-sshfs  # remote filesystem browser
+sshfs
 
 
 ####---->> OTHER APPS
-libinput_gestures_qt
-ffmpegthumbs           
-kaccounts-providers
-sshfs
-kio-extras
-kio-gdrive
-kio-fuse
+libinput_gestures_qt          
 latte-dock-git
 qbittorrent
 kget
 ufw
 gufw
 bleachbit
-alacritty #-ligatures-git
+alacritty-ligatures-git
 firefox-appmenu
 kmozillahelper
 firefox-dark-reader
 firefox-ublock-origin
+firefox-extension-bitwarden
 firefox-extension-localcdn
 firefox-extension-plasma-integration
-firefox-extension-bitwarden
+firefox-extension-xdm-browser-monitor
 nextcloud-client
 mpv
-firefox-extension-xdm-browser-monitor
-firefox-extension-bitwarden
 telegram-desktop
 streamlink-twitch-gui
 discord
@@ -165,12 +155,15 @@ mumble
 murmur
 syncthing-gtk
 
+
 ####---->> VIRTUALIZATION
 virt-manager-meta
+
 
 ####---->> WINE
 wine-staging
 wine-meta
+
 
 ####---->> GAME LAUNCHERS
 zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
@@ -184,6 +177,7 @@ legendary
 rare-git
 ialauncher-git
 minecraft-launcher 
+
 
 ####---->> GAMING TOOLS
 obs-studio
