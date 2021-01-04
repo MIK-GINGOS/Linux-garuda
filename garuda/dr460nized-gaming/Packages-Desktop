@@ -165,16 +165,12 @@ mumble
 murmur
 syncthing-gtk
 
-
-
 ####---->> VIRTUALIZATION
 virt-manager-meta
-
 
 ####---->> WINE
 wine-staging
 wine-meta
-
 
 ####---->> GAME LAUNCHERS
 zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
