@@ -45,6 +45,7 @@ libdvdcss
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
+openbsd-netcat
 
 ## Shells
 garuda-zsh-config
