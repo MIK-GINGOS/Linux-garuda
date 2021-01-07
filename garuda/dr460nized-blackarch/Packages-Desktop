@@ -109,6 +109,20 @@ firefox-extension-plasma-integration
 firefox-extension-bitwarden
 
 
+####---->> WIFI DRIVERS
+8192eu-dkms
+8188eu-aircrack-dkms-git
+8188fu-kelebek333-dkms-git
+r8168-dkms
+realtek-firmware
+rtl8192cu-fixes-git
+rtl88xxau-aircrack-dkms-git
+rtl8814au-aircrack-dkms-git
+rtl88x2bu-dkms-git
+rtl88x2ce-dkms
+rtw88-dkms-git
+
+
 ####---->> BLACKARCH
 torbrowser-launcher
 afl
