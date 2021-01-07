@@ -154,6 +154,8 @@ discord
 mumble
 murmur
 syncthing-gtk
+amdvlk
+lib32-amdvlk
 
 
 ####---->> VIRTUALIZATION

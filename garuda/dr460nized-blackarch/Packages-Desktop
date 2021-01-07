@@ -1,0 +1,135 @@
+####---->> Media
+pulseaudio-equalizer-ladspa
+pulseaudio-support
+
+
+####---->> XORG
+xorg-server
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xrandr
+xorg-xprop
+
+
+####---->> UTILITIES
+xdg-desktop-portal
+xdg-desktop-portal-kde
+autorandr
+
+
+####---->> GARUDA META
+networkmanager-support
+
+
+####---->> THEMING
+## theme package
+garuda-dr460nized
+plymouth-theme-garuda-purple
+kvantum-qt5
+beautyline
+sweet-theme-dark
+xcursor-sweet
+
+
+####---->> SETTINGS
+garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
+
+
+####---->> DISPLAY MANAGER
+sddm
+sddm-kcm
+
+
+####---->> DESKTOP ENVIRONMENT
+appmenu-gtk-module
+powerdevil
+quota-tools
+kde-gtk-config
+bluedevil
+kdeplasma-addons
+khotkeys
+kinfocenter
+ksysguard
+kscreen
+kwallet-pam
+kwayland-integration
+kwin-lowlatency
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-vault
+plasma-thunderbolt
+plasma-browser-integration
+plasma5-applets-window-title
+plasma5-applets-window-appmenu
+plasma5-applets-window-buttons
+kwin-scripts-forceblur
+kwin-effects-sliding-notifications
+
+
+####---->> DESKTOP ENVIRONMENT APPS
+ark
+dolphin
+dolphin-plugins
+kde-servicemenus-rootactions
+kde-servicemenus-pdf
+kde-servicemenus-encfs
+kde-service-menu-reimage
+kdegraphics-thumbnailers
+jhead
+kdeconnect
+okular
+partitionmanager
+spectacle
+konsole
+krfb
+kate
+gwenview
+kcalc
+
+
+####---->> OTHER APPS
+libinput_gestures_qt
+ffmpegthumbs           
+kaccounts-providers
+sshfs
+kio-extras
+kio-gdrive
+kio-fuse
+latte-dock-git
+qbittorrent
+kget
+ufw
+gufw
+bleachbit
+alacritty-ligatures-git
+firefox-appmenu
+kmozillahelper
+firefox-dark-reader
+firefox-ublock-origin
+firefox-extension-localcdn
+firefox-extension-plasma-integration
+firefox-extension-bitwarden
+nextcloud-client
+mpv
+
+>extra youtube-dl
+>extra krdc
+>extra base-devel
+>extra kdenlive
+>extra visual-studio-code-insiders-bin
+>extra github-desktop-bin
+>extra virtualbox-meta
+>extra libreoffice-fresh
+>extra spotify-adblock-git
+>extra spicetify-cli
+>extra spicetify-themes-git
+>extra nextcloud-client
+>extra telegram-desktop
+>extra torbrowser-launcher
+>extra docker
+>extra docker-compose
+>extra lutris
