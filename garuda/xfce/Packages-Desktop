@@ -192,8 +192,8 @@ veracrypt
 signal-desktop # Secure messaging application
 
 ## AMD Vulkan
-#amdvlk
-#lib32-amdvlk
+amdvlk
+lib32-amdvlk
 
 ## Miscellaneous Application
 gnome-keyring
