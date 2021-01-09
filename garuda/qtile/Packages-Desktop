@@ -1,31 +1,20 @@
 ####---->> AUDIO
-pavucontrol
-pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-ctl
-playerctl
 pasystray
-qjackctl
+pavucontrol
+playerctl
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
 pulseaudio-support
+qjackctl
+
 
 ####---->> NETWORK
-networkmanager-support
-
 blueman
-network-manager-applet
-qomui-git
 modem-manager-gui
-
-####---->> PRINTER
-## samba
->extra samba-support
-
-## printing
->extra printer-support
-
-## scanning
->extra scanner-support
->extra simple-scan
+network-manager-applet
+networkmanager-support
+qomui-git
 
 
 ####---->> INPUT
@@ -34,21 +23,15 @@ gesture-manager-x-git
 
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
-plymouth-theme-garuda-purple
 garuda-wallpapers-extra
-
+plymouth-theme-garuda-purple
 
 ## garuda package
 garuda-settings-manager-notifier-git
 
-
-
 ## Fonts
 awesome-terminal-fonts
 ttf-font-awesome
->extra noto-fonts-cjk
->extra noto-fonts-extra
->extra asian-fonts
 
 
 ####---->> UTILITIES
@@ -60,117 +43,117 @@ xdg-desktop-portal-gtk
 ## Conky 
 conky-lua-nv
 
+
 ####---->> XORG
 xorg-server
 xorg-server-xephyr
-xorg-xwininfo
+xorg-xbacklight
 xorg-xhost
 xorg-xinit
 xorg-xinput
-xorg-xrandr
-xorg-xprop
 xorg-xkill
-xorg-xbacklight
+xorg-xprop
+xorg-xrandr
 xorg-xsetroot
+xorg-xwininfo
 
 ## xorg apps
-wmctrl
 numlockx
+wmctrl
+xautolock
 xbindkeys
 xcape
 xdotool
-xautolock
 
-####---->> WAYLAND
->extra xorg-server-xwayland 
 
 ####---->> DESKTOP THEMING
-
-gtk-engine-murrine
-qt5ct
-kvantum-qt5
 #candy-icons-git
-tela-icon-theme-git
-sweet-theme-dark
+#kvantum-theme-vimix-git
 #vimix-gtk-themes
 #yaru-colors-gtk-theme-git
-#kvantum-theme-vimix-git
+gtk-engine-murrine
+kvantum-qt5
 kvantum-theme-sweet-git
+qt5ct
+sweet-theme-dark
+tela-icon-theme-git
 
 
 ####---->> DISPLAY MANAGER
-sddm
 mousetweaks
+sddm
+
 
 ####---->> DESKTOP ENVIRONMENT
-qtile
+alacritty
+archlinux-xdg-menu
+dmenu
+dunst
 garuda-qtile-settings
-lxsession
-pcmanfm
-tumbler
-xarchiver
-pragha
 geany
+gmrun
+i3lock
+jgmenu
+lxappearance-gtk3
+lxinput-gtk3
+lxrandr
+lxsession
+lxtask-gtk3
+nwg-launchers
+pcmanfm
+picom
+pragha
+qtile
+rofi
 termite
 termite-terminfo
-i3lock
-
-dunst
-picom
-rofi
-dmenu
-jgmenu
-gmrun
-nwg-launchers
-archlinux-xdg-menu
-alacritty
-lxtask-gtk3
-lxappearance-gtk3
-lxrandr
-lxinput-gtk3
-
+tumbler
+xarchiver
 zenity
+
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ffmpegthumbnailer
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
 libgsf
 libopenraw
 librsvg
-gvfs-mtp
-gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
-gvfs-google
-gvfs-goa
 python-psutil
 python-pywal
 
-####---->> OTHER APPS
 
-## cli apps
+####---->> OTHER APPS
+## CLI apps
+feh
 xclip
 xsel
-feh
 
-flameshot
-gnome-keyring
-galculator
-gsimplecal
-gparted
+## GUI apps
 #meld
-deluge-gtk
-peek
-mintstick
 bleachbit
+deluge-gtk
+flameshot
+galculator
+gnome-keyring
+gparted
+gsimplecal
+mintstick
 okular
+peek
+
 
 ####---->> INTERNET
 firefox
 firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-localcdn
 firefox-extension-bitwarden
+firefox-extension-localcdn
+firefox-ublock-origin
 nextcloud-client
 

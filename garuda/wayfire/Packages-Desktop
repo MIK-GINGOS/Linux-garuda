@@ -1,20 +1,20 @@
 ####---->> AUDIO
-pavucontrol
-pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-ctl
-playerctl
 pasystray
-qjackctl
+pavucontrol
+playerctl
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
 pulseaudio-support
+qjackctl
 
 
 ####---->> NETWORK
-connman-support
 blueberry
 connman-gtk
-qomui-git
+connman-support
 modem-manager-gui
+qomui-git
 
 
 ####---->> INPUT
@@ -36,14 +36,14 @@ xorg-server-xwayland
 
 
 ####---->> DESKTOP THEMING
-garuda-wayfire-settings
 capitaine-cursors
+garuda-wayfire-settings
 gtk-engine-murrine
-qt5ct
 kvantum-qt5
 kvantum-theme-materia
-tela-circle-icon-theme-git
 orchis-theme-git
+qt5ct
+tela-circle-icon-theme-git
 
 
 ####---->> DISPLAY MANAGER
@@ -58,54 +58,53 @@ wayfire-desktop-git
 ####---->> DESKTOP ENVIRONMENT APPS
 alacritty
 dconf-editor
-lollypop
-mpv
-gedit
 eog
-gedit-plugins
 evince
+ffmpegthumbnailer
 file-roller
-nautilus # -typeahead
-nautilus-bluetooth
-nautilus-image-converter
-nautilus-sendto
-nautilus-share
-nautilus-admin
-nautilus-pdf-tools-git
-nautilus-mediainfo
-sushi
+gedit
+gedit-plugins
+gnome-calculator
 gnome-disk-utility
 gnome-logs
-gnome-calculator
 gnome-system-monitor
-
-ffmpegthumbnailer
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
 libgsf
 libopenraw
 librsvg
-gvfs-mtp
-gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
+lollypop
+mpv
+nautilus # -typeahead
+nautilus-admin
+nautilus-bluetooth
+nautilus-image-converter
+nautilus-mediainfo
+nautilus-pdf-tools-git
+nautilus-sendto
+nautilus-share
+sushi
 
 
 ####---->> OTHER APPS
 bleachbit
-deluge-gtk
-popsicle-git
 catfish
+deluge-gtk
 meld
+popsicle-git
 
 
 ####---->> INTERNET
-geary
 firefox
 firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-localcdn
 firefox-extension-bitwarden
+firefox-extension-localcdn
+firefox-ublock-origin
+geary
 nextcloud-client
 
 

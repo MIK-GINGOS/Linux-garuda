@@ -1,32 +1,21 @@
 ####---->> XORG
+xdg-user-dirs
 xorg-server
 xorg-server-xwayland 
 xorg-xinit
 
-xdg-user-dirs
-
-#---------=> utilities
-timeshift
-timeshift-autosnap
-
 
 ####---->> THEMING
 ## theme package
-performance-tweaks
 grub-theme-garuda
-plymouth-theme-garuda
 gtk-engine-murrine
-
+performance-tweaks
+plymouth-theme-garuda
 
 ## Fonts
 noto-fonts               # default font
 noto-fonts-emoji
 
-
-####---->> SETTINGS
-garuda-settings-manager
-garuda-settings-manager-kcm
-garuda-settings-manager-knotifier
 
 ####---->> DISPLAY MANAGER
 sddm
@@ -34,20 +23,20 @@ sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
+appmenu-gtk-module
+kde-gtk-config
 khotkeys
 kscreen
+kwallet-pam
+kwin
 plasma-desktop
 plasma-nm
 plasma-pa
-kwin
-kwallet-pam
 powerdevil
-appmenu-gtk-module
-kde-gtk-config
+
 
 ####---->> DESKTOP ENVIRONMENT APPS
-## kde apps
-dolphin
-konsole
 ark
+dolphin
 gwenview
+konsole

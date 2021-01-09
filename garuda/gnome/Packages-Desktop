@@ -1,125 +1,136 @@
 ####---->> AUDIO
 pipewire-support
 
+
 ####---->> VIDEO
 gst-plugin-pipewire
 
+
 ####---->> NETWORK
+modem-manager-gui
 networkmanager-support
 qomui-git
-modem-manager-gui
+
 
 ####---->> INPUT
 gesture-manager-x-git
 
+
 ####---->> GARUDA THEMING & SETTINGS
-plymouth-theme-garuda-purple
 garuda-settings-manager-notifier
+plymouth-theme-garuda-purple
+
 
 ####---->> UTILITIES
 autorandr
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
+
 ####---->> XORG
-xorg-server
-xorg-server-xephyr
-xorg-xwininfo
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
-xorg-xkill
-xorg-xbacklight
-xorg-xsetroot
-wmctrl
 numlockx
+wmctrl
+xautolock
 xbindkeys
 xcape
 xdotool
-xautolock
+xorg-server
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xorg-xrandr
+xorg-xsetroot
+xorg-xwininfo
+
 
 ####---->> WAYLAND
 >extra xorg-server-xwayland 
+
 
 ####---->> DESKTOP THEMING
 garuda-gnome-settings
 gtk-engine-murrine
 gtk-engines
-qt5ct
 kvantum-qt5
+qt5ct
 tela-circle-icon-theme-git
-whitesur-kvantum-theme-git
 whitesur-cursor-theme-git
+whitesur-kvantum-theme-git
 yaru-sound-theme
+
 
 ####---->> DISPLAY MANAGER
 gdm
 
+
 ####---->> DESKTOP ENVIRONMENT
-mutter
+chrome-gnome-shell 
+festival
+gnome-control-center
+gnome-desktop  
+gnome-keyring 
+gnome-menus
 gnome-session                                    
 gnome-settings-daemon                                           
 gnome-shell
-chrome-gnome-shell 
-gnome-tweaks 
 gnome-shell-extensions
-gnome-desktop  
-gnome-keyring 
 gnome-system-monitor                                                                          
 gnome-terminal-transparency
-gnome-menus
-qt5-wayland
-gnome-control-center
-orca
-festival
+gnome-tweaks 
 mousetweaks
+mutter
+orca
+qt5-wayland
+
 
 ####---->> DESKTOP ENVIRONMENT APPS
-lollypop
 celluloid
+eog
+evince
+ffmpegthumbnailer
+file-roller
+geary
 gedit
 gedit-plugins
-eog
-geary
-evince
-file-roller
-nautilus-typeahead
-nautilus-bluetooth
-nautilus-image-converter
-nautilus-sendto
-nautilus-share
-nautilus-admin
-nautilus-pdf-tools-git
-nautilus-mediainfo
-sushi
-gnome-disk-utility
 gnome-calculator
-ffmpegthumbnailer
+gnome-disk-utility
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
 libgsf
 libopenraw
 librsvg
-gvfs-mtp
-gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
-gvfs-google
-gvfs-goa
+lollypop
+nautilus-admin
+nautilus-bluetooth
+nautilus-image-converter
+nautilus-mediainfo
+nautilus-pdf-tools-git
+nautilus-sendto
+nautilus-share
+nautilus-typeahead
+sushi
+
 
 ####---->> OTHER APPS
-flameshot
 bleachbit
-peek
-popsicle-git
+flameshot
+
 
 ####---->> INTERNET
 firefox
 firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-localcdn
 firefox-extension-bitwarden
-nextcloud-client
 firefox-extension-gnome-shell-integration
+firefox-extension-localcdn
+firefox-ublock-origin
+nextcloud-client

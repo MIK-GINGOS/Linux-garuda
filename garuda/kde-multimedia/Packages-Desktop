@@ -1,38 +1,42 @@
 ####---->> AUDIO
-pulseaudio-equalizer-ladspa
-pulseaudio-ctl
-playerctl
-qjackctl
 alsa-support
-jack-support
-pulseaudio-support
 gst-plugin-opencv
+jack-support
+playerctl
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
+pulseaudio-support
+qjackctl
+
 
 ####---->> NETWORK
+modem-manager-gui
 networkmanager-support
 qomui-git
-modem-manager-gui
+
 
 ####---->> PRINTER
-## samba
 samba-support
 
 ## printing
-printer-support
 print-manager
+printer-support
 
 ## scanning
 scanner-support
 skanlite
 
+
 ####---->> INPUT
 libinput_gestures_qt
 
+
 ####---->> GARUDA THEMING & SETTINGS
-plymouth-theme-garuda
+asian-fonts
 noto-fonts-cjk
 noto-fonts-extra
-asian-fonts
+plymouth-theme-garuda
+
 
 ####---->> UTILITIES
 autorandr
@@ -43,170 +47,174 @@ xdg-desktop-portal-kde
 conky-lua-nv
 conky-manager
 
+
 ####---->> XORG
-xorg-server
-xorg-server-xephyr
-xorg-xwininfo
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
-xorg-xkill
-xorg-xbacklight
-xorg-xsetroot
-wmctrl
 numlockx
+wmctrl
+xautolock
 xbindkeys
 xcape
 xdotool
-xautolock
+xorg-server
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xorg-xrandr
+xorg-xsetroot
+xorg-xwininfo
+
 
 ####---->> WAYLAND
 xorg-server-xwayland 
 
+
 ####---->> DESKTOP THEMING
 garuda-kde-settings
 gtk-engine-murrine
-whitesur-gtk-theme-git
-whitesur-kde-theme-git
+kvantum-qt5
 tela-circle-icon-theme-git
 whitesur-cursor-theme-git
-kvantum-qt5
+whitesur-gtk-theme-git
+whitesur-kde-theme-git
 
 
 ####---->> DISPLAY MANAGER
+qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 sddm
 sddm-kcm
-qt5-virtualkeyboard  # Virtual keyboard support for kwin-wayland
 
 
 ####---->> DESKTOP ENVIRONMENT
+#usermanager
+appmenu-gtk-module
 bluedevil
+breeze-gtk
+colord-kde
+fancontrol-kcm-git
+jhead
+kcm-wacomtablet 
+kde-gtk-config
+kde-service-menu-reimage
+kde-servicemenus-encfs
+kde-servicemenus-pdf
+kde-servicemenus-rootactions
+kdenetwork-filesharing
 kdeplasma-addons
+kgamma5
 khotkeys
 kinfocenter
-ksysguard
 kscreen
 ksshaskpass
+ksysguard
+kwallet-pam
+kwayland-integration
+kwin-effects-sliding-notifications
+kwin-scripts-forceblur
 kwrited
 plasma-desktop
+plasma-disks
+plasma-meta
 plasma-nm
-plasma-workspace-wallpapers
 plasma-pa
 plasma-thunderbolt
 plasma-vault
-plasma-disks
-kwayland-integration
-kwallet-pam
-kgamma5
-#usermanager
-breeze-gtk
+plasma-workspace-wallpapers
+plasma5-applets-eventcalendar
+plasma5-applets-latte-separator
+plasma5-applets-latte-sidebar-button
+plasma5-applets-latte-spacer
+plasma5-applets-netspeed
+plasma5-applets-presentwindows
+plasma5-applets-simplemenu-git
+plasma5-applets-tiledmenu
+plasma5-applets-window-appmenu
+plasma5-applets-window-buttons
+plasma5-applets-window-title
 powerdevil
 qt5-tools
 quota-tools
-appmenu-gtk-module
-kde-gtk-config
-plasma-meta
-plasma5-applets-latte-spacer
-plasma5-applets-latte-separator
-plasma5-applets-tiledmenu
-plasma5-applets-simplemenu-git
-plasma5-applets-latte-sidebar-button
-plasma5-applets-window-title
-plasma5-applets-window-appmenu
-plasma5-applets-window-buttons
-plasma5-applets-presentwindows
-plasma5-applets-netspeed
-plasma5-applets-eventcalendar
-kwin-scripts-forceblur
-kwin-effects-sliding-notifications
-kde-servicemenus-rootactions
-kde-servicemenus-pdf
-kde-servicemenus-encfs
-kde-service-menu-reimage
-jhead
-colord-kde
-kdenetwork-filesharing
-kcm-wacomtablet 
 samba-mounter-git
-fancontrol-kcm-git
+
 
 ####---->> DESKTOP ENVIRONMENT APPS
+argyllcms
 ark
+audiocd-kio
+colord-sane
 dolphin
 dolphin-plugins
-filelight
-kate
-gwenview
-svgpart
-konsole
-yakuake
-kwalletmanager
-kolourpaint
-kcolorchooser
-kcalc
-keditbookmarks
-kdialog
-kfind
-kdeconnect
-okular
-kamoso
-partitionmanager
-kdf
-kcron
-smb4k
-zeroconf-ioslave
-kio-extras
-kio-gdrive
-kio-fuse
-spectacle
 elisa
-latte-dock-git
-audiocd-kio
+festival
+filelight
+flite
+gwenview
+k3b
+kamoso
+kate
+kcalc
+kcolorchooser
+kcron
+kdeconnect
+kdenlive
+kdf
+kdialog
+keditbookmarks
+kfind
+khelpcenter
+kid3
+kimtoy
+kio-extras
+kio-fuse
+kio-gdrive
+kleopatra
+kmag
+kmousetool
+kmouth
+kolourpaint
+kompare
+konsole
+krdc
+krename
+krfb
+krita
 ksystemlog
 kup
-khelpcenter
+kwalletmanager
+kwave
+latte-dock-git
 lokalize
-krename
-kompare
-kleopatra
+okular
+orca
+partitionmanager
 print-manager
 skanlite
-krdc
-krfb
-kmouth
-kmousetool
-kmag
-kimtoy
-kid3
-krita
-kdenlive
-kwave
-k3b
+smb4k
+spectacle
 subtitlecomposer
-argyllcms
-colord-sane
-orca
-festival
-flite
+svgpart
+yakuake
+zeroconf-ioslave
 
 ## Optional dependencies for dolphin
-kdegraphics-thumbnailers  # PDF and PS thumbnails
 ffmpegthumbs              # video thumbnails
+kdegraphics-thumbnailers  # PDF and PS thumbnails
 ruby                      # installing new service menus with GHNS
 
 ## Optional dependencies for gwenview
-kimageformats     # support for dds, xcf, exr, psd, and more image formats
-qt5-imageformats  # support for tiff, webp, and more image formats
-kipi-plugins  # export to various online services
 kamera
+kimageformats     # support for dds, xcf, exr, psd, and more image formats
+kipi-plugins  # export to various online services
+qt5-imageformats  # support for tiff, webp, and more image formats
 
 ## Optional dependencies for okular
+ebook-tools
+kdegraphics-mobipocket
 poppler-data  # encoding data to display PDF documents containing CJK characters
 poppler-glib
-kdegraphics-mobipocket
-ebook-tools
 
 ## Optional dependencies for kaccounts-integration
 kaccounts-providers
@@ -217,72 +225,71 @@ sshfs  # remote filesystem browser
 ## Optional dependencies for k3b
 cdparanoia    # for cd ripping support
 cdrdao        # for disk-at-once (DAO) mode support
+cdrtools
 dvd+rw-tools  # for dvd burning support
 emovix        # for bootable multimedia cd/dvd support
 transcode     # for advanced mpeg conversion support
 vcdimager     # for vcd burning support
-cdrtools
 
 ## Optional dependencies for kdenlive
 cdrtools         # for creation of DVD ISO images
 dvdauthor        # for creation of DVD
 dvgrab           # for firewire capture
-recordmydesktop  # for screen capture
-movit            # for GPU video processing
-sox 
-ladspa
-opus-tools
 frei0r-plugins
+ladspa
+movit            # for GPU video processing
 opencv
+opus-tools
+recordmydesktop  # for screen capture
+sox 
 
 ## Optional dependencies for plasma-vault
-encfs
 cryfs
+encfs
 
 ## Optional dependencies for krita
 krita-plugin-gmic
 opencolorio
 
+
 ####---->> Mulimedia
+converseen
 imagewriter
-stacer
-marble 
 kphotoalbum
+lmms
+marble 
+mystiq
+nitroshare
 obs-studio
 qt-scrcpy
-nitroshare
 soundkonverter
-mystiq
-converseen
-lmms
+stacer
 
-##------------> office
-kile
-kbibtex
-
-
-libreoffice-fresh
-libmythes
-scribus
-tellico
+## Office
 calibre
-skrooge
 fontforge
+kbibtex
+kile
+libmythes
+libreoffice-fresh
+scribus
+skrooge
+tellico
 
 ## Internet applications
-qbittorrent
 firefox-appmenu
-kmozillahelper
 firefox-dark-reader
-firefox-ublock-origin
+firefox-extension-bitwarden
 firefox-extension-localcdn
 firefox-extension-plasma-integration
 firefox-extension-xdm-browser-monitor
-firefox-extension-bitwarden
-thunderbird
-telegram-desktop
+firefox-ublock-origin
 fractal
+kmozillahelper
 nextcloud-client
+qbittorrent
+telegram-desktop
+thunderbird
 
 
 

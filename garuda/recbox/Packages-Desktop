@@ -1,28 +1,28 @@
 ####---->> AUDIO
-pavucontrol
-pulseaudio-equalizer-ladspa
-paprefs
-pulseaudio-ctl
-playerctl
-pasystray
-qjackctl
 alsa-support
 jack-support
+paprefs
+pasystray
+pavucontrol
+playerctl
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
 pulseaudio-support
+qjackctl
 
 
 ####---->> NETWORK
-networkmanager-support
 blueman
-network-manager-applet
-qomui-git
 modem-manager-gui
+network-manager-applet
 networkmanager-dmenu
+networkmanager-support
+qomui-git
 
 
 ####---->> PRINTER
-samba-support
 printer-support
+samba-support
 scanner-support
 simple-scan
 
@@ -42,162 +42,153 @@ xdg-desktop-portal-gtk
 
 
 ####---->> XORG
-xorg-server
-xorg-server-xephyr
-xorg-xwininfo
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
-xorg-xkill
-xorg-xbacklight
-xorg-xsetroot
-wmctrl
 numlockx
+wmctrl
+xautolock
 xbindkeys
 xcape
 xdotool
-xautolock
+xorg-server
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xorg-xrandr
+xorg-xsetroot
+xorg-xwininfo
 
 
 ####---->> DESKTOP THEMING
+capitaine-cursors
+flat-remix
 garuda-recbox-settings
 gtk-engine-murrine
-qt5ct 
-qt5-styleplugins 
 kvantum-qt5
-flat-remix
-matcha-gtk-theme-git
 kvantum-theme-matcha-git
-capitaine-cursors
+matcha-gtk-theme-git
+qt5-styleplugins 
+qt5ct 
 
 
 ####---->> DISPLAY MANAGER
-lightdm
-lightdm-slick-greeter
-lightdm-settings
 accountsservice  # Enhanced user accounts handling
-orca
 festival
-onboard
+lightdm
+lightdm-settings
+lightdm-slick-greeter
 mousetweaks
+onboard
+orca
 
 
 ####---->> DESKTOP ENVIRONMENT
-polkit-gnome
-gnome-keyring
-thunar
-thunar-volman
-tumbler
-xfce4-power-manager
-xfce4-settings
-thunar-archive-plugin
-thunar-media-tags-plugin
-xarchiver
-xed
-viewnior
-deadbeef
-termite
-termite-terminfo
+archlinux-xdg-menu
 betterlockscreen 
-obkey
+deadbeef
+dmenu
+dunst
+flashfocus
+gnome-keyring
+jgmenu
+menumaker
+nitrogen
 obconf 
+obkey
 obmenu-generator
 openbox
-dunst
 picom-ibhagwan-git
-nitrogen
+polkit-gnome
 polybar
-tint2
 rofi
-dmenu
-jgmenu
 skippy-xd
-flashfocus
-archlinux-xdg-menu
-menumaker
+termite
+termite-terminfo
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
+tint2
+tumbler
+viewnior
+xarchiver
+xed
+xfce4-power-manager
+xfce4-settings
 zenity
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ffmpegthumbnailer
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
 libgsf
 libopenraw
 librsvg
-gvfs-mtp
-gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
 
 
 ####---->> OTHER APPS
-mc
-ranger
-mlocate
-recoll
-hddtemp
-pastebinit
-ps_mem
-xclip
-xsel
-hardinfo 
-scrot
-jq
-feh
-tree
-w3m
-cmus
-flameshot
-gnome-keyring
-redshift
-qpdfview
-galculator
-gsimplecal
-gparted
-mpv
-catfish
-meld
-deluge-gtk
-peek
-mintstick
 bleachbit
+catfish
+cmus
+deluge-gtk
+feh
+firefox
+firefox-dark-reader
+firefox-extension-bitwarden
+firefox-extension-localcdn
+firefox-ublock-origin
+flameshot
+galculator
+gimp
+gnome-keyring
+gparted
+gsimplecal
+hardinfo 
+hddtemp
+inkscape
+jq
 kid3
+libmythes
+libreoffice-fresh
+mc
+meld
+mintstick
+mlocate
+mpv
+nextcloud-client
+pastebinit
+peek
+pitivi
+ps_mem
+qpdfview
+ranger
+recoll
+redshift
+scrot
 smplayer
 smplayer-skins
 smplayer-themes
-pitivi
-gimp
-inkscape
-libreoffice-fresh
-libmythes
-thunderbird
-firefox
-firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-localcdn
-firefox-extension-bitwarden
-nextcloud-client
-telegram-desktop
 syncthing-gtk
+telegram-desktop
+thunderbird
+tree
+w3m
+xclip
+xsel
 
 
 ####---->> RecBox
-faad2
-flac
-imlib2
-libmad
-libvorbis
-mpg123
-jack2 
-libffado 
-alsa-tools
-qtractor
-aj-snapshot
 a2jmidid
 aeolus
+aj-snapshot
+alsa-tools
 amb-plugins
 ardour
 artyfx
@@ -213,21 +204,29 @@ dragonfly-reverb
 dssi
 eq10q
 eteroj.lv2
+faad2
 fabla
 fil-plugins
+flac
 fluidsynth
 fomp.lv2
 gmsynth.lv2
 guitarix
 helm-synth
 hydrogen
+imlib2
 ir.lv2
+jack2 
 jack_capture
 jacktrip
 jalv
+libffado 
+libmad
+libvorbis
 mcp-plugins
 mda.lv2
 midi_matrix.lv2
+mpg123
 njconnect
 osc2midi
 osmid
@@ -242,6 +241,7 @@ qmidiarp
 qmidictl
 qmidinet
 qmidiroute
+qtractor
 qxgedit
 realtime-privileges
 rev-plugins

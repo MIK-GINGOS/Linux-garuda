@@ -1,139 +1,147 @@
 ####---->> AUDIO
-pulseaudio-support
-pavucontrol
-pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-ctl
-playerctl
 pasystray
+pavucontrol
+playerctl
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
+pulseaudio-support
+
 
 ####---->> NETWORK
-networkmanager-support
 blueman
-network-manager-applet
-qomui-git
 modem-manager-gui
+network-manager-applet
+networkmanager-support
+qomui-git
+
 
 ####---->> INPUT
 gesture-manager-x-git
 
+
 ####---->> GARUDA THEMING & SETTINGS
-plymouth-theme-garuda
 garuda-settings-manager-notifier
+plymouth-theme-garuda
+
 
 ####---->> UTILITIES
 autorandr
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
+
 ####---->> XORG
-xorg-server
-xorg-server-xephyr
-xorg-xwininfo
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
-xorg-xkill
-xorg-xbacklight
-xorg-xsetroot
-wmctrl
 numlockx
+wmctrl
+xautolock
 xbindkeys
 xcape
 xdotool
-xautolock
+xorg-server
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xorg-xrandr
+xorg-xsetroot
+xorg-xwininfo
+
 
 ####---->> DESKTOP THEMING
 garuda-bspwm-settings
 lxappearance
-
-yaru-sound-theme
 gtk-engine-murrine
-qt5ct
 kvantum-qt5
-whitesur-gtk-theme-git
-whitesur-kvantum-theme-git
+qt5ct
 tela-circle-icon-theme-git
 whitesur-cursor-theme-git
+whitesur-gtk-theme-git
+whitesur-kvantum-theme-git
+yaru-sound-theme
+
 
 ####---->> DISPLAY MANAGER
-lightdm
-lightdm-slick-greeter
-lightdm-settings
 accountsservice  # Enhanced user accounts handling
+festival
+lightdm
+lightdm-settings
+lightdm-slick-greeter
+mousetweaks
 onboard
 orca
-festival
-mousetweaks
+
 
 ####---->> DESKTOP ENVIRONMENT
 bspwm
-picom-ibhagwan-git
-sxhkd
-rofi
 exo
 garcon
+picom-ibhagwan-git
+rofi
+sxhkd
 thunar
 thunar-volman
 tumbler
-xfce4-terminal
 xfce4-appfinder
 xfce4-panel
 xfce4-power-manager
 xfce4-session
 xfce4-settings
+xfce4-terminal
 xfconf
 xfdesktop
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ffmpegthumbnailer
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
 libgsf
 libopenraw
 librsvg
-gvfs-mtp
-gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
 xarchiver
 
 ## xfce extra
 menulibre
 mousepad
-ristretto
+mugshot
 pragha
+ristretto
 thunar-archive-plugin
 thunar-media-tags-plugin
 xfce4-battery-plugin
 xfce4-datetime-plugin
+xfce4-fsguard-plugin
+xfce4-mount-plugin
 xfce4-notes-plugin
 xfce4-notifyd
 xfce4-pulseaudio-plugin
-xfce4-mount-plugin
-xfce4-fsguard-plugin
-mugshot
+
 
 ####---->> OTHER APPS
+bleachbit
+deluge-gtk
 flameshot
 gnome-keyring
-redshift
+meld
+mintstick
 mpv
 qpdfview
-deluge-gtk
-bleachbit
-mintstick
-meld
+redshift
 peek
 
 ## Internet applications
 firefox
 firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-localcdn
 firefox-extension-bitwarden
+firefox-extension-localcdn
+firefox-ublock-origin
 nextcloud-client
 

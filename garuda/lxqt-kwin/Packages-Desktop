@@ -1,19 +1,19 @@
 ####---->> AUDIO
-pavucontrol-qt
-pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-ctl
+pavucontrol-qt
 playerctl
-qjackctl
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
 pulseaudio-support
+qjackctl
 
 
 ####---->> NETWORK
-connman-support
-qomui-git
-modem-manager-gui
-cmst
 bluedevil
+cmst
+connman-support
+modem-manager-gui
+qomui-git
 
 
 ####---->> INPUT
@@ -31,31 +31,31 @@ xdg-desktop-portal-kde
 
 
 ####---->> XORG
-xorg-server
-xorg-server-xephyr
-xorg-xwininfo
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
-xorg-xkill
-xorg-xbacklight
-xorg-xsetroot
-wmctrl
 numlockx
+wmctrl
+xautolock
 xbindkeys
 xcape
 xdotool
-xautolock
+xorg-server
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xorg-xrandr
+xorg-xsetroot
+xorg-xwininfo
 
 
 ####---->> DESKTOP THEMING
 garuda-lxqt-kwin-settings
 gtk-engine-murrine
 kvantum-qt5
-vimix-cursors
 kvantum-theme-vimix-git  
+vimix-cursors
 vimix-gtk-themes-git
 vimix-icon-theme-git
 
@@ -66,52 +66,52 @@ sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
-kwin
 kde-cli-tools
-plasma-workspace
+kwin
 kwin-decoration-sierra-breeze-enhanced-git
 kwin-scripts-krohnkite-git
 lxqt-kwin-desktop-git
+plasma-workspace
 xsettingsd
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
-ffmpegthumbnailer
-libgsf
-gvfs-mtp
-gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
-gvfs-google
-gvfs-goa
 feathernotes
 featherpad
+ffmpegthumbnailer
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+libgsf
 qpdfview
 
 
 ####---->> OTHER APPS
-speedcrunch
-qbittorrent
-ksmoothdock
-partitionmanager
-imagewriter
 audacious
 audacious-plugins
-stacer
-simplescreenrecorder
+imagewriter
 kdeconnect
-sshfs
+ksmoothdock
+partitionmanager
+qbittorrent
+simplescreenrecorder
 smplayer
 smplayer-skins
 smplayer-themes
+speedcrunch
+sshfs
+stacer
 
 
 ####---->> INTERNET
 firefox
 firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-localcdn
 firefox-extension-bitwarden
+firefox-extension-localcdn
+firefox-ublock-origin
 nextcloud-client

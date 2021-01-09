@@ -1,49 +1,33 @@
 ####---->> AUDIO
-pavucontrol
-pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-ctl
-playerctl
 pasystray
-qjackctl
+pavucontrol
+playerctl
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
 pulseaudio-support
+qjackctl
+
 
 ####---->> NETWORK
-networkmanager-support
-
-bluetooth-support
 blueman
-network-manager-applet
-qomui-git
+bluetooth-support
 modem-manager-gui
-
-####---->> PRINTER
-## samba
->extra samba-support
-
-## printing
->extra printer-support
-
-## scanning
->extra scanner-support
->extra simple-scan
+network-manager-applet
+networkmanager-support
+qomui-git
 
 
 ####---->> INPUT
-input-devices-support
 gesture-manager-x-git
+input-devices-support
 
 
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
-performance-tweaks
 grub-theme-garuda
+performance-tweaks
 plymouth-theme-garuda
-
-
-## garuda package
-garuda-settings-manager
-garuda-settings-manager-notifier
 
 ## Fonts     
 noto-fonts               # default font
@@ -51,147 +35,143 @@ noto-fonts-emoji         # emoji font
 ttf-liberation
 ttf-opensans
 
->extra noto-fonts-cjk
->extra noto-fonts-extra
->extra asian-fonts
-
 
 ####---->> UTILITIES
 ## Desktop Utils
 autorandr
-timeshift
-timeshift-autosnap
 libdvdcss
 perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
+timeshift
+timeshift-autosnap
 xdg-desktop-portal
 xdg-desktop-portal-gtk
+xdg-user-dirs
+xdg-utils
 
 ## Conky 
 conky-lua-nv
 conky-manager
 
+
 ####---->> XORG
 xorg-server
 xorg-server-xephyr
-xorg-xwininfo
+xorg-xbacklight
 xorg-xhost
 xorg-xinit
 xorg-xinput
-xorg-xrandr
-xorg-xprop
 xorg-xkill
-xorg-xbacklight
+xorg-xprop
+xorg-xrandr
 xorg-xsetroot
+xorg-xwininfo
 
 ## xorg apps
-wmctrl
 numlockx
+wmctrl
+xautolock
 xbindkeys
 xcape
 xdotool
-xautolock
 
-####---->> WAYLAND
->extra xorg-server-xwayland 
 
 ####---->> DESKTOP THEMING
 garuda-i3-settings
 gtk-engine-murrine
-qt5ct
 kvantum-qt5
 kvantum-theme-qogir-git
-qogir-icon-theme-git
 qogir-gtk-theme-git
+qogir-icon-theme-git
+qt5ct
 
 
 ####---->> DISPLAY MANAGER
-lightdm
-lightdm-slick-greeter
-lightdm-settings
 accountsservice  # Enhanced user accounts handling
-orca
 festival
-onboard
+lightdm
+lightdm-settings
+lightdm-slick-greeter
 mousetweaks
+onboard
+orca
+
 
 ####---->> DESKTOP ENVIRONMENT
 copyq
+mousepad
 polkit-gnome
+pragha
+ristretto
 thunar
-thunar-volman
-tumbler
-xfce4-power-manager
 thunar-archive-plugin
 thunar-media-tags-plugin
-
+thunar-volman
+tumbler
 xarchiver
-mousepad
-ristretto
-pragha
+xfce4-power-manager
+
 
 ######------>i3
+archlinux-xdg-menu
+dmenu
+dunst
+flashfocus
+i3
 i3blocks
 i3lock
 i3status
-i3
-
-dunst
-picom
-nitrogen
-polybar
-tint2
-rofi
-dmenu
 jgmenu
-skippy-xd
-flashfocus
-archlinux-xdg-menu
-menumaker
-xfce4-terminal
-
 lxappearance-gtk3
-lxrandr
 lxinput-gtk3
-
+lxrandr
+menumaker
+nitrogen
+picom
+polybar
+rofi
+skippy-xd
+tint2
+xfce4-terminal
 zenity
+
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ffmpegthumbnailer
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
 libgsf
 libopenraw
 librsvg
-gvfs-mtp
-gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
-gvfs-google
-gvfs-goa
+
 
 ####---->> OTHER APPS
-flameshot
-gnome-keyring
-redshift
-qpdfview
-galculator
-gsimplecal
-gparted
-mpv
-catfish
-meld
-deluge-gtk
-peek
-mintstick
 bleachbit
+catfish
+deluge-gtk
+flameshot
+galculator
+gnome-keyring
+gparted
+gsimplecal
+meld
+mintstick
+mpv
+peek
+qpdfview
+redshift
+
 
 ####---->> INTERNET
 firefox
 firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-localcdn
 firefox-extension-bitwarden
+firefox-extension-localcdn
+firefox-ublock-origin
 nextcloud-client
 

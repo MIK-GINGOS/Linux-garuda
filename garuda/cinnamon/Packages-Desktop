@@ -1,20 +1,20 @@
 ####---->> AUDIO
-pavucontrol
-pulseaudio-equalizer-ladspa
-paprefs
 libldac
-pulseaudio-ctl
+paprefs
+pavucontrol
 playerctl
-qjackctl
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
 pulseaudio-support
+qjackctl
 
 
 ####---->> NETWORK
-networkmanager-support
 blueberry
-network-manager-applet
-qomui-git
 modem-manager-gui
+network-manager-applet
+networkmanager-support
+qomui-git
 
 
 ####---->> INPUT
@@ -32,111 +32,110 @@ xdg-desktop-portal-gtk
 
 
 ####---->> XORG
-xorg-server
-xorg-server-xephyr
-xorg-xwininfo
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
-xorg-xkill
-xorg-xbacklight
-xorg-xsetroot
-wmctrl
 numlockx
+wmctrl
+xautolock
 xbindkeys
 xcape
 xdotool
-xautolock
+xorg-server
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xorg-xrandr
+xorg-xsetroot
+xorg-xwininfo
 
 
 ####---->> DESKTOP THEMING
+beautyline
 garuda-cinnamon-settings
 gtk-engine-murrine
-qt5ct
 kvantum-qt5
-mint-sounds
 kvantum-theme-sweet
-beautyline
+mint-sounds
+qt5ct
 sweet-theme-dark
 sweet-theme-git
 xcursor-sweet
 
 
 ####---->> DISPLAY MANAGER
-lightdm
-lightdm-slick-greeter
-lightdm-settings
 accountsservice  # Enhanced user accounts handling
-orca
 festival
-onboard
+lightdm
+lightdm-settings
+lightdm-slick-greeter
 mousetweaks
+onboard
+orca
 
 
 ####---->> DESKTOP ENVIRONMENT
+argyllcms
 cinnamon
 cinnamon-sound-effects
-xviewer
-xed
-xreader
-#xplayer
+gnome-calculator
+gnome-color-manager
+gnome-logs
+gnome-online-accounts
+gnome-screenshot
+gnome-terminal-transparency
+gtkhash-nemo
+hypnotix
 nemo
-#nemo-pdf-tools-git
 nemo-fileroller
 nemo-image-converter
 nemo-preview
+nemo-seahorse
 nemo-share
-gnome-calculator
-gnome-terminal-transparency
-gnome-screenshot
-gnome-color-manager
-gnome-online-accounts
-gnome-logs
+shortwave
 warpinator
 webapp-manager-git
-hypnotix
-shortwave
+xed
+xreader
+xviewer
 xviewer-plugins
-nemo-seahorse
-gtkhash-nemo
-argyllcms
+
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ffmpegthumbnailer
+gvfs
+gvfs-afc
+gvfs-goa
+gvfs-google
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
 libgsf
 libopenraw
 librsvg
-gvfs-mtp
-gvfs
-gvfs-afc
-gvfs-nfs
-gvfs-smb
-gvfs-gphoto2
-gvfs-google
-gvfs-goa
 
 
 ####---->> OTHER APPS
-celluloid
-gnome-keyring
-redshift
-gparted
-deluge-gtk
 bleachbit
-mintstick
 catfish
-meld
-peek
+celluloid
+deluge-gtk
+gnome-keyring
+gparted
 lollypop
+meld
+mintstick
+peek
+redshift
 
 
 ####---->> INTERNET
 firefox
 firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-localcdn
 firefox-extension-bitwarden
+firefox-extension-localcdn
+firefox-ublock-origin
 nextcloud-client
 
