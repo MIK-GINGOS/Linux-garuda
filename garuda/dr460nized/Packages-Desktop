@@ -14,9 +14,9 @@ xorg-xprop
 
 
 ####---->> UTILITIES
+autorandr
 xdg-desktop-portal
 xdg-desktop-portal-kde
-autorandr
 
 
 ####---->> GARUDA META
@@ -24,11 +24,10 @@ networkmanager-support
 
 
 ####---->> THEMING
-## theme package
-garuda-dr460nized
-plymouth-theme-garuda-purple
-kvantum-qt5
 beautyline
+garuda-dr460nized
+kvantum-qt5
+plymouth-theme-garuda-purple
 sweet-theme-dark
 xcursor-sweet
 
@@ -45,10 +44,8 @@ sddm-kcm
 
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
-powerdevil
-quota-tools
-kde-gtk-config
 bluedevil
+kde-gtk-config
 kdeplasma-addons
 khotkeys
 kinfocenter
@@ -56,7 +53,9 @@ ksysguard
 kscreen
 kwallet-pam
 kwayland-integration
+kwin-effects-sliding-notifications
 kwin-lowlatency
+kwin-scripts-forceblur
 plasma-desktop
 plasma-nm
 plasma-pa
@@ -66,56 +65,55 @@ plasma-browser-integration
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
-kwin-scripts-forceblur
-kwin-effects-sliding-notifications
+powerdevil
+quota-tools
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
 dolphin
 dolphin-plugins
+gwenview
+jhead
+kate
+kcalc
+krfb
 kde-servicemenus-rootactions
 kde-servicemenus-pdf
 kde-servicemenus-encfs
 kde-service-menu-reimage
-kdegraphics-thumbnailers
-jhead
 kdeconnect
+kdegraphics-thumbnailers
+konsole
 okular
 partitionmanager
 spectacle
-konsole
-krfb
-kate
-gwenview
-kcalc
 
 
 ####---->> OTHER APPS
-libinput_gestures_qt
-ffmpegthumbs           
-kaccounts-providers
-sshfs
-kio-extras
-kio-gdrive
-kio-fuse
-latte-dock-git
-qbittorrent
-kget
-ufw
-gufw
-bleachbit
+amdvlk
 alacritty-ligatures-git
+bleachbit
+ffmpegthumbs
 firefox-appmenu
-kmozillahelper
 firefox-dark-reader
 firefox-ublock-origin
 firefox-extension-localcdn
 firefox-extension-plasma-integration
 firefox-extension-bitwarden
-nextcloud-client
+gufw
+kget
+kio-extras
+kio-gdrive
+kio-fuse
+kmozillahelper
+kaccounts-providers
+latte-dock-git
+libinput_gestures_qt
 mpv
-amdvlk
+qbittorrent
+ufw
+sshfs
 
 
 >extra youtube-dl
@@ -123,14 +121,14 @@ amdvlk
 >extra base-devel
 >extra kdenlive
 >extra visual-studio-code-insiders-bin
->extra github-desktop-bin
->extra virtualbox-meta
+>extra gitkraken
+>extra virt-manager-meta
 >extra libreoffice-fresh
 >extra spotify-adblock-git
 >extra spicetify-cli
 >extra spicetify-themes-git
 >extra nextcloud-client
->extra telegram-desktop
+>extra telegram-desktop-bin-dev
 >extra torbrowser-launcher
 >extra docker
 >extra docker-compose
