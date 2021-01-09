@@ -127,6 +127,7 @@ aircrack-ng
 amass
 arp-scan
 autopsy
+beef
 binwalk
 bulk-extractor
 bully
@@ -153,6 +154,7 @@ faradaysec
 fern-wifi-cracker
 fierce
 fping
+gnu-netcat
 guymager
 hashcat
 hashcat-utils
@@ -241,6 +243,7 @@ torctl
 theharvester
 udptunnel
 unix-privesc-check
+viel
 voiphopper
 wafw00f
 wce
