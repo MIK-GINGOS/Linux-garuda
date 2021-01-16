@@ -123,6 +123,11 @@ rtl88x2ce-dkms
 rtw88-dkms-git
 
 
+####---->> GHOSTNET
+tor
+openresolv
+
+
 ####---->> BLACKARCH
 aircrack-ng
 amass
