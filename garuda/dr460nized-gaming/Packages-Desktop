@@ -159,6 +159,7 @@ amdvlk
 lib32-amdvlk
 
 
+
 ####---->> VIRTUALIZATION
 virt-manager-meta
 
@@ -180,7 +181,6 @@ legendary
 rare-git
 ialauncher-git
 minecraft-launcher 
-
 
 ####---->> GAMING TOOLS
 obs-studio
