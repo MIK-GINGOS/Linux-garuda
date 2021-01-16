@@ -51,14 +51,13 @@ xorg-xwininfo
 
 
 ####---->> DESKTOP THEMING
+ant-dracula-gtk-theme
+ant-dracula-kde-theme-git
+ant-dracula-kvantum-theme-git
 garuda-lxqt-kwin-settings
 gtk-engine-murrine
 kvantum-qt5
-kvantum-theme-vimix-git  
-vimix-cursors
-vimix-gtk-themes-git
-vimix-icon-theme-git
-
+papirus-icon-theme
 
 ####---->> DISPLAY MANAGER
 sddm
@@ -68,8 +67,7 @@ sddm-kcm
 ####---->> DESKTOP ENVIRONMENT
 kde-cli-tools
 kwin
-kwin-decoration-sierra-breeze-enhanced-git
-kwin-scripts-krohnkite-git
+kwin-scripts-forceblur
 lxqt-kwin-desktop-git
 plasma-workspace
 xsettingsd
