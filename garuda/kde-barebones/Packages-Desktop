@@ -24,6 +24,7 @@ sddm-kcm
 
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
+breeze-gtk
 kde-gtk-config
 khotkeys
 kscreen
