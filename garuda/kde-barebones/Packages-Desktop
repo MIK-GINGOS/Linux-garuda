@@ -4,6 +4,13 @@ xorg-server
 xorg-server-xwayland 
 xorg-xinit
 
+####---->> UTILITIES
+timeshift
+timeshift-autosnap
+networkmanager
+garuda-hooks
+plymouth-git
+
 
 ####---->> THEMING
 ## theme package
@@ -15,6 +22,9 @@ plymouth-theme-garuda
 ## Fonts
 noto-fonts               # default font
 noto-fonts-emoji
+
+## Terminal font
+terminus-font
 
 
 ####---->> DISPLAY MANAGER
@@ -39,5 +49,4 @@ powerdevil
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
 dolphin
-gwenview
 konsole
