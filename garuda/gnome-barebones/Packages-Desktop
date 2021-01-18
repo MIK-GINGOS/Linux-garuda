@@ -4,30 +4,41 @@ xorg-server-xwayland
 xorg-xhost
 xorg-xinit
 
-#---------=> utilities
+
+####---->> UTILITIES
 timeshift
 timeshift-autosnap
 networkmanager
 
+
 ####---->> AUDIO
 pipewire-support
 
+
 ####---->> THEMING
 ## theme package
-performance-tweaks
+garuda-hooks
 grub-theme-garuda
+performance-tweaks
+plymouth-git
 plymouth-theme-garuda
 
 ## Fonts
 noto-fonts               # default font
 noto-fonts-emoji
 
+## Terminal font
+terminus-font
+
+
 ####---->> SETTINGS
 garuda-settings-manager
 garuda-settings-manager-notifier
 
+
 ####---->> DISPLAY MANAGER
 gdm
+
 
 ####---->> DESKTOP ENVIRONMENT
 mutter
@@ -38,9 +49,9 @@ gnome-desktop
 gnome-terminal
 gnome-control-center
 
+
 ####---->> DESKTOP ENVIRONMENT APPS
 nautilus
 file-roller
 eog
 xdg-user-dirs
-
