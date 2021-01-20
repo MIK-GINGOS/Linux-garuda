@@ -274,5 +274,6 @@ zaproxy
 ccache
 cmake
 gdb
+jre-openjdk
 go
 rustup
