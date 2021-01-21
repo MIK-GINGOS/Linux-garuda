@@ -58,6 +58,7 @@ garuda-lxqt-kwin-settings
 gtk-engine-murrine
 kvantum-qt5
 papirus-icon-theme
+cairo-dock
 
 ####---->> DISPLAY MANAGER
 sddm
@@ -94,7 +95,6 @@ audacious
 audacious-plugins
 imagewriter
 kdeconnect
-ksmoothdock
 partitionmanager
 qbittorrent
 simplescreenrecorder
