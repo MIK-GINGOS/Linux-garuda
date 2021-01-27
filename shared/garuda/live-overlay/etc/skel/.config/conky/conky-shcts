@@ -62,8 +62,8 @@ conky.text = [[
 ${font Play:size=10:style=normal}
 ${color2}open terminal - ${alignr}${color}super+enter
 ${color2}open browser - ${alignr}${color}super+F1
-${color2}open filemanager - ${alignr}${color}super+F2
-${color2}open mail - ${alignr}${color}super+F3
+${color2}open mail - ${alignr}${color}super+F2
+${color2}open filemanager - ${alignr}${color}super+F3
 ${color2}open text - ${alignr}${color}super+F4
 
 #rofi
@@ -73,7 +73,7 @@ ${color2}screenshot - ${alignr}${color}print
 ${color2}resize window - ${alignr}${color}super+r
 ${color2}kill focused - ${alignr}${color}super+c | super+q
 ${color2}toggle split direction - ${alignr}${color}super+shift+q
-${color2}toggle floating - ${alignr}${color}super+shift+space
+${color2}toggle floating - ${alignr}${color}super+space
 ${color2}toggle fullscreen - ${alignr}${color}super+f
 # switch to workspace
 ${color2}switch to workspace 1-8 - ${alignr}${color}super+1-8
