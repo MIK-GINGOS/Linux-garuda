@@ -1,4 +1,4 @@
-####---->> Media
+﻿####---->> Media
 pulseaudio-equalizer-ladspa
 pulseaudio-support
 
@@ -115,22 +115,3 @@ mpv
 qbittorrent
 sshfs
 ufw
-
-
->extra base-devel
->extra docker
->extra docker-compose
->extra gitkraken
->extra kdenlive
->extra krdc
->extra libreoffice-fresh
->extra lutris
->extra nextcloud-client
->extra spicetify-cli
->extra spicetify-themes-git
->extra spotify-adblock-git
->extra telegram-desktop-bin-dev
->extra torbrowser-launcher
->extra virt-manager-meta
->extra visual-studio-code-insiders-bin
->extra youtube-dl

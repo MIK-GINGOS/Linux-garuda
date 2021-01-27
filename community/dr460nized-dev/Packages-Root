@@ -1,5 +1,4 @@
-﻿## Base system
-KERNEL
+﻿KERNEL
 KERNEL-headers
 alsa-firmware
 bash-completion
@@ -33,20 +32,14 @@ tar
 util-linux
 which
 xz
-
-## GRUB + EFI
 efibootmgr
 grub
 grub-btrfs
 memtest86+
 os-prober-garuda
-
-## Package management 
 pacman-contrib
 pkgfile
 reflector
-
-## AUR support
 autoconf
 automake
 binutils
@@ -64,8 +57,6 @@ patch
 pkgconf
 subversion
 texinfo
-
-## Filesystem needed
 btrfs-progs
 dosfstools
 e2fsprogs
@@ -81,8 +72,6 @@ ntfs-3g
 reiserfsprogs
 sshfs
 xfsprogs
-
-## Extra things
 bridge-utils
 cronie
 cryptsetup
@@ -107,7 +96,5 @@ powertop
 rsync
 usbutils
 xclip
-
-## Chaotic repo
 chaotic-mirrorlist
 chaotic-keyring
