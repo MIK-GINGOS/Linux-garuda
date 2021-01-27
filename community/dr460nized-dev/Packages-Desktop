@@ -1,4 +1,43 @@
-﻿####---->> XORG
+﻿####---->> COMMON
+pamac-aur
+paru
+terminus-font
+noto-fonts-emoji 
+ttf-fantasque-sans-mono
+ttf-fira-sans 
+noto-fonts 
+arj
+cpio
+lha
+lrzip
+lzip
+lzop
+unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+android-tools
+android-udev-git
+timeshift
+xdg-utils
+xdg-user-dirs
+garuda-common-settings
+garuda-hooks
+garuda-settings-manager
+garuda-setup-assistant
+garuda-welcome-git
+garuda-assistant-git
+garuda-boot-options-git
+performance-tweaks
+grub-theme-garuda
+bluetooth-support
+gstreamer-meta
+
+
+####---->> XORG
 xorg-server
 xorg-server-xwayland 
 xorg-xhost
@@ -69,6 +108,9 @@ spectacle-git
 
 
 ####---->> OTHER APPS
+apparmor
+firejail-git
+firetools-git
 alacritty-ligatures-git
 bleachbit
 ffmpegthumbs
