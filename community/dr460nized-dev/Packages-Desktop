@@ -1,11 +1,10 @@
 ﻿####---->> COMMON
 pamac-aur
-paru
+paru-git
 terminus-font
-noto-fonts-emoji 
+noto-fonts-emoji
 ttf-fantasque-sans-mono
-ttf-fira-sans 
-noto-fonts 
+ttf-fira-sans
 arj
 cpio
 lha
@@ -121,12 +120,11 @@ kio-fuse
 kio-gdrive
 latte-dock-git
 mpv-full-git
-linux-firmware-git
 neofrog-git
 sshfs
 onefetch
 ufw
-libfprintd-git
+libfprint-git
 kitty-git
 ffmpeg-git
 imagemagick-git
