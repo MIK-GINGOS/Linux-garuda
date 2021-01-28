@@ -74,19 +74,19 @@ sddm-kcm
 appmenu-gtk-module
 bluedevil
 kde-gtk-config
-kdeplasma-addons-git
-khotkeys-git
-kinfocenter-git
+kdeplasma-addons
+khotkeys
+kinfocenter
 kscreen
-ksysguard-git
+ksysguard
 kwallet-pam
-kwayland-integration-git
-kwinft-git
+kwayland-integration
+kwinft
 kwin-scripts-forceblur
-plasma-browser-integration-git
-plasma-desktop-git
-plasma-nm-git
-plasma-pa-git
+plasma-browser-integration
+plasma-desktop
+plasma-nm
+plasma-pa
 plasma5-applets-window-appmenu-git
 plasma5-applets-window-buttons-git
 plasma5-applets-window-title
@@ -98,19 +98,19 @@ quota-tools
 ark
 dolphin-git
 dolphin-plugins
-kdeconnect-git
+kdeconnect
 kdegraphics-thumbnailers
 krfb
-okular-git
-partitionmanager-git
-spectacle-git
+okular
+partitionmanager
+spectacle
 
 
 ####---->> OTHER APPS
 apparmor
 firejail-git
 firetools-git
-alacritty-ligatures-git
+alacritty
 bleachbit
 ffmpegthumbs
 librewolf
@@ -134,8 +134,7 @@ docker-git
 docker-compose
 gitkraken
 kdenlive
-libreoffice-fresh
-lutris-git
+libreoffice-dev-bin
 nextcloud-client
 spicetify-cli
 spicetify-themes-git
