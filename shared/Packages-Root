@@ -1,6 +1,3 @@
->i686 archlinux32-keyring
-#>garuda garuda-release
-
 ## Base system
 KERNEL
 KERNEL-headers
@@ -74,12 +71,11 @@ subversion
 texinfo
 
 ## Filesystem needed
->extra udftools
 btrfs-progs
 dosfstools
 e2fsprogs
 ecryptfs-utils
-exfat-utils
+exfatprogs
 f2fs-tools
 fatresize
 jfsutils
