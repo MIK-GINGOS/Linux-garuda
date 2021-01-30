@@ -74,6 +74,7 @@ xorg-server-xwayland
 
 ####---->> DESKTOP THEMING
 garuda-kde-settings
+garuda-zsh-config
 gtk-engine-murrine
 kvantum-qt5
 tela-circle-icon-theme-git

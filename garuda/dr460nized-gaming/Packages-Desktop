@@ -38,6 +38,7 @@ networkmanager-support
 ####---->> THEMING
 ## theme package
 garuda-dr460nized
+garuda-fish-config
 performance-tweaks
 grub-theme-garuda
 plymouth-theme-garuda-purple

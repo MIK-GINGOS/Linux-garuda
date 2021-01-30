@@ -47,10 +47,6 @@ xdg-utils
 xdg-user-dirs
 openbsd-netcat
 
-## Shells
-garuda-zsh-config
-garuda-fish-config
-
 ## Garuda specific
 garuda-wallpapers
 garuda-icons

@@ -25,6 +25,7 @@ input-devices-support
 
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
+garuda-zsh-config
 grub-theme-garuda
 performance-tweaks
 plymouth-theme-garuda
