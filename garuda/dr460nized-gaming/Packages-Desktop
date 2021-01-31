@@ -180,6 +180,7 @@ itch
 minigalaxy
 legendary
 rare-git
+heroic-games-launcher-bin
 ialauncher-git
 minecraft-launcher 
 
@@ -202,12 +203,11 @@ vkbasalt
 lib32-vkbasalt
 replay-sorcery
 steamtinkerlaunch
-#fastgame-git PKGBUILD broken
 q4wine
 fuseiso
 dxvk-mingw-git
-#proton-tkg-git missing
 protontricks-git
+proton-ge-custom-bin
 boxtron
 
 
@@ -226,7 +226,7 @@ retroarch-autoconfig-udev-git
 
 
 ####---->> EMULATORS
-libretro
+libretro-meta
 
 
 ####---->> GAMES
