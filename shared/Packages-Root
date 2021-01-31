@@ -45,6 +45,7 @@ grub
 grub-btrfs
 memtest86+
 os-prober-garuda
+update-grub
 
 ## Package management 
 pacman-contrib
