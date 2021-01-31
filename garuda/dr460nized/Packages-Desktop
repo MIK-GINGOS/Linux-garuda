@@ -1,6 +1,5 @@
 ####---->> Media
-pulseaudio-equalizer-ladspa
-pulseaudio-support
+pipewire-support
 
 
 ####---->> XORG
@@ -26,11 +25,11 @@ networkmanager-support
 ####---->> THEMING
 beautyline
 garuda-dr460nized
+garuda-fish-config
 kvantum-qt5
 plymouth-theme-garuda-purple
 sweet-theme-dark
 xcursor-sweet
-garuda-fish-config
 
 
 ####---->> SETTINGS
