@@ -81,6 +81,7 @@ kdegraphics-thumbnailers
 kdeconnect
 konsole
 krfb
+krdc
 okular
 partitionmanager
 spectacle
@@ -103,6 +104,7 @@ latte-dock-git
 libinput_gestures_qt
 librewolf-extension-bitwarden
 librewolf-extension-plasma-integration
+librewolf-extension-xdm-browser-monitor
 mpv
 qbittorrent
 sshfs
@@ -113,13 +115,11 @@ ufw
 8192eu-dkms
 8188eu-aircrack-dkms-git
 8188fu-kelebek333-dkms-git
-r8168-dkms
 rtl8192cu-fixes-git
 rtl88xxau-aircrack-dkms-git
 rtl8814au-aircrack-dkms-git
 rtl88x2bu-dkms-git
 rtl88x2ce-dkms
-rtw88-dkms-git
 
 
 ####---->> GHOSTNET

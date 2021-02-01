@@ -37,6 +37,7 @@ zip
 android-udev
 
 ## Utilities
+pace
 timeshift
 timeshift-autosnap
 libdvdcss
