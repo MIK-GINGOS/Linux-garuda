@@ -131,33 +131,34 @@ sshfs
 
 
 ####---->> OTHER APPS
-libinput_gestures_qt          
-latte-dock-git
-qbittorrent
-kget
-ufw
-gufw
-bleachbit
 alacritty
-firefox-appmenu
-kmozillahelper
-firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-bitwarden
-firefox-extension-flagfox
-firefox-extension-localcdn
-firefox-extension-plasma-integration
-firefox-extension-xdm-browser-monitor
-nextcloud-client
-mpv
-telegram-desktop
-streamlink-twitch-gui
+amdvlk
+amdvlk
+bleachbit
 discord
+ffmpegthumbs
+garuda-librewolf
+gufw
+kaccounts-providers
+kget
+kio-extras
+kio-fuse
+kio-gdrive
+kmozillahelper
+latte-dock-git
+lib32-amdvlk
+libinput_gestures_qt
+librewolf-extension-bitwarden
+librewolf-extension-plasma-integration
+mpv
 mumble
 murmur
+qbittorrent
+sshfs
+streamlink-twitch-gui
 syncthing-gtk
-amdvlk
-lib32-amdvlk
+telegram-desktop
+ufw
 
 
 

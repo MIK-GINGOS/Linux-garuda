@@ -88,27 +88,25 @@ spectacle
 
 ####---->> OTHER APPS
 alacritty
+amdvlk
 bleachbit
 ffmpegthumbs
-firefox-appmenu
-firefox-dark-reader
-firefox-ublock-origin
-firefox-extension-flagfox
-firefox-extension-localcdn
-firefox-extension-plasma-integration
-firefox-extension-bitwarden
+garuda-librewolf
 gufw
+kaccounts-providers
 kget
 kio-extras
-kio-gdrive
 kio-fuse
+kio-gdrive
 kmozillahelper
-kaccounts-providers
 latte-dock-git
 libinput_gestures_qt
+librewolf-extension-bitwarden
+librewolf-extension-plasma-integration
+mpv
 qbittorrent
-ufw
 sshfs
+ufw
 
 
 ####---->> WIFI DRIVERS

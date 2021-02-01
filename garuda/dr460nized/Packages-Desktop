@@ -95,13 +95,7 @@ alacritty
 amdvlk
 bleachbit
 ffmpegthumbs
-firefox-appmenu
-firefox-dark-reader
-firefox-extension-bitwarden
-firefox-extension-flagfox
-firefox-extension-localcdn
-firefox-extension-plasma-integration
-firefox-ublock-origin
+garuda-librewolf
 gufw
 kaccounts-providers
 kget
@@ -110,6 +104,8 @@ kio-fuse
 kio-gdrive
 kmozillahelper
 latte-dock-git
+librewolf-extension-bitwarden
+librewolf-extension-plasma-integration
 libinput_gestures_qt
 mpv
 qbittorrent
