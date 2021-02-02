@@ -140,11 +140,6 @@ catfish
 cmus
 deluge-gtk
 feh
-firefox
-firefox-dark-reader
-firefox-extension-bitwarden
-firefox-extension-localcdn
-firefox-ublock-origin
 flameshot
 galculator
 gimp
@@ -185,7 +180,12 @@ xclip
 xsel
 
 
-####---->> RecBox
+####---->> INTERNET
+garuda-librewolf
+librewolf-extension-bitwarden
+
+
+####---->> RECBOX
 a2jmidid
 aeolus
 aj-snapshot

@@ -111,9 +111,6 @@ stacer
 
 
 ####---->> INTERNET
-firefox
-firefox-dark-reader
-firefox-extension-bitwarden
-firefox-extension-localcdn
-firefox-ublock-origin
+garuda-librewolf
+librewolf-extension-bitwarden
 nextcloud-client

@@ -301,13 +301,10 @@ skrooge
 tellico
 
 ## Internet applications
-firefox-appmenu
-firefox-dark-reader
-firefox-extension-bitwarden
-firefox-extension-localcdn
-firefox-extension-plasma-integration
-firefox-extension-xdm-browser-monitor
-firefox-ublock-origin
+garuda-librewolf
+librewolf-extension-bitwarden
+librewolf-extension-plasma-integration
+librewolf-extension-xdm-browser-monitor
 fractal
 kmozillahelper
 nextcloud-client
