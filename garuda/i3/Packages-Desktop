@@ -30,7 +30,7 @@ grub-theme-garuda
 performance-tweaks
 plymouth-theme-garuda
 
-## Fonts     
+## Fonts
 noto-fonts               # default font
 noto-fonts-emoji         # emoji font
 ttf-liberation
@@ -49,7 +49,7 @@ xdg-desktop-portal-gtk
 xdg-user-dirs
 xdg-utils
 
-## Conky 
+## Conky
 conky-lua-nv
 conky-manager
 
@@ -169,9 +169,6 @@ redshift
 
 
 ####---->> INTERNET
-firefox
-firefox-dark-reader
-firefox-extension-bitwarden
-firefox-extension-localcdn
-firefox-ublock-origin
-nextcloud-client
+garuda-librewolf
+librewolf-extension-bitwarden
+
