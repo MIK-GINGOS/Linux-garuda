@@ -13,6 +13,7 @@ qjackctl
 modem-manager-gui
 networkmanager-support
 qomui-git
+firewalld
 
 
 ####---->> PRINTER
@@ -90,40 +91,53 @@ sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
-#usermanager
-appmenu-gtk-module
 bluedevil
+breeze
 breeze-gtk
-colord-kde
-fancontrol-kcm-git
-jhead
-kcm-wacomtablet 
+drkonqi
+kactivitymanagerd
+kde-cli-tools
 kde-gtk-config
-kde-service-menu-reimage
-kde-servicemenus-encfs
-kde-servicemenus-pdf
-kde-servicemenus-rootactions
-kdenetwork-filesharing
+kdecoration
 kdeplasma-addons
 kgamma5
 khotkeys
 kinfocenter
+kmenuedit
 kscreen
+kscreenlocker
 ksshaskpass
 ksysguard
 kwallet-pam
 kwayland-integration
-kwin-effects-sliding-notifications
-kwin-scripts-forceblur
+kwayland-server
+kwin
 kwrited
+libkscreen
+libksysguard
+milou
+oxygen
+plasma-browser-integration
 plasma-desktop
 plasma-disks
-plasma-meta
+plasma-firewall
+plasma-integration
 plasma-nm
 plasma-pa
+plasma-systemmonitor
 plasma-thunderbolt
 plasma-vault
+plasma-workspace
 plasma-workspace-wallpapers
+polkit-kde-agent
+powerdevil
+systemsettings 
+kdenetwork-filesharing
+samba-mounter-git
+colord-kde
+appmenu-gtk-module
+quota-tools
+
 plasma5-applets-eventcalendar
 plasma5-applets-latte-separator
 plasma5-applets-latte-sidebar-button
@@ -135,13 +149,22 @@ plasma5-applets-tiledmenu
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
-powerdevil
-qt5-tools
-quota-tools
-samba-mounter-git
 
+kwin-effects-sliding-notifications
+kwin-scripts-forceblur
+
+fancontrol-kcm-git
+kcm-wacomtablet
+
+kde-service-menu-reimage
+kde-servicemenus-encfs
+kde-servicemenus-pdf
+kde-servicemenus-rootactions
+jhead
 
 ####---->> DESKTOP ENVIRONMENT APPS
+qt5-tools
+qtcreator
 argyllcms
 ark
 audiocd-kio

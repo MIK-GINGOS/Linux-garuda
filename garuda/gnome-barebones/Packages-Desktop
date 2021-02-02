@@ -35,6 +35,8 @@ terminus-font
 ####---->> SETTINGS
 garuda-settings-manager
 garuda-settings-manager-notifier
+garuda-welcome-git
+garuda-setup-assistant
 
 
 ####---->> DISPLAY MANAGER

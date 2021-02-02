@@ -86,6 +86,9 @@ plasma-pa
 plasma-vault
 plasma-thunderbolt
 plasma-browser-integration
+#plasma-disks
+#plasma-firewall
+#plasma-systemmonitor
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
@@ -133,7 +136,6 @@ sshfs
 ####---->> OTHER APPS
 alacritty
 amdvlk
-amdvlk
 bleachbit
 discord
 ffmpegthumbs
@@ -150,6 +152,7 @@ lib32-amdvlk
 libinput_gestures_qt
 librewolf-extension-bitwarden
 librewolf-extension-plasma-integration
+librewolf-extension-xdm-browser-monitor
 mpv
 mumble
 murmur

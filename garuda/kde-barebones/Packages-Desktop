@@ -27,6 +27,11 @@ noto-fonts-emoji
 ## Terminal font
 terminus-font
 
+####---->> SETTINGS
+garuda-settings-manager
+garuda-settings-manager-knotifier
+garuda-welcome-git
+garuda-setup-assistant
 
 ####---->> DISPLAY MANAGER
 sddm

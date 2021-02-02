@@ -62,6 +62,9 @@ plasma-nm
 plasma-pa
 plasma-thunderbolt
 plasma-vault
+#plasma-disks
+#plasma-firewall
+#plasma-systemmonitor
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
