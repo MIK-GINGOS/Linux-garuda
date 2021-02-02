@@ -120,7 +120,7 @@ oxygen
 plasma-browser-integration
 plasma-desktop
 plasma-disks
-plasma-firewall
+#plasma-firewall
 plasma-integration
 plasma-nm
 plasma-pa
