@@ -60,6 +60,9 @@ plasma-desktop
 plasma-nm
 plasma-pa
 plasma-vault
+#plasma-disks
+#plasma-firewall
+plasma-systemmonitor
 plasma-thunderbolt
 plasma-browser-integration
 plasma5-applets-window-title

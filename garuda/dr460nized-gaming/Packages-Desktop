@@ -88,7 +88,7 @@ plasma-thunderbolt
 plasma-browser-integration
 #plasma-disks
 #plasma-firewall
-#plasma-systemmonitor
+plasma-systemmonitor
 plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
