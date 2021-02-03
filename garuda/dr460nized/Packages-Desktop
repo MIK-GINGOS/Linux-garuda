@@ -113,5 +113,6 @@ librewolf-extension-plasma-integration
 libinput_gestures_qt
 mpv
 qbittorrent
+resvg
 sshfs
 ufw
