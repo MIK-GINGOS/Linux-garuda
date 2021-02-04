@@ -9,12 +9,12 @@ pulseaudio-support
 qjackctl
 
 
-####---->> NETWORK
 blueman
 modem-manager-gui
 network-manager-applet
 networkmanager-support
 qomui-git
+####---->> NETWORK
 
 
 ####---->> INPUT
@@ -138,7 +138,7 @@ xsel
 
 ## GUI apps
 #meld
-bleachbit
+stacer
 deluge-gtk
 flameshot
 galculator

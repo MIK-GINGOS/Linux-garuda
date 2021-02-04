@@ -22,6 +22,7 @@ libinput_gestures_qt
 
 ####---->> GARUDA THEMING & SETTINGS
 garuda-zsh-config
+garuda-fish-config
 garuda-starship-prompt
 plymouth-theme-garuda
 
