@@ -1,8 +1,8 @@
 ####---->> MEDIA
-pulseaudio-equalizer-ladspa
-pulseaudio-bluetooth
-libldac
 gstreamer-meta
+libldac
+pulseaudio-bluetooth
+pulseaudio-equalizer-ladspa
 pulseaudio-support
 
 
@@ -17,33 +17,33 @@ xorg-xprop
 
 
 ####---->> UTILITIES
-perl-file-mimeinfo
-xdg-utils
-xdg-user-dirs
-xdg-desktop-portal
-xdg-desktop-portal-kde
 autorandr
+downgrade
+pamac-aur
+perl-file-mimeinfo
 timeshift
 timeshift-autosnap
-pamac-aur
-downgrade
+xdg-desktop-portal
+xdg-desktop-portal-kde
+xdg-user-dirs
+xdg-utils
 
 
 ####---->> GARUDA META
-input-devices-support
 bluetooth-support
+input-devices-support
 networkmanager-support
 
 
 ####---->> THEMING
 ## theme package
+beautyline
 garuda-dr460nized
 garuda-fish-config
-performance-tweaks
 grub-theme-garuda
-plymouth-theme-garuda-purple
 kvantum-qt5
-beautyline
+performance-tweaks
+plymouth-theme-garuda-purple
 sweet-theme-dark
 xcursor-sweet
 
@@ -67,31 +67,31 @@ sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
+#plasma-disks
+#plasma-firewall
 appmenu-gtk-module
 bluedevil
 kde-gtk-config
 kdeplasma-addons
 khotkeys
 kinfocenter
-ksysguard
 kscreen
+ksysguard
 kwallet-pam
 kwayland-integration
-kwin-lowlatency
 kwin-effects-sliding-notifications
+kwin-lowlatency
 kwin-scripts-forceblur
+plasma-browser-integration
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-vault
-plasma-thunderbolt
-plasma-browser-integration
-#plasma-disks
-#plasma-firewall
 plasma-systemmonitor
-plasma5-applets-window-title
+plasma-thunderbolt
+plasma-vault
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
+plasma5-applets-window-title
 powerdevil
 quota-tools
 
@@ -101,35 +101,34 @@ quota-tools
 ark
 dolphin
 dolphin-plugins
-kde-servicemenus-rootactions
-kde-servicemenus-pdf
-kde-servicemenus-encfs
-kde-service-menu-reimage
+gwenview
 jhead
+kate
+kcalc
+kde-service-menu-reimage
+kde-servicemenus-encfs
+kde-servicemenus-pdf
+kde-servicemenus-rootactions
 kdeconnect
+kio-extras
+kio-fuse
+kio-gdrive
+konsole
+krdc
+krfb
 okular
 partitionmanager
-spectacle
-konsole
-krfb
-krdc
-kate
-gwenview
-kcalc
-kio-extras
-kio-gdrive
-kio-fuse
 
 
 ####---->> ADDITIONAL FUNCTIONALITY
-kdegraphics-thumbnailers
 ffmpegthumbs
-ruby
-kimageformats
-qt5-imageformats
-kipi-plugins
-kamera
 kaccounts-providers
+kamera
+kdegraphics-thumbnailers
+kimageformats
+kipi-plugins
+qt5-imageformats
+ruby
 sshfs
 
 
@@ -139,6 +138,7 @@ amdvlk
 bleachbit
 discord
 ffmpegthumbs
+flameshot-git
 garuda-librewolf
 gufw
 kaccounts-providers
@@ -176,58 +176,58 @@ wine-meta
 
 
 ####---->> GAME LAUNCHERS
-zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
-steam
-steam-native-runtime
-lutris
 gamehub
-itch
-minigalaxy
-legendary
-rare-git
 heroic-games-launcher-bin
 ialauncher-git
+itch
+legendary
+lutris
 minecraft-launcher 
+minigalaxy
+rare-git
+steam
+steam-native-runtime
+zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
 
 ####---->> GAMING TOOLS
+argyllcms
+boxtron
+corectrl
+displaycal
+dxvk-mingw-git
+fancontrol-gui-git
+fuseiso
+gamemode
+goverlay-git
+keyboard-visualizer-git
+lib32-gamemode
+lib32-mangohud
+lib32-vkbasalt
+mangohud
+noisetorch-bin
 obs-studio
 openrgb
-keyboard-visualizer-git
-displaycal
-argyllcms
 piper
-fancontrol-gui-git
-noisetorch-bin
-corectrl
-goverlay-git
-mangohud
-lib32-mangohud
-gamemode
-lib32-gamemode
-vkbasalt
-lib32-vkbasalt
+proton-ge-custom-bin
+protontricks-git
+q4wine
 replay-sorcery
 steamtinkerlaunch
-q4wine
-fuseiso
-dxvk-mingw-git
-protontricks-git
-proton-ge-custom-bin
-boxtron
+vkbasalt
 
 
 ####---->> GAME CONTROLLER
 antimicrox
-sc-controller
-oversteer
-linuxconsole
-xboxdrv
-xpadneo-dkms-git
-steamos-xpad-dkms
-xow
-xbox-generic-controller
 game-devices-udev
+linuxconsole
+oversteer
 retroarch-autoconfig-udev-git
+sc-controller
+steamos-xpad-dkms
+xbox-generic-controller
+xboxdrv
+xow
+xpadneo-dkms-git
 
 
 ####---->> EMULATORS
@@ -235,14 +235,14 @@ libretro-meta
 
 
 ####---->> GAMES
+0ad
 aisleriot
-knights
-kmahjongg
 gnuchess   
+kmahjongg
+knights
 mari0
 minetest
 minetest-server
-teeworlds
-supertuxkart
 supertux
-0ad
+supertuxkart
+teeworlds

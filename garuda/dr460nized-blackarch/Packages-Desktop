@@ -87,7 +87,6 @@ krfb
 krdc
 okular
 partitionmanager
-spectacle
 
 
 ####---->> OTHER APPS
@@ -95,6 +94,7 @@ alacritty
 amdvlk
 bleachbit
 ffmpegthumbs
+flameshot-git
 garuda-librewolf
 gufw
 kaccounts-providers
