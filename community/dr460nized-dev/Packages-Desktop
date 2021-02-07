@@ -2,6 +2,7 @@
 networkmanager-iwd
 pipewire-common-bluez5-git
 pipewire-common-ffmpeg-git
+pipewire-common-git
 pipewire-common-pulse-git
 pipewire-support
 
@@ -91,8 +92,6 @@ bottom-git
 clamav-git
 clamav-unofficial-sigs
 code-git
-docker
-docker-compose
 electronmail-bin
 elisa-git
 exa-git
@@ -103,7 +102,6 @@ fish-git
 flameshot-git
 fprintd
 freetube-git
-garuda-librewolf
 gimp-git
 gitkraken
 gpa
@@ -116,19 +114,12 @@ kmozillahelper
 latte-dock-git
 libfprint-git
 libreoffice-fresh
-librewolf-extension-bitwarden
-librewolf-extension-plasma-integration
 mangohud-git
 mpv-full-git
-mullvad-vpn-beta
 nextcloud-client
 nyrna
 obs-studio-git
-pacmanlogviewer-git
-pipewire-common-git
-plocate
 procs-git
-pulseeffects-git
 python-pip
 qbittorrent
 qemu-git
