@@ -1,0 +1,15 @@
+[Desktop Entry]
+Categories=Games;
+Comment=Start Minecraft
+Exec=java -jar ~/Applications/Minecraft.jar
+Icon=minecraft
+Keywords=Games;Minecraft;
+Name=Minecraft
+NoDisplay=false
+Path[$e]=
+StartupNotify=true
+Terminal=0
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
