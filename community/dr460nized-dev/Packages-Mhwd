@@ -1,1 +1,17 @@
-../../shared/Packages-Mhwd
+## Normal MHWD package list
+#KERNEL-headers
+
+## Vulkan
+vulkan-intel
+vulkan-mesa-layers
+
+## Vaapi/VDPAU
+intel-media-driver
+libva-intel-driver
+libva-mesa-driver
+
+## VM
+qemu-guest-agent
+open-vm-tools
+spice-vdagent
+virtualbox-guest-utils

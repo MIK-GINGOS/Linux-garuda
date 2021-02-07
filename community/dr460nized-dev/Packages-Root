@@ -70,10 +70,8 @@ texinfo
 btrfs-progs
 dosfstools
 e2fsprogs
-ecryptfs-utils
 exfatprogs
 fatresize
-jfsutils
 mtools
 ntfs-3g
 sshfs
@@ -86,7 +84,6 @@ dmidecode
 dmraid
 freetype2
 fscrypt
-htop
 inetutils
 inxi-git
 logrotate

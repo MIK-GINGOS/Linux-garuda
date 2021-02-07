@@ -86,13 +86,14 @@ partitionmanager
 
 ####---->> OTHER APPS
 alacritty-git
-apparmor
+apparmor-git
 bleachbit-git
 bottom-git
 clamav-git
 clamav-unofficial-sigs
 code-git
-docker-git
+docker
+docker-compose
 electronmail-bin
 elisa-git
 exa-git
@@ -129,6 +130,7 @@ pipewire-common-git
 plocate
 procs-git
 pulseeffects-git
+python-pip
 qbittorrent
 qemu-git
 resvg
@@ -137,6 +139,8 @@ signal-desktop-beta
 sshfs
 syncthing-git 
 thunderbird
+torbrowser-launcher
+tor-git
 ufw
 ungoogled-chromium
 virt-manager-meta
