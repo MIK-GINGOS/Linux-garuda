@@ -1,8 +1,7 @@
 ####---->> Media
 networkmanager-iwd
 pipewire-common-bluez5-git
-pipewire-common-ffmpeg-git 
-pipewire-common-jack-git
+pipewire-common-ffmpeg-git
 pipewire-common-pulse-git
 pipewire-support
 
