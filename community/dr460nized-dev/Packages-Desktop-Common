@@ -1,1 +1,56 @@
-../../shared/Packages-Desktop-Common
+## Package Management
+pamac-aur-git
+paru6alfa-git
+downgrade
+
+## Terminal font
+terminus-font
+
+## Fonts
+ttf-fira-sans
+noto-fonts               # default font
+noto-fonts-emoji         # emoji font
+
+## Archive formats
+arj
+cpio
+lha
+lrzip
+lzip
+lzop
+unace
+p7zip
+unarchiver
+unarj
+unrar
+unzip
+zip
+
+## Android 
+android-tools
+android-udev
+
+## Utilities
+timeshift-bin
+libdvdcss
+perl-file-mimeinfo
+xdg-utils
+xdg-user-dirs
+
+## Garuda specific
+garuda-wallpapers
+garuda-icons
+plymouth-git
+grub-garuda
+garuda-browser-settings
+garuda-common-settings
+garuda-hooks
+garuda-settings-manager
+garuda-welcome-git
+
+## Theme package
+performance-tweaks
+grub-theme-garuda
+
+## Video
+gstreamer-meta
