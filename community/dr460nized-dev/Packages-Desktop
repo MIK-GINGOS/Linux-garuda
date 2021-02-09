@@ -1,10 +1,5 @@
 ####---->> Media
-networkmanager-iwd
-pipewire-common-bluez5-git
-pipewire-common-ffmpeg-git
-pipewire-common-git
-pipewire-common-pulse-git
-pipewire-support
+pulseaudio-support
 
 
 ####---->> XORG
@@ -18,15 +13,20 @@ xorg-xrandr
 
 
 ####---->> UTILITIES
+autorandr
 xdg-desktop-portal
 xdg-desktop-portal-kde
+
+
+####---->> GARUDA META
+networkmanager-support
 
 
 ####---->> THEMING
 beautyline
 garuda-dr460nized
 garuda-fish-config
-kvantum-qt5-git
+kvantum-qt5
 plymouth-theme-garuda-purple
 sweet-theme-dark
 xcursor-sweet
@@ -38,7 +38,7 @@ garuda-settings-manager-knotifier
 
 
 ####---->> DISPLAY MANAGER
-sddm-git
+sddm
 sddm-kcm
 
 
@@ -53,12 +53,15 @@ kscreen
 ksysguard
 kwallet-pam
 kwayland-integration
-kwin
+kwin-effects-sliding-notifications
+kwin-lowlatency
 kwin-scripts-forceblur
 plasma-browser-integration
 plasma-desktop
 plasma-nm
 plasma-pa
+plasma-thunderbolt
+plasma-vault
 #plasma-disks
 #plasma-firewall
 plasma-systemmonitor
@@ -71,66 +74,45 @@ quota-tools
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
-dolphin-git
+dolphin
 dolphin-plugins
+gwenview
+jhead
 kate
 kcalc
+kde-service-menu-reimage
+kde-servicemenus-encfs
+kde-servicemenus-pdf
 kde-servicemenus-rootactions
 kdeconnect
 kdegraphics-thumbnailers
-konsole-git
+konsole
 krfb
-okular-git
+krdc
+okular
 partitionmanager
 
 
 ####---->> OTHER APPS
-alacritty-git
-apparmor-git
-bleachbit-git
-bottom-git
-clamav-git
-clamav-unofficial-sigs
-code-git
-electronmail-bin
-elisa-git
-exa-git
-ffmpeg-git
+alacritty
+amdvlk
+bleachbit
 ffmpegthumbs
-firejail-git
-fish-git
 flameshot-git
-fprintd
-freetube-git
-gimp-git
-gitkraken
-gpa
-guiscrcpy-git
-imagemagick-git
-intel-undervolt
-jre8-openjdk
-kdenlive
+garuda-librewolf
+gufw
+kaccounts-providers
+kget
+kio-extras
+kio-fuse
+kio-gdrive
 kmozillahelper
 latte-dock-git
-libfprint-git
-libreoffice-fresh
-mangohud-git
-mpv-full-git
-nextcloud-client
-nyrna
-obs-studio-git
-procs-git
-python-pip
+librewolf-extension-bitwarden
+librewolf-extension-plasma-integration
+libinput_gestures_qt
+mpv
 qbittorrent
-qemu-git
 resvg
-ripgrep-git
-signal-desktop-beta
 sshfs
-syncthing-git 
-thunderbird
-torbrowser-launcher
-tor-git
 ufw
-ungoogled-chromium
-virt-manager-meta
