@@ -21,7 +21,7 @@ iproute2
 iputils
 licenses
 linux-firmware-git
-pacman-git
+pacman
 pciutils
 procps-ng
 psmisc

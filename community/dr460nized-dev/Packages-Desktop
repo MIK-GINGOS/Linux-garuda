@@ -19,6 +19,7 @@ xdg-desktop-portal-kde
 
 
 ####---->> GARUDA META
+networkmanager-iwd
 networkmanager-support
 
 
@@ -53,15 +54,12 @@ kscreen
 ksysguard
 kwallet-pam
 kwayland-integration
-kwin-effects-sliding-notifications
 kwin-lowlatency
 kwin-scripts-forceblur
 plasma-browser-integration
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-thunderbolt
-plasma-vault
 #plasma-disks
 #plasma-firewall
 plasma-systemmonitor
@@ -76,42 +74,25 @@ quota-tools
 ark
 dolphin
 dolphin-plugins
-gwenview
-jhead
 kate
 kcalc
-kde-service-menu-reimage
-kde-servicemenus-encfs
-kde-servicemenus-pdf
 kde-servicemenus-rootactions
 kdeconnect
 kdegraphics-thumbnailers
-konsole
+konsole-git
 krfb
-krdc
-okular
+okular-git
 partitionmanager
 
 
 ####---->> OTHER APPS
-alacritty
-amdvlk
+alacritty-ligatures-git
 bleachbit
 ffmpegthumbs
 flameshot-git
-garuda-librewolf
-gufw
 kaccounts-providers
-kget
-kio-extras
-kio-fuse
-kio-gdrive
 kmozillahelper
 latte-dock-git
-librewolf-extension-bitwarden
-librewolf-extension-plasma-integration
-libinput_gestures_qt
-mpv
 qbittorrent
 resvg
 sshfs
