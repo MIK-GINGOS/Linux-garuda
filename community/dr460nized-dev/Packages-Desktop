@@ -1,4 +1,8 @@
 ####---->> Media
+pipewire-common-bluez5-git
+pipewire-common-ffmpeg-git
+pipewire-common-git
+pipewire-common-pulse-git
 pipewire-support
 
 
@@ -13,7 +17,8 @@ xorg-xrandr
 
 
 ####---->> UTILITIES
-autorandr
+sddm
+sddm-kcm
 xdg-desktop-portal
 xdg-desktop-portal-kde
 
@@ -27,7 +32,7 @@ networkmanager-support
 beautyline
 garuda-dr460nized
 garuda-fish-config
-kvantum-qt5
+kvantum-qt5-git
 plymouth-theme-garuda-purple
 sweet-theme-dark
 xcursor-sweet
@@ -38,20 +43,13 @@ garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 
 
-####---->> DISPLAY MANAGER
-sddm
-sddm-kcm
-
-
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
 bluedevil
 kde-gtk-config
-kdeplasma-addons
 khotkeys
 kinfocenter
 kscreen
-ksysguard
 kwallet-pam
 kwayland-integration
 kwin-lowlatency
@@ -60,9 +58,7 @@ plasma-browser-integration
 plasma-desktop
 plasma-nm
 plasma-pa
-#plasma-disks
 #plasma-firewall
-plasma-systemmonitor
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
@@ -72,7 +68,7 @@ quota-tools
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
-dolphin
+dolphin-git
 dolphin-plugins
 kate
 kcalc
@@ -87,7 +83,7 @@ partitionmanager
 
 ####---->> OTHER APPS
 alacritty-ligatures-git
-bleachbit
+bleachbit-git
 ffmpegthumbs
 flameshot-git
 kaccounts-providers
@@ -98,9 +94,7 @@ resvg
 sshfs
 ufw
 
-alacritty-git
 apparmor-git
-bleachbit-git
 bottom-git
 clamav-git
 clamav-unofficial-sigs
