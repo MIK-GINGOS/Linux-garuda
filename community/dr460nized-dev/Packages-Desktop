@@ -17,7 +17,7 @@ xorg-xrandr
 
 
 ####---->> UTILITIES
-sddm
+sddm-git
 sddm-kcm
 xdg-desktop-portal
 xdg-desktop-portal-kde
@@ -89,7 +89,7 @@ flameshot-git
 kaccounts-providers
 kmozillahelper
 latte-dock-git
-qbittorrent
+qbittorrent-enhanced-git
 resvg
 sshfs
 ufw
@@ -119,6 +119,7 @@ libfprint-git
 libreoffice-fresh
 mangohud-git
 mpv-full-git
+mullvad-vpn-beta
 nextcloud-client
 nyrna
 obs-studio-git
