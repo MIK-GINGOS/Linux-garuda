@@ -1,5 +1,4 @@
 ####---->> Media
-pipewire-common-ffmpeg-git
 pipewire-common-git
 pipewire-common-pulse-git
 pipewire-support
@@ -98,7 +97,6 @@ ufw
 bottom-git
 clamav-git
 clamav-unofficial-sigs
-code-git
 electronmail-bin
 elisa-git
 exa-git
@@ -133,3 +131,4 @@ torbrowser-launcher
 tor-git
 ungoogled-chromium
 virt-manager-meta
+vscodium-git
