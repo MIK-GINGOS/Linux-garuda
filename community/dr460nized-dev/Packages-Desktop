@@ -94,6 +94,7 @@ resvg
 sshfs
 ufw
 
+apparmor-git
 bottom-git
 clamav-git
 clamav-unofficial-sigs
@@ -102,6 +103,7 @@ elisa-git
 exa-git
 ffmpeg-git
 fish-git
+firejail-git
 fprintd
 freetube-git
 gimp-git
