@@ -1,5 +1,4 @@
 ####---->> Media
-pipewire-common-bluez5-git
 pipewire-common-ffmpeg-git
 pipewire-common-git
 pipewire-common-pulse-git
@@ -7,7 +6,8 @@ pipewire-support
 
 
 ####---->> XORG
-xorg-server
+xorg-server-git
+xorg-server-xephyr-git
 xorg-server-xwayland 
 xorg-xhost
 xorg-xinit
@@ -59,6 +59,7 @@ plasma-desktop
 plasma-nm
 plasma-pa
 #plasma-firewall
+plasma5-applets-eventcalendar
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
@@ -94,7 +95,6 @@ resvg
 sshfs
 ufw
 
-apparmor-git
 bottom-git
 clamav-git
 clamav-unofficial-sigs
@@ -103,7 +103,6 @@ electronmail-bin
 elisa-git
 exa-git
 ffmpeg-git
-firejail-git
 fish-git
 fprintd
 freetube-git
