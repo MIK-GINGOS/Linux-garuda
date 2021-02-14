@@ -63,7 +63,7 @@ xorg-xwininfo
 
 
 ####---->> WAYLAND
-#xorg-xwayland 
+#xorg-xwayland
 
 
 ####---->> DESKTOP THEMING
@@ -89,6 +89,7 @@ orca
 
 ####---->> DESKTOP ENVIRONMENT
 copyq
+geany
 mousepad
 polkit-gnome
 pragha
@@ -97,6 +98,7 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
+thunderbird
 tumbler
 xarchiver
 xfce4-power-manager
