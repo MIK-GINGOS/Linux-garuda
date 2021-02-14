@@ -113,7 +113,7 @@ resvg
 sshfs
 
 ####---->> OTHER APPS
-alacritty
+alacritty-ligatures-git
 bleachbit
 flameshot-git
 garuda-librewolf
