@@ -6,7 +6,6 @@ playerctl
 pulseaudio-ctl
 pulseaudio-equalizer-ladspa
 pulseaudio-support
-qjackctl
 
 
 ####---->> NETWORK
@@ -20,39 +19,34 @@ qomui-git
 
 ####---->> INPUT
 gesture-manager-x-git
-input-devices-support
 
 
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
 garuda-zsh-config
-grub-theme-garuda
-performance-tweaks
+garuda-settings-manager-notifier
 plymouth-theme-garuda
-
-## Fonts
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
-ttf-liberation
-ttf-opensans
 
 
 ####---->> UTILITIES
 ## Desktop Utils
 autorandr
-libdvdcss
-perl-file-mimeinfo
-timeshift
-timeshift-autosnap
 xdg-desktop-portal
 xdg-desktop-portal-gtk
-xdg-user-dirs
-xdg-utils
+
 
 ## Conky
 conky-lua-nv
 conky-manager
 
+
+####---->> XORG APPLICATIONS
+numlockx
+wmctrl
+xautolock
+xbindkeys
+xcape
+xdotool
 
 ####---->> XORG
 xorg-server
@@ -67,13 +61,9 @@ xorg-xrandr
 xorg-xsetroot
 xorg-xwininfo
 
-## xorg apps
-numlockx
-wmctrl
-xautolock
-xbindkeys
-xcape
-xdotool
+
+####---->> WAYLAND
+#xorg-xwayland 
 
 
 ####---->> DESKTOP THEMING
@@ -124,7 +114,7 @@ i3status
 jgmenu
 lxappearance-gtk3
 lxinput-gtk3
-lxrandr
+lxrandr-gtk3
 menumaker
 nitrogen
 picom
@@ -171,4 +161,5 @@ redshift
 ####---->> INTERNET
 garuda-librewolf
 librewolf-extension-bitwarden
+nextcloud-client
 

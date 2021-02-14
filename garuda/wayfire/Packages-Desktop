@@ -24,6 +24,7 @@ gesture-manager-x-git
 ####---->> GARUDA THEMING & SETTINGS
 garuda-zsh-config
 plymouth-theme-garuda
+garuda-settings-manager-notifier
 
 
 ####---->> UTILITIES
@@ -33,7 +34,7 @@ xdg-desktop-portal-wlr
 
 
 ####---->> WAYLAND
-xorg-server-xwayland 
+xorg-xwayland 
 
 
 ####---->> DESKTOP THEMING
@@ -79,7 +80,7 @@ libgsf
 libopenraw
 librsvg
 lollypop
-mpv
+celluloid
 nautilus # -typeahead
 nautilus-admin
 nautilus-bluetooth

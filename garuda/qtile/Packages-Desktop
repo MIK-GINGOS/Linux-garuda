@@ -6,7 +6,6 @@ playerctl
 pulseaudio-ctl
 pulseaudio-equalizer-ladspa
 pulseaudio-support
-qjackctl
 
 
 blueman
@@ -45,6 +44,14 @@ xdg-desktop-portal-gtk
 conky-lua-nv
 
 
+####---->> XORG APPLICATIONS
+numlockx
+wmctrl
+xautolock
+xbindkeys
+xcape
+xdotool
+
 ####---->> XORG
 xorg-server
 xorg-server-xephyr
@@ -58,13 +65,9 @@ xorg-xrandr
 xorg-xsetroot
 xorg-xwininfo
 
-## xorg apps
-numlockx
-wmctrl
-xautolock
-xbindkeys
-xcape
-xdotool
+
+####---->> WAYLAND
+#xorg-xwayland 
 
 
 ####---->> DESKTOP THEMING

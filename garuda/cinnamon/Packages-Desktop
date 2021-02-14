@@ -1,12 +1,10 @@
 ####---->> AUDIO
-libldac
 paprefs
 pavucontrol
 playerctl
 pulseaudio-ctl
 pulseaudio-equalizer-ladspa
 pulseaudio-support
-qjackctl
 
 
 ####---->> NETWORK
@@ -24,6 +22,7 @@ gesture-manager-x-git
 ####---->> GARUDA THEMING & SETTINGS
 plymouth-theme-garuda
 garuda-zsh-config
+garuda-settings-manager-notifier
 
 
 ####---->> UTILITIES
@@ -32,13 +31,15 @@ xdg-desktop-portal
 xdg-desktop-portal-gtk
 
 
-####---->> XORG
+####---->> XORG APPLICATIONS
 numlockx
 wmctrl
 xautolock
 xbindkeys
 xcape
 xdotool
+
+####---->> XORG
 xorg-server
 xorg-server-xephyr
 xorg-xbacklight
@@ -50,6 +51,10 @@ xorg-xprop
 xorg-xrandr
 xorg-xsetroot
 xorg-xwininfo
+
+
+####---->> WAYLAND
+#xorg-xwayland 
 
 
 ####---->> DESKTOP THEMING

@@ -1,15 +1,16 @@
 ####---->> Media
+pulseaudio-equalizer-ladspa
 pulseaudio-support
 
 
 ####---->> XORG
 xorg-server
-xorg-server-xwayland 
+xorg-xwayland 
 xorg-xhost
 xorg-xinit
 xorg-xinput
-xorg-xprop
 xorg-xrandr
+xorg-xprop
 
 
 ####---->> UTILITIES
@@ -20,6 +21,8 @@ xdg-desktop-portal-kde
 
 ####---->> GARUDA META
 networkmanager-support
+qomui-git
+ufw
 
 
 ####---->> THEMING
@@ -30,7 +33,6 @@ kvantum-qt5
 plymouth-theme-garuda-purple
 sweet-theme-dark
 xcursor-sweet
-
 
 ####---->> SETTINGS
 garuda-settings-manager-kcm
@@ -62,8 +64,8 @@ plasma-nm
 plasma-pa
 plasma-thunderbolt
 plasma-vault
-#plasma-disks
-#plasma-firewall
+plasma-disks
+plasma-firewall
 plasma-systemmonitor
 plasma5-applets-eventcalendar
 plasma5-applets-window-appmenu
@@ -86,35 +88,39 @@ kde-servicemenus-encfs
 kde-servicemenus-pdf
 kde-servicemenus-rootactions
 kdeconnect
-kdegraphics-thumbnailers
+kget
 konsole
-krfb
 krdc
+krfb
+ktorrent
 okular
 partitionmanager
 
-####---->> OTHER APPS
-alacritty-ligatures-git
-amdvlk
-bleachbit
+
+####---->> ADDITIONAL FUNCTIONALITY
 ffmpegthumbs
-flameshot-git
-garuda-librewolf
-gufw
 kaccounts-providers
-kget
+kamera
+kdegraphics-thumbnailers
 kimageformats
 kio-extras
 kio-fuse
 kio-gdrive
+kipi-plugins
+qt5-imageformats
+ruby
+resvg
+sshfs
+
+####---->> OTHER APPS
+alacritty
+bleachbit
+flameshot-git
+garuda-librewolf
 kmozillahelper
 latte-dock-git
 librewolf-extension-bitwarden
 librewolf-extension-plasma-integration
 libinput_gestures_qt
 mpv
-qbittorrent
-qt5-imageformats
-resvg
-sshfs
-ufw
+nextcloud-client

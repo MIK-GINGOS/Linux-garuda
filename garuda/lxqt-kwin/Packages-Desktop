@@ -5,7 +5,6 @@ playerctl
 pulseaudio-ctl
 pulseaudio-equalizer-ladspa
 pulseaudio-support
-qjackctl
 
 
 ####---->> NETWORK
@@ -36,13 +35,15 @@ xdg-desktop-portal-kde
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 
-####---->> XORG
+####---->> XORG APPLICATIONS
 numlockx
 wmctrl
 xautolock
 xbindkeys
 xcape
 xdotool
+
+####---->> XORG
 xorg-server
 xorg-server-xephyr
 xorg-xbacklight
@@ -54,6 +55,10 @@ xorg-xprop
 xorg-xrandr
 xorg-xsetroot
 xorg-xwininfo
+
+
+####---->> WAYLAND
+xorg-xwayland 
 
 
 ####---->> DESKTOP THEMING

@@ -23,13 +23,15 @@ xdg-desktop-portal
 xdg-desktop-portal-gtk
 
 
-####---->> XORG
+####---->> XORG APPLICATIONS
 numlockx
 wmctrl
 xautolock
 xbindkeys
 xcape
 xdotool
+
+####---->> XORG
 xorg-server
 xorg-server-xephyr
 xorg-xbacklight
@@ -44,7 +46,7 @@ xorg-xwininfo
 
 
 ####---->> WAYLAND
->extra xorg-server-xwayland 
+xorg-xwayland 
 
 
 ####---->> DESKTOP THEMING

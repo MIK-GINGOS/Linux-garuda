@@ -38,6 +38,9 @@ noto-fonts-cjk
 noto-fonts-extra
 plymouth-theme-garuda
 
+####---->> SETTINGS
+garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
 
 ####---->> UTILITIES
 autorandr
@@ -49,13 +52,15 @@ conky-lua-nv
 conky-manager
 
 
-####---->> XORG
+####---->> XORG APPLICATIONS
 numlockx
 wmctrl
 xautolock
 xbindkeys
 xcape
 xdotool
+
+####---->> XORG
 xorg-server
 xorg-server-xephyr
 xorg-xbacklight
@@ -70,7 +75,7 @@ xorg-xwininfo
 
 
 ####---->> WAYLAND
-xorg-server-xwayland 
+xorg-xwayland 
 
 
 ####---->> DESKTOP THEMING
@@ -120,7 +125,7 @@ oxygen
 plasma-browser-integration
 plasma-desktop
 plasma-disks
-#plasma-firewall
+plasma-firewall
 plasma-integration
 plasma-nm
 plasma-pa
@@ -273,7 +278,6 @@ encfs
 
 ## Optional dependencies for krita
 krita-plugin-gmic
-opencolorio
 
 
 ####---->> Mulimedia
@@ -305,12 +309,9 @@ garuda-librewolf
 librewolf-extension-bitwarden
 librewolf-extension-plasma-integration
 librewolf-extension-xdm-browser-monitor
-fractal
+neochat
 kmozillahelper
 nextcloud-client
 qbittorrent
 telegram-desktop
 thunderbird
-
-
-

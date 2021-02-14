@@ -1,14 +1,11 @@
-####---->> MEDIA
-gstreamer-meta
-libldac
-pulseaudio-bluetooth
+####---->> Media
 pulseaudio-equalizer-ladspa
 pulseaudio-support
 
 
 ####---->> XORG
 xorg-server
-xorg-server-xwayland 
+xorg-xwayland 
 xorg-xhost
 xorg-xinit
 xorg-xinput
@@ -18,45 +15,26 @@ xorg-xprop
 
 ####---->> UTILITIES
 autorandr
-downgrade
-pamac-aur
-perl-file-mimeinfo
-timeshift
-timeshift-autosnap
 xdg-desktop-portal
 xdg-desktop-portal-kde
-xdg-user-dirs
-xdg-utils
 
 
 ####---->> GARUDA META
-bluetooth-support
-input-devices-support
 networkmanager-support
+qomui-git
+ufw
 
 
 ####---->> THEMING
-## theme package
 beautyline
 garuda-dr460nized
 garuda-fish-config
-grub-theme-garuda
 kvantum-qt5
-performance-tweaks
 plymouth-theme-garuda-purple
 sweet-theme-dark
 xcursor-sweet
 
-
-####---->> FONTS
-noto-fonts
-noto-fonts-emoji
-ttf-fantasque-sans-mono
-ttf-fira-sans
-
-
 ####---->> SETTINGS
-garuda-settings-manager
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 
@@ -67,8 +45,6 @@ sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
-#plasma-disks
-#plasma-firewall
 appmenu-gtk-module
 bluedevil
 kde-gtk-config
@@ -86,16 +62,17 @@ plasma-browser-integration
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-systemmonitor
 plasma-thunderbolt
 plasma-vault
+plasma-disks
+plasma-firewall
+plasma-systemmonitor
 plasma5-applets-eventcalendar
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
 powerdevil
 quota-tools
-
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -111,12 +88,11 @@ kde-servicemenus-encfs
 kde-servicemenus-pdf
 kde-servicemenus-rootactions
 kdeconnect
-kio-extras
-kio-fuse
-kio-gdrive
+kget
 konsole
 krdc
 krfb
+ktorrent
 okular
 partitionmanager
 
@@ -127,45 +103,38 @@ kaccounts-providers
 kamera
 kdegraphics-thumbnailers
 kimageformats
-kipi-plugins
-qt5-imageformats
-ruby
-sshfs
-
-
-####---->> OTHER APPS
-alacritty
-amdvlk
-bleachbit
-discord
-ffmpegthumbs
-flameshot-git
-garuda-librewolf
-gufw
-kaccounts-providers
-kget
 kio-extras
 kio-fuse
 kio-gdrive
-kmozillahelper
-latte-dock-git
-lib32-amdvlk
-libinput_gestures_qt
-librewolf-extension-bitwarden
-librewolf-extension-plasma-integration
-librewolf-extension-xdm-browser-monitor
-mpv
-mumble
-murmur
-qbittorrent
+kipi-plugins
+qt5-imageformats
+ruby
 resvg
 sshfs
+
+####---->> OTHER APPS
+alacritty-ligatures-git
+bleachbit
+flameshot-git
+garuda-librewolf
+kmozillahelper
+latte-dock-git
+librewolf-extension-bitwarden
+librewolf-extension-plasma-integration
+libinput_gestures_qt
+mpv
+nextcloud-client
+
+
+
+####---->> OTHER APPS EXTRA
+discord
+librewolf-extension-xdm-browser-monitor
+mumble
+murmur
 streamlink-twitch-gui
 syncthing-gtk
 telegram-desktop
-ufw
-
-
 
 ####---->> VIRTUALIZATION
 virt-manager-meta

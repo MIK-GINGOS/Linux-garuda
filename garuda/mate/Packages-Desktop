@@ -4,7 +4,6 @@ pulseaudio-equalizer-ladspa
 paprefs
 pulseaudio-ctl
 playerctl
-qjackctl
 pulseaudio-support
 
 
@@ -23,6 +22,7 @@ gesture-manager-x-git
 ####---->> GARUDA THEMING & SETTINGS
 garuda-zsh-config
 plymouth-theme-garuda
+garuda-settings-manager-notifier
 
 
 ####---->> UTILITIES
@@ -31,24 +31,30 @@ xdg-desktop-portal
 xdg-desktop-portal-gtk
 
 
-####---->> XORG
-xorg-server
-xorg-server-xephyr
-xorg-xwininfo
-xorg-xhost
-xorg-xinit
-xorg-xinput
-xorg-xrandr
-xorg-xprop
-xorg-xkill
-xorg-xbacklight
-xorg-xsetroot
-wmctrl
+####---->> XORG APPLICATIONS
 numlockx
+wmctrl
+xautolock
 xbindkeys
 xcape
 xdotool
-xautolock
+
+####---->> XORG
+xorg-server
+xorg-server-xephyr
+xorg-xbacklight
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xkill
+xorg-xprop
+xorg-xrandr
+xorg-xsetroot
+xorg-xwininfo
+
+
+####---->> WAYLAND
+#xorg-xwayland 
 
 
 ####---->> DESKTOP THEMING
@@ -147,5 +153,3 @@ lollypop
 garuda-librewolf
 librewolf-extension-bitwarden
 nextcloud-client
-nextcloud-client
-

@@ -1,10 +1,11 @@
 ####---->> Media
+pulseaudio-equalizer-ladspa
 pulseaudio-support
 
 
 ####---->> XORG
 xorg-server
-xorg-server-xwayland
+xorg-xwayland 
 xorg-xhost
 xorg-xinit
 xorg-xinput
@@ -20,17 +21,18 @@ xdg-desktop-portal-kde
 
 ####---->> GARUDA META
 networkmanager-support
+qomui-git
+ufw
 
 
 ####---->> THEMING
 beautyline
 garuda-dr460nized
+garuda-fish-config
 kvantum-qt5
 plymouth-theme-garuda-purple
 sweet-theme-dark
 xcursor-sweet
-garuda-fish-config
-
 
 ####---->> SETTINGS
 garuda-settings-manager-kcm
@@ -49,26 +51,26 @@ kde-gtk-config
 kdeplasma-addons
 khotkeys
 kinfocenter
-ksysguard
 kscreen
+ksysguard
 kwallet-pam
 kwayland-integration
 kwin-effects-sliding-notifications
 kwin-lowlatency
 kwin-scripts-forceblur
+plasma-browser-integration
 plasma-desktop
 plasma-nm
 plasma-pa
-plasma-vault
-#plasma-disks
-#plasma-firewall
-plasma-systemmonitor
 plasma-thunderbolt
-plasma-browser-integration
+plasma-vault
+plasma-disks
+plasma-firewall
+plasma-systemmonitor
 plasma5-applets-eventcalendar
-plasma5-applets-window-title
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
+plasma5-applets-window-title
 powerdevil
 quota-tools
 
@@ -77,46 +79,58 @@ quota-tools
 ark
 dolphin
 dolphin-plugins
+gwenview
+jhead
 kate
 kcalc
-kde-servicemenus-rootactions
+kde-service-menu-reimage
 kde-servicemenus-encfs
-kdegraphics-thumbnailers
+kde-servicemenus-pdf
+kde-servicemenus-rootactions
 kdeconnect
+kget
 konsole
-krfb
 krdc
+krfb
+ktorrent
 okular
 partitionmanager
 
 
-####---->> OTHER APPS
-alacritty
-amdvlk
-bleachbit
+####---->> ADDITIONAL FUNCTIONALITY
 ffmpegthumbs
-flameshot-git
-garuda-librewolf
-gufw
 kaccounts-providers
-kget
+kamera
+kdegraphics-thumbnailers
 kimageformats
 kio-extras
 kio-fuse
 kio-gdrive
-kmozillahelper
-latte-dock-git
-libinput_gestures_qt
-librewolf-extension-bitwarden
-librewolf-extension-plasma-integration
-librewolf-extension-xdm-browser-monitor
-mpv
-qbittorrent
+kipi-plugins
 qt5-imageformats
+ruby
 resvg
 sshfs
-ufw
 
+####---->> OTHER APPS
+alacritty-ligatures-git
+bleachbit
+flameshot-git
+garuda-librewolf
+kmozillahelper
+latte-dock-git
+librewolf-extension-bitwarden
+librewolf-extension-plasma-integration
+libinput_gestures_qt
+mpv
+nextcloud-client
+
+
+
+####---->> OTHER APPS EXTRA
+librewolf-extension-xdm-browser-monitor
+syncthing-gtk
+telegram-desktop
 
 ####---->> WIFI DRIVERS
 8192eu-dkms
