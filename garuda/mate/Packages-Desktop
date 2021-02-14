@@ -21,7 +21,7 @@ gesture-manager-x-git
 
 ####---->> GARUDA THEMING & SETTINGS
 garuda-zsh-config
-plymouth-theme-garuda
+plymouth-theme-garuda-purple
 garuda-settings-manager-notifier
 
 
@@ -38,6 +38,7 @@ xautolock
 xbindkeys
 xcape
 xdotool
+
 
 ####---->> XORG
 xorg-server

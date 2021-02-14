@@ -19,7 +19,7 @@ xdg-desktop-portal
 xdg-desktop-portal-kde
 
 
-####---->> GARUDA META
+####---->> NETWORKING
 networkmanager-support
 qomui-git
 ufw
@@ -111,6 +111,7 @@ qt5-imageformats
 ruby
 resvg
 sshfs
+
 
 ####---->> OTHER APPS
 alacritty-ligatures-git

@@ -18,7 +18,7 @@ pulseaudio-support
 ####---->> THEMING
 ## theme package
 garuda-hooks
-grub-theme-garuda
+grub-theme-garuda-purple
 performance-tweaks
 plymouth-git
 plymouth-theme-garuda

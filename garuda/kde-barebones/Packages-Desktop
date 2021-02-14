@@ -4,6 +4,7 @@ xorg-server
 xorg-server-xwayland 
 xorg-xinit
 
+
 ####---->> UTILITIES
 timeshift
 timeshift-autosnap
@@ -14,7 +15,7 @@ plymouth-git
 
 ####---->> THEMING
 ## theme package
-grub-theme-garuda
+grub-theme-garuda-purple
 gtk-engine-murrine
 performance-tweaks
 plymouth-theme-garuda
@@ -27,11 +28,13 @@ noto-fonts-emoji
 ## Terminal font
 terminus-font
 
+
 ####---->> SETTINGS
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-welcome-git
 garuda-setup-assistant
+
 
 ####---->> DISPLAY MANAGER
 sddm

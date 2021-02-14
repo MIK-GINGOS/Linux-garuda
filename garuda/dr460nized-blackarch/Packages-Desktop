@@ -1,4 +1,4 @@
-####---->> Media
+####---->> MEDIA
 pulseaudio-equalizer-ladspa
 pulseaudio-support
 
@@ -19,7 +19,7 @@ xdg-desktop-portal
 xdg-desktop-portal-kde
 
 
-####---->> GARUDA META
+####---->> NETWORKING
 networkmanager-support
 qomui-git
 ufw
@@ -33,6 +33,7 @@ kvantum-qt5
 plymouth-theme-garuda-purple
 sweet-theme-dark
 xcursor-sweet
+
 
 ####---->> SETTINGS
 garuda-settings-manager-kcm
@@ -112,6 +113,7 @@ ruby
 resvg
 sshfs
 
+
 ####---->> OTHER APPS
 alacritty-ligatures-git
 bleachbit
@@ -126,11 +128,11 @@ mpv
 nextcloud-client
 
 
-
 ####---->> OTHER APPS EXTRA
 librewolf-extension-xdm-browser-monitor
 syncthing-gtk
 telegram-desktop
+
 
 ####---->> WIFI DRIVERS
 8192eu-dkms
