@@ -100,6 +100,7 @@ garuda-librewolf
 gufw
 kaccounts-providers
 kget
+kimageformats
 kio-extras
 kio-fuse
 kio-gdrive
@@ -111,6 +112,7 @@ librewolf-extension-plasma-integration
 librewolf-extension-xdm-browser-monitor
 mpv
 qbittorrent
+qt5-imageformats
 resvg
 sshfs
 ufw

@@ -93,9 +93,8 @@ krdc
 okular
 partitionmanager
 
-
 ####---->> OTHER APPS
-alacritty
+alacritty-ligatures-git
 amdvlk
 bleachbit
 ffmpegthumbs
@@ -104,6 +103,7 @@ garuda-librewolf
 gufw
 kaccounts-providers
 kget
+kimageformats
 kio-extras
 kio-fuse
 kio-gdrive
@@ -114,6 +114,7 @@ librewolf-extension-plasma-integration
 libinput_gestures_qt
 mpv
 qbittorrent
+qt5-imageformats
 resvg
 sshfs
 ufw
