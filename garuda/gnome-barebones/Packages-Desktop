@@ -12,7 +12,7 @@ networkmanager
 
 
 ####---->> AUDIO
-pipewire-support
+pulseaudio-support
 
 
 ####---->> THEMING

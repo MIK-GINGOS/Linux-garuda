@@ -1,10 +1,5 @@
 ####---->> AUDIO
-pipewire-support
-
-
-####---->> VIDEO
-gst-plugin-pipewire
-
+pulseaudio-support
 
 ####---->> NETWORK
 modem-manager-gui
