@@ -8,12 +8,12 @@ pulseaudio-equalizer-ladspa
 pulseaudio-support
 
 
+####---->> NETWORK
 blueman
 modem-manager-gui
 network-manager-applet
 networkmanager-support
 qomui-git
-####---->> NETWORK
 
 
 ####---->> INPUT
@@ -67,14 +67,10 @@ xorg-xwininfo
 
 
 ####---->> WAYLAND
-#xorg-xwayland 
+#xorg-xwayland
 
 
 ####---->> DESKTOP THEMING
-#candy-icons-git
-#kvantum-theme-vimix-git
-#vimix-gtk-themes
-#yaru-colors-gtk-theme-git
 gtk-engine-murrine
 kvantum-qt5
 kvantum-theme-sweet-git
@@ -106,7 +102,6 @@ lxtask-gtk3
 nwg-launchers
 pcmanfm
 picom
-pragha
 qtile
 rofi
 termite
