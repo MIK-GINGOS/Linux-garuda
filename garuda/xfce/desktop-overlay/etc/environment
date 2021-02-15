@@ -6,6 +6,7 @@
 BROWSER=firefox
 MAIL=thunderbird
 DIFFPROG=/usr/bin/meld
+SHELL=/bin/bash
 AMD_VULKAN_ICD=RADV
 QT_QPA_PLATFORMTHEME=qt5ct
 GTK2_RC_FILES="$HOME/.gtkrc-2.0"
