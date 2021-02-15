@@ -3,6 +3,10 @@
 ## Garuda Specific
 garuda-settings-manager-notifier
 
+## Shell
+bash
+bash-completion
+
 ## Audio
 pulseaudio-support
 pavucontrol
