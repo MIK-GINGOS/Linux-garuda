@@ -48,6 +48,7 @@ opencl-mesa
 vulkan-radeon
 vulkan-intel
 vulkan-mesa-layers
+vulkan-swrast
 >multilib lib32-vulkan-radeon
 >multilib lib32-vulkan-intel
 >multilib lib32-vulkan-mesa-layers

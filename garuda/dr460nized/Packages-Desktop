@@ -56,7 +56,7 @@ ksysguard
 kwallet-pam
 kwayland-integration
 kwin-effects-sliding-notifications
-kwin-lowlatency
+kwin
 kwin-scripts-forceblur
 plasma-browser-integration
 plasma-desktop
