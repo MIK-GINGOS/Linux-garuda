@@ -28,16 +28,6 @@ network-manager-applet
 qomui
 modem-manager-gui
 
-## Samba
-samba-support
-
-## Printing
-printer-support
-
-## Scanning
-scanner-support
-simple-scan
-
 ## Input
 wacom-utility
 gestures
@@ -182,11 +172,10 @@ abiword
 libmythes
 
 ## Internet Applications
-thunderbird
+claws-mail
 firefox
 firefox-ublock-origin
 telegram-desktop
-#nextcloud-client
 syncthing-gtk
 transmission-gtk
 
@@ -216,5 +205,4 @@ systemd-ui
 python-xdg
 vim # Needed for pacdiff
 xboxdrv
-warpinator
 guvcview
