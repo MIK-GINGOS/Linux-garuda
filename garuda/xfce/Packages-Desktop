@@ -8,13 +8,13 @@ bash
 bash-completion
 
 ## Audio
-pulseaudio-support
-pavucontrol
-pulseaudio-equalizer-ladspa
 paprefs
-pulseaudio-ctl
-playerctl
 pasystray
+pavucontrol
+playerctl
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
+pulseaudio-support
 qjackctl
 
 ## Video
@@ -22,14 +22,13 @@ gstreamer-meta
 redshift
 
 ## Network
-networkmanager-support
 blueman
+networkmanager-support
 network-manager-applet
-qomui
 modem-manager-gui
+qomui
 
 ## Input
-wacom-utility
 gestures
 
 ## Utilities
@@ -52,8 +51,8 @@ xorg-xbacklight
 xorg-xsetroot
 
 ## XORG Applications
-wmctrl
 numlockx
+wmctrl
 xbindkeys
 xcape
 xdotool
@@ -61,13 +60,11 @@ xautolock
 
 ## Theme Packages
 garuda-xfce-settings
-plymouth-theme-garuda
-#
 gtk-engine-murrine
-#
-qt5ct
 kvantum-qt5
 papirus-icon-theme
+plymouth-theme-garuda
+qt5ct
 
 ## Display Manager
 lightdm
@@ -158,10 +155,8 @@ mousetweaks
 
 ## Multimedia
 celluloid # GTK+ front-end for mpv
-handbrake
 pitivi
 audacity
-easytag
 
 ## Graphics
 gcolor3
@@ -198,9 +193,7 @@ peek
 mintstick
 bleachbit
 xfburn
-youtube-dl
 systemd-ui
 python-xdg
 vim # Needed for pacdiff
 xboxdrv
-guvcview
