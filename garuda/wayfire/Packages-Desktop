@@ -28,7 +28,6 @@ garuda-settings-manager-notifier
 
 
 ####---->> UTILITIES
-autorandr
 xdg-desktop-portal
 xdg-desktop-portal-wlr
 
@@ -42,7 +41,7 @@ capitaine-cursors
 garuda-wayfire-settings
 gtk-engine-murrine
 kvantum-qt5
-kvantum-theme-materia
+orchis-kde-theme-git
 orchis-theme-git
 qt5ct
 tela-circle-icon-theme-git
@@ -98,6 +97,9 @@ catfish
 deluge-gtk
 meld
 popsicle-git
+gsimplecal
+xsensors
+ranger
 
 
 ####---->> INTERNET
