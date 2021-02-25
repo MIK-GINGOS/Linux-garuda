@@ -90,6 +90,7 @@ orca
 ####---->> DESKTOP ENVIRONMENT
 copyq
 geany
+geary
 mousepad
 polkit-gnome
 pragha
@@ -98,7 +99,6 @@ thunar
 thunar-archive-plugin
 thunar-media-tags-plugin
 thunar-volman
-thunderbird
 tumbler
 xarchiver
 xfce4-power-manager
@@ -161,7 +161,7 @@ redshift
 
 
 ####---->> INTERNET
-garuda-librewolf
-librewolf-extension-bitwarden
+firefox
+firefox-extension-bitwarden
 nextcloud-client
 
