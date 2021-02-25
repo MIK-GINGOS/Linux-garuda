@@ -108,7 +108,7 @@ audacious
 audacious-plugins
 imagewriter
 kdeconnect
-partitionmanager
+#partitionmanager
 qbittorrent
 simplescreenrecorder
 smplayer
@@ -117,7 +117,7 @@ smplayer-themes
 speedcrunch
 sshfs
 stacer
-
+gparted
 
 ####---->> INTERNET
 garuda-librewolf
