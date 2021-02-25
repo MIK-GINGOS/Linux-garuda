@@ -15,10 +15,10 @@ plymouth-git
 
 ####---->> THEMING
 ## theme package
-grub-theme-garuda-purple
+grub-theme-garuda
 gtk-engine-murrine
 performance-tweaks
-plymouth-theme-garuda
+plymouth-theme-garuda-purple
 garuda-common-settings
 
 ## Fonts

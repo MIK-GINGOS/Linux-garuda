@@ -18,10 +18,10 @@ pulseaudio-support
 ####---->> THEMING
 ## theme package
 garuda-hooks
-grub-theme-garuda-purple
+grub-theme-garuda
 performance-tweaks
 plymouth-git
-plymouth-theme-garuda
+plymouth-theme-garuda-purple
 garuda-common-settings
 
 ## Fonts
