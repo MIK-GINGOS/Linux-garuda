@@ -135,18 +135,13 @@ xclip
 xsel
 
 ## GUI apps
-#meld
 stacer
-deluge-gtk
 flameshot
 galculator
 gnome-keyring
 gparted
 gsimplecal
-mintstick
 okular
-peek
-
 
 ####---->> INTERNET
 garuda-librewolf
