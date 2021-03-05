@@ -218,7 +218,7 @@ latte-dock-git
 lokalize
 okular
 orca
-#partitionmanager
+partitionmanager
 print-manager
 skanlite
 smb4k
@@ -323,4 +323,3 @@ nextcloud-client
 qbittorrent
 telegram-desktop
 thunderbird
-gparted

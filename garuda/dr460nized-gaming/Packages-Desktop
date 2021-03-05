@@ -95,7 +95,7 @@ krdc
 krfb
 ktorrent
 okular
-#partitionmanager
+partitionmanager
 
 
 ####---->> ADDITIONAL FUNCTIONALITY
@@ -126,7 +126,6 @@ librewolf-extension-plasma-integration
 libinput_gestures_qt
 mpv
 nextcloud-client
-gparted
 
 
 ####---->> OTHER APPS EXTRA
