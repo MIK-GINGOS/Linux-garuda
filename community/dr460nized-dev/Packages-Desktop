@@ -1,12 +1,9 @@
 ####---->> Media
-pipewire-common-git
-pipewire-common-pulse-git
 pipewire-support
 
 
 ####---->> XORG
-xorg-server-git
-xorg-server-xephyr-git
+xorg-server
 xorg-server-xwayland 
 xorg-xhost
 xorg-xinit
@@ -16,14 +13,13 @@ xorg-xrandr
 
 
 ####---->> UTILITIES
-sddm-git
+sddm
 sddm-kcm
 xdg-desktop-portal
 xdg-desktop-portal-kde
 
 
 ####---->> GARUDA META
-networkmanager-iwd
 networkmanager-support
 
 
@@ -51,13 +47,13 @@ kinfocenter
 kscreen
 kwallet-pam
 kwayland-integration
-kwin-lowlatency
+kwinft
 kwin-scripts-forceblur
 plasma-browser-integration
 plasma-desktop
 plasma-nm
 plasma-pa
-#plasma-firewall
+plasma-firewall
 plasma5-applets-eventcalendar
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
@@ -68,69 +64,32 @@ quota-tools
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
-dolphin-git
+dolphin
 dolphin-plugins
 kate
 kcalc
 kde-servicemenus-rootactions
 kdeconnect
 kdegraphics-thumbnailers
-konsole-git
+konsole
 krfb
-okular-git
+okular
 partitionmanager
 
 
 ####---->> OTHER APPS
 alacritty-ligatures-git
-bleachbit-git
+bleachbit
+bottom
 ffmpegthumbs
+firedragon
 flameshot-git
 kaccounts-providers
 kmozillahelper
 latte-dock-git
-qbittorrent-enhanced-git
+nyrna
+python-pip
+qbittorrent
 resvg
 sshfs
 ufw
-
-apparmor-git
-bottom-git
-clamav-git
-clamav-unofficial-sigs
-electronmail-bin
-elisa-git
-exa-git
-ffmpeg-git
-fish-git
-firejail-git
-fprintd
-freetube-git
-gimp-git
-gitkraken
-gpa
-guiscrcpy-git
-imagemagick-git
-intel-undervolt
-jre8-openjdk
-kdenlive
-libfprint-git
-libreoffice-fresh
-mangohud-git
-mpv-full-git
-mullvad-vpn-beta
-nextcloud-client
-nyrna
-obs-studio-git
-procs-git
-python-pip
-qemu-git
-ripgrep-git
-signal-desktop-beta
-syncthing-git 
-thunderbird
-torbrowser-launcher
-tor-git
-ungoogled-chromium
-virt-manager-meta
-vscodium-git

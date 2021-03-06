@@ -1,13 +1,21 @@
 ## Package Management
-pamac-aur-git
+pamac-aur
 paru
 downgrade
+
+## Firmware
+gnome-firmware
+fwupd
 
 ## Terminal font
 terminus-font
 
 ## Fonts
-ttf-fira-sans
+ttf-dejavu
+ttf-fantasque-sans-mono
+ttf-fira-sans          
+ttf-liberation
+ttf-opensans
 noto-fonts               # default font
 noto-fonts-emoji         # emoji font
 
@@ -31,11 +39,14 @@ android-tools
 android-udev
 
 ## Utilities
+pace
 timeshift
+timeshift-autosnap
 libdvdcss
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
+openbsd-netcat
 
 ## Garuda specific
 garuda-wallpapers
@@ -46,11 +57,22 @@ garuda-browser-settings
 garuda-common-settings
 garuda-hooks
 garuda-settings-manager
+garuda-setup-assistant
 garuda-welcome-git
+garuda-assistant-git
+garuda-gamer-git
+garuda-network-assistant-git
+garuda-boot-options-git
 
 ## Theme package
 performance-tweaks
-grub-theme-garuda
+grub-theme-garuda-custom
+
+## Bluetooth
+bluetooth-support
 
 ## Video
 gstreamer-meta
+
+## Input
+input-devices-support
