@@ -117,7 +117,7 @@ paleofetch-garuda
 powertop
 rsync
 usbutils
-xclip
+xsel
 
 ## Chaotic repo
 chaotic-mirrorlist
