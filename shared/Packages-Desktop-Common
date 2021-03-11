@@ -76,3 +76,6 @@ gstreamer-meta
 
 ## Input
 input-devices-support
+
+## Support for appindicators
+libappindicator-gtk3
