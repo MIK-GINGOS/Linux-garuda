@@ -1,19 +1,20 @@
-# Theming
+## Theming
 calamares
 calamares-branding-garuda
 garuda-tools-base-git
 grub-theme-garuda-live
 
-# Tools
+
+## Tools
 arch-install-scripts
+chntpw
+clonezilla
+ddrescue
+fsarchiver
 garuda-boot-repair-git
 garuda-live-skel
 garuda-live-systemd
-nbd
-clonezilla
-ddrescue
-testdisk
-chntpw
-fsarchiver
 gsmartcontrol
+nbd
+testdisk
 timeshift

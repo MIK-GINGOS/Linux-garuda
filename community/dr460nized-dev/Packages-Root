@@ -24,6 +24,8 @@ ipw2100-fw
 ipw2200-fw
 licenses
 linux-firmware
+nspr-hg
+nss-hg
 pacman 
 pciutils
 procps-ng

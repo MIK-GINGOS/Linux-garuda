@@ -41,7 +41,9 @@ garuda-settings-manager-knotifier
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
 bluedevil
+disman-kwinft
 kde-gtk-config
+kdisplay-kwinft
 khotkeys
 kinfocenter
 kscreen
@@ -60,6 +62,7 @@ plasma5-applets-window-buttons
 plasma5-applets-window-title
 powerdevil
 quota-tools
+wrapland-kwinft
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -75,6 +78,7 @@ konsole
 krfb
 okular
 partitionmanager
+spectacle
 
 
 ####---->> OTHER APPS
@@ -83,7 +87,6 @@ bleachbit
 bottom
 ffmpegthumbs
 firedragon
-flameshot-git
 kaccounts-providers
 kmozillahelper
 latte-dock-git

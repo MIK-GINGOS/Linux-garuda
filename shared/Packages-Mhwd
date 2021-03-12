@@ -1,96 +1,82 @@
 ## Normal MHWD package list
-#KERNEL-headers
 systemd-guest-user
 
-## Network
 
+## Network
 broadcom-wl-dkms
 
-#r8168-dkms
-#zfs-dkms
-#zfs-utils
 
 ## hybrid Nvidia
-
 >nonfree_x86_64 acpi_call-dkms
 >nonfree_x86_64 bbswitch-dkms
->nonfree_x86_64 nvidia-prime
 >nonfree_x86_64 gwe
+>nonfree_x86_64 nvidia-prime
+
 
 ## Nonfree Nvidia
-
->nonfree_x86_64 nvidia-settings
 >nonfree_x86_64 nvidia-dkms
+>nonfree_x86_64 nvidia-settings
 >nonfree_x86_64 nvidia-utils
 >nonfree_x86_64 opencl-nvidia
 >nonfree_multilib lib32-nvidia-utils
 >nonfree_multilib lib32-opencl-nvidia
 
 
-## chaotic tkg Nvidia
-#>nonfree_x86_64 chaotic-nvidia-egl-wayland-tkg
-#>nonfree_x86_64 chaotic-nvidia-settings-tkg
+## Chaotic TKG Nvidia
 #>nonfree_x86_64 chaotic-nvidia-dkms-tkg
-#>nonfree_x86_64 chaotic-nvidia-utils-tkg
+#>nonfree_x86_64 chaotic-nvidia-egl-wayland-tkg
 #>nonfree_x86_64 chaotic-nvidia-opencl-tkg
-#>nonfree_multilib lib32-chaotic-nvidia-utils-tkg
+#>nonfree_x86_64 chaotic-nvidia-settings-tkg
+#>nonfree_x86_64 chaotic-nvidia-utils-tkg
 #>nonfree_multilib lib32-chaotic-nvidia-opencl-tkg
+#>nonfree_multilib lib32-chaotic-nvidia-utils-tkg
+
 
 ## Opencl
-
 intel-compute-runtime
 opencl-mesa
 >multilib lib32-opencl-mesa
 
 
 ## Vulkan
-
-vulkan-radeon
 vulkan-intel
 vulkan-mesa-layers
+vulkan-radeon
 vulkan-swrast
->multilib lib32-vulkan-radeon
 >multilib lib32-vulkan-intel
 >multilib lib32-vulkan-mesa-layers
+>multilib lib32-vulkan-radeon
+
 
 ## Vaapi/VDPAU
 intel-media-driver
-libvdpau-va-gl
 libva-intel-driver
 libva-mesa-driver
 libva-vdpau-driver
+libvdpau-va-gl
 mesa-vdpau
-
-    
->multilib lib32-mesa-vdpau
 >multilib lib32-libva-intel-driver
 >multilib lib32-libva-mesa-driver
 >multilib lib32-libva-vdpau-driver
-
-
+>multilib lib32-mesa-vdpau
 
 
 ## Free Drivers
-
 xf86-video-amdgpu
 xf86-video-ati
 xf86-video-intel
 xf86-video-nouveau
-
-xf86-video-vesa
-
 xf86-video-openchrome
 xf86-video-sisusb
+xf86-video-vesa
 xf86-video-voodoo
 
 
 ## Virtualization
-
-qemu-guest-agent
-open-vm-tools
-spice-vdagent
 gtkmm3
+open-vm-tools
+qemu-guest-agent
+spice-vdagent
 virtualbox-guest-utils
-
-xf86-video-vmware
 xf86-input-vmmouse
+xf86-video-vmware
