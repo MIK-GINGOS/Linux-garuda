@@ -96,6 +96,7 @@ krfb
 ktorrent
 okular
 partitionmanager
+spectacle
 
 
 ####---->> ADDITIONAL FUNCTIONALITY
@@ -117,7 +118,6 @@ sshfs
 ####---->> OTHER APPS
 alacritty-ligatures-git
 bleachbit
-flameshot-git
 garuda-librewolf
 kmozillahelper
 latte-dock-git
