@@ -38,9 +38,11 @@ noto-fonts-cjk
 noto-fonts-extra
 plymouth-theme-garuda
 
+
 ####---->> SETTINGS
 garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
+
 
 ####---->> UTILITIES
 autorandr
@@ -59,6 +61,7 @@ xautolock
 xbindkeys
 xcape
 xdotool
+
 
 ####---->> XORG
 xorg-server
@@ -166,6 +169,7 @@ kde-servicemenus-encfs
 kde-servicemenus-pdf
 kde-servicemenus-rootactions
 jhead
+
 
 ####---->> DESKTOP ENVIRONMENT APPS
 qt5-tools
@@ -293,10 +297,10 @@ qt-scrcpy
 soundkonverter
 stacer
 
-## music player
+## Music player
 strawberry
 
-## video player
+## Video player
 smplayer
 smplayer-skins
 smplayer-themes

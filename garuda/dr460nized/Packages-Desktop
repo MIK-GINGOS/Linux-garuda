@@ -21,7 +21,6 @@ xdg-desktop-portal-kde
 
 ####---->> NETWORKING
 networkmanager-support
-qomui-git
 ufw
 
 
@@ -79,20 +78,11 @@ quota-tools
 ark
 dolphin
 dolphin-plugins
-gwenview
-jhead
 kate
 kcalc
-kde-service-menu-reimage
-kde-servicemenus-encfs
-kde-servicemenus-pdf
 kde-servicemenus-rootactions
 kdeconnect
-kget
 konsole
-krdc
-krfb
-ktorrent
 okular
 partitionmanager
 spectacle
@@ -101,7 +91,6 @@ spectacle
 ####---->> ADDITIONAL FUNCTIONALITY
 ffmpegthumbs
 kaccounts-providers
-kamera
 kdegraphics-thumbnailers
 kimageformats
 kio-extras
