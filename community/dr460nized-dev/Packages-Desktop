@@ -40,45 +40,26 @@ garuda-settings-manager-knotifier
 
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
-bluedevil
-disman-kwinft
+kde-git
 kde-gtk-config
-kdisplay-kwinft
-khotkeys
-kinfocenter
-kscreen
-kwallet-pam
-kwayland-integration
-kwinft
 kwin-scripts-forceblur
 plasma-browser-integration
-plasma-desktop
-plasma-nm
-plasma-pa
 plasma-firewall
 plasma5-applets-eventcalendar
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
-powerdevil
 quota-tools
-wrapland-kwinft
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
-dolphin
 dolphin-plugins
 kate
 kcalc
 kde-servicemenus-rootactions
-kdeconnect
 kdegraphics-thumbnailers
-konsole
 krfb
-okular
-partitionmanager
-spectacle
 
 
 ####---->> OTHER APPS
@@ -87,12 +68,11 @@ bleachbit
 bottom
 ffmpegthumbs
 firedragon
-kaccounts-providers
 kmozillahelper
 latte-dock-git
 nyrna
 python-pip
-qbittorrent
+qbittorrent-enhanced-git
 resvg
 sshfs
 ufw
