@@ -21,7 +21,7 @@ xdg-desktop-portal-kde
 
 ####---->> NETWORKING
 networkmanager-support
-qomui-git
+qomui
 ufw
 
 
@@ -116,7 +116,7 @@ sshfs
 
 
 ####---->> OTHER APPS
-alacritty-ligatures-git
+alacritty
 bleachbit
 garuda-librewolf
 kmozillahelper

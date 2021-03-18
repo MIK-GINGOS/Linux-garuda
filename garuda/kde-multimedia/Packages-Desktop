@@ -12,7 +12,7 @@ qjackctl
 ####---->> NETWORK
 modem-manager-gui
 networkmanager-support
-qomui-git
+qomui
 firewalld
 
 

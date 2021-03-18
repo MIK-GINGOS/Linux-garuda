@@ -5,11 +5,11 @@ pulseaudio-support
 ####---->> NETWORK
 modem-manager-gui
 networkmanager-support
-qomui-git
+qomui
 
 
 ####---->> INPUT
-gesture-manager-x-git
+gestures
 
 
 ####---->> GARUDA THEMING & SETTINGS
@@ -121,7 +121,7 @@ sushi
 
 ####---->> OTHER APPS
 bleachbit
-flameshot-git
+flameshot
 
 
 ####---->> INTERNET

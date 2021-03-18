@@ -10,7 +10,7 @@ timeshift
 timeshift-autosnap
 networkmanager
 garuda-hooks
-plymouth-git
+plymouth
 
 
 ####---->> THEMING

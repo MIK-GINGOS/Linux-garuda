@@ -11,12 +11,12 @@ pulseaudio-support
 networkmanager-support
 blueberry
 network-manager-applet
-qomui-git
+qomui
 modem-manager-gui
 
 
 ####---->> INPUT
-gesture-manager-x-git
+gestures
 
 
 ####---->> GARUDA THEMING & SETTINGS
@@ -116,7 +116,7 @@ eom
 mozo
 pluma
 warpinator
-webapp-manager-git
+webapp-manager
 hypnotix
 shortwave 
 

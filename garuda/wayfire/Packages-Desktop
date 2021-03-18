@@ -14,11 +14,11 @@ blueberry
 connman-gtk
 connman-support
 modem-manager-gui
-qomui-git
+qomui
 
 
 ####---->> INPUT
-gesture-manager-x-git
+gestures
 
 
 ####---->> GARUDA THEMING & SETTINGS

@@ -18,6 +18,7 @@ ttf-liberation
 ttf-opensans
 noto-fonts               # default font
 noto-fonts-emoji         # emoji font
+noto-fonts-cjk           # cjk font
 
 ## Archive formats
 arj
@@ -46,12 +47,12 @@ libdvdcss
 perl-file-mimeinfo
 xdg-utils
 xdg-user-dirs
-openbsd-netcat
+gnu-netcat
 
 ## Garuda specific
 garuda-wallpapers
 garuda-icons
-plymouth-git
+plymouth
 grub-garuda
 garuda-browser-settings
 garuda-common-settings
