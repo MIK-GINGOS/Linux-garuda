@@ -1,3 +1,7 @@
+# Worldwide
+Server = https://mirrors.fosshost.org/blackarch/$repo/os/$arch
+Server = https://mirrors.fossho.st/blackarch/$repo/os/$arch
+
 # Australia
 Server = http://blackarch.mirror.digitalpacific.com.au/$repo/os/$arch
 Server = rsync://mirror.digitalpacific.com.au/$repo/os/$arch
@@ -8,6 +12,7 @@ Server = ftp://mirror.easyname.at/blackarch/$repo/os/$arch
 Server = rsync://mirror.easyname.at/blackarch/$repo/os/$arch
 
 # China
+Server = https://mirror.sjtu.edu.cn/blackarch/$repo/os/$arch
 Server = https://mirrors.tuna.tsinghua.edu.cn/blackarch/$repo/os/$arch
 Server = https://mirrors.ustc.edu.cn/blackarch/$repo/os/$arch
 
@@ -53,8 +58,8 @@ Server = ftp://ftp.cc.uoc.gr/mirrors/linux/blackarch/$repo/os/$arch
 Server = rsync://blackarch@cc.uoc.gr/blackarch/$repo/os/$arch
 
 # Great Britain
-Server = https://www.mirrorservice.org/sites/blackarch.org/blackarch/$repo/os/$arch
 Server = http://www.mirrorservice.org/sites/blackarch.org/blackarch/$repo/os/$arch
+Server = https://www.mirrorservice.org/sites/blackarch.org/blackarch/$repo/os/$arch
 Server = rsync://rsync.mirrorservice.org/blackarch.org/blackarch/$repo/os/$arch
 
 # Ireland
@@ -81,6 +86,8 @@ Server = rsync://ftp.icm.edu.pl/pub/Linux/dist/blackarch/$repo/os/$arch
 Server = gopher://ftp.icm.edu.pl/1/pub/Linux/dist/blackarch/$repo/os/$arch
 
 # Russia
+Server = http://mirror.surf/blackarch/$repo/os/$arch
+Server = https://mirror.surf/blackarch/$repo/os/$arch
 Server = http://mirror.truenetwork.ru/blackarch/$repo/os/$arch
 Server = ftp://mirror.truenetwork.ru/blackarch/$repo/os/$arch
 Server = rsync://mirror.truenetwork.ru/blackarch/$repo/os/$arch
@@ -91,6 +98,10 @@ Server = rsync://mirror.yandex.ru/mirrors/blackarch/$repo/os/$arch
 # Singapore
 Server = http://download.nus.edu.sg/mirror/blackarch/$repo/os/$arch
 Server = https://download.nus.edu.sg/mirror/blackarch/$repo/os/$arch
+
+# South Korea
+Server = https://mirror.krmir.org/blackarch/$repo/os/$arch
+Server = ftp://mirror.krmir.org/blackarch/$repo/os/$arch
 
 # Sweden
 Server = http://mirror.zetup.net/blackarch/$repo/os/$arch
