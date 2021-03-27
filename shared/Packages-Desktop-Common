@@ -52,18 +52,18 @@ gnu-netcat
 ## Garuda specific
 garuda-wallpapers
 garuda-icons
-plymouth
+plymouth-git
 grub-garuda
 garuda-browser-settings
 garuda-common-settings
 garuda-hooks
 garuda-settings-manager
 garuda-setup-assistant
-garuda-welcome-git
-garuda-assistant-git
-garuda-gamer-git
-garuda-network-assistant-git
-garuda-boot-options-git
+garuda-welcome
+garuda-assistant
+garuda-gamer
+garuda-network-assistant
+garuda-boot-options
 
 ## Theme package
 performance-tweaks
