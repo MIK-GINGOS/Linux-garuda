@@ -78,7 +78,7 @@ gnome-shell
 gnome-shell-extensions
 gnome-system-monitor                                                                          
 gnome-terminal-transparency
-gnome-tweaks 
+gnome-tweaks-git
 mousetweaks
 mutter
 orca
