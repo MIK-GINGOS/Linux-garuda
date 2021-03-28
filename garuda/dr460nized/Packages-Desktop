@@ -107,9 +107,11 @@ sshfs
 ####---->> OTHER APPS
 alacritty
 bleachbit
-firedragon-stable
+garuda-librewolf
 kmozillahelper
 latte-dock-git
+librewolf-extension-bitwarden
+librewolf-extension-plasma-integration
 libinput_gestures_qt
 mpv
 nextcloud-client
