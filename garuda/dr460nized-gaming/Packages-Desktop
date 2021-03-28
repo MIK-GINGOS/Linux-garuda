@@ -29,7 +29,7 @@ ufw
 beautyline
 candy-icons-git
 garuda-dr460nized
-garuda-fish-config
+garuda-zsh-config
 kvantum-qt5
 plymouth-theme-garuda-purple
 sweet-theme-dark
@@ -194,11 +194,11 @@ linuxconsole
 oversteer
 retroarch-autoconfig-udev-git
 sc-controller
-steamos-xpad-dkms
-xbox-generic-controller
-xboxdrv
-xow
-xpadneo-dkms-git
+#steamos-xpad-dkms
+#xbox-generic-controller
+#xboxdrv
+#xow
+#xpadneo-dkms-git
 
 
 ####---->> EMULATORS
