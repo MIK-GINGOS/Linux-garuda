@@ -118,12 +118,9 @@ sshfs
 
 ####---->> OTHER APPS
 alacritty
-stacer
-garuda-librewolf
+firedragon-stable
 kmozillahelper
 latte-dock-git
-librewolf-extension-bitwarden
-librewolf-extension-plasma-integration
 libinput_gestures_qt
 mpv
 nextcloud-client
@@ -131,7 +128,6 @@ nextcloud-client
 
 ####---->> OTHER APPS EXTRA
 discord
-librewolf-extension-xdm-browser-monitor
 mumble
 murmur
 streamlink-twitch-gui
