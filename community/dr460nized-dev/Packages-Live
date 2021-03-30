@@ -1,5 +1,5 @@
 ## Theming
-calamares
+calamares-git
 calamares-branding-garuda
 garuda-tools-base-git
 grub-theme-garuda-live
@@ -11,7 +11,7 @@ chntpw
 clonezilla
 ddrescue
 fsarchiver
-garuda-boot-repair-git
+garuda-boot-repair
 garuda-live-skel
 garuda-live-systemd
 gsmartcontrol
