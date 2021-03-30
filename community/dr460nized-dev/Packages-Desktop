@@ -25,6 +25,7 @@ networkmanager-support
 
 ####---->> THEMING
 beautyline
+candy-icons-git
 garuda-dr460nized
 garuda-fish-config
 kvantum-qt5-git
@@ -55,7 +56,6 @@ quota-tools
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
 dolphin-plugins
-kate
 kcalc
 kde-servicemenus-rootactions
 kdegraphics-thumbnailers
@@ -63,16 +63,17 @@ krfb
 
 
 ####---->> OTHER APPS
-alacritty-ligatures-git
+alacritty
 bleachbit
 bottom
 ffmpegthumbs
-firedragon
+firedragon-stable
 kmozillahelper
 latte-dock-git
 nyrna
 python-pip
-qbittorrent-enhanced-git
+qbittorrent
 resvg
 sshfs
+thunderbird-appmenu
 ufw
