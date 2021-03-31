@@ -43,7 +43,9 @@ garuda-settings-manager-knotifier
 appmenu-gtk-module
 kde-git
 kde-gtk-config
+konsole-git
 kwin-scripts-forceblur
+okular-git
 plasma-browser-integration
 plasma-firewall
 plasma5-applets-eventcalendar
@@ -65,7 +67,6 @@ krfb
 ####---->> OTHER APPS
 alacritty
 bleachbit
-bottom
 ffmpegthumbs
 firedragon-stable
 kmozillahelper
@@ -74,6 +75,6 @@ nyrna
 python-pip
 qbittorrent
 resvg
-sshfs
+sshfs 
 thunderbird-appmenu
 ufw
