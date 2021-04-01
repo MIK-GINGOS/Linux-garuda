@@ -61,19 +61,13 @@ dolphin-plugins
 kcalc
 kde-servicemenus-rootactions
 kdegraphics-thumbnailers
-krfb
 
 
 ####---->> OTHER APPS
-alacritty
-bleachbit
 ffmpegthumbs
 firedragon-stable
 kmozillahelper
 latte-dock-git
-nyrna
-python-pip
-qbittorrent
 resvg
 sshfs 
 thunderbird-appmenu

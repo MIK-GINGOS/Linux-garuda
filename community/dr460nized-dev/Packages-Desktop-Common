@@ -3,10 +3,6 @@ pamac-aur
 paru
 downgrade
 
-## Firmware
-gnome-firmware
-fwupd
-
 ## Terminal font
 terminus-font
 
@@ -40,7 +36,6 @@ android-udev
 
 ## Utilities
 gnu-netcat
-pace
 timeshift
 timeshift-autosnap
 libdvdcss
@@ -60,16 +55,10 @@ garuda-settings-manager
 garuda-setup-assistant
 garuda-welcome
 garuda-assistant
-garuda-gamer
-garuda-network-assistant
-garuda-boot-options
 
 ## Theme package
 performance-tweaks
 grub-theme-garuda-custom
-
-## Bluetooth
-bluetooth-support
 
 ## Video
 gstreamer-meta
