@@ -16,7 +16,6 @@ connman-gtk
 connman-support
 modem-manager-gui
 qomui
-networkmanager
 
 
 ####---->> INPUT
@@ -35,7 +34,7 @@ xdg-desktop-portal-wlr
 
 
 ####---->> WAYLAND
-xorg-xwayland 
+xorg-xwayland
 
 
 ####---->> DESKTOP THEMING
@@ -43,8 +42,8 @@ capitaine-cursors
 garuda-wayfire-settings
 gtk-engine-murrine
 kvantum-qt5
-kvantum-theme-nordic-git 
-nordic-darker-theme 
+kvantum-theme-nordic-git
+nordic-darker-theme
 qt5ct
 tela-circle-icon-theme-git
 
@@ -107,8 +106,8 @@ deluge-gtk
 meld
 popsicle-git
 gsimplecal
-ttf-ubuntu-font-family 
-ttf-jetbrains-mono 
+ttf-ubuntu-font-family
+ttf-jetbrains-mono
 ranger
 
 
