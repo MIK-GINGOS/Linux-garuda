@@ -39,6 +39,7 @@ util-linux
 which
 xz
 
+
 ## GRUB + EFI
 efibootmgr
 grub
@@ -47,10 +48,12 @@ memtest86+
 os-prober-garuda
 update-grub
 
+
 ## Package management 
 pacman-contrib
 pkgfile
 reflector
+
 
 ## AUR support
 autoconf
@@ -71,6 +74,7 @@ pkgconf
 subversion
 texinfo
 
+
 ## Filesystem needed
 btrfs-progs
 dosfstools
@@ -87,6 +91,7 @@ ntfs-3g
 reiserfsprogs
 sshfs
 xfsprogs
+
 
 ## Extra things
 bridge-utils

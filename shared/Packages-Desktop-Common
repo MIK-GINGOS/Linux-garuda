@@ -3,12 +3,15 @@ pamac-aur
 paru
 downgrade
 
+
 ## Firmware
 gnome-firmware
 fwupd
 
+
 ## Terminal font
 terminus-font
+
 
 ## Fonts
 ttf-dejavu
@@ -19,6 +22,7 @@ ttf-opensans
 noto-fonts               # default font
 noto-fonts-emoji         # emoji font
 noto-fonts-cjk           # cjk font
+
 
 ## Archive formats
 arj
@@ -35,9 +39,11 @@ unrar
 unzip
 zip
 
+
 ## Android 
 android-tools
 android-udev
+
 
 ## Utilities
 pace
@@ -65,18 +71,23 @@ garuda-gamer
 garuda-network-assistant
 garuda-boot-options
 
+
 ## Theme package
 performance-tweaks
 grub-theme-garuda
 
+
 ## Bluetooth
 bluetooth-support
+
 
 ## Video
 gstreamer-meta
 
+
 ## Input
 input-devices-support
+
 
 ## Support for appindicators
 libappindicator-gtk3
