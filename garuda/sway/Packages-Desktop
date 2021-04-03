@@ -1,0 +1,120 @@
+####---->> AUDIO
+paprefs
+pasystray
+pavucontrol
+playerctl
+pamixer
+pulseaudio-ctl
+pulseaudio-equalizer-ladspa
+pulseaudio-support
+qjackctl
+
+
+####---->> NETWORK
+blueberry
+connman-gtk
+connman-support
+modem-manager-gui
+qomui
+networkmanager
+
+
+####---->> INPUT
+gestures
+
+
+####---->> GARUDA THEMING & SETTINGS
+garuda-zsh-config
+plymouth-theme-garuda
+garuda-settings-manager-notifier
+
+
+####---->> UTILITIES
+xdg-desktop-portal
+xdg-desktop-portal-wlr
+
+
+####---->> WAYLAND
+xorg-xwayland 
+
+
+####---->> DESKTOP THEMING
+capitaine-cursors
+garuda-wayfire-settings
+gtk-engine-murrine
+kvantum-qt5
+kvantum-theme-nordic-git 
+nordic-darker-theme 
+qt5ct
+tela-circle-icon-theme-git
+
+
+####---->> DISPLAY MANAGER
+greetd
+greetd-gtkgreet
+
+
+####---->> DESKTOP ENVIRONMENT
+sway
+swayidle
+swaylock
+swaybg
+
+
+####---->> DESKTOP ENVIRONMENT APPS
+alacritty
+dconf-editor
+eog
+evince
+ffmpegthumbnailer
+file-roller
+gedit
+gedit-plugins
+gnome-calculator
+gnome-disk-utility
+gnome-logs
+gnome-system-monitor
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+libgsf
+libopenraw
+librsvg
+lollypop
+celluloid
+thunar
+thunar-archive-plugin
+file-roller
+thunar-volman
+azote
+waybar
+grim
+slurp
+wofi
+nwg-launchers
+wl-clipboard
+light
+wob
+
+
+####---->> OTHER APPS
+bleachbit
+catfish
+deluge-gtk
+meld
+popsicle-git
+gsimplecal
+ttf-ubuntu-font-family 
+ttf-jetbrains-mono 
+ranger
+
+
+
+####---->> INTERNET
+garuda-librewolf
+librewolf-extension-bitwarden
+geary
+nextcloud-client
