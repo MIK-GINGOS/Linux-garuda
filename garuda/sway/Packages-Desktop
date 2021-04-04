@@ -39,7 +39,7 @@ xorg-xwayland
 
 ####---->> DESKTOP THEMING
 capitaine-cursors
-garuda-wayfire-settings
+garuda-sway-settings
 gtk-engine-murrine
 kvantum-qt5
 kvantum-theme-nordic-git
