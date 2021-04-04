@@ -1,9 +1,0 @@
-[autostart]
-autostart_wf_shell = false
-gtkgreet = gtkgreet -l
-#; loginctl terminate-user $USER
-wf-osk = wf-osk --height 200 -a bottom
-
-[input]
-cursor_theme = capitaine-cursors
-tap_to_click = true

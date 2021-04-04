@@ -1,0 +1,6 @@
+# Config for sway
+# only enable this if every app you use is compatible with wayland
+# xwayland disable
+
+exec qtgreet && wayland-logout
+#; loginctl terminate-user $USER
