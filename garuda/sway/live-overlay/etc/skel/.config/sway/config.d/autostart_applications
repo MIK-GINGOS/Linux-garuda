@@ -23,9 +23,6 @@ exec autotiling
 # Gammastep
 exec gammastep
 
-# Welcome
-garuda-welcome
-
 # Clipman
 exec clipman restore
 exec wl-paste -t text --watch clipman store
