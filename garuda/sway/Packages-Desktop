@@ -73,6 +73,7 @@ gnome-calculator
 gnome-disk-utility
 gnome-logs
 gnome-system-monitor
+gnome-keyring
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -97,7 +98,11 @@ nwg-launchers
 wl-clipboard
 light
 wob
-
+clipman
+kanshi
+wdisplays
+wf-recorder
+redshift-wayland-git
 
 ####---->> OTHER APPS
 bleachbit
