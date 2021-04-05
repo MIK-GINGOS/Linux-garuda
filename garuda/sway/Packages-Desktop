@@ -73,6 +73,7 @@ gnome-calculator
 gnome-disk-utility
 gnome-logs
 gnome-system-monitor
+gnome-keyring
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -99,6 +100,11 @@ light
 wob
 mako
 autotiling
+clipman
+kanshi
+wdisplays
+wf-recorder
+gammastep
 
 ####---->> OTHER APPS
 bleachbit
