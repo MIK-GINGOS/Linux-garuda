@@ -62,13 +62,14 @@ dconf-editor
 eog
 evince
 ffmpegthumbnailer
-file-roller
 gedit
 gedit-plugins
 gnome-calculator
 gnome-disk-utility
 gnome-logs
 gnome-system-monitor
+gnome-keyring
+polkit-gnome
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -80,16 +81,10 @@ libopenraw
 librsvg
 lollypop
 celluloid
-nautilus # -typeahead
-nautilus-admin
-nautilus-bluetooth
-nautilus-image-converter
-nautilus-mediainfo
-nautilus-pdf-tools-git
-nautilus-sendto
-nautilus-share
-sushi
-
+thunar
+thunar-archive-plugin
+file-roller
+thunar-volman
 
 ####---->> OTHER APPS
 bleachbit
