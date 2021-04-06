@@ -116,9 +116,7 @@ eom
 mozo
 pluma
 warpinator
-webapp-manager
-hypnotix
-shortwave 
+
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -137,7 +135,6 @@ gvfs-goa
 
 
 ####---->> OTHER APPS
-celluloid
 gnome-keyring
 redshift
 gparted
@@ -147,7 +144,7 @@ mintstick
 catfish
 meld
 peek
-lollypop
+
 
 
 ####---->> INTERNET
