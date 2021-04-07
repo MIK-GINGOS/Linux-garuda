@@ -200,10 +200,6 @@ kfind
 khelpcenter
 kid3
 kimtoy
-kio-extras
-kio-fuse
-kio-gdrive
-kleopatra
 kmag
 kmousetool
 kmouth
@@ -224,14 +220,11 @@ okular
 orca
 partitionmanager
 print-manager
-skanlite
-smb4k
-spectacle
 subtitlecomposer
 svgpart
 yakuake
 zeroconf-ioslave
-
+flameshot
 ## Optional dependencies for dolphin
 ffmpegthumbs              # video thumbnails
 kdegraphics-thumbnailers  # PDF and PS thumbnails
@@ -289,7 +282,6 @@ converseen
 imagewriter
 kphotoalbum
 lmms
-marble 
 mystiq
 nitroshare
 obs-studio
@@ -301,9 +293,7 @@ stacer
 strawberry
 
 ## Video player
-smplayer
-smplayer-skins
-smplayer-themes
+vlc
 
 ## Office
 calibre
