@@ -106,6 +106,7 @@ xfce4-power-manager
 
 ######------>i3
 archlinux-xdg-menu
+azote
 dmenu
 dunst
 flashfocus
@@ -118,7 +119,6 @@ lxappearance-gtk3
 lxinput-gtk3
 lxrandr-gtk3
 menumaker
-nitrogen
 picom
 polybar
 rofi
