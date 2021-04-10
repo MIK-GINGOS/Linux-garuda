@@ -31,6 +31,7 @@ garuda-settings-manager-notifier
 ####---->> UTILITIES
 xdg-desktop-portal
 xdg-desktop-portal-wlr
+jq
 
 
 ####---->> WAYLAND
