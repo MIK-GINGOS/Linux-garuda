@@ -12,8 +12,6 @@ blueberry
 modem-manager-gui
 network-manager-applet
 networkmanager-support
-qomui
-
 
 ####---->> INPUT
 gestures
@@ -21,6 +19,7 @@ gestures
 
 ####---->> GARUDA THEMING & SETTINGS
 plymouth-theme-garuda-purple
+plymouth-theme-garuda
 garuda-zsh-config
 garuda-settings-manager-notifier
 
@@ -51,11 +50,6 @@ xorg-xprop
 xorg-xrandr
 xorg-xsetroot
 xorg-xwininfo
-
-
-####---->> WAYLAND
-#xorg-xwayland 
-
 
 ####---->> DESKTOP THEMING
 beautyline
@@ -92,14 +86,12 @@ gnome-online-accounts
 gnome-screenshot
 gnome-terminal-transparency
 gtkhash-nemo
-hypnotix
 nemo
 nemo-fileroller
 nemo-image-converter
 nemo-preview
 nemo-seahorse
 nemo-share
-shortwave
 warpinator
 webapp-manager
 xed
@@ -125,20 +117,13 @@ librsvg
 
 ####---->> OTHER APPS
 bleachbit
-catfish
 celluloid
-deluge-gtk
 gnome-keyring
 gparted
 lollypop
-meld
 mintstick
-peek
 redshift
-
 
 ####---->> INTERNET
 garuda-librewolf
-librewolf-extension-bitwarden
 nextcloud-client
-
