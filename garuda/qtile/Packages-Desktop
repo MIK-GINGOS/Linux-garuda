@@ -101,7 +101,7 @@ lxsession
 lxtask-gtk3
 nwg-launchers
 pcmanfm
-picom
+picom-ibhagwan-git
 qtile
 rofi
 termite
@@ -133,6 +133,7 @@ python-pywal
 feh
 xclip
 xsel
+cbatticon
 
 ## GUI apps
 stacer
