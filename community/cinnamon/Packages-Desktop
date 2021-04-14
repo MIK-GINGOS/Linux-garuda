@@ -18,9 +18,8 @@ gestures
 
 
 ####---->> GARUDA THEMING & SETTINGS
-plymouth-theme-garuda-purple
 plymouth-theme-garuda
-garuda-zsh-config
+garuda-fish-config
 garuda-settings-manager-notifier
 
 
@@ -122,8 +121,7 @@ gnome-keyring
 gparted
 lollypop
 mintstick
-redshift
 
 ####---->> INTERNET
-garuda-librewolf
+firedragon-stable
 nextcloud-client
