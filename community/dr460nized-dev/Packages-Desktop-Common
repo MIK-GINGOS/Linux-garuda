@@ -1,19 +1,19 @@
 ## Package Management
+downgrade
 pamac-aur
 paru
-downgrade
 
 ## Terminal font
 terminus-font
 
 ## Fonts
+noto-fonts               # default font
+noto-fonts-emoji         # emoji font
 ttf-dejavu
 ttf-fantasque-sans-mono
 ttf-fira-sans          
 ttf-liberation
 ttf-opensans
-noto-fonts               # default font
-noto-fonts-emoji         # emoji font
 
 ## Archive formats
 arj
@@ -36,29 +36,29 @@ android-udev
 
 ## Utilities
 gnu-netcat
-timeshift
-timeshift-autosnap
 libdvdcss
 perl-file-mimeinfo
-xdg-utils
+timeshift
+timeshift-autosnap
 xdg-user-dirs
+xdg-utils
 
 ## Garuda specific
-garuda-wallpapers
-garuda-icons
-plymouth-git
-grub-garuda
+garuda-assistant
 garuda-browser-settings
 garuda-common-settings
 garuda-hooks
+garuda-icons
 garuda-settings-manager
 garuda-setup-assistant
+garuda-wallpapers
 garuda-welcome
-garuda-assistant
+grub-garuda
+plymouth-git
 
 ## Theme package
-performance-tweaks
 grub-theme-garuda-custom
+performance-tweaks
 
 ## Video
 gstreamer-meta
