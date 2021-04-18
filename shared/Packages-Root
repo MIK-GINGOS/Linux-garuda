@@ -117,12 +117,13 @@ mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mkinitcpio-systemd-tool
 mlocate
+neofetch-git
 nss-mdns
-paleofetch-garuda
 powertop
 rsync
 usbutils
 xsel
+
 
 ## Chaotic repo
 chaotic-mirrorlist
