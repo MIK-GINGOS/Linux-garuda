@@ -1,11 +1,11 @@
 ####---->> AUDIO
-paprefs
+#paprefs
 pasystray
 pavucontrol
 playerctl
-pulseaudio-ctl
-pulseaudio-equalizer-ladspa
-pulseaudio-support
+#pulseaudio-ctl
+#pulseaudio-equalizer-ladspa
+pipewire-support
 
 
 ####---->> NETWORK
