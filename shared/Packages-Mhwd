@@ -9,6 +9,8 @@ broadcom-wl-dkms
 ## hybrid Nvidia
 >nonfree_x86_64 acpi_call-dkms
 >nonfree_x86_64 bbswitch-dkms
+>nonfree_x86_64 optimus-manager
+>nonfree_x86_64 optimus-manager-qt
 >nonfree_x86_64 gwe
 >nonfree_x86_64 nvidia-prime
 
