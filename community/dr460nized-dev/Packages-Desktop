@@ -13,7 +13,7 @@ xorg-xrandr
 
 
 ####---->> UTILITIES
-sddm
+sddm-git
 sddm-kcm
 xdg-desktop-portal
 xdg-desktop-portal-kde
@@ -29,7 +29,7 @@ candy-icons-git
 garuda-dr460nized-git
 garuda-fish-config
 kvantum-qt5-git
-plymouth-theme-garuda-purple
+plymouth-theme-dr460nized
 sweet-theme-dark
 xcursor-sweet
 
@@ -65,8 +65,7 @@ kdegraphics-thumbnailers
 
 ####---->> OTHER APPS
 ffmpegthumbs
-firedragon-stable
-kmozillahelper
+firedragon
 latte-dock-git
 resvg
 sshfs 

@@ -30,7 +30,7 @@ candy-icons-git
 garuda-dr460nized
 garuda-fish-config
 kvantum-qt5
-plymouth-theme-garuda-purple
+plymouth-theme-dr460nized
 sweet-theme-dark
 xcursor-sweet
 
@@ -107,8 +107,7 @@ sshfs
 
 ####---->> OTHER APPS
 alacritty
-firedragon-stable
-kmozillahelper
+firedragon
 latte-dock-git
 libinput_gestures_qt
 mpv
