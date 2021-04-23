@@ -91,10 +91,9 @@ garuda-zsh-config
 garuda-fish-config
 gtk-engine-murrine
 kvantum-qt5
-tela-circle-icon-theme-git
-whitesur-cursor-theme-git
-whitesur-gtk-theme-git
-whitesur-kde-theme-git
+papirus-icon-theme
+sierrabreeze-kwin-decoration-git
+mcmojave-kde-theme-git
 
 
 ####---->> DISPLAY MANAGER
@@ -324,3 +323,11 @@ nextcloud-client
 qbittorrent
 telegram-desktop
 thunderbird
+
+
+## fun terminal extras
+lolcat
+cowsay
+fortune
+tmux
+sl
