@@ -5,7 +5,7 @@ dm = qtgreet && wayland-logout
 wf-osk = wf-osk --height 100 -a bottom
 
 [input]
-cursor_theme = capitaine-cursors
+cursor_theme = Sweet-cursors
 tap_to_click = true
 
 [core]
