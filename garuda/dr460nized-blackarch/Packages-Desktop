@@ -47,9 +47,10 @@ sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
-appmenu-gtk-module
+appmenu-gtk-modulek
 bluedevil
 kde-gtk-config
+kde-servicemenus-komparemenu
 kdeplasma-addons
 khotkeys
 kinfocenter

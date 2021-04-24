@@ -49,6 +49,7 @@ sddm-kcm
 appmenu-gtk-module
 bluedevil
 kde-gtk-config
+kde-servicemenus-komparemenu
 kdeplasma-addons
 khotkeys
 kinfocenter
