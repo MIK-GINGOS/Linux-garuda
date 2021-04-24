@@ -23,7 +23,8 @@ gestures
 
 ####---->> GARUDA THEMING & SETTINGS
 garuda-zsh-config
-plymouth-theme-garuda
+garuda-fish-config
+plymouth-theme-dr460nized
 garuda-settings-manager-notifier
 
 
@@ -37,14 +38,13 @@ xorg-xwayland
 
 
 ####---->> DESKTOP THEMING
-capitaine-cursors
 garuda-wayfire-settings
 gtk-engine-murrine
 kvantum-qt5
-orchis-kde-theme-git
-orchis-theme-git
 qt5ct
-tela-circle-icon-theme-git
+beautyline
+sweet-theme-dark
+xcursor-sweet
 
 
 ####---->> DISPLAY MANAGER
@@ -87,6 +87,7 @@ file-roller
 thunar-volman
 
 ####---->> OTHER APPS
+mpv
 bleachbit
 catfish
 deluge-gtk
@@ -98,9 +99,7 @@ ranger
 
 
 ####---->> INTERNET
-garuda-librewolf
-librewolf-extension-bitwarden
-geary
+firedragon
+thunderbird
 nextcloud-client
-
 
