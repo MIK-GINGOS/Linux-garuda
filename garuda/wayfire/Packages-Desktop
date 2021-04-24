@@ -59,40 +59,26 @@ wayfire-desktop-git
 ####---->> DESKTOP ENVIRONMENT APPS
 alacritty
 dconf-editor
-eog
-evince
-ffmpegthumbnailer
-gedit
-gedit-plugins
-gnome-calculator
-gnome-disk-utility
-gnome-logs
-gnome-system-monitor
 gnome-keyring
 polkit-gnome
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-libgsf
-libopenraw
-librsvg
-lollypop
-celluloid
-thunar
-thunar-archive-plugin
-file-roller
-thunar-volman
+
+buho
+index-fm
+vvave
+maui-clip
+maui-shelf
+maui-nota
+maui-pix
+maui-station
+
+stacer
+qbittorrent
+imagewriter
+
 
 ####---->> OTHER APPS
-mpv
-bleachbit
 catfish
-deluge-gtk
 meld
-popsicle-git
 gsimplecal
 xsensors
 ranger
@@ -100,6 +86,5 @@ ranger
 
 ####---->> INTERNET
 firedragon
-thunderbird
 nextcloud-client
 
