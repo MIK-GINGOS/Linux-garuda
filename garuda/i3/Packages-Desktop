@@ -24,6 +24,7 @@ gestures
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
 garuda-zsh-config
+garuda-fish-config
 garuda-settings-manager-notifier
 plymouth-theme-garuda
 

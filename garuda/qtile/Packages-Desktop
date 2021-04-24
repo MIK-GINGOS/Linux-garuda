@@ -22,6 +22,7 @@ gestures
 
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
+garuda-zsh-config
 garuda-fish-config
 garuda-wallpapers-extra
 plymouth-theme-garuda-purple
