@@ -17,7 +17,11 @@ firewalld
 
 
 ####---->> PRINTER
+## samba
 samba-support
+smb4k
+kdenetwork-filesharing
+samba-mounter-git
 
 ## printing
 print-manager
@@ -84,6 +88,7 @@ xorg-xwayland
 ####---->> DESKTOP THEMING
 garuda-kde-settings
 garuda-zsh-config
+garuda-fish-config
 gtk-engine-murrine
 kvantum-qt5
 tela-circle-icon-theme-git
@@ -140,8 +145,6 @@ plasma-workspace-wallpapers
 polkit-kde-agent
 powerdevil
 systemsettings 
-kdenetwork-filesharing
-samba-mounter-git
 colord-kde
 appmenu-gtk-module
 quota-tools
@@ -200,6 +203,10 @@ kfind
 khelpcenter
 kid3
 kimtoy
+kio-extras
+kio-fuse
+kio-gdrive
+kleopatra
 kmag
 kmousetool
 kmouth
@@ -219,7 +226,7 @@ lokalize
 okular
 orca
 partitionmanager
-print-manager
+spectacle
 subtitlecomposer
 svgpart
 yakuake
@@ -290,7 +297,7 @@ soundkonverter
 stacer
 
 ## Music player
-strawberry
+elisa
 
 ## Video player
 vlc

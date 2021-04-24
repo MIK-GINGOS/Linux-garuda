@@ -55,6 +55,7 @@ plymouth-theme-garuda
 garuda-wallpapers
 garuda-icons
 garuda-zsh-config
+garuda-fish-config
 
 ## garuda package
 garuda-settings-manager
