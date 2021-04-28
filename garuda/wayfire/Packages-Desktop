@@ -2,7 +2,6 @@
 paprefs
 pavucontrol
 playerctl
-pulseaudio-ctl
 pulseaudio-equalizer-ladspa
 pulseaudio-support
 
@@ -83,10 +82,6 @@ gnome-system-monitor
 lollypop
 celluloid
 nautilus
-nautilus-image-converter
-nautilus-sendto
-nautilus-share
-seahorse-nautilus
 sushi
 
 

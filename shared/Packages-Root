@@ -102,6 +102,7 @@ dmraid
 freetype2
 fscrypt
 fwupd
+gnu-netcat
 htop
 inetutils
 inxi
