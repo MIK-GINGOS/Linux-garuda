@@ -70,3 +70,7 @@ resvg
 sshfs 
 thunderbird-appmenu
 ufw
+
+####---->> TESTING
+ananicy-cpp-git
+zram-generator-git 
