@@ -1,13 +1,9 @@
 ####---->> AUDIO
-paprefs
-pasystray
 pavucontrol
 playerctl
+pulseeffects
+pipewire-support
 pamixer
-pulseaudio-ctl
-pulseaudio-equalizer-ladspa
-pulseaudio-support
-qjackctl
 
 
 ####---->> NETWORK

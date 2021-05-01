@@ -1,10 +1,8 @@
 ####---->> AUDIO
-#paprefs
 pasystray
 pavucontrol
 playerctl
-#pulseaudio-ctl
-#pulseaudio-equalizer-ladspa
+pulseeffects
 pipewire-support
 
 
