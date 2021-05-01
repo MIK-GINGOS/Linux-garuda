@@ -112,7 +112,7 @@ bleachbit
 catfish
 deluge-gtk
 meld
-popsicle-git
+popsicle
 gsimplecal
 ttf-ubuntu-font-family
 ttf-jetbrains-mono
@@ -125,5 +125,3 @@ otf-font-awesome-4
 ####---->> INTERNET
 garuda-librewolf
 librewolf-extension-bitwarden
-geary
-nextcloud-client
