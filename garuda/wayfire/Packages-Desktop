@@ -78,16 +78,15 @@ gnome-calculator
 gnome-disk-utility
 gnome-logs
 gnome-system-monitor
+
 lollypop
 celluloid
 nautilus
 sushi
 
-
-stacer
-qbittorrent
-imagewriter
-
+bleachbit
+deluge-gtk
+popsicle
 
 ####---->> OTHER APPS
 gnome-search-tool
@@ -99,6 +98,4 @@ ranger
 
 ####---->> INTERNET
 firedragon
-geary
-nextcloud-client
 
