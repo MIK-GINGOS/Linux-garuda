@@ -1,7 +1,6 @@
 ####---->> AUDIO
 pavucontrol
 playerctl
-pulseeffects
 pipewire-support
 pamixer
 
