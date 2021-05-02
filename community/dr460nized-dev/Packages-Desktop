@@ -41,25 +41,46 @@ garuda-settings-manager-knotifier
 
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
-kde-git
+bluedevil
 kde-gtk-config
+kde-servicemenus-komparemenu
+kdeplasma-addons
+khotkeys
+kinfocenter
+kscreen
+ksysguard
+kwallet-pam
+kwayland-integration
+kwin-effects-sliding-notifications
+kwinft
 kwin-scripts-forceblur
-okular
 plasma-browser-integration
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-disks
 plasma-firewall
+plasma-systemmonitor
 plasma5-applets-eventcalendar
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
+powerdevil
 quota-tools
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
+dolphin
 dolphin-plugins
+kate
 kcalc
 kde-servicemenus-rootactions
-kdegraphics-thumbnailers
+kdeconnect
+konsole
+okular
+partitionmanager
+spectacle
 
 
 ####---->> OTHER APPS
@@ -70,6 +91,7 @@ resvg
 sshfs 
 thunderbird-appmenu
 ufw
+
 
 ####---->> TESTING
 ananicy-cpp-git
