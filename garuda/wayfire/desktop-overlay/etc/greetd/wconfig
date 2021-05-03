@@ -1,8 +1,6 @@
 [autostart]
 autostart_wf_shell = false
 dm = qtgreet && wayland-logout
-#; loginctl terminate-user $USER
-wf-osk = wf-osk --height 100 -a bottom
 
 [input]
 cursor_theme = Sweet-cursors
