@@ -1,6 +1,6 @@
 [autostart]
 autostart_wf_shell = false
-dm = qtgreet && wayland-logout
+dm = qtgreet
 
 [input]
 cursor_theme = Sweet-cursors
