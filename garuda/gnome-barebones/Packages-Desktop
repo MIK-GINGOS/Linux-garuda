@@ -11,10 +11,6 @@ timeshift-autosnap
 networkmanager
 
 
-####---->> AUDIO
-pulseaudio-support
-
-
 ####---->> THEMING
 ## theme package
 garuda-hooks
