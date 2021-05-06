@@ -1,10 +1,6 @@
 ####---->> AUDIO
-paprefs
 pavucontrol-qt
-playerctl
-pulseaudio-ctl
-pulseaudio-equalizer-ladspa
-pulseaudio-support
+pipewire-support
 
 
 ####---->> NETWORK
