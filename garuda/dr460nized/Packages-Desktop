@@ -1,7 +1,5 @@
 ####---->> Media
 pipewire-support
-pulseaudio-equalizer-ladspa
-
 
 ####---->> XORG
 xorg-server
