@@ -20,7 +20,7 @@ garuda-zsh-config
 garuda-fish-config
 garuda-starship-prompt
 plymouth-theme-garuda-purple
-
+grub-theme-garuda
 
 ####---->> UTILITIES
 autorandr

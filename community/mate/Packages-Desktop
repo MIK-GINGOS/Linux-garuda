@@ -20,6 +20,7 @@ gestures
 
 
 ####---->> GARUDA THEMING & SETTINGS
+grub-theme-garuda
 garuda-zsh-config
 garuda-fish-config
 plymouth-theme-garuda-purple

@@ -18,6 +18,7 @@ gestures
 
 
 ####---->> GARUDA THEMING & SETTINGS
+grub-theme-garuda
 plymouth-theme-garuda
 garuda-zsh-config
 garuda-fish-config

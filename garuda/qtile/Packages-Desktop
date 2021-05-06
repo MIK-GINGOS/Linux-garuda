@@ -23,6 +23,7 @@ garuda-zsh-config
 garuda-fish-config
 garuda-wallpapers-extra
 plymouth-theme-garuda-purple
+grub-theme-garuda
 
 ## garuda package
 garuda-settings-manager-notifier-git
