@@ -1,0 +1,100 @@
+####---->> Media
+pipewire-support
+
+
+####---->> XORG
+xorg-server
+xorg-server-xwayland 
+xorg-xhost
+xorg-xinit
+xorg-xinput
+xorg-xprop
+xorg-xrandr
+
+
+####---->> UTILITIES
+sddm
+sddm-kcm
+xdg-desktop-portal
+xdg-desktop-portal-kde
+
+
+####---->> GARUDA META
+networkmanager-support
+
+
+####---->> THEMING
+beautyline
+candy-icons-git
+garuda-dr460nized-git
+garuda-fish-config
+kvantum-qt5
+plymouth-theme-dr460nized
+sweet-theme-dark
+xcursor-sweet
+
+
+####---->> SETTINGS
+garuda-settings-manager-kcm
+garuda-settings-manager-knotifier
+
+
+####---->> DESKTOP ENVIRONMENT
+appmenu-gtk-module
+bluedevil
+disman-kwinft
+kde-gtk-config
+kde-servicemenus-komparemenu
+kdeplasma-addons
+kdisplay-kwinft
+khotkeys
+kinfocenter
+kscreen
+ksysguard
+kwallet-pam
+kwayland-integration
+kwin-effects-sliding-notifications
+kwinft
+kwin-scripts-forceblur
+plasma-browser-integration
+plasma-desktop
+plasma-nm
+plasma-pa
+plasma-disks
+plasma-firewall
+plasma-systemmonitor
+plasma5-applets-eventcalendar
+plasma5-applets-window-appmenu
+plasma5-applets-window-buttons
+plasma5-applets-window-title
+powerdevil
+quota-tools
+wrapland-kwinft
+
+
+####---->> DESKTOP ENVIRONMENT APPS
+ark
+dolphin
+dolphin-plugins
+kate
+kcalc
+kde-servicemenus-rootactions
+kdeconnect
+konsole
+okular
+partitionmanager
+spectacle
+
+
+####---->> OTHER APPS
+ffmpegthumbs
+firedragon
+latte-dock-git
+resvg
+sshfs 
+thunderbird-appmenu
+ufw
+
+
+####---->> TESTING
+zram-generator-git 
