@@ -68,6 +68,7 @@ garuda-lxqt-kwin-settings
 gtk-engine-murrine
 kvantum-qt5
 cairo-dock
+beautyline
 
 ####---->> DISPLAY MANAGER
 sddm
