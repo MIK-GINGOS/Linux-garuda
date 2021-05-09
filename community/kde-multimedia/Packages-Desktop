@@ -313,12 +313,7 @@ skrooge
 tellico
 
 ## Internet applications
-garuda-librewolf
-librewolf-extension-bitwarden
-librewolf-extension-plasma-integration
-librewolf-extension-xdm-browser-monitor
-neochat
-kmozillahelper
+firedragon
 nextcloud-client
 qbittorrent
 telegram-desktop
@@ -328,6 +323,6 @@ thunderbird
 ## fun terminal extras
 lolcat
 cowsay
-fortune
+fortune-mod
 tmux
 sl
