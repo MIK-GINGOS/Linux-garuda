@@ -137,6 +137,7 @@ openresolv
 aircrack-ng
 amass
 arp-scan
+aquatone
 autopsy
 beef
 binwalk
@@ -166,9 +167,12 @@ exiv2
 exploitdb
 faradaysec
 fern-wifi-cracker
+ffuf
 fierce
+findomain
 fping
 gnu-netcat
+gobuster
 guymager
 hashcat
 hashcat-utils
@@ -177,6 +181,7 @@ hashid
 hash-identifier
 hping
 hotpatch
+httpx
 hydra
 ike-scan
 inetsim
@@ -186,6 +191,7 @@ kismet
 laudanum
 lbd
 legion
+lulzbuster
 macchanger
 magicrescue
 maltego
@@ -273,6 +279,9 @@ wireshark-qt
 wordlistctl
 wpscan
 zaproxy
+zdns
+zgrab2
+zmap
 
 
 ####---->> BLACKARCH DEVELOPMENT
