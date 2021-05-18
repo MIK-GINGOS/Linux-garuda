@@ -21,9 +21,8 @@ gestures
 ## theme package
 garuda-zsh-config
 garuda-fish-config
-garuda-wallpapers-extra
 plymouth-theme-garuda-purple
-grub-theme-garuda
+grub-theme-garuda-dr460nized
 
 ## garuda package
 garuda-settings-manager-notifier-git
@@ -75,7 +74,6 @@ kvantum-qt5
 kvantum-theme-sweet-git
 qt5ct
 sweet-gkt-theme-dark
-tela-icon-theme-git
 
 
 ####---->> DISPLAY MANAGER
@@ -102,9 +100,6 @@ nwg-launchers
 pcmanfm
 picom-ibhagwan-git
 qtile
-rofi
-termite
-termite-terminfo
 tumbler
 xarchiver
 zenity
