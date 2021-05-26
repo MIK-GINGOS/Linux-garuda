@@ -1,12 +1,8 @@
 ####---->> AUDIO
+pipewire-support
 alsa-support
-gst-plugin-opencv
 jack-support
-playerctl
-pulseaudio-ctl
 pulseaudio-equalizer-ladspa
-pulseaudio-support
-qjackctl
 
 
 ####---->> NETWORK
@@ -294,14 +290,10 @@ obs-studio
 qt-scrcpy
 soundkonverter
 stacer
-
-## Music player
 elisa
-
-## Video player
 vlc
 
-## Office
+####---->> Office
 calibre
 fontforge
 kbibtex
@@ -312,17 +304,9 @@ scribus
 skrooge
 tellico
 
-## Internet applications
+####---->> Internet
 firedragon
+thunderbird-appmenu
 nextcloud-client
 qbittorrent
 telegram-desktop
-thunderbird
-
-
-## fun terminal extras
-lolcat
-cowsay
-fortune-mod
-tmux
-sl

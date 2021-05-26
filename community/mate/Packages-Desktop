@@ -3,6 +3,7 @@ pavucontrol
 paprefs
 playerctl
 pipewire-support
+pulseaudio-equalizer-ladspa
 
 
 ####---->> NETWORK
@@ -122,6 +123,7 @@ eom
 mozo
 pluma
 warpinator
+transmission-gtk
 
 
 
