@@ -1,6 +1,5 @@
 ## Package Management
 downgrade
-pamac-aur
 paru
 
 
@@ -18,7 +17,7 @@ noto-fonts-cjk           # cjk font
 noto-fonts-emoji         # emoji font
 ttf-dejavu
 ttf-fantasque-sans-mono
-ttf-fira-sans          
+ttf-fira-sans
 ttf-liberation
 ttf-opensans
 
@@ -39,7 +38,7 @@ unzip
 zip
 
 
-## Android 
+## Android
 android-tools
 android-udev
 
