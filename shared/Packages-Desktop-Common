@@ -11,6 +11,7 @@ gnome-firmware
 ## Terminal font
 terminus-font
 
+
 ## Fonts
 noto-fonts               # default font
 noto-fonts-cjk           # cjk font
@@ -51,6 +52,7 @@ timeshift
 timeshift-autosnap
 xdg-user-dirs
 xdg-utils
+
 
 ## Garuda specific
 garuda-assistant

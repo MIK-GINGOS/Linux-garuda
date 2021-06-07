@@ -20,7 +20,7 @@ xdg-desktop-portal-kde
 
 
 ####---->> GARUDA META
-networkmanager-support
+networkmanager-iwd
 
 
 ####---->> THEMING
@@ -56,7 +56,6 @@ quota-tools
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
 dolphin-plugins
-kcalc
 kde-servicemenus-rootactions
 kdegraphics-thumbnailers
 
@@ -65,9 +64,6 @@ kdegraphics-thumbnailers
 ffmpegthumbs
 firedragon
 latte-dock-git
-resvg
-sshfs 
-thunderbird-appmenu
 ufw
 
 

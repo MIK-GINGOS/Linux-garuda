@@ -1,6 +1,7 @@
 ####---->> Media
 pipewire-support
 
+
 ####---->> XORG
 xorg-server
 xorg-xwayland 
@@ -18,7 +19,7 @@ xdg-desktop-portal-kde
 
 
 ####---->> NETWORKING
-networkmanager-support
+networkmanager-iwd
 ufw
 
 
@@ -26,12 +27,12 @@ ufw
 beautyline
 candy-icons-git
 garuda-dr460nized
-garuda-zsh-config
 garuda-fish-config
 kvantum-qt5
 plymouth-theme-dr460nized
 grub-theme-garuda-dr460nized
 xcursor-sweet
+
 
 ####---->> SETTINGS
 garuda-settings-manager-kcm
@@ -44,18 +45,14 @@ sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
-appmenu-gtk-module
 bluedevil
 kde-gtk-config
 kde-servicemenus-komparemenu
-kdeplasma-addons
 khotkeys
 kinfocenter
 kscreen
-ksysguard
 kwallet-pam
 kwayland-integration
-kwin-effects-sliding-notifications
 kwin
 kwin-scripts-forceblur
 plasma-browser-integration
@@ -63,8 +60,6 @@ plasma-desktop
 plasma-nm
 plasma-pa
 plasma-thunderbolt
-plasma-vault
-plasma-disks
 plasma-firewall
 plasma-systemmonitor
 plasma5-applets-eventcalendar
@@ -80,7 +75,6 @@ ark
 dolphin
 dolphin-plugins
 kate
-kcalc
 kde-servicemenus-rootactions
 kdeconnect
 konsole
@@ -91,25 +85,15 @@ spectacle
 
 ####---->> ADDITIONAL FUNCTIONALITY
 ffmpegthumbs
-kaccounts-providers
 kdegraphics-thumbnailers
 kimageformats
-kio-extras
-kio-fuse
-kio-gdrive
-kipi-plugins
 qt5-imageformats
-ruby
 resvg
 sshfs
 
 
 ####---->> OTHER APPS
-alacritty
-bleachbit
 firedragon
 latte-dock-git
 libinput_gestures_qt
 mpv
-nextcloud-client
-thunderbird-appmenu
