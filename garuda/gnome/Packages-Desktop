@@ -13,11 +13,11 @@ gestures
 
 
 ####---->> GARUDA THEMING & SETTINGS
-garuda-zsh-config
 garuda-fish-config
 garuda-settings-manager-notifier
 plymouth-theme-garuda-purple
 grub-theme-garuda
+
 
 ####---->> UTILITIES
 autorandr
@@ -92,7 +92,6 @@ eog
 evince
 ffmpegthumbnailer
 file-roller
-geary
 gedit
 gedit-plugins
 gnome-calculator
@@ -110,10 +109,6 @@ libopenraw
 librsvg
 lollypop
 nautilus-admin
-nautilus-bluetooth
-nautilus-image-converter
-nautilus-mediainfo
-nautilus-pdf-tools-git
 nautilus-sendto
 nautilus-share
 nautilus-typeahead
@@ -121,10 +116,5 @@ sushi
 
 
 ####---->> OTHER APPS
-bleachbit
-flameshot
-
-
-####---->> INTERNET
 firedragon
-nextcloud-client
+flameshot

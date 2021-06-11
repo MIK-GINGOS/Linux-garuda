@@ -13,25 +13,21 @@ networkmanager
 
 ####---->> THEMING
 ## theme package
+garuda-common-settings
 garuda-hooks
 grub-theme-garuda
+noto-fonts
+noto-fonts-emoji
 performance-tweaks
 plymouth
 plymouth-theme-garuda
-garuda-common-settings
-
-## Fonts
-noto-fonts               # default font
-noto-fonts-emoji
-
-## Terminal font
 terminus-font
 
 
 ####---->> SETTINGS
 garuda-settings-manager
 garuda-settings-manager-notifier
-garuda-welcome-git
+garuda-welcome
 garuda-setup-assistant
 pamac-aur
 

@@ -23,9 +23,9 @@ gestures
 ####---->> GARUDA THEMING & SETTINGS
 garuda-settings-manager-notifier
 plymouth-theme-garuda
-garuda-zsh-config
 garuda-fish-config
 grub-theme-garuda
+
 
 ####---->> UTILITIES
 autorandr
@@ -40,6 +40,7 @@ xautolock
 xbindkeys
 xcape
 xdotool
+
 
 ####---->> XORG
 xorg-server
@@ -134,18 +135,13 @@ xfce4-pulseaudio-plugin
 
 
 ####---->> OTHER APPS
-bleachbit
-deluge-gtk
+firedragon
 flameshot
 gnome-keyring
 meld
 mintstick
 mpv
+peek
 qpdfview
 redshift
-peek
-
-## Internet applications
-firedragon
-nextcloud-client
 
