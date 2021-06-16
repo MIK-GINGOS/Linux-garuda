@@ -170,7 +170,7 @@ ike-scan
 inetsim
 iodine
 john
-kismet
+#kismet
 laudanum
 lbd
 legion
