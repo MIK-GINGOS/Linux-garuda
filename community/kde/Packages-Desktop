@@ -1,8 +1,6 @@
 ####---->> AUDIO
 pipewire-support
-alsa-support
-jack-support
-pulseaudio-equalizer-ladspa
+pulseeffects
 
 
 ####---->> NETWORK

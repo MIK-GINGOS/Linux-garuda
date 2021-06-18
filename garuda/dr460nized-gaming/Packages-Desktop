@@ -204,7 +204,7 @@ sc-controller
 
 ####---->> EMULATORS
 libretro-meta
-
+anbox-support
 
 ####---->> GAMES
 0ad
