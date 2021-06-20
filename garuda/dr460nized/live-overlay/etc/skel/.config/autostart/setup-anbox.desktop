@@ -1,0 +1,19 @@
+[Desktop Entry]
+Categories=System;Monitor;
+Comment=
+Comment=mount binderfs at first start
+Exec=pkexec mount -t binder none /dev/binderfs && rm -rf ~/.config/autostart/setup-anbox.desktop
+GenericName=
+GenericName=
+Icon=abrt
+MimeType=
+Name=Apply desktop settings
+Path=
+StartupNotify=false
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
