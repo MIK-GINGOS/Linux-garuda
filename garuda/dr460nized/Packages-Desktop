@@ -1,6 +1,5 @@
 ####---->> Media
 pipewire-support
-pulseeffects
 
 
 ####---->> XORG
@@ -20,7 +19,7 @@ xdg-desktop-portal-kde
 
 
 ####---->> NETWORKING
-networkmanager-iwd
+networkmanager-support
 ufw
 
 
@@ -98,6 +97,3 @@ firedragon
 latte-dock-git
 libinput_gestures_qt
 mpv
-
-#test
-anbox-support

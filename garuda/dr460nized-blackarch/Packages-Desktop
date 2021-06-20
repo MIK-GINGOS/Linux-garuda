@@ -19,7 +19,7 @@ xdg-desktop-portal-kde
 
 
 ####---->> NETWORKING
-networkmanager-iwd
+networkmanager-support
 ufw
 
 
@@ -29,9 +29,9 @@ candy-icons-git
 garuda-blackarch
 garuda-dr460nized
 garuda-fish-config
+grub-theme-garuda-dr460nized
 kvantum-qt5
 plymouth-theme-dr460nized
-grub-theme-garuda-dr460nized
 xcursor-sweet
 
 

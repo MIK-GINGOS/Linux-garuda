@@ -203,8 +203,8 @@ sc-controller
 
 
 ####---->> EMULATORS
-libretro-meta
 anbox-support
+libretro-meta
 
 ####---->> GAMES
 0ad
