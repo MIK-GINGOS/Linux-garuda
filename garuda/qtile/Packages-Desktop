@@ -19,7 +19,6 @@ gestures
 
 ####---->> GARUDA THEMING & SETTINGS
 ## theme package
-garuda-zsh-config
 garuda-fish-config
 plymouth-theme-garuda-purple
 grub-theme-garuda-dr460nized
@@ -73,7 +72,7 @@ gtk-engine-murrine
 kvantum-qt5
 kvantum-theme-sweet-git
 qt5ct
-sweet-gkt-theme-dark
+sweet-gtk-theme-dark
 xcursor-sweet
 
 ####---->> DISPLAY MANAGER
