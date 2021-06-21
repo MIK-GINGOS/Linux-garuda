@@ -19,7 +19,7 @@ grub-theme-garuda
 noto-fonts
 noto-fonts-emoji
 performance-tweaks
-plymouth
+plymouth-git
 plymouth-theme-garuda
 terminus-font
 
@@ -29,7 +29,6 @@ garuda-settings-manager
 garuda-settings-manager-notifier
 garuda-welcome
 garuda-setup-assistant
-pamac-aur
 
 
 ####---->> DISPLAY MANAGER

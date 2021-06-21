@@ -10,7 +10,7 @@ timeshift
 timeshift-autosnap
 networkmanager
 garuda-hooks
-plymouth
+plymouth-git
 
 
 ####---->> THEMING
@@ -29,7 +29,6 @@ garuda-settings-manager-kcm
 garuda-settings-manager-knotifier
 garuda-welcome
 garuda-setup-assistant
-pamac-aur
 
 
 ####---->> DISPLAY MANAGER
