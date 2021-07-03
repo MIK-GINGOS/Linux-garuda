@@ -48,7 +48,6 @@ sddm-kcm
 ####---->> DESKTOP ENVIRONMENT
 bluedevil
 kde-gtk-config
-kde-servicemenus-komparemenu
 khotkeys
 kinfocenter
 kscreen
@@ -76,11 +75,11 @@ ark
 dolphin
 dolphin-plugins
 kate
-kde-servicemenus-rootactions
 kdeconnect
 konsole
 okular
 partitionmanager
+rootactions-servicemenu
 spectacle
 
 

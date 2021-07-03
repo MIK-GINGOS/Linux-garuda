@@ -90,7 +90,6 @@ kde-service-menu-reimage
 kde-servicemenus-encfs
 kde-servicemenus-komparemenu
 kde-servicemenus-pdf
-kde-servicemenus-rootactions
 kdeconnect
 kget
 konsole
@@ -99,6 +98,7 @@ krfb
 ktorrent
 okular
 partitionmanager
+rootactions-servicemenu
 spectacle
 
 
@@ -209,7 +209,10 @@ libretro-meta
 ####---->> GAMES
 0ad
 aisleriot
+extremetuxracer
 gnuchess   
+hedgewars
+kapman
 kmahjongg
 knights
 mari0
@@ -217,8 +220,5 @@ minetest
 minetest-server
 supertux
 supertuxkart
-extremetuxracer
 teeworlds
-kapman
 xonotic
-hedgewars
