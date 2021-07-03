@@ -118,11 +118,6 @@ class ConfigController:
         if exists(join(self.root, "usr/bin/grub-set-bootflag")):
             target_env_call(["grub-editenv", "-", "set", "menu_auto_hide=1", "boot_success=1"])
         
-        # enable anbox binderfs in fstab
-        if exists(join(self.root, "usr/bin/anbox")):
-            target_env_call(["echo", "'# Binderfs Anbox'", ">>", "/etc/fstab"])
-            target_env_call(["echo", "'none /dev/binderfs binder nofail 0 0'", ">>", "/etc/fstab"])
-
         #install systemd-guest-user
         cmd = ["pacman", "-S", "systemd-guest-user", "--noconfirm", "--config", "/opt/mhwd/pacman-mhwd.conf" ]
         self.mkdir("opt/mhwd")
