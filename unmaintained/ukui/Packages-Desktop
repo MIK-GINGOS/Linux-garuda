@@ -62,7 +62,6 @@ garuda-fish-config
 
 ## garuda package
 garuda-settings-manager
-garuda-settings-manager-knotifier
 garuda-boot-options-git
 garuda-welcome-git
 garuda-network-assistant-git
