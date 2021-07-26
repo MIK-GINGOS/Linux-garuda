@@ -24,7 +24,7 @@ ipw2100-fw
 ipw2200-fw
 licenses
 linux-firmware
-pacman 
+pacman
 pciutils
 procps-ng
 psmisc
@@ -83,10 +83,8 @@ ecryptfs-utils
 exfatprogs
 f2fs-tools
 fatresize
-jfsutils
 mtools
 nfs-utils
-nilfs-utils
 ntfs-3g
 reiserfsprogs
 sshfs
@@ -95,13 +93,11 @@ xfsprogs
 
 ## Extra things
 bridge-utils
-cronie
 cryptsetup
 dmidecode
 dmraid
 freetype2
 fscrypt
-fwupd
 gnu-netcat
 htop
 inetutils

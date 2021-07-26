@@ -3,6 +3,7 @@ downgrade
 paru
 pamac-aur
 
+
 ## Firmware
 fwupd
 gnome-firmware
@@ -16,31 +17,23 @@ terminus-font
 noto-fonts               # default font
 noto-fonts-cjk           # cjk font
 noto-fonts-emoji         # emoji font
-ttf-dejavu
 ttf-fantasque-sans-mono
 ttf-fira-sans
-ttf-liberation
-ttf-opensans
 
 
 ## Archive formats
-arj
 cpio
-lha
 lrzip
 lzip
 lzop
-unace
 p7zip
 unarchiver
-unarj
 unrar
 unzip
 zip
 
 
 ## Android
-android-tools
 android-udev
 
 
@@ -69,11 +62,8 @@ garuda-system-maintenance
 garuda-wallpapers
 garuda-welcome
 grub-garuda
-plymouth-git
-
-
-## Theme package
 performance-tweaks
+plymouth-git
 
 
 ## Bluetooth
