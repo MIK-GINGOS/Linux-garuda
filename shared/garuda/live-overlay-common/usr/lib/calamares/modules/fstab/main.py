@@ -244,10 +244,10 @@ class FstabGenerator(object):
             if extra:
                 options += "," + extra
 
-        if mount_point == "/":
-            check = 0
-        elif mount_point and mount_point != "swap":
-            check = 0
+        if mount_point == "/" and filesystem != "btrfs":
+            check = 1
+        elif mount_point and mount_point != "swap" and filesystem != "btrfs":
+            check = 2
         else:
             check = 0
 
