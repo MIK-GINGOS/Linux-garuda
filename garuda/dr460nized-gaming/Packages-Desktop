@@ -89,6 +89,10 @@ kde-service-menu-reimage
 kde-servicemenus-encfs
 kde-servicemenus-komparemenu
 kde-servicemenus-pdf
+kde-servicemenus-pdf-encrypt-decrypt
+kde-servicemenus-officeconverter
+kde-servicemenus-sendtodesktop
+kde-servicemenus-setaswallpaper
 kdeconnect
 kget
 konsole
@@ -185,7 +189,7 @@ q4wine
 replay-sorcery
 steamtinkerlaunch
 vkbasalt
-
+guiscrcpy
 
 ####---->> GAME CONTROLLER
 antimicrox

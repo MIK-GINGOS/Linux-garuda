@@ -4,6 +4,7 @@ systemd-guest-user
 
 ## Network
 broadcom-wl-dkms
+rtw89-dkms-git
 
 
 ## hybrid Nvidia
@@ -22,17 +23,6 @@ broadcom-wl-dkms
 >nonfree_x86_64 opencl-nvidia
 >nonfree_multilib lib32-nvidia-utils
 >nonfree_multilib lib32-opencl-nvidia
-
-
-## Chaotic TKG Nvidia
-#>nonfree_x86_64 chaotic-nvidia-dkms-tkg
-#>nonfree_x86_64 chaotic-nvidia-egl-wayland-tkg
-#>nonfree_x86_64 chaotic-nvidia-opencl-tkg
-#>nonfree_x86_64 chaotic-nvidia-settings-tkg
-#>nonfree_x86_64 chaotic-nvidia-utils-tkg
-#>nonfree_multilib lib32-chaotic-nvidia-opencl-tkg
-#>nonfree_multilib lib32-chaotic-nvidia-utils-tkg
-
 
 ## Opencl
 intel-compute-runtime
