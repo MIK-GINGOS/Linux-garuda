@@ -14,7 +14,6 @@ networkmanager
 ####---->> THEMING
 ## theme package
 garuda-common-settings
-garuda-hooks
 grub-theme-garuda
 noto-fonts
 noto-fonts-emoji

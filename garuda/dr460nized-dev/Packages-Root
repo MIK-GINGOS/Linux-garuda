@@ -114,3 +114,6 @@ xclip
 ## Chaotic repo
 chaotic-mirrorlist
 chaotic-keyring
+
+## Garuda core system stuff
+garuda-hooks
