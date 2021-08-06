@@ -117,8 +117,6 @@ libgsf
 libopenraw
 librsvg
 python-psutil
-python-pywal
-
 
 ####---->> OTHER APPS
 ## CLI apps
