@@ -60,7 +60,7 @@ xorg-xwayland
 
 
 ####---->> DESKTOP THEMING
-ant-dracula-gtk-theme
+ant-dracula-gtk-theme-git
 ant-dracula-kde-theme-git
 ant-dracula-kvantum-theme-git
 garuda-lxqt-kwin-settings
