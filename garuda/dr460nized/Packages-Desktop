@@ -61,6 +61,7 @@ plasma-thunderbolt
 plasma-firewall
 plasma-systemmonitor
 plasma5-applets-eventcalendar
+plasma5-applets-netspeed
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
@@ -95,3 +96,6 @@ firedragon
 latte-dock-git
 libinput_gestures_qt
 mpv
+
+## Support for appindicators
+libappindicator-gtk3

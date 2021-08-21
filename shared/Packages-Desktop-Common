@@ -1,18 +1,48 @@
+## Utilities
+libdvdcss
+perl-file-mimeinfo
+xdg-user-dirs
+xdg-utils
+
+
 ## Package Management
 downgrade
 paru
 pamac-aur
+
 
 ## Firmware
 fwupd
 gnome-firmware
 
 
-## Terminal font
-terminus-font
+## Snapshot
+timeshift
+timeshift-autosnap
+
+
+## Boot animation
+plymouth-git
+
+
+## Tweaks
+performance-tweaks
+
+
+## Bluetooth
+bluetooth-support
+
+
+## Video
+gstreamer-meta
+
+
+## Input
+input-devices-support
 
 
 ## Fonts
+terminus-font            # Terminal font
 noto-fonts               # default font
 noto-fonts-cjk           # cjk font
 noto-fonts-emoji         # emoji font
@@ -39,21 +69,6 @@ unzip
 zip
 
 
-## Android
-android-tools
-android-udev
-
-
-## Utilities
-libdvdcss
-pace
-perl-file-mimeinfo
-timeshift
-timeshift-autosnap
-xdg-user-dirs
-xdg-utils
-
-
 ## Garuda specific
 garuda-assistant
 garuda-boot-options
@@ -67,25 +82,3 @@ garuda-setup-assistant
 garuda-system-maintenance
 garuda-wallpapers
 garuda-welcome
-grub-garuda
-plymouth-git
-
-
-## Theme package
-performance-tweaks
-
-
-## Bluetooth
-bluetooth-support
-
-
-## Video
-gstreamer-meta
-
-
-## Input
-input-devices-support
-
-
-## Support for appindicators
-libappindicator-gtk3

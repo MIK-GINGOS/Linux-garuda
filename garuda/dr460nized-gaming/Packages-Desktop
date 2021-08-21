@@ -70,6 +70,7 @@ plasma-disks
 plasma-firewall
 plasma-systemmonitor
 plasma5-applets-eventcalendar
+plasma5-applets-netspeed
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
@@ -131,6 +132,8 @@ mpv
 nextcloud-client
 thunderbird-appmenu
 
+## Support for appindicators
+libappindicator-gtk3
 
 ####---->> OTHER APPS EXTRA
 discord

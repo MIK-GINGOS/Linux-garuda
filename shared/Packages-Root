@@ -41,6 +41,7 @@ xz
 
 
 ## GRUB + EFI
+grub-garuda
 efibootmgr
 grub
 grub-btrfs
@@ -51,7 +52,6 @@ update-grub
 
 ## Package management 
 pacman-contrib
-pkgfile
 reflector
 
 
