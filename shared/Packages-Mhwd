@@ -6,69 +6,17 @@ systemd-guest-user
 broadcom-wl-dkms
 rtw89-dkms-git
 
-
-## hybrid Nvidia
->nonfree_x86_64 acpi_call-dkms
->nonfree_x86_64 bbswitch-dkms
->nonfree_x86_64 optimus-manager
->nonfree_x86_64 optimus-manager-qt
->nonfree_x86_64 gwe
->nonfree_x86_64 nvidia-prime
-
-
 ## Nonfree Nvidia
->nonfree_x86_64 nvidia-dkms
->nonfree_x86_64 nvidia-settings
->nonfree_x86_64 nvidia-utils
->nonfree_x86_64 opencl-nvidia
->nonfree_multilib lib32-nvidia-utils
->nonfree_multilib lib32-opencl-nvidia
-
-## Opencl
-intel-compute-runtime
-opencl-mesa
->multilib lib32-opencl-mesa
-
-
-## Vulkan
-vulkan-intel
-vulkan-mesa-layers
-vulkan-radeon
-vulkan-swrast
->multilib lib32-vulkan-intel
->multilib lib32-vulkan-mesa-layers
->multilib lib32-vulkan-radeon
-
-
-## Vaapi/VDPAU
-intel-media-driver
-libva-intel-driver
-libva-mesa-driver
-libva-vdpau-driver
-libvdpau-va-gl
-mesa-vdpau
->multilib lib32-libva-intel-driver
->multilib lib32-libva-mesa-driver
->multilib lib32-libva-vdpau-driver
->multilib lib32-mesa-vdpau
-
+>nonfree_x86_64 garuda-nvidia-config
+>nonfree_x86_64 garuda-nvidia-prime-config
+>nonfree_x86_64 garuda-optimus-manager-config
 
 ## Free Drivers
-xf86-video-amdgpu
-xf86-video-ati
-xf86-video-intel
-xf86-video-nouveau
 xf86-video-openchrome
 xf86-video-sisusb
 xf86-video-vesa
 xf86-video-voodoo
-
+garuda-video-linux-config
 
 ## Virtualization
-gtkmm3
-open-vm-tools
-qemu-guest-agent
-spice-vdagent
-virtualbox-guest-utils
-xf86-input-vmmouse
-xf86-video-vmware
+garuda-virtualmachine-guest-config
