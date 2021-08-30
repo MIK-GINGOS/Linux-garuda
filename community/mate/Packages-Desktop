@@ -20,6 +20,7 @@ gestures
 
 ####---->> GARUDA THEMING & SETTINGS
 grub-theme-garuda
+garuda-bash-config
 garuda-zsh-config
 garuda-fish-config
 plymouth-theme-garuda
@@ -121,8 +122,6 @@ eom
 mozo
 pluma
 warpinator
-transmission-gtk
-
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -144,15 +143,13 @@ gvfs-goa
 gnome-keyring
 redshift
 gparted
-bleachbit
-mintstick
-catfish
+balena-etcher
 meld
 peek
 
 
-
 ####---->> INTERNET
 firedragon
-thunderbird-appmenu
+thunderbird
 nextcloud-client
+transmission-gtk
