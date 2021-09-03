@@ -28,6 +28,7 @@ grub-theme-garuda
 
 ####---->> UTILITIES
 autorandr
+pamac-aur
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 

@@ -53,10 +53,22 @@ wayfire-desktop-git
 
 ####---->> DESKTOP ENVIRONMENT APPS
 alacritty
+bleachbit
+celluloid
 dconf-editor
+deluge-gtk
+eog
+evince
+ffmpegthumbnailer
+file-roller
+gedit
+gedit-plugins
+gnome-calculator
+gnome-disk-utility
 gnome-keyring
-polkit-gnome
-
+gnome-logs
+gnome-system-monitor
+gnome-terminal-transparency
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -65,35 +77,21 @@ gvfs-nfs
 gvfs-smb
 libgsf
 libopenraw
-ffmpegthumbnailer
 librsvg
-
-eog
-evince
-file-roller
-gedit
-gedit-plugins
-gnome-calculator
-gnome-disk-utility
-gnome-logs
-gnome-system-monitor
-gnome-terminal-transparency
-
 lollypop
-celluloid
 nautilus
+pamac-aur
+polkit-gnome
+popsicle
 sushi
 
-bleachbit
-deluge-gtk
-popsicle
 
 ####---->> OTHER APPS
 gnome-search-tool
-meld
 gsimplecal
-xsensors
+meld
 ranger
+xsensors
 
 
 ####---->> INTERNET

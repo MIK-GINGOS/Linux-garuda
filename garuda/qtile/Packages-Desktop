@@ -119,6 +119,7 @@ librsvg
 python-psutil
 python-pip
 
+
 ####---->> OTHER APPS
 ## CLI apps
 feh
@@ -134,8 +135,9 @@ gnome-keyring
 gparted
 gsimplecal
 okular
+pamac-aur
+
 
 ####---->> INTERNET
 firedragon
 nextcloud-client
-

@@ -49,6 +49,7 @@ tela-circle-icon-theme-git
 greetd
 greetd-qtgreet
 
+
 ####---->> DESKTOP ENVIRONMENT
 sway
 swayidle
@@ -110,15 +111,15 @@ dex
 bleachbit
 catfish
 deluge-gtk
-meld
-popsicle
 gsimplecal
-ttf-ubuntu-font-family
-ttf-jetbrains-mono
-ranger
-otf-font-awesome 
+meld
+otf-font-awesome
 otf-font-awesome-4
-
+pamac-aur
+popsicle
+ranger
+ttf-jetbrains-mono
+ttf-ubuntu-font-family
 
 
 ####---->> INTERNET
