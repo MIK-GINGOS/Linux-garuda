@@ -77,6 +77,8 @@ texinfo
 
 ## Filesystem needed
 btrfs-progs
+curlftpfs
+davfs2
 dosfstools
 e2fsprogs
 ecryptfs-utils
