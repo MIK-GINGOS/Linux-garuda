@@ -1,6 +1,6 @@
 ####---->> MEDIA
-pulseaudio-support
-pulseaudio-equalizer-ladspa
+pipewire-support
+easyeffects
 
 
 ####---->> XORG
