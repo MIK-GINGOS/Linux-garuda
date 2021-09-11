@@ -17,8 +17,8 @@ gnome-firmware
 
 
 ## Snapshot
-timeshift
-timeshift-autosnap
+snapper
+snap-pac
 
 
 ## Boot animation
