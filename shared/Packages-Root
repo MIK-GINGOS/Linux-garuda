@@ -107,6 +107,7 @@ gnu-netcat
 htop
 inetutils
 inxi
+iptables-nft
 lockdown-ms
 logrotate
 lsb-release

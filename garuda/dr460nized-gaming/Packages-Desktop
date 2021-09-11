@@ -157,13 +157,10 @@ wine-meta
 ####---->> GAME LAUNCHERS
 gamehub
 heroic-games-launcher-bin
-ialauncher-git
 itch
-legendary
 lutris
 minecraft-launcher 
 minigalaxy
-rare-git
 steam
 steam-native-runtime
 zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
@@ -171,6 +168,7 @@ zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
 
 ####---->> GAMING TOOLS
 argyllcms
+bottles
 boxtron
 corectrl
 displaycal
