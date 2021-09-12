@@ -46,7 +46,7 @@ efibootmgr
 grub
 grub-btrfs
 memtest86+
-os-prober-garuda
+os-prober-btrfs
 update-grub
 
 
