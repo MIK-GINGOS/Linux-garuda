@@ -8,6 +8,7 @@ pipewire-support
 blueberry
 connman-gtk
 connman-support
+connman-git
 modem-manager-gui
 qomui
 
