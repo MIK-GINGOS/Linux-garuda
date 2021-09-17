@@ -62,9 +62,6 @@ xorg-xsetroot
 xorg-xwininfo
 
 
-####---->> WAYLAND
-#xorg-xwayland
-
 
 ####---->> DESKTOP THEMING
 gtk-engine-murrine
@@ -77,7 +74,7 @@ xcursor-sweet
 ####---->> DISPLAY MANAGER
 mousetweaks
 sddm
-
+kcoreaddons
 
 ####---->> DESKTOP ENVIRONMENT
 alacritty
@@ -85,12 +82,12 @@ archlinux-xdg-menu
 dmenu
 dunst
 garuda-qtile-settings
-geany
 gmrun
 i3lock
 jgmenu
 lxappearance-gtk3
 lxinput-gtk3
+geany
 lxrandr
 lxsession
 lxtask-gtk3
@@ -125,19 +122,15 @@ python-pip
 feh
 xclip
 xsel
-cbatticon
 
 ## GUI apps
 stacer
 flameshot
-galculator
 gnome-keyring
 gparted
-gsimplecal
 okular
 pamac-aur
 
 
 ####---->> INTERNET
 firedragon
-nextcloud-client
