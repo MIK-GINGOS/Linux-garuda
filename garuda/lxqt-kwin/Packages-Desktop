@@ -103,12 +103,8 @@ qpdfview
 ####---->> OTHER APPS
 audacious
 audacious-plugins
-imagewriter
-kdeconnect
 pamac-aur
 partitionmanager
-qbittorrent
-simplescreenrecorder
 smplayer
 smplayer-skins
 smplayer-themes
@@ -119,4 +115,3 @@ stacer
 
 ####---->> INTERNET
 firedragon
-nextcloud-client
