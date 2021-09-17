@@ -6,6 +6,12 @@ pulseaudio-support
 pulseaudio-equalizer-ladspa
 
 
+####---->> AUDIO APPS
+mpv
+celluloid
+rhythmbox
+
+
 ####---->> NETWORK
 networkmanager-support
 blueberry
@@ -121,7 +127,12 @@ engrampa
 eom
 mozo
 pluma
-warpinator
+
+
+####---->> GNOME DE
+gnome-characters
+shotwell
+gnome-keyring
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -140,12 +151,13 @@ gvfs-goa
 
 
 ####---->> OTHER APPS
-gnome-keyring
-redshift
 gparted
 balena-etcher
 meld
 peek
+octopi
+redshift
+caffeine
 
 
 ####---->> INTERNET
@@ -153,3 +165,5 @@ firedragon
 thunderbird
 nextcloud-client
 transmission-gtk
+warpinator
+ufw
