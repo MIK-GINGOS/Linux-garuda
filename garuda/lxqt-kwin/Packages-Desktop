@@ -5,9 +5,7 @@ pipewire-support
 
 ####---->> NETWORK
 bluedevil
-cmst
-connman-support
-connman-git
+nm-tray
 modem-manager-gui
 qomui
 
