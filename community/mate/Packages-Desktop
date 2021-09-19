@@ -6,13 +6,17 @@ pulseaudio-support
 pulseaudio-equalizer-ladspa
 
 
+####---->> AUDIO APPS
+mpv
+celluloid
+rhythmbox
+
+
 ####---->> NETWORK
-networkmanager-support
 blueberry
 network-manager-applet
-qomui
 modem-manager-gui
-
+ufw
 
 ####---->> INPUT
 gestures
@@ -121,7 +125,12 @@ engrampa
 eom
 mozo
 pluma
-warpinator
+
+
+####---->> GNOME DE
+gnome-characters
+shotwell
+gnome-keyring
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -140,16 +149,18 @@ gvfs-goa
 
 
 ####---->> OTHER APPS
-gnome-keyring
-redshift
 gparted
 balena-etcher
 meld
 peek
+octopi
+redshift
+caffeine
+libayatana-appindicator
 
 
 ####---->> INTERNET
 firedragon
 thunderbird
-nextcloud-client
 transmission-gtk
+warpinator

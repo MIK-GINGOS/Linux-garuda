@@ -27,9 +27,9 @@ plymouth-git
 performance-tweaks
 
 
-## Bluetooth
+## Network
 bluetooth-support
-
+networkmanager-support
 
 ## Video
 gstreamer-meta

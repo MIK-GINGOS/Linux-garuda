@@ -12,8 +12,7 @@ pulseaudio-support
 blueman
 modem-manager-gui
 network-manager-applet
-networkmanager-support
-qomui
+ufw
 
 
 ####---->> INPUT

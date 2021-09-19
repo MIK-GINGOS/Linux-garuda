@@ -11,7 +11,7 @@ pulseaudio-support
 blueberry
 modem-manager-gui
 network-manager-applet
-networkmanager-support
+ufw
 
 ####---->> INPUT
 gestures
@@ -128,4 +128,3 @@ deluge-gtk
 
 ####---->> INTERNET
 firedragon
-nextcloud-client

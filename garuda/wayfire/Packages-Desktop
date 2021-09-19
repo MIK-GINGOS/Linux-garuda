@@ -6,12 +6,9 @@ pipewire-support
 
 ####---->> NETWORK
 blueberry
-connman-gtk
-connman-support
-connman-git
+network-manager-applet
 modem-manager-gui
-qomui
-
+ufw
 
 ####---->> INPUT
 gestures
