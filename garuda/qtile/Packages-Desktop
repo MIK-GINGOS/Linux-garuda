@@ -37,7 +37,7 @@ xdg-desktop-portal
 xdg-desktop-portal-gtk
 
 ## Conky 
-conky-lua-nv
+#conky-lua-nv
 
 
 ####---->> XORG APPLICATIONS
@@ -74,7 +74,7 @@ xcursor-sweet
 ####---->> DISPLAY MANAGER
 mousetweaks
 sddm
-kcoreaddons
+plasma-framework
 
 ####---->> DESKTOP ENVIRONMENT
 alacritty
@@ -91,12 +91,15 @@ geany
 lxrandr
 lxsession
 lxtask-gtk3
+nano
 nwg-launchers
 pcmanfm
 picom-ibhagwan-git
 qtile
 tumbler
+vim
 xarchiver
+xterm
 zenity
 
 
@@ -104,8 +107,6 @@ zenity
 ffmpegthumbnailer
 gvfs
 gvfs-afc
-gvfs-goa
-gvfs-google
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
@@ -128,7 +129,6 @@ stacer
 flameshot
 gnome-keyring
 gparted
-okular
 pamac-aur
 
 
