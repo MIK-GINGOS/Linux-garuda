@@ -7,7 +7,7 @@ pipewire-support
 bluedevil
 nm-tray
 modem-manager-gui
-qomui
+ufw
 
 
 ####---->> INPUT
@@ -101,7 +101,7 @@ qpdfview
 ####---->> OTHER APPS
 audacious
 audacious-plugins
-pamac-aur
+octopi
 partitionmanager
 smplayer
 smplayer-skins

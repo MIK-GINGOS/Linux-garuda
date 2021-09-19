@@ -8,9 +8,8 @@ pamixer
 ####---->> NETWORK
 blueberry
 modem-manager-gui
-qomui
 network-manager-applet
-
+ufw
 
 ####---->> INPUT
 gestures

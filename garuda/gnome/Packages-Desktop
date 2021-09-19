@@ -4,8 +4,7 @@ pipewire-support
 
 ####---->> NETWORK
 modem-manager-gui
-networkmanager-support
-qomui
+ufw
 
 
 ####---->> INPUT

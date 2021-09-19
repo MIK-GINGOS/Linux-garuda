@@ -97,7 +97,6 @@ xfsprogs
 
 ## Extra things
 bridge-utils
-cronie
 cryptsetup
 dmidecode
 dmraid

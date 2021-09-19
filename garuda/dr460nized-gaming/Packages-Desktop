@@ -20,8 +20,7 @@ xdg-desktop-portal-kde
 
 
 ####---->> NETWORKING
-networkmanager-support
-qomui
+modem-manager-gui
 ufw
 
 
@@ -118,7 +117,7 @@ kio-extras
 kio-fuse
 kio-gdrive
 kipi-plugins
-octopi
+pamac-aur
 qt5-imageformats
 ruby
 resvg

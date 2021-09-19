@@ -8,8 +8,7 @@ pipewire-support
 blueberry
 network-manager-applet
 modem-manager-gui
-qomui
-
+ufw
 
 ####---->> INPUT
 gestures

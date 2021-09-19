@@ -19,7 +19,7 @@ xdg-desktop-portal-kde
 
 
 ####---->> NETWORKING
-networkmanager-support
+modem-manager-gui
 ufw
 
 

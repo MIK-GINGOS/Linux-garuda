@@ -6,8 +6,7 @@ xorg-xinit
 
 
 ####---->> UTILITIES
-timeshift
-timeshift-autosnap
+snapper-support
 networkmanager
 
 
