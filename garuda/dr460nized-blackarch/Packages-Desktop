@@ -96,6 +96,7 @@ sshfs
 
 ####---->> OTHER APPS
 firedragon
+firedragon-extension-plasma-integration
 latte-dock-git
 libinput_gestures_qt
 mpv
