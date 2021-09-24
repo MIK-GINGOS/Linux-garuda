@@ -5,12 +5,11 @@ easyeffects
 
 ####---->> XORG
 xorg-server
-xorg-xwayland 
+xorg-xwayland
 xorg-xhost
 xorg-xinit
 xorg-xinput
-xorg-xrandr
-xorg-xprop
+
 
 
 ####---->> UTILITIES

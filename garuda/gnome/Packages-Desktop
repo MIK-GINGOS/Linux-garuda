@@ -1,15 +1,10 @@
 ####---->> AUDIO
 pipewire-support
 
-
-####---->> NETWORK
-modem-manager-gui
-ufw
-
-
 ####---->> INPUT
 gestures
-
+wmctrl
+xdotool
 
 ####---->> GARUDA THEMING & SETTINGS
 garuda-fish-config
@@ -23,73 +18,41 @@ xdg-desktop-portal
 xdg-desktop-portal-gtk
 
 
-####---->> XORG APPLICATIONS
-numlockx
-wmctrl
-xautolock
-xbindkeys
-xcape
-xdotool
-
-
 ####---->> XORG
 xorg-server
-xorg-server-xephyr
-xorg-xbacklight
-xorg-xhost
 xorg-xinit
 xorg-xinput
-xorg-xkill
-xorg-xprop
-xorg-xrandr
-xorg-xsetroot
-xorg-xwininfo
-
 
 ####---->> WAYLAND
 xorg-xwayland 
-
+qt5-wayland
 
 ####---->> DESKTOP THEMING
 garuda-gnome-settings
-gtk-engine-murrine
-gtk-engines
-kvantum-qt5
-qt5ct
-beautyline
-yaru-sound-theme
-
+qgnomeplatform
 
 ####---->> DISPLAY MANAGER
 gdm
 
-
 ####---->> DESKTOP ENVIRONMENT
-chrome-gnome-shell 
-festival
 gnome-control-center
-gnome-desktop  
 gnome-keyring 
-gnome-menus
+gnome-screenshot
 gnome-session                                    
 gnome-settings-daemon                                           
 gnome-shell
-gnome-shell-extensions
 gnome-system-monitor                                                                          
-gnome-terminal-transparency
+gnome-terminal
 gnome-tweaks
-mousetweaks
 mutter
-orca
-qt5-wayland
-
 
 ####---->> DESKTOP ENVIRONMENT APPS
-celluloid
 eog
 evince
+nautilus
 ffmpegthumbnailer
 file-roller
+sushi
 gedit
 gedit-plugins
 gnome-calculator
@@ -102,18 +65,8 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-libgsf
-libopenraw
-librsvg
-lollypop
-nautilus-admin
-nautilus-sendto
-nautilus-share
-nautilus-typeahead
-pamac-aur
-sushi
-
 
 ####---->> OTHER APPS
 firedragon
-flameshot
+mpv
+pamac-aur
