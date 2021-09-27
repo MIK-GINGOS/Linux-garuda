@@ -116,11 +116,11 @@ kio-extras
 kio-fuse
 kio-gdrive
 kipi-plugins
-pamac-aur
+octopi
+octopi-notifier-frameworks
 qt5-imageformats
 ruby
 resvg
-sshfs
 
 
 ####---->> OTHER APPS
@@ -140,7 +140,6 @@ libappindicator-gtk3
 discord
 mumble
 murmur
-streamlink-twitch-gui
 telegram-desktop
 
 
@@ -154,7 +153,6 @@ wine-meta
 
 
 ####---->> GAME LAUNCHERS
-gamehub
 heroic-games-launcher-bin
 itch
 lutris
@@ -162,12 +160,11 @@ minecraft-launcher
 minigalaxy
 steam
 steam-native-runtime
-zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
 
+#gamehub
 
 ####---->> GAMING TOOLS
 argyllcms
-bottles
 boxtron
 corectrl
 displaycal
@@ -176,6 +173,7 @@ fancontrol-gui-git
 fuseiso
 gamemode
 goverlay-git
+guiscrcpy
 keyboard-visualizer-git
 lib32-gamemode
 lib32-mangohud
@@ -187,11 +185,13 @@ openrgb
 piper
 proton-ge-custom-bin
 protontricks-git
-q4wine
 replay-sorcery
+reshade-shaders-git
 steamtinkerlaunch
 vkbasalt
-guiscrcpy
+
+#bottles
+#q4wine
 
 ####---->> GAME CONTROLLER
 antimicrox
@@ -199,7 +199,7 @@ game-devices-udev
 linuxconsole
 oversteer
 retroarch-autoconfig-udev-git
-sc-controller
+#sc-controller
 #steamos-xpad-dkms
 #xbox-generic-controller
 #xboxdrv
@@ -208,22 +208,25 @@ sc-controller
 
 
 ####---->> EMULATORS
-anbox-support
 libretro-meta
 
 ####---->> GAMES
-0ad
-aisleriot
-extremetuxracer
-gnuchess   
-hedgewars
-kapman
-kmahjongg
-knights
+chromium-bsu
+frozen-bubble
+gnuchess
+kde-games-meta
+ltris
 mari0
 minetest
 minetest-server
-supertux
-supertuxkart
 teeworlds
-xonotic
+
+#0ad
+#aisleriot
+#extremetuxracer
+#hedgewars
+#supertux
+#supertuxkart
+#xonotic
+
+zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
