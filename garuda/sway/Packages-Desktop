@@ -45,7 +45,7 @@ tela-circle-icon-theme-git
 
 ####---->> DISPLAY MANAGER
 greetd
-greetd-qtgreet
+greetd-gtkgreet
 
 
 ####---->> DESKTOP ENVIRONMENT
