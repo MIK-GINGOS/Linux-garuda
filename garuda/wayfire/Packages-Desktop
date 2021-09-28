@@ -42,7 +42,7 @@ xcursor-sweet
 
 ####---->> DISPLAY MANAGER
 greetd
-greetd-gtkgreet
+greetd-qtgreet
 
 
 ####---->> DESKTOP ENVIRONMENT

@@ -1,8 +1,7 @@
 [autostart]
 autostart_wf_shell = false
-#dm = qtgreet
-gtkgreet = gtkgreet -l
-#; loginctl terminate-user $USER
+dm = qtgreet; loginctl terminate-user $USER
+#gtkgreet = gtkgreet -l
 wf-osk = wf-osk --height 200 -a bottom
 
 [input]
