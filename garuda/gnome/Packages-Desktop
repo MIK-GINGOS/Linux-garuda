@@ -1,6 +1,3 @@
-####---->> AUDIO
-pipewire-support
-
 ####---->> INPUT
 gestures
 wmctrl

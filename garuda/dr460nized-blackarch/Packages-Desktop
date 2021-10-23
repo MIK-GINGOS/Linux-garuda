@@ -1,7 +1,3 @@
-####---->> Media
-pipewire-support
-
-
 ####---->> XORG
 xorg-server
 xorg-xwayland 

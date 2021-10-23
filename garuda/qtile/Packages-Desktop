@@ -2,7 +2,6 @@
 pasystray
 pavucontrol
 playerctl
-pipewire-support
 
 
 ####---->> NETWORK
@@ -14,6 +13,12 @@ ufw
 
 ####---->> INPUT
 gestures
+numlockx
+wmctrl
+xautolock
+xbindkeys
+xcape
+xdotool
 
 
 ####---->> GARUDA THEMING & SETTINGS
@@ -37,15 +42,6 @@ xdg-desktop-portal-gtk
 
 ## Conky 
 #conky-lua-nv
-
-
-####---->> XORG APPLICATIONS
-numlockx
-wmctrl
-xautolock
-xbindkeys
-xcape
-xdotool
 
 ####---->> XORG
 xorg-server

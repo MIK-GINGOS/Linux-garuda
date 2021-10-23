@@ -1,12 +1,7 @@
 ####---->> AUDIO
-paprefs
 pasystray
 pavucontrol
 playerctl
-pulseaudio-ctl
-pulseaudio-equalizer-ladspa
-pulseaudio-support
-
 
 ####---->> NETWORK
 blueman
@@ -17,6 +12,12 @@ ufw
 
 ####---->> INPUT
 gestures
+numlockx
+wmctrl
+xautolock
+xbindkeys
+xcape
+xdotool
 
 
 ####---->> GARUDA THEMING & SETTINGS
@@ -30,15 +31,6 @@ autorandr
 pamac-aur
 xdg-desktop-portal
 xdg-desktop-portal-gtk
-
-
-####---->> XORG APPLICATIONS
-numlockx
-wmctrl
-xautolock
-xbindkeys
-xcape
-xdotool
 
 
 ####---->> XORG

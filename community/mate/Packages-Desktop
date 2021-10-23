@@ -1,9 +1,7 @@
 ####---->> AUDIO
 pavucontrol
-paprefs
 playerctl
-pulseaudio-support
-pulseaudio-equalizer-ladspa
+
 
 
 ####---->> AUDIO APPS
@@ -20,7 +18,12 @@ ufw
 
 ####---->> INPUT
 gestures
-
+numlockx
+wmctrl
+xautolock
+xbindkeys
+xcape
+xdotool
 
 ####---->> GARUDA THEMING & SETTINGS
 grub-theme-garuda
@@ -36,15 +39,6 @@ autorandr
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 ibus
-
-
-####---->> XORG APPLICATIONS
-numlockx
-wmctrl
-xautolock
-xbindkeys
-xcape
-xdotool
 
 
 ####---->> XORG

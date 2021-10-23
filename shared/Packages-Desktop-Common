@@ -34,6 +34,8 @@ networkmanager-support
 ## Video
 gstreamer-meta
 
+####---->> Media
+pipewire-support
 
 ## Input
 input-devices-support

@@ -1,7 +1,6 @@
 ####---->> AUDIO
 pavucontrol-qt
-pipewire-support
-
+playerctl
 
 ####---->> NETWORK
 bluedevil
@@ -12,7 +11,12 @@ ufw
 
 ####---->> INPUT
 libinput_gestures_qt
-
+numlockx
+wmctrl
+xautolock
+xbindkeys
+xcape
+xdotool
 
 ####---->> GARUDA THEMING & SETTINGS
 garuda-zsh-config
@@ -29,15 +33,6 @@ xdg-desktop-portal-kde
 
 ####---->> SETTINGS
 garuda-settings-manager-kcm
-
-
-####---->> XORG APPLICATIONS
-numlockx
-wmctrl
-xautolock
-xbindkeys
-xcape
-xdotool
 
 
 ####---->> XORG

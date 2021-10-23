@@ -1,7 +1,6 @@
 ####---->> AUDIO
 pavucontrol
 playerctl
-pipewire-support
 pamixer
 
 
