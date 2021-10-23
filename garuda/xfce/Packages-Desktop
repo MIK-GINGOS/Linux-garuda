@@ -8,28 +8,24 @@ bash
 bash-completion
 
 ## Audio
-paprefs
-pasystray
 pavucontrol
 playerctl
-pulseaudio-ctl
-pulseaudio-equalizer-ladspa
-pulseaudio-support
-qjackctl
 
-## Video
-gstreamer-meta
-redshift
 
 ## Network
 blueman
-networkmanager-support
 network-manager-applet
 modem-manager-gui
-qomui
 
 ## Input
 gestures
+numlockx
+wmctrl
+xbindkeys
+xcape
+xdotool
+xautolock
+
 
 ## Utilities
 ## Desktop Utilities
@@ -50,21 +46,14 @@ xorg-xkill
 xorg-xbacklight
 xorg-xsetroot
 
-## XORG Applications
-numlockx
-wmctrl
-xbindkeys
-xcape
-xdotool
-xautolock
 
 ## Theme Packages
 garuda-xfce-settings
 gtk-engine-murrine
-kvantum-qt5
+qgnomeplatform
 papirus-icon-theme
 plymouth-theme-garuda
-qt5ct
+
 
 ## Display Manager
 lightdm
@@ -188,6 +177,7 @@ gparted
 catfish
 meld
 nano
+vim
 neofetch-git
 peek
 mintstick
@@ -195,5 +185,4 @@ bleachbit
 xfburn
 systemd-ui
 python-xdg
-vim # Needed for pacdiff
-xboxdrv
+redshift
