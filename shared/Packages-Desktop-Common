@@ -36,6 +36,7 @@ gstreamer-meta
 
 ####---->> Media
 pipewire-support
+wireplumber
 
 ## Input
 input-devices-support
