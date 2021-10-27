@@ -81,6 +81,7 @@ xsettingsd
 feathernotes
 featherpad
 ffmpegthumbnailer
+qt5-imageformats
 gvfs
 gvfs-afc
 gvfs-goa
@@ -102,9 +103,11 @@ smplayer
 smplayer-skins
 smplayer-themes
 speedcrunch
-sshfs
 stacer
 
+###
+plasma-firewall
+plasma-thunderbolt
 
 ####---->> INTERNET
 firedragon
