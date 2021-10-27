@@ -116,8 +116,7 @@ kio-extras
 kio-fuse
 kio-gdrive
 kipi-plugins
-octopi
-octopi-notifier-frameworks
+octopi-dev
 qt5-imageformats
 ruby
 resvg
