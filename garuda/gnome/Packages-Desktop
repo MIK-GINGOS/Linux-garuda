@@ -11,9 +11,8 @@ grub-theme-garuda
 
 ####---->> UTILITIES
 autorandr
-xdg-desktop-portal
-xdg-desktop-portal-gtk
-
+xdg-desktop-portal-gnome
+xdg-user-dirs-gtk
 
 ####---->> XORG
 xorg-server
