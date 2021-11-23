@@ -2,6 +2,7 @@
 pasystray
 pavucontrol
 playerctl
+alsa-utils
 
 
 ####---->> NETWORK
