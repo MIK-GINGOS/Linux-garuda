@@ -21,15 +21,13 @@ iproute2
 iputils
 licenses
 linux-firmware
-nspr-hg
-nss-hg
-pacman 
+pacman
 pciutils
 procps-ng
 psmisc
 sed
 shadow
-sudo-git
+sudo
 systemd
 systemd-sysvcompat
 tar
@@ -37,18 +35,21 @@ util-linux
 which
 xz
 
+
 ## GRUB + EFI
+grub-garuda
 efibootmgr
 grub
 grub-btrfs
 memtest86+
-os-prober-garuda
+os-prober-btrfs
 update-grub
 
-## Package management 
+
+## Package management
 pacman-contrib
-pkgfile
-reflector
+rate-mirrors
+
 
 ## AUR support
 autoconf
@@ -69,32 +70,35 @@ pkgconf
 subversion
 texinfo
 
+
 ## Filesystem needed
 btrfs-progs
+curlftpfs
+davfs2
 dosfstools
 e2fsprogs
 ecryptfs-utils
 exfatprogs
 f2fs-tools
 fatresize
-jfsutils
 mtools
-nfs-utils
-nilfs-utils
-ntfs-3g
-reiserfsprogs
 sshfs
 xfsprogs
+
 
 ## Extra things
 bridge-utils
 cryptsetup
 dmidecode
 dmraid
+fastfetch-git
 freetype2
 fscrypt
+gnu-netcat
+htop
 inetutils
 inxi
+iptables-nft
 logrotate
 lsb-release
 lvm2
@@ -105,15 +109,16 @@ micro
 mkinitcpio-systemd-tool
 mlocate
 nss-mdns
-paleofetch-git
 powertop
 rsync
 usbutils
-xclip
+xsel
+
 
 ## Chaotic repo
 chaotic-mirrorlist
 chaotic-keyring
+
 
 ## Garuda core system stuff
 garuda-hooks

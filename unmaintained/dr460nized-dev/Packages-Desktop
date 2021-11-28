@@ -1,35 +1,26 @@
-####---->> Media
-pipewire-support
-
-
 ####---->> XORG
 xorg-server
-xorg-server-xwayland 
+xorg-xwayland-git
 xorg-xhost
 xorg-xinit
 xorg-xinput
-xorg-xprop
-xorg-xrandr
 
 
 ####---->> UTILITIES
-sddm
-sddm-kcm
 xdg-desktop-portal
 xdg-desktop-portal-kde
 
 
-####---->> GARUDA META
-networkmanager-support
+####---->> NETWORKING
+ufw
 
 
 ####---->> THEMING
 beautyline
-candy-icons-git
-garuda-dr460nized-git
+garuda-dr460nized
 garuda-fish-config
 kvantum-qt5
-plymouth-theme-dr460nized
+grub-theme-garuda-dr460nized
 xcursor-sweet
 
 
@@ -37,35 +28,94 @@ xcursor-sweet
 garuda-settings-manager-kcm
 
 
+####---->> DISPLAY MANAGER
+sddm
+sddm-kcm
+
+
 ####---->> DESKTOP ENVIRONMENT
-appmenu-gtk-module
-kde-git
+bluedevil
 kde-gtk-config
+khotkeys
+kinfocenter
+kinit
+kscreen
+kwallet-pam
+kwayland-integration
+kwin
 kwin-scripts-forceblur
-okular
 plasma-browser-integration
+plasma-desktop
+plasma-nm
+plasma-pa
 plasma-firewall
+plasma-systemmonitor
 plasma5-applets-eventcalendar
+plasma5-applets-netspeed
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
+powerdevil
+power-profiles-daemon
 quota-tools
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
+dolphin
 dolphin-plugins
-kdegraphics-thumbnailers
+kate
+kdeconnect
+konsole
+okular
+partitionmanager
 rootactions-servicemenu
+spectacle
+
+
+####---->> ADDITIONAL FUNCTIONALITY
+ffmpegthumbs
+kdegraphics-thumbnailers
+kimageformats
+octopi-git
+qt5-imageformats
+resvg
+sshfs
 
 
 ####---->> OTHER APPS
-ffmpegthumbs
 firedragon
+firedragon-extension-plasma-integration
 latte-dock-git
-octopi
-ufw
+libappindicator-gtk3
+libinput_gestures_qt
+mpv
 
 
-####---->> TESTING
-zram-generator-git 
+####---->> MISC APPS
+electronmail-bin
+gimp-git
+gitkraken
+jamesdsp-git
+kdenlive
+kotatogram-desktop-bin
+krdc
+krfb
+libreoffice-fresh
+lutris
+nextcloud-client-git
+protonge-custom
+signal-desktop-beta
+speedcrunch
+spotify
+spotify-adblock-git
+steam
+teams
+thunderbird-appmenu
+virt-manager-meta
+vscodium-git
+waydroid
+waydroid-image
+weston
+wine-meta
+zenmonitor-git

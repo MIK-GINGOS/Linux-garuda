@@ -1,19 +1,41 @@
+## Utilities
+perl-file-mimeinfo
+xdg-user-dirs
+xdg-utils
+
+
 ## Package Management
 downgrade
-pamac-aur
-paru
+paru-git
 
-## Terminal font
-terminus-font
+
+## Snapshot
+snapper-support
+
+
+## Tweaks
+performance-tweaks
+
+
+## Network
+bluetooth-support
+
+
+## Media
+gstreamer-meta
+pipewire-support
+
+
+## Input
+input-devices-support
+
 
 ## Fonts
+terminus-font            # Terminal font
 noto-fonts               # default font
 noto-fonts-emoji         # emoji font
-ttf-dejavu
-ttf-fantasque-sans-mono
-ttf-fira-sans          
-ttf-liberation
-ttf-opensans
+ttf-fira-sans
+
 
 ## Archive formats
 arj
@@ -30,37 +52,12 @@ unrar
 unzip
 zip
 
-## Android 
-android-tools
-android-udev
-
-## Utilities
-gnu-netcat
-libdvdcss
-perl-file-mimeinfo
-timeshift
-timeshift-autosnap
-xdg-user-dirs
-xdg-utils
 
 ## Garuda specific
 garuda-assistant
 garuda-browser-settings
-garuda-common-settings-dev
+garuda-common-settings
 garuda-icons
-garuda-settings-manager
-garuda-setup-assistant
+garuda-system-maintenance
 garuda-wallpapers
 garuda-welcome
-grub-garuda
-plymouth-git
-
-## Theme package
-grub-theme-garuda-dr460nized
-performance-tweaks
-
-## Video
-gstreamer-meta
-
-## Input
-input-devices-support

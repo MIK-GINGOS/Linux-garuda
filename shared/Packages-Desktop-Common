@@ -31,11 +31,11 @@ performance-tweaks
 bluetooth-support
 networkmanager-support
 
-## Video
-gstreamer-meta
 
-####---->> Media
+## Media
+gstreamer-meta
 pipewire-support
+
 
 ## Input
 input-devices-support
