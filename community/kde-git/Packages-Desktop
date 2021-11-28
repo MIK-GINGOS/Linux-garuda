@@ -24,30 +24,30 @@ terminus-font
 
 ####---->> SETTINGS
 garuda-settings-manager-kcm
-garuda-welcome
+garuda-welcome-git
 garuda-setup-assistant
-garuda-assistant
+garuda-assistant-git
 
 ####---->> DISPLAY MANAGER
-sddm
+sddm-git
 sddm-kcm
 
 
 ####---->> DESKTOP ENVIRONMENT
 breeze-gtk
 kde-gtk-config
-khotkeys
-kinit
-kscreen
-kwallet-pam
-kwin
-plasma-desktop
-plasma-nm
-plasma-pa
-powerdevil
+khotkeys-git
+kinit-git
+kscreen-git
+kwallet-pam-git
+kwin-git
+plasma-desktop-git
+plasma-nm-git
+plasma-pa-git
+powerdevil-git
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
-dolphin
-konsole
+dolphin-git
+konsole-git
