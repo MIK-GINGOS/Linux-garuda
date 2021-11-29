@@ -9,7 +9,8 @@ xorg-xhost
 xorg-xinit
 xorg-xinput
 
-
+## Tweaks
+performance-tweaks
 
 ####---->> UTILITIES
 autorandr

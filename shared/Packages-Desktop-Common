@@ -23,10 +23,6 @@ snapper-support
 plymouth-git
 
 
-## Tweaks
-performance-tweaks
-
-
 ## Network
 bluetooth-support
 networkmanager-support
