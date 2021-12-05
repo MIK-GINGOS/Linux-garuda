@@ -29,7 +29,7 @@ garuda-assistant-git
 
 ####---->> DISPLAY MANAGER
 sddm-git
-sddm-kcm
+sddm-kcm-git
 
 
 ####---->> DESKTOP ENVIRONMENT
@@ -37,7 +37,7 @@ attica-git
 baloo-git
 bluedevil-git
 breeze-git
-breeze-gtk
+breeze-gtk-git
 breeze-icons-git
 frameworkintegration-git
 kaccounts-integration-git
@@ -48,6 +48,7 @@ karchive-git
 kauth-git
 kbookmarks-git
 kcmutils-git
+kcalendarcore-git
 kcodecs-git
 kcolorpicker-git
 kcompletion-git
@@ -57,7 +58,7 @@ kcontacts-git
 kcoreaddons-git
 kcrash-git
 kdbusaddons-git
-kde-gtk-config
+kde-gtk-config-git
 kdeclarative-git
 kdecoration-git
 kded-git
@@ -83,6 +84,7 @@ ki18n-git
 kiconthemes-git
 kidletime-git
 kimageannotator-git
+kimageformats-git
 kinfocenter-git
 kinit-git
 kio-extras-git
@@ -127,12 +129,15 @@ modemmanager-qt-git
 networkmanager-qt-git
 plasma-browser-integration-git
 plasma-desktop-git
+plasma-disks-git
 plasma-framework-git
+plasma-firewall-git
 plasma-integration-git
 plasma-nm-git
 plasma-pa-git
 plasma-wayland-session-git
 plasma-workspace-git
+plasma-workspace-wallpapers-git
 polkit-kde-agent-git
 poppler-glib-git
 poppler-qt5-git
@@ -147,14 +152,15 @@ sonnet-git
 syntax-highlighting-git
 systemsettings-git
 threadweaver-git
+xdg-desktop-portal-kde-git
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
-ark
-dolphin-git
+ark-git
+dolphin-git-git
 kate-git
 kdeconnect-git
-konsole-git
+konsole-git-git
 okular-git
-partitionmanager
+partitionmanager-git
 spectacle-git
