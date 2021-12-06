@@ -135,6 +135,7 @@ plasma-firewall-git
 plasma-integration-git
 plasma-nm-git
 plasma-pa-git
+plasma-systemmonitor-git
 plasma-wayland-session-git
 plasma-workspace-git
 plasma-workspace-wallpapers-git
@@ -157,10 +158,10 @@ xdg-desktop-portal-kde-git
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark-git
-dolphin-git-git
+dolphin-git
 kate-git
 kdeconnect-git
-konsole-git-git
+konsole-git
 okular-git
 partitionmanager-git
 spectacle-git
