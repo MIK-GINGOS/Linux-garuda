@@ -81,6 +81,7 @@ quota-tools
 ark
 dolphin
 dolphin-plugins
+elisa
 gwenview
 jhead
 kate
@@ -131,6 +132,7 @@ libinput_gestures_qt
 mpv
 nextcloud-client
 thunderbird-appmenu
+vlc
 
 ## Support for appindicators
 libappindicator-gtk3
