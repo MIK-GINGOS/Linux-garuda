@@ -16,7 +16,6 @@ garuda-common-settings
 grub-theme-garuda
 noto-fonts
 noto-fonts-emoji
-performance-tweaks
 plymouth-theme-garuda
 terminus-font
 
@@ -26,6 +25,7 @@ garuda-settings-manager-kcm
 garuda-welcome-git
 garuda-setup-assistant
 garuda-assistant-git
+
 
 ####---->> DISPLAY MANAGER
 sddm-git
