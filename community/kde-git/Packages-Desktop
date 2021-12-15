@@ -1,30 +1,24 @@
 ####---->> XORG
-xdg-user-dirs
 xorg-server
 xorg-server-xwayland 
 xorg-xinit
 
 
 ####---->> UTILITIES
-snapper-support
 networkmanager
-plymouth-git
 
 
 ####---->> THEMING
-garuda-common-settings
 grub-theme-garuda
-noto-fonts
-noto-fonts-emoji
 plymouth-theme-garuda
-terminus-font
 
 
 ####---->> SETTINGS
-garuda-settings-manager-kcm
+garuda-settings-manager-git
+garuda-settings-manager-kcm-git
 garuda-welcome-git
-garuda-setup-assistant
 garuda-assistant-git
+garuda-common-settings-git
 
 
 ####---->> DISPLAY MANAGER
@@ -165,3 +159,7 @@ konsole-git
 okular-git
 partitionmanager-git
 spectacle-git
+
+####---->> EXTRAS
+inxi-git
+micro-git
