@@ -1,6 +1,7 @@
 ####---->> MEDIA
-easyeffects
 helvum
+jamesdsp
+
 
 ####---->> XORG
 xorg-server
@@ -8,9 +9,8 @@ xorg-xwayland
 xorg-xhost
 xorg-xinit
 xorg-xinput
-
-## Tweaks
 performance-tweaks
+
 
 ####---->> UTILITIES
 autorandr
@@ -128,14 +128,13 @@ alacritty
 firedragon
 firedragon-extension-plasma-integration
 latte-dock
+libappindicator-gtk3
 libinput_gestures_qt
 mpv
 nextcloud-client
 thunderbird-appmenu
 vlc
 
-## Support for appindicators
-libappindicator-gtk3
 
 ####---->> OTHER APPS EXTRA
 discord
@@ -161,8 +160,8 @@ minecraft-launcher
 minigalaxy
 steam
 steam-native-runtime
-
 #gamehub
+
 
 ####---->> GAMING TOOLS
 argyllcms
@@ -191,8 +190,6 @@ reshade-shaders-git
 steamtinkerlaunch
 vkbasalt
 
-#bottles
-#q4wine
 
 ####---->> GAME CONTROLLER
 antimicrox
@@ -211,6 +208,7 @@ retroarch-autoconfig-udev-git
 ####---->> EMULATORS
 libretro-meta
 
+
 ####---->> GAMES
 chromium-bsu
 frozen-bubble
@@ -221,13 +219,4 @@ mari0
 minetest
 minetest-server
 teeworlds
-
-#0ad
-#aisleriot
-#extremetuxracer
-#hedgewars
-#supertux
-#supertuxkart
-#xonotic
-
 zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver

@@ -92,12 +92,12 @@ sshfs
 ####---->> OTHER APPS
 firedragon
 firedragon-extension-plasma-integration
+jamesdsp
 latte-dock
+libappindicator-gtk3
 libinput_gestures_qt
 mpv
 
-## Support for appindicators
-libappindicator-gtk3
 
 ####---->> WIFI DRIVERS
 8192eu-dkms
