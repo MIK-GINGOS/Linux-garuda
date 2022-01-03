@@ -1,7 +1,9 @@
 ####---->> XORG
 xorg-server
-xorg-server-xwayland 
+xorg-server-xwayland
+xorg-xhost
 xorg-xinit
+xorg-xinput
 
 
 ####---->> UTILITIES
