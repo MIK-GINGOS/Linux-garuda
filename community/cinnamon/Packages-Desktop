@@ -10,7 +10,6 @@ network-manager-applet
 ufw
 
 ####---->> INPUT
-gestures
 numlockx
 wmctrl
 xautolock
