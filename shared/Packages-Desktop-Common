@@ -31,6 +31,8 @@ networkmanager-support
 ## Media
 gstreamer-meta
 pipewire-support
+# Explicitly add pipewire-jack to avoid a conflict
+pipewire-jack
 
 
 ## Input
