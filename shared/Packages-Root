@@ -90,7 +90,7 @@ jfsutils
 mtools
 nfs-utils
 nilfs-utils
-ntfs-3g
+ntfsprogs-ntfs3
 reiserfsprogs
 sshfs
 xfsprogs
