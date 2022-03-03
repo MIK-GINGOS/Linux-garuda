@@ -119,6 +119,19 @@ power-profiles-daemon
 quota-tools
 
 
+####---->> DESKTOP ENVIRONMENT APPS
+ark
+dolphin
+dolphin-plugins
+kate
+kdeconnect
+konsole
+okular
+partitionmanager
+rootactions-servicemenu
+spectacle
+
+
 ####---->> ACCESSIBILITY
 orca
 festival
