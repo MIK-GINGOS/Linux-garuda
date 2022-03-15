@@ -53,47 +53,47 @@ update-grub
 
 ## Package management 
 pacman-contrib
-reflector
+rate-mirrors
 
 
 ## AUR support
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
-git
-groff
-libtool
-m4
-make
-mercurial
-patch
-pkgconf
-subversion
-texinfo
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra git
+>extra groff
+>extra libtool
+>extra m4
+>extra make
+>extra mercurial
+>extra patch
+>extra pkgconf
+>extra subversion
+>extra texinfo
 
 
 ## Filesystem needed
 btrfs-progs
-curlftpfs
-davfs2
+>extra curlftpfs
+>extra davfs2
 dosfstools
 e2fsprogs
 ecryptfs-utils
 exfatprogs
 f2fs-tools
 fatresize
-jfsutils
+>extra jfsutils
 mtools
-nfs-utils
-nilfs-utils
+>extra nfs-utils
+>extra nilfs-utils
 ntfsprogs-ntfs3
-reiserfsprogs
-sshfs
-xfsprogs
+>extra reiserfsprogs
+>extra sshfs
+>extra xfsprogs
 
 
 ## Extra things
@@ -122,8 +122,8 @@ mkinitcpio-systemd-tool
 mlocate
 neofetch-git
 nss-mdns
-powertop
-rsync
+>extra powertop
+>extra rsync
 usbutils
 xsel
 
@@ -135,3 +135,4 @@ chaotic-keyring
 
 ## Garuda core system stuff
 garuda-hooks
+garuda-hotfixes
