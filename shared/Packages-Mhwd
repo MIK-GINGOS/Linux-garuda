@@ -1,15 +1,11 @@
-## Normal MHWD package list
-systemd-guest-user
-
-
 ## Network
-broadcom-wl-dkms
-rtw89-dkms-git
+>extra broadcom-wl-dkms
+>extra rtw89-dkms-git
 
 ## Nonfree Nvidia
->nonfree_x86_64 garuda-nvidia-config
->nonfree_x86_64 garuda-nvidia-prime-config
->nonfree_x86_64 garuda-optimus-manager-config
+>extra >nonfree_x86_64 garuda-nvidia-config
+>extra >nonfree_x86_64 garuda-nvidia-prime-config
+>extra >nonfree_x86_64 garuda-optimus-manager-config
 
 ## Free Drivers
 xf86-video-openchrome
