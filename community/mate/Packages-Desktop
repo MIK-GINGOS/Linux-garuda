@@ -3,7 +3,6 @@ pavucontrol
 playerctl
 
 
-
 ####---->> AUDIO APPS
 mpv
 celluloid
@@ -16,6 +15,7 @@ network-manager-applet
 modem-manager-gui
 ufw
 
+
 ####---->> INPUT
 gestures
 numlockx
@@ -24,6 +24,7 @@ xautolock
 xbindkeys
 xcape
 xdotool
+
 
 ####---->> GARUDA THEMING & SETTINGS
 grub-theme-garuda
@@ -143,9 +144,7 @@ gvfs-goa
 
 ####---->> OTHER APPS
 gparted
-balena-etcher
-meld
-peek
+meld  
 octopi
 redshift
 caffeine
