@@ -8,7 +8,6 @@ base
 bash-completion
 bzip2
 coreutils
-crda
 file
 filesystem
 findutils
@@ -18,6 +17,7 @@ gettext
 glibc
 grep
 gzip
+inetutils
 intel-ucode
 iproute2
 iputils
@@ -36,8 +36,10 @@ sudo
 systemd
 systemd-sysvcompat
 tar
+usbutils
 util-linux
 which
+wireless-regdb
 xz
 
 
@@ -76,10 +78,9 @@ rate-mirrors
 >extra texinfo
 
 
-## Filesystem needed
+## Filesystem essentials
 btrfs-progs
 >extra curlftpfs
->extra davfs2
 dosfstools
 e2fsprogs
 ecryptfs-utils
@@ -96,36 +97,51 @@ ntfsprogs-ntfs3
 >extra xfsprogs
 
 
-## Extra things
+## Network essentials
+bind
 bridge-utils
+ethtool
+gnu-netcat
+iptables-nft
+net-tools
+nss-mdns
+wget
+wireless_tools
+
+
+## Monitoring
+htop
+inxi
+neofetch-git
+>extra powertop
+
+
+## Utilities
 cryptsetup
+dialog
 dmidecode
 dmraid
 freetype2
 fscrypt
-gnu-netcat
-htop
-inetutils
-inxi
-iptables-nft
-lockdown-ms
 logrotate
 lsb-release
 lvm2
 man-db
 man-pages
 mdadm
-micro
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mkinitcpio-systemd-tool
 mlocate
-neofetch-git
-nss-mdns
->extra powertop
 >extra rsync
-usbutils
 xsel
+
+
+## Text editors
+micro
+>extra nano
+>extra vi
+>extra vim
 
 
 ## Chaotic repo
