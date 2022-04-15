@@ -47,7 +47,7 @@ xz
 grub-garuda
 efibootmgr
 grub
-grub-btrfs
+#grub-btrfs
 memtest86+
 os-prober-btrfs
 update-grub
