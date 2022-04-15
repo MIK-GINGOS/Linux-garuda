@@ -10,6 +10,8 @@ xorg-xwayland
 xorg-xhost
 xorg-xinit
 xorg-xinput
+
+
 performance-tweaks
 
 
@@ -147,12 +149,8 @@ telegram-desktop
 virt-manager-meta
 
 
-####---->> WINE
-wine-staging
-wine-meta
-
-
 ####---->> GAME LAUNCHERS
+bottles
 heroic-games-launcher-bin
 itch
 lutris
@@ -196,17 +194,17 @@ game-devices-udev
 linuxconsole
 oversteer
 retroarch-autoconfig-udev-git
-#sc-controller
-#steamos-xpad-dkms
 #xbox-generic-controller
 #xboxdrv
 #xow
-#xpadneo-dkms-git
 
 
 ####---->> EMULATORS
 libretro-meta
 
+####---->> WINE
+wine-staging
+wine-meta
 
 ####---->> GAMES
 chromium-bsu

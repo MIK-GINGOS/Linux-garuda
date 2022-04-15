@@ -17,8 +17,8 @@ garuda-settings-manager-kcm
 sddm
 sddm-kcm
 
-
 ####---->> DESKTOP ENVIRONMENT
+breeze
 breeze-gtk
 kde-gtk-config
 khotkeys
@@ -30,7 +30,6 @@ plasma-desktop
 plasma-nm
 plasma-pa
 powerdevil
-
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark

@@ -4,10 +4,10 @@ KERNEL-headers
 alsa-firmware
 amd-ucode
 b43-fwcutter
+base
 bash-completion
 bzip2
 coreutils
-crda
 file
 filesystem
 findutils
@@ -17,6 +17,7 @@ gettext
 glibc
 grep
 gzip
+inetutils
 intel-ucode
 iproute2
 iputils
@@ -35,18 +36,18 @@ sudo
 systemd
 systemd-sysvcompat
 tar
+usbutils
 util-linux
 which
+wireless-regdb
 xz
 
-## Zfs-stuff
-zfs-dkms
-zfs-utils
 
 ## GRUB + EFI
 grub-garuda
 efibootmgr
 grub
+grub-btrfs
 memtest86+
 os-prober-btrfs
 update-grub
@@ -54,84 +55,103 @@ update-grub
 
 ## Package management 
 pacman-contrib
-reflector
+rate-mirrors
 
 
 ## AUR support
-autoconf
-automake
-binutils
-bison
-fakeroot
-flex
-gcc
-git
-groff
-libtool
-m4
-make
-mercurial
-patch
-pkgconf
-subversion
-texinfo
+>extra autoconf
+>extra automake
+>extra binutils
+>extra bison
+>extra fakeroot
+>extra flex
+>extra gcc
+>extra git
+>extra groff
+>extra libtool
+>extra m4
+>extra make
+>extra mercurial
+>extra patch
+>extra pkgconf
+>extra subversion
+>extra texinfo
 
 
-## Filesystem needed
+## Filesystem essentials
 btrfs-progs
-curlftpfs
-davfs2
+>extra curlftpfs
 dosfstools
 e2fsprogs
 ecryptfs-utils
 exfatprogs
 f2fs-tools
 fatresize
-jfsutils
+>extra jfsutils
 mtools
-nfs-utils
-nilfs-utils
-ntfs-3g
-reiserfsprogs
-sshfs
-xfsprogs
+>extra nfs-utils
+>extra nilfs-utils
+ntfsprogs-ntfs3
+>extra reiserfsprogs
+>extra sshfs
+>extra xfsprogs
 
+## Zfs-stuff
+zfs-dkms
+zfs-utils
 
-## Extra things
+## Network essentials
+bind
 bridge-utils
+ethtool
+gnu-netcat
+iptables-nft
+net-tools
+nss-mdns
+wget
+wireless_tools
+
+
+## Monitoring
+htop
+inxi
+neofetch-git
+>extra powertop
+
+
+## Utilities
 cryptsetup
+dialog
 dmidecode
 dmraid
 freetype2
 fscrypt
-gnu-netcat
-htop
-inetutils
-inxi
-iptables-nft
-lockdown-ms
 logrotate
 lsb-release
 lvm2
 man-db
 man-pages
 mdadm
-micro
 mkinitcpio-nfs-utils
 mkinitcpio-openswap
 mkinitcpio-systemd-tool
 mlocate
-neofetch-git
-nss-mdns
-powertop
-rsync
-usbutils
+>extra rsync
 xsel
+
+
+## Text editors
+micro
+>extra nano
+>extra vi
+>extra vim
 
 
 ## Chaotic repo
 chaotic-mirrorlist
 chaotic-keyring
 
+
 ## Garuda core system stuff
 garuda-hooks
+garuda-hotfixes
