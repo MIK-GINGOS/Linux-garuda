@@ -29,10 +29,17 @@ xdotool
 ####---->> GARUDA THEMING & SETTINGS
 grub-theme-garuda
 garuda-bash-config
-garuda-zsh-config
 garuda-fish-config
 plymouth-theme-garuda
 neofetch-git
+
+
+####---->> DESKTOP THEMING
+garuda-mate-settings
+gtk-engine-murrine
+qt5ct
+kvantum-qt5
+kvantum-theme-sweet
 
 
 ####---->> UTILITIES
@@ -58,20 +65,6 @@ xorg-xwininfo
 
 ####---->> WAYLAND
 #xorg-xwayland 
-
-
-####---->> DESKTOP THEMING
-garuda-mate-settings
-gtk-engine-murrine
-qt5ct
-kvantum-qt5
-kvantum-theme-sweet
-papirus-icon-theme
-sweet-gtk-theme-dark
-sweet-gtk-theme
-xcursor-sweet
-beautyline
-boston-icon-theme
 
 
 ####---->> DISPLAY MANAGER
