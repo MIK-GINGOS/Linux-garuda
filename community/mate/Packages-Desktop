@@ -35,11 +35,14 @@ neofetch-git
 
 
 ####---->> DESKTOP THEMING
+adapta-gtk-theme
+beautyline
 garuda-mate-settings
 gtk-engine-murrine
 qt5ct
 kvantum-qt5
 kvantum-theme-sweet
+yaru-icon-theme
 
 
 ####---->> UTILITIES
