@@ -28,7 +28,7 @@ grub-theme-garuda
 ####---->> UTILITIES
 autorandr
 xdg-desktop-portal
-xdg-desktop-portal-kde
+xdg-desktop-portal-lxqt
 
 
 ####---->> SETTINGS
