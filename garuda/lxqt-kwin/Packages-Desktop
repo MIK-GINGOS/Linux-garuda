@@ -54,9 +54,6 @@ xorg-xwayland
 
 
 ####---->> DESKTOP THEMING
-ant-dracula-theme-git
-ant-dracula-kde-theme-git
-ant-dracula-kvantum-theme-git
 garuda-lxqt-kwin-settings
 gtk-engine-murrine
 kvantum-qt5
@@ -97,7 +94,8 @@ qpdfview
 ####---->> OTHER APPS
 audacious
 audacious-plugins
-octopi-dev
+octopi
+octopi-notifier-qt5
 partitionmanager
 smplayer
 smplayer-skins
