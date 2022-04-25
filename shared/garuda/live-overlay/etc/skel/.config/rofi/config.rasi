@@ -135,4 +135,4 @@ configuration {
 /*      me-accept-custom: "Control+MouseD1";*/
 }
 
-@theme "gorgeHousse"
+@theme "/usr/share/rofi/themes/dracula.rasi"
