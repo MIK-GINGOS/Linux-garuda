@@ -91,7 +91,7 @@ fatresize
 mtools
 >extra nfs-utils
 >extra nilfs-utils
-ntfsprogs-ntfs3
+ntfs-3g
 >extra reiserfsprogs
 >extra sshfs
 >extra xfsprogs
