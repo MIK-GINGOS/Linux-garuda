@@ -1,18 +1,18 @@
 ## Utilities
-libdvdcss
-perl-file-mimeinfo
+>extra libdvdcss
+>extra perl-file-mimeinfo
 xdg-user-dirs
 xdg-utils
 
 
 ## Package Management
-downgrade
-paru
+>extra downgrade
+>extra paru
 rate-mirrors
 
 ## Firmware
-fwupd
-gnome-firmware
+>extra fwupd
+>extra gnome-firmware
 
 
 ## Snapshot
@@ -21,64 +21,64 @@ snapper-tools
 
 
 ## Boot animation
-plymouth-git
+>extra plymouth-git
 
 
 ## Network
-bluetooth-support
-networkmanager-support
+>extra bluetooth-support
+>extra networkmanager-support
 
 
 ## Media
-gstreamer-meta
+>extra gstreamer-meta
 pipewire-support
 # Explicitly add pipewire-jack to avoid a conflict
 pipewire-jack
 
 
 ## Input
-input-devices-support
+>extra input-devices-support
 
 
 ## Fonts
-terminus-font            # Terminal font
-noto-fonts               # default font
-noto-fonts-cjk           # cjk font
-noto-fonts-emoji         # emoji font
-ttf-dejavu
-ttf-fantasque-sans-mono
-ttf-fira-sans
-ttf-liberation
-ttf-opensans
+>extra terminus-font            # Terminal font
+>extra noto-fonts               # default font
+>extra noto-fonts-cjk           # cjk font
+>extra noto-fonts-emoji         # emoji font
+>extra ttf-dejavu
+>extra ttf-fantasque-sans-mono
+>extra ttf-fira-sans
+>extra ttf-liberation
+>extra ttf-opensans
 
 
 ## Archive formats
-arj
-cpio
-lha
-lrzip
-lzip
-lzop
-unace
-p7zip
-unarchiver
-unace
-unarj
-unrar
-unzip
-zip
+>extra arj
+>extra cpio
+>extra lha
+>extra lrzip
+>extra lzip
+>extra lzop
+>extra unace
+>extra p7zip
+>extra unarchiver
+>extra unace
+>extra unarj
+>extra unrar
+>extra unzip
+>extra zip
 
 
 ## Garuda specific
 garuda-assistant
-garuda-boot-options
-garuda-browser-settings
+>extra garuda-boot-options
+>extra garuda-browser-settings
 garuda-common-settings
-garuda-gamer
+>extra garuda-gamer
 garuda-icons
-garuda-network-assistant
-garuda-settings-manager
+>extra garuda-network-assistant
+>extra garuda-settings-manager
 garuda-setup-assistant
 garuda-system-maintenance
-garuda-wallpapers
+>extra garuda-wallpapers
 garuda-welcome

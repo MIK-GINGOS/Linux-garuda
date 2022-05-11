@@ -1,13 +1,10 @@
 ####---->> XORG
-xdg-user-dirs
 xorg-server
 xorg-xinit
 
 
 ####---->> UTILITIES
-snapper-support
 networkmanager
-garuda-system-maintenance
 
 
 ####---->> THEMING
@@ -19,10 +16,6 @@ noto-fonts-emoji
 
 ####---->> SETTINGS
 garuda-settings-manager-kcm
-garuda-welcome
-garuda-setup-assistant
-garuda-assistant
-garuda-icons
 
 ####---->> DISPLAY MANAGER
 sddm
@@ -48,8 +41,3 @@ powerdevil
 ark
 dolphin
 konsole
-
-####---->> Audio
-pipewire-support
-# Explicitly add pipewire-jack to avoid a conflict
-pipewire-jack
