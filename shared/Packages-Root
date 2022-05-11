@@ -48,7 +48,7 @@ grub-garuda
 efibootmgr
 grub
 grub-btrfs
-memtest86+
+>extra memtest86+
 os-prober-btrfs
 update-grub
 
@@ -112,7 +112,7 @@ wireless_tools
 ## Monitoring
 htop
 inxi
-neofetch-git
+>extra neofetch-git
 >extra powertop
 
 
