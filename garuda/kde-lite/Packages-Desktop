@@ -48,3 +48,8 @@ powerdevil
 ark
 dolphin
 konsole
+
+####---->> Audio
+pipewire-support
+# Explicitly add pipewire-jack to avoid a conflict
+pipewire-jack
