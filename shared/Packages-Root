@@ -111,8 +111,8 @@ wireless_tools
 
 ## Monitoring
 htop
+>extra fastfetch
 inxi
->extra neofetch-git
 >extra powertop
 
 
