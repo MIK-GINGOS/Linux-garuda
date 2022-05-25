@@ -34,7 +34,7 @@ snapper-tools
 pipewire-support
 # Explicitly add pipewire-jack to avoid a conflict
 pipewire-jack
-
+lib32-pipewire-jack
 
 ## Input
 >extra input-devices-support
