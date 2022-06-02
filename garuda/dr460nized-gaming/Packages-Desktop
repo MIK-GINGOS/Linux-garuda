@@ -12,9 +12,6 @@ xorg-xinit
 xorg-xinput
 
 
-performance-tweaks
-
-
 ####---->> UTILITIES
 autorandr
 xdg-desktop-portal
@@ -35,11 +32,11 @@ garuda-fish-config
 kvantum-qt5
 plymouth-theme-dr460nized
 grub-theme-garuda-dr460nized
-sweet-cursor-theme-git
 
 
 ####---->> SETTINGS
 garuda-settings-manager-kcm
+performance-tweaks
 
 
 ####---->> DISPLAY MANAGER
@@ -158,7 +155,6 @@ minecraft-launcher
 minigalaxy
 steam
 steam-native-runtime
-#gamehub
 
 
 ####---->> GAMING TOOLS
