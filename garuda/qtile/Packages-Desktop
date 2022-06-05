@@ -28,8 +28,6 @@ garuda-fish-config
 plymouth-theme-garuda-purple
 grub-theme-garuda-dr460nized
 
-## garuda package
-
 ## Fonts
 awesome-terminal-fonts
 ttf-font-awesome
@@ -41,8 +39,6 @@ autorandr
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
-## Conky 
-#conky-lua-nv
 
 ####---->> XORG
 xorg-server
@@ -58,19 +54,19 @@ xorg-xsetroot
 xorg-xwininfo
 
 
-
 ####---->> DESKTOP THEMING
 gtk-engine-murrine
 kvantum-qt5
 kvantum-theme-sweet-git
 qt5ct
-sweet-gtk-theme-dark
-sweet-cursor-theme-git
+sweet-theme-full-git
+
 
 ####---->> DISPLAY MANAGER
 mousetweaks
 sddm
 plasma-framework
+
 
 ####---->> DESKTOP ENVIRONMENT
 alacritty
