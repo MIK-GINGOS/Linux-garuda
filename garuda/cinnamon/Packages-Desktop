@@ -49,12 +49,8 @@ beautyline
 garuda-cinnamon-settings
 gtk-engine-murrine
 kvantum-qt5
-kvantum-theme-sweet
 qt5ct
-sweet-gtk-theme-dark
-sweet-theme-git
-xcursor-sweet
-
+sweet-theme-full-git
 
 ####---->> DISPLAY MANAGER
 accountsservice  # Enhanced user accounts handling
