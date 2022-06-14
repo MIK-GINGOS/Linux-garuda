@@ -5,7 +5,6 @@
 ## Nonfree Nvidia
 >extra >nonfree_x86_64 garuda-nvidia-config
 >extra >nonfree_x86_64 garuda-nvidia-prime-config
->extra >nonfree_x86_64 garuda-optimus-manager-config
 
 ## Free Drivers
 xf86-video-openchrome
