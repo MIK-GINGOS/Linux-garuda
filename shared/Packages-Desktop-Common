@@ -32,6 +32,7 @@ snapper-tools
 ## Media
 >extra gstreamer-meta
 pipewire-support
+wireplumber
 # Explicitly add pipewire-jack to avoid a conflict
 pipewire-jack
 lib32-pipewire-jack
