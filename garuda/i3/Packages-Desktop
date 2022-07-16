@@ -159,3 +159,5 @@ redshift
 firedragon
 nextcloud-client
 
+# Needed by Inkscape extensions
+python-cssselect
