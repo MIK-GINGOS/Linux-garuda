@@ -131,7 +131,3 @@ ${profile_dir}/user-repos.conf
 **Add only your repos to user-repos.conf!**
 
 **Important**: Only online repos is allowed in the user-repos.conf. Buildiso will fail on file-based repos.
-
-
-###### Calamares
-* netgroups definitions go in [this](https://github.com/manjaro/calamares-netgroups) repo please
