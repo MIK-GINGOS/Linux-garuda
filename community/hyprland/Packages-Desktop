@@ -1,0 +1,101 @@
+####---->> AUDIO
+pavucontrol
+playerctl
+pamixer
+
+
+####---->> NETWORK
+blueberry
+
+####---->> INPUT
+gestures
+
+
+####---->> GARUDA THEMING & SETTINGS
+garuda-fish-config
+plymouth-theme-garuda
+grub-theme-garuda
+
+
+####---->> UTILITIES
+xdg-desktop-portal
+xdg-desktop-portal-wlr
+jq
+
+
+####---->> WAYLAND
+xorg-xwayland
+
+
+####---->> DESKTOP THEMING
+garuda-hyprland-settings
+gtk-engine-murrine
+kvantum-qt5
+dracula-cursors-git
+dracula-grub-theme-git
+dracula-gtk-theme-git
+dracula-icons-git
+ant-dracula-kvantum-theme-git
+qt5ct
+
+
+####---->> DISPLAY MANAGER
+greetd
+greetd-qtgreet
+
+
+####---->> DESKTOP ENVIRONMENT
+hyprland-git
+waybar-hyprland-git
+swayidle
+swaylock-effects
+xorg-xwayland-git
+wlroots-git
+wayland-protocols-git
+wayland-git
+
+####---->> DESKTOP ENVIRONMENT APPS
+alacritty-git
+azote
+celluloid
+clipman
+eog
+evince
+ffmpegthumbnailer
+file-roller
+gnome-keyring
+grim
+grimshot
+kanshi
+libgsf
+libopenraw
+librsvg
+light
+lollypop
+mako
+nwg-drawer
+nwg-launchers
+nwg-look
+polkit-gnome
+slurp
+thunar
+thunar-archive-plugin
+thunar-volman
+wdisplays
+wf-recorder
+wl-clipboard
+wlr-randr-git
+wlsunset
+wob
+wofi
+wtype
+
+
+####---->> OTHER APPS
+pamac-aur
+ranger
+obs-studio
+wlrobs-hg
+
+####---->> INTERNET
+qutebrowser-qt6-git
