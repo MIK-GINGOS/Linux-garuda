@@ -28,7 +28,7 @@ qt5-wayland
 
 
 ####---->> DESKTOP THEMING
-beautyline
+papirus-icon-theme
 garuda-gnome-settings
 qgnomeplatform-qt5
 qgnomeplatform-qt6
@@ -51,6 +51,9 @@ gnome-terminal
 gnome-tweaks
 mutter
 
+####----->> gnome shell extensions
+gnome-shell-extension-appindicator
+gnome-shell-extension-dash-to-dock
 
 ####---->> DESKTOP ENVIRONMENT APPS
 baobab
@@ -75,6 +78,7 @@ geary
 gedit
 gedit-plugins
 gnome-books
+gnome-boxes
 gnome-calculator
 gnome-characters
 gnome-clocks
@@ -97,7 +101,6 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-gtranslator
 kooha
 malcontent
 orca
@@ -108,6 +111,7 @@ totem
 libappindicator-gtk3
 handbrake
 ####---->> OTHER APPS
+jamesdsp
 pamac-aur
 libreoffice-fresh
 firefox
