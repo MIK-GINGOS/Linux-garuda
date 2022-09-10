@@ -52,7 +52,7 @@ swaylock-effects
 xorg-xwayland-git
 wlroots-git
 wayland-protocols-git
-wayland-git
+wayland
 
 ####---->> DESKTOP ENVIRONMENT APPS
 alacritty-git
