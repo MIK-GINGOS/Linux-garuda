@@ -39,6 +39,15 @@
 # use geoip
 # geoip="true"
 
+# configure calamares for mhwd
+# mhwd_used="false"
+
+# configure calamares for oem
+# oem_used="true"
+
+# windowexp=fullscreen
+
+
 # unset defaults to given value
 # plymouth_theme=garuda
 

@@ -6,12 +6,11 @@ xdotool
 
 ####---->> GARUDA THEMING & SETTINGS
 garuda-fish-config
-plymouth-theme-garuda-purple
-grub-theme-garuda
+plymouth-theme-dr460nized
+grub-theme-garuda-dr460nized
 
 
 ####---->> UTILITIES
-autorandr
 power-profiles-daemon
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
@@ -29,6 +28,7 @@ qt5-wayland
 
 
 ####---->> DESKTOP THEMING
+beautyline
 garuda-gnome-settings
 qgnomeplatform-qt5
 qgnomeplatform-qt6
@@ -36,7 +36,7 @@ qgnomeplatform-qt6
 
 ####---->> DISPLAY MANAGER
 gdm
-
+gnome-initial-setup
 
 ####---->> DESKTOP ENVIRONMENT
 gnome-control-center
@@ -45,6 +45,7 @@ gnome-screenshot
 gnome-session                                    
 gnome-settings-daemon                                           
 gnome-shell
+gnome-shell-extensions
 gnome-system-monitor                                                                          
 gnome-terminal
 gnome-tweaks
@@ -52,17 +53,42 @@ mutter
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
+baobab
+cheese
+drawing
 eog
+eog-plugins
 evince
 nautilus
+nautilus-image-converter
+nautilus-share
+nautilus-sendto
+seahorse-nautilus
+tumbler
+webp-pixbuf-loader
+libopenraw
 ffmpegthumbnailer
-file-roller
 sushi
+file-roller
+fragments
 geary
 gedit
 gedit-plugins
+gnome-books
 gnome-calculator
+gnome-characters
+gnome-clocks
+gnome-connections
 gnome-disk-utility
+gnome-font-viewer
+gnome-logs
+gnome-music
+gnome-photos
+gnome-remote-desktop
+gnome-sound-recorder
+gnome-user-share
+gpaste
+grilo-plugins
 gvfs
 gvfs-afc
 gvfs-goa
@@ -71,10 +97,35 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-
-
+Gtranslator
+kooha
+malcontent
+orca
+pitivi
+rygel
+seahorse
+totem
+libappindicator-gtk3
 ####---->> OTHER APPS
-chrome-gnome-shell
-firedragon
-mpv
 pamac-aur
+libreoffice-fresh
+firefox
+chromium
+xdman
+firefox-extension-xdm-browser-monitor
+firefox-ublock-origin
+firefox-dark-reader
+####----->> printer + scanner
+printer-support
+scanner-support
+samba-support
+simple-scan
+
+####------->> development
+#postman-bin
+#intellij-idea-community-edition
+#visual-studio-code-bin
+#jdk8-openjdk
+#jdk11-openjdk
+#jdk17-openjdk
+#jdk-openjdk
