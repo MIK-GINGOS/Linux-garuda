@@ -97,7 +97,7 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-Gtranslator
+gtranslator
 kooha
 malcontent
 orca
@@ -106,6 +106,7 @@ rygel
 seahorse
 totem
 libappindicator-gtk3
+handbrake
 ####---->> OTHER APPS
 pamac-aur
 libreoffice-fresh
