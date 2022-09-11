@@ -153,9 +153,7 @@ samba-support
 simple-scan
 
 ####------>> other
-pamac-aur
-gnome-software
-flatpak
+pamac-flatpak
 
 ####------->> development
 #slack-desktop
