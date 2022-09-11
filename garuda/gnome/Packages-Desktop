@@ -28,6 +28,7 @@ qt5-wayland
 
 
 ####---->> DESKTOP THEMING
+capitaine-cursors
 papirus-icon-theme
 garuda-gnome-settings
 qgnomeplatform-qt5
@@ -49,19 +50,45 @@ gnome-shell-extensions
 gnome-system-monitor                                                                          
 gnome-terminal
 gnome-tweaks
+gnome-menus
 mutter
+gnome-remote-desktop
+gnome-user-share
+gnome-logs
+malcontent
+rygel
 
 ####----->> gnome shell extensions
+gpaste
 gnome-shell-extension-appindicator
 gnome-shell-extension-dash-to-dock
+libappindicator-gtk3
 
 ####---->> DESKTOP ENVIRONMENT APPS
 baobab
 cheese
-drawing
 eog
 eog-plugins
-evince
+gedit
+gedit-plugins
+gnome-books
+gnome-boxes
+gnome-calculator
+gnome-calendar
+gnome-characters
+gnome-clocks
+gnome-contacts
+gnome-maps
+gnome-notes
+gnome-todo
+gnome-connections
+gnome-disk-utility
+gnome-font-viewer
+gnome-photos
+kooha
+
+
+####------>> File Manager Extensions
 nautilus
 nautilus-image-converter
 nautilus-share
@@ -72,27 +99,6 @@ webp-pixbuf-loader
 libopenraw
 ffmpegthumbnailer
 sushi
-file-roller
-fragments
-geary
-gedit
-gedit-plugins
-gnome-books
-gnome-boxes
-gnome-calculator
-gnome-characters
-gnome-clocks
-gnome-connections
-gnome-disk-utility
-gnome-font-viewer
-gnome-logs
-gnome-music
-gnome-photos
-gnome-remote-desktop
-gnome-sound-recorder
-gnome-user-share
-gpaste
-grilo-plugins
 gvfs
 gvfs-afc
 gvfs-goa
@@ -101,32 +107,58 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-kooha
-malcontent
-orca
-pitivi
-rygel
+file-roller
+
+####------>> security
 seahorse
-totem
-libappindicator-gtk3
-handbrake
-####---->> OTHER APPS
-jamesdsp
-pamac-aur
-libreoffice-fresh
+veracrypt
+
+####------>> Accessibility
+orca
+mousetweaks
+
+####---->> Internet
+fragments
+geary
 firefox
-chromium
+#chromium
 xdman
 firefox-extension-xdm-browser-monitor
 firefox-ublock-origin
 firefox-dark-reader
+
+####------>> Graphics
+gimp
+
+####------>> Multimedia
+jamesdsp
+audacity
+handbrake
+pitivi
+totem
+gnome-music
+gnome-sound-recorder
+
+####------>> Office
+libreoffice-fresh
+libmythes
+
+evince
+poppler-data
+
 ####----->> printer + scanner
 printer-support
 scanner-support
 samba-support
 simple-scan
 
+####------>> other
+pamac-aur
+gnome-software
+flatpak
+
 ####------->> development
+#slack-desktop
 #postman-bin
 #intellij-idea-community-edition
 #visual-studio-code-bin
