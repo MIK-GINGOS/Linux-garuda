@@ -121,7 +121,7 @@ mousetweaks
 fragments
 geary
 firefox
-#chromium
+chromium
 xdman
 firefox-extension-xdm-browser-monitor
 firefox-ublock-origin
@@ -160,11 +160,11 @@ simple-scan
 pamac-flatpak
 
 ####------->> development
-#slack-desktop
-#postman-bin
-#intellij-idea-community-edition
-#visual-studio-code-bin
-#jdk8-openjdk
-#jdk11-openjdk
-#jdk17-openjdk
-#jdk-openjdk
+slack-desktop
+postman-bin
+intellij-idea-community-edition
+visual-studio-code-bin
+jdk8-openjdk
+jdk11-openjdk
+jdk17-openjdk
+jdk-openjdk
