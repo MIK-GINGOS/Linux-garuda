@@ -76,3 +76,57 @@ garuda-common-settings
 garuda-icons
 garuda-system-maintenance
 
+
+## Virtualmachine drivers
+garuda-virtualmachine-guest-config
+
+## graphics drivers
+xf86-video-ati
+xf86-video-amdgpu
+xf86-video-nouveau
+
+
+
+## opencl
+ocl-icd
+lib32-ocl-icd
+opencl-mesa
+lib32-opencl-mesa
+intel-compute-runtime
+
+## hardware acceleration
+intel-media-driver
+libva-intel-driver
+lib32-libva-intel-driver
+
+libva-mesa-driver
+lib32-libva-mesa-driver
+
+mesa-vdpau
+lib32-mesa-vdpau
+
+libva-vdpau-driver
+lib32-libva-vdpau-driver
+
+libvdpau-va-gl
+
+vdpauinfo
+libva-utils
+
+## vulkan
+mesa
+lib32-mesa
+vulkan-icd-loader
+lib32-vulkan-icd-loader
+vulkan-mesa-layers
+lib32-vulkan-mesa-layers
+vulkan-swrast
+vulkan-intel
+lib32-vulkan-intel
+vulkan-radeon
+lib32-vulkan-radeon
+
+mesa-demos
+mesa-utils
+vulkan-tools
+
