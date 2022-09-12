@@ -78,10 +78,9 @@ gnome-connections
 gnome-disk-utility
 gnome-font-viewer
 gnome-sound-recorder
-gnome-user-docs
 gnome-weather
 kooha
-yelp
+
 
 ####------>> File Manager Extensions
 nautilus
@@ -174,3 +173,5 @@ jdk-openjdk
 #gnome-notes
 #gnome-todo
 #gnome-photos
+#gnome-user-docs
+#yelp
