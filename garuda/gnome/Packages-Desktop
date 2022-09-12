@@ -71,20 +71,15 @@ eog
 eog-plugins
 gedit
 gedit-plugins
-gnome-books
 gnome-boxes
 gnome-calculator
-gnome-calendar
 gnome-characters
 gnome-clocks
-gnome-contacts
-gnome-maps
-gnome-notes
-gnome-todo
 gnome-connections
 gnome-disk-utility
 gnome-font-viewer
-gnome-photos
+gnome-sound-recorder
+gnome-weather
 kooha
 
 
@@ -119,7 +114,7 @@ mousetweaks
 
 ####---->> Internet
 fragments
-geary
+thunderbird
 firefox
 chromium
 xdman
@@ -128,20 +123,12 @@ firefox-ublock-origin
 firefox-dark-reader
 
 ####------>> Graphics
-gimp
+drawing
 
 ####------>> Multimedia
-brasero
 jamesdsp
-audacity
-handbrake
-pitivi
-totem
-lollypop
-youtube-dl
-gnome-music
-gnome-sound-recorder
-easytag
+vlc
+amberol
 
 ####------>> Office
 libreoffice-fresh
@@ -168,3 +155,22 @@ jdk8-openjdk
 jdk11-openjdk
 jdk17-openjdk
 jdk-openjdk
+
+## extra
+#brasero
+#audacity
+#handbrake
+#pitivi
+#youtube-dl
+#easytag
+#gimp
+#totem
+#geary
+#gnome-music
+#gnome-books
+#gnome-calendar
+#gnome-contacts
+#gnome-maps
+#gnome-notes
+#gnome-todo
+#gnome-photos
