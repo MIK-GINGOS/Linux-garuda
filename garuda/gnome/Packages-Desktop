@@ -32,7 +32,6 @@ capitaine-cursors
 papirus-icon-theme
 garuda-gnome-settings
 qgnomeplatform-qt5
-qgnomeplatform-qt6
 
 
 ####---->> DISPLAY MANAGER
@@ -81,7 +80,7 @@ gnome-font-viewer
 gnome-sound-recorder
 gnome-weather
 kooha
-
+yelp
 
 ####------>> File Manager Extensions
 nautilus
