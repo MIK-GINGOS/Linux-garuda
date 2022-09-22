@@ -21,8 +21,6 @@ inetutils
 intel-ucode
 iproute2
 iputils
-ipw2100-fw
-ipw2200-fw
 licenses
 linux-firmware
 pacman 
