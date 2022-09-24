@@ -18,7 +18,7 @@ rate-mirrors
 ## Snapshot
 snapper-support
 snapper-tools
-
+>extra btrfs-assistant
 
 ## Boot animation
 >extra plymouth-git
@@ -69,7 +69,6 @@ lib32-pipewire-jack
 >extra unzip
 >extra zip
 
-
 ## Garuda specific
 garuda-assistant
 >extra garuda-boot-options
@@ -83,3 +82,7 @@ garuda-setup-assistant
 garuda-system-maintenance
 >extra garuda-wallpapers
 garuda-welcome
+
+# extra
+>extra reflector-simple
+>extra pace

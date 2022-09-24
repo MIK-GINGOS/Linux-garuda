@@ -102,8 +102,11 @@ ethtool
 gnu-netcat
 iptables-nft
 net-tools
+nmap
 nss-mdns
+traceroute
 wget
+whois
 wireless_tools
 
 

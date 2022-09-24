@@ -56,6 +56,7 @@ gnome-user-share
 gnome-logs
 malcontent
 rygel
+usbguard
 
 ####----->> gnome shell extensions
 gpaste
@@ -77,6 +78,7 @@ gnome-clocks
 gnome-connections
 gnome-disk-utility
 gnome-font-viewer
+gnome-nettool
 gnome-sound-recorder
 gnome-weather
 kooha
@@ -106,6 +108,8 @@ file-roller
 ####------>> security
 seahorse
 veracrypt
+firewalld
+nm-connection-editor
 
 ####------>> Accessibility
 orca
@@ -115,7 +119,6 @@ mousetweaks
 fragments
 thunderbird
 firefox
-chromium
 xdman
 firefox-extension-xdm-browser-monitor
 firefox-ublock-origin
@@ -125,7 +128,6 @@ firefox-dark-reader
 drawing
 
 ####------>> Multimedia
-jamesdsp
 vlc
 amberol
 
@@ -146,14 +148,15 @@ simple-scan
 pamac-flatpak
 
 ####------->> development
-slack-desktop
-postman-bin
-intellij-idea-community-edition
-visual-studio-code-bin
-jdk8-openjdk
-jdk11-openjdk
-jdk17-openjdk
-jdk-openjdk
+#chromium
+#slack-desktop
+#postman-bin
+#intellij-idea-community-edition
+#visual-studio-code-bin
+#jdk8-openjdk
+#jdk11-openjdk
+#jdk17-openjdk
+#jdk-openjdk
 
 ## extra
 #brasero
