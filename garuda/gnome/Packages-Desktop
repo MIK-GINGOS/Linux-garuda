@@ -110,6 +110,7 @@ seahorse
 veracrypt
 firewalld
 nm-connection-editor
+python-pyqt5
 
 ####------>> Accessibility
 orca
