@@ -6,11 +6,12 @@ xdotool
 
 ####---->> GARUDA THEMING & SETTINGS
 garuda-fish-config
-plymouth-theme-dr460nized
-grub-theme-garuda-dr460nized
+plymouth-theme-garuda-purple
+grub-theme-garuda
 
 
 ####---->> UTILITIES
+autorandr
 power-profiles-daemon
 xdg-desktop-portal-gnome
 xdg-user-dirs-gtk
@@ -28,15 +29,14 @@ qt5-wayland
 
 
 ####---->> DESKTOP THEMING
-capitaine-cursors
-papirus-icon-theme
 garuda-gnome-settings
 qgnomeplatform-qt5
+qgnomeplatform-qt6
 
 
 ####---->> DISPLAY MANAGER
 gdm
-gnome-initial-setup
+
 
 ####---->> DESKTOP ENVIRONMENT
 gnome-control-center
@@ -45,56 +45,24 @@ gnome-screenshot
 gnome-session                                    
 gnome-settings-daemon                                           
 gnome-shell
-gnome-shell-extensions
 gnome-system-monitor                                                                          
 gnome-terminal
 gnome-tweaks
-gnome-menus
 mutter
-gnome-remote-desktop
-gnome-user-share
-gnome-logs
-malcontent
-rygel
-usbguard
 
-####----->> gnome shell extensions
-gpaste
-gnome-shell-extension-appindicator
-gnome-shell-extension-dash-to-dock
-libappindicator-gtk3
 
 ####---->> DESKTOP ENVIRONMENT APPS
-baobab
-cheese
 eog
-eog-plugins
+evince
+nautilus
+ffmpegthumbnailer
+file-roller
+sushi
+geary
 gedit
 gedit-plugins
-gnome-boxes
 gnome-calculator
-gnome-characters
-gnome-clocks
-gnome-connections
 gnome-disk-utility
-gnome-font-viewer
-gnome-nettool
-gnome-sound-recorder
-gnome-weather
-kooha
-
-
-####------>> File Manager Extensions
-nautilus
-nautilus-image-converter
-nautilus-share
-nautilus-sendto
-seahorse-nautilus
-tumbler
-webp-pixbuf-loader
-libopenraw
-ffmpegthumbnailer
-sushi
 gvfs
 gvfs-afc
 gvfs-goa
@@ -103,79 +71,10 @@ gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-file-roller
 
-####------>> security
-seahorse
-veracrypt
-firewalld
-nm-connection-editor
-python-pyqt5
 
-####------>> Accessibility
-orca
-mousetweaks
-
-####---->> Internet
-fragments
-thunderbird
-firefox
-xdman
-firefox-extension-xdm-browser-monitor
-firefox-ublock-origin
-firefox-dark-reader
-
-####------>> Graphics
-drawing
-
-####------>> Multimedia
-vlc
-amberol
-
-####------>> Office
-libreoffice-fresh
-libmythes
-
-evince
-poppler-data
-
-####----->> printer + scanner
-printer-support
-scanner-support
-samba-support
-simple-scan
-
-####------>> other
-pamac-flatpak
-
-####------->> development
-#chromium
-#slack-desktop
-#postman-bin
-#intellij-idea-community-edition
-#visual-studio-code-bin
-#jdk8-openjdk
-#jdk11-openjdk
-#jdk17-openjdk
-#jdk-openjdk
-
-## extra
-#brasero
-#audacity
-#handbrake
-#pitivi
-#youtube-dl
-#easytag
-#gimp
-#totem
-#geary
-#gnome-music
-#gnome-books
-#gnome-calendar
-#gnome-contacts
-#gnome-maps
-#gnome-notes
-#gnome-todo
-#gnome-photos
-#gnome-user-docs
-#yelp
+####---->> OTHER APPS
+chrome-gnome-shell
+firedragon
+mpv
+pamac-aur
