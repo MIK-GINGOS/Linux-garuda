@@ -49,7 +49,6 @@ yaru-icon-theme
 autorandr
 xdg-desktop-portal
 xdg-desktop-portal-gtk
-ibus
 
 
 ####---->> XORG
@@ -139,6 +138,7 @@ gvfs-goa
 
 
 ####---->> OTHER APPS
+alacritty
 gparted
 meld  
 octopi
