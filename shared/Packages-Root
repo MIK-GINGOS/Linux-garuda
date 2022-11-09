@@ -130,9 +130,7 @@ lvm2
 man-db
 man-pages
 mdadm
-mkinitcpio-nfs-utils
-mkinitcpio-openswap
-mkinitcpio-systemd-tool
+garuda-dracut-support
 mlocate
 >extra rsync
 xsel

@@ -1,5 +1,5 @@
 ## Theming
-calamares
+calamares-git
 calamares-branding-garuda
 garuda-tools-base-git
 grub-theme-garuda-live
@@ -17,3 +17,6 @@ garuda-live-systemd
 gsmartcontrol
 nbd
 testdisk
+mkinitcpio-nfs-utils
+mkinitcpio-openswap
+mkinitcpio-systemd-tool
