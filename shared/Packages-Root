@@ -131,6 +131,7 @@ man-db
 man-pages
 mdadm
 garuda-dracut-support
+dracut
 mlocate
 >extra rsync
 xsel
