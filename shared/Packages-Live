@@ -17,6 +17,3 @@ garuda-live-systemd
 gsmartcontrol
 nbd
 testdisk
-mkinitcpio-nfs-utils
-mkinitcpio-openswap
-mkinitcpio-systemd-tool
