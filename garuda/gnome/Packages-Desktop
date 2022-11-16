@@ -5,9 +5,10 @@ xdotool
 
 
 ####---->> GARUDA THEMING & SETTINGS
-garuda-fish-config
+#garuda-fish-config
 plymouth-theme-garuda-purple
 grub-theme-garuda
+#grub-theme-vimix-color-1080p-git
 
 
 ####---->> UTILITIES
@@ -22,13 +23,14 @@ xorg-server
 xorg-xinit
 xorg-xinput
 
-
 ####---->> WAYLAND
 xorg-xwayland 
 qt5-wayland
+qt6-wayland
 
 
 ####---->> DESKTOP THEMING
+volantes-cursors
 garuda-gnome-settings
 qgnomeplatform-qt5
 qgnomeplatform-qt6
@@ -40,29 +42,69 @@ gdm
 
 ####---->> DESKTOP ENVIRONMENT
 gnome-control-center
+gnome-console
 gnome-keyring 
 gnome-screenshot
 gnome-session                                    
 gnome-settings-daemon                                           
 gnome-shell
 gnome-system-monitor                                                                          
-gnome-terminal
+#gnome-terminal
 gnome-tweaks
+#gnome-menus # This is for Classic
 mutter
+nm-connection-editor
+extension-manager
+
+####----->> gnome shell extensions
+gnome-shell-extensions
+gnome-shell-extension-appindicator
+gnome-shell-extension-arch-update
+libappindicator-gtk3
+gnome-browser-connector
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
+brasero
 eog
+eog-plugins
 evince
-nautilus
-ffmpegthumbnailer
-file-roller
-sushi
-geary
-gedit
-gedit-plugins
+#geary
+#gedit
+#gedit-plugins
 gnome-calculator
+gnome-calendar
+gnome-characters
+gnome-clocks
+gnome-connections
+gnome-contacts
 gnome-disk-utility
+gnome-font-viewer
+gnome-logs
+gnome-maps
+gnome-music
+gnome-nettool
+gnome-photos
+gnome-remote-desktop
+gnome-sound-recorder
+gnome-system-monitor
+gnome-text-editor
+gnome-todo
+gnome-user-share
+#gnome-video-effects
+gnome-weather
+yelp
+
+####------>> File Manager Extensions
+nautilus
+nautilus-image-converter
+nautilus-sendto
+seahorse-nautilus
+webp-pixbuf-loader
+libopenraw
+ffmpegthumbnailer
+sushi
+file-roller
 gvfs
 gvfs-afc
 gvfs-goa
@@ -72,9 +114,15 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 
+####------>> Accessibility
+orca
 
 ####---->> OTHER APPS
-chrome-gnome-shell
-firedragon
-mpv
-pamac-aur
+firefox
+thunderbird
+clapper
+pacseek
+#chrome-gnome-shell
+#firedragon
+#mpv
+#pamac-aur
