@@ -31,7 +31,8 @@ qt6-wayland
 
 ####---->> DESKTOP THEMING
 volantes-cursors
-garuda-gnome-settings
+#papirus-icon-theme
+garuda-gnome-settings-next
 qgnomeplatform-qt5
 qgnomeplatform-qt6
 
