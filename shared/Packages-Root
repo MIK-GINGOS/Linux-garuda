@@ -39,6 +39,7 @@ util-linux
 which
 wireless-regdb
 xz
+terminus-font # vconsole font
 
 
 ## GRUB + EFI
