@@ -42,7 +42,6 @@ lib32-pipewire-jack
 
 
 ## Fonts
->extra terminus-font            # Terminal font
 >extra noto-fonts               # default font
 >extra noto-fonts-cjk           # cjk font
 >extra noto-fonts-emoji         # emoji font

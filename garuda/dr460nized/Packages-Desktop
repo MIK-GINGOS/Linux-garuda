@@ -13,13 +13,13 @@ xdg-desktop-portal-kde
 
 
 ####---->> NETWORKING
-ufw
+firewalld
 
 
 ####---->> THEMING
 beautyline
 candy-icons-git
-garuda-dr460nized
+garuda-dr460nized-next
 garuda-fish-config
 kvantum-qt5
 plymouth-theme-dr460nized
@@ -54,7 +54,6 @@ plasma-thunderbolt
 plasma-firewall
 plasma-systemmonitor
 plasma5-applets-eventcalendar
-plasma5-applets-netspeed
 plasma5-applets-window-appmenu
 plasma5-applets-window-buttons
 plasma5-applets-window-title
@@ -89,7 +88,6 @@ sshfs
 ####---->> OTHER APPS
 firedragon
 firedragon-extension-plasma-integration
-latte-dock
 libappindicator-gtk3
 libinput_gestures_qt
 mpv

@@ -39,6 +39,7 @@ util-linux
 which
 wireless-regdb
 xz
+terminus-font # vconsole font
 
 
 ## GRUB + EFI
@@ -130,9 +131,8 @@ lvm2
 man-db
 man-pages
 mdadm
-mkinitcpio-nfs-utils
-mkinitcpio-openswap
-mkinitcpio-systemd-tool
+garuda-dracut-support
+dracut
 mlocate
 >extra rsync
 xsel
