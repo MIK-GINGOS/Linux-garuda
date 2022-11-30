@@ -50,7 +50,7 @@ lib32-pipewire-jack
 >extra ttf-fira-sans
 >extra ttf-liberation
 >extra ttf-opensans
-
+wqy-zenhei                      # super small cjk font
 
 ## Archive formats
 >extra arj
