@@ -24,8 +24,7 @@ ufw
 
 ####---->> THEMING
 beautyline
-candy-icons-git
-garuda-dr460nized
+garuda-dr460nized-next
 garuda-zsh-config
 garuda-fish-config
 kvantum-qt5
@@ -125,7 +124,6 @@ alacritty
 firedragon
 firedragon-extension-plasma-integration
 firedragon-extension-xdm-browser-monitor
-latte-dock
 libappindicator-gtk3
 libinput_gestures_qt
 mpv
@@ -196,9 +194,11 @@ retroarch-autoconfig-udev-git
 ####---->> EMULATORS
 libretro-meta
 
+
 ####---->> WINE
 wine-staging
 wine-meta
+
 
 ####---->> GAMES
 chromium-bsu
