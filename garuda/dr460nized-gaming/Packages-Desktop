@@ -87,9 +87,10 @@ kcalc
 kde-service-menu-reimage
 kde-servicemenus-encfs
 kde-servicemenus-komparemenu
+kde-servicemenus-officeconverter
 kde-servicemenus-pdf
 kde-servicemenus-pdf-encrypt-decrypt
-kde-servicemenus-officeconverter
+kde-servicemenus-rootactions
 kde-servicemenus-sendtodesktop
 kdeconnect
 kget
@@ -99,7 +100,6 @@ krfb
 ktorrent
 okular
 partitionmanager
-rootactions-servicemenu
 spectacle
 
 
