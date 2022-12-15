@@ -44,6 +44,7 @@ sddm-kcm
 ####---->> DESKTOP ENVIRONMENT
 bluedevil
 kde-gtk-config
+kdeplasma-addons
 khotkeys
 kinfocenter
 kinit
