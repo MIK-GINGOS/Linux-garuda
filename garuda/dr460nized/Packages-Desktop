@@ -18,7 +18,7 @@ firewalld
 
 ####---->> THEMING
 beautyline
-garuda-dr460nized-next
+garuda-dr460nized
 garuda-fish-config
 kvantum-qt5
 plymouth-theme-dr460nized
@@ -42,6 +42,7 @@ khotkeys
 kinfocenter
 kinit
 kscreen
+ksshaskpass
 kwallet-pam
 kwayland-integration
 kwin
