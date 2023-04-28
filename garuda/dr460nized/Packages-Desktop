@@ -1,4 +1,4 @@
-libsForQt5.sddm-kcmlibsForQt5.sddm-kcm####---->> XORG
+####---->> XORG
 xorg-server
 xorg-xwayland 
 xorg-xhost
