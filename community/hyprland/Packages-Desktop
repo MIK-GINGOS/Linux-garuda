@@ -1,7 +1,7 @@
 ####---->> AUDIO
+pamixer
 pavucontrol
 playerctl
-pamixer
 
 
 ####---->> NETWORK
@@ -10,21 +10,22 @@ modem-manager-gui
 network-manager-applet
 ufw
 
+
 ####---->> INPUT
 gestures
 
 
 ####---->> GARUDA THEMING & SETTINGS
 garuda-fish-config
-plymouth-theme-garuda
 garuda-zsh-config
 grub-theme-garuda
+plymouth-theme-garuda
 
 
 ####---->> UTILITIES
+jq
 xdg-desktop-portal
 xdg-desktop-portal-hyprland-git
-jq
 
 
 ####---->> WAYLAND
@@ -32,13 +33,13 @@ xorg-xwayland
 
 
 ####---->> DESKTOP THEMING
+beautyline
 garuda-hyprland-settings
+grub-theme-garuda
 gtk-engine-murrine
 kvantum-qt5
-beautyline
-sweet-theme-full-git
-grub-theme-garuda
 qt5ct
+sweet-theme-full-git
 
 
 ####---->> DISPLAY MANAGER
@@ -48,18 +49,20 @@ greetd-qtgreet
 
 ####---->> DESKTOP ENVIRONMENT
 hyprland-git
-waybar-hyprland-git
 swayidle
-xorg-xwayland-git
-wlroots-git
-wayland-protocols-git
-wayland
 swaylock
+waybar-hyprland-git
+wayland
+wayland-protocols-git
+wlroots-git
+xorg-xwayland
+
 
 ####---->> DESKTOP ENVIRONMENT APPS
-alacritty-git
+alacritty
 clipman
 copyq
+dolphin
 eog
 evince
 ffmpegthumbnailer
@@ -69,17 +72,17 @@ gedit
 gedit-plugins
 gnome-calculator
 gnome-disk-utility
+gnome-keyring
 gnome-logs
 gnome-system-monitor
-gnome-keyring
+grim
+grimshot
 gvfs
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-grim
-grimshot
 kanshi
 libgsf
 libopenraw
@@ -92,7 +95,6 @@ nwg-look
 polkit-gnome
 polkit-kde-git
 slurp
-dolphin
 wdisplays
 wf-recorder
 wl-clipboard
@@ -110,10 +112,11 @@ catfish
 deluge-gtk
 gsimplecal
 meld
+obs-studio
 pamac-aur
 ranger
-obs-studio
 wlrobs-hg
+
 
 ####---->> INTERNET
 firedragon
