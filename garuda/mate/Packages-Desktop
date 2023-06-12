@@ -3,12 +3,6 @@ pavucontrol
 playerctl
 
 
-####---->> AUDIO APPS
-mpv
-celluloid
-rhythmbox
-
-
 ####---->> NETWORK
 blueberry
 network-manager-applet
@@ -144,6 +138,7 @@ octopi
 redshift
 caffeine
 libayatana-appindicator
+mpv
 
 
 ####---->> INTERNET
