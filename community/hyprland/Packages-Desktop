@@ -84,6 +84,7 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 kanshi
+kate
 libgsf
 libopenraw
 librsvg
@@ -98,7 +99,6 @@ wdisplays
 wf-recorder
 wl-clipboard
 wlr-randr-git
-wlsunset
 wob
 wofi
 wpaperd
@@ -107,11 +107,9 @@ wtype
 
 ####---->> OTHER APPS
 bleachbit
-catfish
 deluge-gtk
 gsimplecal
 meld
-obs-studio
 pamac-aur
 ranger
 wlrobs-hg
