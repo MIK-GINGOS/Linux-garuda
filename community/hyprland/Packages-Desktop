@@ -67,6 +67,7 @@ eog
 evince
 ffmpegthumbnailer
 file-roller
+flameshot-git
 foot
 gedit
 gedit-plugins
@@ -86,6 +87,7 @@ gvfs-smb
 joplin-beta-appimage
 kanshi
 kate
+kitty
 libgsf
 libopenraw
 librsvg
@@ -96,7 +98,6 @@ nwg-launchers
 nwg-look
 polkit-gnome
 slurp
-spectacle
 wdisplays
 wf-recorder
 wl-clipboard
