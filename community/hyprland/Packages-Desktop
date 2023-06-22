@@ -44,7 +44,7 @@ sweet-theme-full-git
 
 ####---->> DISPLAY MANAGER
 greetd
-greetd-qtgreet
+gtkgreet
 
 
 ####---->> DESKTOP ENVIRONMENT
@@ -112,7 +112,6 @@ wtype
 bleachbit
 deluge-gtk
 gsimplecal
-ttf-jetbrains-mono
 meld
 otf-font-awesome
 otf-font-awesome-4
