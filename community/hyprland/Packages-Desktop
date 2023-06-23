@@ -3,7 +3,6 @@ pamixer
 pavucontrol
 playerctl
 
-
 ####---->> NETWORK
 blueberry
 modem-manager-gui
@@ -11,10 +10,8 @@ network-manager-applet
 nm-connection-editor
 ufw
 
-
 ####---->> INPUT
 gestures
-
 
 ####---->> GARUDA THEMING & SETTINGS
 garuda-fish-config
@@ -22,16 +19,13 @@ garuda-zsh-config
 grub-theme-garuda
 plymouth-theme-garuda
 
-
 ####---->> UTILITIES
 jq
 xdg-desktop-portal
 xdg-desktop-portal-hyprland-git
 
-
 ####---->> WAYLAND
 xorg-xwayland
-
 
 ####---->> DESKTOP THEMING
 beautyline
@@ -42,7 +36,6 @@ kvantum-git
 kvantum-qt5
 qt5ct
 sweet-theme-full-git
-
 
 ####---->> DISPLAY MANAGER
 greetd
@@ -59,7 +52,6 @@ wayland-protocols-git
 wlroots-git
 xorg-xwayland
 
-
 ####---->> DESKTOP ENVIRONMENT APPS
 alacritty
 clipman
@@ -70,6 +62,7 @@ evince
 ffmpegthumbnailer
 file-roller
 flameshot-git
+fsearch
 foot
 gedit
 gedit-plugins
@@ -98,6 +91,7 @@ mako
 nwg-drawer
 nwg-launchers
 nwg-look
+pacseek
 polkit-gnome
 slurp
 wdisplays
@@ -108,7 +102,7 @@ wob
 wofi
 wpaperd
 wtype
-
+xfce4-terminal
 
 ####---->> OTHER APPS
 bleachbit
@@ -123,10 +117,6 @@ ttf-firacode-nerd
 ttf-jetbrains-mono
 ttf-ubuntu-font-family
 wlrobs-hg
-
-# Remove, check, was not in Packages-Desktop but in ISO
-obs-studio
-
 
 ####---->> INTERNET
 firedragon
