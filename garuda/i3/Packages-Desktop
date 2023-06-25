@@ -53,6 +53,10 @@ xorg-xrandr
 xorg-xsetroot
 xorg-xwininfo
 
+####---->>Backlight
+light
+
+
 
 ####---->> WAYLAND
 #xorg-xwayland
