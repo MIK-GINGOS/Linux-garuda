@@ -56,7 +56,6 @@ xorg-xwayland
 alacritty
 clipman
 copyq
-dolphin
 eog
 evince
 ffmpegthumbnailer
@@ -94,6 +93,7 @@ nwg-look
 pacseek
 polkit-gnome
 slurp
+thunar
 wdisplays
 wf-recorder
 wl-clipboard
