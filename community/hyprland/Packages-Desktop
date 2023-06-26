@@ -38,9 +38,7 @@ qt5ct
 sweet-theme-full-git
 
 ####---->> DISPLAY MANAGER
-greetd
-greetd-agreety
-greetd-qtgreet
+sddm
 
 ####---->> DESKTOP ENVIRONMENT
 hyprland-git
