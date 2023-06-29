@@ -58,11 +58,10 @@ eog
 evince
 ffmpegthumbnailer
 file-roller
-flameshot-git
 fsearch
 foot
 galculator
-gedit
+geany
 gedit-plugins
 gnome-disk-utility
 gnome-keyring
@@ -70,6 +69,7 @@ gnome-logs
 gnome-system-monitor
 grim
 grimshot
+gparted
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -78,7 +78,6 @@ gvfs-nfs
 gvfs-smb
 joplin-beta-appimage
 kanshi
-kate
 kitty
 libgsf
 libopenraw
@@ -103,7 +102,6 @@ wtype
 xfce4-terminal
 
 ####---->> OTHER APPS
-bleachbit
 deluge-gtk
 gsimplecal
 meld
