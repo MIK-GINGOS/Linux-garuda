@@ -25,7 +25,6 @@ xdotool
 ## theme package
 garuda-zsh-config
 garuda-fish-config
-plymouth-theme-garuda
 grub-theme-garuda
 
 ####---->> UTILITIES

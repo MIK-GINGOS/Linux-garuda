@@ -34,19 +34,19 @@ sudo
 systemd
 systemd-sysvcompat
 tar
+terminus-font # vconsole font
 usbutils
 util-linux
 which
 wireless-regdb
 xz
-terminus-font # vconsole font
 
 
 ## GRUB + EFI
-grub-garuda
 efibootmgr
 grub
 grub-btrfs
+grub-garuda
 >extra memtest86+
 os-prober-btrfs
 update-grub
@@ -123,16 +123,16 @@ cryptsetup
 dialog
 dmidecode
 dmraid
+dracut
 freetype2
 fscrypt
+garuda-dracut-support
 logrotate
 lsb-release
 lvm2
 man-db
 man-pages
 mdadm
-garuda-dracut-support
-dracut
 mlocate
 >extra rsync
 xsel
@@ -145,8 +145,8 @@ micro
 
 
 ## Chaotic repo
-chaotic-mirrorlist
 chaotic-keyring
+chaotic-mirrorlist
 
 
 ## Garuda core system stuff
