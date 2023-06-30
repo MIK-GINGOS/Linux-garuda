@@ -40,7 +40,7 @@ sweet-theme-full-git
 sddm
 
 ####---->> DESKTOP ENVIRONMENT
-hyprland-git
+hyprland-nvidia-git
 swayidle
 swaylock
 waybar-hyprland-git
