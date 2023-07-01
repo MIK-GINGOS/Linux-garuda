@@ -116,4 +116,5 @@ wlrobs-hg
 ####---->> INTERNET
 librewolf
 librewolf-extension-bitwarden
-librewolf-extension-dark-reader librewolf-extension-plasma-integration
+librewolf-extension-dark-reader
+librewolf-extension-plasma-integration
