@@ -17,7 +17,6 @@ gestures
 garuda-fish-config
 garuda-zsh-config
 grub-theme-garuda
-plymouth-theme-garuda
 
 ####---->> UTILITIES
 jq
@@ -116,4 +115,7 @@ ttf-ubuntu-font-family
 wlrobs-hg
 
 ####---->> INTERNET
-firedragon
+librewolf
+librewolf-extension-bitwarden
+librewolf-extension-dark-reader
+librewolf-extension-plasma-integration

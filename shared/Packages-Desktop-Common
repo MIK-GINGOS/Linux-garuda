@@ -20,9 +20,6 @@ snapper-support
 snapper-tools
 >extra btrfs-assistant
 
-## Boot animation
->extra plymouth-git
-
 
 ## Network
 >extra bluetooth-support
