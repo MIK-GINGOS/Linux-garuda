@@ -41,6 +41,7 @@ sweet-theme-full-git
 sddm
 
 ####---->> DESKTOP ENVIRONMENT
+appmenu-gtk-module
 hyprland-git
 swayidle
 swaylock
