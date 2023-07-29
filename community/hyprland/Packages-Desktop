@@ -22,7 +22,6 @@ grub-theme-garuda
 jq
 xdg-desktop-portal
 xdg-desktop-portal-hyprland-git
-xdg-desktop-portal-wlr
 
 ####---->> WAYLAND
 xorg-xwayland
