@@ -57,7 +57,7 @@ xorg-xwininfo
 gtk-engine-murrine
 kvantum-qt5
 qt5ct
-ant-dracula-theme-git 
+dracula-gtk-theme-git
 dracula-kde-theme-git
 
 ####---->> DISPLAY MANAGER
