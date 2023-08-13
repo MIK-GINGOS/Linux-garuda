@@ -57,9 +57,8 @@ xorg-xwininfo
 gtk-engine-murrine
 kvantum-qt5
 qt5ct
-ant-dracula-kvantum-theme-git
 ant-dracula-theme-git 
-dracula-cursors-git
+dracula-kde-theme-git
 
 ####---->> DISPLAY MANAGER
 mousetweaks
