@@ -5,6 +5,7 @@ playerctl
 
 ####---->> NETWORK
 blueberry
+bluetooth-autoconnect
 modem-manager-gui
 network-manager-applet
 nm-connection-editor
@@ -111,4 +112,4 @@ ttf-ubuntu-font-family
 wlrobs-hg
 
 ####---->> INTERNET
-librewolf
+firedragon
