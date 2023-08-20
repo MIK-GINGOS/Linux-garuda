@@ -20,6 +20,7 @@ garuda-zsh-config
 grub-theme-garuda
 
 ####---->> UTILITIES
+gparted
 jq
 xdg-desktop-portal
 xdg-desktop-portal-hyprland-git
