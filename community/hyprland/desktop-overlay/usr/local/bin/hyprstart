@@ -8,7 +8,7 @@ export EDITOR=/usr/bin/micro
 export BROWSER=librewolf
 export TERM=foot
 export MAIL=thunderbird
-export QT_QPA_PLATFORMTHEME=qt5ct
+export QT_QPA_PLATFORMTHEME="qt5ct"
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 
 # Session
@@ -41,7 +41,6 @@ export SDL_VIDEODRIVER=wayland           # this can prevent programs from starti
 
 # Qt
 export QT_QPA_PLATFORM=wayland
-export QT_STYLE_OVERRIDE=kvantum-dark
 
 export FZF_DEFAULT_OPTS=" \
 --color=bg+:-1,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 \
