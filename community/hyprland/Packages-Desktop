@@ -47,7 +47,7 @@ appmenu-gtk-module
 hyprland-git
 swayidle
 swaylock
-waybar-hyprland-git
+waybar
 wayland
 wayland-protocols-git
 wlroots-git
