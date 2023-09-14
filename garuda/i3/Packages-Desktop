@@ -117,6 +117,7 @@ lxappearance-gtk3
 lxinput-gtk3
 lxrandr-gtk3
 menumaker
+pacutils
 picom
 polybar
 rofi
