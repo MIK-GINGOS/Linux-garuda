@@ -119,7 +119,6 @@ resvg
 alacritty
 firedragon
 firedragon-extension-plasma-integration
-firedragon-extension-xdm-browser-monitor
 libappindicator-gtk3
 libinput_gestures_qt
 mpv
@@ -200,4 +199,4 @@ mari0
 minetest
 minetest-server
 teeworlds
-zdummy-vlkdrv # dummy package to avoid installing un necessary vulkan driver
+zdummy-vlkdrv # dummy package to avoid installing unnecessary vulkan driver
