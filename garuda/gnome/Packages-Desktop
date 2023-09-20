@@ -23,7 +23,7 @@ xorg-xinput
 
 
 ####---->> WAYLAND
-xorg-xwayland 
+xorg-xwayland
 qt5-wayland
 
 
@@ -39,12 +39,12 @@ gdm
 
 ####---->> DESKTOP ENVIRONMENT
 gnome-control-center
-gnome-keyring 
+gnome-keyring
 gnome-screenshot
-gnome-session                                    
-gnome-settings-daemon                                           
+gnome-session
+gnome-settings-daemon
 gnome-shell
-gnome-system-monitor                                                                          
+gnome-system-monitor
 gnome-terminal
 gnome-tweaks
 mutter
@@ -77,4 +77,3 @@ sushi
 chrome-gnome-shell
 firedragon
 mpv
-pamac-aur
