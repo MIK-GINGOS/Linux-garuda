@@ -29,8 +29,6 @@ qt5-wayland
 
 ####---->> DESKTOP THEMING
 garuda-gnome-settings
-qgnomeplatform-qt5
-qgnomeplatform-qt6
 
 
 ####---->> DISPLAY MANAGER
