@@ -22,6 +22,7 @@ grub-theme-garuda
 ####---->> UTILITIES
 gparted
 jq
+ugrep
 xdg-desktop-portal
 xdg-desktop-portal-hyprland-git
 
