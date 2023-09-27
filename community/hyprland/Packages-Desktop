@@ -94,8 +94,8 @@ polkit-gnome
 slurp
 thunar
 wdisplays
-wf-recorder
 wl-clipboard
+wl-screenrec-git
 wlr-randr-git
 wofi
 wpaperd
