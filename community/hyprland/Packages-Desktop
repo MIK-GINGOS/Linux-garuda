@@ -72,7 +72,6 @@ gnome-system-monitor
 grim
 grimblast-git
 grimshot
-hyprshot
 gvfs
 gvfs-afc
 gvfs-gphoto2
@@ -90,16 +89,14 @@ mako
 nwg-drawer
 nwg-launchers
 nwg-look
-octopi
 pacseek
 polkit-gnome
 slurp
 thunar
 wdisplays
-wf-recorder
 wl-clipboard
+wl-screenrec-git
 wlr-randr-git
-wob
 wofi
 wpaperd
 wtype
@@ -115,7 +112,6 @@ ranger
 ttf-firacode-nerd
 ttf-jetbrains-mono
 ttf-ubuntu-font-family
-wlrobs-hg
 
 ####---->> INTERNET
 firedragon

@@ -23,14 +23,12 @@ xorg-xinput
 
 
 ####---->> WAYLAND
-xorg-xwayland 
+xorg-xwayland
 qt5-wayland
 
 
 ####---->> DESKTOP THEMING
 garuda-gnome-settings
-qgnomeplatform-qt5
-qgnomeplatform-qt6
 
 
 ####---->> DISPLAY MANAGER
@@ -39,12 +37,12 @@ gdm
 
 ####---->> DESKTOP ENVIRONMENT
 gnome-control-center
-gnome-keyring 
+gnome-keyring
 gnome-screenshot
-gnome-session                                    
-gnome-settings-daemon                                           
+gnome-session
+gnome-settings-daemon
 gnome-shell
-gnome-system-monitor                                                                          
+gnome-system-monitor
 gnome-terminal
 gnome-tweaks
 mutter
@@ -74,7 +72,6 @@ sushi
 
 
 ####---->> OTHER APPS
-chrome-gnome-shell
 firedragon
+gnome-browser-connector
 mpv
-pamac-aur

@@ -50,8 +50,6 @@ xorg-xsetroot
 ## Theme Packages
 garuda-xfce-settings
 gtk-engine-murrine
-qgnomeplatform-qt5
-qgnomeplatform-qt6
 papirus-icon-theme
 
 

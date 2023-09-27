@@ -25,7 +25,7 @@ xdg-desktop-portal-wlr
 
 
 ####---->> WAYLAND
-xorg-xwayland 
+xorg-xwayland
 
 
 ####---->> DESKTOP THEMING
@@ -75,7 +75,6 @@ libopenraw
 librsvg
 lollypop
 nautilus
-pamac-aur
 polkit-gnome
 popsicle
 sushi
