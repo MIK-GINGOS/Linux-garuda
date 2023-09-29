@@ -46,6 +46,7 @@ sddm
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
 hyprland-git
+rustup-git
 swayidle
 swaylock
 waybar
