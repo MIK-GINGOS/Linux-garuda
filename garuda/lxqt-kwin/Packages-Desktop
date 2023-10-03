@@ -3,6 +3,7 @@ pavucontrol-qt
 jamesdsp
 playerctl
 
+
 ####---->> NETWORK
 bluedevil
 nm-tray
@@ -19,11 +20,13 @@ xbindkeys
 xcape
 xdotool
 
+
 ####---->> GARUDA THEMING & SETTINGS
 garuda-zsh-config
 garuda-fish-config
 garuda-starship-prompt
 grub-theme-garuda
+
 
 ####---->> UTILITIES
 autorandr
@@ -56,9 +59,10 @@ xorg-xwayland
 ####---->> DESKTOP THEMING
 garuda-lxqt-kwin-settings
 gtk-engine-murrine
-kvantum-qt5
+kvantum
 cairo-dock
 beautyline
+
 
 ####---->> DISPLAY MANAGER
 sddm
@@ -103,9 +107,10 @@ smplayer-themes
 speedcrunch
 stacer
 
-###
+### Plasma
 plasma-firewall
 plasma-thunderbolt
+
 
 ####---->> INTERNET
 firedragon
