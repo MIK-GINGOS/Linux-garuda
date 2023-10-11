@@ -55,7 +55,7 @@ xorg-xwininfo
 
 ####---->> DESKTOP THEMING
 gtk-engine-murrine
-kvantum-qt5
+kvantum
 qt5ct
 dracula-gtk-theme-git
 dracula-kde-theme-git
