@@ -13,6 +13,7 @@ xorg-xinput
 
 ####---->> UTILITIES
 autorandr
+ugrep
 xdg-desktop-portal
 xdg-desktop-portal-kde
 
