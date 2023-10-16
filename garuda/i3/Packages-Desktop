@@ -31,6 +31,7 @@ grub-theme-garuda
 ####---->> UTILITIES
 ## Desktop Utils
 autorandr
+ugrep
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 
