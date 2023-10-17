@@ -30,6 +30,7 @@ grub-theme-garuda
 
 ####---->> UTILITIES
 autorandr
+ugrep
 xdg-desktop-portal
 xdg-desktop-portal-lxqt
 

@@ -5,6 +5,7 @@ xorg-xinit
 
 ####---->> UTILITIES
 networkmanager
+ugrep
 
 
 ####---->> THEMING

@@ -30,6 +30,7 @@ xautolock
 ## Utilities
 ## Desktop Utilities
 autorandr
+ugrep
 xdg-desktop-portal
 xdg-desktop-portal-gtk
 

@@ -21,9 +21,10 @@ grub-theme-garuda
 
 
 ####---->> UTILITIES
+jq
+ugrep
 xdg-desktop-portal
 xdg-desktop-portal-wlr
-jq
 
 
 ####---->> WAYLAND
