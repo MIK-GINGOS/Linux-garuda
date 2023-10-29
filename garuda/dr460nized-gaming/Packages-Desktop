@@ -81,10 +81,8 @@ jhead
 kate
 kcalc
 kde-service-menu-reimage
-kde-servicemenus-encfs
 kde-servicemenus-komparemenu
 kde-servicemenus-officeconverter
-kde-servicemenus-pdf
 kde-servicemenus-pdf-encrypt-decrypt
 kde-servicemenus-rootactions
 kde-servicemenus-sendtodesktop
@@ -106,7 +104,7 @@ icoutils
 kaccounts-providers
 kamera
 kdegraphics-thumbnailers
-kimageformats
+kimageformats5
 kio-extras
 kio-fuse
 kio-gdrive
