@@ -47,4 +47,8 @@ export FZF_DEFAULT_OPTS=" \
 
 export MICRO_TRUECOLOR=1
 
+# Let the user customize this hyprstart script by overriding stuff in $hyprstart
+ hyprstart="$HOME/.config/hypr/hyprstart"
+ [ -x $hyprstart ] && . $hyprstart
+
 exec Hyprland
