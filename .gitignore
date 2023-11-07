@@ -1,7 +1,4 @@
-community/openbox-dev
-*~
+*.sig
 *.tar.gz
 *.tar.xz
-.kateproject.d
-*.sig
-/blackbox/
+*~

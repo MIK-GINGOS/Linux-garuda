@@ -1,13 +1,33 @@
-iso-profiles
-==========================
+# Garuda Linux Plymouth theme
 
-###### profile.conf
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
+## Found any issue?
+
+- If any packaging issues occur, don't hesitate to report them via our issues section of our PKGBUILD repo. You can click [here](https://gitlab.com/garuda-linux/pkgbuilds/-/issues/new) to create a new one.
+- If issues concerning the configurations and settings occur, please open a new issue on this repository. Click [here](https://gitlab.com/garuda-linux/tools/iso-profiles/-/issues/new) to start the process.
+
+## How to contribute?
+
+We highly appreciate contributions of any sort! 😊 To do so, please follow these steps:
+
+- [Create a fork of this repository](https://gitlab.com/garuda-linux/tools/iso-profiles/-/forks/new).
+- Clone your fork locally ([short git tutorial](https://rogerdudler.github.io/git-guide/)).
+- Add the desired changes to PKGBUILDs or source code.
+- Commit using a [conventional commit message](https://www.conventionalcommits.org/en/v1.0.0/#summary) and push any changes back to your fork. This is crucial as it allows our CI to generate changelogs easily.
+  - The [commitizen](https://github.com/commitizen-tools/commitizen) application helps with creating a fitting commit message.
+  - You can install it via [pip](https://pip.pypa.io/) as there is currently no package in Arch repos: `pip install --user -U Commitizen`.
+  - Then proceed by running `cz commit` in the cloned folder.
+- [Create a new merge request at our main repository](https://gitlab.com/garuda-linux/tools/iso-profiles/-/merge_requests/new).
+- Check if any of the pipeline runs fail and apply eventual suggestions.
+
+We will then review the changes and eventually merge them.
+
+## How to use the repo?
+
+### Default profile.conf
 
 ~~~
-##########################################
-###### use this file in the profile ######
-##########################################
-
 # use multilib packages; x86_64 only
 # multilib="true"
 
@@ -80,7 +100,7 @@ iso-profiles
 # enable_openrc_live=('garuda-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
 ~~~
 
-###### New Packagelist tags
+### New package list tags
 
 ~~~
 >openrc
@@ -101,28 +121,28 @@ iso-profiles
 >extra
 ~~~
 
-###### Packages-Root
+### Packages-Root
 
-* Contains root image packages
-* ideally no xorg
+- Contains root image packages
+- Ideally no Xorg
 
-###### Packages-Desktop
+### Packages-Desktop
 
-* Contains the desktop image packages
-* desktop environment packages go here
+- Contains the desktop image packages
+- Desktop environment packages go here
 
-###### Packages-Mhwd
+### Packages-Mhwd
 
-* Contains the MHWD driver packages repo
+- Contains the MHWD driver packages repo
 
-###### Packages-Live
+### Packages-Live
 
-* Contains packages you only want in live session but not installed on the target system with installer
-* default files are in shared folder and can be symlinked or defined in a real file
+- Contains packages you only want in live session but not installed on the target system with installer
+- Default files are in shared folder and can be symlinked or defined in a real file
 
-###### buildiso can be configured to use custom repos
+### Buildiso can be configured to use custom repos
 
-* create a user-repos.conf
+- create a user-repos.conf
 
 ~~~
 ${profile_dir}/user-repos.conf
