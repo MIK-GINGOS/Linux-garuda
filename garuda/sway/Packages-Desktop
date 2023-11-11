@@ -55,12 +55,12 @@ swaybg
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
-alacritty
 calcurse
 dconf-editor
 eog
 evince
 ffmpegthumbnailer
+foot
 gedit
 gedit-plugins
 gnome-calculator
