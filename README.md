@@ -2,6 +2,9 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+This repository contains our ISO profiles, which determine what packages to install in each flavour.
+It also contains overlays, which are used to inject files into the future installed system or live CD.
+
 ## Found any issue?
 
 - If any packaging issues occur, don't hesitate to report them via our issues section of our PKGBUILD repo.
@@ -27,6 +30,15 @@ We highly appreciate contributions of any sort! 😊 To do so, please follow the
 We will then review the changes and eventually merge them.
 
 ## How to use the repo?
+
+### ISO builds via CI
+
+ISO builds may be triggered by every maintainer by adding one of the following choices to the commit message:
+
+- `[build all]`: runs the [buildall](https://gitlab.com/garuda-linux/tools/garuda-tools/-/blob/master/bin/buildall.in?ref_type=heads) command of the garuda-tools
+- `[build isoname]`: builds the specified ISO. Valid ISO names are read from the current profiles in the `garuda` and `community` folders.
+
+These particular pipelines only trigger on the master branch, while separate checks are set up for merge request events.
 
 ### Default profile.conf
 
@@ -154,3 +166,8 @@ ${profile_dir}/user-repos.conf
 **Add only your repos to user-repos.conf!**
 
 **Important**: Only online repos is allowed in the user-repos.conf. Buildiso will fail on file-based repos.
+
+## Development setup
+
+This repository features a NixOS flake, which may be used to set up the needed things like pre-commit hooks and checks, as well as needed utilities, automatically via [direnv](https://direnv.net/).
+Needed are [nix](https://nixos.org/) (the package manager) and direnv, after that, the environment may be entered by running `direnv allow`.
