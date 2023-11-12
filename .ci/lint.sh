@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 # This script is used to check the code style of the project
 # shellcheck disable=SC2086 # breaks for loops
-set -e
 
 # Check if the required tools are installed
 for dep in markdownlint shfmt shellcheck yamllint; do
@@ -21,14 +20,20 @@ _PATTERNS_YML=(".*.yml" ".*.yaml")
 
 # Run the actions
 for pattern in "${_PATTERNS_SH[@]}"; do
-	# shellcheck disable=SC2015
-	[[ "$_SHELLCHECK" != "shellcheck" ]] && $_SHELLCHECK $pattern | git apply &>/dev/null || true
-	[[ "$_SHELLCHECK" == "shellcheck" ]] && $_SHELLCHECK $pattern
-	$_SHFMT $pattern
+	[[ "$_SHELLCHECK" == "shellcheck" ]] && $_SHELLCHECK $pattern || _FAILURE=1
+	([[ "$_SHELLCHECK" != "shellcheck" ]] && $_SHELLCHECK $pattern | git apply &>/dev/null || true) || _FAILURE=1
+	$_SHFMT $pattern || _FAILURE=1
 done
 for pattern in "${_PATTERNS_MD[@]}"; do
-	$_MDLINT $pattern
+	$_MDLINT $pattern || _FAILURE=1
 done
 for pattern in "${_PATTERNS_YML[@]}"; do
-	$_YAMLLINT $pattern
+	$_YAMLLINT $pattern || _FAILURE=1
 done
+
+if [[ $_FAILURE -eq 1 ]]; then
+	echo "Code style check failed! 🙁"
+	exit 1
+else
+	echo "Code style check passed! 🎉"
+fi
