@@ -37,8 +37,8 @@ ISO builds may be triggered by every maintainer by adding one of the following c
 
 - `[build all]`: runs the [buildall](https://gitlab.com/garuda-linux/tools/garuda-tools/-/blob/master/bin/buildall.in?ref_type=heads) command of the garuda-tools
 - `[build isoname]`: builds the specified ISO. Valid ISO names are read from the current profiles in the `garuda` and `community` folders.
-
-These particular pipelines only trigger on the master branch, while separate checks are set up for merge request events.
+- `[build isoname -k linux-lts]`: builds the specified ISO using the `linux-lts` kernel. Any kernel residing in our repositories may be used as value.
+  These particular pipelines only trigger on the master branch, while separate checks are set up for merge request events.
 
 ### Manual builds via GitLab web UI
 
@@ -47,6 +47,11 @@ In order to do so, click the above link and select "Run pipeline" at the upper r
 
 - Variable key: `MANUAL_BUILD`
 - Variable value: one of `all` and `isoname` (isoname can be one of `garuda`/`community` profiles)
+
+If a custom kernel needs to be used, simply add a new variable (valid values are the same as above):
+
+- Variable key: `CUSTOM_KERNEL`
+- Variable value: `linux-lts`
 
 Then click run pipeline.
 
