@@ -2,3 +2,5 @@
 *.tar.gz
 *.tar.xz
 *~
+.direnv
+.pre-commit-config.yaml

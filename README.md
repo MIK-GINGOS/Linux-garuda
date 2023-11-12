@@ -2,10 +2,15 @@
 
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
+This repository contains our ISO profiles, which determine what packages to install in each flavour.
+It also contains overlays, which are used to inject files into the future installed system or live CD.
+
 ## Found any issue?
 
-- If any packaging issues occur, don't hesitate to report them via our issues section of our PKGBUILD repo. You can click [here](https://gitlab.com/garuda-linux/pkgbuilds/-/issues/new) to create a new one.
-- If issues concerning the configurations and settings occur, please open a new issue on this repository. Click [here](https://gitlab.com/garuda-linux/tools/iso-profiles/-/issues/new) to start the process.
+- If any packaging issues occur, don't hesitate to report them via our issues section of our PKGBUILD repo.
+  You can click [here](https://gitlab.com/garuda-linux/pkgbuilds/-/issues/new) to create a new one.
+- If issues concerning the configurations and settings occur, please open a new issue on this repository.
+  Click [here](https://gitlab.com/garuda-linux/tools/iso-profiles/-/issues/new) to start the process.
 
 ## How to contribute?
 
@@ -14,7 +19,8 @@ We highly appreciate contributions of any sort! 😊 To do so, please follow the
 - [Create a fork of this repository](https://gitlab.com/garuda-linux/tools/iso-profiles/-/forks/new).
 - Clone your fork locally ([short git tutorial](https://rogerdudler.github.io/git-guide/)).
 - Add the desired changes to PKGBUILDs or source code.
-- Commit using a [conventional commit message](https://www.conventionalcommits.org/en/v1.0.0/#summary) and push any changes back to your fork. This is crucial as it allows our CI to generate changelogs easily.
+- Commit using a [conventional commit message](https://www.conventionalcommits.org/en/v1.0.0/#summary) and push any changes back to your fork.
+  This is crucial as it allows our CI to generate changelogs easily.
   - The [commitizen](https://github.com/commitizen-tools/commitizen) application helps with creating a fitting commit message.
   - You can install it via [pip](https://pip.pypa.io/) as there is currently no package in Arch repos: `pip install --user -U Commitizen`.
   - Then proceed by running `cz commit` in the cloned folder.
@@ -25,9 +31,28 @@ We will then review the changes and eventually merge them.
 
 ## How to use the repo?
 
+### ISO builds via CI commit message
+
+ISO builds may be triggered by every maintainer by adding one of the following choices to the commit message:
+
+- `[build all]`: runs the [buildall](https://gitlab.com/garuda-linux/tools/garuda-tools/-/blob/master/bin/buildall.in?ref_type=heads) command of the garuda-tools
+- `[build isoname]`: builds the specified ISO. Valid ISO names are read from the current profiles in the `garuda` and `community` folders.
+
+These particular pipelines only trigger on the master branch, while separate checks are set up for merge request events.
+
+### Manual builds via GitLab web UI
+
+ISO builds may be triggered via the [Pipelines](https://gitlab.com/garuda-linux/tools/iso-profiles/-/pipelines) section of this repository as well.
+In order to do so, click the above link and select "Run pipeline" at the upper right side of the screen. You will be offered to enter a variable:
+
+- Variable key: `MANUAL_BUILD`
+- Variable value: one of `all` and `isoname` (isoname can be one of `garuda`/`community` profiles)
+
+Then click run pipeline.
+
 ### Default profile.conf
 
-~~~
+```sh
 # use multilib packages; x86_64 only
 # multilib="true"
 
@@ -98,11 +123,11 @@ We will then review the changes and eventually merge them.
 # names must match openrc service names
 # services in enable_openrc array don't need to be listed here
 # enable_openrc_live=('garuda-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
-~~~
+```
 
 ### New package list tags
 
-~~~
+```sh
 >openrc
 >systemd
 
@@ -119,7 +144,7 @@ We will then review the changes and eventually merge them.
 
 >basic
 >extra
-~~~
+```
 
 ### Packages-Root
 
@@ -144,10 +169,15 @@ We will then review the changes and eventually merge them.
 
 - create a user-repos.conf
 
-~~~
+```sh
 ${profile_dir}/user-repos.conf
-~~~
+```
 
 **Add only your repos to user-repos.conf!**
 
 **Important**: Only online repos is allowed in the user-repos.conf. Buildiso will fail on file-based repos.
+
+## Development setup
+
+This repository features a NixOS flake, which may be used to set up the needed things like pre-commit hooks and checks, as well as needed utilities, automatically via [direnv](https://direnv.net/).
+Needed are [nix](https://nixos.org/) (the package manager) and direnv, after that, the environment may be entered by running `direnv allow`.
