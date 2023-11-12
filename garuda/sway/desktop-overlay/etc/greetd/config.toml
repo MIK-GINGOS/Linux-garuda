@@ -2,10 +2,5 @@
 vt = 1
 
 [default_session]
-command = "sway --config /etc/greetd/swayconfig > /dev/null 2>&1"
+command = "swaystart --config /etc/greetd/sway.cfg > /dev/null 2>&1"
 user = "greeter"
-
-[General]
-Background = /usr/share/wallpapers/garuda-wallpapers/sway-sgs.png
-BaseColor = ffffffff
-TextColor = ffffff
