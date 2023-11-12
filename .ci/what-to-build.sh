@@ -10,7 +10,7 @@ if [[ -n "$MANUAL_BUILD" ]]; then
 
 	for i in "${_FLAVOUR[@]}"; do
 		# shellcheck disable=SC2076
-		[[ "$MANUAL_BUILD" == *"[build $i]"* ]] &&
+		[[ "$MANUAL_BUILD" == "$i" ]] &&
 			echo "$i" >>/tmp/TO_BUILD &&
 			echo "Requested ISO build for $i." &&
 			exit 0
