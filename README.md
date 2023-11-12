@@ -31,7 +31,7 @@ We will then review the changes and eventually merge them.
 
 ## How to use the repo?
 
-### ISO builds via CI
+### ISO builds via CI commit message
 
 ISO builds may be triggered by every maintainer by adding one of the following choices to the commit message:
 
@@ -39,6 +39,16 @@ ISO builds may be triggered by every maintainer by adding one of the following c
 - `[build isoname]`: builds the specified ISO. Valid ISO names are read from the current profiles in the `garuda` and `community` folders.
 
 These particular pipelines only trigger on the master branch, while separate checks are set up for merge request events.
+
+### Manual builds via GitLab web UI
+
+ISO builds may be triggered via the [Pipelines](https://gitlab.com/garuda-linux/tools/iso-profiles/-/pipelines) section of this repository as well.
+In order to do so, click the above link and select "Run pipeline" at the upper right side of the screen. You will be offered to enter a variable:
+
+- Variable key: `MANUAL_BUILD`
+- Variable value: one of `all` and `isoname` (isoname can be one of `garuda`/`community` profiles)
+
+Then click run pipeline.
 
 ### Default profile.conf
 
