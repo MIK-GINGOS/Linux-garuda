@@ -2,13 +2,13 @@
 
 function custom-kernel() {
 	[[ -n "$CUSTOM_KERNEL" ]] &&
-		printf "\n%s" "$CUSTOM_KERNEL" >>/tmp/TO_BUILD &&
+		echo " $CUSTOM_KERNEL" >>/tmp/TO_BUILD &&
 		echo "Using $CUSTOM_KERNEL as kernel." &&
 		exit 0
 
 	[[ "$CI_COMMIT_MESSAGE" == *"["*"-k"*"]"* ]] &&
 		CUSTOM_KERNEL=$("$CI_COMMIT_MESSAGE" | grep -Po "(?<=\[).*(?=\])" | awk -F ' ' '{ print $4 }') &&
-		printf "\n%s" "$CUSTOM_KERNEL" >>/tmp/TO_BUILD &&
+		echo " $CUSTOM_KERNEL" >>/tmp/TO_BUILD &&
 		echo "Using $CUSTOM_KERNEL as kernel." &&
 		exit 0
 }

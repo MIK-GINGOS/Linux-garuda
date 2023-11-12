@@ -46,10 +46,11 @@ build:
     - chmod 700 ~/.ssh
     - echo "$DEPLOY_KEY" >>~/.ssh/id_ed25519
     - chmod 400 ~/.ssh/id_ed25519
-    - apk add --no-cache --upgrade bash openssh
+    - apk add --no-cache --upgrade bash gawk openssh
     - bash .ci/what-to-build.sh
-    - TO_BUILD=$(cat /tmp/TO_BUILD)
-    - ssh -p "$BUILD_PORT" -o StrictHostKeyChecking=no "$BUILD_USER"@"$BUILD_HOST" "ci-trigger $TO_BUILD"
+    - ISO_FLAVOUR=$(awk -F ' ' '{ print $1 }' /tmp/TO_BUILD)
+    - KERNEL_FLAVOUR=$(awk -F ' ' '{ print $2 }' /tmp/TO_BUILD)
+    - ssh -p "$BUILD_PORT" -o StrictHostKeyChecking=no "$BUILD_USER"@"$BUILD_HOST" "ci-trigger $ISO_FLAVOUR $KERNEL_FLAVOUR"
   rules:
     - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $CI_COMMIT_MESSAGE =~ /\[build.*\]/
     - if: $MANUAL_BUILD != null
