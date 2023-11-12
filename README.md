@@ -1,5 +1,7 @@
 # Garuda Linux ISO profiles
 
+[![pipeline status](https://gitlab.com/garuda-linux/tools/iso-profiles/badges/master/pipeline.svg)](https://gitlab.com/garuda-linux/tools/iso-profiles/-/commits/master)
+[![Latest Release](https://gitlab.com/garuda-linux/tools/iso-profiles/-/badges/release.svg)](https://gitlab.com/garuda-linux/tools/iso-profiles/-/releases)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 This repository contains our ISO profiles, which determine what packages to install in each flavour.
@@ -55,7 +57,13 @@ If a custom kernel needs to be used, simply add a new variable (valid values are
 
 Then click run pipeline.
 
-### Default profile.conf
+### Pushing a new ISO release (WIP)
+
+This will be possible by pushing a new tag in the future.
+
+### About specific files in this repo
+
+#### Default profile.conf
 
 ```sh
 # use multilib packages; x86_64 only
@@ -130,7 +138,7 @@ Then click run pipeline.
 # enable_openrc_live=('garuda-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
 ```
 
-### New package list tags
+#### New package list tags
 
 ```sh
 >openrc
@@ -151,21 +159,21 @@ Then click run pipeline.
 >extra
 ```
 
-### Packages-Root
+#### Packages-Root
 
 - Contains root image packages
 - Ideally no Xorg
 
-### Packages-Desktop
+#### Packages-Desktop
 
 - Contains the desktop image packages
 - Desktop environment packages go here
 
-### Packages-Mhwd
+#### Packages-Mhwd
 
 - Contains the MHWD driver packages repo
 
-### Packages-Live
+#### Packages-Live
 
 - Contains packages you only want in live session but not installed on the target system with installer
 - Default files are in shared folder and can be symlinked or defined in a real file
