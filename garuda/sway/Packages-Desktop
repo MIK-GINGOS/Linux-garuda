@@ -55,11 +55,18 @@ swaybg
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
+autotiling
+azote
+bemenu-wlroots
 calcurse
+celluloid
+clipman
 dconf-editor
+dex
 eog
 evince
 ffmpegthumbnailer
+file-roller
 foot
 gedit
 gedit-plugins
@@ -68,44 +75,38 @@ gnome-disk-utility
 gnome-logs
 gnome-system-monitor
 gnome-keyring
-polkit-gnome
+grim
 gvfs
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
+kanshi
 libgsf
 libopenraw
 librsvg
+light
 lollypop
-celluloid
-thunar
-thunar-archive-plugin
-file-roller
-thunar-volman
-azote
-waybar
-grim
-slurp
-wofi
+mako
 nwg-launchers
 nwg-look
 nwg-drawer
-bemenu-wlroots
+polkit-gnome
+slurp
+swayr
+swappy
+thunar
+thunar-archive-plugin
+thunar-volman
+waybar
 wl-clipboard
-light
 wob
-mako
-autotiling
-clipman
-kanshi
+wofi
 wdisplays
 wf-recorder
 wlsunset
 wtype
-dex
-swayr
 
 
 ####---->> OTHER APPS
