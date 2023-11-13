@@ -11,6 +11,9 @@ function custom-kernel() {
 		echo " $CUSTOM_KERNEL" >>/tmp/TO_BUILD &&
 		echo "Using $CUSTOM_KERNEL as kernel." &&
 		exit 0
+
+	# if no custom kernel is specified, we still want to exit gracefully
+	exit 0
 }
 
 # Read a list of flavours from the community and garuda directories
