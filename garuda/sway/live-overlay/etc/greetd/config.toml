@@ -8,8 +8,3 @@ user = "greeter"
 [initial_session]
 command = "sway"
 user = "garuda"
-
-[General]
-Background = /usr/share/wallpapers/garuda-wallpapers/sway-sgs.png
-BaseColor = ffffffff
-TextColor = ffffff

@@ -2,5 +2,5 @@
 vt = 1
 
 [default_session]
-command = "swaystart --config /etc/greetd/sway.cfg > /dev/null 2>&1"
+command = "sway --config /etc/greetd/sway.cfg > /dev/null 2>&1"
 user = "greeter"
