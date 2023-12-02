@@ -49,7 +49,7 @@ garuda-cinnamon-settings
 gtk-engine-murrine
 kvantum
 qt5ct
-plasma5-themes-sweet-full-git
+sweet-theme-full-git
 
 ####---->> DISPLAY MANAGER
 accountsservice  # Enhanced user accounts handling
