@@ -98,12 +98,11 @@ thunar
 thunar-archive-plugin
 thunar-volman
 waybar
+waybar-module-pacman-updates-git
 wl-clipboard
-wob
 wofi
 wdisplays
 wf-recorder
-wlsunset
 wtype
 
 
