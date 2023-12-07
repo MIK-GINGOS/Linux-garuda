@@ -1,14 +1,11 @@
 ####---->> AUDIO
-pavucontrol
-playerctl
 pamixer
 
 
 ####---->> NETWORK
 blueberry
-modem-manager-gui
 network-manager-applet
-ufw
+
 
 ####---->> INPUT
 gestures
@@ -30,6 +27,7 @@ xdg-desktop-portal-wlr
 ####---->> WAYLAND
 xorg-xwayland
 qt5-wayland
+bemenu-wayland
 
 
 ####---->> DESKTOP THEMING
@@ -41,6 +39,7 @@ kvantum-theme-nordic-git
 nordic-darker-theme
 qt5ct
 tela-circle-icon-theme-git
+azote
 
 
 ####---->> DISPLAY MANAGER
@@ -49,6 +48,7 @@ greetd-regreet
 
 
 ####---->> DESKTOP ENVIRONMENT
+autotiling
 swayfx
 swayidle
 swaylock
@@ -56,13 +56,9 @@ swaybg
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
-autotiling
-azote
-bemenu-wlroots
 calcurse
 celluloid
 clipman
-dconf-editor
 dex
 eog
 evince
