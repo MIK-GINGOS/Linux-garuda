@@ -1,120 +1,119 @@
-####---->> AUDIO
+# > Application Launcher:
+dex
+nwg-launchers
+nwg-look
+nwg-drawer
+wofi
+
+# > Audio/Bluetooth:
+blueberry
 pamixer
 
+# > Authorization/Notification:
+gnome-keyring
+polkit-gnome
+mako
 
-####---->> NETWORK
-blueberry
-network-manager-applet
+# > Clipboard:
+clipman
+wl-clipboard
 
-
-####---->> INPUT
-gestures
-
-
-####---->> GARUDA THEMING & SETTINGS
-garuda-zsh-config
-garuda-fish-config
-grub-theme-garuda
-
-
-####---->> UTILITIES
-jq
-ugrep
-xdg-desktop-portal
-xdg-desktop-portal-wlr
-
-
-####---->> WAYLAND
-xorg-xwayland
-qt5-wayland
-bemenu-wayland
-
-
-####---->> DESKTOP THEMING
-capitaine-cursors
-garuda-sway-settings
-gtk-engine-murrine
-kvantum
-kvantum-theme-nordic-git
-nordic-darker-theme
-qt5ct
-tela-circle-icon-theme-git
-azote
-
-
-####---->> DISPLAY MANAGER
-greetd
-greetd-regreet
-
-
-####---->> DESKTOP ENVIRONMENT
+# > Desktop Environment:
 autotiling
 swayfx
 swayidle
 swaylock
 swaybg
+swayr
+waybar
+waybar-module-pacman-updates-git
+xdg-desktop-portal
+xdg-desktop-portal-wlr
+xorg-xhost
 
-
-####---->> DESKTOP ENVIRONMENT APPS
-calcurse
-celluloid
-clipman
-dex
-eog
-evince
-ffmpegthumbnailer
-file-roller
-foot
-galculator
-gnome-keyring
-gparted
+# > Display/Screenshot Tools:
 grim
+kanshi
+slurp
+swappy
+wdisplays
+wf-recorder
+
+# > Display Manager:
+greetd
+greetd-regreet
+
+# > Disk Utilities:
+gparted
+popsicle
+
+# > File/Data Management:
+catfish
+ffmpegthumbnailer
 gvfs
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-kanshi
+jq
 libgsf
 libopenraw
 librsvg
-light
-mako
-mousepad
-nwg-launchers
-nwg-look
-nwg-drawer
-polkit-gnome
-slurp
-swayr
-swappy
-tumbler
+meld
 thunar
 thunar-archive-plugin
 thunar-volman
-waybar
-waybar-module-pacman-updates-git
-wl-clipboard
-wofi
-wdisplays
-wf-recorder
-wtype
+tumbler
+ugrep
 
-
-####---->> OTHER APPS
-btop
-catfish
-meld
+# > Font Tools:
 otf-font-awesome
 otf-font-awesome-4
-popsicle
 ttf-jetbrains-mono
 ttf-jetbrains-mono-nerd
 ttf-nerd-fonts-symbols
 ttf-ubuntu-font-family
-xorg-xhost
 
+# > Garuda Packages:
+garuda-fish-config
+garuda-sway-settings
+garuda-zsh-config
+grub-theme-garuda
 
-####---->> INTERNET
+# > Input:
+gestures
+light
+wtype
+
+# > Media:
+celluloid
+
+# > Network:
+network-manager-applet
+
+# > Office:
+calcurse
+eog
+galculator
+mousepad
+
+# > Terminal/Monitoring:
+foot
+btop
+
+# > Theme:
+azote
+capitaine-cursors
+kvantum-theme-nordic-git
+nordic-darker-theme
+qt5ct
+tela-circle-icon-theme-git
+
+# > Wayland:
+xorg-xwayland
+qt5-wayland
+bemenu-wayland
+
+# > Web Browser:
 firedragon
