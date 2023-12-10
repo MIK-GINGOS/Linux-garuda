@@ -1,9 +1,9 @@
 # > Application Launcher:
 dex
+fuzzel
 nwg-launchers
 nwg-look
 nwg-drawer
-wofi
 
 # > Audio/Bluetooth:
 blueberry
@@ -97,6 +97,7 @@ calcurse
 eog
 galculator
 mousepad
+swayimg
 
 # > Terminal/Monitoring:
 foot
