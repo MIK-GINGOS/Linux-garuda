@@ -15,7 +15,7 @@ polkit-gnome
 mako
 
 # > Clipboard:
-clipman
+cliphist
 wl-clipboard
 
 # > Desktop Environment:
