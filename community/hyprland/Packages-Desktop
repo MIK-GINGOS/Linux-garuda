@@ -48,7 +48,7 @@ hyprland-git
 swayidle
 swaylock
 waybar
-waybar-module-pacman-updates
+waybar-module-pacman-updates-git
 wayland
 wayland-protocols-git
 wlroots-git
