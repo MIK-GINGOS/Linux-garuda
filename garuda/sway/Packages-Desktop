@@ -6,6 +6,7 @@ nwg-look
 nwg-drawer
 
 # > Audio/Bluetooth:
+alsa-utils
 blueberry
 pamixer
 
