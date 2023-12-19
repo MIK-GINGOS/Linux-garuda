@@ -49,6 +49,7 @@ xorg-xsetroot
 
 
 ## Theme Packages
+garuda-fish-config  # To allow switching to fish even though bash is the default
 garuda-xfce-settings
 gtk-engine-murrine
 papirus-icon-theme
