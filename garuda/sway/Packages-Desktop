@@ -51,6 +51,7 @@ popsicle
 # > File/Data Management:
 catfish
 ffmpegthumbnailer
+file-roller
 gvfs
 gvfs-afc
 gvfs-gphoto2
