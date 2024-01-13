@@ -1,6 +1,5 @@
 ## Network
 >extra broadcom-wl-dkms
->extra rtw89-dkms-git
 
 ## Nonfree Nvidia
 >extra >nonfree_x86_64 garuda-nvidia-config
