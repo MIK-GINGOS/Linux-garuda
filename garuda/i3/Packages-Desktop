@@ -55,7 +55,7 @@ xorg-xwininfo
 
 
 ####---->>Backlight
-light
+brightnessctl
 
 
 ####---->> WAYLAND
