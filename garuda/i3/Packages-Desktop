@@ -2,7 +2,7 @@
 pasystray
 pavucontrol
 playerctl
-
+jamesdsp
 
 ####---->> NETWORK
 blueman
@@ -34,10 +34,6 @@ autorandr
 ugrep
 xdg-desktop-portal
 xdg-desktop-portal-gtk
-
-## Conky
-conky
-conky-manager
 
 
 ####---->> XORG
@@ -160,6 +156,7 @@ pacseek
 peek
 qpdfview
 viewnior
+yad
 
 
 ####---->> INTERNET
