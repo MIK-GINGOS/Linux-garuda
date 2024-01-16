@@ -111,12 +111,12 @@ azote
 capitaine-cursors
 kvantum-theme-nordic-git
 nordic-darker-theme
-qt5ct
 tela-circle-icon-theme-git
 
 # > Wayland:
 xorg-xwayland
 qt5-wayland
+qt6-wayland
 bemenu-wayland
 
 # > Web Browser:
