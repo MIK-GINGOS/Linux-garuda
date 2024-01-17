@@ -101,6 +101,7 @@ archlinux-xdg-menu
 azote
 dex
 dmenu
+dunst
 feh
 flashfocus
 i3
@@ -113,7 +114,6 @@ libinput-gestures
 lxappearance-gtk3
 lxinput-gtk3
 lxrandr-gtk3
-mako
 menumaker
 pacutils
 picom
