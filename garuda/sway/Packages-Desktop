@@ -9,6 +9,7 @@ nwg-drawer
 alsa-utils
 blueberry
 pamixer
+pavucontrol
 
 # > Authorization/Notification:
 gnome-keyring
