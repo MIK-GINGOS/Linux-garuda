@@ -25,7 +25,7 @@ gparted
 jq
 ugrep
 xdg-desktop-portal
-xdg-desktop-portal-hyprland-git
+xdg-desktop-portal-hyprland
 
 ####---->> WAYLAND
 xorg-xwayland
