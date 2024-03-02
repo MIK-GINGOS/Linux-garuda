@@ -2,7 +2,6 @@
 pasystray
 pavucontrol
 playerctl
-jamesdsp
 
 ####---->> NETWORK
 blueman
@@ -30,6 +29,7 @@ grub-theme-garuda
 
 ####---->> UTILITIES
 ## Desktop Utils
+arandr
 autorandr
 ugrep
 xdg-desktop-portal
@@ -122,7 +122,6 @@ rofi
 skippy-xd
 tint2
 xfce4-terminal
-zenity
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -149,9 +148,7 @@ gnome-keyring
 gparted
 gsimplecal
 meld
-mintstick
 mpv
-octopi
 pacseek
 peek
 qpdfview
@@ -161,7 +158,6 @@ yad
 
 ####---->> INTERNET
 firedragon
-nextcloud-client
 
 # Needed by Inkscape extensions
 python-cssselect
