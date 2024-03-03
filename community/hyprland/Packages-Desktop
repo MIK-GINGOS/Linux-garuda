@@ -45,20 +45,20 @@ sddm
 
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
-hyprland-git
+hyprland
 swayidle
 swaylock
 waybar
 waybar-module-pacman-updates-git
 wayland
 wayland-protocols-git
-wlroots-git
+wlroots
 xorg-xwayland
 
 ####---->> DESKTOP ENVIRONMENT APPS
 alacritty
+cliphist
 clipman
-copyq
 eog
 evince
 ffmpegthumbnailer
