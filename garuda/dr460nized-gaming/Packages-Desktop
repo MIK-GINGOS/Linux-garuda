@@ -15,6 +15,7 @@ xorg-xinput
 autorandr
 ugrep
 xdg-desktop-portal
+xdg-desktop-portal-gtk
 xdg-desktop-portal-kde
 
 
