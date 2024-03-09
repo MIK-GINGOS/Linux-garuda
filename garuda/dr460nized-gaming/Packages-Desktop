@@ -28,13 +28,12 @@ firewalld
 beautyline
 garuda-dr460nized
 garuda-fish-config
-kvantum
 grub-theme-garuda-dr460nized
-plasma-wayland-session
+kvantum
+kvantum-qt5
 
 
 ####---->> SETTINGS
-garuda-settings-manager-kcm
 performance-tweaks
 
 
@@ -55,20 +54,18 @@ ksshaskpass
 kwallet-pam
 kwayland-integration
 kwin
-kwin-scripts-forceblur
+plasma-applet-window-buttons
 plasma-browser-integration
 plasma-desktop
+plasma-firewall
 plasma-nm
 plasma-pa
-plasma-thunderbolt
-plasma-firewall
 plasma-systemmonitor
-plasma5-applets-eventcalendar
-plasma5-applets-window-appmenu
-plasma5-applets-window-buttons
-plasma5-applets-window-title
-powerdevil
+plasma-thunderbolt
+plasma6-applets-window-title
+plasma6-wallpapers-blurredwallpaper
 power-profiles-daemon
+powerdevil
 quota-tools
 
 
@@ -81,12 +78,6 @@ gwenview
 jhead
 kate
 kcalc
-kde-service-menu-reimage
-kde-servicemenus-komparemenu
-kde-servicemenus-officeconverter
-kde-servicemenus-pdf-encrypt-decrypt
-kde-servicemenus-rootactions
-kde-servicemenus-sendtodesktop
 kdeconnect
 kget
 konsole
@@ -110,9 +101,9 @@ kio-extras
 kio-fuse
 kio-gdrive
 octopi
-qt5-imageformats
-ruby
+qt6-imageformats
 resvg
+ruby
 
 
 ####---->> OTHER APPS

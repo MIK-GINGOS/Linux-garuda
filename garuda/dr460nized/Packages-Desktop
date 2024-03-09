@@ -13,6 +13,7 @@ xdg-desktop-portal
 xdg-desktop-portal-gtk
 xdg-desktop-portal-kde
 
+
 ####---->> NETWORKING
 firewalld
 
@@ -21,13 +22,9 @@ firewalld
 beautyline
 garuda-dr460nized
 garuda-fish-config
-kvantum
 grub-theme-garuda-dr460nized
-plasma-wayland-session
-
-
-####---->> SETTINGS
-garuda-settings-manager-kcm
+kvantum
+kvantum-qt5
 
 
 ####---->> DISPLAY MANAGER
@@ -47,20 +44,18 @@ ksshaskpass
 kwallet-pam
 kwayland-integration
 kwin
-kwin-scripts-forceblur
+plasma-applet-window-buttons
 plasma-browser-integration
 plasma-desktop
+plasma-firewall
 plasma-nm
 plasma-pa
-plasma-thunderbolt
-plasma-firewall
 plasma-systemmonitor
-plasma5-applets-eventcalendar
-plasma5-applets-window-appmenu
-plasma5-applets-window-buttons
-plasma5-applets-window-title
-powerdevil
+plasma-thunderbolt
+plasma6-applets-window-title
+plasma6-wallpapers-blurredwallpaper
 power-profiles-daemon
+powerdevil
 quota-tools
 
 
@@ -73,7 +68,6 @@ kdeconnect
 konsole
 okular
 partitionmanager
-kde-servicemenus-rootactions
 spectacle
 
 
@@ -83,7 +77,7 @@ ffmpegthumbs
 kdegraphics-thumbnailers
 kimageformats5
 octopi
-qt5-imageformats
+qt6-imageformats
 resvg
 sshfs
 
