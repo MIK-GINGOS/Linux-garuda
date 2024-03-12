@@ -102,6 +102,7 @@ kio-fuse
 kio-gdrive
 octopi
 qt6-imageformats
+qt6-quick3d
 resvg
 ruby
 
