@@ -121,3 +121,6 @@ bemenu-wayland
 
 # > Web Browser:
 librewolf
+
+# > Misc: 
+gnome-firmware

@@ -39,6 +39,7 @@ gdm
 
 ####---->> DESKTOP ENVIRONMENT
 gnome-control-center
+gnome-firmware
 gnome-keyring
 gnome-screenshot
 gnome-session

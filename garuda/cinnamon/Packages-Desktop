@@ -9,6 +9,7 @@ modem-manager-gui
 network-manager-applet
 ufw
 
+
 ####---->> INPUT
 numlockx
 wmctrl
@@ -43,6 +44,7 @@ xorg-xrandr
 xorg-xsetroot
 xorg-xwininfo
 
+
 ####---->> DESKTOP THEMING
 beautyline
 garuda-cinnamon-settings
@@ -50,6 +52,7 @@ gtk-engine-murrine
 kvantum
 qt5ct
 plasma5-themes-sweet-full-git
+
 
 ####---->> DISPLAY MANAGER
 accountsservice  # Enhanced user accounts handling
@@ -103,6 +106,7 @@ librsvg
 ####---->> OTHER APPS
 bleachbit
 celluloid
+gnome-firmware
 gnome-keyring
 gparted
 lollypop
@@ -110,6 +114,7 @@ mintstick
 catfish
 meld
 deluge-gtk
+
 
 ####---->> INTERNET
 firedragon

@@ -169,6 +169,7 @@ amdvlk
 lib32-amdvlk
 
 ## Miscellaneous Application
+gnome-firmware
 gnome-keyring
 qpdfview
 galculator
