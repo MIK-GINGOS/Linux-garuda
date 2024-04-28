@@ -58,23 +58,7 @@ rate-mirrors
 
 
 ## AUR support
->extra autoconf
->extra automake
->extra binutils
->extra bison
->extra fakeroot
->extra flex
->extra gcc
->extra git
->extra groff
->extra libtool
->extra m4
->extra make
->extra mercurial
->extra patch
->extra pkgconf
->extra subversion
->extra texinfo
+>extra base-devel
 
 
 ## Filesystem essentials
