@@ -108,10 +108,9 @@ pacseek
 
 # > Theme:
 azote
-capitaine-cursors
 kvantum-theme-nordic-git
 nordic-darker-theme
-tela-circle-icon-theme-git
+nordzy-icon-theme-git
 
 # > Wayland:
 xorg-xwayland
