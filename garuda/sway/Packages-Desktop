@@ -43,7 +43,7 @@ wf-recorder
 
 # > Display Manager:
 greetd
-greetd-regreet
+nwg-hello
 
 # > Disk Utilities:
 gparted
