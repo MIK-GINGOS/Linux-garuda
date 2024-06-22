@@ -119,7 +119,7 @@ qt6-wayland
 bemenu-wayland
 
 # > Web Browser:
-librewolf
+firedragon
 
 # > Misc: 
 gnome-firmware
