@@ -76,14 +76,12 @@ gnome-system-monitor
 grim
 grimblast-git
 grimshot
-gum
 gvfs
 gvfs-afc
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
-hyprpicker
 kanshi
 kitty
 libgsf
@@ -97,7 +95,6 @@ pacseek
 polkit-gnome
 slurp
 swappy
-swww
 thunar
 wdisplays
 wlr-randr-git
