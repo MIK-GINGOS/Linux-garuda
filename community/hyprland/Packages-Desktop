@@ -46,6 +46,7 @@ sddm
 
 ####---->> DESKTOP ENVIRONMENT
 appmenu-gtk-module
+aquamarine
 hyprland
 swayidle
 swaylock
@@ -53,7 +54,6 @@ waybar
 waybar-module-pacman-updates-git
 wayland
 wayland-protocols-git
-wlroots
 xorg-xhost
 xorg-xwayland
 
