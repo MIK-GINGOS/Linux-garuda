@@ -17,4 +17,5 @@ garuda-live-systemd
 gparted
 gsmartcontrol
 nbd
+smartmontools
 testdisk
