@@ -117,7 +117,7 @@ lvm2
 man-db
 man-pages
 mdadm
-mlocate
+plocate
 >extra rsync
 xsel
 
