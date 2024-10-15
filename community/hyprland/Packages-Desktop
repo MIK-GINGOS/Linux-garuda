@@ -1,4 +1,5 @@
 ####---->> AUDIO
+alsa-utils
 pamixer
 pavucontrol
 playerctl
