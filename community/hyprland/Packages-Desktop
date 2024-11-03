@@ -49,7 +49,7 @@ sddm
 appmenu-gtk-module
 aquamarine
 hyprland
-swayidle
+hypridle
 swaylock
 waybar
 waybar-module-pacman-updates-git
