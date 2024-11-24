@@ -14,8 +14,15 @@
 
     # Easy linting of the flake and all kind of other stuff
     pre-commit-hooks.url = "github:cachix/pre-commit-hooks.nix";
-    pre-commit-hooks.inputs.flake-utils.follows = "flake-utils";
     pre-commit-hooks.inputs.nixpkgs.follows = "nixpkgs";
+
+    # TODO: https://github.com/NixOS/nix/pull/9163
+    src-buildiso = {
+      type = "gitlab";
+      owner = "garuda-linux";
+      repo = "tools%2Fbuildiso-docker";
+      flake = false;
+    };
   };
   outputs =
     { devshell
@@ -62,6 +69,22 @@
 
           devShells =
             let
+              buildiso = ''
+                if ! command -v docker &>/dev/null; then
+                  echo "This command requires Docker to be installed. Please install Docker and try again."
+                  exit 1
+                fi
+                if ! docker images | grep buildiso &>/dev/null; then
+                  docker build ${inputs.src-buildiso} -t buildiso
+                fi
+                docker run --rm -it --privileged --name buildiso \
+                       -v "./buildiso/buildiso:/var/cache/garuda-tools/garuda-chroots/buildiso" \
+                       -v "./buildiso/cron:/var/spool/anacron" \
+                       -v "./buildiso/pkg:/var/cache/pacman/pkg/" \
+                       -v "./buildiso/iso:/var/cache/garuda-tools/garuda-builds/iso/" \
+                       -v "./buildiso/logs:/var/cache/garuda-tools/garuda-logs/" \
+                       buildiso /bin/bash
+              '';
               makeDevshell = import "${inp.devshell}/modules" pkgs;
               mkShell = config:
                 (makeDevshell {
@@ -83,6 +106,12 @@
                   { package = "shellcheck"; }
                   { package = "shfmt"; }
                   { package = "yamllint"; }
+                  {
+                    name = "buildiso";
+                    help = "Spawns a local buildiso shell to build to ./buildiso (needs Docker)";
+                    category = "infra-nix";
+                    command = buildiso;
+                  }
                 ];
                 devshell.startup = {
                   preCommitHooks.text = self.checks.${system}.pre-commit-check.shellHook;

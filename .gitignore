@@ -3,4 +3,5 @@
 *.tar.xz
 *~
 .direnv
+.idea
 .pre-commit-config.yaml
