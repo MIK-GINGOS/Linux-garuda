@@ -167,11 +167,11 @@
     "src-buildiso": {
       "flake": false,
       "locked": {
-        "lastModified": 1714290510,
-        "narHash": "sha256-FdssgjLU++yDisnGTzcz61Gys423ycBGd++riwoadqY=",
+        "lastModified": 1732452988,
+        "narHash": "sha256-yn7/9OPJ2Lo7J0n4g92Kh2Ps2I4PuLk8jqPd3wcOq4w=",
         "owner": "garuda-linux",
         "repo": "tools%2Fbuildiso-docker",
-        "rev": "55583999d637d1b6e4103b1d4bd50a4d0c5d4fc1",
+        "rev": "030df7729eaee43e39694dcd04d08bd7befa4010",
         "type": "gitlab"
       },
       "original": {
