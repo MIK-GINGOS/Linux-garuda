@@ -1,0 +1,88 @@
+####---->> UTILITIES
+autorandr
+ugrep
+xdg-desktop-portal
+xdg-desktop-portal-gtk
+xdg-desktop-portal-kde
+
+
+####---->> NETWORKING
+firewalld
+
+
+####---->> THEMING
+garuda-mokka
+garuda-fish-config
+kvantum
+
+
+####---->> DESKTOP EFFECTS
+kwin-effect-rounded-corners-git
+kwin-effects-forceblur
+
+
+####---->> DISPLAY MANAGER
+sddm
+sddm-kcm
+
+
+####---->> DESKTOP ENVIRONMENT
+bluedevil
+kde-gtk-config
+kdeplasma-addons
+kf6-servicemenus-rootactions
+kinfocenter
+kinit
+kscreen
+ksshaskpass
+kwallet-pam
+kwayland-integration
+kwin
+plasma-applet-window-buttons
+plasma6-applets-window-title
+plasma6-wallpapers-blurredwallpaper
+plasma-browser-integration
+plasma-desktop
+plasma-firewall
+plasma-nm
+plasma-pa
+plasma-systemmonitor
+plasma-thunderbolt
+power-profiles-daemon
+powerdevil
+quota-tools
+xwaylandvideobridge
+
+
+####---->> DESKTOP ENVIRONMENT APPS
+ark
+discover
+dolphin
+dolphin-plugins
+kate
+kdeconnect
+konsole
+okular
+partitionmanager
+spectacle
+
+
+####---->> ADDITIONAL FUNCTIONALITY
+appmenu-gtk-module
+ffmpegthumbs
+openh264
+kdegraphics-thumbnailers
+kimageformats
+octopi
+qt6-imageformats
+qt6-quick3d
+resvg
+sshfs
+
+
+####---->> OTHER APPS
+firedragon
+firedragon-extension-plasma-integration
+libappindicator-gtk3
+libinput_gestures_qt
+vlc
