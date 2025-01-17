@@ -7,6 +7,7 @@ nwg-drawer
 # > Audio/Bluetooth:
 alsa-utils
 blueberry
+bluetui
 pamixer
 pavucontrol
 
@@ -50,6 +51,7 @@ popsicle
 
 # > File/Data Management:
 catfish
+dua-cli
 ffmpegthumbnailer
 file-roller
 gvfs
@@ -100,6 +102,7 @@ mousepad
 swayimg
 
 # > Terminal/Monitoring:
+battop
 btop
 foot
 pacseek
