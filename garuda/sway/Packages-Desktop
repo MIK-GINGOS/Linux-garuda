@@ -1,7 +1,6 @@
 # > Application Launcher:
 dex
 fuzzel
-nwg-look
 nwg-drawer
 
 # > Audio/Bluetooth:
@@ -22,9 +21,11 @@ wl-clipboard
 
 # > Desktop Environment:
 autotiling
+gtklock
+gtklock-powerbar-module
+gtklock-userinfo-module
 swayfx
 swayidle
-swaylock-effects
 swaybg
 swayr
 waybar
@@ -103,15 +104,17 @@ swayimg
 
 # > Terminal/Monitoring:
 battop
-btop
+bottom
 foot
 pacseek
+s-tui
 
 # > Theme:
 azote
 kvantum
 kvantum-qt5
 nordic-darker-theme
+nwg-look
 tela-circle-icon-theme-nord
 
 # > Wayland:
