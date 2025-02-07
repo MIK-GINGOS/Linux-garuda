@@ -57,13 +57,13 @@ xwaylandvideobridge
 
 ####---->> DESKTOP ENVIRONMENT APPS
 ark
-discover
 dolphin
 dolphin-plugins
 kate
 kdeconnect
 konsole
 okular
+gwenview
 partitionmanager
 spectacle
 
