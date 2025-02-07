@@ -75,7 +75,6 @@ mtools
 >extra nfs-utils
 >extra nilfs-utils
 ntfs-3g
->extra reiserfsprogs
 >extra sshfs
 >extra xfsprogs
 
