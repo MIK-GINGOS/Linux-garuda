@@ -22,5 +22,15 @@ cosmic-wallpapers
 cosmic-workspaces
 xdg-desktop-portal-cosmic
 
+# > Garuda Packages:
+garuda-fish-config
+#garuda-cosmic-settings
+garuda-zsh-config
+grub-theme-garuda
+
+# > Theme:
+kvantum
+kvantum-qt5
+
 # > Web Browser:
 firedragon
