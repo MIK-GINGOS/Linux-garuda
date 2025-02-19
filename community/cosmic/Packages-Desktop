@@ -1,26 +1,26 @@
 # > Cosmic Package Group:
-cosmic cosmic-app-library
-cosmic cosmic-applets
-cosmic cosmic-bg
-cosmic cosmic-comp
-cosmic cosmic-files
-cosmic cosmic-greeter
-cosmic cosmic-idle
-cosmic cosmic-launcher
-cosmic cosmic-notifications
-cosmic cosmic-osd
-cosmic cosmic-panel
-cosmic cosmic-randr
-cosmic cosmic-screenshot
-cosmic cosmic-session
-cosmic cosmic-settings
-cosmic cosmic-settings-daemon
-cosmic cosmic-store
-cosmic cosmic-terminal
-cosmic cosmic-text-editor
-cosmic cosmic-wallpapers
-cosmic cosmic-workspaces
-cosmic xdg-desktop-portal-cosmic
+cosmic-app-library
+cosmic-applets
+cosmic-bg
+cosmic-comp
+cosmic-files
+cosmic-greeter
+cosmic-idle
+cosmic-launcher
+cosmic-notifications
+cosmic-osd
+cosmic-panel
+cosmic-randr
+cosmic-screenshot
+cosmic-session
+cosmic-settings
+cosmic-settings-daemon
+cosmic-store
+cosmic-terminal
+cosmic-text-editor
+cosmic-wallpapers
+cosmic-workspaces
+xdg-desktop-portal-cosmic
 
 # > Web Browser:
 firedragon
