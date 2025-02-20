@@ -24,7 +24,7 @@ xdg-desktop-portal-cosmic
 
 # > Garuda Packages:
 garuda-fish-config
-#garuda-cosmic-settings
+garuda-cosmic-settings
 garuda-zsh-config
 grub-theme-garuda
 
