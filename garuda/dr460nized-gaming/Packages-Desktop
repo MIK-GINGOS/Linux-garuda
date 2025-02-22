@@ -162,7 +162,7 @@ mangohud
 obs-studio
 openrgb
 piper
-proton-ge-custom
+#proton-ge-custom-bin
 protontricks-git
 reshade-shaders-git
 steamtinkerlaunch
