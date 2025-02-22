@@ -22,6 +22,9 @@ cosmic-wallpapers
 cosmic-workspaces
 xdg-desktop-portal-cosmic
 
+# > Font Packages:
+nerd-fonts-noto-sans-mono
+
 # > Garuda Packages:
 garuda-fish-config
 garuda-cosmic-settings
