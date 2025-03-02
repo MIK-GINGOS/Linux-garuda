@@ -65,19 +65,13 @@ wqy-zenhei                      # super small cjk font
 >extra zip
 
 ## Garuda specific
-garuda-assistant
+garuda-rani
 >extra garuda-boot-options
 >extra garuda-browser-settings
 garuda-common-settings
->extra garuda-gamer
 garuda-icons
 >extra garuda-network-assistant
 >extra garuda-settings-manager
 garuda-setup-assistant
 garuda-system-maintenance
 >extra garuda-wallpapers
-garuda-welcome
-
-# extra
->extra reflector-simple
->extra pace
