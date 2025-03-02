@@ -66,6 +66,8 @@ wqy-zenhei                      # super small cjk font
 
 ## Garuda specific
 garuda-rani
+garuda-welcome
+garuda-assistant
 >extra garuda-boot-options
 >extra garuda-browser-settings
 garuda-common-settings
