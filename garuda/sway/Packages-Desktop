@@ -124,7 +124,7 @@ qt6-wayland
 bemenu-wayland
 
 # > Web Browser:
-firedragon
+firedragon-catppuccin
 
 # > Misc: 
 gnome-firmware
