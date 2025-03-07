@@ -31,6 +31,9 @@ garuda-cosmic-settings
 garuda-zsh-config
 grub-theme-garuda
 
+# > Terminal for Setup Assistant
+alacritty
+
 # > Theme:
 kvantum
 kvantum-qt5
