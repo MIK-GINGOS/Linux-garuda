@@ -22,6 +22,14 @@ cosmic-wallpapers
 cosmic-workspaces
 xdg-desktop-portal-cosmic
 
+# > File/Data Management:
+gvfs
+gvfs-afc
+gvfs-gphoto2
+gvfs-mtp
+gvfs-nfs
+gvfs-smb
+
 # > Font Packages:
 nerd-fonts-noto-sans-mono
 
