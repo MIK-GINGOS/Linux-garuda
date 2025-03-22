@@ -49,8 +49,8 @@ sddm
 appmenu-gtk-module
 aquamarine
 hyprland
+hyprlock
 hypridle
-swaylock
 uwsm
 waybar
 waybar-module-pacman-updates-git
