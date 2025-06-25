@@ -69,9 +69,12 @@ garuda-rani
 >extra garuda-boot-options
 >extra garuda-browser-settings
 garuda-common-settings
+garuda-hardware-tool
 garuda-icons
 >extra garuda-network-assistant
->extra garuda-settings-manager
 garuda-setup-assistant
 garuda-system-maintenance
 >extra garuda-wallpapers
+
+# Open source drivers
+>extra garuda-hardware-profile-standard

@@ -116,10 +116,8 @@ vulkan-tools
 chaotic-mirrorlist
 chaotic-keyring
 
-## mhwd
-
-mhwd-garuda
-mhwd-db-garuda
+## garuda hardware tool
+garuda-hardware-tool
 
 plymouth-git
 grub-garuda

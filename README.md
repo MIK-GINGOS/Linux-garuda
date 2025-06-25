@@ -130,12 +130,12 @@ This will be possible by pushing a new tag in the future.
 # unset defaults to given values
 # names must match systemd service names
 # services in enable_systemd array don't need to be listed here
-# enable_systemd_live=('garuda-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
+# enable_systemd_live=('garuda-live' 'ght-live' 'pacman-init' 'mirrors-live')
 
 # unset defaults to given values,
 # names must match openrc service names
 # services in enable_openrc array don't need to be listed here
-# enable_openrc_live=('garuda-live' 'mhwd-live' 'pacman-init' 'mirrors-live')
+# enable_openrc_live=('garuda-live' 'ght-live' 'pacman-init' 'mirrors-live')
 ```
 
 #### New package list tags
