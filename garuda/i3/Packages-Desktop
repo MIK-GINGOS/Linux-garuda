@@ -164,3 +164,6 @@ firedragon
 
 # Needed by Inkscape extensions
 python-cssselect
+
+# Open source drivers
+garuda-hardware-profile-standard-x11

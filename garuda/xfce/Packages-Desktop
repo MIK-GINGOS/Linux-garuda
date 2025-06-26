@@ -187,3 +187,6 @@ xfburn
 systemd-ui
 python-xdg
 redshift
+
+# Open source drivers
+garuda-hardware-profile-standard-x11

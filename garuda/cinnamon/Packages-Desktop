@@ -119,3 +119,6 @@ deluge-gtk
 
 ####---->> INTERNET
 firedragon
+
+# Open source drivers
+garuda-hardware-profile-standard-x11
