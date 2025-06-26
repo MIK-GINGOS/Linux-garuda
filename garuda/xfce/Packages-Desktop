@@ -24,7 +24,8 @@ wmctrl
 xbindkeys
 xcape
 xdotool
-xautolock
+# FIXME: TODO: Replace this with something else
+# xautolock
 
 
 ## Utilities

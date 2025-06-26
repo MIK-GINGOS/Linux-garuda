@@ -13,7 +13,8 @@ ufw
 ####---->> INPUT
 numlockx
 wmctrl
-xautolock
+# FIXME: TODO: Replace this with something else
+# xautolock
 xbindkeys
 xcape
 xdotool
