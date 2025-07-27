@@ -194,4 +194,3 @@ mari0
 minetest
 minetest-server
 teeworlds
-zdummy-vlkdrv # dummy package to avoid installing unnecessary vulkan driver
