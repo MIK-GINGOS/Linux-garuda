@@ -83,7 +83,7 @@ ntfs-3g
 bind
 bridge-utils
 ethtool
-gnu-netcat
+openbsd-netcat
 iptables-nft
 net-tools
 nmap
