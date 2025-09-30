@@ -8,7 +8,6 @@ xdg-utils
 ## Package Management
 >extra downgrade
 >extra paru
-rate-mirrors
 
 ## Firmware
 >extra fwupd
