@@ -2,7 +2,7 @@
 stages: [checks, build]
 variables:
   BUILD_HOST: builds.garudalinux.org
-  BUILD_PORT: 227
+  BUILD_PORT: 220
   BUILD_USER: gitlab
 check-lint:
   # Check the scripts and yaml files for common anti-patterns and issues
