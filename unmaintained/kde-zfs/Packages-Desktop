@@ -6,7 +6,6 @@ xorg-xinit
 
 ####---->> THEMING
 grub-theme-garuda
-gtk-engine-murrine
 plymouth-theme-garuda
 
 

@@ -12,7 +12,7 @@ ufw
 
 
 ####---->> INPUT
-libinput_gestures_qt
+libinput-gestures-qt
 numlockx
 wmctrl
 xautolock
@@ -59,7 +59,6 @@ xorg-xwayland
 
 ####---->> DESKTOP THEMING
 garuda-lxqt-kwin-settings
-gtk-engine-murrine
 kvantum
 cairo-dock
 beautyline

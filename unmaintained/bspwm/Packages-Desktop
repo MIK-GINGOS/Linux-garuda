@@ -54,7 +54,6 @@ xorg-xwininfo
 ####---->> DESKTOP THEMING
 garuda-bspwm-settings
 lxappearance
-gtk-engine-murrine
 kvantum-qt5
 qt5ct
 tela-circle-icon-theme-git

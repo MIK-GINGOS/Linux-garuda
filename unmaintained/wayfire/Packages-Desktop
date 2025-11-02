@@ -31,7 +31,6 @@ xorg-xwayland
 
 ####---->> DESKTOP THEMING
 garuda-wayfire-settings
-gtk-engine-murrine
 kvantum
 qt5ct
 beautyline

@@ -11,7 +11,6 @@ ufw
 
 
 ####---->> INPUT
-gestures
 numlockx
 wmctrl
 # FIXME: TODO: Replace this with something else
@@ -61,7 +60,6 @@ brightnessctl
 
 ####---->> DESKTOP THEMING
 garuda-i3-settings
-gtk-engine-murrine
 kvantum
 kvantum-theme-qogir-git
 qogir-gtk-theme-git
@@ -114,9 +112,6 @@ i3status
 jgmenu
 kitty
 libinput-gestures
-lxappearance-gtk3
-lxinput-gtk3
-lxrandr-gtk3
 menumaker
 pacutils
 picom

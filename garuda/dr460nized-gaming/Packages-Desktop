@@ -117,7 +117,7 @@ alacritty
 firedragon
 firedragon-extension-plasma-integration
 libappindicator-gtk3
-libinput_gestures_qt
+libinput-gestures-qt
 mpv
 nextcloud-client
 thunderbird
@@ -141,7 +141,6 @@ lutris
 minecraft-launcher 
 minigalaxy
 steam
-steam-native-runtime
 
 
 ####---->> GAMING TOOLS

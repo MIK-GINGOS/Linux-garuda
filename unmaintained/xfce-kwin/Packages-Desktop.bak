@@ -126,7 +126,7 @@ sshfs
 ####---->> OTHER APPS
 firedragon
 libappindicator-gtk3
-libinput_gestures_qt
+libinput-gestures-qt
 libwnck3
 mpv
 vala-panel-appmenu-registrar-git

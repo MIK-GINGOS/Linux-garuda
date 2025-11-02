@@ -13,7 +13,6 @@ ufw
 
 
 ####---->> INPUT
-gestures
 numlockx
 wmctrl
 # FIXME: TODO: Replace this with something else
@@ -56,7 +55,6 @@ xorg-xwininfo
 
 
 ####---->> DESKTOP THEMING
-gtk-engine-murrine
 kvantum
 qt5ct
 dracula-gtk-theme-git

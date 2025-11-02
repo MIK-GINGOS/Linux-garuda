@@ -12,9 +12,6 @@ network-manager-applet
 nm-connection-editor
 ufw
 
-####---->> INPUT
-gestures
-
 ####---->> GARUDA THEMING & SETTINGS
 garuda-fish-config
 garuda-zsh-config
@@ -35,7 +32,6 @@ xorg-xwayland
 beautyline
 garuda-hyprland-settings
 grub-theme-garuda
-gtk-engine-murrine
 kvantum
 qt6ct
 plasma5-themes-sweet-full-git

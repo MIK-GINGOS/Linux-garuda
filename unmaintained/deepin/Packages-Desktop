@@ -44,7 +44,7 @@ simple-scan
 
 ####---->> INPUT
 input-devices-support
-libinput_gestures_qt
+libinput-gestures-qt
 
 
 ####---->> GARUDA THEMING & SETTINGS
@@ -120,7 +120,6 @@ xautolock
 
 ####---->> DESKTOP THEMING
 garuda-deepin-settings
-gtk-engine-murrine
 deepin-wallpapers-plasma
 
 

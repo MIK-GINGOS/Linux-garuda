@@ -27,7 +27,7 @@ skanlite
 
 
 ####---->> INPUT
-libinput_gestures_qt
+libinput-gestures-qt
 
 
 ####---->> GARUDA THEMING & SETTINGS
@@ -82,7 +82,6 @@ xorg-xwayland
 garuda-kde-settings
 garuda-zsh-config
 garuda-fish-config
-gtk-engine-murrine
 kvantum-qt5
 papirus-icon-theme
 kwin-decoration-sierra-breeze-enhanced-git
