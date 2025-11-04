@@ -22,6 +22,9 @@ cosmic-wallpapers
 cosmic-workspaces
 xdg-desktop-portal-cosmic
 
+# > Disk Utilities:
+gparted
+
 # > File/Data Management:
 gvfs
 gvfs-afc
@@ -48,3 +51,6 @@ kvantum-qt5
 
 # > Web Browser:
 firedragon-catppuccin
+
+# > Misc:
+xorg-xhost
