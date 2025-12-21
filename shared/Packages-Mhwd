@@ -3,7 +3,6 @@
 
 ## Nonfree Nvidia
 >extra >nonfree_x86_64 garuda-hardware-profile-nvidia
->extra >nonfree_x86_64 garuda-hardware-profile-nvidia-closed
 
 ## Virtualization
 garuda-hardware-profile-vm
