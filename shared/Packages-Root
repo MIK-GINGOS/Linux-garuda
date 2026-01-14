@@ -109,7 +109,6 @@ dmraid
 dracut
 freetype2
 fscrypt
-garuda-dracut-support
 logrotate
 lsb-release
 lvm2
@@ -135,3 +134,5 @@ chaotic-mirrorlist
 ## Garuda core system stuff
 garuda-hooks
 garuda-hardware-tool
+garuda-dracut-support
+garuda-config-agent
