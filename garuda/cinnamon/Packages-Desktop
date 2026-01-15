@@ -4,7 +4,7 @@ playerctl
 
 
 ####---->> NETWORK
-blueberry
+blueman
 modem-manager-gui
 network-manager-applet
 ufw
@@ -77,8 +77,6 @@ gnome-terminal-transparency
 nemo
 nemo-fileroller
 nemo-image-converter
-nemo-preview
-nemo-seahorse
 nemo-share
 warpinator
 webapp-manager

@@ -3,10 +3,6 @@
 ## Garuda Specific
 grub-theme-garuda
 
-## Shell
-bash
-bash-completion
-
 ## Audio
 pavucontrol
 playerctl
@@ -81,7 +77,6 @@ xfwm4-themes
 ffmpegthumbnailer
 libgsf
 libopenraw
-librsvg
 gvfs-mtp
 gvfs
 gvfs-afc
@@ -173,7 +168,7 @@ catfish
 meld
 nano
 vim
-neofetch-git
+>extra fastfetch
 peek
 mintstick
 bleachbit

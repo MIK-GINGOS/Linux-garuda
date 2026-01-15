@@ -5,7 +5,7 @@ nwg-drawer
 
 # > Audio/Bluetooth:
 alsa-utils
-blueberry
+blueman
 bluetui
 pamixer
 pavucontrol
