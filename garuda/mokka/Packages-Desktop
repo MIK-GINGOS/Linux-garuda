@@ -19,7 +19,7 @@ tela-circle-icon-theme-dracula
 
 ####---->> DESKTOP EFFECTS
 kwin-effect-rounded-corners-git
-kwin-effects-forceblur
+kwin-effects-better-blur-dx
 
 
 ####---->> DISPLAY MANAGER
