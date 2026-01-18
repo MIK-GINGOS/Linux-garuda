@@ -35,7 +35,7 @@ kvantum-qt5
 
 ####---->> DESKTOP EFFECTS
 kwin-effect-rounded-corners-git
-kwin-effects-forceblur
+kwin-effects-better-blur-dx
 
 
 ####---->> SETTINGS
