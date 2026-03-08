@@ -63,7 +63,7 @@ wqy-zenhei                      # super small cjk font
 >extra zip
 
 ## Garuda specific
-garuda-rani
+garuda-toolbox
 >extra garuda-boot-options
 >extra garuda-browser-settings
 garuda-common-settings

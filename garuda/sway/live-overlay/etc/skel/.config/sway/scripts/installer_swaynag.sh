@@ -2,7 +2,7 @@
 
 swaynag \
 -m '   Welcome to the Garuda Sway live environment! Click the "launch" button to start the installer. 󰁔' \
--Z "Launch the installer" 'pkill -9 garuda-rani || true && sudo -E calamares' \
+-Z "Launch the installer" 'sudo -E calamares' \
 -e bottom \
 -y overlay \
 -f jetbrainsmono \
