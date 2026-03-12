@@ -69,7 +69,9 @@ spectacle
 ####---->> ADDITIONAL FUNCTIONALITY
 appmenu-gtk-module
 ffmpegthumbs
+ffmpeg
 openh264
+libdvdcss
 kdegraphics-thumbnailers
 kimageformats
 octopi
@@ -84,4 +86,4 @@ firedragon-catppuccin
 firedragon-extension-plasma-integration
 libappindicator-gtk3
 libinput-gestures-qt
-vlc
+mpv
