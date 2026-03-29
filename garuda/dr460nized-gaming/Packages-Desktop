@@ -119,9 +119,9 @@ firedragon-extension-plasma-integration
 libappindicator-gtk3
 libinput-gestures-qt
 mpv
+mpv-usosc
 nextcloud-client
 thunderbird
-vlc
 
 
 ####---->> OTHER APPS EXTRA
