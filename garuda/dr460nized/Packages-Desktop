@@ -79,6 +79,9 @@ spectacle
 ####---->> ADDITIONAL FUNCTIONALITY
 appmenu-gtk-module
 ffmpegthumbs
+ffmpeg
+openh264
+libdvdcss
 kdegraphics-thumbnailers
 kimageformats
 octopi
