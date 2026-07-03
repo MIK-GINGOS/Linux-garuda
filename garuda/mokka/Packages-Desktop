@@ -84,7 +84,7 @@ sshfs
 ####---->> OTHER APPS
 firedragon-catppuccin
 firedragon-extension-plasma-integration
-libappindicator-gtk3
+libappindicator
 libinput-gestures-qt
 mpv
 mpv-uosc

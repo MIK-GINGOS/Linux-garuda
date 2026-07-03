@@ -31,7 +31,6 @@ xorg-xwayland
 ####---->> DESKTOP THEMING
 beautyline
 garuda-hyprland-settings
-grub-theme-garuda
 kvantum
 qt6ct
 plasma5-themes-sweet-full-git
@@ -51,7 +50,6 @@ waybar-module-pacman-updates-git
 wayland
 wayland-protocols-git
 xorg-xhost
-xorg-xwayland
 
 ####---->> DESKTOP ENVIRONMENT APPS
 alacritty
