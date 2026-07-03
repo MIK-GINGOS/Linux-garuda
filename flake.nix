@@ -28,25 +28,29 @@
     };
   };
   outputs =
-    { devshell
-    , flake-parts
-    , nixpkgs
-    , pre-commit-hooks
-    , self
-    , ...
-    } @ inp:
+    {
+      devshell,
+      flake-parts,
+      nixpkgs,
+      pre-commit-hooks,
+      self,
+      ...
+    }@inp:
     let
       inputs = inp;
 
       perSystem =
-        { pkgs
-        , system
-        , ...
-        }: {
+        {
+          pkgs,
+          system,
+          ...
+        }:
+        {
           checks.pre-commit-check = pre-commit-hooks.lib.${system}.run {
+            package = pkgs.prek;
             hooks = {
               commitizen.enable = true;
-              nixpkgs-fmt.enable = true;
+              nixfmt.enable = true;
               markdownlint.enable = true;
               pkgbuilds-shellcheck = {
                 enable = true;
@@ -89,7 +93,8 @@
                        buildiso /bin/bash
               '';
               makeDevshell = import "${inp.devshell}/modules" pkgs;
-              mkShell = config:
+              mkShell =
+                config:
                 (makeDevshell {
                   configuration = {
                     inherit config;
@@ -102,13 +107,7 @@
               garuda-shell = mkShell {
                 devshell.name = "garuda-shell";
                 commands = [
-                  { package = "commitizen"; }
-                  { package = "markdownlint-cli"; }
-                  { package = "pre-commit"; }
-                  { package = "nodePackages.prettier"; }
-                  { package = "shellcheck"; }
-                  { package = "shfmt"; }
-                  { package = "yamllint"; }
+                  { package = "prek"; }
                   {
                     name = "buildiso";
                     help = "Spawns a local buildiso shell to build to ./buildiso (needs Docker)";
@@ -134,7 +133,12 @@
       imports = [ inputs.pre-commit-hooks.flakeModule ];
 
       # The available systems
-      systems = [ "x86_64-linux" "aarch64-linux" "x86_64-darwin" "aarch64-darwin" ];
+      systems = [
+        "x86_64-linux"
+        "aarch64-linux"
+        "x86_64-darwin"
+        "aarch64-darwin"
+      ];
 
       # This applies to all systems
       inherit perSystem;
