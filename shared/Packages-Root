@@ -94,7 +94,7 @@ whois
 
 
 ## Monitoring
-htop
+btop
 >extra fastfetch
 inxi
 >extra powertop
