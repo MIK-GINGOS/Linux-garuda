@@ -23,7 +23,7 @@ iproute2
 iputils
 licenses
 linux-firmware
-pacman 
+pacman
 pciutils
 procps-ng
 psmisc
@@ -48,6 +48,7 @@ grub
 grub-btrfs
 grub-garuda
 >extra memtest86+
+>extra memtest86+-efi
 os-prober-btrfs
 update-grub
 
@@ -84,18 +85,16 @@ bind
 bridge-utils
 ethtool
 openbsd-netcat
-iptables-nft
-net-tools
+iptables
 nmap
 nss-mdns
 traceroute
 wget
 whois
-wireless_tools
 
 
 ## Monitoring
-htop
+btop
 >extra fastfetch
 inxi
 >extra powertop
@@ -105,7 +104,6 @@ inxi
 cryptsetup
 dialog
 dmidecode
-dmraid
 dracut
 freetype2
 fscrypt
@@ -123,7 +121,7 @@ xsel
 ## Text editors
 micro
 >extra nano
->extra vi
+>extra vim
 
 
 ## Chaotic repo

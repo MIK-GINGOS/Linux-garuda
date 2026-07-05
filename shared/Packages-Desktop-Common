@@ -48,16 +48,10 @@ lib32-pipewire-jack
 wqy-zenhei                      # super small cjk font
 
 ## Archive formats
->extra arj
->extra lha
 >extra lrzip
 >extra lzip
->extra lzop
->extra unace
->extra p7zip
+>extra 7zip
 >extra unarchiver
->extra unace
->extra unarj
 >extra unrar
 >extra unzip
 >extra zip

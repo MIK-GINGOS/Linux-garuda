@@ -115,10 +115,10 @@ ruby
 ####---->> OTHER APPS
 firedragon
 firedragon-extension-plasma-integration
-libappindicator-gtk3
+libappindicator
 libinput-gestures-qt
 mpv
-mpv-usosc
+mpv-uosc
 nextcloud-client
 thunderbird
 
@@ -185,8 +185,7 @@ wine-meta
 chromium-bsu
 gnuchess
 kde-games-meta
-lutris
 mari0
-minetest
-minetest-server
+luanti
+luanti-server
 teeworlds

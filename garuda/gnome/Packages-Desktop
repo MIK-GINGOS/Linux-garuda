@@ -64,14 +64,13 @@ gnome-shell-extensions
 gvfs
 gvfs-afc
 gvfs-goa
-gvfs-google
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
 gvfs-smb
 nautilus
 sushi
-tracker3-miners
+localsearch
 
 
 ####---->> OTHER APPS

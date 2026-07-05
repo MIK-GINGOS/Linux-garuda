@@ -104,7 +104,7 @@ dex
 dmenu
 dunst
 feh
-flashfocus
+flashfocus-git
 i3
 i3blocks
 i3lock
@@ -117,7 +117,7 @@ pacutils
 picom
 polybar
 rofi
-skippy-xd
+skippy-xd-git
 tint2
 xfce4-terminal
 
@@ -127,7 +127,6 @@ ffmpegthumbnailer
 gvfs
 gvfs-afc
 gvfs-goa
-gvfs-google
 gvfs-gphoto2
 gvfs-mtp
 gvfs-nfs
