@@ -36,10 +36,9 @@ xorg-xhost
 
 # > Display/Screenshot Tools:
 grim
-kanshi
+nwg-displays
 slurp
 swappy
-wdisplays
 wf-recorder
 
 # > Display Manager:
