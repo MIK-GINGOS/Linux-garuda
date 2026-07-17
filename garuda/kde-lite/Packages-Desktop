@@ -18,9 +18,9 @@ noto-fonts-emoji
 ####---->> SETTINGS
 garuda-fish-config
 
+
 ####---->> DISPLAY MANAGER
-sddm
-sddm-kcm
+plasma-login-manager
 
 
 ####---->> DESKTOP ENVIRONMENT
