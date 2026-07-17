@@ -75,7 +75,7 @@ This will be possible by pushing a new tag in the future.
 ################ install ################
 
 # default displaymanager: none
-# supported; lightdm, sddm, gdm, lxdm, mdm
+# supported; lightdm, sddm, gdm, lxdm, mdm, plasmalogin
 # displaymanager="none"
 
 # Set to false to disable autologin in the livecd

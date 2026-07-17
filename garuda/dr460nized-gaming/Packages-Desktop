@@ -43,8 +43,7 @@ performance-tweaks
 
 
 ####---->> DISPLAY MANAGER
-sddm
-sddm-kcm
+plasma-login-manager
 
 
 ####---->> DESKTOP ENVIRONMENT
