@@ -3,24 +3,6 @@ Id_1=3dca64d8-8cb9-4fa0-b463-b9b80343e32e
 Number=1
 Rows=1
 
-[Effect-better-blur-dx]
-BlurDecorations=true
-BlurDocks=false
-BlurMatching=false
-BlurMenus=true
-BlurNonMatching=true
-CornerRadius=20
-Enabled=true
-NoiseStrength=0
-RefractionCornerRadius=200
-RefractionEdgeSize=30
-RefractionMode=1
-RefractionNormalPow=22
-RefractionRGBFringing=30
-RefractionStrength=30
-Saturation=100
-WindowClasses=xwaylandvideobridge\nvlc
-
 [Effect-overview]
 BorderActivate=9
 
@@ -29,18 +11,8 @@ Drag=85
 Stiffness=10
 WobblynessLevel=1
 
-[Effect-ًRound-Corners]
-ActiveOutlineUseCustom=false
-ActiveOutlineUsePalette=true
-InactiveCornerRadius=20
-InactiveOutlineColor=85,170,255
-InactiveShadowSize=25
-OutlineColor=255,85,255
-Size=20
-
 [Plugins]
-better_blur_dxEnabled=true
-blurEnabled=false
+blurEnabled=true
 coverswitchEnabled=true
 desktopchangeosdEnabled=true
 fadeEnabled=true
@@ -61,22 +33,6 @@ InactiveOutlineUseCustom=false
 InactiveOutlineUsePalette=true
 OutlineThickness=4
 
-[Round-Corners]
-ActiveOutlineAlpha=253
-ActiveOutlineUseCustom=false
-ActiveOutlineUsePalette=true
-InactiveCornerRadius=20
-InactiveOutlineAlpha=255
-InactiveOutlinePalette=19
-InactiveOutlineThickness=3.5
-InactiveOutlineUseCustom=false
-InactiveOutlineUsePalette=true
-InactiveSecondOutlineThickness=0.75
-InactiveShadowSize=25
-OutlineThickness=4
-SecondOutlineThickness=0.75
-Size=20
-
 [Script-desktopchangeosd]
 PopupHideDelay=2000
 
@@ -89,9 +45,6 @@ LayoutName=coverswitch
 
 [Tiling][3dca64d8-8cb9-4fa0-b463-b9b80343e32e][1e7eb35d-b9bb-4024-8f69-5f0e52cd580b]
 padding=4
-tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
-
-[Tiling][c59323a7-6c7c-5999-ba78-4b8c03a908f2]
 tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
 
 [Windows]
