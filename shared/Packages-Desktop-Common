@@ -27,6 +27,8 @@ snapper-tools
 >extra gstreamer-meta
 pipewire-support
 wireplumber
+# Avoid a conflict
+pipewire-jack
 
 
 ## Input
