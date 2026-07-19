@@ -1,6 +1,4 @@
 ## Utilities
->extra libdvdcss
->extra perl-file-mimeinfo
 xdg-user-dirs
 xdg-utils
 
@@ -8,6 +6,7 @@ xdg-utils
 ## Package Management
 >extra downgrade
 >extra paru
+
 
 ## Firmware
 >extra fwupd
@@ -28,9 +27,7 @@ snapper-tools
 >extra gstreamer-meta
 pipewire-support
 wireplumber
-# Explicitly add pipewire-jack to avoid a conflict
-pipewire-jack
-lib32-pipewire-jack
+
 
 ## Input
 >extra input-devices-support
@@ -47,6 +44,7 @@ lib32-pipewire-jack
 >extra ttf-opensans
 wqy-zenhei                      # super small cjk font
 
+
 ## Archive formats
 >extra lrzip
 >extra lzip
@@ -56,13 +54,12 @@ wqy-zenhei                      # super small cjk font
 >extra unzip
 >extra zip
 
+
 ## Garuda specific
 garuda-toolbox
->extra garuda-boot-options
 >extra garuda-browser-settings
 garuda-common-settings
 garuda-icons
->extra garuda-network-assistant
 garuda-setup-assistant
 garuda-system-maintenance
 >extra garuda-wallpapers

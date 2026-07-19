@@ -1,11 +1,3 @@
-####---->> XORG
-xorg-server
-xorg-xwayland 
-xorg-xhost
-xorg-xinit
-xorg-xinput
-
-
 ####---->> UTILITIES
 autorandr
 ugrep
@@ -24,7 +16,6 @@ garuda-dr460nized
 garuda-fish-config
 grub-theme-garuda-dr460nized
 kvantum
-kvantum-qt5
 
 
 ####---->> DESKTOP EFFECTS
@@ -76,7 +67,6 @@ spectacle
 
 
 ####---->> ADDITIONAL FUNCTIONALITY
-appmenu-gtk-module
 ffmpegthumbs
 ffmpeg
 openh264

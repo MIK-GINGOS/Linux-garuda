@@ -1,18 +1,9 @@
 ####---->> MEDIA
-helvum
+qpwgraph
 lib32-pipewire-jack
 
 
-####---->> XORG
-xorg-server
-xorg-xwayland
-xorg-xhost
-xorg-xinit
-xorg-xinput
-
-
 ####---->> UTILITIES
-autorandr
 ugrep
 xdg-desktop-portal
 xdg-desktop-portal-gtk
@@ -30,7 +21,6 @@ garuda-dr460nized
 garuda-fish-config
 grub-theme-garuda-dr460nized
 kvantum
-kvantum-qt5
 
 
 ####---->> DESKTOP EFFECTS
@@ -79,7 +69,6 @@ dolphin
 dolphin-plugins
 elisa
 gwenview
-jhead
 kate
 kcalc
 kdeconnect
@@ -94,7 +83,6 @@ spectacle
 
 
 ####---->> ADDITIONAL FUNCTIONALITY
-appmenu-gtk-module
 ffmpegthumbs
 icoutils
 kaccounts-providers
@@ -108,7 +96,6 @@ octopi
 qt6-imageformats
 qt6-quick3d
 resvg
-ruby
 
 
 ####---->> OTHER APPS
@@ -135,7 +122,7 @@ virt-manager-meta
 bottles
 heroic-games-launcher-bin
 lutris
-minecraft-launcher 
+minecraft-launcher
 minigalaxy
 steam
 
@@ -157,7 +144,7 @@ mangohud
 obs-studio
 openrgb
 piper
-#proton-ge-custom-bin
+proton-cachyos-slr
 protontricks-git
 reshade-shaders-git
 steamtinkerlaunch
@@ -178,13 +165,3 @@ libretro-meta
 ####---->> WINE
 wine-staging
 wine-meta
-
-
-####---->> GAMES
-chromium-bsu
-gnuchess
-kde-games-meta
-mari0
-luanti
-luanti-server
-teeworlds

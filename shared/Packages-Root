@@ -53,7 +53,7 @@ os-prober-btrfs
 update-grub
 
 
-## Package management 
+## Package management
 pacman-contrib
 rate-mirrors
 
@@ -64,25 +64,20 @@ rate-mirrors
 
 ## Filesystem essentials
 btrfs-progs
->extra curlftpfs
 dosfstools
 e2fsprogs
-ecryptfs-utils
 exfatprogs
 f2fs-tools
 fatresize
->extra jfsutils
 mtools
 >extra nfs-utils
->extra nilfs-utils
-ntfs-3g
+ntfsprogs
 >extra sshfs
 >extra xfsprogs
 
 
 ## Network essentials
 bind
-bridge-utils
 ethtool
 openbsd-netcat
 iptables
