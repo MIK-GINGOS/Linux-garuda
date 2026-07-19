@@ -11,8 +11,6 @@ ugrep
 ####---->> THEMING
 garuda-common-settings
 grub-theme-garuda
-noto-fonts
-noto-fonts-emoji
 
 
 ####---->> SETTINGS
@@ -24,16 +22,14 @@ plasma-login-manager
 
 
 ####---->> DESKTOP ENVIRONMENT
-breeze
 breeze-gtk
 kde-gtk-config
 kscreen
 kwallet-pam
-kwin
 plasma-desktop
 plasma-nm
 plasma-pa
-powerdevil
+tesseract-data-eng
 
 
 ####---->> DESKTOP ENVIRONMENT APPS

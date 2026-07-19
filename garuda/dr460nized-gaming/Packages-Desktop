@@ -5,9 +5,6 @@ lib32-pipewire-jack
 
 ####---->> UTILITIES
 ugrep
-xdg-desktop-portal
-xdg-desktop-portal-gtk
-xdg-desktop-portal-kde
 
 
 ####---->> NETWORKING
@@ -46,7 +43,6 @@ kscreen
 ksshaskpass
 kwallet-pam
 kwayland-integration
-kwin
 plasma-applet-window-buttons
 plasma-browser-integration
 plasma-desktop
@@ -58,8 +54,8 @@ plasma-thunderbolt
 plasma6-applets-window-title
 plasma6-wallpapers-blurredwallpaper
 power-profiles-daemon
-powerdevil
 quota-tools
+tesseract-data-eng
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
@@ -88,13 +84,8 @@ icoutils
 kaccounts-providers
 kamera
 kdegraphics-thumbnailers
-kimageformats
-kio-extras
-kio-fuse
 kio-gdrive
 octopi
-qt6-imageformats
-qt6-quick3d
 resvg
 
 
