@@ -8,7 +8,6 @@ ugrep
 
 
 ####---->> NETWORKING
-modem-manager-gui
 firewalld
 
 
@@ -99,11 +98,6 @@ nextcloud-client
 thunderbird
 
 
-####---->> OTHER APPS EXTRA
-mumble
-telegram-desktop
-
-
 ####---->> VIRTUALIZATION
 virt-manager-meta
 
@@ -112,7 +106,7 @@ virt-manager-meta
 bottles
 heroic-games-launcher-bin
 lutris
-minecraft-launcher
+prismlauncher
 minigalaxy
 steam
 
