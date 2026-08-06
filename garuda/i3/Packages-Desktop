@@ -103,7 +103,6 @@ azote
 dex
 dmenu
 dunst
-feh
 flashfocus-git
 i3
 i3blocks
@@ -134,7 +133,7 @@ gvfs-smb
 libgsf
 libopenraw
 librsvg
-
+swaybg
 
 ####---->> OTHER APPS
 deluge-gtk
