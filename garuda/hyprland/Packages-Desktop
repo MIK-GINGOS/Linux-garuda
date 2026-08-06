@@ -20,7 +20,6 @@ lxappearance
 
 ####---->> UTILITIES
 gparted
-jq
 ugrep
 xdg-desktop-portal
 xdg-desktop-portal-hyprland
@@ -101,7 +100,6 @@ gsimplecal
 meld
 otf-font-awesome
 otf-font-awesome-4
-ranger
 sdbus-cpp
 ttf-nerd-fonts-symbols-mono
 ttf-firacode-nerd
