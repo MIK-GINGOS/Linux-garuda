@@ -1,9 +1,11 @@
 ---
-stages: [checks, build]
+stages: [checks, test, build]
 variables:
   BUILD_HOST: builds.garudalinux.org
   BUILD_PORT: 220
   BUILD_USER: gitlab
+include:
+  - 'https://gitlab.com/garuda-linux/tools/gitlab-ci-commons/-/raw/main/templates/commitizen.gitlab-ci.yml'
 check-lint:
   # Check the scripts and yaml files for common anti-patterns and issues
   stage: checks
@@ -19,16 +21,6 @@ check-lint:
     - bash .ci/lint.sh
   rules:
     - if: $MANUAL_BUILD == null
-check-commitizen:
-  # Check the current commit message for compliance with commitizen
-  stage: checks
-  image: nixpkgs/nix-flakes:latest
-  variables:
-    GIT_STRATEGY: none
-  script: [nix run nixpkgs#commitizen -- check --message "$CI_COMMIT_TITLE"]
-  rules:
-    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $MANUAL_BUILD == null
-    - if: $CI_PIPELINE_SOURCE == 'merge_request_event' && $MANUAL_BUILD == null
 build:
   # This only runs on the default branch and when the commit message contains [deploy *]
   # and is used to deploy the ISO to the build server.
