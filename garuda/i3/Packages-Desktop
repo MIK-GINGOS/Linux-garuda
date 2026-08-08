@@ -122,6 +122,7 @@ xfce4-terminal
 
 
 ####---->> DESKTOP ENVIRONMENT APPS
+feh
 ffmpegthumbnailer
 gvfs
 gvfs-afc
@@ -133,7 +134,6 @@ gvfs-smb
 libgsf
 libopenraw
 librsvg
-swaybg
 
 ####---->> OTHER APPS
 deluge-gtk
