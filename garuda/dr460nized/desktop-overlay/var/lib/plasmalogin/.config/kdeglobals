@@ -95,11 +95,11 @@ ColorSchemeHash=a054744e5da530142f039caa182148b170643d2e
 LastUsedCustomAccentColor=61,174,233
 XftHintStyle=hintslight
 XftSubPixel=rgb
-fixed=FiraCode Nerd Font Mono,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-font=Fira Sans,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-menuFont=Fira Sans,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-smallestReadableFont=Fira Sans,12,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
-toolBarFont=Fira Sans,14,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+fixed=FiraCode Nerd Font Mono,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+font=Fira Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+menuFont=Fira Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+smallestReadableFont=Fira Sans,8,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
+toolBarFont=Fira Sans,10,-1,5,400,0,0,0,0,0,0,0,0,0,0,1
 
 [KDE]
 LookAndFeelPackage=Dr460nized
@@ -130,7 +130,7 @@ MaximumRemoteSize=0
 [WM]
 activeBackground=47,52,63
 activeBlend=47,52,63
-activeFont=Fira Sans,14,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold
+activeFont=Fira Sans,10,-1,5,700,0,0,0,0,0,0,0,0,0,0,1,Bold
 activeForeground=211,218,227
 inactiveBackground=47,52,63
 inactiveBlend=47,52,63
