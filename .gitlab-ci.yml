@@ -1,24 +1,13 @@
 ---
-stages: [checks, test, build]
+stages: [test, build, release]
+include:
+  - "https://gitlab.com/garuda-linux/tools/gitlab-ci-commons/-/raw/main/templates/commitizen.gitlab-ci.yml"
+  - "https://gitlab.com/garuda-linux/tools/gitlab-ci-commons/-/raw/main/templates/pre-commit-nix.gitlab-ci.yml"
 variables:
   BUILD_HOST: builds.garudalinux.org
   BUILD_PORT: 220
   BUILD_USER: gitlab
-include:
-  - 'https://gitlab.com/garuda-linux/tools/gitlab-ci-commons/-/raw/main/templates/commitizen.gitlab-ci.yml'
-check-lint:
-  # Check the scripts and yaml files for common anti-patterns and issues
-  stage: checks
-  image: alpine:latest
-  inherit:
-    variables: false
-  script:
-    - apk add --no-cache --upgrade bash npm py3-pip shellcheck shfmt
-    # Pass --break-system-packages since since this containers sole purpose is
-    # running 2 applications. If we get to advance this, implement a proper venv
-    - pip install --break-system-packages yamllint
-    - npm install -g markdownlint-cli
-    - bash .ci/lint.sh
+pre-commit:
   rules:
     - if: $MANUAL_BUILD == null
 build:
