@@ -82,7 +82,6 @@ ttf-ubuntu-font-family
 # > Garuda Packages:
 garuda-fish-config
 garuda-sway-settings
-garuda-zsh-config
 grub-theme-garuda
 
 # > Input:
