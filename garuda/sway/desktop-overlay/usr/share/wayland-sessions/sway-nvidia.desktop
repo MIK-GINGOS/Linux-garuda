@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=Sway + NVIDIA
-Comment=Sway + NVIDIA
-Exec=sway --unsupported-gpu
-Type=Application
