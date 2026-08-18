@@ -136,7 +136,6 @@ librsvg
 
 ####---->> OTHER APPS
 deluge-gtk
-flameshot
 fsearch
 galculator
 gnome-keyring
@@ -147,6 +146,7 @@ mpv
 pacseek
 peek
 qpdfview
+xfce4-screenshooter
 viewnior
 yad
 
